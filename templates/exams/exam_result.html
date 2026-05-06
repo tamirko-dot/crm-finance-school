@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}תוצאות מבחן — {{ course.title_he }}{% endblock %}
+{% block content %}
+
+<div class="mb-2" style="font-size:13px;color:#6b7280">
+  <a href="{% url 'course_list' %}" style="color:#6b7280">קורסים</a> &lsaquo;
+  <a href="{% url 'course_detail' course.slug %}" style="color:#6b7280">{{ course.title_he }}</a> &lsaquo;
+  תוצאות מבחן
+</div>
+
+<div class="card mb-6 text-center">
+  <h2 class="mb-2">תוצאות המבחן</h2>
+  <p style="color:#6b7280;font-size:13px" class="mb-6">{{ course.title_he }} — ניסיון {{ attempt.attempt_number }}</p>
+
+  <div style="font-size:56px;font-weight:700;color:{% if attempt.passed %}#2e7d32{% else %}#b71c1c{% endif %}">
+    {{ attempt.score_pct|floatformat:1 }}%
+  </div>
+  <div style="font-size:18px;margin:8px 0 4px">
+    {% if attempt.passed %}
+    <span class="badge-pass" style="font-size:16px;padding:6px 20px">עברת את המבחן</span>
+    {% else %}
+    <span class="badge-fail" style="font-size:16px;padding:6px 20px">לא עברת את המבחן</span>
+    {% endif %}
+  </div>
+  <p style="color:#6b7280;font-size:13px;margin-top:8px">
+    {{ correct_count }} מתוך {{ total_count }} נכונות &bull; ציון עובר: {{ course.passing_score_pct }}%
+  </p>
+
+  <div style="margin-top:20px;display:flex;gap:12px;justify-content:center">
+    <a href="{% url 'course_detail' course.slug %}" class="btn-secondary">חזרה לקורס</a>
+    {% if not attempt.passed %}
+    <a href="{% url 'exam_start' course.slug %}" class="btn-primary">ניסיון נוסף</a>
+    {% endif %}
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="mb-6">פירוט התשובות</h3>
+  {% for aq in question_results %}
+  <div style="margin-bottom:24px;padding-bottom:24px;{% if not forloop.last %}border-bottom:1px solid #cbd5e0{% endif %}">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+      <span style="background:{% if aq.is_correct %}#e8f5e9{% else %}#fee5e0{% endif %};color:{% if aq.is_correct %}#2e7d32{% else %}#b71c1c{% endif %};padding:2px 10px;border-radius:10px;font-size:12px">
+        {% if aq.is_correct %}נכון{% else %}שגוי{% endif %}
+      </span>
+      <span style="font-size:12px;color:#6b7280">שאלה {{ aq.display_order }}</span>
+      {% if aq.confidence %}
+      <span style="font-size:11px;color:#6b7280;background:#f7fafc;padding:1px 8px;border-radius:10px">{{ aq.get_confidence_display }}</span>
+      {% endif %}
+    </div>
+
+    <div style="font-size:14px;margin-bottom:10px">{{ aq.stem_html_snapshot|safe }}</div>
+
+    {% for opt in aq.options_snapshot_json %}
+    <div style="padding:8px 12px;border-radius:3px;margin-bottom:4px;font-size:13px;
+      background:{% if forloop.counter0 == aq.correct_option_index_snapshot %}#e8f5e9
+        {% elif forloop.counter0 == aq.user_answer_option_index and not aq.is_correct %}#fee5e0
+        {% else %}#f7fafc{% endif %}">
+      {% if forloop.counter0 == aq.correct_option_index_snapshot %}✓ {% endif %}
+      {% if forloop.counter0 == aq.user_answer_option_index and not aq.is_correct %}✗ {% endif %}
+      {{ opt.text_he }}
+      {% if forloop.counter0 == aq.user_answer_option_index and forloop.counter0 != aq.correct_option_index_snapshot %}
+        <span style="color:#6b7280;font-size:12px"> — תשובתך</span>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+    {% if aq.explanation_snapshot_html_he %}
+    <div class="callout-example" style="margin-top:10px;font-size:13px">
+      <strong>הסבר:</strong> {{ aq.explanation_snapshot_html_he|safe }}
+    </div>
+    {% endif %}
+
+    {% if aq.senior_insight_snapshot_he %}
+    <div class="callout-field" style="margin-top:8px;font-size:13px">
+      <strong>קול הוועדה:</strong> {{ aq.senior_insight_snapshot_he }}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

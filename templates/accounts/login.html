@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>כניסה למערכת</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { cream: '#f5f5f0', navy: '#1a2638', gold: '#f1c40f', muted: '#6b7280', 'border-soft': '#cbd5e0' } } }
+    }
+  </script>
+  <style>
+    body { font-family: "Segoe UI","Arial Hebrew","David",Arial,sans-serif; font-size:15px; line-height:1.65; background:#f5f5f0; direction:rtl; }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-cream">
+  <div class="w-full max-w-md">
+    <div class="bg-white border border-gray-200 rounded p-10" style="box-shadow:0 0 24px rgba(0,0,0,0.05)">
+      <h1 class="text-2xl font-bold mb-1" style="color:#1a2638">מערכת הכשרת אנליסטים</h1>
+      <p class="text-sm mb-8" style="color:#6b7280">מימון נדל"ן — כניסה למערכת</p>
+
+      {% if messages %}
+      {% for message in messages %}
+      <div class="mb-4 p-3 rounded text-sm" style="background:#fee5e0;color:#b71c1c;border:1px solid #fecaca">{{ message }}</div>
+      {% endfor %}
+      {% endif %}
+
+      <form method="post" novalidate>
+        {% csrf_token %}
+        <div class="mb-5">
+          <label class="block text-sm font-semibold mb-1" style="color:#2c3e50">דוא"ל</label>
+          <input type="email" name="email" required autofocus
+            class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-navy"
+            style="border-color:#cbd5e0;direction:ltr;text-align:right">
+        </div>
+        <div class="mb-7">
+          <label class="block text-sm font-semibold mb-1" style="color:#2c3e50">סיסמה</label>
+          <input type="password" name="password" required
+            class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2"
+            style="border-color:#cbd5e0">
+        </div>
+        <button type="submit"
+          class="w-full py-2 rounded font-semibold text-white text-sm"
+          style="background:#1a2638">
+          כניסה
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

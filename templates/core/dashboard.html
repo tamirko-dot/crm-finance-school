@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}לוח בקרה{% endblock %}
+{% block content %}
+<div class="mb-8">
+  <h1>שלום, {{ user.display_name }}</h1>
+  <p class="text-muted mt-1">
+    {% if user.role == 'trainee' %}חניך
+    {% elif user.role == 'customer_manager' %}מנהל לקוחות
+    {% elif user.role == 'admin' %}מנהל מערכת
+    {% elif user.role == 'ceo' %}מנכ"ל
+    {% endif %}
+    &nbsp;&bull;&nbsp; כניסה אחרונה: {{ user.last_login|date:"d/m/Y H:i"|default:"ראשונה" }}
+  </p>
+</div>
+
+<div class="card">
+  <h2 class="mb-6">קורסים שלי</h2>
+  <p class="text-muted">תוכן הקורסים יופיע כאן בשלב הבא של הפיתוח.</p>
+</div>
+{% endblock %}

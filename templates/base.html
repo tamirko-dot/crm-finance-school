@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}מערכת הכשרת אנליסטים{% endblock %}</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#f5f5f0',
+            navy: '#1a2638',
+            slate: '#2c3e50',
+            gold: '#f1c40f',
+            muted: '#6b7280',
+            'border-soft': '#cbd5e0',
+            'row-stripe': '#f7fafc',
+            'field-highlight': '#fff8d6',
+          },
+          fontFamily: {
+            sans: ['"Segoe UI"', '"Arial Hebrew"', '"David"', '"Frank Ruehl"', 'Arial', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: "Segoe UI", "Arial Hebrew", "David", "Frank Ruehl", Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      color: #2c3e50;
+      background-color: #f5f5f0;
+      direction: rtl;
+    }
+    h1 { font-size: 28px; font-weight: 700; color: #1a2638; }
+    h2 { font-size: 22px; font-weight: 700; color: #1a2638; }
+    h3 { font-size: 17px; font-weight: 700; color: #1a2638; }
+    h4 { font-size: 15px; font-weight: 700; color: #1a2638; }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #cbd5e0;
+      border-radius: 4px;
+      box-shadow: 0 0 24px rgba(0,0,0,0.05);
+      padding: 32px;
+    }
+    .btn-primary {
+      background-color: #1a2638;
+      color: #ffffff;
+      padding: 8px 20px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .btn-primary:hover { background-color: #2c3e50; }
+    .btn-secondary {
+      background-color: #ffffff;
+      color: #1a2638;
+      border: 1px solid #1a2638;
+      padding: 8px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .badge-pass { background: #e8f5e9; color: #2e7d32; padding: 2px 8px; border-radius: 12px; font-size: 13px; }
+    .badge-pending { background: #fff3cd; color: #b87333; padding: 2px 8px; border-radius: 12px; font-size: 13px; }
+    .badge-fail { background: #fee5e0; color: #b71c1c; padding: 2px 8px; border-radius: 12px; font-size: 13px; }
+
+    .callout-example { background: #f0f7ff; border-right: 4px solid #1976d2; padding: 16px; border-radius: 3px; margin: 16px 0; }
+    .callout-warning { background: #fff8e1; border-right: 4px solid #f57c00; padding: 16px; border-radius: 3px; margin: 16px 0; }
+    .callout-field { background: #e8f5e9; border-right: 4px solid #2e7d32; padding: 16px; border-radius: 3px; margin: 16px 0; }
+    .callout-rule { background: #f3e5f5; border-right: 4px solid #7b1fa2; padding: 16px; border-radius: 3px; margin: 16px 0; }
+
+    @media print {
+      nav, footer, .no-print { display: none !important; }
+      body { background: white; color: black; }
+      .card { box-shadow: none; border: 1px solid #ccc; }
+      .card, .callout-example, .callout-warning, .callout-field, .callout-rule { page-break-inside: avoid; }
+    }
+  </style>
+
+  {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-cream min-h-screen">
+
+  {% if user.is_authenticated %}
+  <nav class="bg-navy text-white px-8 py-3 flex items-center justify-between shadow">
+    <div class="flex items-center gap-6">
+      <a href="/dashboard/" class="font-bold text-lg tracking-tight">מערכת הכשרה</a>
+      <a href="/dashboard/" class="text-sm hover:text-gold transition-colors">לוח בקרה</a>
+      <a href="/documents/" class="text-sm hover:text-gold transition-colors">מסמכים</a>
+      {% if user.role in 'customer_manager,admin,ceo' %}
+      <a href="/reports/" class="text-sm hover:text-gold transition-colors">דוחות</a>
+      {% endif %}
+    </div>
+    <div class="flex items-center gap-4 text-sm">
+      <span class="text-muted">{{ user.full_name_he|default:user.username }}</span>
+      <a href="/accounts/logout/" class="hover:text-gold transition-colors">יציאה</a>
+    </div>
+  </nav>
+  {% endif %}
+
+  <main class="max-w-5xl mx-auto px-8 py-10">
+    {% if messages %}
+    <div class="mb-6">
+      {% for message in messages %}
+      <div class="p-3 mb-2 rounded border text-sm
+        {% if message.tags == 'error' %}badge-fail border-red-200
+        {% elif message.tags == 'success' %}badge-pass border-green-200
+        {% else %}badge-pending border-yellow-200{% endif %}">
+        {{ message }}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="text-center text-muted text-xs py-6 mt-8 border-t border-border-soft no-print">
+    מערכת הכשרת אנליסטי אשראי &copy; {{ "now"|date:"Y" }}
+  </footer>
+
+  {% block extra_js %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}מבחן — {{ course.title_he }}{% endblock %}
+{% block content %}
+
+<div class="mb-2" style="font-size:13px;color:#6b7280">
+  <a href="{% url 'course_list' %}" style="color:#6b7280">קורסים</a> &lsaquo;
+  <a href="{% url 'course_detail' course.slug %}" style="color:#6b7280">{{ course.title_he }}</a> &lsaquo;
+  מבחן סיום
+</div>
+
+<div class="card mb-6">
+  <h1 class="mb-2">מבחן סיום — {{ course.title_he }}</h1>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0;padding:20px 0;border-top:1px solid #cbd5e0;border-bottom:1px solid #cbd5e0">
+    <div class="text-center">
+      <div style="font-size:22px;font-weight:700;color:#1a2638">{{ course.exam_question_count }}</div>
+      <div style="font-size:12px;color:#6b7280">שאלות</div>
+    </div>
+    <div class="text-center">
+      <div style="font-size:22px;font-weight:700;color:#1a2638">{{ course.exam_duration_minutes }}</div>
+      <div style="font-size:12px;color:#6b7280">דקות</div>
+    </div>
+    <div class="text-center">
+      <div style="font-size:22px;font-weight:700;color:#1a2638">{{ course.passing_score_pct }}%</div>
+      <div style="font-size:12px;color:#6b7280">ציון עובר</div>
+    </div>
+  </div>
+
+  <div class="callout-warning" style="margin-bottom:20px">
+    <strong>חשוב לדעת לפני תחילת המבחן:</strong>
+    <ul style="margin:8px 0 0;padding-right:20px;font-size:14px">
+      <li>הניווט חד-כיווני — לא ניתן לחזור לשאלה קודמת.</li>
+      <li>הטיימר רץ בצד השרת — סגירת הדפדפן לא מפסיקה אותו.</li>
+      <li>המבחן יוגש אוטומטית בתום הזמן.</li>
+      <li>ניתן לסמן "בטוח" / "לא בטוח" לכל שאלה (לא משפיע על הציון).</li>
+    </ul>
+  </div>
+
+  {% if not all_modules_done %}
+  <div class="callout-example">יש להשלים את כל המודולים לפני גישה למבחן.</div>
+  {% elif block_reason %}
+  <div class="callout-warning">{{ block_reason }}</div>
+  {% else %}
+  <form method="post">
+    {% csrf_token %}
+    {% if active_attempt %}
+    <button type="submit" class="btn-primary">המשך מבחן</button>
+    {% else %}
+    <button type="submit" class="btn-primary">התחל מבחן</button>
+    {% endif %}
+  </form>
+  {% endif %}
+</div>
+
+{% if past_attempts %}
+<div class="card">
+  <h3 class="mb-4">ניסיונות קודמים</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:2px solid #cbd5e0">
+        <th style="padding:8px 12px;text-align:right">ניסיון</th>
+        <th style="padding:8px 12px;text-align:right">תאריך</th>
+        <th style="padding:8px 12px;text-align:right">ציון</th>
+        <th style="padding:8px 12px;text-align:right">תוצאה</th>
+        <th style="padding:8px 12px;text-align:right"></th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for a in past_attempts %}
+    <tr style="border-bottom:1px solid #cbd5e0">
+      <td style="padding:8px 12px">{{ a.attempt_number }}</td>
+      <td style="padding:8px 12px">{{ a.submitted_at|date:"d/m/Y H:i" }}</td>
+      <td style="padding:8px 12px">{{ a.score_pct|floatformat:1 }}%</td>
+      <td style="padding:8px 12px">
+        {% if a.passed %}<span class="badge-pass">עבר</span>{% else %}<span class="badge-fail">נכשל</span>{% endif %}
+      </td>
+      <td style="padding:8px 12px">
+        <a href="{% url 'exam_result' course.slug a.pk %}" style="color:#1a2638;font-size:13px">תוצאות</a>
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}

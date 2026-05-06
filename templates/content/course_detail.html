@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}{{ course.title_he }}{% endblock %}
+{% block content %}
+
+<div class="mb-2" style="font-size:13px;color:#6b7280">
+  <a href="{% url 'course_list' %}" style="color:#6b7280">קורסים</a>
+  &lsaquo; {{ course.title_he }}
+</div>
+
+<div class="card mb-6">
+  <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px">
+    <div>
+      <p style="font-size:12px;color:#6b7280;margin-bottom:4px">קורס {{ course.course_number }} — שלב {{ course.phase }}</p>
+      <h1 style="margin:0 0 8px">{{ course.title_he }}</h1>
+      {% if course.description_he %}
+      <p style="color:#2c3e50">{{ course.description_he }}</p>
+      {% endif %}
+    </div>
+    <div style="text-align:center;min-width:120px">
+      {% if status == "passed" %}<span class="badge-pass" style="font-size:14px;padding:4px 16px">עבר</span>
+      {% elif status == "in_progress" %}<span class="badge-pending" style="font-size:14px;padding:4px 16px">בתהליך</span>
+      {% elif status == "open" %}<span class="badge-pending" style="font-size:14px;padding:4px 16px">פתוח</span>
+      {% elif status == "requested" %}<span class="badge-pending" style="font-size:14px;padding:4px 16px">ממתין</span>
+      {% elif status == "failed" %}<span class="badge-fail" style="font-size:14px;padding:4px 16px">נכשל</span>
+      {% else %}<span class="badge-fail" style="font-size:14px;padding:4px 16px">נעול</span>{% endif %}
+      <div style="font-size:12px;color:#6b7280;margin-top:6px">ציון עובר: {{ course.passing_score_pct }}%</div>
+    </div>
+  </div>
+</div>
+
+{% if not can_access %}
+<div class="card text-center py-10">
+  {% if status == "requested" %}
+  <h3>הבקשה נשלחה</h3>
+  <p style="color:#6b7280" class="mt-2">בקשתך לפתיחת הקורס ממתינה לאישור מנהל הלקוחות.</p>
+  {% elif status == "locked" %}
+  <h3>הקורס נעול</h3>
+  <p style="color:#6b7280" class="mt-2 mb-6">עליך לבקש גישה על מנת להתחיל בקורס.</p>
+  <form method="post" action="{% url 'request_course_access' course.slug %}">
+    {% csrf_token %}
+    <button type="submit" class="btn-primary">בקשת גישה לקורס</button>
+  </form>
+  {% endif %}
+</div>
+{% else %}
+
+{% if modules_data %}
+<div class="card mb-6">
+  <h2 class="mb-4">מודולים</h2>
+  <div style="display:grid;gap:8px">
+  {% for item in modules_data %}
+    {% with m=item.module p=item.progress %}
+    <a href="{% url 'module_view' course.slug m.slug %}"
+       style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border:1px solid #cbd5e0;border-radius:4px;text-decoration:none;color:inherit;background:{% if p and p.is_completed %}#e8f5e9{% else %}#ffffff{% endif %}">
+      <div>
+        <span style="font-size:12px;color:#6b7280">מודול {{ m.module_number }}</span>
+        <div style="font-weight:600;color:#1a2638;margin-top:2px">{{ m.title_he }}</div>
+        <span style="font-size:12px;color:#6b7280">~{{ m.estimated_minutes }} דקות</span>
+      </div>
+      <div>
+        {% if p and p.is_completed %}
+          <span class="badge-pass">הושלם</span>
+          {% if p.practice_score_pct is not None %}
+          <div style="font-size:12px;color:#2e7d32;margin-top:4px">ציון: {{ p.practice_score_pct|floatformat:0 }}%</div>
+          {% endif %}
+        {% elif p %}
+          <span class="badge-pending">בתהליך</span>
+        {% else %}
+          <span style="color:#6b7280;font-size:13px">לא התחיל</span>
+        {% endif %}
+      </div>
+    </a>
+    {% endwith %}
+  {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2 class="mb-4">מבחן סיום</h2>
+  {% if all_modules_done %}
+    <p class="mb-4" style="color:#2c3e50">כל המודולים הושלמו — ניתן לגשת למבחן.</p>
+    {% if latest_attempt %}
+      {% if latest_attempt.status == "graded" %}
+        <div class="mb-4 p-3 rounded" style="background:{% if latest_attempt.passed %}#e8f5e9{% else %}#fee5e0{% endif %}">
+          ניסיון {{ latest_attempt.attempt_number }}: {{ latest_attempt.score_pct|floatformat:1 }}%
+          — {% if latest_attempt.passed %}עבר{% else %}נכשל{% endif %}
+          <a href="{% url 'exam_result' course.slug latest_attempt.pk %}" style="color:#1a2638;font-size:13px;margin-right:12px">צפייה בתוצאות</a>
+        </div>
+      {% elif latest_attempt.status == "in_progress" %}
+        <div class="callout-warning mb-4">מבחן פעיל — ממשיך מהיכן שהפסקת.</div>
+      {% endif %}
+    {% endif %}
+    {% if status != "passed" %}
+    <a href="{% url 'exam_start' course.slug %}" class="btn-primary">{% if latest_attempt and latest_attempt.status == 'in_progress' %}המשך מבחן{% else %}התחל מבחן{% endif %}</a>
+    {% endif %}
+  {% else %}
+    <p style="color:#6b7280">יש להשלים את כל המודולים לפני המבחן.</p>
+  {% endif %}
+</div>
+
+{% endif %}
+{% endblock %}

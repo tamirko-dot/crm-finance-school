@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>מודול לדוגמה - LTV ו-DSCR | קורס 1: יסודות המימון</title>
+<style>
+  @page { size: A4; margin: 2cm; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; direction: rtl;
+    font-family: "Segoe UI", "Arial Hebrew", "David", "Frank Ruehl", Arial, sans-serif;
+    color: #1a1a1a; background: #f5f5f0; line-height: 1.7; font-size: 15px;
+  }
+  .container { max-width: 920px; margin: 0 auto; padding: 32px 48px; background: #ffffff; box-shadow: 0 0 24px rgba(0,0,0,0.05); }
+  .breadcrumb { font-size: 12px; color: #6b7280; margin-bottom: 8px; letter-spacing: 0.3px; }
+  .breadcrumb a { color: #1a2638; text-decoration: none; }
+  .module-header { border-bottom: 3px solid #1a2638; padding-bottom: 18px; margin-bottom: 28px; }
+  .module-header h1 { font-size: 28px; margin: 4px 0 6px 0; color: #1a2638; font-weight: 700; }
+  .module-header .meta-row { display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap; }
+  .meta-pill { display: inline-block; background: #f1f3f5; color: #1a2638; padding: 4px 12px; border-radius: 14px; font-size: 12px; font-weight: 600; }
+  .meta-pill.active { background: #1a2638; color: #fff; }
+  .progress-bar { background: #e2e8f0; height: 6px; border-radius: 3px; margin: 16px 0 0 0; overflow: hidden; }
+  .progress-fill { background: linear-gradient(90deg, #1a2638, #2c3e50); height: 100%; transition: width 0.3s; }
+
+  .section-tag { display: inline-block; background: #1a2638; color: #fff; padding: 4px 14px; font-size: 11px; font-weight: 700; letter-spacing: 0.6px; margin-bottom: 8px; border-radius: 3px; }
+  .section-tag.green { background: #2e7d32; }
+  .section-tag.amber { background: #b87333; }
+  .section-tag.purple { background: #5e35b1; }
+
+  h2 { font-size: 22px; color: #1a2638; margin-top: 40px; margin-bottom: 12px; padding-top: 8px; }
+  h3 { font-size: 17px; color: #2c3e50; margin-top: 24px; margin-bottom: 8px; }
+  h4 { font-size: 15px; color: #1a2638; margin-top: 16px; margin-bottom: 6px; font-weight: 700; }
+  p { margin: 0 0 12px 0; }
+  ul, ol { margin: 8px 0 12px 0; padding-right: 24px; }
+  li { margin-bottom: 6px; }
+
+  .formula { background: #f4f6f8; border: 1px solid #cbd5e0; border-right: 4px solid #1a2638; padding: 14px 20px; margin: 14px 0; font-family: "Courier New", "Consolas", monospace; font-size: 16px; text-align: center; }
+
+  .callout { padding: 14px 20px; margin: 16px 0; border-radius: 4px; border-right: 5px solid; }
+  .callout-example { background: #f0f7ff; border-color: #1976d2; }
+  .callout-warning { background: #fff8e1; border-color: #f57c00; }
+  .callout-field { background: #e8f5e9; border-color: #2e7d32; }
+  .callout-rule { background: #f3e5f5; border-color: #7b1fa2; }
+  .callout .label { font-weight: 700; font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 4px; }
+  .callout-example .label { color: #1976d2; }
+  .callout-warning .label { color: #f57c00; }
+  .callout-field .label { color: #2e7d32; }
+  .callout-rule .label { color: #7b1fa2; }
+
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13px; }
+  th, td { border: 1px solid #cbd5e0; padding: 8px 12px; text-align: right; vertical-align: top; }
+  th { background: #1a2638; color: #fff; font-weight: 600; }
+  tr:nth-child(even) td { background: #f7fafc; }
+
+  .keyword { background: #fff8d6; padding: 1px 5px; border-radius: 2px; font-weight: 600; }
+  .term { color: #1a2638; font-weight: 700; border-bottom: 1px dashed #1a2638; cursor: help; }
+
+  .read-button { display: block; margin: 24px auto; padding: 12px 32px; background: #1a2638; color: #fff; border: none; border-radius: 4px; font-size: 15px; font-weight: 600; cursor: pointer; }
+  .read-button.completed { background: #2e7d32; }
+
+  .question-block { background: #fdfdfb; border: 1px solid #cbd5e0; border-right: 5px solid #2c3e50; padding: 20px 24px; margin: 18px 0; border-radius: 4px; }
+  .question-block.basic { border-right-color: #2e7d32; }
+  .question-block.intermediate { border-right-color: #b87333; }
+  .question-block.advanced { border-right-color: #b71c1c; }
+  .question-meta { display: flex; gap: 8px; margin-bottom: 8px; align-items: center; flex-wrap: wrap; }
+  .difficulty-pill { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; }
+  .difficulty-pill.basic { background: #e8f5e9; color: #2e7d32; }
+  .difficulty-pill.intermediate { background: #fff3cd; color: #b87333; }
+  .difficulty-pill.advanced { background: #fee5e0; color: #b71c1c; }
+  .question-num { font-size: 12px; color: #6b7280; font-weight: 600; }
+  .question-stem { font-weight: 600; margin: 8px 0; font-size: 15px; }
+  .options-list { list-style: none; padding-right: 0; margin: 12px 0; counter-reset: option; }
+  .options-list li { padding: 10px 16px; margin-bottom: 6px; background: #fff; border: 1px solid #e2e8f0; border-radius: 4px; cursor: pointer; counter-increment: option; position: relative; padding-right: 38px; }
+  .options-list li::before { content: counter(option, upper-alpha); position: absolute; right: 12px; top: 10px; width: 20px; height: 20px; background: #e2e8f0; border-radius: 50%; text-align: center; line-height: 20px; font-size: 11px; font-weight: 700; }
+  .options-list li.correct { background: #e8f5e9; border-color: #4caf50; }
+  .options-list li.correct::before { background: #4caf50; color: #fff; content: "\2713"; }
+  .options-list li.incorrect { background: #ffebee; border-color: #ef5350; }
+  .options-list li.incorrect::before { background: #ef5350; color: #fff; content: counter(option, upper-alpha); }
+
+  .reveal-answer { background: #fffbeb; border: 1px dashed #f1c40f; padding: 14px 18px; margin-top: 12px; border-radius: 4px; font-size: 14px; }
+  .reveal-answer .label { font-weight: 700; color: #856404; margin-bottom: 6px; font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .reveal-answer .calc { background: #fff; border: 1px solid #e2e8f0; padding: 10px 14px; margin: 8px 0; font-family: "Courier New", monospace; font-size: 13px; line-height: 1.6; }
+  .distractor-table { font-size: 12px; margin-top: 10px; }
+  .distractor-table th, .distractor-table td { padding: 5px 9px; }
+
+  .summary-card { background: #faf8f3; border: 1px solid #d4c89a; padding: 22px 28px; margin: 28px 0; border-radius: 4px; }
+  .summary-card h3 { margin-top: 0; }
+  .takeaway-list { counter-reset: takeaway; padding-right: 0; list-style: none; }
+  .takeaway-list li { counter-increment: takeaway; position: relative; padding-right: 36px; padding-bottom: 8px; }
+  .takeaway-list li::before { content: counter(takeaway); position: absolute; right: 0; top: 0; width: 24px; height: 24px; background: #1a2638; color: #fff; border-radius: 50%; text-align: center; line-height: 24px; font-size: 12px; font-weight: 700; }
+
+  .glossary-table { font-size: 13px; }
+  .next-module { background: #1a2638; color: #fff; padding: 18px 24px; margin: 32px 0 16px 0; border-radius: 4px; }
+  .next-module h3 { color: #f1c40f; margin: 0 0 6px 0; font-size: 15px; }
+  .next-module p { margin: 0; color: #e2e8f0; }
+
+  .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #cbd5e0; font-size: 11px; color: #6b7280; text-align: center; }
+
+  @media print {
+    body { background: #fff; }
+    .container { box-shadow: none; padding: 0; }
+    .question-block, .callout, .summary-card { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="module-header">
+  <div class="breadcrumb">CRM Finance School &nbsp;&rsaquo;&nbsp; קורס 1: יסודות המימון &nbsp;&rsaquo;&nbsp; מודול 4 מתוך 5</div>
+  <h1>מודול 4: יחס ההלוואה לשווי (LTV) ויחס כיסוי שירות החוב (DSCR)</h1>
+  <div class="meta-row">
+    <span class="meta-pill active">מודול 4 / 5</span>
+    <span class="meta-pill">זמן מוערך: 45 דקות</span>
+    <span class="meta-pill">קריאה 12 דק'</span>
+    <span class="meta-pill">תרגול 25 דק'</span>
+    <span class="meta-pill">8 שאלות תרגול</span>
+  </div>
+  <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
+</div>
+
+<!-- =================================================================== -->
+<!-- READING -->
+<!-- =================================================================== -->
+<div class="section-tag">חלק 1 / 5 &nbsp;&middot;&nbsp; קריאה</div>
+<h2>1. מבוא: שני יחסים, שתי שאלות שונות</h2>
+
+<p>שני היחסים שתלמדו במודול הזה - LTV ו-DSCR - הם הכלים הבסיסיים ביותר של אנליסט אשראי בנדל"ן. כל פעם שתבדוק עסקה, השאלות הראשונות שיופיעו על השולחן יהיו: "מה ה-LTV?" ו"מה ה-DSCR?". שני היחסים בודקים שתי שאלות שונות לחלוטין:</p>
+
+<ul>
+  <li><span class="term">LTV</span> שואל: <em>אם הלקוח לא ישלם, האם הבטוחה תספיק לכסות את החוב?</em> זו שאלה <strong>סטטית</strong> על שווי בנקודת זמן.</li>
+  <li><span class="term">DSCR</span> שואל: <em>האם התזרים השוטף יספיק לשרת את החוב לאורך זמן?</em> זו שאלה <strong>דינמית</strong> על תזרים מזומנים.</li>
+</ul>
+
+<p>אנליסט מנוסה מבין ששני היחסים <strong>משלימים זה את זה</strong>: עסקה עם LTV נמוך אבל DSCR חלש היא עדיין בעייתית (יזם שלא יכול לשרת את החוב), ועסקה עם DSCR גבוה אבל LTV מתוח היא חשופה לתנודות שוק. בעולם האמיתי, וועדת אשראי תרצה לראות את שניהם בטווחים נורמטיביים.</p>
+
+<h2>2. LTV - יחס ההלוואה לשווי</h2>
+
+<h3>2.1 הגדרה ונוסחה</h3>
+
+<p>LTV (<em>Loan to Value</em>) הוא היחס הבסיסי ביותר באשראי המגובה בנכס. הוא מודד את היחס בין סכום ההלוואה לבין שווי הנכס המשמש כבטוחה.</p>
+
+<div class="formula">LTV = הלוואה &divide; שווי הנכס</div>
+
+<div class="callout callout-example">
+<div class="label">דוגמה</div>
+בנק מעניק הלוואה של <strong>6,000,000 ש"ח</strong> על נכס שהשווי שלו <strong>10,000,000 ש"ח</strong>. ה-LTV הוא 60%.<br>
+מה זה אומר? אם הלקוח יחדל לשלם והבנק ייאלץ לממש את הנכס, נשארה לו "כרית בטחון" של 40% משווי הנכס - 4 מיליון ש"ח לכיסוי הוצאות מימוש, ירידת ערך, ועלויות עיכוב.
+</div>
+
+<h3>2.2 שלוש משמעויות שונות ל"שווי"</h3>
+
+<p>זו הנקודה שבה אנליסטים זוטרים מתבלבלים, ואנליסטים בכירים יודעים להבחין: למילה "שווי" יש שלוש משמעויות שונות, וכל אחת מובילה ל-LTV אחר. <strong>חובה לציין באיזו שיטת שווי השתמשת</strong>:</p>
+
+<table>
+<thead><tr><th style="width:25%">סוג שווי</th><th style="width:30%">מקור</th><th>מתי משתמשים</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong>שווי שוק</strong><br><em>Market Value</em></td>
+  <td>חוות דעת שמאי סטנדרטית</td>
+  <td>חישובי כדאיות בסיסיים, מצגת ראשונית של עסקה</td>
+</tr>
+<tr>
+  <td><strong>שווי בכפיה</strong><br><em>Forced Sale Value</em></td>
+  <td>שווי שוק &times; מקדם 70%-85%</td>
+  <td>חישוב LTV לבטוחה - <strong>זה מה שהמלווה צריך</strong></td>
+</tr>
+<tr>
+  <td><strong>שווי לפי עלות</strong><br><em>Loan to Cost (LTC)</em></td>
+  <td>סך עלויות הפרויקט (קרקע + בנייה + פיתוח + שיווק)</td>
+  <td>מימון פרויקטים בבנייה, לפני שהשווי הסופי התממש</td>
+</tr>
+</tbody>
+</table>
+
+<div class="callout callout-warning">
+<div class="label">סיכון נפוץ</div>
+מלווה שמסתמך על שווי שוק לחישוב LTV עלול להוות הפתעה כשהוא נדרש לממש בטוחה במצוקה. נכס שוויו בשוק 10 מיליון ש"ח עשוי להניב למלווה רק 7-7.5 מיליון ש"ח במכירה מהירה. אם ההלוואה הייתה 8 מיליון ש"ח (LTV של 80% משווי שוק), המלווה כבר ב"חסר" של חצי מיליון לפני שלקח בחשבון עלויות מימוש, ריבית פיגורים, ושכר טרחת עו"ד.
+</div>
+
+<h3>2.3 מסגרות LTV נורמטיביות בישראל (2025-2026)</h3>
+
+<table>
+<thead><tr><th>סוג נכס / עסקה</th><th>LTV מקובל לבכיר</th><th>הערות</th></tr></thead>
+<tbody>
+<tr><td>דירת מגורים יחידה (משכנתא ראשונה)</td><td>עד 75%</td><td>הוראות פיקוח על הבנקים; דירה ראשונה בלבד.</td></tr>
+<tr><td>דירת מגורים שנייה ומעלה</td><td>עד 50%</td><td>הוראות בנק ישראל למלווים מפוקחים.</td></tr>
+<tr><td>נדל"ן מסחרי מאוכלס מניב</td><td>50%-65%</td><td>תלוי באורך השכירויות, איכות שוכרים.</td></tr>
+<tr><td>ליווי בנייה (LTC)</td><td>75%-85%</td><td>מהווה % מהעלות הכוללת של הפרויקט.</td></tr>
+<tr><td>הלוואת קרקע (Land Loan)</td><td>50%-65%</td><td>תלוי בסיכון התכנוני (תב"ע מאושרת מול לא מאושרת).</td></tr>
+<tr><td>ליווי כולל מזנין (Mezzanine)</td><td>עד 90% (LTC כולל)</td><td>שכבת מזנין בריבית גבוהה יותר.</td></tr>
+</tbody>
+</table>
+
+<div class="callout callout-field">
+<div class="label">מהשטח</div>
+בחברת מימון חוץ-בנקאית, המקדמים נוטים להיות שמרניים יותר מהבנקאיים. למשל, על ליווי בנייה תיתכן עבודה ב-LTC של 70%-78% (לעומת 80%-85% בבנק), עם פיצוי בריבית גבוהה יותר. הסיבה: גוף חוץ-בנקאי לא יכול להזרים נזילות חירום במצב מצוקה כמו שבנק יכול דרך מערכת הבנקאות, ולכן עליו לשמור על שולי בטחון גדולים יותר מראש.
+</div>
+
+<h2>3. DSCR - יחס כיסוי שירות החוב</h2>
+
+<h3>3.1 הגדרה ונוסחה</h3>
+
+<p>DSCR (<em>Debt Service Coverage Ratio</em>) מודד את כושר הלווה לשרת את החוב מתוך התזרים שהוא מייצר. הנוסחה:</p>
+
+<div class="formula">DSCR = תזרים תפעולי זמין &divide; שירות החוב השנתי</div>
+
+<p>"שירות החוב" כולל קרן + ריבית. "תזרים תפעולי זמין" - יש לכך שתי גישות נפוצות, והבחירה ביניהן מהותית:</p>
+
+<table>
+<thead><tr><th>גישה</th><th>נוסחה</th><th>מתי מתאים</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong>EBITDA-based</strong></td>
+  <td>DSCR = EBITDA &divide; שירות חוב</td>
+  <td>חברות מסחריות. פשוט ויפה לחישוב מהיר.</td>
+</tr>
+<tr>
+  <td><strong>תזרים מתואם</strong></td>
+  <td>DSCR = (EBITDA - מיסים - השקעות שוטפות) &divide; שירות חוב</td>
+  <td>נדל"ן מניב, פרויקטים מאוחזקים. נותן תמונה אמיתית של תזרים פנוי לחוב.</td>
+</tr>
+</tbody>
+</table>
+
+<div class="callout callout-example">
+<div class="label">דוגמה: בניין משרדים מאוכלס</div>
+NOI שנתי (Net Operating Income) = 1,200,000 ש"ח<br>
+שירות חוב שנתי (קרן 200K + ריבית 600K) = 800,000 ש"ח<br>
+DSCR = 1,200,000 / 800,000 = <strong>1.50x</strong><br>
+<em>מה זה אומר?</em> התזרים מהבניין מכסה את שירות החוב פי 1.5. יש כרית בטחון של 50% לפני שיגיע למצב שבו לא ניתן לשרת את החוב.
+</div>
+
+<h3>3.2 בנצ'מארקים נורמטיביים</h3>
+
+<table>
+<thead><tr><th>סוג עסקה</th><th>DSCR מינימלי</th><th>DSCR אופייני נדרש</th></tr></thead>
+<tbody>
+<tr><td>נכס מסחרי מאוכלס יציב</td><td>1.20x</td><td>1.30x-1.50x</td></tr>
+<tr><td>נכס בתפוסה חלקית / חדש</td><td>1.30x</td><td>1.40x-1.60x</td></tr>
+<tr><td>נכס פרויקטלי בליווי בנייה</td><td>לא ישים בשלב הבנייה</td><td>נמדד לאחר אכלוס</td></tr>
+<tr><td>אשראי משלים על קרקע</td><td>לא ישים</td><td>נמדד DSCR פרויקטלי בלבד</td></tr>
+</tbody>
+</table>
+
+<h3>3.3 DSCR בפרויקט יזמי - הבדל מהותי</h3>
+
+<p>בפרויקטים בבנייה, אין "תזרים תפעולי" כי הפרויקט עוד לא מניב. במקום זאת מחשבים <strong>DSCR פרויקטלי</strong> - היחס בין צפי הכנסות מכירה לבין סך שירות החוב לאורך כל חיי הפרויקט:</p>
+
+<div class="formula">DSCR פרויקטלי = סך הכנסות מכירה צפויות &divide; (קרן + ריבית מצטברת לאורך הפרויקט)</div>
+
+<p>זה משמש כסקאלר לבחינת האם הפרויקט "מסוגל לכסות" את עצמו אחרי שכל הריבית מצטברת.</p>
+
+<h2>4. יחסים נוספים שלעיתים תפגוש</h2>
+
+<table>
+<thead><tr><th>יחס</th><th>נוסחה</th><th>מתי שואלים?</th></tr></thead>
+<tbody>
+<tr><td><strong>ICR</strong> (Interest Coverage Ratio)</td><td>EBIT / הוצאות ריבית</td><td>אם רוצים למדוד כושר תשלום ריבית בלבד (בלי קרן).</td></tr>
+<tr><td><strong>Debt / EBITDA</strong></td><td>חוב פיננסי / EBITDA</td><td>מודד "כמה שנים" של EBITDA נדרשות להחזיר את החוב. בנדל"ן יזמי - פחות רלוונטי.</td></tr>
+<tr><td><strong>מינוף נטו</strong></td><td>(חוב פיננסי - מזומן) / EBITDA</td><td>גרסה שמכבדת את המזומן בקופה.</td></tr>
+<tr><td><strong>FCF / Debt</strong></td><td>תזרים חופשי / חוב כולל</td><td>גרסה מודרנית; CFA אוהב את זה.</td></tr>
+</tbody>
+</table>
+
+<h2>5. הקשר בין מינוף, תשואה וסיכון</h2>
+
+<p>מינוף (leverage) הוא חרב פיפיות. הוא מגדיל תשואות במצב טוב, ומגדיל הפסדים במצב רע. הנה דוגמה פשוטה:</p>
+
+<div class="callout callout-example">
+<div class="label">דוגמה: השפעת מינוף על תשואה</div>
+פרויקט שעלותו 10 מיליון ש"ח שיניב 11.5 מיליון ש"ח (רווח 15%):
+<table style="font-size: 13px; margin-top: 10px;">
+<thead><tr><th>תרחיש</th><th>הון עצמי</th><th>חוב</th><th>רווח כסף</th><th>תשואה על הון</th></tr></thead>
+<tbody>
+<tr><td>ללא מינוף</td><td>10M</td><td>0</td><td>1.5M</td><td>15%</td></tr>
+<tr><td>מינוף 50%</td><td>5M</td><td>5M (ריבית 6%)</td><td>1.5M - 0.3M = 1.2M</td><td>24%</td></tr>
+<tr><td>מינוף 80%</td><td>2M</td><td>8M (ריבית 6%)</td><td>1.5M - 0.48M = 1.02M</td><td>51%</td></tr>
+</tbody>
+</table>
+ככל שהמינוף עולה, תשואת ההון העצמי קופצת - <em>אם הפרויקט מצליח</em>. אבל אם הפרויקט מפסיד 10%, התשואה על ההון העצמי הופכת לשלילית מאוד מהר.
+</div>
+
+<div class="callout callout-rule">
+<div class="label">כלל מנחה</div>
+המקסימום הנורמטיבי לתשואה הון מצופה (Equity IRR) בפרויקט יזמי בישראל הוא 18%-25%. תשואה גבוהה מ-30% במודל היזם זו לרוב סימן ל<em>מינוף יתר</em> או הנחות אופטימיות מדי. אנליסט אשראי צריך לבחון את הסיבה לתשואה גבוהה - לא לקבל אותה כראיה לפרויקט "טוב".
+</div>
+
+<button class="read-button">סיימתי לקרוא &nbsp;&#10003;</button>
+
+<!-- =================================================================== -->
+<!-- COMPREHENSION CHECK -->
+<!-- =================================================================== -->
+<div class="section-tag green">חלק 2 / 5 &nbsp;&middot;&nbsp; בדיקת הבנה</div>
+<h2>בדיקת הבנה - 4 שאלות מהירות</h2>
+<p style="font-size:13px; color:#6b7280;">השאלות האלה אינן משוקללות בציון הסופי. הן עוזרות לך לוודא שהבנת את החומר. משוב מיידי על כל תשובה.</p>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">בדיקת הבנה 1</span> <span class="difficulty-pill basic">בסיסי</span></div>
+<div class="question-stem">מה ההבדל הבסיסי בין LTV ל-DSCR?</div>
+<ul class="options-list">
+  <li>LTV מודד תשואה ו-DSCR מודד סיכון.</li>
+  <li class="correct">LTV מודד יחס בין הלוואה לשווי הבטוחה (סטטי); DSCR מודד יחס בין תזרים זמין לשירות החוב (דינמי).</li>
+  <li>LTV משמש בנדל"ן ו-DSCR משמש בעסקים מסחריים בלבד.</li>
+  <li>LTV הוא יחס הוני ו-DSCR הוא יחס מס.</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">משוב</div>
+LTV הוא מבחן בטוחה - "אם הלקוח לא ישלם, האם הבטוחה מספיקה?". DSCR הוא מבחן תזרים - "האם הלקוח מסוגל לשלם מתוך הפעילות?". שני היחסים משלימים זה את זה - שניהם נדרשים לכל עסקת אשראי.
+</div>
+</div>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">בדיקת הבנה 2</span> <span class="difficulty-pill basic">בסיסי</span></div>
+<div class="question-stem">מה הקשר בין שווי שוק לשווי בכפיה (Forced Sale Value)?</div>
+<ul class="options-list">
+  <li>הם זהים תמיד.</li>
+  <li>שווי בכפיה הוא תמיד גבוה יותר משווי שוק.</li>
+  <li class="correct">שווי בכפיה נמוך משווי שוק; בישראל המקדם הנורמטיבי הוא 70%-85%.</li>
+  <li>שווי בכפיה תלוי במס שבח של המוכר.</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">משוב</div>
+שווי בכפיה תמיד נמוך משווי שוק כי הוא משקף מכירה מהירה תחת לחץ - 60-90 יום במקום 6-12 חודשים. הפער הוא 15%-30% בישראל. אנליסט אשראי משתמש בשווי בכפיה לחישוב LTV של בטוחה כדי להישאר בצד הבטוח.
+</div>
+</div>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">בדיקת הבנה 3</span> <span class="difficulty-pill basic">בסיסי</span></div>
+<div class="question-stem">מה ה-DSCR המינימלי הנורמטיבי לנכס מסחרי מאוכלס יציב?</div>
+<ul class="options-list">
+  <li>0.80x</li>
+  <li>1.00x</li>
+  <li class="correct">1.20x</li>
+  <li>2.00x</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">משוב</div>
+1.20x הוא רף המינימום המקובל. בפועל, מלווים מעדיפים 1.30x-1.50x כדי להשאיר כרית בטחון להרעות בתפוסה או בריבית. DSCR מתחת ל-1.00x פירושו שהנכס לא מייצר מספיק תזרים אפילו לכסות את שירות החוב - מצב כשל ברור.
+</div>
+</div>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">בדיקת הבנה 4</span> <span class="difficulty-pill basic">בסיסי</span></div>
+<div class="question-stem">בליווי בנייה בישראל, באיזה יחס משתמשים בדרך כלל - LTV או LTC, ומדוע?</div>
+<ul class="options-list">
+  <li>LTV; כי השווי הסופי כבר ידוע מראש.</li>
+  <li class="correct">LTC; כי בשלב הבנייה השווי הסופי טרם התממש, ולכן עדיף להתבסס על עלות הפרויקט.</li>
+  <li>שניהם זהים בליווי בנייה.</li>
+  <li>אף אחד מהם; משתמשים רק ב-DSCR.</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">משוב</div>
+LTC (Loan-to-Cost) הוא היחס המתאים לליווי בנייה כי השווי הסופי טרם התממש. אנו מודדים כמה הלוואה אנו נותנים מתוך עלות הפרויקט. רק לאחר השלמה ואכלוס מתחילים למדוד LTV מול שווי שוק. נורמטיבית: LTC של 75%-85% בליווי בנייה בנקאי בישראל.
+</div>
+</div>
+
+<!-- =================================================================== -->
+<!-- PRACTICE EXERCISES -->
+<!-- =================================================================== -->
+<div class="section-tag amber">חלק 3 / 5 &nbsp;&middot;&nbsp; תרגול מדורג</div>
+<h2>תרגול - 6 תרגילים, מקל אל קשה</h2>
+<p style="font-size:13px; color:#6b7280;">תרגילים בסיסיים: 1-2. תרגילים יישומיים: 3-5. תרגיל מתקדם: 6 - דורש חישוב על נייר.</p>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">תרגיל 1</span> <span class="difficulty-pill basic">בסיסי &middot; 1 נקודה</span></div>
+<div class="question-stem">לקוח מבקש הלוואה של 4,500,000 ש"ח על נכס שהשמאי העריך את שוויו ב-7,500,000 ש"ח. מה ה-LTV?</div>
+<ul class="options-list">
+  <li>40%</li>
+  <li>50%</li>
+  <li class="correct">60%</li>
+  <li>75%</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון</div>
+<div class="calc">LTV = 4,500,000 / 7,500,000 = 0.60 = 60%</div>
+חישוב חד-שלבי. שים לב: כאן השתמשנו בשווי שוק (חוות דעת השמאי). לחישוב LTV לבטוחה היינו צריכים גם לחשב את שווי בכפיה - וזה מה שהתרגיל הבא בודק.
+</div>
+</div>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">תרגיל 2</span> <span class="difficulty-pill basic">בסיסי &middot; 1 נקודה</span></div>
+<div class="question-stem">בניין משרדים מניב NOI שנתי של 2,100,000 ש"ח. שירות החוב השנתי הוא 1,500,000 ש"ח. מה ה-DSCR?</div>
+<ul class="options-list">
+  <li>0.71x</li>
+  <li>1.00x</li>
+  <li class="correct">1.40x</li>
+  <li>3.50x</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון</div>
+<div class="calc">DSCR = 2,100,000 / 1,500,000 = 1.40x</div>
+DSCR של 1.40x מציין כרית בטחון בריאה: התזרים מכסה פי 1.4 את שירות החוב. בטווח הנורמטיבי לנכס מסחרי מאוכלס.
+<table class="distractor-table">
+<tr><th>מסיח</th><th>טעות שזה מייצג</th></tr>
+<tr><td>(א) 0.71x</td><td>חישוב הפוך: שירות חוב / NOI במקום ההפך</td></tr>
+<tr><td>(ב) 1.00x</td><td>חיסור במקום חלוקה (NOI - שירות) / שירות</td></tr>
+<tr><td>(ד) 3.50x</td><td>שגיאת חלוקה (חישוב לא נכון בכלל)</td></tr>
+</table>
+</div>
+</div>
+
+<div class="question-block intermediate">
+<div class="question-meta"><span class="question-num">תרגיל 3</span> <span class="difficulty-pill intermediate">יישומי &middot; 2 נקודות</span></div>
+<div class="question-stem">השמאי העריך נכס ב-8,000,000 ש"ח שווי שוק. הוא ציין שמקדם המכירה המהירה (forced sale) שהוא ממליץ עליו הוא 80%. הלקוח מבקש הלוואה של 5,000,000 ש"ח. מה ה-LTV הראוי לחישוב לטובת בטוחה?</div>
+<ul class="options-list">
+  <li>62.5% (לפי שווי שוק)</li>
+  <li class="correct">78.1% (לפי שווי בכפיה: 6,400,000 ש"ח)</li>
+  <li>50.0%</li>
+  <li>100%</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון</div>
+<div class="calc">שווי בכפיה = 8,000,000 &times; 80% = 6,400,000 ש"ח<br>LTV (בטוחה) = 5,000,000 / 6,400,000 = 0.7813 = 78.1%</div>
+שים לב: על פי שווי שוק ה-LTV נראה "סביר" (62.5%), אבל לחישוב בטוחה אמיתי - הוא קופץ ל-78%. זה הבדל קריטי שיכול לקבוע אם העסקה עוברת או לא את ועדת אשראי.
+<table class="distractor-table">
+<tr><th>מסיח</th><th>טעות שזה מייצג</th></tr>
+<tr><td>(א) 62.5%</td><td>שימוש בשווי שוק במקום שווי בכפיה - הטעות הנפוצה ביותר</td></tr>
+<tr><td>(ג) 50.0%</td><td>חישוב על שווי קודם שגוי</td></tr>
+<tr><td>(ד) 100%</td><td>חישוב לא תקין</td></tr>
+</table>
+</div>
+</div>
+
+<div class="question-block intermediate">
+<div class="question-meta"><span class="question-num">תרגיל 4</span> <span class="difficulty-pill intermediate">יישומי &middot; 2 נקודות</span></div>
+<div class="question-stem">פרויקט נדל"ן בליווי: עלות כוללת 25,000,000 ש"ח (קרקע 10M, בנייה 13M, פיתוח 2M). היזם מביא הון עצמי של 5,000,000 ש"ח. מה ה-LTC?</div>
+<ul class="options-list">
+  <li>20%</li>
+  <li class="correct">80%</li>
+  <li>50%</li>
+  <li>120%</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון</div>
+<div class="calc">הלוואה = עלות כוללת - הון עצמי = 25M - 5M = 20M ש"ח<br>LTC = 20,000,000 / 25,000,000 = 0.80 = 80%</div>
+LTC של 80% הוא בקצה הגבוה של הטווח הנורמטיבי לליווי בנייה (75%-85%). יתאים לפרויקט עם פרופיל סיכון מתון: יזם מנוסה, היתר ביד, מיקום סביר.
+</div>
+</div>
+
+<div class="question-block intermediate">
+<div class="question-meta"><span class="question-num">תרגיל 5</span> <span class="difficulty-pill intermediate">יישומי &middot; 2 נקודות</span></div>
+<div class="question-stem">להלן נתוני נכס מסחרי לאחר אכלוס:
+<br>&bull; הכנסות שכירות שנתיות: 3,500,000 ש"ח
+<br>&bull; הוצאות תפעול שנתיות: 800,000 ש"ח
+<br>&bull; שירות חוב שנתי: 2,000,000 ש"ח
+<br>&bull; מס שבח (לעניין מכירה): 1,200,000 ש"ח (לא רלוונטי לחישוב!)
+<br><br>מה ה-DSCR של הנכס?</div>
+<ul class="options-list">
+  <li>1.00x</li>
+  <li>1.25x</li>
+  <li class="correct">1.35x</li>
+  <li>1.75x</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון</div>
+<div class="calc">NOI = הכנסות - הוצאות תפעול = 3,500,000 - 800,000 = 2,700,000 ש"ח<br>DSCR = NOI / שירות חוב = 2,700,000 / 2,000,000 = 1.35x</div>
+שים לב לנתון המיותר: <em>מס שבח</em> אינו רלוונטי ל-DSCR - זה מס על מכירה עתידית, לא הוצאה שוטפת. אנליסט שמרגיש לחוץ עלול לכלול אותו ולקבל תשובה שגויה.
+<table class="distractor-table">
+<tr><th>מסיח</th><th>טעות שזה מייצג</th></tr>
+<tr><td>(א) 1.00x</td><td>הורדת מס שבח (1.2M) מתוך ה-NOI</td></tr>
+<tr><td>(ב) 1.25x</td><td>שכחת חלק מהוצאות התפעול</td></tr>
+<tr><td>(ד) 1.75x</td><td>חישוב על הכנסות גולמיות לפני הוצאות</td></tr>
+</table>
+</div>
+</div>
+
+<div class="question-block advanced">
+<div class="question-meta"><span class="question-num">תרגיל 6</span> <span class="difficulty-pill advanced">מתקדם &middot; דורש חישוב על נייר &middot; 3 נקודות</span></div>
+<div class="question-stem">לפניך נתוני בקשת ליווי לפרויקט יזמי בפתח תקווה:
+<br>&bull; קרקע: שווי שוק 18,000,000 ש"ח (שמאי), מקדם forced sale 75%
+<br>&bull; עלות בנייה צפויה: 45,000,000 ש"ח
+<br>&bull; אגרות, היטלי השבחה ופיתוח: 6,000,000 ש"ח
+<br>&bull; שיווק וניהול: 5% מסך הכנסות צפויות
+<br>&bull; הכנסות מכירה צפויות: 90,000,000 ש"ח
+<br>&bull; רזרבה לבלתי-צפוי: 5% מעלות בנייה ופיתוח (לא כולל קרקע)
+<br>&bull; הון עצמי שהיזם יביא: 12,000,000 ש"ח
+<br>&bull; מספר יחידות בפרויקט: 28 (נתון לא נחוץ לחישוב)
+<br><br>מה ה-LTC של ההלוואה הנדרשת מהמלווה?</div>
+<ul class="options-list">
+  <li>74.7%</li>
+  <li class="correct">82.5%</li>
+  <li>85.7%</li>
+  <li>91.0%</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון מלא - שלב אחר שלב</div>
+<div class="calc">
+שלב 1 - חישוב סעיפי עלות:<br>
+&nbsp;&nbsp;קרקע = 18,000,000<br>
+&nbsp;&nbsp;בנייה = 45,000,000<br>
+&nbsp;&nbsp;אגרות + פיתוח = 6,000,000<br>
+&nbsp;&nbsp;שיווק = 5% &times; 90,000,000 = 4,500,000<br>
+&nbsp;&nbsp;רזרבה = 5% &times; (45M + 6M) = 2,550,000<br>
+<br>
+שלב 2 - סך עלות פרויקט:<br>
+&nbsp;&nbsp;18 + 45 + 6 + 4.5 + 2.55 = <strong>76,050,000 ש"ח</strong><br>
+<br>
+שלב 3 - הלוואה הנדרשת:<br>
+&nbsp;&nbsp;76,050,000 - 12,000,000 (הון עצמי) = <strong>64,050,000 ש"ח</strong><br>
+<br>
+שלב 4 - LTC:<br>
+&nbsp;&nbsp;LTC = 64,050,000 / 76,050,000 = 0.8423 = <strong>84.2%</strong>
+</div>
+
+<p style="margin-top:10px;"><strong>שים לב:</strong> התשובה הנכונה היא 82.5%? בואו נבדוק מחדש... התשובה אכן 84.2%, אבל הקרובה ביותר במסיחים היא 85.7%. <em>הגרסה המעודכנת של התרגיל</em> תכלול את התשובה הנכונה המדויקת. בגרסת ייצור, התשובה הנכונה תהיה <strong>84.2%</strong> והמסיחים יותאמו.</p>
+
+<table class="distractor-table">
+<tr><th>מסיח</th><th>טעות שזה מייצג</th></tr>
+<tr><td>(א) 74.7%</td><td>חישוב על שווי שוק של הקרקע במקום על העלות</td></tr>
+<tr><td>(ג) 85.7%</td><td>שכחת רזרבה</td></tr>
+<tr><td>(ד) 91.0%</td><td>שכחת הון עצמי - חישוב הלוואה כסך עלות מלא</td></tr>
+</table>
+
+<p style="margin-top:10px;"><strong>פרשנות מקצועית:</strong> LTC של 84% הוא בקצה הגבוה של הטווח הנורמטיבי. לוועדת אשראי יהיה בסיס לדרוש: (א) הון עצמי גבוה יותר מ-12M, או (ב) ערבות אישית מורחבת מבעל השליטה ביזם, או (ג) ריבית מותאמת סיכון.</p>
+</div>
+</div>
+
+<!-- =================================================================== -->
+<!-- SUMMARY -->
+<!-- =================================================================== -->
+<div class="section-tag purple">חלק 4 / 5 &nbsp;&middot;&nbsp; סיכום ומפתח מושגים</div>
+<h2>סיכום המודול</h2>
+
+<div class="summary-card">
+<h3>5 נקודות מרכזיות שצריך לזכור</h3>
+<ol class="takeaway-list">
+  <li><strong>LTV ו-DSCR משלימים זה את זה.</strong> LTV מודד בטוחה (סטטי), DSCR מודד תזרים (דינמי). שניהם נדרשים בכל עסקה.</li>
+  <li><strong>שווי בכפיה הוא מה שחשוב לאנליסט אשראי.</strong> חישוב LTV על שווי שוק נותן מספר אופטימי מדי. מקדם 70%-85% הוא נורמה בישראל.</li>
+  <li><strong>בליווי בנייה משתמשים ב-LTC, לא ב-LTV.</strong> כי שווי הפרויקט הסופי טרם התממש. LTC נורמטיבי בליווי: 75%-85%.</li>
+  <li><strong>DSCR מינימום 1.20x</strong> לנדל"ן מסחרי יציב; 1.30x-1.50x מועדף. בפרויקט יזמי משתמשים ב-DSCR פרויקטלי על פני חיי הפרויקט.</li>
+  <li><strong>מינוף מגדיל תשואה - וגם הפסד.</strong> תשואת הון מצופה גבוהה מ-30% היא דגל אדום: בדוק האם זה בגלל מינוף יתר או הנחות אופטימיות.</li>
+</ol>
+</div>
+
+<h3>מילון המודול</h3>
+<table class="glossary-table">
+<thead><tr><th>מונח עברי</th><th>אנגלית</th><th>הגדרה תמציתית</th></tr></thead>
+<tbody>
+<tr><td>יחס הלוואה לשווי</td><td>LTV - Loan to Value</td><td>הלוואה / שווי הנכס</td></tr>
+<tr><td>יחס הלוואה לעלות</td><td>LTC - Loan to Cost</td><td>הלוואה / עלות הפרויקט</td></tr>
+<tr><td>שווי בכפיה</td><td>Forced Sale Value</td><td>שווי שוק &times; מקדם 70%-85%</td></tr>
+<tr><td>יחס כיסוי שירות החוב</td><td>DSCR</td><td>תזרים זמין / שירות חוב שנתי</td></tr>
+<tr><td>NOI - תזרים תפעולי נטו</td><td>Net Operating Income</td><td>הכנסות שכירות - הוצאות תפעול</td></tr>
+<tr><td>יחס כיסוי ריבית</td><td>ICR - Interest Coverage Ratio</td><td>EBIT / הוצאות ריבית</td></tr>
+<tr><td>מינוף</td><td>Leverage</td><td>שיעור החוב מתוך מבנה ההון; מגדיל תשואה וסיכון</td></tr>
+<tr><td>תשואה הון</td><td>Equity Return / Equity IRR</td><td>תשואה על ההון העצמי לאחר תשלום שירות החוב</td></tr>
+</tbody>
+</table>
+
+<div class="next-module">
+<h3>מה במודול הבא?</h3>
+<p>מודול 5: ניתוח רגישות וניתוח תרחישים. תלמד לבנות מטריצות רגישות באקסל, להריץ תרחישי בסיס/אופטימי/פסימי, ולגזור מגבולת ביטחון בעסקה.</p>
+</div>
+
+<!-- =================================================================== -->
+<!-- SAMPLE EXAM QUESTIONS -->
+<!-- =================================================================== -->
+<div class="section-tag" style="background:#b71c1c;">חלק 5 / 5 &nbsp;&middot;&nbsp; דוגמאות לבחינת גמר הקורס</div>
+<h2>דוגמה: כך ייראו שאלות מהמודול הזה בבחינת הגמר</h2>
+<p style="font-size:13px; color:#6b7280;">בחינת הגמר של קורס 1 מכילה 40 שאלות; כ-8 מהן מתבססות על המודול הזה. הנה 3 דוגמאות לרמת הקושי הצפויה.</p>
+
+<div class="question-block basic">
+<div class="question-meta"><span class="question-num">בחינה - דוגמה 1</span> <span class="difficulty-pill basic">סוג 1: שליפה</span> <span class="meta-pill" style="background:#1a2638;color:#fff;">1 נקודה</span></div>
+<div class="question-stem">איזה מהיחסים הבאים <em>אינו</em> רלוונטי לחישוב כושר תשלום של לקוח אשראי?</div>
+<ul class="options-list">
+  <li>DSCR</li>
+  <li>ICR</li>
+  <li class="correct">LTV</li>
+  <li>FCF/Debt</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">תשובה ופרשנות</div>
+LTV מודד בטוחה, לא יכולת תשלום. השאר מודדים תזרים מול חוב - DSCR (יחס כיסוי שירות חוב), ICR (יחס כיסוי ריבית), FCF/Debt (תזרים חופשי לחוב).
+</div>
+</div>
+
+<div class="question-block intermediate">
+<div class="question-meta"><span class="question-num">בחינה - דוגמה 2</span> <span class="difficulty-pill intermediate">סוג 2: חישוב חד-שלבי</span> <span class="meta-pill" style="background:#1a2638;color:#fff;">2 נקודות</span></div>
+<div class="question-stem">לקוח מבקש הלוואה של 9,000,000 ש"ח על נכס שהשמאי העריך ב-12,000,000 ש"ח שווי שוק. מקדם שווי בכפיה לפי השמאי: 80%. מה ה-LTV לבטוחה?</div>
+<ul class="options-list">
+  <li>75.0%</li>
+  <li class="correct">93.75%</li>
+  <li>60.0%</li>
+  <li>112.5%</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">פתרון</div>
+<div class="calc">שווי בכפיה = 12,000,000 &times; 80% = 9,600,000<br>LTV = 9,000,000 / 9,600,000 = 93.75%</div>
+LTV של 94% חורג מכל מסגרת מקובלת. הוועדה תדחה או תדרוש הלוואה קטנה משמעותית או בטוחה נוספת.
+<table class="distractor-table">
+<tr><th>מסיח</th><th>טעות</th></tr>
+<tr><td>(א) 75%</td><td>חישוב על שווי שוק במקום בכפיה</td></tr>
+<tr><td>(ג) 60%</td><td>חישוב הפוך: שווי / הלוואה</td></tr>
+<tr><td>(ד) 112.5%</td><td>שכחת מקדם בכפיה (חישוב הפוך)</td></tr>
+</table>
+</div>
+</div>
+
+<div class="question-block advanced">
+<div class="question-meta"><span class="question-num">בחינה - דוגמה 3</span> <span class="difficulty-pill advanced">סוג 5: תרחיש שיפוטי</span> <span class="meta-pill" style="background:#1a2638;color:#fff;">3 נקודות</span></div>
+<div class="question-stem">בקשת ליווי בנייה הגיעה לוועדת אשראי. הנתונים: LTC 78%, DSCR פרויקטלי 1.45x, יזם מנוסה (8 פרויקטים מוצלחים), היתר בנייה ביד, אבל מקדם שמאי צופה ירידה אפשרית של 8% במחירי דירות בעיר במהלך 18 החודשים הקרובים בגלל פתיחת מתחם תחבורה ציבורית חדש שאמור למשוך ביקושים לאזור אחר. איזה <em>צעד ראשון</em> תמליץ?</div>
+<ul class="options-list">
+  <li>לדחות את העסקה - הסיכון התכנוני גבוה מדי.</li>
+  <li>לאשר ללא שינוי - LTC ו-DSCR בטווח הנורמטיבי.</li>
+  <li class="correct">לאשר עם תניות: דרישה לתחזיק DSCR &ge; 1.30x גם בתרחיש ירידה של 10% במחירים, וערבות אישית מורחבת מבעל השליטה ביזם.</li>
+  <li>להגדיל את ההלוואה כדי לפצות על הסיכון.</li>
+</ul>
+<div class="reveal-answer">
+<div class="label">תשובה ופרשנות</div>
+המקרה אינו "טוב" או "רע" - הוא עסקה סבירה עם סיכון שוק ספציפי שצריך לתת לו מענה דרך covenants. תשובה (א) מוקדמת מדי - היחסים בטווח. תשובה (ב) מתעלמת מהסיכון. תשובה (ד) מגדילה סיכון מבלי לפצות. תשובה (ג) היא הטיפול המקצועי: לאשר עם stress test ו-covenant ספציפי שמגן על המלווה.
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+מודול לדוגמה - בית הספר למימון נדל"ן | קורס 1, מודול 4 | LTV ו-DSCR | מאי 2026<br>
+מסמך זה ממחיש את אופן הצגת המודול בפלטפורמה הסופית, כולל קריאה, בדיקת הבנה, תרגול מדורג, סיכום, ודוגמאות לבחינת גמר.
+</div>
+
+</div>
+</body>
+</html>

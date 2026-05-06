@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}הגשת מבחן{% endblock %}
+{% block content %}
+<div class="card text-center py-10" style="max-width:500px;margin:0 auto">
+  <h2 class="mb-4">אישור הגשת מבחן</h2>
+  {% if unanswered_count > 0 %}
+  <div class="callout-warning" style="text-align:right;margin-bottom:20px">
+    שים לב: {{ unanswered_count }} שאלות לא נענו. הן יחשבו כשגויות.
+  </div>
+  {% else %}
+  <p style="color:#6b7280" class="mb-6">כל השאלות נענו. בלחיצה על "הגש" המבחן יינעל וניתן יהיה לראות את הציון.</p>
+  {% endif %}
+  <div style="display:flex;gap:12px;justify-content:center">
+    <a href="{% url 'exam_question' course.slug attempt.pk %}" class="btn-secondary">חזרה למבחן</a>
+    <form method="post" style="display:inline">
+      {% csrf_token %}
+      <input type="hidden" name="confirm" value="1">
+      <button type="submit" class="btn-primary" style="background:#b71c1c">הגשת מבחן סופית</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

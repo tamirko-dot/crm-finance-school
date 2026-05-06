@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}שאלה {{ question_number }} מתוך {{ total }} — מבחן{% endblock %}
+
+{% block extra_head %}
+<style>
+  .option-label { display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border:1px solid #cbd5e0;border-radius:4px;margin-bottom:8px;cursor:pointer;transition:background .15s; }
+  .option-label:hover { background:#f0f7ff; }
+  .option-label input[type=radio]:checked + span { font-weight:600; }
+  input[type=radio]:checked ~ .option-label { background:#f0f7ff;border-color:#1976d2; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+  <div>
+    <span style="font-size:13px;color:#6b7280">{{ course.title_he }}</span>
+    <h3 style="margin:4px 0 0;color:#1a2638">שאלה {{ question_number }} מתוך {{ total }}</h3>
+  </div>
+  <div style="text-align:center">
+    <div id="timer" style="font-size:24px;font-weight:700;color:#1a2638;font-variant-numeric:tabular-nums">--:--</div>
+    <div style="font-size:11px;color:#6b7280">זמן שנותר</div>
+  </div>
+</div>
+
+<div style="background:#cbd5e0;border-radius:4px;height:6px;margin-bottom:24px">
+  <div style="background:#1a2638;height:6px;border-radius:4px;width:{{ answered }}00%/{{ total }};width:calc({{ answered }} / {{ total }} * 100%)"></div>
+</div>
+
+<div class="card">
+  <div style="margin-bottom:24px;font-size:15px;line-height:1.7">{{ current_aq.stem_html_snapshot|safe }}</div>
+
+  <form method="post" id="exam-form">
+    {% csrf_token %}
+
+    <div style="margin-bottom:20px">
+    {% for opt in options %}
+    <label class="option-label">
+      <input type="radio" name="answer" value="{{ forloop.counter0 }}" required>
+      <span>{{ opt.text_he }}</span>
+    </label>
+    {% endfor %}
+    </div>
+
+    <div style="border-top:1px solid #cbd5e0;padding-top:16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div style="display:flex;gap:16px;align-items:center">
+        <span style="font-size:13px;color:#6b7280">סימון בטחון (אופציונלי):</span>
+        <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer">
+          <input type="radio" name="confidence" value="confident"> בטוח/ה
+        </label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer">
+          <input type="radio" name="confidence" value="not_sure"> לא בטוח/ה
+        </label>
+      </div>
+      <button type="submit" class="btn-primary">
+        {% if question_number == total %}סיום והגשה{% else %}שאלה הבאה &larr;{% endif %}
+      </button>
+    </div>
+  </form>
+</div>
+
+<script>
+(function(){
+  var total = {{ seconds_remaining }};
+  var end = Date.now() + total * 1000;
+  var el = document.getElementById('timer');
+
+  function fmt(s){
+    var m = Math.floor(s/60);
+    var sec = s % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+
+  function tick(){
+    var remaining = Math.max(0, Math.round((end - Date.now()) / 1000));
+    el.textContent = fmt(remaining);
+    if (remaining <= 300) el.style.color = '#b71c1c';
+    if (remaining <= 0){
+      document.getElementById('exam-form').submit();
+      return;
+    }
+    setTimeout(tick, 1000);
+  }
+  tick();
+})();
+</script>
+{% endblock %}

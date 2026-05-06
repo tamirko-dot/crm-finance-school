@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}קורסים — מימון נדל"ן{% endblock %}
+{% block content %}
+
+<div class="mb-8">
+  <h1>קורסי ההכשרה</h1>
+  <p style="color:#6b7280" class="mt-1">מימון נדל"ן — ישראל</p>
+</div>
+
+{% regroup course_data by course.phase as phases %}
+{% for phase_group in phases %}
+<div class="mb-8">
+  <h2 class="mb-4 pb-2" style="border-bottom:2px solid #1a2638">
+    שלב {{ phase_group.grouper }}
+  </h2>
+  <div style="display:grid;gap:12px">
+  {% for item in phase_group.list %}
+    {% with course=item.course status=item.status enrollment=item.enrollment %}
+    <div class="card" style="padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px">
+      <div style="flex:1">
+        <div class="flex items-center gap-3 mb-1">
+          <span style="font-size:12px;color:#6b7280;font-variant-numeric:tabular-nums">קורס {{ course.course_number }}</span>
+          {% if course.is_capstone %}
+          <span style="background:#f3e5f5;color:#7b1fa2;padding:1px 8px;border-radius:10px;font-size:12px">פרויקט גמר</span>
+          {% endif %}
+        </div>
+        <h3 style="margin:0 0 4px;font-size:16px">{{ course.title_he }}</h3>
+        <span style="font-size:12px;color:#6b7280">ציון עובר: {{ course.passing_score_pct }}%</span>
+      </div>
+      <div class="flex items-center gap-3">
+        {% if status == "passed" %}
+          <span class="badge-pass">עבר</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="font-size:13px;padding:6px 14px">צפייה</a>
+        {% elif status == "in_progress" or status == "open" %}
+          <span class="badge-pending">{% if status == "in_progress" %}בתהליך{% else %}פתוח{% endif %}</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-primary" style="font-size:13px;padding:6px 14px">כניסה</a>
+        {% elif status == "requested" %}
+          <span class="badge-pending">ממתין לאישור</span>
+        {% elif status == "failed" %}
+          <span class="badge-fail">נכשל</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="font-size:13px;padding:6px 14px">צפייה</a>
+        {% else %}
+          <span class="badge-fail">נעול</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="font-size:13px;padding:6px 14px">פרטים</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endwith %}
+  {% endfor %}
+  </div>
+</div>
+{% endfor %}
+
+{% endblock %}

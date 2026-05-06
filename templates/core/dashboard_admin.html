@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}לוח בקרה — מנהל מערכת{% endblock %}
+{% block content %}
+
+<div class="mb-8">
+  <h1>שלום, {{ user.display_name }}</h1>
+  <p style="color:#6b7280" class="mt-1">
+    מנהל מערכת &bull; כניסה אחרונה: {{ user.last_login|date:"d/m/Y H:i"|default:"ראשונה" }}
+  </p>
+</div>
+
+<div class="grid gap-4 mb-6" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+  <div class="card text-center py-6">
+    <div class="text-3xl font-bold" style="color:#1a2638">{{ user_count|default:"—" }}</div>
+    <div class="text-sm mt-1" style="color:#6b7280">משתמשים</div>
+  </div>
+  <div class="card text-center py-6">
+    <div class="text-3xl font-bold" style="color:#1a2638">12</div>
+    <div class="text-sm mt-1" style="color:#6b7280">קורסים</div>
+  </div>
+  <div class="card text-center py-6">
+    <div class="text-3xl font-bold" style="color:#1a2638">{{ question_count|default:"—" }}</div>
+    <div class="text-sm mt-1" style="color:#6b7280">שאלות</div>
+  </div>
+  <div class="card text-center py-6">
+    <div class="text-3xl font-bold" style="color:#1a2638">{{ domain_count|default:"—" }}</div>
+    <div class="text-sm mt-1" style="color:#6b7280">תחומים</div>
+  </div>
+</div>
+
+<div class="card mb-4">
+  <h2 class="mb-4">ניהול מערכת</h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+    <a href="/admin/" class="btn-primary text-center block py-3 rounded">ממשק ניהול Django</a>
+    <a href="/admin/accounts/user/" class="btn-secondary text-center block py-3 rounded">ניהול משתמשים</a>
+    <a href="/admin/content/course/" class="btn-secondary text-center block py-3 rounded">ניהול קורסים</a>
+    <a href="/admin/content/question/" class="btn-secondary text-center block py-3 rounded">ניהול שאלות</a>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="mb-3">פקודות ניהול מועילות</h3>
+  <div style="background:#f7fafc;border:1px solid #cbd5e0;padding:16px;border-radius:4px;font-family:monospace;font-size:13px;direction:ltr;text-align:left">
+    python manage.py seed_data<br>
+    python manage.py import_questions &lt;path&gt;<br>
+    python manage.py import_documents &lt;path&gt;<br>
+    python manage.py createsuperuser
+  </div>
+</div>
+
+{% endblock %}

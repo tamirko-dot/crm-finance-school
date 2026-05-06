@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>אפיון תכנית הכשרה לאנליסטים - בית הספר למימון נדל"ן</title>
+<style>
+  @page { size: A4; margin: 2cm; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: "Segoe UI", "Arial Hebrew", "David", "Frank Ruehl", Arial, sans-serif;
+    color: #1a1a1a;
+    background: #f5f5f0;
+    line-height: 1.65;
+    font-size: 14px;
+  }
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 56px;
+    background: #ffffff;
+    box-shadow: 0 0 24px rgba(0,0,0,0.05);
+  }
+  .doc-header {
+    border-bottom: 4px double #2c3e50;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  .doc-header h1 {
+    font-size: 28px;
+    margin: 0 0 8px 0;
+    color: #1a2638;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+  .doc-header .subtitle {
+    font-size: 16px;
+    color: #4a5568;
+    margin: 0 0 4px 0;
+  }
+  .doc-header .meta {
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 8px;
+  }
+  h2 {
+    font-size: 22px;
+    color: #1a2638;
+    border-bottom: 2px solid #1a2638;
+    padding-bottom: 6px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+  h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  h4 {
+    font-size: 15px;
+    color: #1a2638;
+    margin: 16px 0 8px 0;
+    font-weight: 700;
+  }
+  p { margin: 0 0 12px 0; }
+  ul, ol { margin: 8px 0 12px 0; padding-right: 24px; }
+  li { margin-bottom: 4px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  th, td {
+    border: 1px solid #cbd5e0;
+    padding: 8px 12px;
+    text-align: right;
+    vertical-align: top;
+  }
+  th {
+    background: #1a2638;
+    color: #fff;
+    font-weight: 600;
+  }
+  tr:nth-child(even) td { background: #f7fafc; }
+  .toc {
+    background: #f7f7f2;
+    border: 1px solid #d4d4c8;
+    padding: 20px 28px;
+    margin: 24px 0 32px 0;
+  }
+  .toc h2 {
+    margin-top: 0;
+    font-size: 18px;
+    border-bottom: 1px solid #2c3e50;
+  }
+  .toc ol { padding-right: 20px; }
+  .toc a { color: #1a2638; text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .phase-banner {
+    background: linear-gradient(90deg, #1a2638 0%, #2c3e50 100%);
+    color: #fff;
+    padding: 14px 24px;
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .phase-banner .phase-tag {
+    font-size: 11px;
+    background: #f1c40f;
+    color: #1a2638;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-left: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .course-card {
+    border: 1px solid #cbd5e0;
+    border-right: 6px solid #1a2638;
+    padding: 24px 28px;
+    margin: 24px 0;
+    background: #fdfdfb;
+    page-break-inside: avoid;
+  }
+  .course-card .course-num {
+    display: inline-block;
+    background: #1a2638;
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  .course-card h3 {
+    font-size: 19px;
+    margin: 4px 0 16px 0;
+    color: #1a2638;
+  }
+  .field-block {
+    margin: 14px 0;
+    padding: 10px 14px;
+    background: #f4f6f8;
+    border-right: 3px solid #4a5568;
+  }
+  .field-block .field-label {
+    font-weight: 700;
+    color: #1a2638;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .syllabus {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    padding: 16px 20px;
+    margin: 12px 0;
+  }
+  .syllabus .unit {
+    margin-bottom: 14px;
+  }
+  .syllabus .unit-title {
+    font-weight: 700;
+    color: #1a2638;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .syllabus ul { margin: 4px 0; }
+  .time-table {
+    margin: 8px 0;
+    font-size: 12px;
+  }
+  .time-table th, .time-table td {
+    padding: 5px 10px;
+  }
+  .exec-summary {
+    background: #faf8f3;
+    border: 1px solid #d4c89a;
+    padding: 24px 32px;
+    margin: 24px 0;
+    border-radius: 4px;
+  }
+  .exec-summary h3 { margin-top: 0; }
+  .english-term { font-style: italic; color: #4a5568; }
+  .footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 2px solid #1a2638;
+    font-size: 11px;
+    color: #6b7280;
+    text-align: center;
+  }
+  .sources-list {
+    font-size: 12px;
+    columns: 1;
+  }
+  .sources-list li { margin-bottom: 6px; word-break: break-word; }
+  .keyword {
+    background: #fff8d6;
+    padding: 1px 4px;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+  @media print {
+    body { background: #fff; }
+    .container { box-shadow: none; padding: 0; }
+    .course-card { page-break-inside: avoid; }
+    .phase-banner { page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="doc-header">
+  <h1>אפיון תכנית הכשרה מקצועית לאנליסטים בתחום מימון נדל"ן</h1>
+  <p class="subtitle">CRM Finance School &mdash; מסמך אפיון תכנית לימודים בנויה משנים-עשר קורסים</p>
+  <p class="subtitle">חברת מימון חוץ-בנקאית: ליווי פרויקטים יזמיים בנדל"ן</p>
+  <p class="meta">גרסה 1.0 &nbsp;|&nbsp; שלב: אפיון תוכן (Content Specification) &nbsp;|&nbsp; קהל יעד: מנהל תוכן, מומחה תוכן (SME), עורך פדגוגי</p>
+</div>
+
+<div class="toc">
+  <h2>תוכן עניינים</h2>
+  <ol>
+    <li><a href="#exec">תקציר מנהלים</a></li>
+    <li><a href="#methodology">עקרונות פדגוגיים, מבנה קורסים ומדדי הצלחה</a></li>
+    <li><a href="#phaseA">שלב א' &mdash; יסודות פיננסיים וחשבונאיים</a>
+      <ol>
+        <li><a href="#course1">קורס 1: יסודות המימון</a></li>
+        <li><a href="#course2">קורס 2: יסודות החשבונאות</a></li>
+        <li><a href="#course3">קורס 3: ניתוח דוחות כספיים</a></li>
+      </ol>
+    </li>
+    <li><a href="#phaseB">שלב ב' &mdash; נדל"ן: בנייה, רישום ומשפט</a>
+      <ol>
+        <li><a href="#course4">קורס 4: יסודות הבנייה למשקיעים</a></li>
+        <li><a href="#course5">קורס 5: רישום זכויות במקרקעין בישראל</a></li>
+        <li><a href="#course6">קורס 6: דיני חוזים ומסמכים משפטיים בנדל"ן</a></li>
+        <li><a href="#course7">קורס 7: מוסדות תכנון וחוק התכנון והבנייה</a></li>
+      </ol>
+    </li>
+    <li><a href="#phaseC">שלב ג' &mdash; שמאות, ניתוח וסיכון</a>
+      <ol>
+        <li><a href="#course8">קורס 8: עקרונות שמאות מקרקעין</a></li>
+        <li><a href="#course9">קורס 9: ניתוח פרויקטי נדל"ן וכדאיות כלכלית</a></li>
+        <li><a href="#course10">קורס 10: ניהול סיכונים במימון נדל"ן</a></li>
+      </ol>
+    </li>
+    <li><a href="#phaseD">שלב ד' &mdash; מבני מימון ובטוחות</a>
+      <ol>
+        <li><a href="#course11">קורס 11: ערבויות חוק המכר ומבני מימון</a></li>
+      </ol>
+    </li>
+    <li><a href="#phaseE">שלב ה' &mdash; יישום מקצועי (קפסטון)</a>
+      <ol>
+        <li><a href="#course12">קורס 12: כתיבת בקשת אשראי לוועדת אשראי</a></li>
+      </ol>
+    </li>
+    <li><a href="#sources">נספח א' &mdash; מקורות, חקיקה ותקני מקצוע</a></li>
+    <li><a href="#glossary">נספח ב' &mdash; מונחי מקצוע מרכזיים</a></li>
+  </ol>
+</div>
+
+<section id="exec">
+<h2>1. תקציר מנהלים</h2>
+<div class="exec-summary">
+<h3>מטרת המסמך</h3>
+<p>מסמך זה מגדיר את אפיון התוכן (curriculum specification) של תכנית הכשרה מקצועית פנים-ארגונית לאנליסטים בחברת מימון חוץ-בנקאית, המתמחה ב<span class="keyword">ליווי פרויקטי נדל"ן</span> בישראל. תוצר התכנית הוא אנליסט שמסוגל לבנות, לנתח ולכתוב באופן עצמאי <span class="keyword">בקשת אשראי</span> מקצה לקצה עבור ועדת אשראי, החל מקריאת נסח טאבו ודוח שמאי, דרך בניית תזרים פרויקט וניתוח דוחות כספיים של היזם, וכלה בניסוח חוות דעת משפטית-מסחרית מובנית.</p>
+
+<h3>מבנה התכנית</h3>
+<p>התכנית בנויה משנים-עשר קורסים עצמאיים (standalone), חלוקת הלמידה בקצב אישי (self-paced), כל קורס מכיל חומר קריאה, בדיקות הבנה, תרגילים מדורגים בקושי, ובחינת גמר. הקורסים מאורגנים בחמישה שלבים בעלי תלות פדגוגית: יסודות פיננסיים-חשבונאיים, נדל"ן ומשפט, שמאות וסיכון, מבני מימון, ויישום מקצועי בקפסטון. כל התכנים מתמקדים אך ורק בתחום מימון פרויקטי נדל"ן. סך השעות המוערך: כ-280-320 שעות לימוד.</p>
+
+<h3>פילוסופיית הלמידה</h3>
+<p>לכל קורס הוגדרה <em>מטרת לימוד התנהגותית</em> (behavioral learning objective): לא "להבין" או "להכיר", אלא להיות מסוגל לבצע משימה מקצועית מוגדרת בעולם האמיתי. כל יחידת לימוד נבחרה רק אם היא <strong>נדרשת בפועל</strong> לעבודת אנליסט אשראי בחברת מימון חוץ-בנקאית בישראל. לא נכלל חומר תיאורטי שאינו ניתן ליישום בעבודת היומיום.</p>
+
+<h3>קהל יעד</h3>
+<p>אנליסט אשראי נדל"ן חדש או בכיר-זוטר, בעל רקע אקדמי ראשוני (תואר ראשון בכלכלה / מנהל עסקים / חשבונאות / משפטים), ללא ניסיון מעמיק בתחום מימון פרויקטי נדל"ן. התכנית מניחה היכרות בסיסית בלבד עם דוחות כספיים ועם משפט אזרחי.</p>
+
+<h3>תוצרי למידה (Learning Outcomes) ברמת התכנית</h3>
+<ol>
+  <li>לקרוא ולנתח דוחות כספיים של חברת יזמות נדל"ן ושל קבוצת חברות יזמיות, ולזהות סימני אזהרה (red flags).</li>
+  <li>לקרוא נסח טאבו, אישור זכויות מרשות מקרקעי ישראל (רמ"י), אישור זכויות מחברה משכנת ודוח שמאי, ולסכם את המשמעות המסחרית והמשפטית.</li>
+  <li>לבנות מודל פיננסי לפרויקט יזמי (Land + Construction + Financing + Marketing) ולהפעיל ניתוח רגישות.</li>
+  <li>להעריך מערכי בטוחות (ערבויות חוק המכר, שעבודים, התחייבויות, ערבויות אישיות) ולתמחר LTV ו-DSCR.</li>
+  <li>לכתוב מסמך בקשת אשראי מובנה שמשרת את ועדת האשראי בקבלת החלטה מנומקת.</li>
+</ol>
+</div>
+</section>
+
+<section id="methodology">
+<h2>2. עקרונות פדגוגיים, מבנה קורסים ומדדי הצלחה</h2>
+
+<h3>2.1 מבנה קבוע של קורס</h3>
+<table>
+  <thead><tr><th>רכיב</th><th>תיאור</th><th>מטרה</th></tr></thead>
+  <tbody>
+    <tr><td>חומר קריאה</td><td>טקסטים מובנים, דיאגרמות, מקרי בוחן (case studies) מן השוק הישראלי</td><td>הקנייה ראשונית של ידע</td></tr>
+    <tr><td>בדיקות הבנה (Comprehension Checks)</td><td>שאלות קצרות לאחר כל יחידה (3-6 שאלות), ללא ציון</td><td>קיבוע ידע, איתור פערים בלמידה</td></tr>
+    <tr><td>תרגילים מדורגים</td><td>שלוש רמות: בסיסי, יישומי, מתקדם. מספר התרגילים: 8-15 לקורס. תרגילים מתקדמים מבוססים על מסמכים אמיתיים (אנונימיזציה).</td><td>פיתוח כושר ניתוח, פתרון בעיות אמיתיות</td></tr>
+    <tr><td>בחינת גמר</td><td>בחינה ממוחשבת. ציון עובר: 75% (למעט קורסי קפסטון). שילוב שאלות סגורות, שאלות פתוחות וניתוח מסמך.</td><td>אימות שליטה ברמת ביצוע מקצועי</td></tr>
+    <tr><td>תוצר סופי (Final Deliverable)</td><td>מסמך, מודל, או חוות דעת שהאנליסט מגיש כעבודת סיום</td><td>מעבר מידע ליכולת ביצוע מתועדת</td></tr>
+  </tbody>
+</table>
+
+<h3>2.2 ציוני סף וקריטריוני התקדמות</h3>
+<ul>
+  <li><strong>ציון עובר ברירת-מחדל</strong>: 75% בבחינת גמר; 80% בקורסי שלב ה' (קפסטון).</li>
+  <li><strong>נעילת בחינת גמר</strong>: בחינת הגמר נפתחת רק לאחר השלמת כל התרגילים המדורגים בציון עובר.</li>
+  <li><strong>שני ניסיונות</strong> נכשלים בבחינת גמר &rarr; מפעיל שיחת ליווי עם מנטור / SME בארגון.</li>
+  <li><strong>תלות בין קורסים</strong>: שלב א' חייב להסתיים לפני התחלת שלב ב'. שלב ה' (קפסטון) דורש סיום שלבים א'-ד'.</li>
+</ul>
+
+<h3>2.3 שפה ומונחים</h3>
+<p>שפת התכנית: עברית. מונחים מקצועיים מובאים בעברית התקנית של תחום הבנקאות והמשפט הישראלי, עם הוספת המקבילה האנגלית (transliteration / industry term) כאשר היא בשימוש שוטף. דוגמה: <span class="keyword">ליווי בנקאי סגור</span> (closed accompanying finance), <span class="keyword">יחס כיסוי שירות החוב</span> (DSCR &mdash; Debt Service Coverage Ratio).</p>
+</section>
+
+<!-- ============================ PHASE A ============================ -->
+<section id="phaseA">
+<div class="phase-banner"><span class="phase-tag">שלב א'</span>יסודות פיננסיים וחשבונאיים</div>
+
+<!-- ============================ COURSE 1 ============================ -->
+<div class="course-card" id="course1">
+<span class="course-num">קורס 1</span>
+<h3>יסודות המימון &mdash; ערך הזמן של הכסף, מדדי השקעה ורגישות</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד (Learning Objective)</div>
+האנליסט יוכל, בקבלת תיאור עסקה (תזרים, ריבית, אופק זמן), לחשב באופן עצמאי את ה-NPV, ה-IRR, ה-LTV וה-DSCR של העסקה, להפעיל ניתוח רגישות (sensitivity / scenario) על המשתנים הקריטיים, ולהציג את התוצאות בטבלה עם המלצה כמותית מנומקת.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי (Final Deliverable)</div>
+מודל אקסל (תבנית מובנית מסופקת) שכולל: לוח תזרים מזומנים על פני אופק העסקה, חישוב NPV ו-IRR בנוסחאות, שלוש מטריצות רגישות (ריבית, היקף הכנסות, עלייה בעלויות), טבלת LTV ו-DSCR לאורך חיי האשראי, ופסקת סיכום בעברית מקצועית באורך 200 מילה.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה (Success Metrics)</div>
+<ul>
+  <li>ציון עובר בבחינת גמר: 75%.</li>
+  <li>חובה להציג שליטה ב: חישוב IRR ו-NPV בנוסחה, הבחנה בין ריבית נומינלית לאפקטיבית, חישוב LTV עם הבדל בין שווי שוק לשווי בכפיה (forced sale), בניית DSCR שנתי וכולל.</li>
+  <li>תרגילים נדרשים לפתיחת בחינה: 10 (3 בסיסיים, 4 יישומיים, 3 מתקדמים).</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים (Curriculum Outline)</div>
+<div class="syllabus">
+
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; ערך הזמן של הכסף</div>
+<ul>
+  <li>1.1 ריבית פשוטה לעומת ריבית דריבית (compounding); נוסחאות בסיס.</li>
+  <li>1.2 ריבית נומינלית, ריבית אפקטיבית, ריבית רציפה; המרות.</li>
+  <li>1.3 ערך עתידי (FV) וערך נוכחי (PV); ערך נוכחי של תזרים שאינו אחיד.</li>
+  <li>1.4 אנונה (annuity), אנונה דחויה, perpetuity; דוגמאות מתחום הלוואות.</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; ריבית, אינפלציה והצמדה בישראל</div>
+<ul>
+  <li>2.1 ריבית בנק ישראל (the Bank of Israel rate) ושיעור הפריים; השפעה על אשראי לדיור ועסקים.</li>
+  <li>2.2 הצמדה למדד המחירים לצרכן; הלוואות צמודות, לא צמודות, ושיעורי ריבית קבועה / משתנה.</li>
+  <li>2.3 שער חליפין והשפעה על מימון פרויקטים שצמודים למט"ח (אג"ח, חוב חיצוני).</li>
+  <li>2.4 ריבית לסוף תקופה לעומת ראשית תקופה; הבדל בין pmt לסוף ולתחילה.</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; מדדי כדאיות השקעה</div>
+<ul>
+  <li>3.1 NPV: בחירת שיעור היוון, ריבית חסרת סיכון, פרמיית סיכון (WACC על קצה המזלג).</li>
+  <li>3.2 IRR ו-MIRR; מקרים שבהם IRR אינו אמין (תזרים לא קונבנציונלי).</li>
+  <li>3.3 תקופת החזר (payback) ותקופת החזר מהוון.</li>
+  <li>3.4 השוואת פרויקטים שונים בגדלים שונים; בעיית הסקאלה.</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; מדדי אשראי: LTV ו-DSCR</div>
+<ul>
+  <li>4.1 LTV (Loan to Value): שווי שוק, שווי בכפייה (forced sale), Loan to Cost.</li>
+  <li>4.2 DSCR: הגדרה, חישוב על EBITDA לעומת על תזרים מתואם, תקרת מינימום בענף.</li>
+  <li>4.3 מנופי אשראי: השפעת מינוף על תשואה ועל סיכון; נקודת איזון.</li>
+  <li>4.4 יחסים נוספים: ICR (Interest Coverage), Debt/EBITDA, מינוף נטו.</li>
+</ul>
+</div>
+
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; ניתוח רגישות וניתוח תרחישים</div>
+<ul>
+  <li>5.1 בחירת המשתנים הרגישים בפרויקט נדל"ן (מחיר מכירה למ"ר, עליית בנייה, ריבית, מועד סיום).</li>
+  <li>5.2 מטריצת רגישות דו-ממדית באקסל; כלי Data Table.</li>
+  <li>5.3 תרחישים: בסיס, אופטימי, פסימי; הסתברויות וערך צפוי.</li>
+  <li>5.4 ניתוח Break-Even למשתנה אחד ולשניים בו-זמנית.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> Brealey, Myers &amp; Allen, <em>Principles of Corporate Finance</em>, פרקים 1-6 (גרסה עברית או אנגלית). מסמך מלווה פנים-ארגוני: "תזרימי פרויקט יזמי &mdash; תבנית סטנדרטית של החברה". מסמכי בנק ישראל בנושא ריבית הפריים והצמדה. <br>
+<strong>מומלץ:</strong> CFI &mdash; Commercial Real Estate Fundamentals (online); CFA Institute Level I, Quantitative Methods sections on TVM and discounted cash flow.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+  <tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+  <tr><td>10 שעות</td><td>10 שעות</td><td>2 שעות</td><td>22 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 2 ============================ -->
+<div class="course-card" id="course2">
+<span class="course-num">קורס 2</span>
+<h3>יסודות החשבונאות &mdash; קריאת דוחות, GAAP, צבירה לעומת מזומן</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לקרוא ולפענח שלושה דוחות כספיים סטנדרטיים (מאזן, רווח והפסד, תזרים מזומנים) של חברה ישראלית רגילה ושל יזמית נדל"ן, להסביר את הקשר ביניהם (articulation), לזהות סעיפי "ערך מבוסס שווי הוגן" לעומת "מבוסס עלות", ולהבדיל בין רווח חשבונאי ל-cash flow.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+מסמך ניתוח באורך 3-4 עמודים, על דוחות כספיים אנונימיים שסופקו, הכולל: סיכום מבנה הדוחות, זיהוי שיטות הכרה (revenue recognition), מיפוי סעיפי הון חוזר, חיבור בין רווח נקי לתזרים מפעילות שוטפת, וזיהוי שני סעיפים שדורשים בירור נוסף עם רואה החשבון של החברה.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 75%.</li>
+  <li>שליטה הכרחית: זיהוי הון חוזר וכושר נזילות, הכרה בהכנסה ב-IFRS 15 (גם בחוזי בנייה ארוכי-טווח), הבחנה בין נדל"ן להשקעה (IAS 40) למלאי דירות בפיתוח, כללי הצמידה והשערוך לדוח רווח כולל.</li>
+  <li>תרגילים נדרשים: 12 (כולל 4 ניתוחי מאזן אמיתיים אנונימיים).</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; משוואת החשבונאות וכללי היסוד</div>
+<ul>
+  <li>1.1 נכסים = התחייבויות + הון; שינויים בהון העצמי.</li>
+  <li>1.2 בסיס מזומן לעומת בסיס צבירה (accrual); דוגמאות מעשיות.</li>
+  <li>1.3 עקרון ההתאמה (matching), עקרון השמרנות, עקרון העסק החי (going concern).</li>
+  <li>1.4 הבדל בין IFRS לכללי חשבונאות מקובלים בישראל; מתי IFRS חובה (חברות ציבוריות).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; קריאת דוח רווח והפסד (P&amp;L)</div>
+<ul>
+  <li>2.1 הכנסות, עלות הכנסות, רווח גולמי, הוצאות תפעוליות, רווח תפעולי (EBIT).</li>
+  <li>2.2 EBITDA &mdash; הגדרה, יתרונות וחסרונות לאנליסט אשראי.</li>
+  <li>2.3 הוצאות מימון, מס, רווח נקי; רווח כולל אחר (OCI).</li>
+  <li>2.4 אקסטרפולציות וחזרתיות הכנסות (recurring vs. one-off).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; קריאת מאזן (Balance Sheet)</div>
+<ul>
+  <li>3.1 חלוקה לנכסים שוטפים ולא-שוטפים, התחייבויות שוטפות ולא-שוטפות.</li>
+  <li>3.2 הון חוזר, יחס שוטף, יחס מהיר.</li>
+  <li>3.3 רכוש קבוע, פחת, נדל"ן להשקעה (IAS 40), מלאי דירות בפרויקט (IFRS 15 / IAS 2).</li>
+  <li>3.4 הון עצמי: הון רשום, פרמיה, יתרת רווחים, רזרבות שערוך.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; דוח תזרים מזומנים</div>
+<ul>
+  <li>4.1 שלוש פעילויות: שוטפת, השקעה, מימון.</li>
+  <li>4.2 שיטה ישירה ועקיפה; תרגום רווח נקי לתזרים שוטף.</li>
+  <li>4.3 התאמות עיקריות: פחת, שינויים בהון חוזר, רווחי הון.</li>
+  <li>4.4 משמעות תזרים שלילי מתמשך; מתי זה תקין בחברה צומחת.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; ביאורים, מדיניות חשבונאית ואירועים מיוחדים</div>
+<ul>
+  <li>5.1 קריאת ביאור מדיניות חשבונאית.</li>
+  <li>5.2 אירועים לאחר תאריך מאזן (subsequent events).</li>
+  <li>5.3 התקשרויות, ערבויות, התחייבויות תלויות.</li>
+  <li>5.4 צד קשור: הערה על עסקאות בעלי שליטה ויזמים.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> דוגמת דוחות כספיים שנתיים IFRS &mdash; PwC Israel; ביאורי מבנה דוחות כספיים &mdash; IFRS Consulting (חוברת מסודרת); IAS 40, IFRS 15, IAS 2 (סיכומי תקנים בעברית). <br>
+<strong>מומלץ:</strong> Penman, <em>Financial Statement Analysis and Security Valuation</em>; חוברות הכנה למבחני רואה חשבון ישראלי בנושא חשבונאות פיננסית.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>14 שעות</td><td>12 שעות</td><td>2 שעות</td><td>28 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 3 ============================ -->
+<div class="course-card" id="course3">
+<span class="course-num">קורס 3</span>
+<h3>ניתוח דוחות כספיים &mdash; יזמי נדל"ן וקבוצות יזמיות</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל, בקבלת חבילת דוחות כספיים של חברה (3 שנים אחורה + רבעון אחרון), להוציא לוח יחסים פיננסיים מלא, להשוות לבנצ'מארק ענפי, לזהות שינויים מהותיים, לאתר red flags, ולכתוב תקציר ניתוח באורך 1.5-2 עמודים בשפה מקצועית, המתאים לשילוב במסמך לוועדת אשראי.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+דו"ח ניתוח דוחות כספיים מלא של חברה אנונימית מענף יזמות נדל"ן, הכולל: גליון יחסים פיננסיים תלת-שנתי, ניתוח אנכי ואופקי, פירוק רווח גולמי, ניתוח תזרים, איתור 3-5 red flags ספציפיים עם הצגת ראיות מתוך הדוחות, ופסקת המלצה ל-relationship manager.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 75%.</li>
+  <li>שליטה הכרחית: יחסי נזילות, רווחיות, יעילות, מינוף, כושר שירות חוב; ניתוח אנכי / אופקי; הבחנה בין דוחות יזם נדל"ן עם פרויקט יחיד לבין דוחות קבוצת חברות יזמיות עם תיק פרויקטים מגוון.</li>
+  <li>תרגילים נדרשים: 14 (כולל לפחות 5 מקרי בוחן מן השוק הישראלי).</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; מתודולוגיה לניתוח דוחות</div>
+<ul>
+  <li>1.1 שלבי הניתוח: הקשר ענפי &rarr; מבנה דוחות &rarr; יחסים &rarr; מגמות &rarr; אזהרות &rarr; סינתזה.</li>
+  <li>1.2 בחירת בנצ'מארק: ענפי, אסטרטגי, היסטורי-עצמי.</li>
+  <li>1.3 ניתוח אנכי (common-size) וניתוח אופקי (year-over-year).</li>
+  <li>1.4 איכות הדוחות: רואה חשבון, הסתייגויות (qualifications), הערת עסק חי.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; יחסים פיננסיים</div>
+<ul>
+  <li>2.1 נזילות: שוטף, מהיר, מזומנים, ימי הון חוזר.</li>
+  <li>2.2 רווחיות: גולמית, תפעולית, נטו, ROA, ROE, DuPont decomposition.</li>
+  <li>2.3 יעילות: ימי לקוחות, ימי ספקים, ימי מלאי, מחזור מלאי.</li>
+  <li>2.4 מינוף וסולבנטיות: D/E, Debt/EBITDA, מינוף נטו, יחס נכסים מוחשיים להתחייבויות.</li>
+  <li>2.5 כושר שירות חוב: DSCR, ICR, FCF/Debt.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; ניתוח יזם נדל"ן</div>
+<ul>
+  <li>3.1 הכרה בהכנסה בפרויקט בנייה (IFRS 15 לפי שלבי ביצוע / over time).</li>
+  <li>3.2 מלאי דירות בפיתוח לעומת נדל"ן להשקעה; השפעה על מאזן והון.</li>
+  <li>3.3 חוב נטו ברמת הפרויקט לעומת רמת חברה; SPV (חברת פרויקט).</li>
+  <li>3.4 שערוכי שווי הוגן והשפעתם על הון; אבחנה בין רווח חשבונאי לרווח כלכלי.</li>
+  <li>3.5 בדיקת התאמה בין דוחות לבין מצב פרויקט בפועל (הקבלה למצב ביצוע / שמאות).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; ניתוח קבוצת יזמות נדל"ן</div>
+<ul>
+  <li>4.1 דוחות מאוחדים של קבוצת חברות יזמיות; איחוד SPV-ים בתוך הקבוצה.</li>
+  <li>4.2 חוב נטו ברמת הקבוצה לעומת רמת פרויקט; ערבויות צולבות.</li>
+  <li>4.3 חלוקת רווחים והעברות בין חברות הקבוצה; עסקאות צד-קשור.</li>
+  <li>4.4 ריכוזיות פרויקטים, ריכוזיות גיאוגרפית, ריכוזיות סוגי נכס; משמעות לסיכון אשראי.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; דגלים אדומים (Red Flags)</div>
+<ul>
+  <li>5.1 הון חוזר שלילי מתמשך; התרחבות חוב לטווח קצר.</li>
+  <li>5.2 פערים גדולים בין רווח חשבונאי לתזרים שוטף.</li>
+  <li>5.3 גידול חריג בלקוחות / מלאי / נכסים בלתי מוחשיים.</li>
+  <li>5.4 שינויי מדיניות חשבונאית, החלפת רואה חשבון, איחור בדיווח.</li>
+  <li>5.5 עסקאות צד קשור גדולות, ערבויות הדדיות בין חברות הקבוצה.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; כתיבת סיכום ניתוח לאנליסט אשראי</div>
+<ul>
+  <li>6.1 מבנה הסיכום: רקע, ממצאים מספריים, סיכונים, נקודות בירור פתוחות.</li>
+  <li>6.2 שפה מקצועית, הימנעות מסופרלטיבים, ביסוס כל קביעה במספר.</li>
+  <li>6.3 שילוב גרפים וטבלאות: מתי כן, מתי לא.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> חוברת התאחדות התעשיינים &mdash; "ניתוח דוחות כספיים" (גלנדר ואגאי); סילבוס תל אביב &mdash; "ניתוח דוחות וערך נדל"ן"; סקירות ענפיות של חברות אשראי וסקטור נדל"ן (S&amp;P Maalot, Midroog).<br>
+<strong>מומלץ:</strong> Subramanyam, <em>Financial Statement Analysis</em>; פרק 2 של "המדריך להערכת שווי חברות" (valuation.co.il); CFA Level II Financial Reporting and Analysis.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>16 שעות</td><td>16 שעות</td><td>3 שעות</td><td>35 שעות</td></tr>
+</table>
+</div>
+</div>
+
+</section>
+
+<!-- ============================ PHASE B ============================ -->
+<section id="phaseB">
+<div class="phase-banner"><span class="phase-tag">שלב ב'</span>נדל"ן: בנייה, רישום ומשפט</div>
+
+<!-- ============================ COURSE 4 ============================ -->
+<div class="course-card" id="course4">
+<span class="course-num">קורס 4</span>
+<h3>יסודות הבנייה למשקיעים &mdash; שלבי בנייה, מפרטים, כתב כמויות ובקרת ביצוע</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל, בעיון בלוח גנט של פרויקט בנייה, מפרט טכני וכתב כמויות, להבין מה צפוי בכל שלב, לזהות עיכובים פוטנציאליים, להבחין בין סטיית עלות מהותית לסטייה תקינה, ולבחון את סבירות לוח התשלומים מול לוח ביצוע.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+ניתוח של פרויקט אמיתי (אנונימי) &mdash; טבלת שלבי בנייה (חפירה, יסודות, שלד, מעטפת, גמרים, פיתוח, אכלוס) עם אומדני זמן ועלות, השוואה למפרט טכני שסופק, וזיהוי 3 סיכוני ביצוע ספציפיים (לדוגמה: עיכוב באבן ירושלמית, חוסר זמינות פלדה, היעדר עוגנים בקרקע גרועה).
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 75%.</li>
+  <li>שליטה הכרחית: שלבי בנייה ולוחות זמנים אופייניים, מבני עלות (קרקע, בנייה ישירה, פיתוח, אגרות, שיווק, מימון, רווח יזם), קריאת כתב כמויות, חישוב עלות בנייה למ"ר ב-2026 בישראל.</li>
+  <li>תרגילים נדרשים: 10.</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; מבני בנייה והנדסה אזרחית בסיסית למימון</div>
+<ul>
+  <li>1.1 בנייה קונבנציונלית, בנייה רוויה, בנייה טרומית, בנייה מתועשת.</li>
+  <li>1.2 רכיבי בניין: שלד, מעטפת, מערכות, גמרים, פיתוח חוץ.</li>
+  <li>1.3 קרקע: סוגי קרקע, סקר קרקע, יסודות עמוקים לעומת רדודים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; שלבי פרויקט בנייה</div>
+<ul>
+  <li>2.1 מקדמיים: רישוי, היתר בנייה, חיבורי תשתית, גידור.</li>
+  <li>2.2 חפירה ודיפון; יסודות; שלד; חיפוי / מעטפת.</li>
+  <li>2.3 גמרים פנימיים, מערכות (חשמל, אינסטלציה, מיזוג, תקשורת).</li>
+  <li>2.4 פיתוח, חניות, מעלית, מסירה ואכלוס; טופס 4.</li>
+  <li>2.5 לוח גנט אופייני &mdash; פרויקט מגורים בן 8-12 קומות בישראל.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; מפרט טכני וכתב כמויות</div>
+<ul>
+  <li>3.1 מפרט טכני סטנדרטי (מפרט מכר &mdash; טופס "מפרט מכר" של חוק המכר דירות).</li>
+  <li>3.2 כתב כמויות (BOQ): מבנה, סעיפים, יחידות מידה, מחיר יחידה.</li>
+  <li>3.3 חוזה אחיד עם קבלן מבצע; הבדל בין מחיר פאושלי למחיר לפי כמויות.</li>
+  <li>3.4 שינויים, תוספות, חריגות (variations, change orders).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; עלויות בנייה בישראל</div>
+<ul>
+  <li>4.1 עלות בנייה ישירה למ"ר לפי אזור ולפי סוג בנייה (2025-2026).</li>
+  <li>4.2 עלויות פיתוח &mdash; הקצאות לפיתוח לפי רשויות מקומיות (אגרות והיטלי השבחה).</li>
+  <li>4.3 הוצאות שיווק, ניהול ופיקוח, יועצים, אגרות והיטלים.</li>
+  <li>4.4 רזרבות לבלתי-צפוי (contingency) &mdash; אחוז נורמטיבי 5%-10%.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; בקרת ביצוע ופיקוח מימון</div>
+<ul>
+  <li>5.1 תפקיד המפקח החיצוני (engineer) של הגוף המממן.</li>
+  <li>5.2 דוח התקדמות חודשי; אישור פעימת תשלום (drawdown).</li>
+  <li>5.3 חישוב % ביצוע פיזי לעומת % כספי; פערים והתרעות.</li>
+  <li>5.4 תקלות נפוצות: עיכוב היתר, חריגה תקציבית, החלפת קבלן.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> "מפרט מכר &mdash; חוק המכר דירות" (משרד הבינוי והשיכון); תקנות התכנון והבנייה &mdash; פרק רישוי; סקרי "דקל" &mdash; מחירי בנייה. <br>
+<strong>מומלץ:</strong> חוברות הסבר של איגוד החברות הקבלניות בישראל; CFI &mdash; Construction Finance Module.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>10 שעות</td><td>8 שעות</td><td>2 שעות</td><td>20 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 5 ============================ -->
+<div class="course-card" id="course5">
+<span class="course-num">קורס 5</span>
+<h3>רישום זכויות במקרקעין בישראל &mdash; טאבו, גוש-חלקה, רמ"י וחברה משכנת</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל, בקבלת מסמך רישום של נכס (נסח טאבו, אישור זכויות מרמ"י, או אישור זכויות מחברה משכנת), לקרוא ולפענח את כל פרטיו, לזהות את בעלי הזכויות, את סוג הזכות (בעלות, חכירה, חכירה לדורות, רישיון), שעבודים והערות, וליצור סיכום זכויות מובנה לטובת תיק האשראי.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+"חוות דעת רישום" של 1-2 עמודים על נכס אנונימי, הכוללת: זיהוי הבעלים והזכויות, פירוט סוג הקרקע (פרטי / מינהל), פירוט שעבודים פעילים, הערות אזהרה, צווי עיקול, התרעה על פערים בין מסמכים, והמלצה אם הנכס מתאים לשמש בטוחה.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 80% (מסיבת קריטיות בטוחתית).</li>
+  <li>שליטה הכרחית: קריאת נסח טאבו (ראשי, היסטורי, חופשי), הבחנה בין בעלות לחכירה, זיהוי שעבודים והערות אזהרה, תהליך אישור עסקה ברמ"י, מעמד דירת חברה משכנת ותהליך הרישום בטאבו.</li>
+  <li>תרגילים נדרשים: 10 (כולל ניתוח של 3 נסחי טאבו אמיתיים).</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; מבוא לדיני קניין במקרקעין</div>
+<ul>
+  <li>1.1 חוק המקרקעין, התשכ"ט-1969 &mdash; מסגרת רעיונית.</li>
+  <li>1.2 סוגי זכויות: בעלות, חכירה, חכירה לדורות, רישיון, זכות שימוש.</li>
+  <li>1.3 עקרון הפומביות (publicity) ועקרון הקניין הסופי.</li>
+  <li>1.4 רישום קונסטיטוטיבי (constitutive) לעומת דקלרטיבי.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; לשכת רישום המקרקעין (טאבו)</div>
+<ul>
+  <li>2.1 מבנה הטאבו: גוש, חלקה, תת-חלקה.</li>
+  <li>2.2 שלושה סוגי נסח: נסח רגיל, נסח היסטורי, נסח חופשי (Tabu Online).</li>
+  <li>2.3 קריאת נסח: בעלות, ייעוד, שעבודים (משכנתאות, צווי עיקול), הערות אזהרה.</li>
+  <li>2.4 תהליך רישום: מסמכים נדרשים, ועדת רישום, תיקון רישום.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; רשות מקרקעי ישראל (רמ"י)</div>
+<ul>
+  <li>3.1 מקרקעי ישראל &mdash; הגדרה ובעלות (מדינה, רשות הפיתוח, קק"ל).</li>
+  <li>3.2 חוזה חכירה לדורות; דמי חכירה ראשוניים, מהוונים, שנתיים.</li>
+  <li>3.3 אישור זכויות מרמ"י: מבנה המסמך, תוקף, מגבלות.</li>
+  <li>3.4 העברת זכויות, היוון, שינוי ייעוד, עסקאות הוניות.</li>
+  <li>3.5 דירות בשיטת "חכירה מהוונת" לעומת חכירה רגילה.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; חברה משכנת</div>
+<ul>
+  <li>4.1 מהי חברה משכנת; מתי נכסים אינם רשומים בטאבו.</li>
+  <li>4.2 אישור זכויות מחברה משכנת: כיצד לקרוא, מה תקפותו, ההבדל מאישור טאבו.</li>
+  <li>4.3 רישום בית משותף וחברות בנייה; תהליך מעבר מחברה משכנת לטאבו.</li>
+  <li>4.4 סיכוני בטוחה במצב של חברה משכנת בלבד.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; שעבודים, הערות אזהרה ומעמד נושים</div>
+<ul>
+  <li>5.1 משכנתא: רישום, סדר עדיפות, הצמדה, תוספות.</li>
+  <li>5.2 הערת אזהרה (cautionary note) &mdash; משמעותה והשפעתה.</li>
+  <li>5.3 צווי עיקול, צווי מניעה, פירוקים.</li>
+  <li>5.4 בדיקות שגרה: רישום משכון בכרטיס משכון, רשם החברות, נתיב 70.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> חוק המקרקעין, התשכ"ט-1969 (טקסט מלא); מדריך לקריאת נסח טאבו (משרד המשפטים); דף הסבר אישור זכויות &mdash; רמ"י; מדריך חברה משכנת (יסמינת לוטם, או מקור פנים-ארגוני).<br>
+<strong>מומלץ:</strong> פרופ' י' ויסמן, <em>דיני קניין &mdash; חזקה ושימוש</em>; מאמרי "מרכז הנדל"ן".</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>12 שעות</td><td>10 שעות</td><td>2 שעות</td><td>24 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 6 ============================ -->
+<div class="course-card" id="course6">
+<span class="course-num">קורס 6</span>
+<h3>דיני חוזים ומסמכים משפטיים בנדל"ן</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לקרוא, לפענח ולהעריך מסחרית את ההסכמים המרכזיים בתיק נדל"ן: הסכם רכישת קרקע, הסכם קומבינציה, הסכם קבלן מבצע, הסכם שיתוף בין שותפים, הסכם מכר דירה. הוא יזהה סעיפים מהותיים לחיתום אשראי, יזהה סעיפים מסוכנים, וינסח שאלות בירור משפטיות.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+"דוח ביקורת חוזים" באורך 4-6 עמודים על תיק חוזים אנונימי, הכולל: מיפוי מי הצדדים בכל הסכם, זיהוי סעיפי תנאי מתלים, זיהוי ערבויות וביטוחים, זיהוי תניות בלעדיות / שעבודים שליליים (negative pledge), ורשימת סעיפים שדורשים בירור / חידוד מול היועץ המשפטי.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 75%.</li>
+  <li>שליטה הכרחית: עקרונות חוק החוזים, הבחנה בין הסכם רכישה רגיל לעסקת קומבינציה (תמורות נטו לעומת תמורות יחסיות), זיהוי תניות מהותיות, מנגנוני הפרה ופיצויים מוסכמים.</li>
+  <li>תרגילים נדרשים: 12.</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; דיני חוזים &mdash; עקרונות יסוד למימון</div>
+<ul>
+  <li>1.1 חוק החוזים (חלק כללי) &mdash; הצעה וקיבול, גמירות דעת, מסוימות.</li>
+  <li>1.2 תנאי מתלה ותנאי מפסיק; נפקות לליווי בנקאי.</li>
+  <li>1.3 הפרה יסודית, ביטול חוזה, אכיפה, פיצויים מוסכמים.</li>
+  <li>1.4 חוק המחאת חיובים &mdash; המחאת זכויות לטובת מממן.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; הסכם רכישת קרקע</div>
+<ul>
+  <li>2.1 מבנה ההסכם: מבוא, מצגים (representations), תמורה, מועדים, בטוחות.</li>
+  <li>2.2 דחיית מועד תשלום מותנה ברישום הערת אזהרה והעברת חכירה.</li>
+  <li>2.3 בדיקת נאותות (due diligence) משפטית-תכנונית.</li>
+  <li>2.4 מיסים בעסקת רכישה: מס רכישה, מס שבח (החייב במס), מע"מ.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; עסקת קומבינציה</div>
+<ul>
+  <li>3.1 הגדרה: בעל קרקע + יזם, מבנה ההמרה (יחידות בתמורה לבנייה).</li>
+  <li>3.2 קומבינציה מלאה לעומת חלקית; אחוזי תמורה אופייניים.</li>
+  <li>3.3 רישום זכויות לפי קומבינציה; השפעה על שעבוד וליווי.</li>
+  <li>3.4 מיסוי קומבינציה (מבט כללי, ללא היכנסות לעומק); נפקות לתזרים יזם.</li>
+  <li>3.5 הסכם קומבינציה לעומת הזמנת קבלן מבצע &mdash; מבחני המהות (פסיקת בית המשפט).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; הסכם קבלן מבצע</div>
+<ul>
+  <li>4.1 חוזה מבצע פאושלי; חוזה לפי כתב כמויות.</li>
+  <li>4.2 ערבויות: ערבות ביצוע, ערבות בדק, ערבות מתקדמות.</li>
+  <li>4.3 מועדים, פיצויים מוסכמים על איחור, סעיפי כוח עליון.</li>
+  <li>4.4 שינויים, חישוב חריגות, מנגנוני יישוב סכסוכים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; הסכם שותפות / הסכם שיתוף</div>
+<ul>
+  <li>5.1 שותפויות בפרויקט יזמי; חברה ייעודית (SPV) או שותפות לא רשומה.</li>
+  <li>5.2 חלוקת רווחים והפסדים; ערבויות הדדיות.</li>
+  <li>5.3 מנגנוני יציאה (exit), זכויות סירוב ראשון, BMBY (Buy-Me-Buy-You).</li>
+  <li>5.4 תוקף הסכם השיתוף מול הגוף המממן; דרישת סעיפי "כפיפות מימון".</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; הסכם מכר דירה (קבלן &mdash; רוכש)</div>
+<ul>
+  <li>6.1 חוק המכר (דירות), התשל"ג-1973 ו-חוק המכר (הבטחת השקעות).</li>
+  <li>6.2 מנגנוני בטוחה: ערבות חוק מכר, פוליסת ביטוח, רישום הערת אזהרה.</li>
+  <li>6.3 בדק ואחריות &mdash; תקופות בדק לפי החוק.</li>
+  <li>6.4 קופת המכר; תשלום ראשון בגובה 7%.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> חוק החוזים (חלק כללי), התשל"ג-1973; חוק המכר (דירות); חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות); דוגמת הסכם רכישת קרקע מתוקנן (פנים-ארגוני); דוגמת הסכם קומבינציה.<br>
+<strong>מומלץ:</strong> ג' שלו, <em>דיני חוזים</em> (פרקי יסוד); א' זמיר, <em>חוק המכר &mdash; פרשנות</em>.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>14 שעות</td><td>12 שעות</td><td>3 שעות</td><td>29 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 7 ============================ -->
+<div class="course-card" id="course7">
+<span class="course-num">קורס 7</span>
+<h3>מוסדות תכנון וחוק התכנון והבנייה</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לקרוא תכנית בניין עיר (תב"ע) ותכנית מתאר (תמ"א), לזהות זכויות בנייה רלוונטיות, להבין באיזה שלב תכנוני נמצא הפרויקט, להעריך את הסיכון התכנוני להמשך מימוש, ולבדוק התאמה בין רישוי הפרויקט לבין הזכויות התכנוניות.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+"דוח מצב תכנוני" של 2-3 עמודים על מגרש אנונימי, הכולל: תכנית/ות חלות, ייעוד קרקע, אחוזי בנייה ושטחים מותרים, מצב בקשת היתר, תקנות הקלות / שימוש חורג, סיכון תכנוני (גבוה / בינוני / נמוך) ונימוק.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 75%.</li>
+  <li>שליטה הכרחית: היררכיית מוסדות תכנון, מסלולי קידום תכנית (סעיפים 62א, 77/78, 197), קריאת תקנון תב"ע, היתר בנייה, היטל השבחה, רישוי זמין.</li>
+  <li>תרגילים נדרשים: 10.</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; חוק התכנון והבנייה &mdash; מבט כללי</div>
+<ul>
+  <li>1.1 חוק התכנון והבנייה, התשכ"ה-1965 &mdash; מבנה ועקרונות.</li>
+  <li>1.2 היררכיית מוסדות: מועצה ארצית, ועדה מחוזית, ועדה מקומית.</li>
+  <li>1.3 מסלולי תכנית: ועדה מקומית, מחוזית, ות"ל, ותמ"ל.</li>
+  <li>1.4 שינויי חקיקה אחרונים &mdash; הקלות וקיצורי הליכים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; היררכיית התכניות</div>
+<ul>
+  <li>2.1 תמ"א (תכנית מתאר ארצית) &mdash; דוגמאות: תמ"א 35, 38, 70.</li>
+  <li>2.2 תמ"מ (תכנית מתאר מחוזית).</li>
+  <li>2.3 תכנית מתאר מקומית.</li>
+  <li>2.4 תב"ע (תכנית מפורטת); הוראות, תשריט, נספחים.</li>
+  <li>2.5 קריאת תקנון תב"ע: שטחים מותרים, ייעוד, גובה, צפיפות, חניה.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; זכויות בנייה ושטחים</div>
+<ul>
+  <li>3.1 שטח עיקרי לעומת שטח שירות.</li>
+  <li>3.2 אחוזי בנייה ברוטו / נטו.</li>
+  <li>3.3 חישובי זכויות: יחידות דיור, מ"ר עיקרי, מספר קומות, גובה.</li>
+  <li>3.4 הקלות (deviations) &mdash; מסגרות חוקיות (תקנה הקלות 6%, 10%).</li>
+  <li>3.5 שימוש חורג; תקופות, הליך, השפעה על שווי.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; מסלולי קידום תכנית מהירים</div>
+<ul>
+  <li>4.1 תמ"א 38 / תמ"א 70 / תמ"א 38/2 (הריסה ובנייה).</li>
+  <li>4.2 פינוי בינוי.</li>
+  <li>4.3 ועדה למתחמים מועדפים לדיור (ותמ"ל).</li>
+  <li>4.4 חוק הקלות במגזר העסקי.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; היתר בנייה ורישוי</div>
+<ul>
+  <li>5.1 שלבי הליך הרישוי במערכת רישוי זמין.</li>
+  <li>5.2 בקשה להיתר &mdash; ייעוץ, מתכננים, גרמושקה.</li>
+  <li>5.3 התנגדויות, תיקונים, אישור.</li>
+  <li>5.4 אגרות והיטלים: אגרת בנייה, היטל השבחה, היטלי פיתוח, אגרות מים וביוב.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; פגיעה תכנונית והיטל השבחה</div>
+<ul>
+  <li>6.1 סעיף 197 לחוק התכנון והבנייה &mdash; פיצוי בגין פגיעה.</li>
+  <li>6.2 היטל השבחה &mdash; תחשיב, חבות, דחייה למועד מימוש.</li>
+  <li>6.3 שמאי מכריע / ועדת ערר; משמעות לעלויות הפרויקט.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> חוק התכנון והבנייה, התשכ"ה-1965 &mdash; פרקים ה'-י'; מצגת איתור תוכניות (apps.land.gov.il/TabaSearch); סילבוס "דיני תכנון ובנייה" &mdash; האוניברסיטה העברית (62842).<br>
+<strong>מומלץ:</strong> א' רגב, <em>חוק התכנון והבנייה &mdash; פירוש</em>; מאמרים במרכז הנדל"ן בנושא ועדות תכנון ותהליכי קידום.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>14 שעות</td><td>10 שעות</td><td>3 שעות</td><td>27 שעות</td></tr>
+</table>
+</div>
+</div>
+
+</section>
+
+<!-- ============================ PHASE C ============================ -->
+<section id="phaseC">
+<div class="phase-banner"><span class="phase-tag">שלב ג'</span>שמאות, ניתוח וסיכון</div>
+
+<!-- ============================ COURSE 8 ============================ -->
+<div class="course-card" id="course8">
+<span class="course-num">קורס 8</span>
+<h3>עקרונות שמאות מקרקעין &mdash; קריאת חוות דעת שמאי וזיהוי הנחות מפוקפקות</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לקרוא חוות דעת שמאי מקרקעין, לזהות את גישת ההערכה שננקטה (השוואה, היוון הכנסות, עלות, חילוץ, חכירה), לבחון את ההנחות המרכזיות, להעריך אם השווי המוצג סביר, ולנסח שאלות חידוד שמאיות שיוצגו לוועדת אשראי.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+"דוח ביקורת שמאות" של 3 עמודים על חוות דעת שמאי שסופקה (אנונימית), הכולל: זיהוי הגישה והנחות עבודה, בחינת מקדמי השפעה, השוואה לעסקאות שווי מן השוק, איתור פערים בין השווי לבין שווי בכפיה / שווי לליווי, וציון אם השווי המוצג מתאים לחישוב LTV.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 80% (קריטיות לחיתום).</li>
+  <li>שליטה הכרחית: שלוש גישות הערכה ויישומן בנדל"ן ישראלי, חילוץ עלויות וחילוץ קרקע, היוון הכנסות בשטחים מסחריים, מקדמי תקופת שיווק וירידת ערך, עקרונות תקן 17 ו-19 של מועצת שמאי המקרקעין.</li>
+  <li>תרגילים נדרשים: 10 (כולל ניתוח של 4 חוות דעת אמיתיות אנונימיות).</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; מקצוע השמאי בישראל</div>
+<ul>
+  <li>1.1 חוק שמאי מקרקעין, התשס"א-2001; מועצת שמאי המקרקעין.</li>
+  <li>1.2 תקני שמאות: תקן 17 (גילוי מינימום), תקן 19 (פיצויים), תקן 21 (פרויקטים יזמיים).</li>
+  <li>1.3 כללי אתיקה ועצמאות שמאי; שמאי הסכם לעומת שמאי מטעם.</li>
+  <li>1.4 שמאי מכריע; הליכי ערר.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; שלוש גישות ההערכה</div>
+<ul>
+  <li>2.1 גישת ההשוואה (Comparable Sales / Market Approach): בחירת עסקאות, התאמות, מקדמים.</li>
+  <li>2.2 גישת ההכנסות (Income / DCF): היוון הכנסות עתידיות, שיעור היוון מתאים, תקופת היוון.</li>
+  <li>2.3 גישת העלות (Cost Approach): שווי קרקע + עלות הקמה - פחת.</li>
+  <li>2.4 גישת החילוץ (Residual): שווי בנוי - עלויות בנייה - רווח יזם = שווי קרקע.</li>
+  <li>2.5 התאמת הגישה לסוג הנכס: מגרש, מבנה מסחרי, פרויקט בשלבי בנייה.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; קריאת מבנה חוות דעת</div>
+<ul>
+  <li>3.1 פרק זיהוי הנכס &mdash; מספרי גוש/חלקה, נסח טאבו, תכניות.</li>
+  <li>3.2 פרק תכנוני &mdash; זכויות, ייעוד, מצב סטטוטורי.</li>
+  <li>3.3 פרק שוק &mdash; עסקאות השוואה.</li>
+  <li>3.4 פרק חישובי שווי &mdash; הצגת הנחות, מקדמים ומסקנות.</li>
+  <li>3.5 שווי "כפי שהוא" (As-Is), "לאחר השלמה" (As Completed), "שווי מימוש מהיר" (forced sale).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; הנחות ומקדמים &mdash; איפה מסתתר הסיכון</div>
+<ul>
+  <li>4.1 שיעור היוון בלתי-מציאותי בעסקאות מסחריות.</li>
+  <li>4.2 בחירת עסקאות השוואה לא רלוונטיות (מיקום, תקופה, מצב משפטי).</li>
+  <li>4.3 הערכת זכויות תכנוניות עתידיות בלא ודאות (תכנית טרם מאושרת).</li>
+  <li>4.4 הזנחת עלויות נסתרות (פיתוח, היטלים, אגרות).</li>
+  <li>4.5 פערים בין שווי שוק לשווי לבטוחה / שווי בכפיה (מקדם 70%-85% נורמטיבי).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; שמאות לבטוחה ולליווי</div>
+<ul>
+  <li>5.1 שמאות לבטוחה: שיטת חישוב LTV מבוסס שווי מימוש מהיר.</li>
+  <li>5.2 שמאות מלווה: דוחות תקופתיים, % ביצוע פיזי, אישור פעימת תשלום.</li>
+  <li>5.3 התאמת שמאות למצב פרויקט בפועל; דוח אזהרה משמאי.</li>
+  <li>5.4 ניגוד עניינים: שמאי שמאי מטעם יזם לעומת שמאי מטעם מממן.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> תקני שמאות 17, 19, 21 &mdash; אתר מועצת שמאי מקרקעין; חוברת לימוד שמאות מקרקעין &mdash; אוניברסיטת בר-אילן (תכנית רום); דוגמאות חוות דעת אנונימיות פנים-ארגוניות.<br>
+<strong>מומלץ:</strong> RICS Valuation Global Standards (Red Book); ספרי לימוד בתכניות הסמכת שמאי בישראל.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>12 שעות</td><td>12 שעות</td><td>3 שעות</td><td>27 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 9 ============================ -->
+<div class="course-card" id="course9">
+<span class="course-num">קורס 9</span>
+<h3>ניתוח פרויקטי נדל"ן וכדאיות כלכלית &mdash; מודל עלויות, הכנסות ורגישות</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לבנות, מאפס, מודל פיננסי מלא לפרויקט יזמי על קרקע פרטית או על קרקע רמ"י, הכולל: עלויות מלאות (קרקע, בנייה, פיתוח, אגרות, מימון, שיווק, ניהול), הכנסות צפויות (ממכירת דירות / סחר / השכרה), תזרים פרויקט תקופתי, חישוב רווח יזם, IRR, LTC ו-LTV, וניתוח רגישות מלא.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+מודל אקסל מלא של פרויקט נדל"ן יזמי (תבנית של החברה), כולל גליון תזרים תקופתי (חודשי או רבעוני), גליון רגישות, גליון תרחישים, וסיכום מנהלים בעברית באורך 1.5-2 עמודים שמציע המלצה ברמת גובה אשראי וריבית.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 80%.</li>
+  <li>שליטה הכרחית: בניית עץ עלויות, הקצאת עלויות לפי % ביצוע, חישוב הכנסות עם לוח שיווק, חישוב מימון בפעימות (drawdowns) וריבית מצטברת, רווח יזם נטו, יחס רווח לסיכון, LTV ו-LTC עם מקדמי בטיחות.</li>
+  <li>תרגילים נדרשים: 12 (כולל בניית מודלים מלאים מ-3 פרויקטים שונים).</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; מסגרת מודל פרויקט יזמי</div>
+<ul>
+  <li>1.1 ארכיטקטורת מודל: גליון הנחות, גליון עלויות, גליון הכנסות, גליון תזרים, גליון סיכום, גליון רגישות.</li>
+  <li>1.2 הפרדה בין הנחות מספריות לבין נוסחאות.</li>
+  <li>1.3 ציר זמן (חודשי / רבעוני / שנתי) בהתאם לאופי הפרויקט.</li>
+  <li>1.4 כללי שמירה, תיוג ובדיקות חוסן (sanity checks).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; מבנה עלויות פרויקט</div>
+<ul>
+  <li>2.1 רכישת קרקע (כולל מס רכישה, מע"מ, אגרות, ייעוץ, רישום).</li>
+  <li>2.2 עלויות פיתוח &mdash; אגרות והיטלי השבחה, חיבורי תשתית.</li>
+  <li>2.3 עלויות בנייה ישירה &mdash; כתב כמויות, מחיר למ"ר.</li>
+  <li>2.4 עלויות עקיפות: ניהול ופיקוח, יועצים, ביטוח, מסי קרקע.</li>
+  <li>2.5 עלויות מימון: הון עצמי, אשראי לקרקע, אשראי ליווי, ערבויות.</li>
+  <li>2.6 שיווק והוצאות מכירה (פרסום, סוכנים, בונוסים).</li>
+  <li>2.7 רזרבה לבלתי-צפוי (5%-10% מסך הפרויקט).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; הכנסות צפויות ולוח שיווק</div>
+<ul>
+  <li>3.1 קביעת מחיר מכירה למ"ר לפי שמאות וסקר שוק.</li>
+  <li>3.2 לוח מכירות: עקומת shaped (חצי-S) טיפוסית; קצב מכירה צפוי.</li>
+  <li>3.3 התאמות מחיר לאורך הפרויקט (presale discount, late premium).</li>
+  <li>3.4 הכנסה מהשכרה (פרויקט להשקעה / פרויקט עירוני להשכרה ארוכת טווח).</li>
+  <li>3.5 הכרה בתזרים: מועדי תשלום מרוכשים על-פי חוק המכר וחוזה הליווי.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; תזרים פרויקט וריבית מימון</div>
+<ul>
+  <li>4.1 בניית גליון תזרים תקופתי: עלויות יוצאות, תקבולים נכנסים.</li>
+  <li>4.2 פעימות מימון; חישוב יתרת חוב מצטברת לאורך הזמן.</li>
+  <li>4.3 ריבית בריבית דריבית במהלך הביצוע; capitalisation of interest.</li>
+  <li>4.4 שחרורי ערבויות וכספים בליווי סגור; קופת מכר.</li>
+  <li>4.5 חישוב סוף משחק: רווח גולמי לפרויקט, רווח נטו, רווח יזם נטו.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; מדדים פיננסיים לפרויקט</div>
+<ul>
+  <li>5.1 IRR פרויקטלי לעומת IRR הוני (Project IRR vs. Equity IRR).</li>
+  <li>5.2 NPV הפרויקט; שיעור היוון מתאים לפי סיכון.</li>
+  <li>5.3 רווח יזם כ-% מסך הכנסות; טווח נורמטיבי (15%-25% תלוי סיכון).</li>
+  <li>5.4 LTC, LTV, יחס מינוף הון עצמי / חוב.</li>
+  <li>5.5 כיסוי הוצאות מימון מתוך הכנסות (DSCR פרויקט).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; ניתוח רגישות, תרחישים והכרעת השקעה</div>
+<ul>
+  <li>6.1 בחירת המשתנים המהותיים: מחיר מכירה, עלות בנייה, ריבית, קצב מכירה, מועד גמר.</li>
+  <li>6.2 תרחישים: בסיס, פסימי (1.5 סטיית תקן שלילית), אופטימי.</li>
+  <li>6.3 ניתוח Break-Even על מחיר מ"ר ועל קצב מכירה.</li>
+  <li>6.4 Stress-Test לפי ירידה כוללת בשוק (ירידה של 10%-15% במחירי מכירה).</li>
+  <li>6.5 קביעת מסגרת אשראי מתוך תוצאות הרגישות; שולי בטיחות (covenants headroom).</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> תבנית מודל יזמי פנים-ארגונית; מאמרים על "מבנה תזרים פרויקט יזמי" &mdash; גרנט ת'ורנטון; CFI &mdash; Real Estate Financial Modeling.<br>
+<strong>מומלץ:</strong> Geltner et al., <em>Commercial Real Estate Analysis and Investments</em>; דוחות מחקר נדל"ן של חברות הדירוג (Maalot, Midroog).</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>14 שעות</td><td>20 שעות</td><td>3 שעות</td><td>37 שעות</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ============================ COURSE 10 ============================ -->
+<div class="course-card" id="course10">
+<span class="course-num">קורס 10</span>
+<h3>ניהול סיכונים במימון פרויקטי נדל"ן &mdash; זיהוי, כימות וניסוח</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לבנות "מטריצת סיכונים" של עסקת אשראי, לסווג סיכון לפי משפחות (שוק, ביצוע, מימון, רגולציה, צד-נגד, סייבר וכו'), לכמת השפעה והסתברות, להציע ביצורים (mitigants) ואינדיקטורים מקדימים, ולנסח את פרק הסיכונים במסמך לוועדת אשראי.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+"מסמך מטריצת סיכונים" של 3-4 עמודים על עסקת ליווי פרויקט יזמי, הכולל טבלת סיכונים מסודרת (סוג סיכון, תיאור, השפעה כספית, הסתברות, ביצור מתוכנן, אינדיקטור מעקב), עם פסקת סיכום שכותבת את ה"גמר סיכוני" של העסקה.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 75%.</li>
+  <li>שליטה הכרחית: סיווג סיכונים לפי 6-7 משפחות, כימות הסתברות (low/med/high) והשפעה כספית, בניית covenants ו-triggers, הבנת ביצורים בנקאיים סטנדרטיים (ערבויות אישיות, שיעבודים, חשבון נאמנות, ביטוח, ערבויות חוק מכר).</li>
+  <li>תרגילים נדרשים: 12.</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; מסגרת ניהול סיכוני אשראי</div>
+<ul>
+  <li>1.1 הגדרה: סיכון, אי-ודאות, סיכון אשראי לעומת סיכון תפעולי.</li>
+  <li>1.2 מסגרת PD-LGD-EAD &mdash; הסתברות לחדלות פירעון, חומרת הפסד, חשיפה.</li>
+  <li>1.3 expected loss לעומת unexpected loss; הקצאת הון.</li>
+  <li>1.4 מבנה ועדת אשראי וקבלת החלטות (3 lines of defense).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; סיכון שוק ונדל"ן</div>
+<ul>
+  <li>2.1 ירידת מחירים בשוק הדיור; עומק והיקף השפעה.</li>
+  <li>2.2 הרעה במכירות; קצב מכירה איטי מהמתוכנן.</li>
+  <li>2.3 שינויי ריבית מאקרו; השפעה על ביקושים ועלויות מימון.</li>
+  <li>2.4 ריכוזיות גיאוגרפית / סקטוריאלית בתיק; concentration risk.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; סיכון ביצוע (Execution Risk)</div>
+<ul>
+  <li>3.1 איחור בלוחות זמנים; פיצויים מוסכמים מקבלן.</li>
+  <li>3.2 כשל קבלן; הצורך בהחלפת קבלן בזמן ליווי.</li>
+  <li>3.3 חריגות תקציב; cost overrun beyond contingency.</li>
+  <li>3.4 בעיות איכות בנייה; ליקויי ביצוע, תביעות רוכשים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; סיכון מימון וצד-נגד</div>
+<ul>
+  <li>4.1 חוסר זמינות הון עצמי מהיזם; equity gap.</li>
+  <li>4.2 חוב נוסף שלא דווח (off-balance-sheet, ערבויות הדדיות).</li>
+  <li>4.3 כושר פירעון של היזם / קבוצת היזם.</li>
+  <li>4.4 קבלן וצדדי-נגד אחרים: רוכשים מסוכנים, ספקים גדולים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; סיכון רגולטורי ומשפטי</div>
+<ul>
+  <li>5.1 שינויים בחקיקה (מס, היטלי השבחה, חוק התכנון).</li>
+  <li>5.2 ביטול / השעיית היתרים; התנגדויות שכנים.</li>
+  <li>5.3 פערים בזכויות / הערות אזהרה / מחלוקות בעלות.</li>
+  <li>5.4 רגולציה על אשראי חוץ-בנקאי בישראל; פיקוח רשות שוק ההון.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; סיכוני סביבה ושוק נדל"ן ייחודיים</div>
+<ul>
+  <li>6.1 סיכון מאקרו ענפי: מחזוריות שוק הדיור, השפעת מדיניות מס דירה שלישית, היטלים.</li>
+  <li>6.2 סיכוני קצב מכירה: עיכוב במכירות, ירידה במחיר ממוצע ליחידה, lead-time שיווקי.</li>
+  <li>6.3 סיכוני סביבה: זיהום קרקע, סקרי קרקע, מבני שימור, חפירות עתיקות.</li>
+  <li>6.4 סיכון תכנוני: התנגדויות שכנים, עיכוב בוועדות, פסיקה משפטית מאוחרת.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 7 &mdash; ביצורים, covenants וניסוח סיכון לוועדה</div>
+<ul>
+  <li>7.1 ביצורים בנקאיים: שעבודים בכירים / כפופים, ערבויות אישיות וחברה אם, חשבון נאמנות, ביטוחים.</li>
+  <li>7.2 Covenants חיוביים ושליליים &mdash; דוגמאות מענף.</li>
+  <li>7.3 Triggers להעלאת ריבית, להזרמת הון, לעצירת drawdowns.</li>
+  <li>7.4 ניסוח פרק הסיכונים בלשון מקצועית: שם הסיכון, תיאור, חומרה, ביצור.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> מסמכי בנק ישראל בנושא ניהול סיכוני אשראי (הוראות ניהול בנקאי תקין &mdash; כללים רלוונטיים); RMA &mdash; Lending Decision Process (תקציר); מסמכי הליווי הסגור הסטנדרטיים של החברה.<br>
+<strong>מומלץ:</strong> Saunders &amp; Allen, <em>Credit Risk Measurement</em>; Joel Bessis, <em>Risk Management in Banking</em>.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>14 שעות</td><td>14 שעות</td><td>3 שעות</td><td>31 שעות</td></tr>
+</table>
+</div>
+</div>
+
+</section>
+
+<!-- ============================ PHASE D ============================ -->
+<section id="phaseD">
+<div class="phase-banner"><span class="phase-tag">שלב ד'</span>מבני מימון ובטוחות</div>
+
+<!-- ============================ COURSE 11 ============================ -->
+<div class="course-card" id="course11">
+<span class="course-num">קורס 11</span>
+<h3>ערבויות חוק המכר ומבני מימון &mdash; ליווי סגור / פתוח, ערבויות בנקאיות, SPV</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל לבחור ולנמק את מבנה המימון המתאים לעסקה (ליווי סגור / פתוח / היברידי / SPV / קונסורציום), להסביר את כללי ערבות חוק המכר (סוגים, פעימות, שחרור), ולפצל פעימות ערבויות והפעמים בקופת המכר.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+"מסמך אדריכלות מימון" של 4-5 עמודים על פרויקט יזמי שסופק, הכולל: מבנה הליווי המוצע (סגור / פתוח), הסבר על קופת המכר ומנגנון השחרור, תוואי ערבויות חוק מכר וערבויות פיננסיות, מבנה SPV מומלץ, ערבויות אישיות וערבויות חברה-אם, ולוח פעימות תשלום (drawdown schedule).
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 80%.</li>
+  <li>שליטה הכרחית: ליווי סגור לעומת פתוח, סוגי ערבות חוק מכר (סעיף 2(1)-2(5) לחוק המכר הבטחת השקעות), קופת מכר ופעימות שחרור, מבני SPV, נאמנויות וחשבונות נאמנות, ערבויות גג (top-up).</li>
+  <li>תרגילים נדרשים: 12.</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; חוק המכר (הבטחת השקעות) &mdash; מסגרת חקיקתית</div>
+<ul>
+  <li>1.1 חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות), התשל"ה-1974.</li>
+  <li>1.2 חמש הבטוחות החוקיות: ערבות בנקאית, פוליסת ביטוח, רישום משכנתא לטובת קונה, רישום בעלות / חכירה לטובת קונה, הערת אזהרה.</li>
+  <li>1.3 תקרת 7% &mdash; מועד תשלום ראשון ללא בטוחה.</li>
+  <li>1.4 פעימות תשלום מוגבלות בחוק; מתי נמסרת הערבות.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; ליווי בנקאי סגור</div>
+<ul>
+  <li>2.1 הגדרה: כל תקבולי הפרויקט נכנסים לחשבון נאמנות סגור.</li>
+  <li>2.2 חישוב כושר ערבות: קופת מכר &times; מקדם ביטחון.</li>
+  <li>2.3 שלבי שחרור: שחרור עודפים &rarr; חבילות שחרור לפי % ביצוע / % מכירה.</li>
+  <li>2.4 תפקיד שמאי המלווה ומפקח המלווה.</li>
+  <li>2.5 כשל אופייני בליווי סגור: deficit, חוסר איזון בין ערבויות שהונפקו לקופת המכר.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; ליווי פתוח (Open) ומבני ביניים</div>
+<ul>
+  <li>3.1 ליווי פתוח: ללא חשבון סגור, היזם מנהל את התזרים בעצמו.</li>
+  <li>3.2 מתי מתאים: ליווי משלים, פרויקטים קטנים, פרויקטים מסחריים.</li>
+  <li>3.3 ביטחונות חלופיים בליווי פתוח: שעבוד נכסים נוספים, ערבויות אישיות מורחבות.</li>
+  <li>3.4 ליווי היברידי: מבנה משולב.</li>
+  <li>3.5 ליווי משלים (mezz / junior) על גבי ליווי בנקאי בכיר.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; SPV (חברת פרויקט ייעודית)</div>
+<ul>
+  <li>4.1 מבנה SPV: למה צריך, יתרונות הפרדת חוב.</li>
+  <li>4.2 הסכם בעלי מניות; שעבודי מניות לטובת מממן.</li>
+  <li>4.3 כתב התחייבות צולב (cross-default), ערבויות חברה-אם.</li>
+  <li>4.4 שלבי הקמת SPV; בחירת שותפי הון; הסכמי שותף שותקת.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; ערבויות פיננסיות נוספות</div>
+<ul>
+  <li>5.1 ערבות ביצוע (performance bond) של הקבלן המבצע.</li>
+  <li>5.2 ערבות בדק (warranty bond).</li>
+  <li>5.3 ערבות מקדמות, ערבות מתקדמות.</li>
+  <li>5.4 ערבויות אישיות מבעלי שליטה: שיעור, סולמות, מנגנוני שחרור.</li>
+  <li>5.5 ערבויות חברה-אם; פדיון ערבות והשלכותיו.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; חשבונות נאמנות ומנגנוני שחרור</div>
+<ul>
+  <li>6.1 הקמת חשבון נאמנות בבנק (escrow); הסכם נאמנות.</li>
+  <li>6.2 כללי הפקדה ומשיכה; ניהול תזרים פרויקט בחשבון.</li>
+  <li>6.3 שחרור עודפים &mdash; קריטריונים מספריים; דוגמת חישוב.</li>
+  <li>6.4 חשבונות נפרדים: חשבון פרויקט, חשבון יזם, חשבון נאמנות חוק מכר.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 7 &mdash; מבני אשראי משלימים בנדל"ן</div>
+<ul>
+  <li>7.1 הלוואת קרקע (land loan) לפני קבלת ליווי מלא.</li>
+  <li>7.2 הלוואת גישור (bridge loan) להשלמת הון עצמי או לרכישת זכויות.</li>
+  <li>7.3 מימון בכיר לעומת מימון מזנין (mezzanine) על אותו פרויקט.</li>
+  <li>7.4 שילוב מקורות מימון: בנקאי בכיר + מימון משלים חוץ-בנקאי + הון עצמי.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות), התשל"ה-1974; הוראות ניהול בנקאי תקין &mdash; ליווי פרויקטים (פיקוח על הבנקים); מסמכי תבנית הליווי הסגור של החברה.<br>
+<strong>מומלץ:</strong> מאמר "מתחת לרדאר הפיקוח &mdash; האשראי החוץ-בנקאי לנדל"ן" (Calcalist); מסמכי הסבר של הכשרה חברה לביטוח ושל בנק ירושלים בנושא ליווי פרויקטים.</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים</th><th>בחינה</th><th>סה"כ</th></tr>
+<tr><td>16 שעות</td><td>14 שעות</td><td>3 שעות</td><td>33 שעות</td></tr>
+</table>
+</div>
+</div>
+
+</section>
+
+<!-- ============================ PHASE E ============================ -->
+<section id="phaseE">
+<div class="phase-banner"><span class="phase-tag">שלב ה' &mdash; קפסטון</span>יישום מקצועי</div>
+
+<!-- ============================ COURSE 12 ============================ -->
+<div class="course-card" id="course12">
+<span class="course-num">קורס 12 &mdash; קפסטון</span>
+<h3>כתיבת בקשת אשראי לוועדת אשראי</h3>
+
+<div class="field-block">
+<div class="field-label">מטרת לימוד</div>
+האנליסט יוכל, על בסיס תיק פרויקט יזמי נכנס מן השוק, להפיק מסמך מלא של "בקשת אשראי לוועדת אשראי", שכולל ניתוח עצמאי, החלטות שיפוטיות, המלצה כמותית, ומבנה לשוני וצורני שעומד בסטנדרט הפנים-ארגוני של החברה. המסמך עצמאי למספיק שוועדת אשראי תקבל החלטה מנומקת.
+</div>
+
+<div class="field-block">
+<div class="field-label">תוצר סופי</div>
+מסמך בקשת אשראי מלא לפרויקט אמיתי (אנונימי) שמסופק לאנליסט בתחילת הקפסטון, באורך 12-18 עמודים, הכולל את כל הפרקים הסטנדרטיים. המסמך נבחן הן על-ידי בחינה ממוחשבת והן על-ידי שני בודקים (SME / מנהל מחלקה) בהתאם ל-rubric.
+</div>
+
+<div class="field-block">
+<div class="field-label">מדדי הצלחה</div>
+<ul>
+  <li>ציון עובר: 80% בבחינת גמר; ציון עובר על המסמך הסופי לפי rubric של 5 קטגוריות (תוכן, ניתוח, ניסוח, שלמות, המלצה).</li>
+  <li>שליטה הכרחית: ארגון מסמך, בניית סיפור (narrative) קוהרנטי, סינתזה בין כל הקורסים הקודמים, ניסוח המלצה ברורה ובת-יישום.</li>
+  <li>תרגילים נדרשים לפתיחת הבחינה: כתיבה של 2 פרקי דוגמה (פרק רקע יזם + פרק ניתוח כלכלי) כעבודות ביניים.</li>
+</ul>
+</div>
+
+<div class="field-block">
+<div class="field-label">תכנית לימודים</div>
+<div class="syllabus">
+<div class="unit">
+<div class="unit-title">יחידה 1 &mdash; אנטומיה של בקשת אשראי</div>
+<ul>
+  <li>1.1 קוראי המסמך: ועדת אשראי, חתמים, מבקרים פנימיים, מבקרים חיצוניים.</li>
+  <li>1.2 תכלית כל פרק; היררכיית מסר.</li>
+  <li>1.3 מבנה מקובל: תקציר מנהלים, רקע, ניתוח כלכלי-פיננסי, ניתוח משפטי, בטוחות, סיכונים, המלצה, נספחים.</li>
+  <li>1.4 הבדל בין בקשה ראשונית, בקשת תוספת, בקשת חידוש.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 2 &mdash; תקציר מנהלים</div>
+<ul>
+  <li>2.1 מבנה התקציר: שמות הצדדים, סוג עסקה, היקף, ריבית, תקופה, מבנה ביטחונות, המלצה.</li>
+  <li>2.2 איך לכתוב תקציר שאומר הכל בעמוד אחד.</li>
+  <li>2.3 לקשר את התקציר לסיכונים המרכזיים ולביצורים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 3 &mdash; פרק רקע: יזם, פרויקט, שוק</div>
+<ul>
+  <li>3.1 פרופיל יזם: ניסיון, פרויקטים קודמים, מצב פיננסי, צוות.</li>
+  <li>3.2 פרופיל פרויקט: מיקום, תכנית, סטטוס תכנוני, היתרים.</li>
+  <li>3.3 שוק היעד: סקר ביקושים, מחירים, מתחרים.</li>
+  <li>3.4 שילוב מקורות חיצוניים (סקר שוק, נתוני למ"ס, חברות מחקר).</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 4 &mdash; פרק ניתוח פיננסי</div>
+<ul>
+  <li>4.1 שילוב מודל פרויקט (מקורס 9) בצורה מובנית במסמך.</li>
+  <li>4.2 הצגת תוצאות עיקריות &mdash; טבלאות, לא הוצאת המודל המלא.</li>
+  <li>4.3 ניתוח דוחות כספיים של היזם והקבוצה (מקורס 3).</li>
+  <li>4.4 ניתוח רגישות וניתוח תרחישים &mdash; הצגה מסכמת.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 5 &mdash; פרק בטוחות</div>
+<ul>
+  <li>5.1 רשימת בטוחות מובנית: כל בטוחה, שווי, מקדם בטחה, LTV.</li>
+  <li>5.2 הקשר בין בטוחות לבין מבנה הליווי (מקורס 11).</li>
+  <li>5.3 ניתוח שמאי (מקורס 8) &mdash; האנליסט מסכם, לא מצטט.</li>
+  <li>5.4 ניתוח רישום (מקורס 5) &mdash; ממצאים מהותיים בלבד.</li>
+  <li>5.5 ערבויות אישיות וצולבות; דירוגן.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 6 &mdash; פרק סיכונים</div>
+<ul>
+  <li>6.1 ייבוא מטריצת סיכונים מקורס 10.</li>
+  <li>6.2 חמשת הסיכונים המרכזיים &mdash; ניסוח מפורט.</li>
+  <li>6.3 לכל סיכון: הסבר, השפעה, ביצור, אינדיקטור מעקב.</li>
+  <li>6.4 ניסוח covenants ו-triggers בלשון משפטית-מסחרית.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 7 &mdash; פרק המלצה</div>
+<ul>
+  <li>7.1 המלצה כמותית: גובה אשראי, ריבית, תקופה, פעימות, עמלות.</li>
+  <li>7.2 תנאים מקדימים (CP &mdash; conditions precedent).</li>
+  <li>7.3 התניות שוטפות (covenants).</li>
+  <li>7.4 חלופות במידה והוועדה מבקשת לשנות את התנאים.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 8 &mdash; ניסוח, סגנון ולשון</div>
+<ul>
+  <li>8.1 לשון ענייני, מקצועי, מבוסס-מספרים.</li>
+  <li>8.2 הימנעות מסופרלטיבים, מהמלצות לא-מבוססות, מ"שווא ביטחון".</li>
+  <li>8.3 שילוב טבלאות וגרפים &mdash; כללים מנחים.</li>
+  <li>8.4 דיוק לשוני: תאריכים, שמות, מספרים &mdash; כללי "אפס שגיאות".</li>
+  <li>8.5 הסטנדרט הפנים-ארגוני (תבנית, פונט, סדר פרקים) &mdash; קובץ סגנון של החברה.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 9 &mdash; הצגת עסקה לוועדת אשראי</div>
+<ul>
+  <li>9.1 מבנה הצגה בפני הוועדה (8-12 דקות + שאלות).</li>
+  <li>9.2 שלוש שקופיות שחייבות להיות; שלוש שלא.</li>
+  <li>9.3 התמודדות עם שאלות קשות / מנהליות.</li>
+  <li>9.4 דוקומנטציה של החלטת הוועדה ופרוטוקול דיון.</li>
+</ul>
+</div>
+<div class="unit">
+<div class="unit-title">יחידה 10 &mdash; מסירת קפסטון: עבודה אישית מודרכת</div>
+<ul>
+  <li>10.1 כל אנליסט מקבל תיק אנונימי שונה (פרויקט מגורים / מסחרי / מתחדש / קומבינציה).</li>
+  <li>10.2 שלוש סקירות ביניים עם מנטור (פרקי ביניים, פרקי סיכון, מסמך מלא).</li>
+  <li>10.3 הגשה סופית &mdash; מסמך + מודל + הצגה לוועדה מדומה.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="field-block">
+<div class="field-label">רשימת קריאה</div>
+<p><strong>חובה:</strong> תבנית בקשת אשראי פנים-ארגונית; שלושה דוגמאות אנונימיות של בקשות אשראי שאושרו ושנדחו (פנים-ארגוני); RMA &mdash; Credit Memo Best Practices.<br>
+<strong>מומלץ:</strong> Greg Gregoriou, <em>Credit Risk: Models, Derivatives, and Management</em>; קוד אתי של ועדת אשראי בחברה (פנים-ארגוני).</p>
+</div>
+
+<div class="field-block">
+<div class="field-label">אומדן זמן לימוד</div>
+<table class="time-table">
+<tr><th>קריאה</th><th>תרגילים &amp; עבודה אישית</th><th>בחינה + הגנה</th><th>סה"כ</th></tr>
+<tr><td>10 שעות</td><td>30 שעות</td><td>4 שעות</td><td>44 שעות</td></tr>
+</table>
+</div>
+</div>
+
+</section>
+
+<!-- ============================ APPENDIX A: SOURCES ============================ -->
+<section id="sources">
+<h2>נספח א' &mdash; מקורות, חקיקה ותקני מקצוע</h2>
+
+<h3>1. חקיקה ראשית בישראל</h3>
+<ul class="sources-list">
+  <li>חוק המקרקעין, התשכ"ט-1969.</li>
+  <li>חוק התכנון והבנייה, התשכ"ה-1965.</li>
+  <li>חוק החוזים (חלק כללי), התשל"ג-1973.</li>
+  <li>חוק המכר (דירות), התשל"ג-1973.</li>
+  <li>חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות), התשל"ה-1974.</li>
+  <li>חוק שמאי מקרקעין, התשס"א-2001.</li>
+  <li>חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים), התשע"ו-2016.</li>
+  <li>חוק הסדרת הלוואות חוץ-בנקאיות, התשנ"ג-1993.</li>
+</ul>
+
+<h3>2. תקנות, תקנים והנחיות מקצועיות</h3>
+<ul class="sources-list">
+  <li>הוראות ניהול בנקאי תקין &mdash; פיקוח על הבנקים, בנק ישראל (פרקים על ליווי פרויקטים, מימון יזמי, ניהול סיכוני אשראי).</li>
+  <li>תקני מועצת שמאי המקרקעין: תקן 17 (גילוי מינימלי), תקן 19 (פיצויים), תקן 21 (פרויקטים יזמיים).</li>
+  <li>IFRS 15 &mdash; הכנסות מחוזים עם לקוחות.</li>
+  <li>IAS 40 &mdash; נדל"ן להשקעה.</li>
+  <li>IAS 2 &mdash; מלאי.</li>
+  <li>RICS Valuation Global Standards (Red Book).</li>
+</ul>
+
+<h3>3. תכניות לימוד אקדמיות וחומרי מחקר</h3>
+<ul class="sources-list">
+  <li>סילבוס "ניתוח דוחות וערך נדל"ן" &mdash; הפקולטה לניהול, אוניברסיטת תל-אביב (קורס 1231.3550).</li>
+  <li>סילבוס "דיני תכנון ובנייה" &mdash; הפקולטה למשפטים, האוניברסיטה העברית (קורס 62842).</li>
+  <li>תכנית רום &mdash; לימודי שמאות מקרקעין, אוניברסיטת בר-אילן (המדור לתוכניות מובנות).</li>
+  <li>סילבוס "דיני תכנון ובנייה" &mdash; אוניברסיטת בר-אילן (קורס 797639).</li>
+  <li>תכנית לימודים תואר ראשון &mdash; בנקאות ומימון, המחלקה לכלכלה, אוניברסיטת בר-אילן.</li>
+  <li>חוברת "ניתוח דוחות כספיים" &mdash; ד"ר הדס גלנדר ורו"ח ליאור אגאי, התאחדות התעשיינים.</li>
+  <li>"המדריך להערכת שווי חברות" &mdash; פרק 2: ניתוח דוחות כספיים (valuation.co.il).</li>
+</ul>
+
+<h3>4. תכניות הסמכה ומקצועיות בינלאומיות</h3>
+<ul class="sources-list">
+  <li>CFA Institute &mdash; CFA Program Curriculum (Levels I-II): Fixed Income, Quantitative Methods, Financial Reporting and Analysis, Alternative Investments &mdash; Real Estate.</li>
+  <li>CFA Institute &mdash; Refresher Reading: Credit Analysis Models.</li>
+  <li>RMA (Risk Management Association) &mdash; Lending Decision Process course; Commercial Real Estate Lending course.</li>
+  <li>Corporate Finance Institute (CFI) &mdash; Commercial Real Estate Finance Specialist; Real Estate Financial Modeling; CBCA (Commercial Banking &amp; Credit Analyst).</li>
+</ul>
+
+<h3>5. פרסומים מקצועיים, מאגרי ידע ותעשייה ישראלית</h3>
+<ul class="sources-list">
+  <li>"מימון חוץ בנקאי לפרויקטים &mdash; המדריך השלם לשנת 2025" &mdash; מרכז הנדל"ן.</li>
+  <li>"מימון נדל"ן &mdash; המדריך השלם לשנת 2025" &mdash; מרכז הנדל"ן.</li>
+  <li>"רשות מקרקעי ישראל &mdash; המדריך השלם לשנת 2025" &mdash; מרכז הנדל"ן.</li>
+  <li>"חוק התכנון והבנייה &mdash; המדריך השלם לשנת 2025" &mdash; מרכז הנדל"ן.</li>
+  <li>"מתחת לרדאר הפיקוח: האשראי החוץ-בנקאי לנדל"ן רותח" &mdash; כלכליסט.</li>
+  <li>"כשהבנקים נחנקים, תחום הבנייה הופך לחגיגה לגופי האשראי" &mdash; כלכליסט.</li>
+  <li>מדריך לקריאת נסח טאבו &mdash; משרד המשפטים, מקרקעין ברשת.</li>
+  <li>אישור זכויות מנהל מקרקעי ישראל &mdash; מסמכי הסבר רמ"י.</li>
+  <li>דוחות כספיים שנתיים לדוגמה &mdash; PwC ישראל (IFRS).</li>
+  <li>"דוח תזרים מזומנים &mdash; הסבר ודוגמאות" &mdash; פאהן קנה / Grant Thornton.</li>
+  <li>"מבנה דוחות כספיים" ו-"IAS 40 &mdash; נדל"ן להשקעה" &mdash; IFRS Consulting.</li>
+  <li>BDO &mdash; "IFRS 18 מצגת ווביינר נדל"ן".</li>
+  <li>"היבטים משפטיים בעסקאות קומבינציה" &mdash; דוגמת מאמרי משפטיים ישראליים (mishpati.co.il, mako.co.il).</li>
+  <li>"ערבויות חוק מכר &mdash; המדריך השלם" &mdash; מרכז הנדל"ן.</li>
+  <li>פוליסת ביטוח / ערבות חוק מכר &mdash; הכשרה חברה לביטוח, הפניקס.</li>
+  <li>סילבוס לימודי בנקאות אונליין &mdash; קורסים דיגיטליים (digitalcourses.co.il).</li>
+</ul>
+
+<h3>6. ספרי לימוד ומקורות מומלצים נוספים</h3>
+<ul class="sources-list">
+  <li>Brealey, Myers &amp; Allen &mdash; <em>Principles of Corporate Finance</em>.</li>
+  <li>Subramanyam &mdash; <em>Financial Statement Analysis</em>.</li>
+  <li>Penman &mdash; <em>Financial Statement Analysis and Security Valuation</em>.</li>
+  <li>Geltner, Miller, Clayton &amp; Eichholtz &mdash; <em>Commercial Real Estate Analysis and Investments</em>.</li>
+  <li>Saunders &amp; Allen &mdash; <em>Credit Risk Measurement</em>.</li>
+  <li>Joel Bessis &mdash; <em>Risk Management in Banking</em>.</li>
+  <li>ג' שלו &mdash; <em>דיני חוזים</em>.</li>
+  <li>א' זמיר &mdash; <em>חוק המכר &mdash; פרשנות</em>.</li>
+  <li>י' ויסמן &mdash; <em>דיני קניין &mdash; חזקה ושימוש</em>.</li>
+  <li>א' רגב &mdash; <em>חוק התכנון והבנייה &mdash; פירוש</em>.</li>
+</ul>
+</section>
+
+<!-- ============================ APPENDIX B: GLOSSARY ============================ -->
+<section id="glossary">
+<h2>נספח ב' &mdash; מונחי מקצוע מרכזיים</h2>
+<table>
+<thead><tr><th style="width:30%">עברית</th><th style="width:30%">אנגלית / לועזית</th><th>הגדרה תמציתית</th></tr></thead>
+<tbody>
+<tr><td>ליווי בנקאי סגור</td><td>Closed Accompanied Financing</td><td>מימון פרויקט יזמי שבו כל תקבולי המכירה נכנסים לחשבון נאמנות סגור והבטוחות לרוכשים מנופקות באמצעותו.</td></tr>
+<tr><td>ליווי פתוח</td><td>Open Accompanied Financing</td><td>מימון פרויקט ללא חשבון נאמנות סגור; היזם מנהל את התזרים בעצמו.</td></tr>
+<tr><td>קופת מכר</td><td>Sales Pool</td><td>סך תזרים המכירות שהצטבר בחשבון הנאמנות, ממנו מנופקות ערבויות חוק מכר.</td></tr>
+<tr><td>ערבות חוק מכר</td><td>Sales Law Guarantee</td><td>בטוחה שמנפיקים לרוכש דירה לפי חוק המכר (הבטחת השקעות), התשל"ה-1974.</td></tr>
+<tr><td>נסח טאבו</td><td>Land Registry Extract</td><td>מסמך רשמי מלשכת רישום המקרקעין המפרט את הזכויות, הבעלים, השעבודים וההערות על מגרש מסוים.</td></tr>
+<tr><td>גוש-חלקה</td><td>Block-Parcel</td><td>שיטת זיהוי המקרקעין בישראל; כל מגרש מסומן בצמד מספרים (גוש, חלקה).</td></tr>
+<tr><td>רמ"י</td><td>Israel Land Authority (ILA)</td><td>הרשות המנהלת את מקרקעי המדינה (כ-93% משטח ישראל).</td></tr>
+<tr><td>חברה משכנת</td><td>Managing Company</td><td>חברה שהקימה פרויקט מגורים ומחזיקה ברישום זכויות הרוכשים עד הרישום בטאבו.</td></tr>
+<tr><td>אישור זכויות</td><td>Rights Confirmation</td><td>תעודה מרמ"י או מחברה משכנת המאשרת בעלות / חכירה על נכס שטרם נרשם בטאבו.</td></tr>
+<tr><td>תב"ע</td><td>Local Outline Plan</td><td>תכנית בניין עיר &mdash; תכנית סטטוטורית הקובעת את ייעוד הקרקע וזכויות הבנייה במגרש.</td></tr>
+<tr><td>תמ"א</td><td>National Outline Plan</td><td>תכנית מתאר ארצית; דוגמאות: תמ"א 35, תמ"א 38, תמ"א 70.</td></tr>
+<tr><td>תכנית מתאר מקומית / מחוזית</td><td>Local / District Master Plan</td><td>שכבות בהיררכיית התכנון בין תמ"א לבין תב"ע מפורטת.</td></tr>
+<tr><td>היתר בנייה</td><td>Building Permit</td><td>אישור פורמלי של הוועדה המקומית לבצע פעולות בנייה.</td></tr>
+<tr><td>היטל השבחה</td><td>Betterment Levy</td><td>תשלום של 50% מעליית שווי המגרש הנובעת מאישור תכנון חדש; משולם לרשות המקומית.</td></tr>
+<tr><td>שמאות מקרקעין</td><td>Real Estate Appraisal</td><td>הערכת שווי כלכלי של נכס מקרקעין על ידי שמאי מוסמך.</td></tr>
+<tr><td>שווי שוק</td><td>Market Value</td><td>השווי שמוכן רוכש סביר לשלם למוכר סביר בעסקה ממונית רגילה ללא לחץ.</td></tr>
+<tr><td>שווי בכפיה / מימוש מהיר</td><td>Forced Sale Value</td><td>השווי הצפוי בעת מכירה מהירה תחת לחץ; נמוך משווי שוק ב-15%-30% נורמטיבית.</td></tr>
+<tr><td>גישת ההשוואה</td><td>Comparable / Market Approach</td><td>שיטת הערכה המתבססת על עסקאות שוק דומות.</td></tr>
+<tr><td>גישת ההכנסות / DCF</td><td>Income Approach / DCF</td><td>שיטת הערכה המבוססת על היוון הכנסות צפויות.</td></tr>
+<tr><td>גישת החילוץ</td><td>Residual Approach</td><td>שיטת הערכת קרקע: שווי בנוי - עלויות בנייה - רווח יזם = שווי קרקע.</td></tr>
+<tr><td>עסקת קומבינציה</td><td>Combination Deal</td><td>עסקה שבה בעל קרקע מעביר חלק מקרקעו ליזם בתמורה לבנייה של דירות עליו.</td></tr>
+<tr><td>קבלן מבצע</td><td>Executing Contractor</td><td>הקבלן בשטח שמבצע את הבנייה בפועל בעבור היזם.</td></tr>
+<tr><td>SPV / חברת פרויקט</td><td>Special Purpose Vehicle</td><td>חברה ייעודית המוקמת לצורך פרויקט בודד; ניתוק החוב והנכסים מהיזם.</td></tr>
+<tr><td>בקשת אשראי</td><td>Credit Memorandum / Credit Request</td><td>מסמך פנים-ארגוני שמסכם עסקת אשראי לטובת קבלת החלטה בוועדת אשראי.</td></tr>
+<tr><td>ועדת אשראי</td><td>Credit Committee</td><td>הוועדה המאשרת עסקאות אשראי; חברים: מנהל סיכונים, מנכ"ל, מנהל אשראי וכו'.</td></tr>
+<tr><td>LTV</td><td>Loan to Value</td><td>יחס ההלוואה לשווי הנכס המשועבד.</td></tr>
+<tr><td>LTC</td><td>Loan to Cost</td><td>יחס ההלוואה לעלות הכוללת של הפרויקט.</td></tr>
+<tr><td>DSCR</td><td>Debt Service Coverage Ratio</td><td>יחס כיסוי שירות החוב; תזרים זמין / שירות חוב שנתי.</td></tr>
+<tr><td>ICR</td><td>Interest Coverage Ratio</td><td>יחס כיסוי ריבית; EBIT / הוצאות ריבית.</td></tr>
+<tr><td>NPV</td><td>Net Present Value</td><td>ערך נוכחי נקי של תזרים מזומנים בהיוון מתאים.</td></tr>
+<tr><td>IRR</td><td>Internal Rate of Return</td><td>שיעור התשואה הפנימי שבו NPV של עסקה שווה לאפס.</td></tr>
+<tr><td>covenants</td><td>Covenants</td><td>התניות חוזיות חיוביות / שליליות שמטילים על לווה במסגרת חוזה אשראי.</td></tr>
+<tr><td>red flags</td><td>Red Flags</td><td>סימני אזהרה בדוחות כספיים או בתיק לקוח שמחייבים בירור מעמיק.</td></tr>
+<tr><td>מפרט מכר</td><td>Sales Specification</td><td>מסמך תקני המצורף לכל חוזה מכר דירה ומפרט את המבנה, הגמרים ורכיבי הדירה.</td></tr>
+<tr><td>טופס 4</td><td>Form 4 / Occupancy Certificate</td><td>אישור אכלוס; אישור הרשות המקומית להיכנס לדירה.</td></tr>
+<tr><td>בדק ואחריות</td><td>Defects &amp; Warranty</td><td>תקופת אחריות הקבלן על ליקויים לפי חוק המכר דירות.</td></tr>
+</tbody>
+</table>
+</section>
+
+<div class="footer">
+מסמך אפיון תכנית לימודים &mdash; CRM Finance School &nbsp;|&nbsp; גרסה 1.0 &nbsp;|&nbsp; הופק: מאי 2026 &nbsp;|&nbsp; שלב: אפיון תוכן &mdash; אינו מסמך עיצוב פלטפורמה ואינו מסמך UX.<br>
+המסמך מיועד לשמש כבריף לכותב תוכן / מומחה תוכן (SME) לכתיבת חומרי הקורסים בפועל.
+</div>
+
+</div>
+</body>
+</html>

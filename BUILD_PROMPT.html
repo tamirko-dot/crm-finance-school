@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>CRM Finance School - Build Specification Prompt v3.0</title>
+<style>
+  @page { size: A4; margin: 2cm; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a1a; background: #f5f5f0; line-height: 1.65; font-size: 14px;
+  }
+  .container { max-width: 1080px; margin: 0 auto; padding: 40px 56px; background: #ffffff; box-shadow: 0 0 24px rgba(0,0,0,0.05); }
+  .doc-header { border-bottom: 4px double #2c3e50; padding-bottom: 24px; margin-bottom: 32px; }
+  .doc-header h1 { font-size: 28px; margin: 0 0 8px 0; color: #1a2638; font-weight: 700; }
+  .doc-header .subtitle { font-size: 15px; color: #4a5568; margin: 0 0 4px 0; }
+  .doc-header .meta { font-size: 12px; color: #6b7280; margin-top: 8px; }
+  .version-badge { display: inline-block; background: #f1c40f; color: #1a2638; padding: 4px 14px; font-weight: 700; font-size: 13px; border-radius: 3px; margin-right: 10px; }
+  h2 { font-size: 22px; color: #1a2638; border-bottom: 2px solid #1a2638; padding-bottom: 6px; margin-top: 44px; margin-bottom: 14px; }
+  h3 { font-size: 17px; color: #2c3e50; margin-top: 24px; margin-bottom: 10px; }
+  h4 { font-size: 14px; color: #1a2638; margin-top: 16px; margin-bottom: 6px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+  p { margin: 0 0 12px 0; }
+  ul, ol { margin: 8px 0 12px 0; padding-left: 24px; }
+  li { margin-bottom: 5px; }
+  strong { color: #1a2638; }
+  em { color: #4a5568; }
+  hr { border: none; border-top: 1px solid #cbd5e0; margin: 32px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13px; }
+  th, td { border: 1px solid #cbd5e0; padding: 8px 12px; text-align: left; vertical-align: top; }
+  th { background: #1a2638; color: #fff; font-weight: 600; }
+  tr:nth-child(even) td { background: #f7fafc; }
+  code { background: #f4f6f8; color: #1a2638; padding: 1px 6px; border-radius: 3px; font-family: "Courier New", "Consolas", monospace; font-size: 13px; border: 1px solid #e2e8f0; }
+  pre { background: #1a2638; color: #f5f5f0; padding: 16px 20px; border-radius: 4px; margin: 14px 0; overflow-x: auto; font-size: 13px; line-height: 1.55; }
+  pre code { background: transparent; color: inherit; padding: 0; border: none; }
+  .toc { background: #f7f7f2; border: 1px solid #d4d4c8; padding: 20px 28px; margin: 24px 0 32px 0; }
+  .toc h2 { margin-top: 0; font-size: 18px; border-bottom: 1px solid #2c3e50; }
+  .toc ol { padding-left: 22px; }
+  .toc a { color: #1a2638; text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .callout { padding: 14px 20px; margin: 16px 0; border-radius: 4px; border-left: 5px solid; }
+  .callout-info { background: #f0f7ff; border-color: #1976d2; }
+  .callout-warning { background: #fff8e1; border-color: #f57c00; }
+  .callout-success { background: #e8f5e9; border-color: #2e7d32; }
+  .callout-rule { background: #f3e5f5; border-color: #7b1fa2; }
+  .callout .label { font-weight: 700; font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 4px; }
+  .callout-info .label { color: #1976d2; }
+  .callout-warning .label { color: #f57c00; }
+  .callout-success .label { color: #2e7d32; }
+  .callout-rule .label { color: #7b1fa2; }
+  .phase-card { border: 1px solid #cbd5e0; border-left: 6px solid #1a2638; padding: 20px 24px; margin: 18px 0; background: #fdfdfb; border-radius: 4px; page-break-inside: avoid; }
+  .phase-card .phase-num { display: inline-block; background: #1a2638; color: #fff; padding: 3px 12px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; border-radius: 3px; margin-bottom: 8px; }
+  .phase-card h3 { margin-top: 6px; color: #1a2638; }
+  .phase-card .done-when { background: #e8f5e9; border-left: 4px solid #2e7d32; padding: 10px 14px; margin-top: 12px; font-size: 13px; }
+  .phase-card .done-when .label { font-weight: 700; color: #2e7d32; font-size: 11px; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 4px; }
+  .file-block { background: #f4f6f8; border: 1px solid #cbd5e0; border-left: 4px solid #4a5568; padding: 14px 20px; margin: 16px 0; border-radius: 3px; }
+  .file-block .filename { font-family: "Courier New", monospace; font-weight: 700; color: #1a2638; font-size: 14px; margin-bottom: 6px; display: inline-block; background: #fff; padding: 3px 10px; border-radius: 3px; border: 1px solid #cbd5e0; }
+  .palette-swatch { display: inline-block; width: 18px; height: 18px; border: 1px solid #cbd5e0; vertical-align: middle; margin-right: 6px; border-radius: 2px; }
+  .footer { margin-top: 56px; padding-top: 20px; border-top: 2px solid #1a2638; font-size: 11px; color: #6b7280; text-align: center; }
+  @media print {
+    body { background: #fff; }
+    .container { box-shadow: none; padding: 0; }
+    .phase-card, .callout, .file-block { page-break-inside: avoid; }
+    pre { white-space: pre-wrap; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="doc-header">
+  <h1><span class="version-badge">v3.0</span>CRM Finance School &mdash; Build Specification</h1>
+  <p class="subtitle">Comprehensive build prompt for Claude Code in Cursor terminal</p>
+  <p class="subtitle">Includes: pre-existing conda env workflow, full data model with state machines and question snapshots, 8 build phases, visual design system, security baseline, senior insight + confidence marker features</p>
+  <p class="meta">Generated: May 2026 | Authoritative build instructions for the CRM Finance School LMS | Companion to <em>curriculum_specification_v2.html</em> and <em>sample_module_C01M04.html</em></p>
+</div>
+
+<div class="toc">
+<h2>Contents</h2>
+<ol>
+  <li><a href="#mission">Role and Mission</a></li>
+  <li><a href="#refs">Reference Documents</a></li>
+  <li><a href="#overview">Project Overview</a></li>
+  <li><a href="#stack">Tech Stack &mdash; Required</a></li>
+  <li><a href="#principles">Architectural Principles</a></li>
+  <li><a href="#design">Visual Design &amp; UI Standards</a></li>
+  <li><a href="#data">Data Model</a></li>
+  <li><a href="#functional">Functional Requirements by Role</a></li>
+  <li><a href="#exam-mech">Pedagogical / Exam Mechanics</a></li>
+  <li><a href="#files">Project Files &mdash; Required Deliverables</a></li>
+  <li><a href="#phases">Build Phases &mdash; Iterative Plan</a></li>
+  <li><a href="#standards">Coding Standards</a></li>
+  <li><a href="#security">Security Baseline</a></li>
+  <li><a href="#email">Email &mdash; Stub for Future</a></li>
+  <li><a href="#out-of-scope">What NOT to Build in MVP</a></li>
+  <li><a href="#dod">Definition of Done &mdash; Overall MVP</a></li>
+  <li><a href="#working-style">Working Style Instructions</a></li>
+</ol>
+</div>
+
+<section id="mission">
+<h2>1. Role and Mission</h2>
+<p>You are a senior full-stack engineer building a Learning Management System (LMS) for a non-bank real estate financing company in Israel. The system trains credit analysts through a structured 12-course program. Your task is to build a production-ready MVP that 25 users will actively use.</p>
+<p>You are working through Cursor with Claude Code in the terminal. The user (Tamir) is a developer and will review your work iteratively.</p>
+</section>
+
+<section id="refs">
+<h2>2. Reference Documents</h2>
+<p>Two reference documents exist in the project root and define WHAT this system must support:</p>
+<ol>
+<li><strong><code>curriculum_specification_v2.html</code></strong> &mdash; Full curriculum specification: 12 courses, 5 phases, module architecture, exam structure, retry management, question bank format, capstone deliverable rubric. Read this fully before writing any code.</li>
+<li><strong><code>sample_module_C01M04.html</code></strong> &mdash; A fully realized sample module showing exactly what the final product looks like to an end-user.</li>
+</ol>
+<p>These documents are in Hebrew. Read them and treat them as authoritative for content structure and pedagogical requirements.</p>
+</section>
+
+<section id="overview">
+<h2>3. Project Overview</h2>
+<p><strong>Domain.</strong> Real estate project finance training, in Israel. The first content domain is "Real Estate Finance" with 12 courses. The system MUST be designed so future content domains (e.g., "Commercial Banking") can be added with no architectural change &mdash; only content data.</p>
+<p><strong>User base.</strong> 25 users total: 20 trainee analysts, 3 customer managers, 1 admin, 1 CEO.</p>
+<p><strong>Language.</strong> Hebrew (RTL) for all UI shown to users. Code, comments, commits, variable names, and database fields in English.</p>
+<p><strong>Platform.</strong> Desktop-only web app. No mobile/tablet support required for MVP.</p>
+</section>
+
+<section id="stack">
+<h2>4. Tech Stack &mdash; Required</h2>
+<table>
+<thead><tr><th>Layer</th><th>Technology</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Environment</td><td><strong>Conda env (pre-created by user)</strong></td><td>The user creates and activates the conda environment BEFORE the session starts. You will receive an already-active environment. Your job is to install dependencies via <code>pip</code> <em>into that active environment</em>. Do NOT create the env yourself. Do NOT install globally. Do NOT switch to venv.</td></tr>
+<tr><td>Backend</td><td><strong>Python 3.11+ with Django 5.x</strong></td><td>Use Django everywhere &mdash; admin panel comes free, ORM is mature, perfect for 25 users</td></tr>
+<tr><td>Database</td><td><strong>Supabase (managed PostgreSQL)</strong></td><td>Use Supabase project URL via Django settings</td></tr>
+<tr><td>Auth</td><td><strong>Supabase Auth</strong> for username+password</td><td>Custom Django user model that maps to Supabase user ID</td></tr>
+<tr><td>Frontend</td><td><strong>Django templates + HTML + Tailwind CSS via CDN</strong></td><td>No SPA. Server-rendered, sprinkle Alpine.js if needed for interactivity. Keep it simple.</td></tr>
+<tr><td>Hosting</td><td><strong>Railway</strong></td><td>Deploy via GitHub integration</td></tr>
+<tr><td>Version control</td><td><strong>GitHub</strong></td><td>Initialize repo, set up <code>.gitignore</code> properly</td></tr>
+<tr><td>IDE context</td><td><strong>Cursor</strong></td><td>Authored via Claude Code in Cursor terminal</td></tr>
+<tr><td>File uploads</td><td>Supabase Storage</td><td>For capstone Word docs and learning material PDFs</td></tr>
+<tr><td>Email (future)</td><td>Stub interface only</td><td>Wire up an <code>EmailService</code> class that no-ops in MVP, ready for SendGrid/Resend later</td></tr>
+</tbody>
+</table>
+<div class="callout callout-warning">
+<div class="label">Constraint</div>
+<strong>Do not propose alternatives.</strong> If you encounter a problem with a chosen technology, document it and ask the user &mdash; do not switch silently.
+</div>
+</section>
+
+<section id="principles">
+<h2>5. Architectural Principles</h2>
+<ol>
+<li><strong>Content-as-data.</strong> Course structure is stored in the database, not hardcoded. Adding a new course or domain is a data operation, not a code change.</li>
+<li><strong>Domain-agnostic core.</strong> Everything in the system should reference a <code>Domain</code> (top-level container).</li>
+<li><strong>Role-based access control (RBAC).</strong> Permissions enforced server-side via Django decorators/mixins. Never rely on UI hiding alone.</li>
+<li><strong>Audit-first.</strong> Every meaningful state change writes a row to an <code>audit_log</code> table.</li>
+<li><strong>Separation of identity and authorization.</strong> Supabase handles "who is this person and is their password right". Django handles "what can they do".</li>
+<li><strong>Pedagogical fidelity.</strong> Adhere strictly to the spec doc on exam mechanics: forward-only navigation, randomized question order per attempt, immediate scoring on submit, distractor explanations stored with each question.</li>
+<li><strong>No silent magic.</strong> Every cron-like or scheduled behavior must be either a Django management command runnable manually, or clearly documented.</li>
+<li><strong>State machines, not enums.</strong> Every entity that has a lifecycle (<code>CourseEnrollment.status</code>, <code>UnlockRequest.status</code>, <code>ExamAttempt.status</code>, <code>CapstoneSubmission.status</code>) MUST use a state machine library (use <code>django-fsm</code> or equivalent). Direct field assignment to status is forbidden &mdash; transitions go through named methods (<code>enrollment.unlock()</code>, <code>attempt.submit()</code>, etc.) that enforce preconditions, cooldowns, and side effects (audit log writes, notification stubs). This prevents illegal status jumps and centralizes business logic.</li>
+<li><strong>Storage is abstracted.</strong> Do NOT call Supabase Storage SDK directly from views or models. Build a <code>StorageService</code> interface in <code>core/services/storage.py</code> with methods <code>upload(file, key)</code>, <code>get_url(key)</code>, <code>delete(key)</code>, <code>list(prefix)</code>. The MVP implementation wraps Supabase Storage. Future migration to S3/Azure (common requirement in Israeli financial institutions for regulatory reasons) is a single-file swap with no model or view changes.</li>
+<li><strong>Question immutability per attempt.</strong> When a trainee starts an exam, the exact text of every question and every option is <strong>snapshotted</strong> into <code>ExamAttemptQuestion</code>. If an admin edits a question mid-exam, the trainee continues to see the version that existed at attempt start, and grading uses that snapshot. The live <code>Question</code> table is for content authoring; the snapshots are the authoritative record of what was actually answered.</li>
+<li><strong>Slug-based URLs, never expose primary keys.</strong> Courses, modules, and learning documents have <code>slug</code> fields used in URLs (<code>/courses/yesodot-mimun/modules/4-ltv-dscr/</code>). Never accept or emit numeric IDs in URLs visible to users. This prevents Insecure Direct Object Reference (IDOR) &mdash; a trainee cannot guess the URL of a locked course by incrementing a number.</li>
+<li><strong>Israel-locked timezone.</strong> Set <code>TIME_ZONE = 'Asia/Jerusalem'</code>, <code>USE_TZ = True</code> in Django settings. All cooldown calculations (24h, 72h between exam retries) are wall-clock relative to Israel local time. Document this explicitly in <code>CLAUDE.md</code>.</li>
+</ol>
+</section>
+
+<section id="design">
+<h2>6. Visual Design &amp; UI Standards</h2>
+<p>The system serves a professional, educational, office-style context. Visual tone: <strong>calm, light, restrained, serious without being austere</strong>. Reference: the existing <code>sample_module_C01M04.html</code> and the curriculum specification &mdash; match their visual vocabulary across every screen.</p>
+
+<h3>6.1 Color Palette (use exactly these values)</h3>
+<table>
+<thead><tr><th>Purpose</th><th>Hex</th><th>Usage</th></tr></thead>
+<tbody>
+<tr><td><span class="palette-swatch" style="background:#f5f5f0"></span>Page background</td><td><code>#f5f5f0</code></td><td>Body of every page (warm cream)</td></tr>
+<tr><td><span class="palette-swatch" style="background:#ffffff;border:1px solid #cbd5e0"></span>Content card</td><td><code>#ffffff</code></td><td>Inside containers &mdash; primary reading surface</td></tr>
+<tr><td><span class="palette-swatch" style="background:#1a2638"></span>Primary</td><td><code>#1a2638</code></td><td>Headers, borders, primary buttons, navigation</td></tr>
+<tr><td><span class="palette-swatch" style="background:#2c3e50"></span>Secondary</td><td><code>#2c3e50</code></td><td>Sub-headers, secondary borders, default body text</td></tr>
+<tr><td><span class="palette-swatch" style="background:#f1c40f"></span>Accent</td><td><code>#f1c40f</code></td><td>Highlight badges, progress fills, important pills</td></tr>
+<tr><td><span class="palette-swatch" style="background:#6b7280"></span>Muted text</td><td><code>#6b7280</code></td><td>Meta info, breadcrumbs, timestamps, helper text</td></tr>
+<tr><td><span class="palette-swatch" style="background:#cbd5e0"></span>Subtle border</td><td><code>#cbd5e0</code></td><td>Dividers, table borders, card outlines</td></tr>
+<tr><td><span class="palette-swatch" style="background:#f7fafc"></span>Even-row stripe</td><td><code>#f7fafc</code></td><td>Alternating table rows</td></tr>
+<tr><td><span class="palette-swatch" style="background:#fff8d6"></span>Field highlight</td><td><code>#fff8d6</code></td><td>Inline keyword highlight (think: yellow marker)</td></tr>
+</tbody>
+</table>
+
+<h3>6.2 Soft Callout Backgrounds</h3>
+<table>
+<thead><tr><th>Type</th><th>Background</th><th>Border</th></tr></thead>
+<tbody>
+<tr><td>Example / illustration</td><td><span class="palette-swatch" style="background:#f0f7ff"></span><code>#f0f7ff</code></td><td><code>#1976d2</code></td></tr>
+<tr><td>Warning / risk note</td><td><span class="palette-swatch" style="background:#fff8e1"></span><code>#fff8e1</code></td><td><code>#f57c00</code></td></tr>
+<tr><td>"From the field" / practitioner note</td><td><span class="palette-swatch" style="background:#e8f5e9"></span><code>#e8f5e9</code></td><td><code>#2e7d32</code></td></tr>
+<tr><td>Rule / principle</td><td><span class="palette-swatch" style="background:#f3e5f5"></span><code>#f3e5f5</code></td><td><code>#7b1fa2</code></td></tr>
+</tbody>
+</table>
+
+<h3>6.3 Status Colors (badges, pills, indicators)</h3>
+<ul>
+<li>Passed / completed / open: green <code>#2e7d32</code> on <code>#e8f5e9</code></li>
+<li>In progress / pending: amber <code>#b87333</code> on <code>#fff3cd</code></li>
+<li>Failed / locked / blocked: muted red <code>#b71c1c</code> on <code>#fee5e0</code></li>
+</ul>
+
+<h3>6.4 Typography</h3>
+<ul>
+<li><strong>Font family:</strong> <code>"Segoe UI", "Arial Hebrew", "David", "Frank Ruehl", Arial, sans-serif</code></li>
+<li><strong>Body size:</strong> 15px, line-height 1.65-1.70</li>
+<li><strong>Headers:</strong> weight 700, color primary navy <code>#1a2638</code>. H1 28px, H2 22px, H3 17-18px, H4 15px</li>
+<li><strong>Code / formulas:</strong> <code>"Courier New", "Consolas", monospace</code></li>
+<li>Numbers in calculations use thousands separators with commas; currency in shekels written as <code>1,200,000 ש"ח</code></li>
+</ul>
+
+<h3>6.5 Layout</h3>
+<ul>
+<li>Max content width: 1080px, centered</li>
+<li>Generous whitespace: 32-48px page padding, 24-32px between major sections</li>
+<li>Subtle box-shadow on content containers: <code>0 0 24px rgba(0,0,0,0.05)</code></li>
+<li>Soft rounded corners: 3-4px radius</li>
+<li>RTL throughout: <code>&lt;html dir="rtl" lang="he"&gt;</code> always, content right-aligned, borders and accents on the right side of cards</li>
+</ul>
+
+<h3>6.6 Tone Rules &mdash; What to Avoid</h3>
+<ul>
+<li>No hard contrasts (no pure black on pure white)</li>
+<li>No neon, no saturated primaries</li>
+<li>No gradients except a single subtle navy gradient on the main phase banner</li>
+<li>No emojis in UI strings</li>
+<li>No animation beyond hover state changes and progress bar fills</li>
+<li>No drop shadows on text</li>
+<li>No web fonts other than the system stack defined above</li>
+</ul>
+
+<h3>6.7 Tailwind Approach</h3>
+<p>Tailwind via CDN, with a small inlined config block in <code>base.html</code> that <strong>extends the default palette</strong>:</p>
+<pre><code>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
+&lt;script&gt;
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          cream: '#f5f5f0',
+          navy: '#1a2638',
+          slate: '#2c3e50',
+          gold: '#f1c40f',
+          muted: '#6b7280',
+          'border-soft': '#cbd5e0',
+        }
+      }
+    }
+  }
+&lt;/script&gt;</code></pre>
+<p>Use semantic class names throughout templates (e.g., <code>bg-cream</code>, <code>text-navy</code>). Do not hand-pick hex codes in templates.</p>
+
+<h3>6.8 Print-Friendliness</h3>
+<p>Every page (except interactive ones like exam-taking) should print cleanly. Include <code>@media print</code> rules.</p>
+
+<div class="callout callout-rule">
+<div class="label">North star</div>
+The completed UI should look &mdash; when screenshot &mdash; like something appropriate to email to a credit committee chairman. If it doesn't, it's wrong.
+</div>
+</section>
+
+<section id="data">
+<h2>7. Data Model (Required Tables)</h2>
+<p>Build Django models that produce roughly this schema. Names in English (snake_case for fields). Add <code>created_at</code>, <code>updated_at</code>, soft-delete <code>is_active</code> on all relevant tables.</p>
+
+<h3>7.1 Identity &amp; Roles</h3>
+<ul>
+<li><code>User</code> &mdash; Django custom user. Fields: <code>email</code>, <code>username</code>, <code>full_name_he</code>, <code>full_name_en</code>, <code>role</code> (enum: <code>trainee</code>, <code>customer_manager</code>, <code>admin</code>, <code>ceo</code>), <code>supabase_user_id</code>, <code>is_active</code>.</li>
+<li>Permissions handled via Django Groups + custom decorators.</li>
+</ul>
+
+<h3>7.2 Content Hierarchy</h3>
+<ul>
+<li><code>Domain</code> &mdash; e.g., "Real Estate Finance &mdash; Israel". Fields: <code>name_he</code>, <code>name_en</code>, <code>description_he</code>, <code>slug</code>, <code>display_order</code>.</li>
+<li><code>Course</code> &mdash; belongs to a <code>Domain</code>. Fields: <code>title_he</code>, <code>description_he</code>, <code>slug</code> (unique, used in URLs), <code>phase</code>, <code>course_number</code>, <code>passing_score_pct</code>, <code>exam_question_count</code>, <code>exam_duration_minutes</code>, <code>is_capstone</code>.</li>
+<li><code>Module</code> &mdash; belongs to <code>Course</code>. Fields: <code>title_he</code>, <code>slug</code> (unique within course), <code>module_number</code>, <code>estimated_minutes</code>.</li>
+<li><code>ModuleComponent</code> &mdash; belongs to <code>Module</code>. Fields: <code>component_type</code> (<code>reading</code>/<code>comprehension</code>/<code>exercises</code>/<code>summary</code>), <code>order</code>, <code>body_html_he</code>, <code>instructions_he</code>.</li>
+</ul>
+
+<h3>7.3 Questions</h3>
+<ul>
+<li><code>Question</code> &mdash; <code>question_id_external</code>, <code>question_type</code> (1-6), <code>difficulty</code>, <code>stem_html_he</code>, <code>image_url</code>, <code>points</code>, <code>avg_time_seconds</code>, <code>usage_context</code>, <code>topic_tags</code>, <code>senior_insight_he</code> (short prose in the voice of a senior credit analyst, explaining the BUSINESS meaning of getting this question right or wrong &mdash; e.g., "An LTV miscalculation here would have killed the deal at credit committee"), <code>created_by</code>, <code>reviewed_by</code>, <code>last_calibrated_at</code>, <code>version</code> (integer, incremented on every edit &mdash; used to trace snapshots).</li>
+<li><code>QuestionOption</code> &mdash; <code>text_he</code>, <code>is_correct</code>, <code>display_order</code>, <code>distractor_rationale_he</code>.</li>
+<li><code>QuestionExplanation</code> &mdash; <code>explanation_html_he</code>.</li>
+</ul>
+
+<h3>7.4 Enrollment &amp; Progress</h3>
+<ul>
+<li><code>CourseEnrollment</code> &mdash; <code>status</code> (<strong>FSM-managed</strong>: <code>locked</code> &rarr; <code>requested</code> &rarr; <code>open</code> &rarr; <code>in_progress</code> &rarr; <code>passed</code>/<code>failed</code>, with re-open transitions), <code>unlocked_by</code>, <code>unlocked_at</code>, <code>completed_at</code>. <strong>Use django-fsm decorators on transition methods</strong> (e.g., <code>request_unlock()</code>, <code>approve_unlock()</code>, <code>start_course()</code>, <code>mark_passed()</code>). Direct status assignment forbidden.</li>
+<li><code>UnlockRequest</code> &mdash; <code>user</code>, <code>course</code>, <code>status</code> (<strong>FSM</strong>: <code>pending</code> &rarr; <code>approved</code>/<code>denied</code>), <code>requested_at</code>, <code>responded_by</code>, <code>responded_at</code>, <code>note</code>.</li>
+<li><code>ModuleProgress</code> &mdash; <code>started_at</code>, <code>completed_at</code>, <code>is_completed</code>, <code>practice_score_pct</code>.</li>
+<li><code>ComponentProgress</code> &mdash; <code>is_completed</code>, <code>completed_at</code>.</li>
+</ul>
+
+<h3>7.5 Exams</h3>
+<ul>
+<li><code>ExamAttempt</code> &mdash; <code>attempt_number</code>, <code>status</code> (<strong>FSM</strong>: <code>in_progress</code> &rarr; <code>submitted</code> &rarr; <code>graded</code>), <code>started_at</code>, <code>submitted_at</code>, <code>score_pct</code>, <code>passed</code>, <code>time_remaining_seconds_snapshot</code>, <code>is_locked</code>.</li>
+<li><code>ExamAttemptQuestion</code> &mdash; <strong>stores a complete snapshot of the question and its options as they existed when the attempt began.</strong> Fields:
+<ul>
+<li><code>display_order</code></li>
+<li><code>question</code> (FK to live Question, for analytics &mdash; never used for grading or display)</li>
+<li><code>question_version_at_attempt</code> (integer, the <code>Question.version</code> at attempt start)</li>
+<li><code>stem_html_snapshot</code> (frozen copy of the stem text)</li>
+<li><code>options_snapshot_json</code> (frozen JSON array of <code>[{text, is_correct, distractor_rationale}, ...]</code>)</li>
+<li><code>correct_option_index_snapshot</code></li>
+<li><code>senior_insight_snapshot_he</code></li>
+<li><code>explanation_snapshot_html_he</code></li>
+<li><code>user_answer_option_index</code> (the index in the snapshot array)</li>
+<li><code>confidence_marked</code> (enum: <code>confident</code>, <code>not_sure</code>, <code>null</code> &mdash; trainee can optionally mark "I'm not sure" before answering; surfaces guessing patterns to managers in reports)</li>
+<li><code>answered_at</code>, <code>is_correct</code> (computed at submit time against snapshot)</li>
+</ul>
+This snapshot mechanism is <strong>non-negotiable</strong>: if an admin edits a question while a trainee is mid-exam, the trainee continues to see and be graded against the snapshot, not the live question.</li>
+</ul>
+
+<h3>7.6 Capstone (Course 12)</h3>
+<ul>
+<li><code>CapstoneSubmission</code> &mdash; <code>course</code>, <code>file_url</code> (Supabase Storage URL to .docx), <code>submitted_at</code>, <code>status</code>.</li>
+<li><code>CapstoneRubricScore</code> &mdash; <code>category</code>, <code>score</code> (1-5), <code>comment_he</code>, <code>scored_by</code>.</li>
+</ul>
+
+<h3>7.7 Documents</h3>
+<ul>
+<li><code>LearningDocument</code> &mdash; <code>title_he</code>, <code>description_he</code>, <code>file_url</code>, <code>file_type</code>, <code>domain</code>, <code>tags</code>.</li>
+<li><code>DocumentTag</code> &mdash; <code>name_he</code>, <code>name_en</code>, <code>slug</code>.</li>
+<li><code>DocumentAccessLog</code> &mdash; <code>user</code>, <code>document</code>, <code>accessed_at</code>.</li>
+</ul>
+
+<h3>7.8 Audit &amp; Reporting</h3>
+<ul>
+<li><code>AuditLog</code> &mdash; <code>user</code>, <code>action</code>, <code>entity_type</code>, <code>entity_id</code>, <code>metadata_json</code>, <code>created_at</code>.</li>
+<li><code>Notification</code> &mdash; stub for future email. <code>user</code>, <code>type</code>, <code>payload_json</code>, <code>created_at</code>, <code>sent_at</code>.</li>
+</ul>
+</section>
+
+<section id="functional">
+<h2>8. Functional Requirements by Role</h2>
+
+<h3>8.1 All Users (after login)</h3>
+<ul>
+<li>Personal dashboard: name, role, last login, list of courses with status.</li>
+<li>Profile page (read-only for trainees; editable name only).</li>
+<li>Logout.</li>
+</ul>
+
+<h3>8.2 Trainee (20 users)</h3>
+<ul>
+<li>See assigned domain (Real Estate Finance) and all 12 courses with status.</li>
+<li>Locked course: button "Request Access". Submitting creates an <code>UnlockRequest</code>.</li>
+<li>Open/in-progress course: enter, see module list with progress, enter modules.</li>
+<li>Module screen: 4 components sequentially. Forward gating: cannot access component N+1 until N is marked complete.</li>
+<li>Reading: scroll-to-90% required before "I've finished reading" button activates.</li>
+<li>Comprehension check: 4 questions, immediate feedback, no scoring weight.</li>
+<li>Practice: 6 questions, 2 attempts each, immediate feedback with distractor rationale, score recorded per module.</li>
+<li>Summary: read-only, marks module complete.</li>
+<li>Final exam: only after all modules complete. Forward navigation only, timer visible, submit dialog. <strong>Optional confidence marker</strong> on each question (confident / not sure). After submission: immediate score, breakdown by question type, list of incorrect answers with full <strong>technical explanation + senior insight</strong> (the "Committee Voice" line written in the tone of a senior credit analyst that explains the business consequence of the mistake).</li>
+<li>Capstone (course 12 only): file upload form for .docx Word document, in addition to exam.</li>
+<li>Search learning documents.</li>
+<li>View own progress and exam history.</li>
+</ul>
+
+<h3>8.3 Customer Manager (3 users)</h3>
+<ul>
+<li>Everything a trainee sees, plus:</li>
+<li>"Trainees" section: list of all 20 trainees with summary stats.</li>
+<li>Per-trainee detail: full progress, exam history, attempts, time spent.</li>
+<li>"Unlock Requests" inbox: approve / deny with optional note.</li>
+<li>"Capstone Reviews" inbox: pending submissions. Click to download .docx, then fill rubric form (5 categories &times; 1-5 scale) inline.</li>
+<li>"Group Reports" page: aggregated stats on the cohort.</li>
+<li><strong>"Confidence Map" report</strong> (per course or per module): shows which questions trainees most often answered correctly while marking "not sure" (true guesses that succeeded &mdash; content may be too easy to game), and which questions trainees most often answered incorrectly while marking "confident" (they thought they knew &mdash; content needs review). A pedagogy and content-quality tool, not a punishment tool.</li>
+</ul>
+
+<h3>8.4 Admin (1 user)</h3>
+<ul>
+<li>Full Django Admin access &mdash; primary interface for content management.</li>
+<li>Manage all content tables (Domain, Course, Module, ModuleComponent, Question, etc.) and user records.</li>
+<li>Bulk import questions via CSV/JSON (management command + admin action).</li>
+<li>View AuditLog.</li>
+<li>Cannot modify exam attempts or grades (immutable post-submit).</li>
+</ul>
+
+<h3>8.5 CEO (1 user)</h3>
+<ul>
+<li>Read-only access to everything.</li>
+<li>Same dashboards as Customer Manager + audit log read view.</li>
+<li>Export reports as CSV.</li>
+</ul>
+</section>
+
+<section id="exam-mech">
+<h2>9. Pedagogical / Exam Mechanics &mdash; Critical</h2>
+<ul>
+<li><strong>Question rotation.</strong> Course exam draws N questions from a pool of &ge;3N available, randomly per attempt, weighted to maintain the type distribution (30% retrieval / 30% calc / 25% document / 15% scenario).</li>
+<li><strong>Forward-only navigation.</strong> Once a question is answered, no return.</li>
+<li><strong>Auto-save.</strong> If browser closes mid-exam, the timer continues server-side; user resumes at the same question on next login.</li>
+<li><strong>Time enforcement.</strong> Server-side timer. On expiry, auto-submit whatever was answered.</li>
+<li><strong>Locked submissions.</strong> Once submitted, an <code>ExamAttempt</code> is immutable.</li>
+<li><strong>Fully automatic grading.</strong> All multiple-choice exams (every course 1-12) are graded automatically and instantly by the system on submit. There is <strong>no manual review</strong> of multiple-choice answers by anyone &mdash; not customer manager, not admin, not CEO. The trainee sees the score immediately on the result screen along with a per-question explanation. Customer managers' grading involvement is <strong>strictly limited to the capstone .docx file</strong> (course 12 only) &mdash; everything else is auto-graded.</li>
+<li><strong>Retry logic.</strong>
+<ul>
+<li>Failed first attempt &rarr; 24-hour cooldown, then attempt 2 with &ge;70% different question pool.</li>
+<li>Failed second &rarr; 72-hour cooldown + mandatory mentor session before attempt 3.</li>
+<li>Beyond third &rarr; admin override required.</li>
+</ul></li>
+<li><strong>Passing scores per spec doc:</strong> default 75%, courses 5/8/9/11 are 80%, course 12 is 80% on exam + rubric thresholds.</li>
+</ul>
+</section>
+
+<section id="files">
+<h2>10. Project Files &mdash; Required Deliverables</h2>
+<p>Every one of these MUST be created and committed:</p>
+
+<div class="file-block">
+<div class="filename">README.md</div>
+<p>Project overview and setup instructions. The setup section assumes the developer has already created and activated their own conda environment. Document the prerequisite and the install steps:</p>
+<pre><code># Prerequisite: developer has created and activated their conda env, e.g.:
+#   conda create -n &lt;your-env-name&gt; python=3.11 -y
+#   conda activate &lt;your-env-name&gt;
+# (env creation is done by the developer, not by Claude or any script)
+
+# Inside the active conda env, install dependencies:
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+
+# Configure environment variables
+cp .env.example .env   # then fill in the real values
+
+# Database &amp; first run
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver</code></pre>
+<p>Continue with: <code>.env</code> variable explanation, Supabase project setup, deploy-to-Railway steps, management command usage.</p>
+</div>
+
+<div class="file-block">
+<div class="filename">CLAUDE.md</div>
+<p>Project conventions for future Claude Code sessions. Include:</p>
+<ul>
+<li>Project context (1 paragraph)</li>
+<li><strong>Conda env verification as the first step of every session</strong> &mdash; confirm the conda env is already active before doing anything else; never attempt to create or switch envs</li>
+<li>Tech stack reference</li>
+<li>Directory structure with purpose of each folder</li>
+<li>Coding standards (PEP 8, type hints, docstring format)</li>
+<li>How models, views, templates are organized</li>
+<li>How to add a new course/module/question (data flow)</li>
+<li>Testing conventions (pytest, where tests live)</li>
+<li>Common commands</li>
+<li>Things NOT to do (e.g., "do not use raw SQL &mdash; use ORM", "do not bypass RBAC decorators", "do not install dependencies outside the conda env")</li>
+</ul>
+</div>
+
+<div class="file-block">
+<div class="filename">requirements.txt + requirements-dev.txt</div>
+<p>Pinned versions. Minimum: <code>Django&gt;=5.0</code>, <code>psycopg2-binary</code>, <code>django-environ</code>, <code>supabase</code>, <code>gunicorn</code>, <code>whitenoise</code>, <code>Pillow</code>, <code>django-storages</code>, <code>django-fsm</code> (state machines), <code>python-docx</code> (Capstone auto-draft), <code>django-axes</code> (login rate limiting), <code>pytest-django</code>. Dev tools: pytest, black, ruff, factory-boy, ipython.</p>
+</div>
+
+<div class="file-block">
+<div class="filename">.gitignore</div>
+<p>Standard Python + Django + IDE ignores: <code>__pycache__</code>, <code>*.pyc</code>, <code>.env</code>, <code>venv/</code>, <code>.venv/</code>, <code>db.sqlite3</code>, <code>media/</code>, <code>staticfiles/</code>, <code>.idea/</code>, <code>.vscode/</code>, <code>.cursor/</code>, <code>*.log</code>, <code>.DS_Store</code>.</p>
+</div>
+
+<div class="file-block">
+<div class="filename">.env.example</div>
+<p>Template documenting every required env var with placeholder values. NEVER commit a real <code>.env</code>. Variables: <code>DJANGO_SECRET_KEY</code>, <code>DJANGO_DEBUG</code>, <code>DJANGO_ALLOWED_HOSTS</code>, <code>DATABASE_URL</code>, <code>SUPABASE_URL</code>, <code>SUPABASE_ANON_KEY</code>, <code>SUPABASE_SERVICE_KEY</code>, <code>SUPABASE_STORAGE_BUCKET</code>, <code>RAILWAY_STATIC_URL</code>, <code>EMAIL_BACKEND</code>.</p>
+</div>
+
+<div class="file-block">
+<div class="filename">Procfile, railway.json, runtime.txt</div>
+<p><code>Procfile</code> runs gunicorn; <code>railway.json</code> configures build/start commands. <code>runtime.txt</code> pins Python version (e.g., <code>python-3.11</code>).</p>
+</div>
+</section>
+
+<section id="phases">
+<h2>11. Build Phases &mdash; Iterative Plan</h2>
+<p>Build phase by phase. After each phase, summarize what's done and ask the user before proceeding to the next.</p>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 1</span>
+<h3>Project Bootstrapping</h3>
+
+<h4>Step 0 &mdash; Verify the conda environment is active (do this FIRST)</h4>
+<p>The user has already created and activated a dedicated conda environment for this project. Your first action in any session is to <strong>verify</strong> the environment, not to create it.</p>
+<p>Run these verification commands and confirm to the user:</p>
+<pre><code># Verify Python comes from a conda env
+python --version             # expect 3.11.x
+which python                 # expect a conda env path (e.g., .../envs/&lt;name&gt;/bin/python)
+echo $CONDA_DEFAULT_ENV      # should print the env name (not "base")</code></pre>
+<p>If any of these fail or show the wrong env, STOP and ask the user to activate the correct env before continuing.</p>
+<p>Once verified, install Python dependencies via <code>pip</code> <em>into the active conda env</em>:</p>
+<pre><code>pip install -r requirements.txt
+pip install -r requirements-dev.txt</code></pre>
+<p>After install: run <code>pip list</code> and confirm Django, psycopg2-binary, supabase, etc. all appear. Report the active env name and Python version back to the user.</p>
+
+<div class="callout callout-warning">
+<div class="label">You must never</div>
+Create a new conda env (the user owns env creation). Switch envs. Use <code>venv</code> or <code>virtualenv</code>. Install packages globally. Run <code>conda install</code> for project dependencies &mdash; use <code>pip</code> only, so <code>requirements.txt</code> remains the single source of truth.
+</div>
+
+<h4>Step 1 &mdash; Repository and project skeleton</h4>
+<ul>
+<li>Initialize git repo and connect to GitHub (instruct the user how to do this; do not push without explicit permission).</li>
+<li>Create Django project structure with apps: <code>core</code>, <code>accounts</code>, <code>content</code>, <code>enrollment</code>, <code>exams</code>, <code>capstone</code>, <code>documents</code>, <code>reports</code>.</li>
+<li>Set up <code>requirements.txt</code>, <code>requirements-dev.txt</code>, <code>.gitignore</code>, <code>.env.example</code>, <code>README.md</code>, <code>CLAUDE.md</code>, <code>Procfile</code>, <code>runtime.txt</code>, <code>railway.json</code>.</li>
+<li>Configure Django settings split: <code>base.py</code>, <code>dev.py</code>, <code>prod.py</code>.</li>
+<li>Set up Supabase connection via <code>DATABASE_URL</code>.</li>
+<li>Configure Tailwind CSS via CDN with the custom palette config from the Visual Design section.</li>
+<li>Set up RTL Hebrew base template with proper <code>&lt;html dir="rtl" lang="he"&gt;</code>.</li>
+<li><strong>Configure Israeli timezone</strong>: in settings, set <code>TIME_ZONE = 'Asia/Jerusalem'</code>, <code>USE_TZ = True</code>, <code>LANGUAGE_CODE = 'he'</code>. Document in CLAUDE.md that all cooldowns and timestamps are wall-clock Israel time.</li>
+<li><strong>Build a Hebrew/RTL middleware</strong>: in <code>core/middleware/rtl.py</code>, create middleware that sets <code>Content-Language: he</code> on every response and injects <code>direction: 'rtl'</code> into the template context automatically. Wire it into <code>MIDDLEWARE</code> in settings.</li>
+<li><strong>Build the StorageService abstraction</strong>: create <code>core/services/storage.py</code> with the interface described in Architectural Principle #9. The MVP implementation wraps Supabase Storage. Test with a stub upload of a placeholder file.</li>
+</ul>
+
+<div class="done-when">
+<div class="label">Done when</div>
+The (pre-existing) active conda env contains all dependencies from both requirements files; <code>pip list</code> confirms. Local dev server runs (<code>python manage.py runserver</code>). A stub home page renders in Hebrew RTL with the correct color palette and timezone set to Asia/Jerusalem. RTL middleware sets <code>Content-Language: he</code>. <code>StorageService</code> stub uploads a test file successfully. <code>python manage.py migrate</code> runs cleanly against Supabase. Git repo initialized; <code>.env</code> is in <code>.gitignore</code> and is NOT tracked.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 2</span>
+<h3>Data Model</h3>
+<ul>
+<li>Build all models per the data model section above.</li>
+<li>Migrations run cleanly.</li>
+<li>Populate seed data: one <code>Domain</code> ("Real Estate Finance &mdash; Israel"), 12 <code>Course</code> records, and stubs for first module + first reading component of Course 1 Module 4 (use the sample module's content).</li>
+<li>Add Django Admin registrations for all models.</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+Admin panel shows all entities, seed data visible, foreign-key relationships navigable.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 3</span>
+<h3>Auth &amp; Roles</h3>
+<ul>
+<li>Custom user model with <code>role</code> field.</li>
+<li>Supabase Auth integration: login form posts to a Django view that authenticates against Supabase, then creates/updates a local <code>User</code> record.</li>
+<li>Logout, session management, CSRF.</li>
+<li>Role-based decorators: <code>@trainee_required</code>, <code>@manager_required</code>, <code>@admin_required</code>, <code>@ceo_required</code>.</li>
+<li>Stub dashboards per role.</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+Four test users (one per role) can log in and see their respective stub dashboards; unauthorized cross-role access returns 403.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 4</span>
+<h3>Trainee Experience</h3>
+<ul>
+<li>Trainee dashboard with course list (status badges).</li>
+<li>Course detail view: module list with status.</li>
+<li>Module view: 4-component flow with forward gating.</li>
+<li>"Request Access" button on locked courses.</li>
+<li>Practice exercise UI: question display, option select, immediate feedback, distractor rationale.</li>
+<li>Final exam UI: timer, forward-only nav, auto-save, server-side time enforcement, submit dialog, immediate score.</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+A trainee user can be unlocked into Course 1 (manually via admin), navigate Module 4, complete all four components, take practice exercises, and take a final exam end-to-end with proper scoring.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 5</span>
+<h3>Customer Manager Experience</h3>
+<ul>
+<li>Trainees list page with summary stats.</li>
+<li>Per-trainee detail view.</li>
+<li>Unlock Requests inbox with approve/deny.</li>
+<li>Group Reports page (basic).</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+A customer manager can approve a request, view a trainee's progress, and see a basic group report.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 6</span>
+<h3>Admin Experience</h3>
+<ul>
+<li>Django Admin polished: useful list views, filters, search, inline editing for QuestionOptions.</li>
+<li>Bulk question import: <code>python manage.py import_questions &lt;path&gt;</code>.</li>
+<li>Bulk document import: <code>python manage.py import_documents &lt;path&gt;</code>.</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+Admin can add a new course + 5 modules + 30 questions via admin and CSV import in under 30 minutes.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 7</span>
+<h3>Capstone (Course 12)</h3>
+<ul>
+<li>File upload form for trainee (.docx only, &le;25 MB, validated server-side).</li>
+<li>Capstone Reviews inbox for customer managers.</li>
+<li>Rubric scoring form (5 categories &times; 1-5 scale + comment).</li>
+<li>Status transitions (FSM) and notifications-stub.</li>
+<li><strong>Capstone Auto-Draft Generator (stretch feature; ship if time permits).</strong> A management command + admin button that takes the trainee's previous course exercises (financial calculations, document analyses, scenario answers) and produces a starter <code>.docx</code> template of a credit memorandum with sections pre-populated where data exists. Use <code>python-docx</code>. If MVP time pressure forces a cut, defer to v1.1 and document in CLAUDE.md.</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+A trainee can submit a .docx file; a customer manager can review and score it; the trainee sees the result. Auto-draft generator is ideally working but optional for MVP sign-off.
+</div>
+</div>
+
+<div class="phase-card">
+<span class="phase-num">PHASE 8</span>
+<h3>Reports, Audit, Polish</h3>
+<ul>
+<li>CEO reports view with CSV export.</li>
+<li>Audit log read view for CEO/Admin.</li>
+<li>Document search across <code>LearningDocument</code> table.</li>
+<li>Capstone-deliverable archive view.</li>
+<li>Email notification stub class wired up.</li>
+<li>Production deployment to Railway, env vars set, smoke-tested live.</li>
+</ul>
+<div class="done-when">
+<div class="label">Done when</div>
+The system is deployed, all roles can perform their workflows on the live URL, no critical bugs.
+</div>
+</div>
+</section>
+
+<section id="standards">
+<h2>12. Coding Standards</h2>
+<ul>
+<li><strong>Python.</strong> PEP 8. Black formatting (line length 100). Ruff for linting. Type hints on all function signatures.</li>
+<li><strong>Django.</strong> Class-based views where it simplifies; function views where they don't. Use <code>select_related</code> / <code>prefetch_related</code> to avoid N+1.</li>
+<li><strong>Templates.</strong> Single <code>base.html</code> with RTL setup. Component-style includes. Tailwind classes inline.</li>
+<li><strong>Naming.</strong> Models in English, model field names in English snake_case. UI strings in Hebrew via <code>gettext_lazy</code>.</li>
+<li><strong>Tests.</strong> pytest-django. Aim for coverage on models, views, permissions, and exam-grading logic.</li>
+<li><strong>Commits.</strong> Conventional commits (<code>feat:</code>, <code>fix:</code>, <code>chore:</code>, <code>refactor:</code>, <code>test:</code>, <code>docs:</code>). Small, focused commits.</li>
+<li><strong>Branches.</strong> Work on <code>main</code> for solo MVP, but tag major phase completions (e.g., <code>v0.1-phase1-bootstrap</code>).</li>
+</ul>
+</section>
+
+<section id="security">
+<h2>13. Security Baseline</h2>
+<ul>
+<li>HTTPS enforced in production (configure <code>SECURE_SSL_REDIRECT</code>, <code>SESSION_COOKIE_SECURE</code>, <code>CSRF_COOKIE_SECURE</code>).</li>
+<li>CSRF protection on all forms.</li>
+<li>Password hashing via Supabase Auth.</li>
+<li>Server-side validation of every form.</li>
+<li>File upload validation: type, size, content-type sniffing.</li>
+<li>SQL injection: Django ORM only.</li>
+<li>XSS: Django auto-escaping on; carefully review any <code>|safe</code> usage.</li>
+<li>Rate limit login attempts (django-axes or similar).</li>
+<li>Logging: log auth events, exam submissions, capstone uploads, role changes. Never log passwords or PII bodies.</li>
+</ul>
+</section>
+
+<section id="email">
+<h2>14. Email &mdash; Stub for Future</h2>
+<p>Build an <code>EmailService</code> class in <code>core/services/email.py</code> with methods: <code>send_welcome</code>, <code>send_unlock_approved</code>, <code>send_unlock_denied</code>, <code>send_exam_passed</code>, <code>send_exam_failed</code>, <code>send_capstone_received</code>, <code>send_capstone_graded</code>, <code>send_manager_unlock_request</code>.</p>
+<p>In MVP, each method writes a <code>Notification</code> row and logs <code>[EMAIL_STUB] would send X to Y</code>. Future swap to a real provider is a config change only.</p>
+</section>
+
+<section id="out-of-scope">
+<h2>15. What NOT to Build in MVP</h2>
+<ul>
+<li>Mobile responsive design.</li>
+<li>Multi-language UI (Hebrew only).</li>
+<li>Real-time features (websockets, live notifications).</li>
+<li>Sophisticated analytics dashboards (basic counts and tables only).</li>
+<li>Question bank calibration analytics (capture data only &mdash; no UI).</li>
+<li>Plagiarism detection on capstone uploads.</li>
+<li>Single sign-on / OAuth providers.</li>
+<li>Payment / billing.</li>
+<li>Public marketing pages.</li>
+</ul>
+<p>Document these in <code>CLAUDE.md</code> under "Out of Scope for MVP".</p>
+</section>
+
+<section id="dod">
+<h2>16. Definition of Done &mdash; Overall MVP</h2>
+<ol>
+<li>A new trainee can be created by admin, log in, request access to a course, be approved by a manager, complete all modules of a course, take and pass the final exam, and see their result history.</li>
+<li>A capstone trainee can upload a .docx, a manager can grade it, and the trainee sees pass/fail.</li>
+<li>A CEO can view a group report and export to CSV.</li>
+<li>The admin can add a new course, modules, and questions entirely through Django Admin or management commands without touching code.</li>
+<li>The system is deployed to Railway and reachable at a live URL with HTTPS.</li>
+<li><code>README.md</code>, <code>CLAUDE.md</code>, <code>.env.example</code>, <code>requirements.txt</code>, <code>.gitignore</code>, <code>Procfile</code>, <code>railway.json</code>, <code>runtime.txt</code> all exist and are accurate.</li>
+<li>Adding a second domain ("Commercial Banking") would require zero schema changes &mdash; only data inserts.</li>
+</ol>
+</section>
+
+<section id="working-style">
+<h2>17. Working Style Instructions</h2>
+<ul>
+<li>After each build phase, write a short summary of what was done and ask the user to confirm before moving on.</li>
+<li>When you make a non-trivial design decision, state it explicitly.</li>
+<li>Don't refactor code from earlier phases without asking.</li>
+<li>If a requirement is ambiguous, ask. Do not infer silently.</li>
+<li>Prefer simple solutions.</li>
+<li>Test in Hebrew RTL from day one.</li>
+<li>Keep <code>CLAUDE.md</code> updated as you go.</li>
+</ul>
+
+<h3>Reference Quick Links (within project)</h3>
+<ul>
+<li>Curriculum spec: <code>./curriculum_specification_v2.html</code></li>
+<li>Sample module: <code>./sample_module_C01M04.html</code></li>
+<li>This prompt (markdown): <code>./BUILD_PROMPT.md</code></li>
+<li>This prompt (HTML, formatted): <code>./BUILD_PROMPT.html</code></li>
+</ul>
+<p>When in doubt about WHAT to build, the spec doc and sample module are authoritative. When in doubt about HOW to build, this document is authoritative.</p>
+
+<div class="callout callout-success">
+<div class="label">First action</div>
+<strong>Begin with Phase 1, Step 0 &mdash; verify the conda environment is active.</strong> Run the verification commands. If the env is correct, install dependencies and proceed to Step 1 (repo and project skeleton). If the env is wrong, stop and ask the user.
+</div>
+</section>
+
+<div class="footer">
+CRM Finance School &mdash; Build Specification | v3.0 | May 2026<br>
+This document is the authoritative build prompt for Claude Code. It is meant to be loaded as project context in Cursor, alongside <em>curriculum_specification_v2.html</em> and <em>sample_module_C01M04.html</em>.
+</div>
+
+</div>
+</body>
+</html>
