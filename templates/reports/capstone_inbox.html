@@ -28,10 +28,11 @@
         {% if sub.status == "submitted" %}<span class="badge-pending">הוגש</span>
         {% elif sub.status == "under_review" %}<span class="badge-pending">בבדיקה</span>{% endif %}
       </td>
-      <td style="padding:10px 14px">
+      <td style="padding:10px 14px;display:flex;gap:8px">
         {% if sub.file_url %}
         <a href="{{ sub.file_url }}" target="_blank" style="color:#1a2638;font-size:13px;text-decoration:underline">הורדה</a>
-        {% else %}<span style="color:#6b7280">—</span>{% endif %}
+        {% endif %}
+        <a href="{% url 'capstone_review' sub.pk %}" class="btn-primary" style="font-size:12px;padding:4px 12px">סקירה וניקוד</a>
       </td>
     </tr>
     {% endfor %}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}הגשת פרויקט גמר — {{ course.title_he }}{% endblock %}
+{% block content %}
+
+<div class="mb-2" style="font-size:13px;color:#6b7280">
+  <a href="{% url 'course_list' %}" style="color:#6b7280">קורסים</a> &lsaquo;
+  <a href="{% url 'course_detail' course.slug %}" style="color:#6b7280">{{ course.title_he }}</a> &lsaquo;
+  הגשת פרויקט גמר
+</div>
+
+<div class="card mb-6">
+  <h1 class="mb-2">הגשת פרויקט גמר</h1>
+  <p style="color:#6b7280;font-size:14px">{{ course.title_he }}</p>
+
+  <div class="callout-example" style="margin:20px 0">
+    <strong>הנחיות הגשה:</strong>
+    <ul style="margin:8px 0 0;padding-right:20px;font-size:14px">
+      <li>קבצי Word בלבד (פורמט .docx)</li>
+      <li>גודל מקסימלי: 25MB</li>
+      <li>ניתן להגיש מספר פעמים — ההגשה האחרונה היא הקובעת</li>
+      <li>לאחר ההגשה, מנהל הלקוחות יסקור את הפרויקט ויעניק ציון</li>
+    </ul>
+  </div>
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="mb-6">
+      <label style="display:block;font-weight:600;margin-bottom:8px">בחר קובץ Word (.docx)</label>
+      <input type="file" name="capstone_file" accept=".docx"
+        style="border:1px solid #cbd5e0;border-radius:4px;padding:8px 12px;font-size:14px;width:100%">
+    </div>
+    <button type="submit" class="btn-primary">הגשת פרויקט גמר</button>
+    <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="margin-right:12px">ביטול</a>
+  </form>
+</div>
+
+{% if existing_submissions %}
+<div class="card">
+  <h3 class="mb-4">הגשות קודמות</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:2px solid #cbd5e0">
+        <th style="padding:8px 12px;text-align:right">תאריך הגשה</th>
+        <th style="padding:8px 12px;text-align:right">סטטוס</th>
+        <th style="padding:8px 12px;text-align:right">קובץ</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for sub in existing_submissions %}
+    <tr style="border-bottom:1px solid #f7fafc">
+      <td style="padding:8px 12px">{{ sub.submitted_at|date:"d/m/Y H:i" }}</td>
+      <td style="padding:8px 12px">
+        {% if sub.status == "submitted" %}<span class="badge-pending">הוגש — ממתין לבדיקה</span>
+        {% elif sub.status == "under_review" %}<span class="badge-pending">בבדיקה</span>
+        {% elif sub.status == "passed" %}<span class="badge-pass">עבר</span>
+        {% elif sub.status == "failed" %}<span class="badge-fail">נכשל</span>{% endif %}
+      </td>
+      <td style="padding:8px 12px">
+        <a href="{{ sub.file_url }}" target="_blank" style="color:#1a2638;font-size:13px">הורדה</a>
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}

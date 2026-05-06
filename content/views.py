@@ -110,6 +110,14 @@ def course_detail(request: HttpRequest, course_slug: str) -> HttpResponse:
         user=request.user, course=course
     ).order_by("-attempt_number").first()
 
+    # Capstone submission (Course 12 only)
+    latest_capstone = None
+    if course.is_capstone:
+        from capstone.models import CapstoneSubmission
+        latest_capstone = CapstoneSubmission.objects.filter(
+            user=request.user, course=course
+        ).order_by("-submitted_at").first()
+
     return render(request, "content/course_detail.html", {
         "course": course,
         "enrollment": enrollment,
@@ -118,6 +126,7 @@ def course_detail(request: HttpRequest, course_slug: str) -> HttpResponse:
         "modules_data": modules_data,
         "all_modules_done": all_modules_done,
         "latest_attempt": latest_attempt,
+        "latest_capstone": latest_capstone,
     })
 
 
