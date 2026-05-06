@@ -1,3 +1,7 @@
 from django.urls import path
+from . import views
 
-urlpatterns: list = []
+urlpatterns = [
+    path("", views.document_list, name="document_list"),
+    path("<int:pk>/download/", views.document_download, name="document_download"),
+]

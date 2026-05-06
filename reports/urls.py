@@ -10,4 +10,6 @@ urlpatterns = [
     path("unlock-requests/<int:pk>/deny/", views.deny_request, name="deny_request"),
     path("capstone/", views.capstone_inbox, name="capstone_inbox"),
     path("confidence/", views.confidence_map, name="confidence_map"),
+    path("export/", views.export_csv, name="export_csv"),
+    path("audit/", views.audit_log_view, name="audit_log"),
 ]

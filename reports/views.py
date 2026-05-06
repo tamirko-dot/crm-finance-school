@@ -8,10 +8,12 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.utils import timezone
 from django.views.decorators.http import require_POST
 
+import csv
+
 from accounts.models import User, UserRole
 from capstone.models import CapstoneSubmission, CapstoneStatus
 from content.models import Course, Domain
-from core.decorators.roles import manager_required, manager_or_ceo_required, ceo_required
+from core.decorators.roles import manager_required, manager_or_ceo_required, ceo_required, admin_or_ceo_required
 from documents.models import AuditLog
 from enrollment.models import (
     CourseEnrollment, EnrollmentStatus, ModuleProgress, UnlockRequest, UnlockRequestStatus,
@@ -245,4 +247,74 @@ def confidence_map(request: HttpRequest) -> HttpResponse:
         "selected_slug": selected_slug,
         "overconfident": list(overconfident_qs),
         "lucky_guesses": list(lucky_guess_qs),
+    })
+
+
+# ─── CSV export ───────────────────────────────────────────────────────────────
+
+@manager_or_ceo_required
+def export_csv(request: HttpRequest) -> HttpResponse:
+    response = HttpResponse(content_type="text/csv; charset=utf-8-sig")
+    response["Content-Disposition"] = 'attachment; filename="trainees_report.csv"'
+
+    courses = list(Course.objects.filter(is_active=True).order_by("course_number"))
+    trainees = User.objects.filter(role=UserRole.TRAINEE, is_active=True).order_by("full_name_he")
+
+    writer = csv.writer(response)
+
+    # Header row
+    header = ["שם", "דוא\"ל"]
+    for c in courses:
+        header += [f"קורס {c.course_number} — סטטוס", f"קורס {c.course_number} — ציון מבחן"]
+    writer.writerow(header)
+
+    # One row per trainee
+    for trainee in trainees:
+        enrollment_map = {
+            e.course_id: e
+            for e in CourseEnrollment.objects.filter(user=trainee).select_related("course")
+        }
+        best_score_map = {}
+        for attempt in ExamAttempt.objects.filter(user=trainee, status=AttemptStatus.GRADED).order_by("-score_pct"):
+            if attempt.course_id not in best_score_map:
+                best_score_map[attempt.course_id] = attempt.score_pct
+
+        row = [trainee.full_name_he or trainee.username, trainee.email]
+        for c in courses:
+            enrollment = enrollment_map.get(c.pk)
+            status = enrollment.get_status_display() if enrollment else "נעול"
+            score = f"{best_score_map[c.pk]:.1f}%" if c.pk in best_score_map else "—"
+            row += [status, score]
+        writer.writerow(row)
+
+    return response
+
+
+# ─── audit log ────────────────────────────────────────────────────────────────
+
+@admin_or_ceo_required
+def audit_log_view(request: HttpRequest) -> HttpResponse:
+    from django.core.paginator import Paginator
+
+    action_filter = request.GET.get("action", "")
+    entity_filter = request.GET.get("entity", "")
+
+    qs = AuditLog.objects.select_related("user").order_by("-created_at")
+    if action_filter:
+        qs = qs.filter(action__icontains=action_filter)
+    if entity_filter:
+        qs = qs.filter(entity_type__icontains=entity_filter)
+
+    paginator = Paginator(qs, 50)
+    page = paginator.get_page(request.GET.get("page", 1))
+
+    actions = AuditLog.objects.values_list("action", flat=True).distinct().order_by("action")
+    entities = AuditLog.objects.values_list("entity_type", flat=True).distinct().order_by("entity_type")
+
+    return render(request, "reports/audit_log.html", {
+        "page": page,
+        "action_filter": action_filter,
+        "entity_filter": entity_filter,
+        "actions": actions,
+        "entities": entities,
     })

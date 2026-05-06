@@ -1,1 +1,1 @@
-web: gunicorn crm_finance_school.wsgi --log-file -
+web: python manage.py migrate --noinput && python manage.py collectstatic --noinput && gunicorn crm_finance_school.wsgi --bind 0.0.0.0:$PORT --workers 2 --log-file -
