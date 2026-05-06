@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}דוח קבוצתי{% endblock %}
+{% block content %}
+
+<div class="flex items-center justify-between mb-6">
+  <h1>דוח קבוצתי</h1>
+  <a href="{% url 'confidence_map' %}" class="btn-secondary" style="font-size:13px;padding:6px 16px">מפת בטחון</a>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px">
+  <div class="card text-center py-6">
+    <div style="font-size:32px;font-weight:700;color:#1a2638">{{ trainee_count }}</div>
+    <div style="font-size:13px;color:#6b7280">חניכים פעילים</div>
+  </div>
+  <div class="card text-center py-6">
+    <div style="font-size:32px;font-weight:700;color:#b71c1c">{{ struggling|length }}</div>
+    <div style="font-size:13px;color:#6b7280">דורשים תשומת לב</div>
+  </div>
+  <div class="card text-center py-6">
+    <div style="font-size:32px;font-weight:700;color:#b87333">{{ pending_requests }}</div>
+    <div style="font-size:13px;color:#6b7280">בקשות גישה ממתינות</div>
+  </div>
+</div>
+
+{% if struggling %}
+<div class="callout-warning mb-6">
+  <strong>חניכים הדורשים תשומת לב (ללא פעילות 14+ ימים):</strong>
+  <ul style="margin:8px 0 0;padding-right:20px">
+    {% for t in struggling %}
+    <li style="font-size:14px">
+      <a href="{% url 'trainee_detail' t.pk %}" style="color:#1a2638">{{ t.display_name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2 class="mb-4">סטטיסטיקה לפי קורס</h2>
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:2px solid #cbd5e0">
+        <th style="padding:10px 14px;text-align:right">קורס</th>
+        <th style="padding:10px 14px;text-align:center">רשומים</th>
+        <th style="padding:10px 14px;text-align:center">עברו</th>
+        <th style="padding:10px 14px;text-align:center">שיעור מעבר</th>
+        <th style="padding:10px 14px;text-align:center">ממוצע ציון</th>
+        <th style="padding:10px 14px;text-align:center">ניסיונות</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for s in course_stats %}
+    <tr style="border-bottom:1px solid #cbd5e0">
+      <td style="padding:10px 14px">
+        <div style="font-weight:600">{{ s.course.title_he }}</div>
+        <div style="font-size:12px;color:#6b7280">קורס {{ s.course.course_number }} — שלב {{ s.course.phase }}</div>
+      </td>
+      <td style="padding:10px 14px;text-align:center">{{ s.enrolled }}</td>
+      <td style="padding:10px 14px;text-align:center">
+        {% if s.passed %}<span class="badge-pass">{{ s.passed }}</span>{% else %}—{% endif %}
+      </td>
+      <td style="padding:10px 14px;text-align:center">
+        {% if s.enrolled %}
+        <div style="background:#cbd5e0;border-radius:4px;height:8px;width:80px;margin:0 auto">
+          <div style="background:#2e7d32;height:8px;border-radius:4px;width:{{ s.pass_rate }}%"></div>
+        </div>
+        <span style="font-size:12px;color:#6b7280">{{ s.pass_rate }}%</span>
+        {% else %}—{% endif %}
+      </td>
+      <td style="padding:10px 14px;text-align:center">
+        {% if s.avg_score %}{{ s.avg_score }}%{% else %}<span style="color:#6b7280">—</span>{% endif %}
+      </td>
+      <td style="padding:10px 14px;text-align:center">{{ s.attempt_count }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

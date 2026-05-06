@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}פרויקטי גמר{% endblock %}
+{% block content %}
+
+<h1 class="mb-6">פרויקטי גמר — סקירה</h1>
+
+<div class="card mb-6">
+  <h2 class="mb-4">ממתינים לבדיקה</h2>
+  {% if pending %}
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:2px solid #cbd5e0">
+        <th style="padding:10px 14px;text-align:right">חניך</th>
+        <th style="padding:10px 14px;text-align:right">הוגש</th>
+        <th style="padding:10px 14px;text-align:right">סטטוס</th>
+        <th style="padding:10px 14px;text-align:right">קובץ</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for sub in pending %}
+    <tr style="border-bottom:1px solid #cbd5e0">
+      <td style="padding:10px 14px">
+        <div style="font-weight:600">{{ sub.user.display_name }}</div>
+        <div style="font-size:12px;color:#6b7280">{{ sub.user.email }}</div>
+      </td>
+      <td style="padding:10px 14px">{{ sub.submitted_at|date:"d/m/Y H:i" }}</td>
+      <td style="padding:10px 14px">
+        {% if sub.status == "submitted" %}<span class="badge-pending">הוגש</span>
+        {% elif sub.status == "under_review" %}<span class="badge-pending">בבדיקה</span>{% endif %}
+      </td>
+      <td style="padding:10px 14px">
+        {% if sub.file_url %}
+        <a href="{{ sub.file_url }}" target="_blank" style="color:#1a2638;font-size:13px;text-decoration:underline">הורדה</a>
+        {% else %}<span style="color:#6b7280">—</span>{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="mt-4" style="font-size:13px;color:#6b7280">ניקוד הפרויקטים יהיה זמין בשלב ז׳ של הפיתוח.</p>
+  {% else %}
+  <p style="color:#6b7280">אין פרויקטים הממתינים לבדיקה.</p>
+  {% endif %}
+</div>
+
+{% if completed %}
+<div class="card">
+  <h3 class="mb-4">פרויקטים שנבדקו</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:1px solid #cbd5e0">
+        <th style="padding:8px 12px;text-align:right">חניך</th>
+        <th style="padding:8px 12px;text-align:right">הוגש</th>
+        <th style="padding:8px 12px;text-align:right">תוצאה</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for sub in completed %}
+    <tr style="border-bottom:1px solid #f7fafc">
+      <td style="padding:8px 12px">{{ sub.user.display_name }}</td>
+      <td style="padding:8px 12px">{{ sub.submitted_at|date:"d/m/Y" }}</td>
+      <td style="padding:8px 12px">
+        {% if sub.status == "passed" %}<span class="badge-pass">עבר</span>
+        {% else %}<span class="badge-fail">נכשל</span>{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}{{ trainee.display_name }} — פרטי חניך{% endblock %}
+{% block content %}
+
+<div class="mb-2" style="font-size:13px;color:#6b7280">
+  <a href="{% url 'trainees_list' %}" style="color:#6b7280">חניכים</a> &lsaquo; {{ trainee.display_name }}
+</div>
+
+<div class="card mb-6" style="display:flex;gap:32px;align-items:flex-start">
+  <div style="flex:1">
+    <h1 class="mb-1">{{ trainee.display_name }}</h1>
+    <p style="color:#6b7280;font-size:13px">{{ trainee.email }}</p>
+    {% if trainee.full_name_en %}<p style="color:#6b7280;font-size:13px">{{ trainee.full_name_en }}</p>{% endif %}
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;min-width:400px">
+    <div class="text-center">
+      <div style="font-size:24px;font-weight:700;color:#2e7d32">{{ summary.passed }}</div>
+      <div style="font-size:12px;color:#6b7280">עבר</div>
+    </div>
+    <div class="text-center">
+      <div style="font-size:24px;font-weight:700;color:#b87333">{{ summary.in_progress }}</div>
+      <div style="font-size:12px;color:#6b7280">בתהליך</div>
+    </div>
+    <div class="text-center">
+      <div style="font-size:24px;font-weight:700;color:#b71c1c">{{ summary.failed }}</div>
+      <div style="font-size:12px;color:#6b7280">נכשל</div>
+    </div>
+    <div class="text-center">
+      <div style="font-size:24px;font-weight:700;color:#1a2638">{{ summary.pending_requests }}</div>
+      <div style="font-size:12px;color:#6b7280">בקשות ממתינות</div>
+    </div>
+  </div>
+</div>
+
+{% if summary.is_struggling %}
+<div class="callout-warning mb-6">
+  החניך לא פעיל כבר {{ summary.days_inactive }} ימים למרות שיש לו קורסים פתוחים. מומלץ ליצור קשר.
+</div>
+{% endif %}
+
+{% for item in course_data %}
+{% if item.enrollment %}
+<div class="card mb-4">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+    <div>
+      <span style="font-size:12px;color:#6b7280">קורס {{ item.course.course_number }}</span>
+      <h3 style="margin:2px 0 0">{{ item.course.title_he }}</h3>
+    </div>
+    {% if item.status == "passed" %}<span class="badge-pass">עבר</span>
+    {% elif item.status == "in_progress" %}<span class="badge-pending">בתהליך</span>
+    {% elif item.status == "open" %}<span class="badge-pending">פתוח</span>
+    {% elif item.status == "failed" %}<span class="badge-fail">נכשל</span>
+    {% else %}<span style="color:#6b7280;font-size:13px">{{ item.status }}</span>{% endif %}
+  </div>
+
+  {% if item.module_rows %}
+  <div style="margin-bottom:12px">
+    {% for mr in item.module_rows %}
+    <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f7fafc;font-size:13px">
+      <span style="color:#6b7280;min-width:80px">מודול {{ mr.module.module_number }}</span>
+      <span style="flex:1">{{ mr.module.title_he }}</span>
+      {% if mr.progress and mr.progress.is_completed %}
+        <span class="badge-pass">הושלם</span>
+        {% if mr.progress.practice_score_pct is not None %}
+        <span style="font-size:12px;color:#6b7280">תרגול: {{ mr.progress.practice_score_pct|floatformat:0 }}%</span>
+        {% endif %}
+      {% elif mr.progress %}
+        <span class="badge-pending">בתהליך</span>
+      {% else %}
+        <span style="color:#6b7280">לא התחיל</span>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if item.attempts %}
+  <div>
+    <div style="font-size:12px;font-weight:600;color:#6b7280;margin-bottom:6px">ניסיונות מבחן</div>
+    {% for a in item.attempts %}
+    <div style="display:flex;align-items:center;gap:12px;font-size:13px;padding:4px 0">
+      <span style="color:#6b7280">ניסיון {{ a.attempt_number }}</span>
+      <span>{{ a.started_at|date:"d/m/Y" }}</span>
+      {% if a.score_pct is not None %}
+      <strong>{{ a.score_pct|floatformat:1 }}%</strong>
+      {% if a.passed %}<span class="badge-pass">עבר</span>{% else %}<span class="badge-fail">נכשל</span>{% endif %}
+      {% else %}
+      <span class="badge-pending">בתהליך</span>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+{% endfor %}
+
+{% endblock %}
