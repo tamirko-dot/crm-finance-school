@@ -1,0 +1,76 @@
+[
+  {
+    "question_id_external": "C01-M04-Q03",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "exam",
+    "stem_html_he": "<p>מהי הגדרת NOI (הכנסה תפעולית נטו)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "טעות בחישוב NOI היא הטעות השכיחה ביותר בניתוחי נדל\"ן — ועדת האשראי תבחין בה מיד.",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "הכנסות שכירות ברוטו בניכוי הוצאות תפעוליות (ללא שירות חוב)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הכנסות שכירות ברוטו בניכוי שירות חוב שנתי",
+        "is_correct": false,
+        "distractor_rationale_he": "שירות חוב אינו חלק מחישוב NOI — ה-DSCR הוא שמשווה בין NOI לשירות החוב."
+      },
+      {
+        "text_he": "הכנסות שכירות ברוטו ללא ניכויים",
+        "is_correct": false,
+        "distractor_rationale_he": "זו ה-Gross Income, לפני ניכוי פנויות והוצאות תפעוליות."
+      },
+      {
+        "text_he": "רווח נקי לאחר מס",
+        "is_correct": false,
+        "distractor_rationale_he": "NOI הוא מדד תפעולי שאינו כולל מס, פחת, או שירות חוב."
+      }
+    ],
+    "explanation_html_he": "<p>NOI = הכנסות ברוטו − פנויות − הוצאות תפעוליות. לא כולל שירות חוב, פחת, או מס.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-Q04",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "exam",
+    "stem_html_he": "<p>נכס מניב NOI שנתי של <strong>600,000 ש\"ח</strong>. שירות חוב שנתי: <strong>480,000 ש\"ח</strong>. מה ה-DSCR?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR של 1.25 הוא בקושי מעל הרף המינימלי של 1.20 — ועדת האשראי תדרוש בטחונות נוספים.",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "1.25",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "0.80",
+        "is_correct": false,
+        "distractor_rationale_he": "0.80 הוא ה-DSCR ההפוך — חלקת שירות חוב ב-NOI במקום NOI בשירות חוב."
+      },
+      {
+        "text_he": "1.20",
+        "is_correct": false,
+        "distractor_rationale_he": "1.20 הוא הרף המינימלי המקובל, לא התוצאה. 600,000 ÷ 480,000 = 1.25."
+      },
+      {
+        "text_he": "125,000",
+        "is_correct": false,
+        "distractor_rationale_he": "זו תוצאת חיסור (600K − 480K), לא DSCR. DSCR הוא יחס, לא סכום."
+      }
+    ],
+    "explanation_html_he": "<p>DSCR = NOI ÷ שירות חוב = 600,000 ÷ 480,000 = 1.25. מעל הרף המינימלי של 1.20.</p>"
+  }
+]

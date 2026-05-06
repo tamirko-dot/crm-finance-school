@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+admin.site.site_header = "מערכת הכשרת אנליסטים — ניהול"
+admin.site.site_title = "CRM Finance School"
+admin.site.index_title = "לוח ניהול"

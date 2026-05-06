@@ -1,0 +1,18 @@
+[
+  {
+    "title_he": "מדריך הערכת שווי נכסים מניבים",
+    "description_he": "מסמך ייחוס לשיטות הערכת שווי נכסים מניבים בישראל — גישת ההכנסה, גישת השוק, גישת העלות.",
+    "file_url": "https://your-supabase-project.supabase.co/storage/v1/object/public/learning-materials/valuation-guide.pdf",
+    "file_type": "pdf",
+    "domain_slug": "real-estate-finance-il",
+    "tags": []
+  },
+  {
+    "title_he": "מסמך הלוואה לדוגמה — ניתוח",
+    "description_he": "חוזה הלוואה לדוגמה לצורכי ניתוח בקורס 8 — ניתוח מסמכים משפטיים.",
+    "file_url": "https://your-supabase-project.supabase.co/storage/v1/object/public/learning-materials/sample-loan-agreement.docx",
+    "file_type": "docx",
+    "domain_slug": "real-estate-finance-il",
+    "tags": []
+  }
+]
