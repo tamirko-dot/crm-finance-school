@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}בקשות גישה{% endblock %}
+{% block content %}
+
+<h1 class="mb-6">בקשות פתיחת קורסים</h1>
+
+<div class="card mb-6">
+  <h2 class="mb-4">ממתינות לאישור</h2>
+  {% if pending %}
+  {% for req in pending %}
+  <div style="border:1px solid #cbd5e0;border-radius:4px;padding:16px 20px;margin-bottom:12px;background:#fff">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px">
+      <div>
+        <div style="font-weight:600;font-size:15px">{{ req.user.display_name }}</div>
+        <div style="font-size:13px;color:#6b7280">{{ req.user.email }}</div>
+        <div style="margin-top:6px;font-size:14px">
+          קורס: <strong>{{ req.course.title_he }}</strong>
+          <span style="color:#6b7280;font-size:12px;margin-right:8px">{{ req.requested_at|date:"d/m/Y H:i" }}</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:flex-start">
+        <form method="post" action="{% url 'approve_request' req.pk %}" style="display:flex;gap:6px;align-items:center">
+          {% csrf_token %}
+          <input type="text" name="note" placeholder="הערה (אופציונלי)"
+            style="border:1px solid #cbd5e0;border-radius:4px;padding:5px 10px;font-size:13px;width:180px">
+          <button type="submit" class="btn-primary" style="padding:6px 16px;font-size:13px">אישור</button>
+        </form>
+        <form method="post" action="{% url 'deny_request' req.pk %}" style="display:flex;gap:6px;align-items:center">
+          {% csrf_token %}
+          <input type="text" name="note" placeholder="סיבת דחייה"
+            style="border:1px solid #cbd5e0;border-radius:4px;padding:5px 10px;font-size:13px;width:160px">
+          <button type="submit" style="background:#b71c1c;color:#fff;border:none;padding:6px 16px;border-radius:4px;font-size:13px;cursor:pointer">דחייה</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% else %}
+  <p style="color:#6b7280">אין בקשות ממתינות כרגע.</p>
+  {% endif %}
+</div>
+
+{% if recent %}
+<div class="card">
+  <h3 class="mb-4">אחרונות שטופלו</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:13px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:1px solid #cbd5e0">
+        <th style="padding:8px 12px;text-align:right">חניך</th>
+        <th style="padding:8px 12px;text-align:right">קורס</th>
+        <th style="padding:8px 12px;text-align:right">סטטוס</th>
+        <th style="padding:8px 12px;text-align:right">טופל ע"י</th>
+        <th style="padding:8px 12px;text-align:right">תאריך</th>
+        <th style="padding:8px 12px;text-align:right">הערה</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for req in recent %}
+    <tr style="border-bottom:1px solid #f7fafc">
+      <td style="padding:8px 12px">{{ req.user.display_name }}</td>
+      <td style="padding:8px 12px">{{ req.course.title_he }}</td>
+      <td style="padding:8px 12px">
+        {% if req.status == "approved" %}<span class="badge-pass">אושר</span>
+        {% else %}<span class="badge-fail">נדחה</span>{% endif %}
+      </td>
+      <td style="padding:8px 12px">{{ req.responded_by.display_name|default:"—" }}</td>
+      <td style="padding:8px 12px">{{ req.responded_at|date:"d/m/Y H:i" }}</td>
+      <td style="padding:8px 12px;color:#6b7280">{{ req.note|default:"—" }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}

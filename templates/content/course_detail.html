@@ -99,5 +99,29 @@
   {% endif %}
 </div>
 
+{% if course.is_capstone %}
+<div class="card mt-4">
+  <h2 class="mb-4">הגשת פרויקט גמר</h2>
+  {% if latest_attempt and latest_attempt.passed %}
+    <p class="mb-4" style="color:#2c3e50">עברת את מבחן הסיום — ניתן להגיש את פרויקט הגמר.</p>
+    {% if latest_capstone %}
+      <div class="mb-4 p-3 rounded" style="background:{% if latest_capstone.status == 'passed' %}#e8f5e9{% elif latest_capstone.status == 'failed' %}#fee5e0{% else %}#fff3cd{% endif %}">
+        הגשה אחרונה: {{ latest_capstone.submitted_at|date:"d/m/Y" }}
+        —
+        {% if latest_capstone.status == "submitted" %}ממתין לבדיקה
+        {% elif latest_capstone.status == "under_review" %}בבדיקה
+        {% elif latest_capstone.status == "passed" %}עבר
+        {% elif latest_capstone.status == "failed" %}נכשל{% endif %}
+      </div>
+    {% endif %}
+    <a href="{% url 'capstone_submit' course.slug %}" class="btn-primary">
+      {% if latest_capstone %}הגשה חדשה{% else %}הגשת פרויקט גמר{% endif %}
+    </a>
+  {% else %}
+    <p style="color:#6b7280">יש לעבור את מבחן הסיום לפני הגשת פרויקט הגמר.</p>
+  {% endif %}
+</div>
+{% endif %}
+
 {% endif %}
 {% endblock %}

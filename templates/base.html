@@ -94,9 +94,17 @@
     <div class="flex items-center gap-6">
       <a href="/dashboard/" class="font-bold text-lg tracking-tight">מערכת הכשרה</a>
       <a href="/dashboard/" class="text-sm hover:text-gold transition-colors">לוח בקרה</a>
+      {% if user.role == 'trainee' %}
+      <a href="/courses/" class="text-sm hover:text-gold transition-colors">קורסים</a>
+      {% endif %}
       <a href="/documents/" class="text-sm hover:text-gold transition-colors">מסמכים</a>
-      {% if user.role in 'customer_manager,admin,ceo' %}
+      {% if user.role == 'customer_manager' or user.role == 'ceo' or user.role == 'admin' %}
       <a href="/reports/" class="text-sm hover:text-gold transition-colors">דוחות</a>
+      <a href="/reports/trainees/" class="text-sm hover:text-gold transition-colors">חניכים</a>
+      {% endif %}
+      {% if user.role == 'customer_manager' %}
+      <a href="/reports/unlock-requests/" class="text-sm hover:text-gold transition-colors">בקשות גישה</a>
+      <a href="/reports/capstone/" class="text-sm hover:text-gold transition-colors">פרויקטי גמר</a>
       {% endif %}
     </div>
     <div class="flex items-center gap-4 text-sm">

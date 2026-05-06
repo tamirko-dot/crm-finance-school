@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% load core_tags %}
+{% block title %}סקירת פרויקט גמר — {{ submission.user.display_name }}{% endblock %}
+{% block content %}
+
+<div class="mb-2" style="font-size:13px;color:#6b7280">
+  <a href="{% url 'capstone_inbox' %}" style="color:#6b7280">פרויקטי גמר</a> &lsaquo;
+  {{ submission.user.display_name }}
+</div>
+
+<div class="card mb-6" style="display:flex;align-items:flex-start;justify-content:space-between;gap:24px">
+  <div>
+    <h1 class="mb-1">{{ submission.user.display_name }}</h1>
+    <p style="color:#6b7280;font-size:13px">{{ submission.user.email }}</p>
+    <p style="color:#6b7280;font-size:13px;margin-top:4px">הוגש: {{ submission.submitted_at|date:"d/m/Y H:i" }}</p>
+  </div>
+  <div style="text-align:center">
+    {% if submission.status == "under_review" %}<span class="badge-pending" style="font-size:14px;padding:6px 16px">בבדיקה</span>
+    {% elif submission.status == "passed" %}<span class="badge-pass" style="font-size:14px;padding:6px 16px">עבר</span>
+    {% elif submission.status == "failed" %}<span class="badge-fail" style="font-size:14px;padding:6px 16px">נכשל</span>{% endif %}
+    <div style="margin-top:10px">
+      <a href="{{ submission.file_url }}" target="_blank" class="btn-primary" style="font-size:13px;padding:6px 16px">הורדת הקובץ</a>
+    </div>
+  </div>
+</div>
+
+{% if submission.status == "under_review" %}
+<form method="post">
+  {% csrf_token %}
+  <div class="card mb-4">
+    <h2 class="mb-2">טופס ניקוד</h2>
+    <p style="color:#6b7280;font-size:13px;margin-bottom:20px">
+      דרג כל קריטריון בסולם 1–5. ממוצע ≥ {{ pass_threshold }} מוביל להמלצת מעבר.
+    </p>
+
+    {% for cat_value, cat_label in categories %}
+    <div style="border:1px solid #cbd5e0;border-radius:4px;padding:16px 20px;margin-bottom:12px">
+      <div style="font-weight:600;margin-bottom:12px;font-size:15px">{{ cat_label }}</div>
+      <div style="display:flex;gap:8px;margin-bottom:10px">
+        {% for score in score_range %}
+        <label style="flex:1;text-align:center;cursor:pointer">
+          <input type="radio" name="score_{{ cat_value }}" value="{{ score }}"
+            {% if existing_scores|get_item:cat_value %}
+              {% if existing_scores|get_item:cat_value.score == score %}checked{% endif %}
+            {% endif %}
+            required style="display:block;margin:0 auto 4px">
+          <span style="font-size:13px;color:#2c3e50">{{ score }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;color:#6b7280;margin-bottom:8px">
+        <span>חלש מאוד</span><span>חלש</span><span>בינוני</span><span>טוב</span><span>מצוין</span>
+      </div>
+      <textarea name="comment_{{ cat_value }}" rows="2" placeholder="הערות (אופציונלי)"
+        style="width:100%;border:1px solid #cbd5e0;border-radius:4px;padding:8px;font-size:13px;font-family:inherit;resize:vertical">{% if existing_scores|get_item:cat_value %}{{ existing_scores|get_item:cat_value.comment_he }}{% endif %}</textarea>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="card" style="display:flex;gap:12px;align-items:center">
+    <button type="submit" name="action" value="pass" class="btn-primary" style="background:#2e7d32">
+      סיום ניקוד — עבר
+    </button>
+    <button type="submit" name="action" value="fail" class="btn-primary" style="background:#b71c1c">
+      סיום ניקוד — נכשל
+    </button>
+    <button type="submit" name="action" value="auto" class="btn-secondary">
+      קביעה אוטומטית לפי ממוצע
+    </button>
+    <a href="{% url 'capstone_inbox' %}" class="btn-secondary">ביטול</a>
+  </div>
+</form>
+
+{% else %}
+<div class="card">
+  <h2 class="mb-4">תוצאות הניקוד</h2>
+  {% if submission.rubric_scores.all %}
+  {% with total=0 count=0 %}
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <thead>
+      <tr style="background:#f7fafc;border-bottom:2px solid #cbd5e0">
+        <th style="padding:10px 14px;text-align:right">קריטריון</th>
+        <th style="padding:10px 14px;text-align:center">ציון</th>
+        <th style="padding:10px 14px;text-align:right">הערות</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for score in submission.rubric_scores.all %}
+    <tr style="border-bottom:1px solid #f7fafc">
+      <td style="padding:10px 14px;font-weight:600">{{ score.get_category_display }}</td>
+      <td style="padding:10px 14px;text-align:center">
+        <span style="font-size:18px;font-weight:700;color:{% if score.score >= 4 %}#2e7d32{% elif score.score >= 3 %}#b87333{% else %}#b71c1c{% endif %}">
+          {{ score.score }}/5
+        </span>
+      </td>
+      <td style="padding:10px 14px;color:#6b7280;font-size:13px">{{ score.comment_he|default:"—" }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endwith %}
+  {% else %}
+  <p style="color:#6b7280">לא הוזנו ציונים.</p>
+  {% endif %}
+</div>
+{% endif %}
+
+{% endblock %}
