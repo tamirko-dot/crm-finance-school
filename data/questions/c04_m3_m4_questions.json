@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C04-M03-CMP-Q01",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו פריטים כלולים ב-NOI (Net Operating Income) ואילו מוחרגים לצורך הערכת שווי נדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "NOI הוא 'הדלק' של הערכת שווי. אם ה-NOI מנופח — השווי מנופח. לכן, בדיקת NOI מתחילה מהסכמי שכירות בפועל, לא מהתחזית של המוכר.",
+    "topic_tags": ["noi", "valuation"],
+    "options": [
+      {
+        "text_he": "כלול: שכ\"ד, הכנסות נלוות שוטפות, ניכוי vacancy. מוחרג: פחת, ריבית, מסים, הוצאות הון (capex), שערוכי IAS 40",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כלול: שכ\"ד, פחת, ריבית. מוחרג: הוצאות תפעול שוטפות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פחת וריבית מוחרגים מ-NOI; הוצאות תפעול שוטפות (ניהול, תחזוקה, ארנונה) כלולות ומפחיתות NOI"
+      },
+      {
+        "text_he": "כלול: שכ\"ד ברוטו ללא ניכוי vacancy. מוחרג: הוצאות ניהול",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; vacancy allowance מפחית NOI; הוצאות ניהול הן הוצאה תפעולית שמפחיתה NOI"
+      },
+      {
+        "text_he": "NOI שווה לרווח נקי לפני מס — אותם פריטים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רווח נקי כולל פחת, ריבית ומסים — שלושתם מוחרגים מ-NOI; NOI הוא מדד תזרים תפעולי, לא ריווחי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>NOI = הכנסות שכירות − Vacancy Allowance − הוצאות תפעול שוטפות.</strong><br><strong>כלול בהוצאות:</strong> ניהול נכס, תחזוקה שוטפת, ביטוח, ארנונה (בחוזים gross), ניקיון, אבטחה, רזרבה להחלפות.<br><strong>מוחרג לחלוטין:</strong> פחת, ריבית, מסי חברה, Capex (השקעות הון), שערוכי IAS 40, הכנסות/הוצאות חד-פעמיות.<br><strong>עיקרון:</strong> NOI מייצג את יכולת הנכס לייצר תזרים מזומנים שוטף בניהול רגיל.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-CMP-Q02",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי נוסחת ה-Cap Rate ומה היא מבטאת כלכלית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Cap Rate הוא כלי פשוט אך עוצמתי — הוא ממיר בין תזרים לשווי. שינוי של 0.5% ב-Cap Rate על נכס עם NOI גדול יכול לשנות את שוויו במיליוני שקלים.",
+    "topic_tags": ["cap_rate", "valuation"],
+    "options": [
+      {
+        "text_he": "Cap Rate = NOI ÷ שווי הנכס. מבטאת את תשואת הנכס מהפעלה שוטפת (לפני מינוף ומסים) — מעין 'תשואה על הנכס'",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Cap Rate = שווי הנכס ÷ NOI — שווה ל-Price-to-Earnings; מבטא כמה שנים לפירעון ההשקעה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה היחס ההפוך (נקרא NOI Multiple); Cap Rate שם NOI במונה"
+      },
+      {
+        "text_he": "Cap Rate = (NOI + פחת) ÷ שווי הנכס — כוללת פחת כי הוא חלק מהתשואה הכלכלית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פחת מוחרג מ-NOI ומ-Cap Rate; Cap Rate מבוסס על תזרים מזומנים תפעולי בלבד"
+      },
+      {
+        "text_he": "Cap Rate = NOI ÷ עלות הפרויקט — משמשת להשוואה בין נכסים שנרכשו בתקופות שונות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו הגדרת Yield-on-Cost, לא Cap Rate; Cap Rate משתמש בשווי שוק הנוכחי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Cap Rate = NOI ÷ שווי שוק הנכס × 100.</strong> <strong>שימוש הפוך:</strong> שווי נכס = NOI ÷ Cap Rate. <strong>משמעות כלכלית:</strong> Cap Rate = תשואה שנתית שמשקיע מקבל על ההשקעה, ללא מינוף. Cap Rate 6% = לכל ₪100 ששווי הנכס, מתקבלים ₪6 תזרים שנתי נטו. <strong>Cap Rate ושוק:</strong> Cap Rate משקף ציפיות המשקיעים לסיכון ולתשואה; Cap Rate נמוך = שוק מתמחר בסיכון נמוך / צמיחה גבוהה.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-CMP-Q03",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו Yield-on-Cost ובמה הוא שונה מ-Cap Rate?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הפרש בין Yield-on-Cost ל-Cap Rate שוק הוא ה'שגיאה' של היזם — הוא מספר לנו כמה ערך נוצר מהפרויקט. Yield-on-Cost של 7.5% לעומת Cap Rate שוק של 6% = spread של 150 bps = ערך שנוצר.",
+    "topic_tags": ["yield_on_cost", "cap_rate", "development"],
+    "options": [
+      {
+        "text_he": "Yield-on-Cost = NOI יציב (בגמר) ÷ עלות הפרויקט הכוללת. שונה מ-Cap Rate בכך שהמכנה הוא עלות, לא שווי שוק — מודד כדאיות הייזום",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Yield-on-Cost = Cap Rate × LTC — נגזרת ישירה מ-Cap Rate ו-LTC",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Yield-on-Cost אינו נגזרת מ-Cap Rate; הוא חישוב עצמאי: NOI÷עלות"
+      },
+      {
+        "text_he": "Yield-on-Cost ו-Cap Rate זהים לאחר גמר הבנייה — ההבדל הוא רק בשלב הייזום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הם שונים גם בגמר: Cap Rate = NOI÷שווי שוק; Yield-on-Cost = NOI÷עלות; שווי ≠ עלות בדרך כלל"
+      },
+      {
+        "text_he": "Yield-on-Cost מחושב על בסיס NOI צפוי בשנה הראשונה × 10 — כלל אצבע לתמחור ייזום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין כפל כזה; Yield-on-Cost = NOI÷עלות כוללת; ×10 הוא NOI Multiple (הפוך מ-Cap Rate)"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Yield-on-Cost = NOI יציב בגמר הפרויקט ÷ עלות הפרויקט הכוללת.</strong><br><strong>Cap Rate שוק</strong> = NOI ÷ שווי שוק.<br><strong>ההבדל:</strong> מכנה — עלות vs. שווי שוק.<br><strong>כלל אצבע:</strong> אם Yield-on-Cost > Cap Rate שוק — הפרויקט יוצר ערך (מרוויחים יותר ממה שהשוק מתמחר). אם Yield-on-Cost = Cap Rate שוק — אין יצירת ערך מהייזום. Spread = 'development margin'.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-CMP-Q04",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה המשמעות של עליית Cap Rate (cap rate expansion) על שווי הנכסים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בסביבת עליית ריבית — Cap Rate מתרחב. כל 50 bps התרחבות על נכס עם NOI גדול פירושה ירידת שווי של עשרות מיליונים. זו הסיבה שנדל\"ן מניב 'עצבני' כשהבנק המרכזי מעלה ריבית.",
+    "topic_tags": ["cap_rate", "valuation", "interest_rate_risk"],
+    "options": [
+      {
+        "text_he": "עליית Cap Rate מורידה שווי נכסים — כי שווי = NOI ÷ Cap Rate; אם המכנה גדל, השווי קטן",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עליית Cap Rate מעלה שווי נכסים — שיעור תשואה גבוה יותר אטרקטיבי יותר למשקיעים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate גבוה יותר מתרחב בגלל ציפיות לסיכון/תשואה גבוהה יותר — השוק מתמחר את הנכס בזול יותר, לא ביוקר"
+      },
+      {
+        "text_he": "עליית Cap Rate אינה משפיעה על שווי אם ה-NOI נשאר קבוע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי = NOI ÷ Cap Rate — שינוי ב-Cap Rate משנה שווי גם כשה-NOI קבוע, כמו שמחיר איגרת חוב יורד כשהתשואה עולה"
+      },
+      {
+        "text_he": "עליית Cap Rate מעלה שווי נכסים ותורמת לגידול ב-LTV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate expansion מורידה שווי → LTV עולה (מכנה קטן עם מונה קבוע) — זה מדאיג, לא מעודד"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שווי = NOI ÷ Cap Rate.</strong> דוגמה: NOI = 1,200,000 ₪. <br>Cap Rate 6%: שווי = 20,000,000 ₪. <br>Cap Rate 7% (expansion של 100 bps): שווי = 17,143,000 ₪ — ירידה של 14.3%!<br><strong>עיקרון:</strong> Cap Rate ושווי הם הפוכים. Cap Rate expansion = שווי ירד. Cap Rate compression = שווי עלה. בסביבת ריבית עולה, Cap Rate בדרך כלל מתרחב → שווי נדל\"ן מניב יורד.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-PRX-Q01",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מרכז לוגיסטי: שכ\"ד שנתי 3,600,000 ₪; vacancy allowance 5%; ניהול נכס 8% מהכנסות נטו; ארנונה ותחזוקה שוטפת 240,000 ₪; ביטוח 60,000 ₪. חשבו NOI.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אחוז ניהול נכס מחושב לעיתים קרובות על הכנסות נטו (לאחר vacancy) ולא על הכנסות ברוטו — חשוב לדייק בבסיס החישוב לפי נוסחי החוזה.",
+    "topic_tags": ["noi", "calculation"],
+    "options": [
+      {
+        "text_he": "NOI = 2,787,600 ₪ (הכנסות נטו: 3,420,000; ניהול: 273,600; הוצאות קבועות: 300,000; סה\"כ הוצאות: 573,600)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — בדיקת הנוסחה: הכנסות נטו = 3,600,000 × 0.95 = 3,420,000; ניהול = 3,420,000 × 8% = 273,600; NOI = 3,420,000 − 273,600 − 300,000 = 2,846,400"
+      },
+      {
+        "text_he": "NOI = 2,846,400 ₪ (הכנסות נטו לאחר vacancy: 3,420,000; ניהול 8%: 273,600; ארנונה+ביטוח: 300,000)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI = 2,952,000 ₪ (ניהול 8% על הכנסות ברוטו: 288,000; NOI = 3,600,000 − 288,000 − 300,000 = 3,012,000; אחרי vacancy: 2,952,000)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסדר הנכון: תחילה מנכים vacancy מהכנסות ברוטו, לאחר מכן מחשבים ניהול על הכנסות נטו"
+      },
+      {
+        "text_he": "NOI = 3,300,000 ₪ (vacancy בלבד; הוצאות ניהול ותחזוקה אינן חלק מ-NOI)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוצאות תפעול (ניהול, ארנונה, ביטוח) הן חלק בלתי נפרד מחישוב NOI"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלבי החישוב:</strong><br>1. הכנסות ברוטו: 3,600,000 ₪<br>2. פחות vacancy 5%: (180,000) ₪ → הכנסות נטו: <strong>3,420,000 ₪</strong><br>3. פחות ניהול 8% × 3,420,000: (273,600) ₪<br>4. פחות ארנונה + תחזוקה + ביטוח: (240,000 + 60,000) = (300,000) ₪<br><strong>NOI = 3,420,000 − 273,600 − 300,000 = 2,846,400 ₪</strong></p>"
+  },
+  {
+    "question_id_external": "C04-M03-PRX-Q02",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניין משרדים מניב NOI שנתי יציב של 4,200,000 ₪. Cap Rate שוק למשרדים בסביבה דומה: 6.5%. מהו שווי השוק המשתמע של הנכס?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בקשת שמאות אינה מחכה לאנליסט — בנקאי טוב יכול לחשב הערכת שווי 'מהירה' ב-30 שניות כדי לאמת שמאות פורמלית. Cap Rate approach הוא הכלי הפשוט ביותר.",
+    "topic_tags": ["cap_rate", "valuation", "calculation"],
+    "options": [
+      {
+        "text_he": "שווי = 4,200,000 ÷ 0.065 = 64,615,385 ₪ (≈ 64.6 מיליון ₪)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שווי = 4,200,000 × 6.5 = 27,300,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי = NOI ÷ Cap Rate (כשיר עשרוני); 4,200,000 ÷ 0.065 = 64.6M — לא × 6.5"
+      },
+      {
+        "text_he": "שווי = 4,200,000 × 0.065 = 273,000 ₪ — זהו תזרים שנתי, לא שווי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כפל NOI ב-Cap Rate נותן שטות; השווי = NOI ÷ Cap Rate"
+      },
+      {
+        "text_he": "שווי = 4,200,000 ÷ 6.5 = 646,154 ₪ — כיוון שה-Cap Rate הוא 6.5, לא 0.065",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate חייב להיות מוזן כשבר עשרוני (0.065) בנוסחה; חלוקה ב-6.5 מחזירה תוצאה שגויה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שווי = NOI ÷ Cap Rate = 4,200,000 ÷ 0.065 = 64,615,385 ₪ ≈ 64.6 מיליון ₪.</strong><br><strong>אינטואיציה:</strong> Cap Rate 6.5% = NOI Multiple של 15.4× (1÷0.065). נכס בשווי 64.6M שמניב 4.2M/שנה = תשואה 6.5% לשנה.<br><strong>אמת מידה:</strong> Cap Rate 6.5% הוא ריאלי למשרדים בפריפריה העירונית; משרדים בתל-אביב מרכז יכולים להיסחר ב-4.5-5.5%.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-PRX-Q03",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם רכש נכס לפני 5 שנים ב-Cap Rate כניסה (Going-in Cap Rate) של 7%. כיום שיעורי ה-Cap Rate בשוק ירדו ל-5.5%. ה-NOI גדל ב-15% מאז הרכישה. חשב את השינוי בשווי הנכס מאז הרכישה, וזהה כמה מהשינוי נובע מגידול ה-NOI וכמה מ-Cap Rate Compression.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בשוק 'חם' כמו ישראל בשנות ה-2010 המוקדמות, רוב התשואה על נדל\"ן מניב נבעה מ-Cap Rate Compression, לא מגידול NOI. כשה-Compression נעצר — המשך הרווחים תלוי בגידול ה-NOI בלבד.",
+    "topic_tags": ["cap_rate", "going_in_vs_exit", "value_creation"],
+    "options": [
+      {
+        "text_he": "שווי גדל בסביבת 47.4%: גידול NOI לבדו ייצר +15%; Cap Rate compression מ-7% ל-5.5% ייצר +27%+; ביחד הכפלת ה-שווי כמעט",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שווי גדל ב-15% בלבד — רק גידול ה-NOI משפיע; Cap Rate compression אינו משנה שווי אם ה-NOI גדל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי = NOI÷Cap Rate — ירידת Cap Rate מ-7% ל-5.5% מגדילה שווי גם ללא שינוי NOI"
+      },
+      {
+        "text_he": "שווי ירד כי Cap Rate נמוך יותר פירושו תשואה נמוכה — פחות אטרקטיבי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate compression (ירידה) מעלה שווי כשה-NOI קבוע — שווי ו-Cap Rate הם הפוכים"
+      },
+      {
+        "text_he": "שווי גדל ב-27.3% בדיוק — בהתאם לירידת ה-Cap Rate בלבד (7%÷5.5%−1)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 27.3% הוא האפקט של Cap Rate compression בלבד; יש גם גידול NOI 15% שמוסיף לשווי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong> נניח NOI ברכישה = 700 (מנורמל). שווי ברכישה = 700 ÷ 7% = 10,000.<br>NOI כיום = 700 × 1.15 = 805. שווי כיום = 805 ÷ 5.5% = 14,636.<br><strong>עליית שווי = (14,636 − 10,000) ÷ 10,000 = +46.4%.</strong><br>פירוק: (1) NOI בלבד (Cap Rate קבוע 7%): 805÷7% = 11,500 → +15.0%. (2) Cap Rate compression בלבד (NOI קבוע): 700÷5.5% = 12,727 → +27.3%. (3) ביחד: 46.4% (לא סכום כי יש אינטראקציה).</p>"
+  },
+  {
+    "question_id_external": "C04-M03-PRX-Q04",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם בנה מרכז מסחרי בעלות כוללת של 55,000,000 ₪. ה-NOI הצפוי בשלב היציב (Year 2): 4,070,000 ₪. Cap Rate שוק למרכזי קניות בסביבה: 6.2%. חשב Yield-on-Cost וקבע האם הפרויקט יוצר ערך.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Spread בין Yield-on-Cost ל-Cap Rate שוק של 150-200+ bps נחשב פרויקט טוב. Spread שלילי (Yield-on-Cost < Cap Rate) פירושו שהיזם 'הרס ערך' — שילם יותר מכפי ששווה הנכס בשוק.",
+    "topic_tags": ["yield_on_cost", "development", "value_creation"],
+    "options": [
+      {
+        "text_he": "Yield-on-Cost = 7.4%; Cap Rate שוק 6.2%; Spread = +120 bps — הפרויקט יוצר ערך; שווי שוק גבוה מהעלות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Yield-on-Cost = 6.2% = Cap Rate שוק — אין יצירת ערך ממשית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 4,070,000 ÷ 55,000,000 = 7.4%, לא 6.2%; יש spread חיובי"
+      },
+      {
+        "text_he": "Yield-on-Cost = 4,070,000 ÷ 55,000,000 = 7.4%; שווי שוק = 4,070,000 ÷ 0.062 = 65.6M; Spread = −0.8% — הפרויקט מרוויח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Spread = 7.4% − 6.2% = +1.2% (חיובי, לא שלילי); שווי 65.6M > עלות 55M — יצירת ערך"
+      },
+      {
+        "text_he": "Yield-on-Cost = 55,000,000 ÷ 4,070,000 = 13.5× — המכפיל מראה ש-55M שנים לפירעון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה NOI Multiple (הפוך מ-Cap Rate); Yield-on-Cost = NOI÷עלות = 4,070,000÷55,000,000 = 7.4%"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Yield-on-Cost = NOI ÷ עלות הפרויקט = 4,070,000 ÷ 55,000,000 = 7.4%.</strong><br>Cap Rate שוק = 6.2%. <strong>Spread = 7.4% − 6.2% = +1.2% (120 bps).</strong><br><strong>יצירת ערך:</strong> שווי שוק המשתמע = 4,070,000 ÷ 0.062 = 65,645,161 ₪ ≈ 65.6M.<br>עלות = 55M → ערך שנוצר = 10.6M ₪ (כ-19% מהעלות). Spread חיובי = פרויקט כדאי.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-PRX-Q05",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חישוב NOI מוצג כך: הכנסות שכ\"ד 5,000,000 ₪ + שערוך IAS 40 800,000 ₪ = 5,800,000; פחות הוצאות תפעול 1,200,000 = NOI 4,600,000 ₪; Cap Rate 6.5%; שווי = 70,769,231 ₪. זהה את השגיאה וחשב NOI ושווי נכון.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שמאויות ונתוני NOI המוגשים על-ידי בעל הנכס כוללות לעיתים שערוכי IAS 40 ב-NOI. זו שגיאה קלאסית שמנפחת שווי. תמיד בדוק את 'NOI Schedule' מול הדוחות ונרמל.",
+    "topic_tags": ["noi", "ias40", "valuation_error"],
+    "options": [
+      {
+        "text_he": "שגיאה: שערוך IAS 40 נכלל ב-NOI. NOI נכון = 5,000,000 − 1,200,000 = 3,800,000 ₪; שווי נכון = 3,800,000 ÷ 0.065 = 58,461,538 ₪ — הפרש של 12.3M מהשווי 'המנופח'",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין שגיאה; IAS 40 הוא הכנסה חשבונאית לגיטימית שניתן לכלול ב-NOI לצורך שמאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IAS 40 שערוך הוא רווח נייר ללא מזומן — לא חלק מ-NOI תפעולי לצורך הערכת שווי"
+      },
+      {
+        "text_he": "שגיאה: הוצאות התפעול גבוהות מדי. NOI נכון = 5,800,000 − 600,000 = 5,200,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה היא שהכנסה (IAS 40) נכללה שלא כדין — לא שהוצאות מוגזמות"
+      },
+      {
+        "text_he": "שגיאה: Cap Rate 6.5% נמוך מדי; יש להשתמש ב-7.5%. NOI = 4,600,000; שווי = 61,333,333 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-Cap Rate ניתן; הבעיה היא ב-NOI המנופח, לא ב-Cap Rate"
+      }
+    ],
+    "explanation_html_he": "<p><strong>זיהוי השגיאה:</strong> שערוך IAS 40 (800,000 ₪) אינו הכנסה תזרימית — אין מזומן נכנס. הוא לא יכול להיכלל ב-NOI לצורך הערכת שווי.<br><strong>NOI נכון = 5,000,000 − 1,200,000 = 3,800,000 ₪.</strong><br><strong>שווי נכון = 3,800,000 ÷ 0.065 = 58,461,538 ₪.</strong><br><strong>שווי 'מנופח' = 70,769,231 ₪ — הפרש של 12,307,693 ₪ (17.4%!).</strong><br>שגיאה זו שכיחה בנכסי נדל\"ן מניב שמוצגים לבנק עם דוח IAS 40.</p>"
+  },
+  {
+    "question_id_external": "C04-M03-PRX-Q06",
+    "course_number": 4,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניין משרדים: NOI יציב = 3,000,000 ₪. Cap Rate שוק נוכחי: 5.5%. האנליסט מבצע רגישות: מה ישפיע קשה יותר על שווי — עלייה של 50 bps ב-Cap Rate, או ירידה של 5% ב-NOI?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ב-Cap Rate נמוך (5-6%) המנוף לשינויי Cap Rate גבוה יותר — כל 50 bps מייצגים שינוי אחוזי גדול יחסית. זו הסיבה שנדל\"ן 'premium' (Cap Rate נמוך) רגיש יותר לתנועות ריבית.",
+    "topic_tags": ["cap_rate", "sensitivity_analysis", "valuation"],
+    "options": [
+      {
+        "text_he": "עלייה של 50 bps בCap Rate מורידה שווי ב-8.3%; ירידת NOI 5% מורידה שווי ב-5%. Cap Rate expansion מזיק יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שני האירועים שקולים — כל אחד מוריד שווי ב-5%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידת NOI 5% = ירידת שווי 5% (ישירה); Cap Rate מ-5.5% ל-6.0% = שווי מ-54.5M ל-50.0M = ירידה של 8.3%"
+      },
+      {
+        "text_he": "ירידת NOI של 5% מורידה שווי יותר כי NOI הוא הגורם הבסיסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ב-Cap Rate נמוך כמו 5.5%, שינוי של 50 bps מייצג שינוי יחסי גדול (50÷550 = 9.1%) — יותר מ-5% ב-NOI"
+      },
+      {
+        "text_he": "עלייה של 50 bps מורידה שווי ב-50 bps בלבד — ישירות ב-0.5%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-impact על שווי אינו 50 bps ישירות; חישוב: ΔShווי% ≈ −ΔCap Rate ÷ Cap Rate = −0.5%÷5.5% = −9.1%"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תרחיש 1 — Cap Rate Expansion 50 bps:</strong> Cap Rate 5.5% → 6.0%. שווי = NOI÷Cap Rate. שווי מקורי = 3,000,000÷0.055 = 54,545,455 ₪. שווי חדש = 3,000,000÷0.060 = 50,000,000 ₪. <strong>ירידה = −8.3%.</strong><br><strong>תרחיש 2 — NOI יורד 5%:</strong> NOI חדש = 2,850,000. שווי חדש = 2,850,000÷0.055 = 51,818,182 ₪. <strong>ירידה = −5.0%.</strong><br><strong>מסקנה:</strong> Cap Rate expansion של 50 bps (−8.3%) מזיק יותר מירידת NOI של 5% (−5.0%). כלל אצבע: ΔShווי ≈ −ΔCap Rate ÷ Cap Rate.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-CMP-Q01",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הגדרת IRR (Internal Rate of Return) ומה משמעותה הכלכלית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "IRR הוא שיעור ההיוון שמאפס את ה-NPV. דרך אחרת לחשוב עליו: IRR הוא 'מהירות' הצמיחה של ההשקעה — אם ה-IRR גבוה מעלות ההון, ההשקעה יוצרת ערך.",
+    "topic_tags": ["irr", "return_metrics"],
+    "options": [
+      {
+        "text_he": "IRR הוא שיעור ההיוון שבו הערך הנוכחי נטו (NPV) של תזרימי המזומנים שווה לאפס. הוא מבטא את 'תשואה' השנתית המשוקללת על ההשקעה לאורך כל חייה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR הוא ממוצע תשואות שנתיות פשוט (חיבור ÷ מספר שנים)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR הוא ממוצע משוקלל-עיתוי, לא ממוצע חשבוני; הוא מתחשב בגודל ובעיתוי של כל תזרים"
+      },
+      {
+        "text_he": "IRR הוא תשואה על ההון העצמי בלבד, ולכן תמיד גבוה מ-Cap Rate",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR יכול להיחשב על כל ההשקעה (Unlevered IRR) או על ההון העצמי (Levered IRR); הוא לא תמיד גבוה מ-Cap Rate"
+      },
+      {
+        "text_he": "IRR = (רווח כולל ÷ השקעה ראשונית) × 100; מדד פשוט ללא התחשבות בזמן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה Equity Multiple, לא IRR; IRR מחשיב את עיתוי תזרימי המזומנים באופן מהותי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>IRR</strong> = שיעור ההיוון r שפותר: ∑[CFt ÷ (1+r)^t] = 0 כשכולל השקעה ראשונית שלילית.<br><strong>משמעות:</strong> IRR של 18% אומר שההשקעה מתנהגת כאילו הכסף גדל ב-18% בשנה לאורך כל תקופת ההחזקה.<br><strong>כלל ההחלטה:</strong> אם IRR > WACC (עלות הון) → ההשקעה יוצרת ערך. <strong>מגבלה:</strong> IRR מניח שביניים תזרימי מזומנים מושקעים מחדש בשיעור ה-IRR עצמו — הנחה אופטימיסטית לפעמים.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-CMP-Q02",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי נוסחת Equity Multiple (מכפיל הון) ומה היא מודדת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Equity Multiple = 'כמה פעמים הכפלתי את כספי'. IRR = 'באיזה קצב גדל כספי'. שניהם נחוצים — IRR בלבד יכול להטעות אם ההשקעה קצרה מאוד.",
+    "topic_tags": ["equity_multiple", "return_metrics"],
+    "options": [
+      {
+        "text_he": "Equity Multiple = סך תזרימי מזומנים שהתקבלו (כולל מכירה) ÷ ההון העצמי שהושקע. מודד כמה פעמים הוכפל ההון, ללא התחשבות בזמן",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Equity Multiple = IRR × מספר שנות ההחזקה — קשר ליניארי בין שיעור תשואה לתוצאה כוללת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Equity Multiple אינו נגזרת פשוטה של IRR × שנים; הקשר ביניהם מורכב ולא ליניארי"
+      },
+      {
+        "text_he": "Equity Multiple = (רווח נקי שנתי ÷ הון עצמי) × 100 — תשואה שנתית על ההון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זהו Cash-on-Cash Return (תשואה שנתית), לא Equity Multiple; EM הוא מדד כולל לאורך כל ההחזקה"
+      },
+      {
+        "text_he": "Equity Multiple = שווי הנכס בסיום ÷ הלוואה — מודד כמה כסות הביטחון בסיום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה LTV Coverage Ratio; Equity Multiple מתייחס להון שהושקע, לא לשווי הנכס לעומת חוב"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Equity Multiple (EM) = (סך תזרימים שהתקבלו + תמורת מכירה) ÷ הון עצמי שהושקע.</strong><br>EM = 1.0× = החזרת ההשקעה בדיוק (אין רווח). EM = 2.0× = הכפלת ההון. EM = 3.0× = שלוש פעמים ההון. <br><strong>חיסרון:</strong> EM אינו מחשיב זמן — EM של 2× ב-3 שנים שונה לחלוטין מ-EM של 2× ב-10 שנים; לכן EM תמיד ילווה ב-IRR.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-CMP-Q03",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי נוסחת Cash-on-Cash Return (CoC) ומתי היא מדד מועדף?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Cash-on-Cash הוא מדד ה'נשימה' השנתית של ההשקעה — כמה מזומן אני מקבל מדי שנה על מה שהשקעתי. קרנות פנסיה ו-REITs שמחלקות דיבידנד מתמקדות ב-CoC יותר מ-IRR.",
+    "topic_tags": ["cash_on_cash", "return_metrics"],
+    "options": [
+      {
+        "text_he": "Cash-on-Cash = תזרים מזומנים שנתי לפני מס ÷ הון עצמי שהושקע. מועדף כשהמשקיע מעריך תזרים שוטף — כגון קרן פנסיה שזקוקה לחלוקות שנתיות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Cash-on-Cash = רווח ממכירה ÷ הון עצמי — מודד תשואה על ה-exit",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CoC מודד תזרים שנתי שוטף, לא רווח ממכירה; רווח ממכירה הוא חלק מ-IRR ו-EM"
+      },
+      {
+        "text_he": "Cash-on-Cash = NOI ÷ שווי הנכס = Cap Rate — זהה ל-Cap Rate",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate = NOI÷שווי נכס (ללא מינוף); CoC = תזרים אחרי שירות חוב ÷ הון עצמי — מביא בחשבון מינוף"
+      },
+      {
+        "text_he": "Cash-on-Cash = IRR × Equity Multiple — גזרת שני המדדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין קשר כזה; CoC, IRR ו-EM הם שלושה מדדים עצמאיים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Cash-on-Cash (CoC) = תזרים מזומנים שנתי לבעלי ההון ÷ הון עצמי שהושקע.</strong><br>תזרים = NOI − שירות חוב (ריבית + קרן).<br><strong>דוגמה:</strong> השקעת 2M ₪; תזרים שנתי לאחר שירות חוב = 160K ₪ → CoC = 8%.<br><strong>מועדף:</strong> משקיעים שזקוקים לתזרים שוטף (קרנות פנסיה, ביטוח, תכניות חלוקת רווח). IRR עדיף למי שמסתמך על Exit. EM מספר על הכפלת ההון הכוללת.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-CMP-Q04",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד ניתן שתי השקעות שונות — אחת עם IRR גבוה ו-EM נמוך, ואחת עם IRR נמוך ו-EM גבוה — ומה כל שילוב מסמל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "IRR גבוה + EM נמוך = השקעה מהירה אך קטנה. IRR נמוך + EM גבוה = השקעה ארוכת טווח שמייצרת הרבה כסף אך לאט. בחירה תלויה ב'אופק' ו'צורך' המשקיע.",
+    "topic_tags": ["irr", "equity_multiple", "investment_comparison"],
+    "options": [
+      {
+        "text_he": "IRR גבוה + EM נמוך = השקעה קצרת טווח עם תשואה שנתית גבוהה אך הכפלת הון קטנה. IRR נמוך + EM גבוה = השקעה ארוכת טווח שמייצרת הכנסה מצטברת גדולה אך לאורך שנים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR גבוה + EM נמוך תמיד עדיף — IRR גבוה פירושו השקעה טובה יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין 'תמיד עדיף' — תלוי באופק ובצרכי המשקיע; לפנסיה EM גבוה עדיף; ל-flipping IRR גבוה עדיף"
+      },
+      {
+        "text_he": "IRR נמוך + EM גבוה = השקעה גרועה; תמיד עדיף IRR גבוה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR נמוך + EM גבוה יכול להיות מצוין לקרן פנסיה שמשקיעה ל-20 שנה וצריכה צבירה מקסימלית"
+      },
+      {
+        "text_he": "IRR גבוה + EM גבוה = בלתי אפשרי; יש trade-off מוכרח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR גבוה + EM גבוה אפשרי — פשוט פירושו השקעה קצרה ורווחית מאוד; אין trade-off הכרחי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>IRR גבוה + EM נמוך:</strong> נפוץ בפרויקט flip קצר (שנה-שנתיים). דוגמה: IRR 35%, EM 1.6× ב-1.5 שנה.<br><strong>IRR נמוך + EM גבוה:</strong> נפוץ בנדל\"ן מניב לטווח ארוך (10+ שנים). דוגמה: IRR 10%, EM 2.5× ב-10 שנים.<br><strong>מי מעדיף מה?</strong> קרן פנסיה → EM גבוה ו-CoC גבוה. VC/Opportunistic Fund → IRR גבוה. Core Real Estate Fund → שילוב CoC+EM.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-PRX-Q01",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>משקיע רכש נכס מניב בהון עצמי של 4,000,000 ₪. במהלך 5 שנות ההחזקה קיבל תזרים שנתי של 280,000 ₪ בממוצע. מכר ב-7,200,000 ₪ כשיתרת ההלוואה ב-exit היא 3,500,000 ₪. חשב את ה-Equity Multiple.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "לא לשכוח לכלול גם את תזרים ה-Exit (שווי מכירה פחות יתרת חוב) וגם את התזרים השוטף בחישוב ה-EM. תזרים שוטף נמוך עם Exit טוב = EM גבוה אך CoC נמוך.",
+    "topic_tags": ["equity_multiple", "calculation"],
+    "options": [
+      {
+        "text_he": "EM = (5 × 280,000 + (7,200,000 − 3,500,000)) ÷ 4,000,000 = (1,400,000 + 3,700,000) ÷ 4,000,000 = 5,100,000 ÷ 4,000,000 = 1.275×",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "EM = 7,200,000 ÷ 4,000,000 = 1.8× — מחלקים את שווי המכירה בהון העצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי מכירה כולל גם את חלק הבנק; יש לנכות יתרת הלוואה ולהוסיף תזרים שוטף שנצבר"
+      },
+      {
+        "text_he": "EM = (7,200,000 − 3,500,000) ÷ 4,000,000 = 0.925× — מתחת ל-1, ההשקעה הפסידה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שכחנו לכלול את התזרים השוטף המצטבר (5 × 280K = 1.4M); EM נכון = 1.275×"
+      },
+      {
+        "text_he": "EM = (280,000 × 5) ÷ 4,000,000 = 0.35× — רק תזרים שוטף, ללא exit",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Equity Multiple כולל את מלוא תמורת ה-Exit; רק תזרים שוטף אינו EM — זה Cash-on-Cash כפול שנים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב Equity Multiple:</strong><br>תזרים שוטף מצטבר: 5 × 280,000 = 1,400,000 ₪.<br>תמורת Exit (הון עצמי): 7,200,000 − 3,500,000 = 3,700,000 ₪.<br>סך תזרימים שהתקבלו = 1,400,000 + 3,700,000 = 5,100,000 ₪.<br><strong>EM = 5,100,000 ÷ 4,000,000 = 1.275×.</strong><br>פרשנות: המשקיע קיבל 1.275 פעם את הון הכניסה שלו. <strong>CoC שנתי ממוצע</strong> = 280,000÷4,000,000 = 7.0%.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-PRX-Q02",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>קרן פנסיה מתלבטת בין שתי השקעות בנדל\"ן מניב: השקעה A: IRR 14%, Equity Multiple 1.4× ב-3 שנים. השקעה B: IRR 9%, Equity Multiple 2.1× ב-10 שנים. Cash-on-Cash שנתי: A=8%, B=7%. איזו השקעה מתאימה יותר לקרן פנסיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "קרנות פנסיה אינן מחפשות IRR מקסימלי — הן מחפשות תזרים יציב לטווח ארוך לתשלום קצבאות. EM גבוה לאורך שנים ו-CoC יציב = שפת הפנסיה.",
+    "topic_tags": ["return_metrics", "pension_fund", "investment_comparison"],
+    "options": [
+      {
+        "text_he": "השקעה B מתאימה יותר — אופק ארוך, EM גבוה יותר (2.1×), ו-CoC של 7% מספק תזרים יציב שנתי לתשלום קצבאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "השקעה A עדיפה — IRR 14% גבוה יותר; קרן פנסיה צריכה למקסם תשואות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קרן פנסיה זקוקה לתזרים שוטף לטווח ארוך, לא לאקזיט מהיר; IRR של 14% ב-3 שנים מחייב reinvestment לאחר מכן"
+      },
+      {
+        "text_he": "שתי ההשקעות שקולות — EM ממוצע לשנה שלהן זהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; A: 1.4÷3=0.47/שנה; B: 2.1÷10=0.21/שנה — שונות; EM שנתי אינו אמת מידה נכונה; CoC ו-EM כולל הם הנכונים"
+      },
+      {
+        "text_he": "השקעה A עדיפה — EM נמוך אך שנות החזקה קצרות; ניתן להשקיע מחדש בתשואה גבוהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחת reinvestment ב-14% לאחר 3 שנים אינה מובטחת; קרן פנסיה אינה ספקולטיבית ואינה מניחה הזדמנויות reinvestment גבוהות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>קרן פנסיה — צרכים:</strong> (1) תזרים שוטף יציב לתשלום קצבאות. (2) אופק השקעה ארוך. (3) הגנה על קרן (לא ספקולציה).<br><strong>השקעה B עונה על כל הצרכים:</strong> CoC 7% × 10 שנים = תזרים יציב; EM 2.1× = צבירת הון. <strong>בעיית A:</strong> EM 1.4× = מחזיר 40% רווח בלבד; לאחר 3 שנים קרן הפנסיה חייבת למצוא השקעה חדשה — סיכון reinvestment. B מסיר סיכון זה.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-PRX-Q03",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שתי השקעות עם IRR זהה של 15%: השקעה X: הון 5M ₪, Equity Multiple 2.0× ב-5 שנים. השקעה Y: הון 2M ₪, Equity Multiple 1.9× ב-5 שנים. מה ניתן להסיק מהן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "IRR זהה + EM שונה = התפלגות תזרימים שונה לאורך הזמן. X 'מחכה לסוף' (EM 2.0) בעוד Y מחזיר מוקדם יותר (EM 1.9 עם הון קטן). לפעמים X = נכס מניב סטנדרטי, Y = flip עם תזרים ביניים גבוה.",
+    "topic_tags": ["irr", "equity_multiple", "cash_flow_timing"],
+    "options": [
+      {
+        "text_he": "IRR זהה אינו מספיק לבחירה: X מייצרת 5M ₪ רווח מוחלט (=5M×(2.0-1)); Y מייצרת 1.8M ₪ — X מועדפת למשקיע עם הון גדול שמחפש צמיחת EM",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR זהה = שתי ההשקעות שוות לחלוטין — אין הבדל משמעותי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR זהה עם EM שונה = התפלגות תזרים שונה; רווח מוחלט שונה; גודל ההשקעה שונה — לא שוות"
+      },
+      {
+        "text_he": "השקעה Y עדיפה כי ה-EM ליחידת הון (2M) גבוה יחסית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; EM של 1.9 נמוך מ-2.0; X מייצרת 10M קבלות על 5M השקעה; Y מייצרת 3.8M על 2M — EM X גבוה יותר"
+      },
+      {
+        "text_he": "Y עדיפה כי הון קטן יותר לאותו IRR = יעילות הון גבוהה יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'יעילות הון' תלויה בהזדמנויות השקעה נוספות ב-3M הנותרים; IRR זהה עם הון שונה אינו בהכרח 'יעיל יותר'"
+      }
+    ],
+    "explanation_html_he": "<p><strong>IRR 15% לשניהן — מה שונה?</strong><br>X: הון 5M × EM 2.0 = קבלות כוללות 10M ₪ → רווח מוחלט <strong>5M ₪</strong>.<br>Y: הון 2M × EM 1.9 = קבלות כוללות 3.8M ₪ → רווח מוחלט <strong>1.8M ₪</strong>.<br>EM שונה עם IRR זהה = התפלגות תזרים שונה: X אולי מחזיר יותר בסוף (exit מוצלח יותר); Y מחזיר מוקדם יותר. <strong>בחירה תלויה:</strong> גודל קרן, צורך בתזרים שוטף, אופק.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-PRX-Q04",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>השקעה Unlevered (ללא הלוואה): IRR = 9%. אותה השקעה עם מינוף 65% LTV, ריבית 5%: Levered IRR = 14%. אנליסט טוען: 'המינוף תמיד טוב — IRR עלה.' מה נכון ומה חסר בניתוח?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מינוף הוא 'מגבר' — הוא מגביר רווחים אבל גם הפסדים. IRR Levered גבוה מ-Unlevered נכון כשעלות החוב נמוכה מ-Cap Rate. אך מינוף גם מחייב שירות חוב קבוע — בתרחיש שלילי, ההון מתאייד מהר יותר.",
+    "topic_tags": ["irr", "leverage", "levered_vs_unlevered"],
+    "options": [
+      {
+        "text_he": "נכון: מינוף העלה IRR כי עלות חוב (5%) < תשואה על הנכס (9%). חסר: ניתוח downside — מינוף מגביר גם הפסדים; DSCR ו-LTV בתרחיש שלילי נדרשים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "האנליסט צודק לחלוטין; מינוף תמיד מגביר תשואה ועדיף להשתמש בו למקסימום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מינוף 'תמיד טוב' הוא שגיאה; בתרחיש NOI שיורד או ריבית עולה, מינוף יכול לאיין את ההון לחלוטין"
+      },
+      {
+        "text_he": "ה-Levered IRR גבוה אך Equity Multiple ירד — המינוף פגע ב-EM",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ב-upside scenario, מינוף בדרך כלל מגדיל גם IRR וגם EM (פחות הון שמושקע = תשואה גבוהה יותר); הבעיה היא ה-downside"
+      },
+      {
+        "text_he": "Levered IRR אינו תואם ל-Unlevered IRR ולכן אי-אפשר להשוות ביניהם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתן להשוות — Levered IRR מבטא תשואה על ההון העצמי בלבד; Unlevered IRR = תשואה על כל הנכס; ההשוואה מועילה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מדוע מינוף העלה IRR:</strong> עלות חוב 5% < תשואת נכס 9% → ה'מרווח' (4%) מגדיל תשואה על ההון.<br><strong>מה חסר:</strong><br>1. ניתוח downside — מה קורה אם NOI יורד 15%? DSCR יכול ליפול מתחת 1.<br>2. סיכון מיחזור — אם ריבית תעלה בחידוש, עלות החוב תעלה ותצמצם את ה-spread.<br>3. מינוף Equity Multiple — כמה הון עצמי נשאר בתרחיש שלילי? <strong>כלל:</strong> IRR Levered > Unlevered כל עוד עלות חוב < CAP Rate; כשזה מתהפך — מינוף מזיק.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-PRX-Q05",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג: 'פרויקט Flip: קנינו ב-3M ₪, שיפצנו ב-500K ₪, מכרנו ב-4.2M ₪ תוך 8 חודשים — IRR של 83%!' אנליסט הבנק מקבל בקשת מימון לפרויקט דומה. מתי ה-IRR הגבוה עלול להטעות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "IRR של flip קצר תמיד נראה מרשים. אבל: מה ה-Equity Multiple? (1.4× ל-8 חודשים = בינוני). מה ה-absolute profit? 700K ₪ על 3.5M = סביר אך לא יוצא דופן. IRR אנואלי גבוה על תקופה קצרה ≠ עסק גדול.",
+    "topic_tags": ["irr", "misleading_irr", "flip", "equity_multiple"],
+    "options": [
+      {
+        "text_he": "IRR גבוה על תקופה קצרה מנפח את הרושם: EM = (4,200,000 − 3,500,000) ÷ 3,500,000 = 20% רווח בלבד; reinvestment לאורך שנה מניח שימצאו עוד 1.5 עסקאות כאלה — לא מובטח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR 83% אמין לחלוטין ומייצג יכולת מוכחת; יש לאשר מימון ללא הסתייגות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR גבוה בתקופה קצרה אינו מבטיח ביצועים עתידיים; יש לנתח EM, אבסולוט רווח, וסיכון מיחזור"
+      },
+      {
+        "text_he": "ה-IRR שגוי; ב-8 חודשים לא ניתן לחשב IRR שנתי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR שנתי ניתן לחישוב לכל תקופה; אנואליזציה של 8 חודשים = (1+תשואה)^(12/8) − 1; הבעיה אינה טכנית אלא פרשנית"
+      },
+      {
+        "text_he": "ה-IRR גבוה מוכיח עדיפות על פני השקעות ארוכות טווח; אין מה לחקור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR על תקופה קצרה אינו ניתן להשוואה ישירה עם IRR על 5-10 שנים ללא בחינת reinvestment assumption"
+      }
+    ],
+    "explanation_html_he": "<p><strong>EM ואבסולוט רווח:</strong> עלות כוללת = 3M + 0.5M = 3.5M ₪. תמורה = 4.2M ₪. <strong>EM = 4.2M ÷ 3.5M = 1.2×</strong> (רווח 20% בלבד).<br><strong>IRR 83% = אנואליזציה של 20% ב-8 חודשים.</strong> מרשים? כן. מספיק? תלוי.<br><strong>מגבלות:</strong> (1) IRR גבוה על תקופה קצרה מניח reinvestment ב-83% — לא ריאלי. (2) EM 1.2× = רווח מוחלט קטן. (3) בנק שמממן על בסיס IRR flip בלבד לוקח סיכון שהפרויקט ייתקע ולא יימכר. (4) IRR אינו מודד scale.</p>"
+  },
+  {
+    "question_id_external": "C04-M04-PRX-Q06",
+    "course_number": 4,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שלוש השקעות מוצגות לקרן נדל\"ן מעורבת (אופן: 30% Core, 50% Value-Add, 20% Opportunistic): <br>השקעה 1: IRR 8%, EM 2.3×, CoC 6.5%, אופק 12 שנה — Core מניב. <br>השקעה 2: IRR 16%, EM 2.0×, CoC 2%, אופק 5 שנה — Value-Add. <br>השקעה 3: IRR 22%, EM 2.1×, CoC 0%, אופק 3 שנה — Opportunistic/Flip. <br>דרגו את ההשקעות לפי אופן הקרן.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "קרן מעורבת צריכה להתאים השקעות לאופן — Core לתזרים+יציבות, Value-Add לאיזון, Opportunistic לצמיחה. אנליסט שמדרג רק לפי IRR מפספס את ה'פאזל' של בניית תיק.",
+    "topic_tags": ["irr", "equity_multiple", "cash_on_cash", "portfolio_construction"],
+    "options": [
+      {
+        "text_he": "Core: השקעה 1 (CoC 6.5%, EM 2.3×, 12 שנה). Value-Add: השקעה 2 (IRR 16%, EM 2.0×). Opportunistic: השקעה 3 (IRR 22%). כל השקעה מתאימה לאופן המתאים לה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "דירוג לפי IRR: 3>2>1. השקעה 3 עדיפה תמיד; כל אופן אמור לשאוף ל-IRR מקסימלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Core fund לא מחפש IRR מקסימלי — מחפש תזרים יציב; דירוג לפי IRR בלבד מתעלם מצרכי האופן"
+      },
+      {
+        "text_he": "כל ההשקעות מתאימות ל-Core כי EM > 2.0× בשלושתן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Core מחפש CoC גבוה ואופק ארוך — לא רק EM גבוה; השקעה 3 ללא CoC שוטף אינה Core"
+      },
+      {
+        "text_he": "השקעה 2 מתאימה ל-Core (IRR בינוני), 1 ל-Value-Add, 3 ל-Opportunistic",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Core = תזרים יציב + אופק ארוך = השקעה 1 (CoC 6.5%, 12 שנה), לא 2 (CoC 2%)"
+      }
+    ],
+    "explanation_html_he": "<p><strong>התאמה לאופן:</strong><br><strong>Core (30%):</strong> השקעה 1 — CoC 6.5% (תזרים שוטף גבוה), EM 2.3× (צבירה טובה), 12 שנה (יציבות). ✓<br><strong>Value-Add (50%):</strong> השקעה 2 — IRR 16% (תשואה מהשבחה), EM 2.0× (הכפלת הון), CoC 2% (מעט תזרים). ✓<br><strong>Opportunistic (20%):</strong> השקעה 3 — IRR 22% (תשואה גבוהה), CoC 0% (כל תשואה ב-Exit), 3 שנה (מהיר). ✓<br><strong>עיקרון:</strong> בניית תיק = לא IRR מקסימום, אלא התאמת כל השקעה לתפקיד האסטרטגי שלה בתיק.</p>"
+  }
+]
