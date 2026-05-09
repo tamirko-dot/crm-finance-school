@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C06-M03-CMP-Q01",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי משכנתא בדרגה ראשונה (First-Ranking Mortgage) ומה המשמעות המשפטית שלה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "משכנתא ראשונה היא הביטחון הסולידי ביותר שמלווה יכול לקבל. הכלל: 'ראשון בזמן — ראשון בזכות'. כל שעבוד מאוחר יותר נחות לה אוטומטית.",
+    "topic_tags": ["first_ranking_mortgage", "collateral", "lien_priority"],
+    "options": [
+      {
+        "text_he": "משכנתא בדרגה ראשונה היא שעבוד הנכס בטאבו בעדיפות גבוהה מכל שעבוד אחר. בתרחיש מימוש — בעל המשכנתא הראשונה מקבל ראשון מתמורת מכירת הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "משכנתא ראשונה היא ההלוואה הגדולה ביותר; 'ראשונה' מתייחס לגודל, לא לעדיפות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'ראשונה' מתייחס לדרגת עדיפות בפירעון בעת מימוש — לא לגודל ההלוואה"
+      },
+      {
+        "text_he": "משכנתא בדרגה ראשונה ניתנת רק על ידי בנקים מסחריים; קרן פרטית לא יכולה לרשום משכנתא ראשונה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל ישות (בנק, קרן, אדם פרטי) יכולה לרשום משכנתא ראשונה; הזכות נגזרת מסדר הרישום בטאבו"
+      },
+      {
+        "text_he": "משכנתא ראשונה ומשכנתא שנייה שוות בעדיפות אם נרשמו באותו יום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם נרשמו באותו יום — לרוב נקבע סדר על פי מספר הרישום ושעת ההגשה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>משכנתא בדרגה ראשונה:</strong></p><ul><li><strong>רישום:</strong> נרשמת בטאבו (לשכת רישום מקרקעין) כ'משכנתא'</li><li><strong>עדיפות:</strong> ראשונה בסדר הפירעון בעת מימוש</li><li><strong>מה קורה בכישלון:</strong> המלווה רשאי לפנות לבית משפט לצורך מימוש — מכירת הנכס; מתמורת המכירה: הוצאות מימוש → בעל משכנתא ראשונה → בעל משכנתא שנייה → הלוואות נוספות → יתרה לבעלים</li><li><strong>כוח הביטחון:</strong> אחד הביטחונות החזקים ביותר בדין הישראלי; נחשב כביטחון ריאלי (In Rem)</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M03-CMP-Q02",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי התחייבות Negative Pledge ומדוע היא חשובה למלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Negative Pledge הוא 'כלי ניהול ביטחונות עקיף' — הלווה לא נותן ביטחון נוסף, אבל מתחייב לא להחליש את הביטחון הקיים. הפרתו עלולה להיות Event of Default.",
+    "topic_tags": ["negative_pledge", "covenant", "collateral_protection"],
+    "options": [
+      {
+        "text_he": "Negative Pledge היא התחייבות הלווה שלא לשעבד נכס מסוים לגורם אחר ללא אישור המלווה. היא מגנה על המלווה מפני דיסוחה (Dilution) של הביטחון הקיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Negative Pledge פירושה שהמלווה מתחייב שלא לאכוף ביטחוניו תוך תקופה מסוימת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge היא התחייבות הלווה (לא המלווה) שלא לשעבד נכסים לצד שלישי"
+      },
+      {
+        "text_he": "Negative Pledge מחייבת את הלווה לבצע ביטוח מורחב על הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge עוסקת בהגבלת שעבוד נכסים — לא בביטוח"
+      },
+      {
+        "text_he": "Negative Pledge רלוונטית רק בהלוואות בינלאומיות ולא בהלוואות מקומיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge נפוצה בהסכמי הלוואה ישראלים כ-Covenant סטנדרטי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Negative Pledge — Covenant מגן:</strong></p><p>הלווה מתחייב: 'לא אשעבד את נכסי [המפורטים] לכל גורם אחר ללא הסכמת המלווה מראש ובכתב.'</p><p><strong>מדוע חשוב:</strong></p><ul><li>מונע מהלווה להכפיל שעבוד על אותו נכס</li><li>מגן על ה-LTV: שעבוד נוסף יגדיל LTV מצטבר ויפגע בעדיפות</li><li>הפרה = Event of Default — מאפשרת למלווה לתבוע פירעון מיידי</li></ul><p><strong>הבדל מביטחון פוזיטיבי:</strong> משכנתא היא 'זכות IN REM' — ביטחון אמיתי; Negative Pledge היא 'זכות IN PERSONAM' — התחייבות חוזית בלבד. כוחה מוגבל אם הלווה מפר ומשעבד לצד שלישי תם-לב.</p>"
+  },
+  {
+    "question_id_external": "C06-M03-CMP-Q03",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מתי מלווה ידרוש ערבות אישית (Personal Guarantee) בנוסף לביטחונות הריאליים, ומה הגיון הדרישה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ערבות אישית מחברת את ההשקעה הפיננסית של הבעלים לגורל הפרויקט. כשלווה יודע שכישלון הפרויקט יפגע ברכוש האישי שלו — הוא מנהל אותו בצורה שונה.",
+    "topic_tags": ["personal_guarantee", "collateral", "recourse_loan"],
+    "options": [
+      {
+        "text_he": "ערבות אישית נדרשת כשהביטחונות הריאליים (נכס) אינם מספיקים לכסות את סיכון ההלוואה — למשל: LTV גבוה, לווה חדש ללא היסטוריה, SPV ללא נכסים עצמיים, או חשש ממניפולציה של הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ערבות אישית נדרשת בכל הלוואת נדל\"ן בישראל על פי חוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין חובה חוקית לדרוש ערבות אישית; זוהי דרישה מסחרית המבוססת על ניתוח סיכון"
+      },
+      {
+        "text_he": "ערבות אישית מחליפה את המשכנתא; כשיש ערבות אישית אין צורך ברישום שעבוד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית היא ביטחון נוסף — לא תחליף למשכנתא; שניהם נדרשים כחבילה"
+      },
+      {
+        "text_he": "ערבות אישית אינה מוסיפה ביטחון ממשי; היא רק גורמת ללחץ פסיכולוגי על הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית היא ביטחון משפטי מחייב — מאפשרת לתבוע את נכסי הפרט של הערב במקרה של חדלות פירעון"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מתי נדרשת ערבות אישית:</strong></p><ul><li><strong>LTV גבוה:</strong> מעל 70-75% — הביטחון הריאלי אינו מספיק</li><li><strong>לווה SPV ללא היסטוריה:</strong> חברה לצורך הפרויקט בלבד; הבנק רוצה גישה לנכסי הבעלים</li><li><strong>פרויקטי ייזום:</strong> לפני סיום הבנייה, שווי הנכס אינו ודאי</li><li><strong>חולשת Covenant:</strong> כשיש חשש שהלווה ימנע ביטחונות</li></ul><p><strong>מה הערבות האישית מקנה:</strong> זכות תביעה ישירה כנגד הערב כאדם — ניתן לעקל נכסים אישיים, חשבונות בנק, נדל\"ן פרטי. מהווה 'עוגן' כשה-SPV מרוקן.</p>"
+  },
+  {
+    "question_id_external": "C06-M03-CMP-Q04",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו שעבוד מניות SPV (Share Pledge) ומה יתרונו על פני ביטחונות אחרים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שעבוד מניות הוא 'מפתח הבית' — מי שמחזיק בו שולט בחברה ויכול להחליט מה לעשות עם הנכס. זהו כלי אכיפה עוצמתי שלא דורש תהליך ממושך של מימוש נדל\"ן.",
+    "topic_tags": ["share_pledge", "spv", "enforcement", "collateral"],
+    "options": [
+      {
+        "text_he": "שעבוד מניות SPV הוא שעבוד המניות של חברת הפרויקט. יתרונו: אכיפה מהירה יחסית — בלי לממש נכס בטאבו; המלווה משתלט על החברה ומקבל שליטה ישירה על הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שעבוד מניות מחליף את המשכנתא; כשיש שעבוד מניות אין צורך לרשום משכנתא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שעבוד מניות הוא ביטחון נוסף ומשלים — בנקים בדרך כלל דורשים שניהם"
+      },
+      {
+        "text_he": "שעבוד מניות SPV חל רק על מניות הנסחרות בבורסה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שעבוד מניות SPV נפוץ דווקא בחברות פרטיות (לא נסחרות) — SPV הוא בדרך כלל חברה פרטית"
+      },
+      {
+        "text_he": "שעבוד מניות SPV אינו מוכר בחוק הישראלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שעבוד מניות מוכר בדין הישראלי; נרשם ברשם החברות כמשכון על מניות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שעבוד מניות SPV:</strong></p><p><strong>מה נשעבד:</strong> מניות חברת הפרויקט (SPV), לרוב 100% מהמניות</p><p><strong>כיצד נרשם:</strong> ברשם החברות ו/או במרשם המשכונות; ספר המניות מסומן בהתאם</p><p><strong>אכיפה:</strong> בעת ברירת מחדל, המלווה משתלט על המניות → הופך לבעל שליטה → שולט בנכס. תהליך זריז יותר ממימוש נכס בטאבו</p><p><strong>שילוב ביטחונות:</strong> בנקים ישראלים בדרך כלל דורשים:</p><ol><li>משכנתא ראשונה על הנכס</li><li>שעבוד מניות ה-SPV</li><li>ערבות אישית של הבעלים</li><li>שעבוד חשבון ייעודי (Escrow)</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M03-PRX-Q01",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס ממושכן לבנק א' במשכנתא ראשונה (6M ₪) ולבנק ב' במשכנתא שנייה (2M ₪). כמו כן, על הנכס רשומה Negative Pledge לטובת חברת ביטוח. הנכס מומש ב-7M ₪. דרגו את זכויות הנושים לפי סדר הפירעון.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Negative Pledge היא התחייבות אישית — לא שעבוד ריאלי. בסדר הפירעון ממימוש נכס, זכויות ריאליות (משכנתאות) קודמות לתביעות אישיות.",
+    "topic_tags": ["lien_priority", "negative_pledge", "enforcement_order"],
+    "options": [
+      {
+        "text_he": "בנק א' מקבל 6M ₪ (ראשון, מלא); בנק ב' מקבל 1M ₪ (שני, חלקי — נותרו רק 1M לאחר בנק א'); חברת הביטוח לא מקבלת כלום ממימוש הנכס — Negative Pledge אינה שעבוד ריאלי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חלוקה שווה: כל נושה מקבל 7M ÷ 3 ≈ 2.33M ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפירעון הוא לפי עדיפות — לא שווה; בעל משכנתא ראשונה מקבל ראשון עד לסיפוק מלא"
+      },
+      {
+        "text_he": "חברת הביטוח מקבלת ראשון כי Negative Pledge נחתם לאחרונה ולכן יש לה עדיפות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge אינה שעבוד ריאלי ואינה מקנה עדיפות על פני משכנתאות רשומות"
+      },
+      {
+        "text_he": "בנק א' מקבל 6M; בנק ב' מקבל 1M; חברת הביטוח יכולה לתבוע את הלווה אישית על הפרת ה-Negative Pledge",
+        "is_correct": false,
+        "distractor_rationale_he": "זוהי תשובה נכונה חלקית — חברת הביטוח אכן יכולה לתבוע את הלווה, אך לא ממימוש הנכס עצמו. עם זאת, שתי האפשרויות (א' ו-ד') נכונות, אך א' שלמה יותר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סדר פירעון ממימוש (7M ₪):</strong></p><ol><li><strong>הוצאות מימוש</strong> (עורך דין, שמאי וכו') — לרוב 1-3% מהתמורה</li><li><strong>בנק א' — משכנתא ראשונה:</strong> 6M ₪ → מקבל 6M מלא; נותרים: 1M</li><li><strong>בנק ב' — משכנתא שנייה:</strong> תובע 2M, מקבל רק 1M (מה שנותר); הפסד: 1M ₪</li><li><strong>חברת ביטוח — Negative Pledge:</strong> אינה מקבלת ממימוש הנכס; יכולה לתבוע הלווה אישית על הפרה חוזית</li></ol><p><strong>לקח:</strong> שעבוד ריאלי (משכנתא) > התחייבות חוזית (Negative Pledge) בסדר העדיפות.</p>"
+  },
+  {
+    "question_id_external": "C06-M03-PRX-Q02",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מלווה שוקל שלושה סוגי ביטחון לאותה הלוואה: (א) משכנתא ראשונה על נכס ב-LTV 60%; (ב) ערבות אישית של בעל מניות עם שווי נטו של 50M ₪; (ג) Negative Pledge על נכסי החברה. דרגו מחזק לחלש.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חוזק ביטחון נמדד בשני פרמטרים: מהירות האכיפה ובטיחות הגבייה. משכנתא ראשונה מנצחת כי היא ריאלית, רשומה וקשורה לנכס ספציפי.",
+    "topic_tags": ["collateral_ranking", "mortgage", "personal_guarantee", "negative_pledge"],
+    "options": [
+      {
+        "text_he": "הדרגה: (א) משכנתא ראשונה — חזקה ביותר; (ב) ערבות אישית — בינונית (תלויה בנכסי הערב); (ג) Negative Pledge — חלשה ביותר (התחייבות חוזית בלבד)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הדרגה: (ב) ערבות אישית חזקה ביותר כי שווי הנטו (50M) גבוה מהנכס; (א) משכנתא; (ג) Negative Pledge",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי נטו גבוה לא הופך ערבות לחזקה יותר ממשכנתא — ערבות תלויה בנזילות הערב ובהליכי תביעה"
+      },
+      {
+        "text_he": "כל שלושת הביטחונות שווים; החוזק תלוי בתנאי השוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יש היררכיה ברורה: ביטחון ריאלי > ביטחון אישי > התחייבות חוזית"
+      },
+      {
+        "text_he": "Negative Pledge חזקה ביותר כי היא מונעת שעבוד נוסף ומגנה על המלווה מלפני",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge מגנה אך אינה ביטחון ריאלי; הפרתה מאפשרת תביעה אך לא עדיפות בפירעון"
+      }
+    ],
+    "explanation_html_he": "<p><strong>היררכיית ביטחונות:</strong></p><ol><li><strong>משכנתא ראשונה (חזקה ביותר):</strong><ul><li>ביטחון ריאלי — IN REM</li><li>נרשמת בטאבו; מחייבת את הנכס עצמו</li><li>אכיפה: מימוש נכס; קצבה ידועה</li></ul></li><li><strong>ערבות אישית (בינונית):</strong><ul><li>ביטחון אישי — IN PERSONAM</li><li>ניתן לאכוף רק אם הערב פסיח</li><li>תלויה בנכסיו, מצב פיננסי, מסוכסכות</li></ul></li><li><strong>Negative Pledge (חלשה ביותר):</strong><ul><li>התחייבות חוזית בלבד</li><li>אין עדיפות בפירעון ממימוש</li><li>ערכה: מניעה מקדמית + תביעה חוזית בהפרה</li></ul></li></ol>"
+  },
+  {
+    "question_id_external": "C06-M03-PRX-Q03",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה הגיע לחדלות פירעון על הלוואת נדל\"ן של 15M ₪. ביטחונות: משכנתא ראשונה על נכס (שווי שוק נוכחי 12M ₪); ערבות אישית של הבעלים (שווי נטו 8M ₪ לפי הצהרה). תארו את רצף האכיפה האופטימלי מנקודת מבט הבנק.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מימוש ביטחונות הוא תהליך — לא אירוע. בנק נבון ממצה קודם את הביטחון הריאלי (ניתן לכמת ולשלוט), ולאחר מכן פונה לאכיפת הערבות.",
+    "topic_tags": ["enforcement_sequence", "mortgage_realization", "personal_guarantee"],
+    "options": [
+      {
+        "text_he": "שלב א: מימוש המשכנתא — מכירת הנכס ב-12M ₪, גירעון 3M. שלב ב: אכיפת ערבות אישית על הגירעון (3M ₪) מנכסי הבעלים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יש לאכוף ערבות אישית ראשון כי הביצוע מהיר יותר ממימוש נכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אכיפת ערבות אישית דורשת הליך משפטי ותלויה בנכסי הערב; לרוב מומלץ למצות ביטחון ריאלי ראשון"
+      },
+      {
+        "text_he": "ניתן לאכוף שני הביטחונות בו-זמנית; אין סדר מחייב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי מבחינה מעשית; בנקים בדרך כלל ממצים ביטחון ריאלי קודם — יעיל יותר וברור יותר לבית המשפט"
+      },
+      {
+        "text_he": "גירעון של 3M ₪ מחיקה — אין לבנק דרך לגבות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית של 8M ₪ מספיקה לכסות את הגירעון (3M); הבנק יכול לתבוע ולגבות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>רצף אכיפה מומלץ:</strong></p><ol><li><strong>הכרזה על ברירת מחדל</strong> — Notice of Default; פנייה ללווה לתקן</li><li><strong>פנייה לבית משפט</strong> — בקשה לצו מימוש משכנתא; בישראל: הליך לפי חוק ההוצאה לפועל</li><li><strong>מינוי כונס נכסים</strong> — ניהול ומימוש הנכס</li><li><strong>מכירת הנכס:</strong> 12M ₪; פירעון הוצאות + קרן: נותר גירעון 3M ₪</li><li><strong>אכיפת ערבות אישית:</strong> תביעה אישית על הגירעון (3M); עיקול נכסי הבעלים; הגירעון מכוסה ב-3M מתוך 8M שווי נטו</li></ol><p><strong>הערה:</strong> שווי נטו של 8M הוא הצהרתי — יש לאמת ולבצע חיפוש נכסים לפני הסתמכות עליו.</p>"
+  },
+  {
+    "question_id_external": "C06-M03-PRX-Q04",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מגיש בקשה לאשראי ומצרף ערבות אישית. הצהרת הרכוש האישי שלו מראה: דירת מגורים (משועבדת במשכנתא של 80% LTV), מניות חברה פרטית (לא סחירה), ורכב. שווי נטו הצהרתי: 4M ₪. הלוואה המבוקשת: 8M ₪. הערך את כוח הערבות.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ערבות אישית חזקה רק כמו הנכסים שמאחוריה — ונכסים לא נזילים ולא ברי-מימוש אינם ערובה לגבייה. תמיד שאלו: 'מה ניתן לממש תוך 6-12 חודשים?'",
+    "topic_tags": ["personal_guarantee_quality", "net_worth_analysis", "collateral_evaluation"],
+    "options": [
+      {
+        "text_he": "הערבות חלשה: הדירה כמעט ממושכנת במלואה (80% LTV), המניות הפרטיות אינן נזילות, הרכב זניח. שווי נטו ניתן-למימוש נמוך מ-8M — כיסוי חלקי בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הערבות חזקה: שווי נטו 4M ₪ ומניות חברה מוסיפות ערך משמעותי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי נטו 4M נמוך מ-8M הנדרש; מניות פרטיות קשות למימוש; הנכסים לא נזילים מספיק"
+      },
+      {
+        "text_he": "הערבות מספיקה כי שווי נטו 4M ₪ מכסה 50% מההלוואה — כיסוי סביר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כיסוי 50% אינו מספיק; יתרה מכך, מה שניתן לממש בפועל נמוך משמעותית מ-4M הצהרתיים"
+      },
+      {
+        "text_he": "יש לקבל את הערבות — שווי נטו 4M ₪ מספיק לכל הלוואה עד 4M",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי נטו הצהרתי שונה מיכולת גבייה בפועל; נכסים לא נזילים ומשועבדים אינם שווים ל-Cash"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח איכות ערבות אישית:</strong></p><table style='width:100%;'><tr><th>נכס</th><th>שווי</th><th>שעבוד</th><th>ניתן-למימוש</th></tr><tr><td>דירת מגורים</td><td>X</td><td>80% LTV — כמעט ממושכן</td><td>~20% משווי הדירה</td></tr><tr><td>מניות פרטיות</td><td>X</td><td>ללא</td><td>נמוך — לא סחיר, תלוי בקונה</td></tr><tr><td>רכב</td><td>זניח</td><td>ללא</td><td>זניח</td></tr></table><p><strong>מסקנה:</strong> שווי נטו ניתן-למימוש הוא שבר מ-4M. לא כדאי להסתמך על ערבות זו לכיסוי 8M. <strong>המלצה:</strong> לדרוש ביטחון ריאלי נוסף (נכס נוסף) או להפחית את ההלוואה.</p>"
+  },
+  {
+    "question_id_external": "C06-M03-PRX-Q05",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק בחן חבילת ביטחונות לפרויקט: Negative Pledge בלבד, ללא משכנתא. עלות הפרויקט 20M ₪, הלוואה 14M ₪. זהו את החולשה הקריטית בחבילת הביטחונות.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Negative Pledge בלבד לעסקת נדל\"ן משמעה שהמלווה הוא למעשה נושה בלתי מובטח — גרוע יותר ממלווה עם משכנתא. בתרחיש כישלון, הוא ייצטרף לתור של הנושים הרגילים.",
+    "topic_tags": ["collateral_weakness", "negative_pledge_only", "unsecured_risk"],
+    "options": [
+      {
+        "text_he": "חולשה קריטית: Negative Pledge בלבד לא מקנה שעבוד ריאלי. בתרחיש כישלון, המלווה הוא נושה בלתי מובטח — אין לו עדיפות על הנכס, ויתחרה עם כל הנושים האחרים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Negative Pledge מספיקה כי היא מונעת שעבוד נוסף — זה כל מה שנדרש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge מגנה על השמירה אך לא מקנה עדיפות בפירעון; בלי משכנתא המלווה נעדר ביטחון ריאלי"
+      },
+      {
+        "text_he": "החולשה היא LTC גבוה (70%); יש להפחיתו ל-60%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTC של 70% סביר; הבעיה המרכזית היא היעדר שעבוד ריאלי — לא גובה ה-LTC"
+      },
+      {
+        "text_he": "אין חולשה; Negative Pledge מקובלת כביטחון מלא בשוק הישראלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Negative Pledge כביטחון יחידי לעסקת נדל\"ן גדולה אינה מקובלת בבנקאות ישראלית ממוסדת"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הבעיה: Negative Pledge כביטחון יחיד בעסקת 14M ₪</strong></p><p><strong>מה Negative Pledge מקנה:</strong> זכות לתבוע הלווה אם שעבד לאחר; מניעה עתידית</p><p><strong>מה Negative Pledge לא מקנה:</strong></p><ul><li>אין שעבוד ריאלי על הנכס</li><li>אין עדיפות בפירעון ממימוש</li><li>בכשל: המלווה הוא 'Unsecured Creditor' — מקבל לפי חלקיות עם כל הנושים</li></ul><p><strong>מה נדרש במינימום:</strong></p><ol><li>משכנתא ראשונה על הנכס</li><li>Negative Pledge על נכסים נוספים</li><li>ערבות אישית</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M03-PRX-Q06",
+    "course_number": 6,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה עם משכנתא ראשונה קיימת (7M ₪) מבקש מהבנק להסכים לרישום משכנתא שנייה לטובת גורם אחר (4M ₪). שווי הנכס כיום 15M ₪. כיצד הבנק צריך להגיב ומה הניתוח?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "CLTV ובדיקת 'מה שיישאר לי בתרחיש מימוש' הם המדדים שמנחים תשובת הבנק. CLTV של 73% עשוי להיות סביר, אבל הבנק ישאל: 'מה ה-CLTV אחרי ירידה של 20% בשוק?'",
+    "topic_tags": ["second_charge", "cltv", "lender_response", "covenant"],
+    "options": [
+      {
+        "text_he": "הבנק צריך לנתח CLTV לאחר המשכנתא השנייה: (7+4)÷15 = 73.3%. אם נמוך מהרף (בד\"כ 75-80%), הבנק יכול להסכים בתנאי שמירת עדיפות ראשונה ו-Covenant נוסף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבנק חייב לסרב אוטומטית; אין לאפשר משכנתא שנייה בשום מקרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין חובה לסרב; CLTV של 73% עשוי להיות סביר; הבנק יכול להסכים בתנאים מתאימים"
+      },
+      {
+        "text_he": "הבנק לא אמור להתעניין במשכנתא השנייה — עדיפותו הראשונה מובטחת בכל מקרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; משכנתא שנייה מגדילה CLTV ועלולה להשפיע על שווי הנכס הזמין בתרחיש מימוש; הבנק בהחלט צריך לנתח"
+      },
+      {
+        "text_he": "הבנק צריך לדרוש פירעון מיידי של ההלוואה הקיימת אם הלווה רוצה להוסיף משכנתא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דרישת פירעון מיידי אגרסיבית יתר על המידה אם ה-CLTV עדיין סביר; ניתוח מדוד עדיף"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח בקשת משכנתא שנייה:</strong></p><p><strong>חישוב CLTV:</strong> (7M + 4M) ÷ 15M = 11M ÷ 15M = <strong>73.3%</strong></p><p><strong>שיקולים:</strong></p><ul><li>CLTV 73.3% — בדרך כלל סביר לנדל\"ן מגורים</li><li>לחץ Stress: CLTV אחרי ירידת שווי 15% → 11 ÷ 12.75 = 86.3% — גבוה!</li><li>הבנק שומר עדיפות ראשונה בכל מקרה; 7M מוגן כל עוד שווי > 7M</li></ul><p><strong>תנאים אפשריים להסכמה:</strong></p><ol><li>Intercreditor Agreement עם המלווה השני</li><li>Covenant: ללא שעבודים נוספים בעתיד</li><li>עדכון שמאות לאיש האחראי</li><li>Covenant LTV: אם שווי ירד מתחת לרף — פירעון חלקי</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M04-CMP-Q01",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו SPV (Special Purpose Vehicle) ומדוע יזמי נדל\"ן מקימים חברות ייעודיות לכל פרויקט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "SPV הוא אחד הכלים החשובים ביותר במימון נדל\"ן מודרני. הוא מאפשר ניהול סיכון נקי — כל פרויקט 'חי בבועה שלו' ובעיות בפרויקט אחד לא מדביקות אחרים.",
+    "topic_tags": ["spv", "special_purpose_vehicle", "project_finance"],
+    "options": [
+      {
+        "text_he": "SPV היא חברה ייעודית המוקמת לצורך פרויקט ספציפי בלבד. יזמים מקימים SPV כדי לבודד סיכון הפרויקט מהגוף האם, לאפשר מבנה מימון ברור, ולהגן על שאר הנכסים מפני כישלון הפרויקט",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "SPV היא חברה ציבורית הנסחרת בבורסה לצורך גיוס הון ציבורי לפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV בנדל\"ן היא בדרך כלל חברה פרטית סגורה — לא ציבורית ולא נסחרת"
+      },
+      {
+        "text_he": "SPV מוקמת רק כשיש מספר משקיעים בפרויקט; פרויקט בבעלות יחיד אינו דורש SPV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV שימושית גם לבעלות יחיד — הבנק עצמו לעיתים דורש SPV לצורך Ring-Fencing"
+      },
+      {
+        "text_he": "SPV היא חברה בת של בנק המממן; היא מנהלת את הפרויקט בשם הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV שייכת ליזם (ה-Sponsor), לא לבנק; הבנק הוא מלווה חיצוני ל-SPV"
+      }
+    ],
+    "explanation_html_he": "<p><strong>SPV (Special Purpose Vehicle) — עיקרי:</strong></p><ul><li><strong>מה זה:</strong> חברה בע\"מ שמוקמת למטרה ספציפית אחת (פרויקט אחד)</li><li><strong>מי מחזיק:</strong> היזם (ישירות או דרך חברת אחזקה)</li><li><strong>מה ה-SPV מחזיק:</strong> הנכס, ההסכמים, ההכנסות — הכל קשור ל-SPV</li><li><strong>מדוע יזמים משתמשים:</strong><ol><li>בידוד סיכון — כשל בפרויקט א' לא גורר פרויקט ב'</li><li>מבנה מימון נקי — מלווה יודע בדיוק מה הוא ממן</li><li>יציאה קלה — מכירת SPV = מכירת הפרויקט</li><li>יתרון מס — לעיתים</li></ol></li></ul>"
+  },
+  {
+    "question_id_external": "C06-M04-CMP-Q02",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי 'בידוד מפשיטת רגל' (Bankruptcy Remoteness) ומה ה-SPV צריך לעשות כדי להשיגה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Bankruptcy Remoteness אינו 'כיבוי מגנטי' אוטומטי — הוא דורש מגוון אמצעי Ring-Fencing. בית משפט עלול להרים 'מסך ה-SPV' אם ימצא שהיא לא הופעלה כישות עצמאית אמיתית.",
+    "topic_tags": ["bankruptcy_remoteness", "spv", "ring_fencing"],
+    "options": [
+      {
+        "text_he": "Bankruptcy Remoteness פירושו שהליכי חדלות פירעון של חברת האם לא יגיעו ל-SPV. מושגת על ידי: הפרדת נכסים, גורמי ניהול עצמאיים, אי-ערבוב כספים, ומניעת ערבות הדדית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Bankruptcy Remoteness פירושו שה-SPV לעולם לא תוכל להגיע לחדלות פירעון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-SPV עצמה יכולה להגיע לחדלות פירעון; Bankruptcy Remoteness מגן עליה מחדלות פירעון של חברת האם"
+      },
+      {
+        "text_he": "Bankruptcy Remoteness מושגת אוטומטית כשמקימים חברה בע\"מ נפרדת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הקמת חברה נפרדת היא תנאי הכרחי אך לא מספיק; נדרשים אמצעי Ring-Fencing פעילים"
+      },
+      {
+        "text_he": "Bankruptcy Remoteness רלוונטי רק לאגרות חוב ולא להלוואות בנקאיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bankruptcy Remoteness חשוב לכל מבנה מימון שמבוסס על SPV — הלוואות בנקאיות כלולות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Bankruptcy Remoteness — מהות ויישום:</strong></p><p><strong>מה המטרה:</strong> להגן על ה-SPV מפני 'זיהום' מחדלות פירעון של חברת האם</p><p><strong>כיצד מושגת:</strong></p><ul><li><strong>הפרדת נכסים:</strong> נכסי ה-SPV נפרדים מנכסי קבוצת האם — לא ניתן לתבוע נכסי SPV בגין חובות האם</li><li><strong>חשבונות בנק נפרדים:</strong> אין ערבוב מזומנים (Commingling)</li><li><strong>ניהול עצמאי:</strong> דירקטורים עצמאיים ב-SPV (לעיתים)</li><li><strong>ביקורת עצמאית:</strong> דוחות כספיים ועו\"ד נפרדים ל-SPV</li><li><strong>אין ערבות הדדית:</strong> ה-SPV לא ערבה לחובות חברת האם</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M04-CMP-Q03",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי Ring-Fencing ואיזה פעולות של היזם עלולות לפגוע בה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Ring-Fencing נהרסת ברגע שהכסף 'מסתבך' בין ה-SPV לקבוצה. אנליסט שמוצא העברת כספים בין ה-SPV לחברת האם ללא תיעוד מסודר — צריך להדליק נורה אדומה.",
+    "topic_tags": ["ring_fencing", "spv", "asset_isolation"],
+    "options": [
+      {
+        "text_he": "Ring-Fencing הוא הפרדת נכסים ופעולות ה-SPV מהקבוצה. פגיעה בו: ערבוב חשבונות בנק, הלוואות בין-חברתיות ללא תיעוד, שימוש ב-SPV לתשלום חובות חברת האם, ניהול משותף ללא מסמכים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Ring-Fencing פירושו שהגדר הפיזית סביב הנכס מוגנת; אין לה משמעות פיננסית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Ring-Fencing הוא מושג פיננסי ומשפטי — הפרדת ישות ה-SPV, לא גדר פיזית"
+      },
+      {
+        "text_he": "Ring-Fencing נפגעת רק אם חברת האם פושטת רגל; בינתיים אין חשיבות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Ring-Fencing צריך להתקיים מהיום הראשון — פגיעה בו לאורך זמן עלולה לאפשר הרמת מסך בתרחיש כישלון"
+      },
+      {
+        "text_he": "Ring-Fencing פועל אוטומטית אם ה-SPV רשומה כחברה נפרדת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרישום הנפרד הוא תנאי הכרחי אך לא מספיק; נדרשת פעולה עקבית לשמירת ההפרדה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Ring-Fencing — שמירת ההפרדה:</strong></p><p><strong>מה זה:</strong> מכלול הפעולות לשמירת ה-SPV כישות נפרדת ועצמאית</p><p><strong>פעולות שפוגעות ב-Ring-Fencing:</strong></p><ul><li><strong>Commingling (ערבוב כספים):</strong> העברת כסף חופשית בין חשבון ה-SPV לחשבון האם</li><li><strong>הלוואות בין-חברתיות:</strong> SPV מלווה לאם ללא תיעוד ותנאי שוק</li><li><strong>ערבויות הצלבתיות:</strong> SPV ערבה לחובות חברות אחרות בקבוצה</li><li><strong>ניהול אחוד:</strong> אותם עובדים/נהלים ל-SPV ולאם ללא הפרדה</li></ul><p><strong>תוצאת פגיעה:</strong> בית משפט עלול להרים 'מסך ה-SPV' ולאפשר לנושי האם להגיע לנכסי ה-SPV.</p>"
+  },
+  {
+    "question_id_external": "C06-M04-CMP-Q04",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו סיכון Cross-Default בין SPVs של אותה קבוצה ומדוע הוא חשוב למלווים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Cross-Default הוא כלי מגן של המלווה — מאפשר לו 'לתפוס' את הבעיה מוקדם. אבל מנקודת הלווה, Cross-Default עלול לגרום להשמטה של פרויקט טוב בגלל בעיה בפרויקט אחר.",
+    "topic_tags": ["cross_default", "spv", "group_risk"],
+    "options": [
+      {
+        "text_he": "Cross-Default פירושו שברירת מחדל ב-SPV אחת של הקבוצה מהווה ברירת מחדל גם בהלוואות SPVs אחרות. חשוב למלווים כי מאפשר להם לפעול מוקדם לפני שהמצב מחמיר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Cross-Default מגן על הלווה — מאפשר לו להחריג SPV אחת מהחזרים אם אחרת כשלה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cross-Default הוא כלי של המלווה, לא הלווה; הוא מהווה Event of Default שמסייע למלווה לפעול"
+      },
+      {
+        "text_he": "Cross-Default חל אוטומטית בין כל חברות הקבוצה ללא צורך בניסוח מפורש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cross-Default חייב להיות מנוסח מפורשות בהסכם ההלוואה; אינו מתקיים אוטומטית"
+      },
+      {
+        "text_he": "Cross-Default לא קיים בישראל בשל הגנות משפטיות על לווים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cross-Default הוא הוראה חוזית נפוצה בהסכמי הלוואה ישראלים וניתנת לאכיפה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Cross-Default:</strong></p><p><strong>הגדרה:</strong> הוראה בהסכם ההלוואה הקובעת כי ברירת מחדל בהסכם הלוואה אחר של הלווה (או ישויות קשורות) — מהווה אוטומטית Event of Default בהסכם הנוכחי.</p><p><strong>דוגמה:</strong><br>SPV-1 נכשלת בתשלום לבנק א'. לבנק ב' שממן SPV-2 יש Cross-Default Clause → ברירת מחדל SPV-1 = ברירת מחדל SPV-2 → בנק ב' יכול לתבוע פירעון מיידי.</p><p><strong>יתרון למלווה:</strong> פעולה מוקדמת לפני שהבעיה מתפשטת.<br><strong>סיכון ללווה:</strong> אפקט דומינו — כשל בנקודה אחת קורס את הכל.</p>"
+  },
+  {
+    "question_id_external": "C06-M04-PRX-Q01",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>זהו שני יתרונות עיקריים של מבנה SPV עבור מלווה בכיר בעסקת נדל\"ן, ושני יתרונות עבור היזם.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "SPV משרת שני צדדים — המלווה מקבל 'נכס נקי' ומבנה ברור, והיזם מקבל הפרדת סיכון ושליטה. הבנה דו-צדדית זו חשובה לכל משא ומתן על מבנה מימון.",
+    "topic_tags": ["spv_advantages", "lender_benefits", "sponsor_benefits"],
+    "options": [
+      {
+        "text_he": "למלווה: (1) בידוד סיכון — נכסי SPV נפרדים מחובות הקבוצה; (2) מבנה ברור — קל לנתח תזרים ובטחונות. ליזם: (1) הפרדת סיכון בין פרויקטים; (2) מכירת פרויקט פשוטה — מוכר מניות SPV",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "SPV מועיל רק למלווה; ליזם אין יתרון ב-SPV לעומת פרויקט תחת חברה ישירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ליזם יתרונות ברורים: הפרדת סיכון, יציאה קלה, ולעיתים יתרונות מס"
+      },
+      {
+        "text_he": "SPV מבטל את הצורך בביטחונות; עצם הקמת SPV מספיקה כביטחון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV אינו ביטחון — המלווה עדיין דורש משכנתא, שעבוד מניות וערבויות"
+      },
+      {
+        "text_he": "יתרון ה-SPV ליזם הוא שמס ההכנסה של הפרויקט חוקית אינו מוכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV אינו מבנה לעקיפת מס — תכנון מס חייב לעמוד בדרישות חוק"
+      }
+    ],
+    "explanation_html_he": "<p><strong>יתרונות SPV:</strong></p><p><strong>מנקודת המלווה:</strong></p><ol><li><strong>בידוד סיכון (Ring-Fencing):</strong> נכסי הפרויקט נפרדים מחובות קבוצת היזם; Bankruptcy Remoteness</li><li><strong>שקיפות:</strong> דוחות ה-SPV מראים רק את הפרויקט — ניתוח פשוט וברור</li><li><strong>שעבוד מניות:</strong> המלווה יכול לשעבד מניות ה-SPV כביטחון נוסף</li></ol><p><strong>מנקודת היזם:</strong></p><ol><li><strong>הפרדת סיכון:</strong> כשל בפרויקט א' לא גורר נכסים של פרויקט ב'</li><li><strong>יציאה יעילה:</strong> מכירת ה-SPV = העברת הפרויקט ללא צורך בהעברת נכסים פרטנית</li><li><strong>גיוס שותפים:</strong> קל לצרף שותף למניות SPV</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M04-PRX-Q02",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>קבוצת נדל\"ן גדולה הגישה בקשת פירוק. לקבוצה 5 SPVs עם פרויקטים שונים. בנק מימן SPV מספר 3 עם SPV כישות מבודדת ו-Bankruptcy Remoteness מלא. האם הלוואת הבנק ל-SPV3 מוגנת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הכוח של Bankruptcy Remoteness נבחן בדיוק בתרחיש זה. אם ה-SPV הופעלה כישות עצמאית אמיתית — הבנק מוגן. אם לא — בית המשפט עלול להרים מסך.",
+    "topic_tags": ["bankruptcy_remoteness", "group_insolvency", "spv_protection"],
+    "options": [
+      {
+        "text_he": "כן — אם ה-SPV3 הופעלה כישות מבודדת אמיתית (חשבונות נפרדים, אין ערבות הדדית, אין ערבוב כספים), הלוואת הבנק מוגנת מהליכי פירוק הקבוצה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא — פשיטת רגל של החברה האם גוררת אוטומטית את כל ה-SPVs",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bankruptcy Remoteness נועד למנוע בדיוק את זה; SPV מבודדת אינה נגררת אוטומטית"
+      },
+      {
+        "text_he": "הגנה על הבנק תלויה רק בהסכם ה-Intercreditor, לא ב-SPV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Intercreditor מסדיר יחסים בין מלווים; Bankruptcy Remoteness של SPV מגן מפני נושי האם"
+      },
+      {
+        "text_he": "הבנק מוגן חלקית — 50% מהחוב מוגן ו-50% נחשף לנושי הקבוצה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-SPV מבודדת אין חצי/חצי; אם ה-SPV עצמאית אמיתית — הגנה מלאה; אם לא — עלולה להיפגע כולה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הגנת SPV בתרחיש פירוק קבוצה:</strong></p><p><strong>תנאים לשמירת ההגנה:</strong></p><ul><li>חשבונות בנק נפרדים — אין ערבוב כספים</li><li>SPV3 לא ערבה לחובות שאר הקבוצה</li><li>פעולות ה-SPV תועדו כישות עצמאית</li><li>ניהול ה-SPV נפרד (לרוב בפועל)</li></ul><p><strong>מה עלול לפגוע בהגנה:</strong></p><ul><li>SPV3 נתנה ערבות לחובות SPV1 — Cross-Guarantee</li><li>כספי SPV3 שימשו לתשלום חובות הקבוצה</li><li>כונס נכסי הקבוצה מוצא ערבוב מהותי → מבקש לכלול SPV3 בפירוק הכולל</li></ul><p><strong>מסקנה:</strong> הבנק צריך לוודא Ring-Fencing מתמשך, לא רק בעת הקמה.</p>"
+  },
+  {
+    "question_id_external": "C06-M04-PRX-Q03",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן SPV ומגלה: (א) חשבון בנק משותף לה ולחברת האם; (ב) SPV שילמה משכורות עובדי האם; (ג) יש ערבות של SPV לאשראי חברת אחות. זהו כמה הפרות Ring-Fencing קיימות ומה המשמעות.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שלוש הפרות בו-זמנית הן סימן שה-SPV היא 'חברת מדף' בלבד — לא ישות עצמאית אמיתית. בית משפט יתקשה לראות בה ישות נפרדת.",
+    "topic_tags": ["ring_fencing_breach", "spv_integrity", "audit_findings"],
+    "options": [
+      {
+        "text_he": "שלוש הפרות: ערבוב חשבונות (א), תשלום עבור ישות אחרת (ב), ערבות צולבת (ג). המשמעות: ה-SPV אינה עצמאית; בית משפט עלול להרים מסך ולחשוף נכסיה לנושי האם",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הפרה אחת בלבד (ג) — ערבות; (א) ו-(ב) מקובלים כתפעול קבוצתי רגיל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (א) ערבוב חשבונות ו-(ב) תשלום חובות גורמים אחרים הן הפרות קלאסיות של Ring-Fencing"
+      },
+      {
+        "text_he": "ההפרות קיימות אך אינן מהותיות אם ה-SPV מחזירה כספים לאחר מכן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חזרה לאחר מעשה אינה מבטלת את ההפרה; בית משפט יבחן ניהול ה-SPV לאורך זמן"
+      },
+      {
+        "text_he": "ההפרות חמורות — הבנק צריך לדרוש פירעון מיידי בלי ניתוח נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "נכון חלקית; הבנק צריך לפעול, אבל לאחר ניתוח מלא — לפעמים ניתן לתקן את המצב בלי פירעון מיידי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלוש הפרות Ring-Fencing:</strong></p><ol><li><strong>חשבון בנק משותף (Commingling):</strong> אי אפשר לזהות איזה כסף שייך ל-SPV ואיזה לאם → כלי Ring-Fencing ראשוני נשבר</li><li><strong>תשלום משכורות עובדי האם:</strong> ה-SPV פועלת כ'כלי מימון' לקבוצה → איבוד עצמאות</li><li><strong>ערבות לחברת אחות:</strong> ה-SPV חשופה לחוב שאינו קשור לפרויקטה → הרמת מסך</li></ol><p><strong>המשמעות למלווה:</strong></p><ul><li>Bankruptcy Remoteness כנראה אינו מלא</li><li>נושי קבוצה עלולים לתבוע נכסי ה-SPV</li><li>יש לבצע בדיקת נאותות נוספת מיידית</li><li>שקול Covenant תיקון: הפרדת חשבונות ותיקון ערבויות תוך 30 יום</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M04-PRX-Q04",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הסכם הלוואה כולל הוראת Cross-Collateral: נכסי SPV-A (שווי 20M ₪) משמשים גם כביטחון להלוואת SPV-B. הלוואת SPV-B: 14M ₪. הלוואת SPV-A: 10M ₪. הערך את ה-Cross-Collateral.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Cross-Collateral חזק למלווה — הוא מקבל כרית ביטחון רחבה יותר. אבל עבור הלווה, הפסד בפרויקט B מסכן את נכסי פרויקט A שאולי הצליח.",
+    "topic_tags": ["cross_collateral", "spv", "collateral_evaluation"],
+    "options": [
+      {
+        "text_he": "Cross-Collateral מחזק את הבנק: נכסי SPV-A (20M) מגבים הלוואת SPV-B (14M); כיסוי עודף. אבל עבור בעלי SPV-A — כשל SPV-B עלול לגרום למימוש נכסי SPV-A שהצליחה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Cross-Collateral לא משנה כלום; כל הלוואה מובטחת בנכסיה בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cross-Collateral מרחיב את הביטחון — נכסי SPV-A הם גם ביטחון ל-SPV-B"
+      },
+      {
+        "text_he": "Cross-Collateral רע למלווה כי הוא מסבך את מבנה הביטחונות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cross-Collateral בדרך כלל טוב למלווה; הוא מסבך את הלווה אך מחזק את כרית הביטחון"
+      },
+      {
+        "text_he": "Cross-Collateral מבטל את Bankruptcy Remoteness של SPV-A",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cross-Collateral הוא הוראת ביטחון — לא מבטל Bankruptcy Remoteness; הם מישורים שונים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הערכת Cross-Collateral:</strong></p><p><strong>נתונים:</strong> נכסי SPV-A = 20M; הלוואת SPV-A = 10M; הלוואת SPV-B = 14M</p><p><strong>עם Cross-Collateral:</strong></p><ul><li>SPV-A ממושכן לכיסוי גם SPV-B (14M)</li><li>חשיפה כוללת על נכסי SPV-A: 10M (הלוואתה) + 14M (SPV-B) = 24M → CLTV = 24÷20 = <strong>120%!</strong></li><li>נכסי SPV-A (20M) אינם מספיקים לכסות שתי הלוואות במלואן</li></ul><p><strong>השקפת מלווה:</strong> הביטחון מלא לכל הלוואה בנפרד, אבל במבחן מקביל — בעיה.<br><strong>השקפת לווה:</strong> הצלחת SPV-A אינה מגינה עליה בתרחיש כשל SPV-B.</p>"
+  },
+  {
+    "question_id_external": "C06-M04-PRX-Q05",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן SPV ומוצא: (א) אין לה הכנסות עצמאיות חוץ מהפרויקט; (ב) מנהל ה-SPV הוא אותו מנהל כמו בחברת האם; (ג) החוזים עם קבלנים נחתמו על שם חברת האם, לא ה-SPV. ציינו חולשות מבניות.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "SPV טובה היא 'חברה ריקה' — היא מחזיקה נכס ולא עושה כמעט כלום אחר. אבל כשמוצאים שהחוזים על שם האם — זה אומר שה-SPV אינה ה-Counterparty האמיתית ויש לה בעיה משפטית.",
+    "topic_tags": ["spv_structural_weakness", "independence", "contract_structure"],
+    "options": [
+      {
+        "text_he": "חולשות: (ב) מנהל משותף — עלול לפגוע בעצמאות ולאפשר ניגוד עניינים; (ג) חוזים על שם האם — ה-SPV אינה ה-Counterparty האמיתית, ביטחונות ה-SPV עלולים להיות חלשים. (א) תקין — SPV לפרויקט יחיד לא אמורה להכנסות נוספות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כל שלושת הסעיפים הם חולשות מהותיות הפוסלות את ה-SPV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (א) — SPV שמחזיקה פרויקט יחיד לא אמורה להכנסות אחרות; זה תקין ואינו חולשה"
+      },
+      {
+        "text_he": "אין חולשות מהותיות; ניהול משותף ממשק ידוע ומספיקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניהול משותף ל-SPV ולאם עלול לגרום לניגוד עניינים ולאפשר הרמת מסך"
+      },
+      {
+        "text_he": "החולשה היחידה היא (ג); (א) ו-(ב) מקובלים בתפעול נדל\"ן בישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (ב) גם הוא חולשה — מנהל משותף אינו בעיה פסולה אוטומטית, אבל יכול להחליש עצמאות ה-SPV"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח חולשות ה-SPV:</strong></p><ol><li><strong>(א) אין הכנסות עצמאיות חוץ מהפרויקט — תקין:</strong> SPV לפרויקט יחיד אמורה שלא להכנסות אחרות; זוהי מהותה</li><li><strong>(ב) מנהל משותף — חולשה בינונית:</strong><ul><li>בית משפט עלול לראות בה ראיה לחוסר עצמאות</li><li>סיכון ניגוד עניינים: מנהל עשוי לפעול לטובת האם על חשבון ה-SPV</li><li>פתרון: דירקטור עצמאי נוסף ב-SPV</li></ul></li><li><strong>(ג) חוזים על שם האם — חולשה קריטית:</strong><ul><li>ה-SPV אינה הצד לחוזה → הביטחונות שלה על גבי הפרויקט מוטלים בספק</li><li>נדרש: כל החוזים — קרקע, קבלן, שכר דירה — ייחתמו על שם ה-SPV</li></ul></li></ol>"
+  },
+  {
+    "question_id_external": "C06-M04-PRX-Q06",
+    "course_number": 6,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה לא עמד בתשלום. לבנק יש שעבוד מניות ה-SPV כביטחון נוסף (בנוסף למשכנתא). תארו את שלבי האכיפה של שעבוד המניות ומה השלכותיו על הפרויקט.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אכיפת שעבוד מניות היא 'השתלטות' על החברה — עוצמתית אך מורכבת. הבנק פתאום מוצא את עצמו בעל שליטה בפרויקט נדל\"ן — תפקיד שלא בהכרח רצה.",
+    "topic_tags": ["share_pledge_enforcement", "spv_takeover", "enforcement_steps"],
+    "options": [
+      {
+        "text_he": "שלב א: הכרזת ברירת מחדל. שלב ב: הודעה ללווה ולרשם החברות. שלב ג: המרת שעבוד — הבנק רושם עצמו כבעל מניות ה-SPV. שלב ד: מינוי מנהלים חדשים. שלב ה: מכירת הפרויקט או ניהולו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שעבוד מניות אינו ניתן לאכיפה בישראל ללא פסק דין בית משפט בכל שלב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שעבוד מניות יכול להיות ניתן לאכיפה ישירה (Self-Help) על פי תנאי ההסכם והדין"
+      },
+      {
+        "text_he": "אכיפת שעבוד מניות זהה לאכיפת משכנתא; אין הבדל בתהליך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שעבוד מניות = שליטה בחברה; משכנתא = מימוש נכס; תהליכים שונים לגמרי"
+      },
+      {
+        "text_he": "הבנק מממש שעבוד מניות רק אחרי שמיצה את המשכנתא; אין אפשרות אחרת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסדר האכיפה תלוי בתנאי הסכם הביטחונות; לעיתים ניתן לאכוף שעבוד מניות ישירות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלבי אכיפת שעבוד מניות SPV:</strong></p><ol><li><strong>הכרזת Event of Default</strong> — הבנק שולח הודעה רשמית; לווה מקבל הזדמנות לתקן (Cure Period)</li><li><strong>הפעלת שעבוד המניות</strong> — הודעה לחברה (SPV), לרשם החברות ולרשם המשכונות</li><li><strong>רישום הבנק כבעל מניות</strong> — העברת מניות מהלווה לבנק ברשם; הבנק הוא כעת בעל השליטה ב-SPV</li><li><strong>מינוי מנהלים חדשים</strong> — הבנק (או נציגו) ממנה דירקטוריון חדש; מנהל ה-SPV מוחלף</li><li><strong>החלטה אסטרטגית:</strong><ul><li>מכירת ה-SPV לצד שלישי</li><li>השלמת הפרויקט ומכירה</li><li>ניהול כנכס מניב</li></ul></li></ol><p><strong>אתגר מעשי:</strong> הבנק הפך ל'יזם' — עליו לנהל פרויקט נדל\"ן. לרוב הבנקים אין ניסיון בכך ומעדיפים מכירה מהירה.</p>"
+  }
+]

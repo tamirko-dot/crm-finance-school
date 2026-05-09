@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C05-M03-CMP-Q01",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו פעילויות נכללות בדרך כלל בפעילות ההשקעות (Investing Activities) בדוח תזרים המזומנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "פעילות ההשקעות היא 'ספר ההיסטוריה' של החברה — כאן רואים אם הנהלה משקיעה בצמיחה, מוכרת נכסים לממן תפעול, או שניהם. תזרים שלילי חזק בהשקעות אצל חברה בוגרת יכול להיות בשורה מצוינת.",
+    "topic_tags": ["investing_activities", "capex", "asset_sales"],
+    "options": [
+      {
+        "text_he": "רכישת נכסים ורכוש קבוע (CAPEX), מכירת נכסים, השקעות בניירות ערך לטווח ארוך, מתן הלוואות לאחרים — כל פעילות שקשורה לנכסים ארוכי-טווח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תשלומי שכר עובדים, רכישת ציוד משרדי, תשלומי שכ\"ד על משרדים — כל הוצאה תפעולית גדולה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פעילויות תפעוליות (OCF); פעילות השקעות מתייחסת לנכסים ארוכי-טווח, לא להוצאות שוטפות"
+      },
+      {
+        "text_he": "הנפקת מניות, נטילת הלוואות, תשלום דיבידנדים — כל עסקה פיננסית עם גורמים חיצוניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פעילויות מימון (Financing Activities) — לא השקעות; הנפקה ודיבידנדים נובעים מיחסים עם בעלי הון ומלווים"
+      },
+      {
+        "text_he": "תשלומי ריבית בלבד — כי הריבית משקפת את עלות ההשקעה הממומנת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תשלומי ריבית לפי IFRS ניתנים לסיווג ב-OCF או בפעילות המימון; הם אינם 'פעילות השקעות'"
+      }
+    ],
+    "explanation_html_he": "<p><strong>פעילות השקעות (Investing Activities) כוללת:</strong><br>• <strong>יציאות:</strong> רכישת נכסים, רכישת ציוד ומבנים (CAPEX), רכישת חברות בנות, מתן הלוואות<br>• <strong>כניסות:</strong> מכירת נכסים, מכירת ניירות ערך, גביית קרן הלוואות שניתנו<br><strong>לוגיקה:</strong> כל פעילות שמשנה את ניהול נכסי הון ארוכי-טווח.<br><strong>בנדל\"ן:</strong> רכישת בניין מסחרי → Investing; רכישת קרקע לייזום → OCF (ביזמות); מכירת נכס מניב → Investing.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-CMP-Q02",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה משמעות תזרים השקעות שלילי גדול בחברת נדל\"ן מניב — האם זה אות חיובי או שלילי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "תזרים השקעות שלילי = 'החברה מכניסה כסף לעתיד שלה.' זה בדרך כלל בשורה — אלא אם מדובר ב-CAPEX שמממן הפסד תפעולי. ההקשר (מה נרכש, מה מקור המימון) הוא הכל.",
+    "topic_tags": ["investing_activities", "capex", "growth_signal"],
+    "options": [
+      {
+        "text_he": "תזרים שלילי בהשקעות מסמן שהחברה משקיעה בנכסים ובצמיחה — אות חיובי בדרך כלל, אלא אם ה-OCF שלילי ואין מקור מימון ברור לאותה השקעה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תזרים שלילי בהשקעות תמיד שלילי — אומר שהחברה מאבדת מזומן ועלולה לקרוס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תזרים שלילי בהשקעות בגלל רכישת נכסים ייצרניים הוא בדרך כלל אות צמיחה חיובי, לא אות לקריסה"
+      },
+      {
+        "text_he": "תזרים שלילי בהשקעות אינו מידע שימושי — יש לנתח רק OCF",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח מלא דורש שלושת החלקים יחד; תזרים ההשקעות מספר על אסטרטגיית ההנהלה ועל CAPEX — מידע קריטי לאנליסט"
+      },
+      {
+        "text_he": "תזרים שלילי בהשקעות בנדל\"ן אינו אפשרי — חברות נדל\"ן תמיד מוכרות יותר ממה שהן רוכשות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חברות נדל\"ן מניב בצמיחה רוכשות נכסים רבים ומציגות תזרים השקעות שלילי כרוני — זה נורמלי לגמרי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>פרשנות תזרים השקעות שלילי:</strong><br>• <strong>חיובי:</strong> חברה רוכשת נכסים מניבים, משביחה פורטפוליו — השקעה לעתיד.<br>• <strong>שלילי:</strong> תזרים ההשקעות שלילי ממומן ממינוף חדש בלי OCF חיובי — מסוכן.<br><strong>כלל עבודה לאנליסט:</strong> בדוק את 'Triangle': OCF חיובי + Investing שלילי + Financing שלילי = חברה בוגרת שמשקיעה ומחזירה חוב. OCF שלילי + Investing שלילי + Financing חיובי = חברה ביציאה ממינוף — מסוכן.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-CMP-Q03",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו פעילויות נכללות בפעילות המימון (Financing Activities) בדוח תזרים המזומנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "פעילות המימון מספרת את סיפור הון החברה — מי מממן את הצמיחה ובאיזה מחיר? חברה שגדלה על חוב (Financing חיובי) ולא על רווחיות (OCF חיובי) — מבנה פגיע.",
+    "topic_tags": ["financing_activities", "debt", "equity"],
+    "options": [
+      {
+        "text_he": "נטילת הלוואות ופירעונן, הנפקת מניות, רכישה עצמית של מניות (buyback), תשלום דיבידנדים — כל פעילות שמשנה מבנה ההון ויחסי החברה עם בעלי ההון ומלווים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריבית ששולמה, מסים ששולמו ודיבידנדים — כי כולם תשלומים לגורמים חיצוניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לפי IFRS, ריבית ומסים ניתנים לסיווג ב-OCF; רק דיבידנד ששולם מסווג בדרך כלל לפעילות מימון (או OCF — אפשרי לפי IFRS)"
+      },
+      {
+        "text_he": "מכירת ניירות ערך, השקעה בפיקדונות, קבלת ריבית על הלוואות שנתנו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פעילויות השקעה; פעילות מימון עוסקת ביחסים עם בעלי הון ומלווים בנוגע למבנה ההון"
+      },
+      {
+        "text_he": "כל תשלום מעל 500,000 ₪ שאינו קשור לפעילות השוטפת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סיווג פעילות מימון נקבע לפי טיב הפעילות (מבנה הון), לא לפי גובה הסכום"
+      }
+    ],
+    "explanation_html_he": "<p><strong>פעילות מימון (Financing Activities) כוללת:</strong><br>• <strong>כניסות:</strong> קבלת הלוואות בנקאיות, הנפקת אגרות חוב, גיוס הון עצמי.<br>• <strong>יציאות:</strong> פירעון הלוואות, תשלום דיבידנדים, רכישה עצמית של מניות.<br><strong>לוגיקה:</strong> כל עסקה שמשנה את ההרכב והגודל של מקורות המימון של החברה (הון עצמי + חוב).<br><strong>בנדל\"ן:</strong> נטילת משכנתא → Financing+; פירעון קרן משכנתא → Financing−.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-CMP-Q04",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מחשבים Free Cash Flow (FCF) מדוח תזרים המזומנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "FCF הוא 'הכסף שנשאר אחרי שמחזיקים את הנכסים' — זה מה שניתן לחלק כדיבידנד, לשלם חוב, לרכוש נכסים נוספים. חברה עם OCF חיובי אך FCF שלילי = CAPEX בולע את כל התזרים.",
+    "topic_tags": ["fcf", "ocf", "capex"],
+    "options": [
+      {
+        "text_he": "FCF = OCF − CAPEX (הוצאות רכוש קבוע נטו). ה-FCF מייצג את המזומן הפנוי לאחר תחזוקה ופיתוח הנכסים הקיימים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCF = OCF + CAPEX — מוסיפים את ה-CAPEX כי הוא השקעה שתניב מזומן בעתיד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CAPEX מנוכה מ-OCF לחישוב FCF — הוא שימוש במזומן היום, לא תקבול; הכנסות עתידיות יתבטאו ב-OCF עתידי"
+      },
+      {
+        "text_he": "FCF = רווח נקי − פחת, כי פחת הוא ה-'CAPEX האמיתי'",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF מחושב מ-OCF (לא רווח נקי) פחות CAPEX בפועל — פחת ו-CAPEX נמדדים בנפרד ולרוב שונים בסכום"
+      },
+      {
+        "text_he": "FCF = EBITDA − ריבית − מסים, ללא קשר ל-CAPEX",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CAPEX הוא הרכיב המרכזי המבדיל FCF מ-EBITDA; לא מחשבים FCF בלי לנכות CAPEX"
+      }
+    ],
+    "explanation_html_he": "<p><strong>FCF — נוסחה בסיסית:</strong><br><strong>FCF = OCF − CAPEX</strong><br>כאשר CAPEX = תזרים שלילי מפעילות ההשקעות הקשור לרכישת נכסים ורכוש קבוע.<br><strong>דוגמה:</strong> OCF = 10M ₪; CAPEX = 4M ₪ → FCF = 6M ₪ — החברה מייצרת 6M ₪ מזומן פנוי לשימוש חופשי.<br><strong>שימוש ב-FCF:</strong> תשלום חוב, דיבידנדים, רכישות נוספות, צמיחה אורגנית. FCF הוא מדד ה'שורה תחתונה' לניתוח יכולת שירות חוב.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-PRX-Q01",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן ביצעה את העסקאות הבאות: (א) רכישת בניין משרדים ב-15M ₪; (ב) קבלת הלוואה מבנק ב-10M ₪; (ג) גביית שכ\"ד ב-3M ₪; (ד) מכירת ציוד ישן ב-500K ₪; (ה) תשלום דיבידנד ב-1M ₪. סווגו כל עסקה לפעילות תפעולית, השקעות, או מימון.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מבחן הסיווג: שאל 'מה מקור הפעילות הכלכלית?' גביית שכ\"ד = עסק; רכישת בניין = נכס ארוך טווח; הלוואה ודיבידנד = מבנה הון.",
+    "topic_tags": ["classification", "investing", "financing", "ocf"],
+    "options": [
+      {
+        "text_he": "(א) השקעות −15M; (ב) מימון +10M; (ג) תפעולי +3M; (ד) השקעות +0.5M; (ה) מימון −1M",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) מימון −15M; (ב) השקעות +10M; (ג) תפעולי +3M; (ד) תפעולי +0.5M; (ה) תפעולי −1M",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רכישת בניין = השקעות; קבלת הלוואה = מימון; מכירת ציוד = השקעות; דיבידנד = מימון — לא תפעולי"
+      },
+      {
+        "text_he": "(א) השקעות −15M; (ב) תפעולי +10M; (ג) תפעולי +3M; (ד) השקעות +0.5M; (ה) תפעולי −1M",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קבלת הלוואה = מימון (לא תפעולי); דיבידנד = מימון (לא תפעולי)"
+      },
+      {
+        "text_he": "(א) השקעות −15M; (ב) מימון +10M; (ג) תפעולי +3M; (ד) תפעולי +0.5M; (ה) מימון −1M",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכירת ציוד היא עסקת נכס ארוך-טווח → השקעות, לא תפעולי; כאשר מוכרים נכס קבוע — זה תמיד Investing Activities"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סיווג:</strong><br>(א) <strong>רכישת בניין משרדים:</strong> נכס ארוך-טווח → Investing −15M ₪<br>(ב) <strong>קבלת הלוואה:</strong> שינוי מבנה הון → Financing +10M ₪<br>(ג) <strong>גביית שכ\"ד:</strong> פעילות עסקית שוטפת → Operating +3M ₪<br>(ד) <strong>מכירת ציוד:</strong> מימוש נכס ארוך-טווח → Investing +0.5M ₪<br>(ה) <strong>תשלום דיבידנד:</strong> חלוקה לבעלי הון → Financing −1M ₪<br><strong>סיכום תזרים:</strong> OCF: +3M; Investing: −14.5M; Financing: +9M; שינוי במזומן: −2.5M ₪.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-PRX-Q02",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נתוני חברת נדל\"ן מניב: OCF = 6,000,000 ₪; CAPEX (רכישת נכס נוסף) = 4,500,000 ₪; CAPEX תחזוקה = 800,000 ₪. חשבו FCF.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "FCF מנכה את כל ה-CAPEX — גם צמיחה וגם תחזוקה. חלק מהאנליסטים מבדילים בין Maintenance CAPEX (נדרש לשמור על הנכסים) ל-Growth CAPEX (אופציונלי). FCF לאחר Maintenance בלבד גבוה יותר.",
+    "topic_tags": ["fcf", "capex", "calculation"],
+    "options": [
+      {
+        "text_he": "FCF = 6,000,000 − 4,500,000 − 800,000 = 700,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCF = 6,000,000 − 800,000 = 5,200,000 ₪ — מנכים רק CAPEX תחזוקה כי CAPEX צמיחה הוא השקעה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF הבסיסי מנכה את כל ה-CAPEX; הבחנה בין Maintenance ל-Growth היא ניתוח נוסף, לא הנוסחה הבסיסית"
+      },
+      {
+        "text_he": "FCF = 6,000,000 + 4,500,000 − 800,000 = 9,700,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CAPEX מנוכה מ-OCF לחישוב FCF — לא מתווסף; 4.5M ₪ יצאו מהקופה"
+      },
+      {
+        "text_he": "FCF = 6,000,000 − 4,500,000 = 1,500,000 ₪ — CAPEX תחזוקה כלול ב-OCF",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CAPEX תחזוקה (תשלום בפועל לשיפוץ/תחזוקת נכסים) אינו ב-OCF — הוא הוצאת הון (Capex) המנוכה ב-FCF"
+      }
+    ],
+    "explanation_html_he": "<p><strong>FCF = OCF − Total CAPEX:</strong><br>OCF: 6,000,000<br>CAPEX צמיחה (רכישת נכס): −4,500,000<br>CAPEX תחזוקה: −800,000<br><strong>FCF = 700,000 ₪</strong><br><strong>הערה לאנליסט:</strong> FCF נמוך מאוד (11.7% מ-OCF) כי רוב ה-OCF הלך ל-CAPEX. אם מנכים רק CAPEX תחזוקה (800K): <em>Maintenance FCF = 5,200,000 ₪</em> — מייצג את הפוטנציאל אם לא היו רוכשים נכס נוסף. שני המדדים שימושיים לניתוח שונה.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-PRX-Q03",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן מציגה: OCF = 2,000,000 ₪; פעילות השקעות = +8,000,000 ₪ (ממכירת שני מרכזים מסחריים); פעילות מימון = +6,000,000 ₪ (הלוואה חדשה). החברה מחלקת דיבידנד של 3,000,000 ₪ מתוך תזרים זה. מה הדגל האדום?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "דיבידנד שממומן מחוב — לא מרווחיות — הוא אות קלאסי לחברה שמנסה לשמור על מראית עין של חוסן בעוד שהפעילות נחלשת. 'מה שהוצאת מהשמאל הכנסת מהימין' — כעבור שנה יהיה פחות נכסים ויותר חוב.",
+    "topic_tags": ["dividend", "financing", "warning_sign", "debt_funded_dividend"],
+    "options": [
+      {
+        "text_he": "הדיבידנד ממומן מהלוואה חדשה ומכירת נכסים — לא מ-OCF. OCF של 2M ₪ אינו מספיק לכסות דיבידנד של 3M ₪; החברה מממנת דיבידנד במינוף ובמימוש נכסים — מצב לא-בר-קיימא",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין דגל אדום — סך התזרים חיובי והחברה יכולה לשלם דיבידנד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המקור לדיבידנד קובע את הסיכון — דיבידנד ממומן מחוב ומימוש נכסים אינו בר-קיימא; OCF הוא המקור הנכון לדיבידנד"
+      },
+      {
+        "text_he": "הדגל האדום הוא תזרים ההשקעות החיובי — מכירת נכסים תמיד מסמנת קשיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכירת נכסים אינה בהכרח קשיים — יכולה להיות אסטרטגיה; הדגל הוא שימוש בתמורה לדיבידנד, לא המכירה עצמה"
+      },
+      {
+        "text_he": "הדגל האדום הוא ההלוואה החדשה — חברה בריאה לא אמורה ללוות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מינוף לרכישת נכסים הוא נורמלי בנדל\"ן; הבעיה היא שימוש בהלוואה לדיבידנד — לא גיוס חוב כשלעצמו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח מקורות ושימושי מזומן:</strong><br>• OCF = 2M — פעילות תפעולית מינימלית<br>• Investing = +8M — ממכירת נכסים (מצמצמת פורטפוליו)<br>• Financing = +6M — הלוואה חדשה<br>• דיבידנד = 3M — ממומן מחוב ומנכסים<br><strong>הבעיה הכפולה:</strong><br>1. הפורטפוליו מצטמצם (נכסים נמכרים) = OCF עתידי ירד.<br>2. החוב גדל = עלות שירות גדלה.<br>→ 'Dividend from debt' = red flag קלאסי בניתוח אשראי ונדל\"ן.</p>"
+  },
+  {
+    "question_id_external": "C05-M03-PRX-Q04",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מתוך פעילות מימון של חברת נדל\"ן: נטילת הלוואה ארוכת-טווח = +12,000,000 ₪; פירעון הלוואות = −7,000,000 ₪; פירעון ליסינג = −500,000 ₪. מה השינוי הנטו בחוב הפיננסי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שינוי נטו בחוב הוא אחד הנתונים שאנליסט אשראי בוחן ראשון — האם החוב גדל, קטן, או נשמר? בחברת נדל\"ן שממנת צמיחה: גידול חוב צפוי. בחברה בשלב 'בשלות': קיצוץ חוב מסמן בריאות פיננסית.",
+    "topic_tags": ["net_debt_change", "financing_activities", "calculation"],
+    "options": [
+      {
+        "text_he": "שינוי נטו בחוב = +12,000,000 − 7,000,000 − 500,000 = +4,500,000 ₪ — החוב הפיננסי גדל ב-4.5M ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שינוי נטו = +12,000,000 − 7,000,000 = +5,000,000 ₪ — פירעון ליסינג אינו חוב פיננסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לפי IFRS 16, התחייבויות ליסינג הן חוב פיננסי שמוצג בפעילות המימון — יש לכלול את פירעון הליסינג בחישוב"
+      },
+      {
+        "text_he": "שינוי נטו = 12,000,000 ÷ (7,000,000 + 500,000) = 1.6× — יחס כיסוי מימון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי נטו בחוב הוא הפרש (כניסות מינוס יציאות), לא יחס כיסוי — 12M − 7.5M = 4.5M ₪"
+      },
+      {
+        "text_he": "שינוי נטו = −7,500,000 ₪ — מנכים את הפירעונות ומתעלמים מהנטילה החדשה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יש לקחת בחשבון הן נטילת הלוואה חדשה (כניסה) והן פירעונות (יציאה); 12M − 7.5M = +4.5M ₪"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שינוי נטו בחוב פיננסי:</strong><br>+ נטילת הלוואה: +12,000,000<br>− פירעון הלוואות: −7,000,000<br>− פירעון ליסינג (IFRS 16): −500,000<br><strong>שינוי נטו = +4,500,000 ₪</strong> — החוב הפיננסי גדל.<br><strong>פרשנות:</strong> מינוף החברה גדל ב-4.5M ₪. אנליסט יבדוק: ל-Debt/Equity רכישת-הנכסים שמומנה בהלוואה החדשה — האם שוויה (ומעל) את מחירה? האם OCF יכסה שירות חוב גדל?</p>"
+  },
+  {
+    "question_id_external": "C05-M03-PRX-Q05",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן מדווחת: OCF = +5,000,000 ₪; פעילות השקעות = −12,000,000 ₪; פעילות מימון = +8,000,000 ₪. פרשו את הדפוס הזה — מה האסטרטגיה העסקית המשתקפת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "דפוס OCF+ / Investing− / Financing+ הוא 'חברה גדלה על חוב' — לגיטימי בנדל\"ן אם ה-Cap Rate על הרכישות גבוה מעלות החוב (Yield Spread חיובי). הבעיה מתחילה כשעלות החוב עולה מעל ה-Cap Rate.",
+    "topic_tags": ["cash_flow_pattern", "growth", "leverage", "interpretation"],
+    "options": [
+      {
+        "text_he": "החברה נמצאת בשלב צמיחה: OCF+ מעיד על פעילות שוטפת יציבה; Investing− אומר שרוכשת נכסים; Financing+ מסמן שמממנת את הרכישות בחוב — אסטרטגיית הגדלת פורטפוליו ממומנת במינוף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "החברה בקשיים — OCF+ לצד Financing+ אינו אפשרי בחברה רווחית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; OCF+ ו-Financing+ יחד הם דפוס נפוץ ובריא לחברה גדלה; הגיוס חוב ממוסד לרכישת נכסים מניבים הוא אסטרטגיה תקנית"
+      },
+      {
+        "text_he": "החברה מממנת הפסדים תפעוליים בהלוואות — Financing+ תמיד מסמן מצוקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; OCF חיובי (5M) שולל הפסדים תפעוליים; Financing+ לצד OCF+ = צמיחה ממונפת, לא מצוקה"
+      },
+      {
+        "text_he": "הדפוס מציין חברת נדל\"ן בוגרת שמחזירה חוב ומחלקת דיבידנדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חברה בוגרת שמחזירה חוב תציג Financing− (פירעונות > גיוסים); כאן Financing חיובי מסמן חוב נטו גדל"
+      }
+    ],
+    "explanation_html_he": "<p><strong>קריאת 'Triangle' של תזרים:</strong><br>• <strong>OCF = +5M:</strong> הנכסים הקיימים מניבים מזומן — בסיס טוב.<br>• <strong>Investing = −12M:</strong> רוכשים נכסים בקצב גבוה — צמיחה.<br>• <strong>Financing = +8M:</strong> מגייסים חוב למימון הרכישות.<br><strong>מסקנה:</strong> חברה בשלב Growth Acquisition. FCF = OCF − CAPEX = 5M − 12M = −7M ₪ (שלילי — ממומן בחוב).<br><strong>שאלות לאנליסט:</strong> מה ה-Yield Spread (Cap Rate על נכסים שנרכשו פחות עלות חוב)? מה מחזור הגדילה הצפוי? מה יקרה ל-Financing אם ריבית תעלה?</p>"
+  },
+  {
+    "question_id_external": "C05-M03-PRX-Q06",
+    "course_number": 5,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן מדווחת על מכירת נכס אחד ב-20,000,000 ₪ — פעילות ההשקעות עלתה ל-+18,000,000 ₪ (נטו אחרי רכישות). האנליסט מציין 'שיפור משמעותי בתזרים.' מדוע הפרשנות הזו מוטעית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שיפור חד-פעמי בתזרים השקעות ממכירת נכס אינו 'שיפור עסקי' — הוא מימוש נכס. אם OCF לא השתפר, העסק לא השתפר. יותר מכך — מסירת נכס מניב מפחיתה OCF עתידי.",
+    "topic_tags": ["investing_activities", "sustainability", "asset_sale"],
+    "options": [
+      {
+        "text_he": "מכירת נכס היא אירוע חד-פעמי שאינו ניתן לחזרה — היא לא מייצגת שיפור בכושר הייצור המזומן; יתרה מזו, מכירת נכס מניב מקטינה OCF עתידי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הפרשנות נכונה — כל שיפור בתזרים, מכל מקור, מסמן שיפור עסקי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מקור התזרים קובע את הפרשנות; תזרים ממכירת נכסים הוא חד-פעמי ומפחית את בסיס ה-OCF העתידי"
+      },
+      {
+        "text_he": "הפרשנות נכונה כי מכירת נכס מציגה רווח הון שמשפר את הביצועים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רווח הון ממכירת נכס אינו 'שיפור עסקי שוטף'; הוא מימוש של שווי שנוצר בעבר — לא פעילות עסקית המתמשכת"
+      },
+      {
+        "text_he": "הפרשנות נכונה רק אם מחיר המכירה היה מעל שווי ספרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם הנכס נמכר מעל שווי ספרים — זהו אירוע חד-פעמי שמפחית פורטפוליו; כוח הרווח השוטף (OCF) לא השתפר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מדוע מכירת נכס אינה 'שיפור עסקי':</strong><br>1. <strong>חד-פעמית:</strong> לא ניתן לחזור על מכירת אותו נכס.<br>2. <strong>מפחיתה OCF עתידי:</strong> אם הנכס היה מניב 1M ₪ NOI לשנה — מכירתו מוחקת 1M ₪ מ-OCF עתידי לנצח.<br>3. <strong>FCF לא השתפר בר-קיימא:</strong> FCF = OCF (לא השתנה) − CAPEX.<br><strong>פרשנות נכונה:</strong> 'תזרים ההשקעות החיובי נובע ממימוש נכס חד-פעמי; OCF (מדד הכוח השוטף) לא השתפר ואף עלול לרדת בשנים הבאות.'</p>"
+  },
+  {
+    "question_id_external": "C05-M04-CMP-Q01",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הנוסחה ל-Free Cash Flow (FCF) ומה ההיגיון הכלכלי מאחוריה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "FCF הוא ה'ציון' הסופי של חברה — כמה מזומן נשאר לאחר שמחזיקים את מנוע ההכנסות? בנדל\"ן: FCF = NOI מזומן − CAPEX שוטף. הנכס הטוב ביותר הוא זה שמייצר FCF גבוה ואמין לאורך שנים.",
+    "topic_tags": ["fcf", "formula", "capex"],
+    "options": [
+      {
+        "text_he": "FCF = OCF − CAPEX. ה-FCF מייצג מזומן שנשאר לאחר שמחזיקים ומפתחים את נכסי החברה — הוא מדד יכולת שירות חוב, חלוקת דיבידנד, וצמיחה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCF = EBITDA − ריבית. זוהי הגדרה מקובלת בכל שיטות הניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; EBITDA − ריבית הוא קירוב גס ולא FCF — לא מנכה CAPEX ולא מתאים לשינויי הון חוזר; FCF = OCF − CAPEX"
+      },
+      {
+        "text_he": "FCF = רווח נקי + פחת. כי פחת הוא ה-proxy ל-CAPEX",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רווח נקי + פחת ≈ OCF בלבד (לפני הון חוזר); FCF מחייב ניכוי CAPEX בפועל — לא הערכה מהפחת"
+      },
+      {
+        "text_he": "FCF = NOI − שירות חוב. מדד שמייצג יכולת כיסוי חוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI − שירות חוב = DSCR analysis; FCF = OCF − CAPEX — מדד שונה שמתמקד ב-CAPEX ולא בשירות חוב"
+      }
+    ],
+    "explanation_html_he": "<p><strong>FCF = OCF − CAPEX</strong><br><strong>מה כלול ב-CAPEX:</strong> רכישת נכסים, שיפוצים גדולים (Capital Improvements), ציוד ותשתיות.<br><strong>ההיגיון:</strong> OCF מייצג תזרים לפני השקעות; CAPEX הוא 'המחיר' לשמור ולהגדיל את בסיס ה-OCF. לאחר ניכוי CAPEX — נשאר מזומן פנוי.<br><strong>פרשנות:</strong> FCF חיובי = החברה מייצרת מזומן מעבר לצרכי ההשקעה. FCF שלילי = ה-CAPEX גבוה מה-OCF — ממומן בחוב או הון.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-CMP-Q02",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל בין FCFF (Free Cash Flow to Firm) ל-FCFE (Free Cash Flow to Equity)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "FCFF הוא מה שמניב הנכס 'לפני שמשלמים לבנק' — שימושי להערכת שווי הפרויקט ללא תלות במבנה המימון. FCFE הוא מה שנשאר לבעלי הון — זה מה שמעניין ביזם.",
+    "topic_tags": ["fcff", "fcfe", "valuation"],
+    "options": [
+      {
+        "text_he": "FCFF = FCF לפני תשלומי חוב (ריבית + קרן) — רלוונטי לכל ספקי ההון (חוב + הון). FCFE = FCFF − שירות חוב נטו — מייצג מה שנשאר לבעלי המניות בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCFF ו-FCFE זהים — ההבדל הוא רק בשמות לפי קהל היעד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ישנו הבדל מהותי — FCFF הוא לפני שירות חוב; FCFE אחרי שירות חוב; הם שונים בסכום בכל חברה ממונפת"
+      },
+      {
+        "text_he": "FCFF גבוה מ-FCFE כי הוא כולל מקורות מימון נוספים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — כיוון הגדרה לא מדויק; FCFF > FCFE בגלל שמ-FCFF מנכים שירות חוב (ריבית + קרן) להגיע ל-FCFE; לא 'מקורות נוספים'"
+      },
+      {
+        "text_he": "FCFF הוא לפני מסים ו-FCFE לאחר מסים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל בין FCFF ל-FCFE הוא שירות חוב — לא מסים; שניהם בדרך כלל מחושבים לאחר מסים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>FCFF (Free Cash Flow to Firm):</strong><br>= OCF + ריבית × (1 − שיעור מס) − CAPEX<br>מייצג תזרים לכל ספקי ההון (חוב + הון). משמש להערכת שווי החברה כולה (Enterprise Value).<br><strong>FCFE (Free Cash Flow to Equity):</strong><br>= FCFF − ריבית × (1 − מס) − פירעון קרן + נטילת חוב חדש<br>= מה שנשאר לבעלי מניות לאחר שירות מלא של החוב.<br><strong>יישום בנדל\"ן:</strong> FCFF לניתוח רנטביליות הנכס ללא תלות במבנה מימון; FCFE לניתוח תשואה לבעלי הון.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-CMP-Q03",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע NOI ≠ FCF, ואיזה מדד מדויק יותר לניתוח כדאיות השקעה בנדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "NOI הוא מדד שוק הוגן להשוואה בין נכסים — אבל הוא מתעלם מהשקעות ההון הדרושות לשמור על הנכס. נכס עם NOI גבוה אך CAPEX גבוה יוצא FCF נמוך — תשואה אמיתית נמוכה.",
+    "topic_tags": ["noi", "fcf", "capex", "income_property"],
+    "options": [
+      {
+        "text_he": "NOI = הכנסות פחות הוצאות תפעוליות שוטפות — לא מנכה CAPEX, שינויי הון חוזר, ריבית ומסים. FCF מנכה CAPEX ומשקף מה שנשאר באמת; FCF הוא מדד מדויק יותר לתשואה אמיתית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI ו-FCF שווים בנדל\"ן מניב — כי אין מלאי ולכן הון חוזר אפסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם בנדל\"ן מניב יש CAPEX (שיפוצים, החלפת מיזוג, שיפורי דיירים) שמנוכה ב-FCF אך לא ב-NOI"
+      },
+      {
+        "text_he": "NOI מדויק יותר מ-FCF — הוא מנרמל פריטים חד-פעמיים ומשקף תפעול שוטף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI נרמול שימושי להשוואה, אך FCF הוא מדד יותר שלם כי כולל CAPEX — עלות שמירה על הנכס שאינה ב-NOI"
+      },
+      {
+        "text_he": "FCF תמיד גבוה מ-NOI — כי הוא כולל ריבית ומסים שמנוכים מ-NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF = OCF (כוולל שינויי הון חוזר ומסים) − CAPEX; FCF בדרך כלל נמוך מ-NOI כי מנוכה ממנו CAPEX שאינו ב-NOI"
+      }
+    ],
+    "explanation_html_he": "<p><strong>NOI vs FCF:</strong><br><strong>NOI</strong> = הכנסות שכ\"ד − הוצאות תפעול (ללא פחת, ריבית, מסים, CAPEX).<br><strong>FCF</strong> = OCF − CAPEX = (NOI − מסים − הון חוזר ± שינויי הון) − CAPEX.<br><strong>ההבדל המרכזי:</strong> CAPEX (שיפוצים, תחלופת ציוד, שיפורי דיירים) — נמוך ב-NOI, מנוכה ב-FCF.<br><strong>דוגמה:</strong> NOI = 2M ₪; CAPEX שנתי = 600K ₪ → FCF ≈ 1.4M ₪. תשואה ל-NOI ≠ תשואה ל-FCF.<br><strong>מסקנה:</strong> FCF Yield (FCF ÷ שווי נכס) הוא מדד עדיף ל'תשואה אמיתית'.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-CMP-Q04",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו FCF Yield ואיך משתמשים בו להשוואת השקעות נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "FCF Yield הוא 'Cap Rate לאחר CAPEX' — הוא מה שהמשקיע מקבל בפועל. השוואת FCF Yield בין נכסים חושפת את מי מהם 'עושה' יותר מזומן אחרי שמחזיקים אותו.",
+    "topic_tags": ["fcf_yield", "valuation", "comparison"],
+    "options": [
+      {
+        "text_he": "FCF Yield = FCF ÷ שווי שוק הנכס (או שווי החברה). מדד זה מתאפשר להשוואה בין נכסים שונים — ככל ש-FCF Yield גבוה יותר, הנכס מייצר יותר מזומן פנוי ביחס לשוויו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCF Yield = FCF ÷ הכנסות שנתיות × 100 — מדד רווחיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF Yield מחלק FCF בשווי הנכס (לא בהכנסות) — כדי להשוות תשואה על ההשקעה, לא מרווח רווח"
+      },
+      {
+        "text_he": "FCF Yield זהה ל-Cap Rate — שניהם מחשבים תשואה על שווי הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate = NOI ÷ שווי; FCF Yield = FCF ÷ שווי; FCF < NOI (בשל ניכוי CAPEX) → FCF Yield < Cap Rate"
+      },
+      {
+        "text_he": "FCF Yield = NOI ÷ עלות רכישה × 100 — מדד תשואה על עלות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נוסחת FCF Yield משתמשת ב-FCF (לא NOI) ובשווי שוק (לא עלות) — זהו מדד שונה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>FCF Yield = FCF ÷ שווי נכס (Market Value) × 100</strong><br><strong>דוגמה:</strong> נכס ששוויו 20M ₪; FCF = 1M ₪ → FCF Yield = 5%.<br><strong>השוואה ל-Cap Rate:</strong> אם NOI = 1.4M → Cap Rate = 7%; FCF (לאחר CAPEX 400K) = 1M → FCF Yield = 5%. <strong>הפרש 2% = עלות CAPEX.</strong><br><strong>שימוש:</strong> משקיע יעדיף נכס עם FCF Yield גבוה על חשבון Cap Rate גבוה אם CAPEX נמוך. לעומת זאת, נכס עם Cap Rate גבוה אך FCF Yield נמוך = CAPEX כבד שאוכל את ה-NOI.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-PRX-Q01",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן מניב: FCFF = 5,000,000 ₪; ריבית שנתית = 1,200,000 ₪; שיעור מס = 25%; פירעון קרן נטו (אחרי גיוס חוב חדש) = 800,000 ₪. חשבו FCFE.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "FCFE נמוך מ-FCFF — זה הסכום שבעל המניות ה'יחיד' מקבל לאחר שהבנק 'לקח שלו'. ככל שהמינוף גבוה יותר, FCFE נמוך יותר ביחס ל-FCFF — ריבית עולה 'שורפת' את בעלי ההון.",
+    "topic_tags": ["fcfe", "fcff", "calculation"],
+    "options": [
+      {
+        "text_he": "FCFE = 5,000,000 − 1,200,000 × (1 − 0.25) − 800,000 = 5,000,000 − 900,000 − 800,000 = 3,300,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCFE = 5,000,000 − 1,200,000 − 800,000 = 3,000,000 ₪ — מנכים ריבית מלאה ללא מגן מס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית נושאת מגן מס (Tax Shield) — בפועל עלות הריבית לאחר מס = ריבית × (1 − מס) = 1,200K × 0.75 = 900K"
+      },
+      {
+        "text_he": "FCFE = FCFF = 5,000,000 ₪ — הריבית כבר נכללה ב-FCFF",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCFF הוא לפני שירות חוב; FCFE = FCFF אחרי ניכוי ריבית נטו ופירעון קרן — הם שונים בכל חברה ממונפת"
+      },
+      {
+        "text_he": "FCFE = 5,000,000 + 1,200,000 − 800,000 = 5,400,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית ופירעון קרן מנוכים מ-FCFF להגיע ל-FCFE — לא מתווספים; הם יציאות מזומן לבנק"
+      }
+    ],
+    "explanation_html_he": "<p><strong>נוסחת FCFE מ-FCFF:</strong><br>FCFE = FCFF − ריבית × (1 − שיעור מס) − פירעון קרן נטו<br>= 5,000,000 − 1,200,000 × 0.75 − 800,000<br>= 5,000,000 − 900,000 − 800,000<br>= <strong>3,300,000 ₪</strong><br><strong>הסבר מגן המס:</strong> ריבית של 1.2M מחייבת תשלום מזומן של 1.2M, אך מקטינה את מס הכנסה ב-300K (= 1.2M × 25%) — עלות נטו לבעלי הון = 900K ₪.<br><strong>פרשנות:</strong> מתוך FCFF של 5M, בעלי המניות 'מקבלים' רק 3.3M — 1.7M הלך לשירות חוב.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-PRX-Q02",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי: NOI = 1,800,000 ₪; שיפוצים שנתיים ממוצעים = 350,000 ₪; הכנסות חד-פעמיות (פיצוי ביטוח) = 200,000 ₪. מדוע NOI מוגדל מ-1,800,000 ₪ מנפח את ה-FCF האמיתי, ומה ה-FCF המנורמל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נכסי נדל\"ן 'נראים' טוב ב-NOI אבל CAPEX שנתי ושוטף 'שוחק' אותם. הנכס הממוצע דורש 2-4% משוויו בשנה ב-CAPEX תחזוקה — זה הפרש מהותי ממה שמוצג ב-NOI.",
+    "topic_tags": ["noi", "fcf", "normalization", "capex"],
+    "options": [
+      {
+        "text_he": "NOI מנורמל = 1,800,000 − 200,000 = 1,600,000 ₪ (הוצאת חד-פעמי); FCF מנורמל = 1,600,000 − 350,000 = 1,250,000 ₪ — נמוך ב-30% מ-NOI הרשום",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI = 1,800,000; FCF = 1,800,000 − 350,000 = 1,450,000 ₪ — אין צורך לנרמל הכנסה חד-פעמית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הכנסה חד-פעמית (פיצוי ביטוח) צריכה להיות מנורמלת — היא אינה ניתנת לחזרה ועלולה לנפח NOI שנתי קדימה"
+      },
+      {
+        "text_he": "FCF = NOI = 1,800,000 ₪ — שיפוצים שנתיים כלולים כבר ב-NOI כהוצאת תחזוקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI כולל הוצאות תחזוקה שוטפות (ניקיון, תיקונים קטנים), אך לא CAPEX שיפוצים גדולים — זה נוסף בנפרד"
+      },
+      {
+        "text_he": "FCF = NOI + פיצוי ביטוח − שיפוצים = 1,800,000 + 200,000 − 350,000 = 1,650,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פיצוי ביטוח כבר כלול ב-NOI של 1,800,000 — אין לו להתווסף שוב; יש לנכות אותו מה-NOI לנירמול"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלבי הניתוח:</strong><br>1. <strong>נרמל NOI:</strong> נכה הכנסה חד-פעמית (פיצוי ביטוח 200K) → NOI מנורמל = 1,600,000 ₪.<br>2. <strong>חשב FCF:</strong> נכה CAPEX (שיפוצים 350K) → FCF = 1,250,000 ₪.<br><strong>השוואה:</strong> NOI מדווח (1.8M) vs FCF מנורמל (1.25M) — פער של 550K ₪ = 30.6%.<br><strong>Cap Rate vs FCF Yield:</strong> אם שווי הנכס = 20M ₪: Cap Rate = 9% (לפי NOI מדווח) לעומת FCF Yield = 6.25% (לפי FCF מנורמל) — הפרש של 2.75%!</p>"
+  },
+  {
+    "question_id_external": "C05-M04-PRX-Q03",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שני נכסי נדל\"ן מוצעים להשקעה: נכס א': שווי 10M ₪, FCF = 700K ₪; נכס ב': שווי 10M ₪, FCF = 900K ₪, אך נכס ב' דורש שיפוץ מקיף בעוד 3 שנים בעלות של 2M ₪. איזה נכס עדיף, ולפי איזה מדד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "FCF Yield הוא 'תמונת הרגע' — השיפוץ הגדול ב-3 שנים הוא 'הפצצה הנסתרת'. אנליסט טוב מחשב Present Value של ה-CAPEX הגדול ומנכה מ-FCF Yield עתידי.",
+    "topic_tags": ["fcf_yield", "comparison", "capex", "investment_decision"],
+    "options": [
+      {
+        "text_he": "נכס ב' מציג FCF Yield גבוה יותר כיום (9% vs 7%), אך CAPEX גדול ב-3 שנים יחסל ~20% משוויו ויוריד FCF Yield עתידי. נכס א' עדיף לאנליזה רב-שנתית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נכס ב' עדיף — FCF Yield = 9% לעומת 7%; השיפוץ ב-3 שנים אינו רלוונטי לשנה הנוכחית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אנליסט אשראי מנוסה תמיד לוקח בחשבון הוצאות הון ידועות לעתיד; 2M ₪ CAPEX ב-3 שנים הוא חלק מה-Total Cost of Ownership"
+      },
+      {
+        "text_he": "נכס א' עדיף כי FCF נמוך יותר — פחות תלוי בתחזוקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF נמוך יותר אינו יתרון כשלעצמו — נכס א' עדיף בגלל CAPEX עתידי נמוך, לא בגלל FCF נמוך"
+      },
+      {
+        "text_he": "אי-אפשר להשוות — יש לחכות עד אחרי השיפוץ",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח DCF (Discounted Cash Flow) מאפשר להעריך ולהשוות כיום — מחשבים PV של כל תזרים עתידי כולל CAPEX"
+      }
+    ],
+    "explanation_html_he": "<p><strong>השוואת FCF Yield:</strong><br>נכס א': FCF Yield = 700K ÷ 10M = <strong>7.0%</strong><br>נכס ב': FCF Yield = 900K ÷ 10M = <strong>9.0%</strong><br><strong>התאמה ל-CAPEX עתידי (נכס ב'):</strong><br>PV של 2M ₪ ב-3 שנים (ריבית 7%) ≈ 1.63M ₪.<br>FCF Yield מותאם לנכס ב': (900K × 3 − 2,000K) / (10M × 3) ≈ 6.3% — נמוך מנכס א'!<br><strong>מסקנה:</strong> נכס א' עדיף לאנליזה רב-שנתית למרות FCF Yield נמוך יותר בשנה הראשונה.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-PRX-Q04",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סווגו את ההוצאות הבאות כ-CAPEX תחזוקה (Maintenance) או CAPEX צמיחה (Growth): (א) החלפת מערכת מיזוג אוויר בבניין קיים; (ב) הוספת קומה חדשה לבניין; (ג) ריצוף מחדש של לובי; (ד) רכישת בניין נוסף; (ה) שיפוץ מסדרון.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ההבחנה בין Maintenance ל-Growth CAPEX קריטית לחישוב FCF 'מנורמל'. Maintenance CAPEX חובה — הנכס יתדרדר בלעדיו; Growth CAPEX אופציונלי — אפשר לדחות. FCF אחרי Maintenance בלבד הוא ה'רצפה' של הרנטביליות.",
+    "topic_tags": ["maintenance_capex", "growth_capex", "classification"],
+    "options": [
+      {
+        "text_he": "(א) תחזוקה — החלפת מיזוג לשמירה על תפקוד; (ב) צמיחה — הרחבת השטח המניב; (ג) תחזוקה — ריצוף לשמירה על רמת הנכס; (ד) צמיחה — רכישה חדשה; (ה) תחזוקה — שמירה על הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) צמיחה — מיזוג חדש משפר את הנכס; (ב) צמיחה; (ג) צמיחה — ריצוף חדש מעלה ערך; (ד) צמיחה; (ה) צמיחה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החלפת מיזוג ישן וריצוף פגום הן הוצאות שמירה על רמה קיימת — Maintenance, לא Growth"
+      },
+      {
+        "text_he": "(א) תחזוקה; (ב) תחזוקה — בניין גדול יותר עדיין אותו בניין; (ג) תחזוקה; (ד) תחזוקה — רכישה שומרת על גודל הפורטפוליו; (ה) תחזוקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (ב) הוספת קומה = שטח חדש מניב = Growth CAPEX; (ד) רכישת בניין חדש = הגדלת פורטפוליו = Growth CAPEX"
+      },
+      {
+        "text_he": "כל חמשת הפריטים הם CAPEX תחזוקה כי כולם קשורים לנכסים קיימים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (ב) הוספת קומה ו-(ד) רכישת בניין חדש הם Growth CAPEX — הם מגדילים את בסיס ה-OCF העתידי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Maintenance vs Growth CAPEX:</strong><br>(א) <strong>החלפת מיזוג → תחזוקה</strong>: מחזיר נכס לתפקוד קודם; לא יוצר הכנסה חדשה.<br>(ב) <strong>הוספת קומה → צמיחה</strong>: שטח חדש = הכנסה חדשה = ROI מדיד.<br>(ג) <strong>ריצוף לובי → תחזוקה</strong>: שמירה על מרמה ולא הגדלת שטח.<br>(ד) <strong>רכישת בניין → צמיחה</strong>: הגדלת פורטפוליו.<br>(ה) <strong>שיפוץ מסדרון → תחזוקה</strong>: שמירה על בניין.<br><strong>חשיבות לניתוח:</strong> Maintenance FCF = OCF − Maintenance CAPEX בלבד — זוהי 'הרצפה' המינימלית.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-PRX-Q05",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם נדל\"ן מציג בפגישה: 'ה-NOI השנתי שלנו הוא 4,000,000 ₪ — זהו ייצור המזומן האמיתי של הנכס.' אנליסט מבחין שב-3 שנים האחרונות הושקעו בנכס 900K ₪/שנה ב-CAPEX תחזוקה, ולנכס צפויה מסירה מלאה לדייר חדש בעלות 500K ₪. מהי טעות היזם ומה ה-FCF הריאלי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "NOI 'כייצור מזומן אמיתי' הוא טיעון מכירה נפוץ — אך שגוי. הנכס 'שורף' 900K ₪ בשנה ב-CAPEX כדי להישאר ברמתו, וכל מסירה לדייר חדש עולה תוספת. ה-FCF הריאלי נמוך ב-30%+ מה-NOI.",
+    "topic_tags": ["noi", "fcf", "capex", "tenant_improvements"],
+    "options": [
+      {
+        "text_he": "טעות היזם: NOI אינו FCF — הוא לא מנכה CAPEX. FCF ריאלי = 4,000,000 − 900,000 (תחזוקה שוטפת) − 500,000 (מסירה) = 2,600,000 ₪ — נמוך ב-35% מה-NOI",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "היזם צודק — NOI הוא ייצור המזומן; CAPEX הוא השקעה נפרדת שאינה רלוונטית לביצוע השוטף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CAPEX תחזוקה שוטף (900K) הוא הוצאה הכרחית לשמירה על ה-NOI; ללא השקעה זו, NOI יידרדר"
+      },
+      {
+        "text_he": "FCF = NOI − CAPEX תחזוקה = 4,000,000 − 900,000 = 3,100,000 ₪ — עלות המסירה אינה CAPEX שוטף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עלות מסירה לדייר חדש (Tenant Improvement) היא CAPEX ריאלי שחייב להיכלל ב-FCF — הוא אינו הוצאה חד-פעמית בנדל\"ן מניב שבו חוזים מתחדשים"
+      },
+      {
+        "text_he": "FCF = NOI = 4,000,000 ₪ — CAPEX לא נגרע ב-FCF לפי תקני IFRS",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF = OCF − CAPEX — הגדרה פיננסית בסיסית; CAPEX תמיד מנוכה ב-FCF בלי קשר לתקני דיווח"
+      }
+    ],
+    "explanation_html_he": "<p><strong>טעות היזם:</strong> NOI ≠ FCF — NOI לא מנכה CAPEX (לא תחזוקה ולא מסירות דיירים).<br><strong>FCF ריאלי:</strong><br>NOI: 4,000,000<br>− CAPEX תחזוקה שוטף: −900,000<br>− עלות מסירה (Tenant Improvement): −500,000<br><strong>FCF = 2,600,000 ₪</strong> — נמוך ב-35% מה-NOI.<br><strong>לקח:</strong> כשיזם מציג 'NOI כייצור מזומן' — שאלו: מה ה-CAPEX השנתי? מה עלות חידוש חוזים? כמה אחוז מ-NOI הולך ל-CAPEX? בנדל\"ן מסחרי טיפוסי: CAPEX = 15-25% מ-NOI.</p>"
+  },
+  {
+    "question_id_external": "C05-M04-PRX-Q06",
+    "course_number": 5,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן מניב: OCF = 8,000,000 ₪; CAPEX = 2,500,000 ₪; יתרת חוב = 40,000,000 ₪; שירות חוב שנתי = 4,000,000 ₪ (ריבית 2.5M + קרן 1.5M). הדירקטוריון שוקל לחלק דיבידנד של 5,000,000 ₪. האם החלוקה בת-קיימא?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "FCF < דיבידנד = החברה 'משלמת' יותר ממה שמייצרת. בשנה אחת זה אפשרי מעתודות; לאורך שנים זה שחיקת הון. כשאנליסט רואה דיבידנד גבוה מ-FCF — זה שאלה על מדיניות ועל יציבות המינוף.",
+    "topic_tags": ["fcf", "dividend_sustainability", "debt_service"],
+    "options": [
+      {
+        "text_he": "FCF = 8,000,000 − 2,500,000 = 5,500,000 ₪; לאחר שירות חוב (4M) נשאר 1,500,000 ₪; דיבידנד 5M חורג ב-3.5M ₪ מהמזומן הפנוי — לא בת-קיימא",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCF = 8,000,000 ₪; לאחר שירות חוב נשאר 4M; דיבידנד 5M גבוה ב-1M בלבד — ניתן לממנו מעתודות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יש לנכות CAPEX (2.5M) מ-OCF לפני שמחשבים מזומן פנוי; FCF = 5.5M, לא 8M"
+      },
+      {
+        "text_he": "הדיבידנד בת-קיימא כי OCF (8M) גדול מהדיבידנד (5M) בלי להביא בחשבון CAPEX",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CAPEX ושירות חוב הם תשלומים חובה — לא מביאים בחשבון אותם בניתוח קיימות דיבידנד זה חישוב שגוי"
+      },
+      {
+        "text_he": "הדיבידנד בת-קיימא כי יחס חוב/FCF = 40M ÷ 5.5M = 7.3× — רמה סבירה לנדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יחס Debt/FCF הוא מדד כיסוי חוב — לא ניתוח קיימות דיבידנד; קיימות דיבידנד בוחנת FCF אחרי שירות חוב מול הדיבידנד"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח קיימות דיבידנד:</strong><br>FCF = OCF − CAPEX = 8,000,000 − 2,500,000 = <strong>5,500,000 ₪</strong><br>FCF לאחר שירות חוב = 5,500,000 − 4,000,000 = <strong>1,500,000 ₪</strong><br>דיבידנד מבוקש: 5,000,000 ₪<br><strong>חסר: 5,000,000 − 1,500,000 = 3,500,000 ₪</strong><br>הדיבידנד גבוה פי 3.3 מהמזומן הפנוי — לא בת-קיימא. יחלקו מעתודות או יגייסו חוב.<br><strong>המלצה:</strong> דיבידנד מקסימלי בר-קיימא = 1,500,000 ₪ (כ-30% מ-FCF). יחס Pay-out Ratio = 1.5M ÷ 5.5M FCF = 27% — שמרני וסביר.</p>"
+  }
+]
