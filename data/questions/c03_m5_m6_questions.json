@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C03-M05-CMP-Q01",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>איזה מהבאים מהווה <strong>דגל אדום</strong> קלאסי בדוח רווח והפסד של יזם נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"הפער בין רווח נקי לתזרים תפעולי הוא אחד האינדיקטורים החשובים ביותר. יזם שמרוויח על הנייר אך לא מייצר מזומן — צריך הסבר.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "הכנסות ממכירת דירות עלו ב-15% ביחס לשנה קודמת",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רווח גולמי יציב של 25% לאורך שלוש שנים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "גידול חד בהכנסות ללא גידול מקביל בתזרים מפעילות שוטפת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ירידה עונתית בהכנסות ברבעון הרביעי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>כאשר הכנסות גדלות אך התזרים מפעילות שוטפת אינו עולה בהתאם — זה דגל אדום המצביע על הכרה בהכנסות מוקדמת מדי, על חובות לקוחות שאינם נגבים, או על מניפולציה חשבונאית. גידול עקבי בהכנסות עם רווח גולמי יציב וגידול בתזרים הוא תמונה בריאה.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-CMP-Q02",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מייצג <strong>\"Revenue Recognition Manipulation\"</strong> בהקשר של יזם נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"תמיד שואלים: מתי בדיוק ההכנסה מוכרת? תשובה מעורפלת היא סיבה לחפור עמוק יותר.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "דיווח הכנסות לפי שיטת אחוז ההשלמה בפרויקטים שטרם הסתיימו",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הכרה בהכנסות ממכירת דירות שטרם נמסרו לרוכשים, בניגוד לסטנדרטים חשבונאיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רישום הכנסות שכירות מראש עבור 12 חודשים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הכרה בהכנסות לפי שיטת מזומן במקום שיטת צבירה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>מניפולציה בהכרת הכנסות משמעה הכרה בהכנסות לפני שהתקיימו כל תנאי IFRS 15 — למשל, רישום הכנסה ממכירה לפני מסירת החזקה לקונה. שיטת אחוז ההשלמה לפרויקטים תחת חוזה ביצוע היא לגיטימית אם מיושמת נכון.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-CMP-Q03",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו שני מדדים יחד הם סימן אזהרה חזק לבעיית <strong>נזילות קרובה</strong> ביזם נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"יחס שוטף הוא תמונת רגע. תזרים שלילי הוא תהליך. השניים ביחד — בדוק מיד מה ה-runway.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "ROE גבוה + מרווח גולמי גבוה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יחס שוטף מתחת ל-1.0 + גירעון תזרים מפעילות שוטפת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Debt/EBITDA מעל 5 + ירידה במלאי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עלייה בחייבים + ירידה בספקים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>יחס שוטף מתחת ל-1.0 אומר שההתחייבויות השוטפות עולות על הנכסים השוטפים. גירעון תזרים תפעולי אומר שהפעילות השוטפת צורכת מזומן. שני אלה יחד — ללא עודף מזומן מספיק — מסמנים סכנת נזילות ממשית.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-CMP-Q04",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו \"Related Party Circular Flow\" כדגל אדום?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"מיפוי מבנה הבעלות הוא הצעד הראשון לפני קריאת הדוחות. בלי זה, אתה עיוור לעסקאות עם צדדים קשורים.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "מכירת דירות לעובדים במחיר מוזל",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תשלומי ניהול לחברת אם בשיעור קבוע מהמחזור",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "העברת כספים בין חברות קשורות ללא ביסוס עסקי ברור, שמתחמם לעצמו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הלוואות לבעלי מניות המוצגות בנספחים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>Circular flow בין צדדים קשורים — לדוגמה, חברה א' מוכרת לחברה ב' שמוכרת לחברה ג' שמוכרת חזרה לחברה א' — יכולה לנפח מחזור, ליצור רווחים מדומים ולהסתיר הוצאות אמיתיות. מכירה לעובדים במחיר מוזל היא גילוי נאות רגיל, לא דגל אדום.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-PRX-Q01",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם נדל\"ן מציג נתונים אלו לשנת 2024:</p><ul><li>רווח נקי: 8 מ' ₪</li><li>תזרים מפעילות שוטפת: (3 מ' ₪) — שלילי</li><li>גידול בחייבים לקוחות: 12 מ' ₪</li></ul><p>מה הפרשנות הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"הכלל: תמיד עקוב אחרי המזומן. 'Profit is an opinion, cash is a fact'.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "הביצועים טובים — הרווח הנקי חיובי ומשמעותי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "דגל אדום: הרווח נובע מהכרת הכנסות שלא גבו מזומן; נזילות בסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מצב רגיל — גידול בחייבים מלמד על צמיחה עסקית",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בעיה חשבונאית טכנית הדורשת תיקון, לא בעיה עסקית",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>הרווח הנקי של 8 מ' ₪ מלווה בתזרים שלילי של (3 מ' ₪) ובגידול חד בחייבים של 12 מ' ₪. המשמעות: החברה מכירה הכנסות שלא נגבו. רווח = 8, מזומן שנכנס = 8 - 12 = (4) מ' ₪ בקירוב. זהו דגל אדום קלאסי.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-PRX-Q02",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בביקורת מאזן מצאת:</p><ul><li>קרקע המוצגת בנכסים שוטפים בסכום של 40 מ' ₪</li><li>אין התייחסות לקרקע זו בנספחים</li><li>הנכס נרכש מחברה קשורה לבעל השליטה</li></ul><p>מה הדגל האדום המרכזי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"עסקאות עם צדדים קשורים ללא גילוי — זה לא טעות, זו כוונה. זה משנה את כל הגישה לדוח.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "קרקע לא אמורה להיות בנכסים שוטפים — זו שגיאה סיווגית בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עסקת צד קשור בלתי מגולה + שאלה על שווי ההוגן של הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "קרקע יכולה להיות שוטפת אם מיועדת למכירה — אין בעיה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבעיה היחידה היא היעדר נספח; לאחר הוספתו אין דגל אדום",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>שני דגלים משולבים: (1) עסקת צד קשור לא מגולה — רכישה מחברה של בעל השליטה ללא גילוי מלא בנספחים מעוררת חשש לתמחור לא ידיד. (2) שאלת השווי ההוגן: האם שולם מחיר שוק? גם אם הסיווג כשוטף נכון (מלאי קרקע), השילוב של שני האלמנטים הוא דגל אדום.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-PRX-Q03",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג שינוי בשיטת הערכת מלאי קרקעות: ממחיר עלות ל-Fair Value. כתוצאה, רווח חד-פעמי של 25 מ' ₪ הוכר בדוח רווח והפסד.</p><p>מה ההשפעה על הניתוח שלך?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"שינוי מדיניות חשבונאית לפני עסקה גדולה — תמיד שאל: מי נהנה מהשינוי?\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "שינוי חשבונאי לגיטימי — יש לכלול את הרווח ב-EBITDA",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יש לנטרל את הרווח החד-פעמי מה-EBITDA המנורמל ולבדוק את סיבת השינוי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-Fair Value גבוה יותר — כך שהיזם שמרן יותר מבעבר",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שינוי מדיניות חשבונאית מחייב אישור רגולטורי, ולכן לא אפשרי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>שינוי שיטת חשבונאות שמגדיל רווחים ב-25 מ' ₪ מחייב: (1) נטרול מה-EBITDA המנורמל — זה one-time. (2) שאלה: מה הסיבה לשינוי? שינוי לפני גיוס הון או בקשת אשראי הוא דגל אדום. ייתכן שמנסים להציג בסיס הון גבוה יותר.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-PRX-Q04",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מתוך דוחות קבוצת יזמות נדל\"ן זיהית:</p><ul><li>חברת הגג מציגה הכנסות של 50 מ' ₪ ממכירת שירותי ניהול לחברות הבנות</li><li>הכנסות אלו מהוות 40% מסך הכנסות חברת הגג</li><li>העסקאות אינן מנוטרלות בדוח מאוחד</li></ul><p>מה הבעיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"קבל תמיד דוחות מאוחדים ומאוחדים מלאים — ואז בדוק ידנית שהאיחוד בוצע נכון.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "בעסקאות בין-חברתיות יש לנטרל בדוחות המאוחדים — אי-נטרול מנפח הכנסות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שירותי ניהול הם לגיטימיים וצריכים להיכלל בדוח המאוחד",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבעיה היא רק אם העסקאות לא בוצעו בשוק הוגן",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "40% מהמחזור זה סביר; אם זה היה 60% זה היה דגל אדום",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>בדוח מאוחד, עסקאות בין-חברתיות (Intercompany transactions) חייבות להיות מנוטרלות בתהליך האיחוד. אם חברת הגג מוכרת שירותי ניהול לחברות הבנות ואלו אינן מנוטרלות — ההכנסות של הקבוצה מנופחות ב-50 מ' ₪. זה דגל אדום לגבי איכות הדיווח.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-PRX-Q05",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג EBITDA של 20 מ' ₪ ושירות חוב שנתי של 15 מ' ₪ (DSCR = 1.33). אך בביקורת גילית:</p><ul><li>EBITDA כולל שערוך נדל\"ן להשקעה: 8 מ' ₪</li><li>EBITDA כולל רווח ממכירת חברה בת: 4 מ' ₪</li></ul><p>מה ה-DSCR המנורמל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"EBITDA מנורמל הוא האמת. EBITDA כפי שמוצג הוא לפעמים סיפור. תמיד בנה את ה-EBITDA שלך מאפס.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "DSCR מנורמל = (20-8-4)/15 = 0.53 — מתחת ל-1.0, דגל אדום קריטי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR מנורמל = (20-8)/15 = 0.80 — יש לנטרל רק נדל\"ן להשקעה, לא מכירת חברה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR מנורמל = (20-4)/15 = 1.07 — מנטרלים רק חד-פעמיים מהותיים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-DSCR נשאר 1.33 — שיערוכים הם חלק מהפעילות השוטפת של יזם נדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>שני הסעיפים הם לא-חוזרים: שערוך נדל\"ן להשקעה הוא הפרש הערכה (לא מזומן) ושינוי ערך, ומכירת חברה בת היא חד-פעמי. EBITDA מנורמל = 20 - 8 - 4 = 8 מ' ₪. DSCR = 8/15 = 0.53. יזם שאינו יכול לשרת חוב מהכנסות שוטפות — סכנת ממשית.</p>"
+  },
+  {
+    "question_id_external": "C03-M05-PRX-Q06",
+    "course_number": 3,
+    "module_number": 5,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ניתחת דוחות של יזם נדל\"ן וגילית את הדגלים האדומים הבאים:</p><ol><li>שינוי מבקר חשבונות — שלישי תוך 4 שנים, ללא הסבר</li><li>רווח נקי 10 מ' ₪ לצד תזרים תפעולי שלילי (6 מ' ₪)</li><li>78% מההכנסות מרוכשים קשורים לבעל השליטה</li><li>DSCR מנורמל 0.72 לעומת DSCR מדווח 1.45</li></ol><p>מה ההמלצה המבוססת שלך לוועדת האשראי?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"ארבעה דגלים אדומים בלקוח אחד — זה לא רעש סטטיסטי, זה מוסיקה. השאלה היא אם תקשיב.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "לאשר את ההלוואה — הרווח הנקי חיובי וה-DSCR המדווח מעל 1.0",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לדחות סופית — ארבעת הדגלים ביחד מצביעים על מרמה בוודאות גבוהה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לדרוש בטחונות נוספים — הדגלים קיימים אך אינם מספיקים לדחייה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להשהות את ההחלטה ולדרוש: (1) הסבר לחלופות מבקרים, (2) גישור רווח-תזרים, (3) עסקאות צד קשור בפירוט, (4) DSCR מנורמל מאומת; ולהתנות אישור בהסברים משביעי רצון + ביטחונות מוגברים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>ארבעת הדגלים יחד חמורים אך אינם הוכחה חלוטה למרמה — הם מצריכים בירור. הדחייה הסופית (ב') מיידית מדי מבלי לאפשר הסברים; האישור (א') מתעלם מהסיכונים; בטחונות בלבד (ג') לא מטפל בבעיית האמינות. הפרוטוקול הנכון: השהיה, בירור מסודר, ואם ההסברים אינם משביעי רצון — דחייה.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-CMP-Q01",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי המטרה העיקרית של <strong>סיכום ניתוח פיננסי</strong> הנכתב לוועדת האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"הוועדה מאמינה לך שראית את הנתונים. מה שהם רוצים לשמוע — מה הדבר אחד שאתה הכי חושש ממנו.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "להציג את כל הנתונים הפיננסיים של הלווה בצורה מפורטת",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לאפשר לוועדה לקבל החלטה מושכלת בזמן קצר, בהצגת סיכון/הזדמנות ברורה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לספק גיבוי משפטי למקרה שההלוואה תיפגע",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לתאר את תהליך הניתוח שבוצע על ידי האנליסט",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>הוועדה אינה קוראת דוחות — היא קוראת את הניתוח שלך. המטרה היא לאפשר קבלת החלטה: לאשר, לדחות, או לאשר בתנאים. על הסיכום להציג סיכון מול הזדמנות בצורה ברורה וממוקדת, לא לסרוק מחדש את כל הנתונים.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-CMP-Q02",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>ה-Executive Summary</strong> בסיכום ניתוח, ומה היא אמורה לכלול?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"ה-Executive Summary נכתב אחרון אבל נקרא ראשון. אם לא הצלחת לסכם ב-5 משפטים — עדיין לא הבנת את העסקה.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "סקירה מפורטת של כל הסעיפים בדוח הכספי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פסקה של 3-5 משפטים: מי הלווה, מה גודל הבקשה, מה רמת הסיכון, המלצת האנליסט",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פירוט כל הדגלים האדומים שזוהו בניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "טבלת מדדים פיננסיים של 3 שנים אחרונות",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>Executive Summary היא הפתיחה שמאפשרת לחבר הוועדה להבין את הבקשה תוך 30 שניות: מי הלווה, כמה מבקשים, מה רמת הסיכון הכוללת, ומה ההמלצה. מי שרוצה לעמוק יותר — ימשיך לגוף הדוח.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-CMP-Q03",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע חשוב לכלול <strong>ניתוח רגישות</strong> בסיכום האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"הוועדה לא מאמינה לתחזית — היא מאמינה לניתוח הרגישות. הצג את 'מה יקרה כשיהיה רע'.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "כי הרגולטור מחייב זאת בכל בקשת אשראי מעל 5 מ' ₪",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כדי לבחון כיצד שינויים בהנחות המפתח (ריבית, שכ\"ד, תפוסה) משפיעים על יכולת השירות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כדי להדגים לוועדה את יכולת האנליסט בניתוח כמותי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כי הלווה מחייב שייכלל ניתוח זה כחלק מהצגת עסקאו",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח רגישות מבחן מה קורה ל-DSCR וליכולת השירות כאשר ריבית עולה ב-1%, שיעור תפוסה יורד ב-5%, או שכ\"ד יורד ב-10%. הוא מאפשר לוועדה להבין את שולי הביטחון — עד כמה ה-deal יכול לעמוד בלחץ.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-CMP-Q04",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>\"החלשה\"</strong> ל-<strong>\"סיכון\"</strong> בכתיבת סיכום אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"הוועדה צריכה לדעת מה כבר רע ומה עוד יכול להיות רע. אל תערבב את שניהם.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "החלשה היא בעיה קיימת; סיכון הוא תרחיש עתידי שעלול לחמיר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין הבדל — שניהם מתארים בעיות בלווה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "החלשה מתייחסת לבטחונות; סיכון מתייחס לתזרים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "החלשה מדווחת לרגולטור; סיכון נשאר פנימי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>בסיכום אשראי מקצועי, 'החלשה' (Weakness) היא חסרון קיים ומוצק — לדוגמה: DSCR מנורמל 0.85. 'סיכון' (Risk) הוא תרחיש שעלול להתממש — לדוגמה: אם הריבית תעלה עוד 1.5% ה-DSCR ייפול. ההבחנה מחדדת את ניתוח הסיכון.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-PRX-Q01",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>כתוב Executive Summary ליזם נדל\"ן עם הנתונים הבאים:</p><ul><li>חברת ABC — יזם ותיק 15 שנה בשוק הישראלי</li><li>בקשת הלוואה: 30 מ' ₪ לפרויקט מגורים ב-5 שנים</li><li>DSCR מנורמל: 1.28; LTV: 62%; דירוג פנימי: 3/5</li><li>דגל אדום אחד: שינוי מבקר חשבונות ב-2023 ללא הסבר</li></ul><p>מה האלמנט שחייב להופיע ב-Executive Summary?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"5 שורות. לא יותר. ועדת האשראי קוראת 20 עסקאות ביום.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "כל הנתונים הפיננסיים המפורטים כולל ניתוח 3 שנים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "זהות הלווה, גודל הבקשה, רמת הסיכון, הדגל האדום הבולט, המלצה ראשונית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פירוט שיטת חישוב ה-DSCR וה-LTV",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "השוואה ליזמים אחרים בתיק האשראי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>ה-Executive Summary של מקרה זה יכיל: ABC — יזם ותיק, בקשת 30 מ' ₪ ל-5 שנים, DSCR סביר (1.28), LTV שמרני (62%), דירוג 3/5, עם דגל אדום של שינוי מבקר. המלצה: לאשר בתנאי קבלת הסבר לשינוי המבקר. זהו המודל הנכון.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-PRX-Q02",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ניתחת יזם נדל\"ן ומצאת DSCR מנורמל של 1.15. מהו ניתוח הרגישות הנדרש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"1.15 זה לא מרווח — זה בדיוק כמה שצריך כדי לישון בלילה, ורק אם לא קורה כלום.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "לבדוק רק עלייה בריבית של 2%, כי זהו הסיכון הרגולטורי הנפוץ",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לבדוק מספר תרחישים: עלייה בריבית, ירידה בהכנסות, עיכוב בפרויקט — ולהציג את ה-DSCR בכל תרחיש",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR מעל 1.0 — ניתוח רגישות אינו נדרש",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לבדוק רק תרחיש הכי גרוע (worst case) ולדווח עליו בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>DSCR של 1.15 הוא שולי. ניתוח רגישות מלא יבחן: (1) עלייה בריבית 1%-2%, (2) ירידה בהכנסות 5%-10%, (3) עיכוב בביצוע + עלייה בעלויות. בכל תרחיש מחשבים את ה-DSCR המתוקן ובודקים כמה רחוק ה-break-even point.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-PRX-Q03",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כתב בסיכום: \"הלווה מציג תוצאות חיוביות ובעל ניסיון רב בשוק\". מה הבעיה בניסוח זה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"כל משפט בסיכום שלך צריך להיות מבוסס נתון. אם לא תוכל להצביע עליו — מחק אותו.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "ניסוח חיובי מדי עלול להטות את ועדת האשראי — אין בעיה עקרונית",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הניסוח כללי ולא מבוסס נתונים: מה זה 'תוצאות חיוביות'? 'ניסיון רב' זה מה?",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יש להשתמש בשפה ניטרלית — 'חיובי' ו'רב' הם שיפוטיים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין בעיה — זהו ניסוח סטנדרטי בדוחות אשראי",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>כתיבה מקצועית בסיכום אשראי מבוססת עובדות: 'הלווה הציג DSCR מנורמל של 1.28 לאורך 3 שנים רצופות, עם פרויקטים שהסתיימו בזמן ובתקציב ב-2020, 2022, 2024'. זה ספציפי ובדיק. 'תוצאות חיוביות' — זה לא ניתוח.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-PRX-Q04",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הוועדה ביקשה ממך לסכם עסקה שאתה ממליץ לאשר אך עם 3 תנאים. איך תציג זאת נכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"אישור מותנה הוא כלי חזק — אבל רק אם התנאים ספציפיים ובדיקים. 'הסבר מספק' אינו תנאי.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "\"אנו ממליצים לאשר את ההלוואה\" — בלי להזכיר תנאים בסיכום, רק בגוף הדוח",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "\"אנו ממליצים לאשר את ההלוואה, בכפוף לתנאים הבאים: (1)... (2)... (3)...\" — ברור וממוקד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "\"אנו ממליצים לדחות עד שהתנאים יתמלאו\" — כי אישור עם תנאים הוא למעשה דחייה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "\"העסקה מצריכה בחינה נוספת\" — כדי לא לקבל עמדה לפני שהתנאים מתמלאים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>המלצה 'לאשר בתנאי...' היא המלצה עצמאית ולגיטימית — הוועדה יכולה לאשר בתנאים ולעקוב אחר עמידה בהם. הצגה ברורה של ההמלצה + התנאים במיקום בולט ב-Executive Summary מאפשרת לוועדה להחליט ולתעד.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-PRX-Q05",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט זוטר שאל: \"אם זיהיתי 5 דגלים אדומים בלווה אך ה-DSCR הוא 1.5 וה-LTV הוא 55%, האם אני ממליץ לאשר?\" מהי התשובה הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"המספרים מסתמכים על הנתונים שמאחוריהם. אם הנתונים אינם אמינים — המספרים אינם שווים כלום.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "כן — DSCR מעל 1.2 ו-LTV מתחת ל-60% מצדיקים אישור בכל מקרה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא — 5 דגלים אדומים הם דחייה אוטומטית ללא קשר לנתונים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תלוי: האם הדגלים האדומים הוסברו? אם כן ובאופן משביע רצון — ניתן לאשר; אם לא — הנתונים הטובים לא מספיקים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יש לאשר אך להגביל את סכום ההלוואה ל-70% מהמבוקש",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>נתונים כמותיים טובים (DSCR, LTV) אינם מנטרלים בעיות איכותיות לא מוסברות. אם חמשת הדגלים האדומים הוסברו בצורה משביעת רצון — DSCR 1.5 ו-LTV 55% מצדיקים אישור. אם לא הוסברו — ייתכן שה-DSCR עצמו מבוסס על נתונים לא מהימנים.</p>"
+  },
+  {
+    "question_id_external": "C03-M06-PRX-Q06",
+    "course_number": 3,
+    "module_number": 6,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>עליך לכתוב המלצה לוועדת אשראי עבור בקשה הבאה:</p><ul><li>יזם ותיק עם 18 שנות פעילות, פרויקטים שהסתיימו בהצלחה</li><li>DSCR מנורמל: 1.22; LTV: 68%; Debt/EBITDA: 4.8x</li><li>תזרים תפעולי חיובי אך צנוע: 4 מ' ₪ על מחזור 40 מ' ₪</li><li>דגל אחד: 62% מהכנסות מדייר אחד (סיכון ריכוז)</li><li>הדייר הוא רשת קמעונאית עם דירוג BBB, חוזה ל-7 שנים</li></ul><p>מה ההמלצה הנכונה?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "\"כל עסקה היא compromise בין סיכון לתשואה. המלצתך לא צריכה להיות 'כן' או 'לא' — היא צריכה להיות 'כן, כך'.\"",
+    "topic_tags": [],
+    "options": [
+      {
+        "text_he": "לדחות — ריכוז הכנסות מעל 50% הוא דגל אדום אוטומטי לדחייה",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לאשר ללא תנאים — הנתונים הכמותיים סבירים ופרופיל הלווה טוב",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לאשר בתנאים: (1) אמות מידה פיננסיות (DSCR ≥ 1.15, LTV ≤ 70%) עם דיווח רבעוני; (2) שיעבוד ספציפי על הנכס המניב; (3) הודעה מידית אם הדייר הגדול מסמן בעיה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לאשר בתנאי שהיזם ידאג לגיוון הכנסות תוך 12 חודשים",
+        "is_correct": false,
+        "distractor_rationale_he": ""
+      }
+    ],
+    "explanation_html_he": "<p>זוהי עסקה עם סיכון מנוהל: הנתונים הכמותיים סבירים, פרופיל הלווה טוב, אך סיכון הריכוז אמיתי (62% מדייר אחד). הדחייה (א') אגרסיבית מדי — הדייר עצמו מדורג BBB עם חוזה 7 שנים. אישור ללא תנאים (ב') מתעלם מסיכון הריכוז. אישור מותנה בגיוון (ד') בלתי סביר לביצוע תוך שנה. האישור עם אמות מידה ושיעבוד (ג') הוא הטיפול הנכון.</p>"
+  }
+]

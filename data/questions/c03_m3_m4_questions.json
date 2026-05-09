@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C03-M03-CMP-Q01",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין הכרת הכנסה \"בנקודת זמן\" ל\"לאורך הזמן\" ב-IFRS 15 לגבי יזמי נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ifrs15"],
+    "options": [
+      {
+        "text_he": "\"בנקודת זמן\" = כל ההכנסה בעת מסירת הדירה; \"לאורך הזמן\" = הכנסה נצברת לפי שיעור השלמת הבנייה. שתי השיטות חוקיות תחת IFRS 15 בתנאים שונים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "\"בנקודת זמן\" מחייבת תשלום מראש; \"לאורך הזמן\" מאפשרת תשלום בסיום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תזמון הכרת ההכנסה אינו תלוי בתנאי התשלום"
+      },
+      {
+        "text_he": "IFRS 15 מחייב \"לאורך הזמן\" לכל יזם נדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ישנן שתי שיטות; הבחירה תלויה בניתוח החוזה הספציפי"
+      },
+      {
+        "text_he": "\"בנקודת זמן\" תמיד שמרנית יותר מבחינת עיתוי ההכרה בהכנסה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; \"בנקודת זמן\" מכירה את כל ההכנסה בבת-אחת בסיום; \"לאורך הזמן\" מפזרת אותה — ההבדל הוא תזמון, לא שמרנות"
+      }
+    ],
+    "explanation_html_he": "<p>IFRS 15 — חוזה מכר דירה. <strong>\"לאורך הזמן\"</strong>: הלקוח שולט בנכס הנבנה (נדיר בישראל); הכנסה נצברת לפי % השלמה. <strong>\"בנקודת זמן\"</strong>: הלקוח מקבל שליטה עם המסירה; הכנסה מוכרת ביום המסירה. רוב היזמים בישראל משתמשים ב\"בנקודת זמן\" — כל ההכנסה ביום טופס 4/מסירה.</p>"
+  },
+  {
+    "question_id_external": "C03-M03-CMP-Q02",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע שערוכי IAS 40 (שווי הוגן) בעייתיים לניתוח כושר שירות חוב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ias40", "ebitda_normalization"],
+    "options": [
+      {
+        "text_he": "שערוכי IAS 40 מגדילים רווח נקי ו-EBITDA ללא ייצור מזומן — EBITDA מנופח אינו מייצג כושר פירעון חוב; אנליסט חייב לנטרל שערוכים ולחשב EBITDA מנורמל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שערוכי IAS 40 אינם חוקיים תחת IFRS",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הם מותרים ומחויבים תחת IAS 40 מודל שווי הוגן"
+      },
+      {
+        "text_he": "שערוכי IAS 40 מקטינים תמיד את הרווח הנקי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שערוכים חיוביים (עליית ערך) מגדילים רווח; שערוכים שליליים מקטינים"
+      },
+      {
+        "text_he": "שערוכי IAS 40 משפיעים רק על הון עצמי ולא על דוח רווח והפסד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תחת IAS 40 מודל שווי הוגן, שערוכים עוברים דרך P&L (בניגוד ל-PP&E שעובר דרך OCI)"
+      }
+    ],
+    "explanation_html_he": "<p>IAS 40 שווי הוגן: שמאי מעלה שווי נכס → הפרש נרשם כהכנסה → מגדיל EBITDA וROE — אך <strong>אין מזומן נכנס</strong>. לכן: EBITDA מנורמל = EBITDA − שערוכי IAS 40. כאשר מחשבים DSCR בנדל\"ן מניב: תמיד על בסיס NOI ריאלי, לא EBITDA מדווח.</p>"
+  },
+  {
+    "question_id_external": "C03-M03-CMP-Q03",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה SPV (Special Purpose Vehicle) ומדוע יזמי נדל\"ן משתמשים בו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["spv", "structure"],
+    "options": [
+      {
+        "text_he": "SPV = חברה ייעודית שמוקמת לצורך פרויקט בודד. יתרונות: בידוד סיכון הפרויקט מהחברה האם; הלוואת ליווי ספציפית לפרויקט; אפשרות לשתף שותפים פרטיים בפרויקט ספציפי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "SPV = חברה בת שמחזיקה את כל נכסי הקבוצה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV מוקם לפרויקט בודד, לא לכלל הנכסים"
+      },
+      {
+        "text_he": "SPV = מכשיר פיננסי הנסחר בבורסה שמגייס כסף מהציבור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPV היא חברה, לא ניירות ערך"
+      },
+      {
+        "text_he": "SPV אסורה בישראל על פי חוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPVים נפוצים מאוד בישראל בנדל\"ן, ותחת IFRS 10 מחולקות לפי שליטה"
+      }
+    ],
+    "explanation_html_he": "<p>SPV (חברה ייעודית) = חברה שמוקמת לפרויקט יחיד: \"חברת פרויקט X בע\"מ\". יתרונות: (1) <strong>בידוד</strong> — אם הפרויקט נכשל, החברה האם לא חייבת בהכרח; (2) <strong>ליווי בנקאי ספציפי</strong> לפרויקט; (3) <strong>שיתוף שותפים</strong>. סיכון: SPVים יכולים להסתיר חוב ברמת הקבוצה.</p>"
+  },
+  {
+    "question_id_external": "C03-M03-CMP-Q04",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד אנליסט מאמת שהכנסות מוכרות של יזם נדל\"ן תואמות את מצב הפרויקט בפועל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ifrs15", "cross_check"],
+    "options": [
+      {
+        "text_he": "בקשת עותקי חוזים חתומים, לוח ביצוע הפרויקט, אישורי ביצוע מהמפקח החיצוני, ולוח תשלומים — ואחר כך השוואה להכנסות בדוחות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מספיק לקרוא את הדוחות הכספיים המבוקרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רו\"ח לא בודק התאמה פיזית; אנליסט חייב לאמת עצמאית"
+      },
+      {
+        "text_he": "להיעזר בשמאי לאימות שווי הפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאי מעריך שווי, לא מאמת הכנסות מוכרות; אנליסט צריך חוזים ולוחות ביצוע"
+      },
+      {
+        "text_he": "לבדוק שהחברה אושרה על ידי המפקח על הבנקים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אישור בנק ישראל אינו אימות של הכנסות ספציפיות"
+      }
+    ],
+    "explanation_html_he": "<p>אנליסט מאמת בשלושה שלבים: (1) <strong>מספר יחידות חתומות × מחיר</strong> = הכנסות צפויות → השווה לדוחות. (2) <strong>% השלמה לפי מפקח</strong> → האם הכנסה שהוכרה תואמת? (3) <strong>לוח תשלומים</strong>: כמה כסף התקבל בפועל? כאשר יש פער בין הכנסות מוכרות למזומן שנגבה — בקש גיול חייבים ועותקי חוזים.</p>"
+  },
+  {
+    "question_id_external": "C03-M03-PRX-Q01",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם בנה 80 דירות; עלות כוללת 40,000,000 ₪; 50 דירות נמכרו ב-1,500,000 ₪ כל אחת. לפי שיטת \"בנקודת זמן\" (מסירה), כמה הכנסה הוכרה עד עכשיו אם נמסרו 30 דירות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["ifrs15", "revenue_recognition"],
+    "options": [
+      {
+        "text_he": "45,000,000 ₪ (30 × 1,500,000)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "75,000,000 ₪ (50 × 1,500,000 — כלל הנמכרות, לא רק שנמסרו)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; \"בנקודת זמן\" = הכרה בעת מסירה בלבד, לא בעת חתימת חוזה"
+      },
+      {
+        "text_he": "0 ₪ — לפי שיטת \"בנקודת זמן\" הכרה רק בסיום כל הפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; \"בנקודת זמן\" = מסירת כל דירה בנפרד, לא סיום הפרויקט כולו"
+      },
+      {
+        "text_he": "37,500,000 ₪ — חישוב לפי יחס השלמת הפרויקט (30/80 × 80 × 1,500,000)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זהו חישוב לפי שיטת % השלמה, לא \"בנקודת זמן\""
+      }
+    ],
+    "explanation_html_he": "<p>שיטת <strong>\"בנקודת זמן\"</strong>: הכנסה מוכרת כשכל דירה נמסרת. 30 דירות נמסרו × 1,500,000 = <strong>45,000,000 ₪</strong>. 20 דירות נמכרו אך טרם נמסרו = הכנסה עתידית. לפי שיטת % השלמה (30/80): 50 נמכרות × 1.5M × (30/80) = 28,125,000 — הבדל משמעותי!</p>"
+  },
+  {
+    "question_id_external": "C03-M03-PRX-Q02",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם נדל\"ן: EBITDA מדווח 8,500,000 ₪; כולל שערוך IAS 40 חיובי של 3,200,000 ₪; הלוואה כוללת: 30,000,000 ₪. חשב Debt/EBITDA מנורמל.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["ias40", "ebitda_normalization", "leverage_ratio"],
+    "options": [
+      {
+        "text_he": "5.66x (EBITDA מנורמל = 8,500,000 − 3,200,000 = 5,300,000; 30,000,000 / 5,300,000 = 5.66)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "3.53x (30,000,000 / 8,500,000 — חישוב על EBITDA מדווח ללא נטרול שערוך)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא נוטרל שערוך IAS 40; EBITDA מנופח יוצר D/EBITDA נמוך ומטעה"
+      },
+      {
+        "text_he": "9.38x (30,000,000 / 3,200,000 — חילוק בשערוך בלבד)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המכנה הוא EBITDA מנורמל (5,300,000), לא סכום השערוך בלבד"
+      },
+      {
+        "text_he": "6.25x (30,000,000 / 4,800,000 — שגיאת חישוב)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; EBITDA מנורמל = 8,500,000 − 3,200,000 = 5,300,000, לא 4,800,000"
+      }
+    ],
+    "explanation_html_he": "<p>EBITDA מנורמל = EBITDA מדווח − שערוכי IAS 40 = 8,500,000 − 3,200,000 = <strong>5,300,000 ₪</strong>. Debt/EBITDA מנורמל = 30,000,000 / 5,300,000 = <strong>5.66x</strong>. על בסיס EBITDA מדווח: 30M / 8.5M = 3.53x — פי 1.6 יותר אטרקטיבי! זו הסיבה שנטרול שערוכים קריטי לניתוח אשראי.</p>"
+  },
+  {
+    "question_id_external": "C03-M03-PRX-Q03",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם טוען: \"EBITDA 12,000,000 ₪\". בדיקה מגלה: (א) שערוך IAS 40 חיובי: 4,500,000 ₪; (ב) רווח חד-פעמי ממכירת מגרש: 2,000,000 ₪; (ג) הוצאות הקמה חד-פעמיות שלא נוכו מה-EBITDA: 800,000 ₪. מה EBITDA מנורמל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["ebitda_normalization", "ias40"],
+    "options": [
+      {
+        "text_he": "4,700,000 ₪ (12,000,000 − 4,500,000 שערוך − 2,000,000 מכירת מגרש − 800,000 הוצאות שלא נוכו)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "5,500,000 ₪ (12,000,000 − 4,500,000 − 2,000,000 — לא ניכו הוצאות הקמה)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוצאות הקמה חד-פעמיות שלא נוכו מה-EBITDA הן הוצאה אמיתית שצריך לנכות"
+      },
+      {
+        "text_he": "6,300,000 ₪ (12,000,000 − 4,500,000 − 2,000,000 + 800,000 — הוסיפו הוצאות במקום לנכות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוצאות שלא נוכו מ-EBITDA מנפחות אותו; יש לנכות אותן בנרמול, לא להוסיף"
+      },
+      {
+        "text_he": "12,000,000 ₪ — EBITDA המדווח תקין ואינו דורש נרמול",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שלושת הפריטים הם עיוותים: שניים לא-חוזרים ואחד לא-מזומני; נרמול חובה"
+      }
+    ],
+    "explanation_html_he": "<p>EBITDA מנורמל = EBITDA מדווח − פריטים לא-חוזרים ולא-מזומניים: (1) שערוך IAS 40: −4,500,000 (לא-מזומני); (2) מכירת מגרש חד-פעמי: −2,000,000; (3) הוצאות הקמה שלא נוכו: −800,000 (הוצאה אמיתית שלא שוקפה). סה\"כ: 12M − 4.5M − 2M − 0.8M = <strong>4,700,000 ₪</strong> — פי 2.5 פחות מהמדווח!</p>"
+  },
+  {
+    "question_id_external": "C03-M03-PRX-Q04",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג: הכנסות 60,000,000 ₪ (50 דירות × 1,200,000 ₪). בדיקה: 35 חוזים חתומים בפועל; 10 נמסרו; 5 \"הבטחות פה לאוזן\" שלא גובשו לחוזה. לפי שיטת \"בנקודת זמן\" — מה הכנסה שניתן להכיר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["ifrs15", "revenue_recognition", "cross_check"],
+    "options": [
+      {
+        "text_he": "12,000,000 ₪ — רק 10 דירות שנמסרו × 1,200,000; חוזים שלא נמסרו = עתידי; \"הבטחות\" = לא הכנסה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "60,000,000 ₪ — כל הדירות ה\"נמכרות\" לפי הצגת היזם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; \"הבטחות פה לאוזן\" אינן חוזים; גם חוזים שלא נמסרו = הכנסה עתידית"
+      },
+      {
+        "text_he": "42,000,000 ₪ — כל 35 החוזים החתומים × 1,200,000",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; \"בנקודת זמן\" = מסירה, לא חתימת חוזה; 25 חוזים שנחתמו ולא נמסרו = הכנסה עתידית"
+      },
+      {
+        "text_he": "0 ₪ — הפרויקט לא הסתיים ולכן אין הכרת הכנסה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; \"בנקודת זמן\" = מסירה לכל דירה בנפרד, לא סיום פרויקט כולו"
+      }
+    ],
+    "explanation_html_he": "<p>\"בנקודת זמן\" = הכנסה מוכרת בעת מסירת כל דירה. רק <strong>10 נמסרו</strong> = 10 × 1,200,000 = <strong>12,000,000 ₪</strong>. 25 חוזים שנחתמו אך לא נמסרו = הכנסה עתידית (לא מוכרת). 5 \"הבטחות\" = אין חוזה = לא מוכרות. מסקנה: יזם שמדווח 60M עם רק 10 מסירות = <strong>הפרה חמורה של IFRS 15</strong> או מצגת שווא.</p>"
+  },
+  {
+    "question_id_external": "C03-M03-PRX-Q05",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם: DSCR מדווח = 2.1. אך 40% מהכנסות הם שערוכי IAS 40. NOI ממכירת דירות בלבד (ללא שערוכים): 3,600,000 ₪. שירות חוב שנתי: 2,400,000 ₪. מה DSCR ריאלי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["dscr", "ias40", "ebitda_normalization"],
+    "options": [
+      {
+        "text_he": "1.50 (3,600,000 / 2,400,000)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "2.10 — DSCR המדווח; אין צורך בנרמול",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR המדווח כולל שערוכי IAS 40 שאינם מזומן; נרמול חובה לניתוח אשראי"
+      },
+      {
+        "text_he": "0.84 — NOI / (שירות חוב × 1.4)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין הצדקה לכפל שירות החוב ב-1.4; DSCR = NOI / שירות חוב"
+      },
+      {
+        "text_he": "1.26 — NOI × 0.85 / שירות חוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין הצדקה לגורם 0.85; NOI הנתון כבר מנורמל (ללא שערוכים)"
+      }
+    ],
+    "explanation_html_he": "<p>DSCR ריאלי = NOI ממכירות (ללא שערוכים) / שירות חוב = 3,600,000 / 2,400,000 = <strong>1.50</strong>. DSCR מדווח 2.1 כלל שערוכי IAS 40 שאינם מזומן. DSCR ריאלי 1.50 — עדיין מעל 1.20 אך פחות נוח; ועדת אשראי תבקש: מה ה-DSCR בתרחיש ירידה של 10% בפדיון?</p>"
+  },
+  {
+    "question_id_external": "C03-M03-PRX-Q06",
+    "course_number": 3,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם נדל\"ן — נתוני P&L שנה (ש\"ח): הכנסות מכירת דירות 45,000,000; עלות דירות 28,000,000; שערוך IAS 40 3,500,000; רווח ממכירת קרקע 2,000,000; הוצאות הנהלה 3,000,000; פחת 400,000 (כלול בהנהלה); ריבית 2,800,000; חוב כולל 22,400,000. מספר פרויקטים פעילים: 4 (נתון לא רלוונטי). חשב: (א) EBITDA מדווח; (ב) EBITDA מנורמל; (ג) ICR; (ד) Debt/EBITDA מנורמל.</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "",
+    "topic_tags": ["ebitda_normalization", "ias40", "icr", "leverage_ratio"],
+    "options": [
+      {
+        "text_he": "EBITDA מדווח: 19,900,000 | EBITDA מנורמל: 14,400,000 | ICR: 7.0x | Debt/EBITDA מנורמל: 1.56x",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "EBITDA מדווח: 19,900,000 | EBITDA מנורמל: 19,900,000 (ללא נרמול) | ICR: 7.0x | Debt/EBITDA: 1.13x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא נוטרלו שערוך IAS 40 ומכירת קרקע; D/EBITDA על EBITDA מדווח = 1.13 — מטעה"
+      },
+      {
+        "text_he": "EBITDA מדווח: 16,400,000 (ניכו שערוך וקרקע גם מ-EBITDA מדווח) | שאר הנתונים שגויים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; EBITDA מדווח כולל את כל הפריטים; הנרמול נעשה בשלב נפרד"
+      },
+      {
+        "text_he": "ICR: 6.96 נכון; Debt/EBITDA: 22,400,000/19,900,000 = 1.13 (על EBITDA מדווח לא מנורמל)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; D/EBITDA חייב להיחשב על EBITDA מנורמל (14,400,000); 1.56x הוא המדד הנכון"
+      }
+    ],
+    "explanation_html_he": "<p>EBIT = 45M − 28M + 3.5M + 2M − 3M = <strong>19.5M</strong>. EBITDA מדווח = 19.5M + 0.4M פחת = <strong>19.9M</strong>. נרמול: −3.5M שערוך IAS 40 − 2M מכירת קרקע = EBITDA מנורמל <strong>14.4M</strong>. ICR = EBIT / ריבית = 19.5M / 2.8M = <strong>6.96 ≈ 7.0x</strong>. Debt/EBITDA מנורמל = 22.4M / 14.4M = <strong>1.56x</strong> — ממונף מעט בלבד. מספר פרויקטים (4) — נתון לא רלוונטי.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-CMP-Q01",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה המשמעות של \"איחוד SPV\" בדוחות מאוחדים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ifrs10", "consolidation", "spv"],
+    "options": [
+      {
+        "text_he": "SPV שנשלט על ידי החברה האם (לפי IFRS 10 — כוח + חשיפה לתשואות) מאוחד לדוחות הקבוצה, כולל כל נכסיו, חובותיו ותוצאותיו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "SPV מאוחד רק אם החברה האם מחזיקה 50% ומעלה ממניותיו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IFRS 10 מבוסס על \"שליטה\" = כוח + חשיפה + קשר; שליטה יכולה להתקיים גם בפחות מ-50%"
+      },
+      {
+        "text_he": "SPV לעולם אינו מאוחד — הוא ישות משפטית נפרדת תמיד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תחת IFRS 10, SPV נשלט מאוחד לדוחות הקבוצה"
+      },
+      {
+        "text_he": "איחוד SPV = קיזוז חוב ה-SPV מחוב החברה האם בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; איחוד = הצגת כל הקבוצה כישות אחת, כולל נכסי וחובות ה-SPV"
+      }
+    ],
+    "explanation_html_he": "<p>IFRS 10 — שליטה = (1) כוח על ה-SPV; (2) חשיפה לתשואות משתנות; (3) יכולת להשפיע על התשואות. כאשר שלושתם קיימים → SPV מאוחד. <strong>איחוד</strong>: נכסי ה-SPV + נכסי האם = נכסים קבוצתיים; חוב ה-SPV מופיע בדוח המאוחד. מסקנה: חוב ה-SPV = חוב הקבוצה מנקודת מבט הנושים.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-CMP-Q02",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהן ערבויות צולבות (Cross-Guarantees) ומה הסיכון לאנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["cross_guarantees", "concentration_risk"],
+    "options": [
+      {
+        "text_he": "חברות קבוצה ערבות הדדית לחובות זו של זו. סיכון: כישלון פרויקט אחד עלול להפעיל ערבות ולסכן פרויקט אחר, ולמעשה מחבר בין סיכוני כל הפרויקטים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ערבויות צולבות = ביטחונות כפולים המבטיחים LTV נמוך יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבויות צולבות הן ערבות הדדית בין חברות, לא כפילות בטחון שמורידה LTV"
+      },
+      {
+        "text_he": "ערבויות צולבות אסורות לפי דיני החברות בישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הן נפוצות ומותרות; דרישה לגילוי לפי IFRS"
+      },
+      {
+        "text_he": "ערבויות צולבות מגנות על הנושים כי מרחיבות את מאגר הביטחונות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הן יוצרות קשר בין ישויות שאמורות להיות מבודדות, ומגבירות סיכון לנושה של פרויקט ספציפי"
+      }
+    ],
+    "explanation_html_he": "<p>Cross-Guarantees: SPV_א ערב לחוב של SPV_ב, ולהפך. אם פרויקט ב' נכשל, הבנק קורא לערבות של ב' מ-SPV_א → נכסי פרויקט א' בסיכון. מסקנה: קבוצה עם ערבויות צולבות היא <strong>ישות אחת מנקודת מבט סיכון</strong>, גם אם משפטית הן נפרדות. אנליסט: מפה ערבויות ובודק LTV ו-DSCR קבוצתיים.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-CMP-Q03",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ריכוזיות פרויקטים (Concentration Risk) ולמה זה מדאיג בניתוח אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["concentration_risk"],
+    "options": [
+      {
+        "text_he": "כאשר חלק גדול מהכנסות/רווחים של הקבוצה נובע מפרויקט יחיד, אזור גיאוגרפי, או סוג נכס — כישלון אחד עלול להפיל את כל הקבוצה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריכוזיות = תמחור מרוכז של הנכסים (מחיר אחיד לכל הדירות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין; ריכוזיות = תלות בגורם יחיד, לא מדיניות תמחור"
+      },
+      {
+        "text_he": "ריכוזיות גבוהה = יעילות תפעולית גבוהה וחסכון בהוצאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בניהול סיכונים, ריכוזיות = ביצה אחת בסל אחד = פחות עמידות"
+      },
+      {
+        "text_he": "ריכוזיות חשובה רק לחברות ציבוריות הכפופות לפיקוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לאנליסט אשראי חשובה בכל הלוואה, בין אם הלווה ציבורי ופרטי"
+      }
+    ],
+    "explanation_html_he": "<p>דוגמה: קבוצה עם 5 פרויקטים; 70% מהרווחים מפרויקט אחד. אם פרויקט זה מתעכב, מחיר הדירות יורד, או קבלן נכשל → כל הקבוצה בסיכון. אנליסט שואל: מה % הכנסות מפרויקט בודד? מה % מאזור גיאוגרפי בודד? <strong>כלל</strong>: מעל 40% מפרויקט יחיד = ריכוזיות גבוהה.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-CMP-Q04",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד עסקאות בין חברות (Inter-Company) מנוטרלות בדוחות מאוחדים ולמה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["consolidation", "intercompany"],
+    "options": [
+      {
+        "text_he": "בדוחות מאוחדים מנוטרלות עסקאות בינחברתיות (מכירות, הלוואות, דיבידנדים) כדי למנוע ספירה כפולה — הקבוצה מוצגת כישות אחת מול צדדים חיצוניים בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עסקאות בינחברתיות נסכמות (לא מנוטרלות) בדוחות מאוחדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סיכום ללא ניטרול יוצר ספירה כפולה של הכנסות והתחייבויות"
+      },
+      {
+        "text_he": "בדוחות מאוחדים כל החברות נסכמות מלאה ואין ניטרול כלל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניטרול בינחברתי הוא שלב מרכזי ועיקרי בתהליך האיחוד"
+      },
+      {
+        "text_he": "ניטרול חל רק על הלוואות בינחברתיות, לא על מכירות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל עסקאות בינחברתיות מנוטרלות: מכירות, רכישות, ריבית, דיבידנדים"
+      }
+    ],
+    "explanation_html_he": "<p>איחוד: קבוצה = ישות אחת. מכירה מ-SPV_א ל-SPV_ב = לא מכירה אמיתית מנקודת הקבוצה. לכן: הכנסות SPV_א + הוצאות SPV_ב מנוטרלות. בלי ניטרול: <strong>הכנסות מנופחות</strong>. הלוואה בינחברתית: נכס של האם = התחייבות של הבת = שניהם מנוטרלים. מסקנה: דוחות מאוחדים = ניטרול כל מה שקרה \"בתוך\" הקבוצה.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-PRX-Q01",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>קבוצת נדל\"ן: חברה אם + 3 SPVים. חוב החברה האם: 5,000,000 ₪. SPV_1: חוב 18,000,000 ₪; SPV_2: חוב 12,000,000 ₪; SPV_3: חוב 8,000,000 ₪. כל ה-SPVים בשליטת האם לפי IFRS 10. מה החוב הקבוצתי המאוחד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["consolidation", "group_net_debt", "spv"],
+    "options": [
+      {
+        "text_he": "43,000,000 ₪ (5,000,000 + 18,000,000 + 12,000,000 + 8,000,000)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "5,000,000 ₪ — רק חוב החברה האם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; SPVים בשליטה מאוחדים = חובותיהם חובות הקבוצה"
+      },
+      {
+        "text_he": "38,000,000 ₪ — סכום שלושת ה-SPVים ללא חוב האם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוב החברה האם (5M) כלול בחוב הקבוצתי המאוחד"
+      },
+      {
+        "text_he": "21,500,000 ₪ — ממוצע החובות בקבוצה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוב קבוצתי = סכום כל החובות, לא ממוצע"
+      }
+    ],
+    "explanation_html_he": "<p>בדוחות מאוחדים, כל חוב של SPV נשלט = חוב הקבוצה. 5M + 18M + 12M + 8M = <strong>43,000,000 ₪</strong>. אם EBITDA קבוצתי = 8,600,000 → D/EBITDA = 5.0x. לעומת D/EBITDA של האם לבדה: 5M / 8.6M = 0.58x — פי 8.6 פחות! זה ההבדל הקריטי בין ניתוח ברמת פרויקט לניתוח קבוצתי.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-PRX-Q02",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>SPV_א ערב לחוב SPV_ב בסכום של 10,000,000 ₪. SPV_ב נכשל ואינו יכול לשרת חובו. מה חשיפת SPV_א כתוצאה מהערבות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["cross_guarantees", "credit_risk"],
+    "options": [
+      {
+        "text_he": "10,000,000 ₪ — כל סכום הערבות; הבנק רשאי לתבוע מ-SPV_א את מלוא הסכום שSPV_ב לא פרע",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "0 ₪ — SPV_א הוא ישות נפרדת ואינו נושא באחריות לחובות SPV_ב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות יוצרת חבות משפטית מחייבת; SPV_א חייב כערב לחוב SPV_ב"
+      },
+      {
+        "text_he": "5,000,000 ₪ — ערבות מחולקת שווה בשווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלא אם נקבע במפורש, ערבות היא מלאה (100%)"
+      },
+      {
+        "text_he": "חשיפה קיימת רק אם SPV_א חתם על ערבות אישית (לא קורפורטיבית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות קורפורטיבית של SPV מחייבת את נכסיו כמו כל ערבות אחרת"
+      }
+    ],
+    "explanation_html_he": "<p>ערבות = חבות משפטית מלאה. SPV_א ערב → אם SPV_ב לא משלם → הבנק תובע מ-SPV_א עד <strong>10,000,000 ₪</strong>. פרקטית: נכסי פרויקט א' עלולים להיות ממושכנים/מעוקלים לכיסוי חוב פרויקט ב'. לכן: אנליסט מוסיף 10M לחשיפה של SPV_א ובודק אם LTV מחזיק גם אחרי הפעלת הערבות.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-PRX-Q03",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>קבוצת נדל\"ן: הכנסות כוללות 80,000,000 ₪. פרויקט \"מגדל צפון\": הכנסות 55,000,000 ₪, רווח 18,000,000 ₪ (מתוך רווח קבוצה 22,000,000 ₪). מה ריכוזיות ההכנסות וריכוזיות הרווח? מה המסקנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["concentration_risk"],
+    "options": [
+      {
+        "text_he": "ריכוזיות הכנסות: 68.75% (55M/80M); ריכוזיות רווח: 81.8% (18M/22M). ריכוזיות קיצונית — כישלון \"מגדל צפון\" = נפילת הקבוצה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריכוזיות הכנסות: 31.25% ((80M−55M)/80M) — חישוב שגוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריכוזיות מחושבת כ-55M/80M = 68.75%, לא כיחס שאר הקבוצה"
+      },
+      {
+        "text_he": "ריכוזיות 55% הכנסות ו-80% רווח — שגיאת חישוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 55M/80M = 68.75% (לא 55%); 18M/22M = 81.8% (קרוב ל-80%)"
+      },
+      {
+        "text_he": "ריכוזיות אינה בעיה כל עוד רווח הקבוצה חיובי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריכוזיות 82% ברווח היא בעיה קשה גם אם הקבוצה רווחית כעת — שינוי בפרויקט אחד = קריסה"
+      }
+    ],
+    "explanation_html_he": "<p>הכנסות: 55/80 = <strong>68.75%</strong>. רווח: 18/22 = <strong>81.8%</strong>. פרשנות: מעל 40% ממקור אחד = ריכוזיות גבוהה; 82% = <strong>ריכוזיות קריטית</strong>. שאלות לאנליסט: מה שלב \"מגדל צפון\"? מה ה-DSCR של שאר הפרויקטים? מה קורה לריכוזיות אחרי גמר הפרויקט?</p>"
+  },
+  {
+    "question_id_external": "C03-M04-PRX-Q04",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>דוח האם (לא מאוחד): הכנסות 20,000,000 ₪, חוב 8,000,000 ₪, EBITDA 5,000,000 ₪. קבוצה מאוחדת: הכנסות 90,000,000 ₪, חוב 65,000,000 ₪, EBITDA 12,000,000 ₪. חשב Debt/EBITDA ברמת האם לעומת קבוצה. מה המסקנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["consolidation", "leverage_ratio", "group_net_debt"],
+    "options": [
+      {
+        "text_he": "אם: 8M/5M = 1.6x (בטוח); קבוצה: 65M/12M = 5.42x (גבוה). הקבוצה ממונפת הרבה יותר — ניתוח ברמת האם לבדה מטעה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אם: 1.6x (נכון); קבוצה: 65M/20M = 3.25x — חישוב שגוי (חילקו בהכנסות במקום EBITDA)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; D/EBITDA = חוב / EBITDA; מכנה הוא EBITDA (12M), לא הכנסות (90M)"
+      },
+      {
+        "text_he": "אם: 20M/5M = 4.0x (חישוב הכנסות/EBITDA); קבוצה: 65M/12M = 5.42x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; D/EBITDA של האם = חוב/EBITDA = 8M/5M = 1.6x, לא הכנסות/EBITDA"
+      },
+      {
+        "text_he": "D/EBITDA קבוצה = 65M/90M = 0.72x (חישוב חוב/הכנסות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכנה ה-D/EBITDA הוא EBITDA (12M), לא הכנסות (90M)"
+      }
+    ],
+    "explanation_html_he": "<p>D/EBITDA האם: 8M/5M = <strong>1.6x</strong> — בטוח. D/EBITDA קבוצה: 65M/12M = <strong>5.42x</strong> — גבוה. הפרש: 5.42 vs 1.6 = ניתוח ברמת האם בלבד נותן תמונה <strong>שגויה לחלוטין</strong>. כל הלוואה לקבוצת נדל\"ן חייבת להיבחן על בסיס דוחות מאוחדים.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-PRX-Q05",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ביקורת על קבוצת נדל\"ן מגלה: (א) SPV_1 מכר מגרש ל-SPV_2 ב-12,000,000 ₪; שמאי חיצוני העריך 8,000,000 ₪; (ב) SPV_2 שלם דמי ניהול לחברת ניהול של בעל השליטה 3,000,000 ₪/שנה; שוק: 1,500,000 ₪/שנה. מה סכום עסקאות החריגות מהשוק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["tunneling", "related_party", "cross_check"],
+    "options": [
+      {
+        "text_he": "5,500,000 ₪ — עסקה א': 12M−8M = 4,000,000; עסקה ב': 3M−1.5M = 1,500,000; סה\"כ 5,500,000 ₪ הועברו מהקבוצה לבעל השליטה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "15,000,000 ₪ — סכום שתי העסקאות המלא (12M+3M)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החריגה מהשוק היא הפרש בין מחיר העסקה למחיר השוק, לא הסכום המלא"
+      },
+      {
+        "text_he": "1,500,000 ₪ — רק עסקת הניהול; מכירת המגרש היא בינחברתית ומנוטרלת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם מכירת המגרש בעודף על השמאי מייצגת נזק ל-SPV_2 ולנושיו"
+      },
+      {
+        "text_he": "אין עסקאות חריגות — עסקאות בינחברתיות מנוטרלות באיחוד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דמי הניהול לחברת בעל השליטה חיצוניים לקבוצה — לא מנוטרלים; ועודף המגרש פוגע ב-SPV_2"
+      }
+    ],
+    "explanation_html_he": "<p>(א) מכירת מגרש ב-12M vs שווי 8M: SPV_1 קיבל 4M יתר על חשבון SPV_2. Tunneling: <strong>4,000,000 ₪</strong>. (ב) דמי ניהול מופרזים: 1.5M/שנה לחברת בעל השליטה. Tunneling: <strong>1,500,000 ₪</strong>. סה\"כ <strong>5,500,000 ₪/שנה</strong> = עלות נסתרת שלא משתקפת ב-EBITDA מנורמל ומנפחת את כושר הפירעון הנראה.</p>"
+  },
+  {
+    "question_id_external": "C03-M04-PRX-Q06",
+    "course_number": 3,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>קבוצת נדל\"ן מאוחדת (ש\"ח): הכנסות 120,000,000; EBITDA מדווח (כולל שערוכי IAS 40: 15,000,000) 35,000,000; EBITDA ממכירות ושכ\"ד ללא שערוכים: 20,000,000; ריבית 8,000,000; חוב מאוחד 175,000,000; ערבויות צולבות בין SPVים: 40,000,000. מספר עובדים: 120 (נתון לא רלוונטי). חשב: (א) Debt/EBITDA מדווח ומנורמל; (ב) ICR מנורמל; (ג) חשיפה כוללת כולל ערבויות.</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "",
+    "topic_tags": ["consolidation", "ebitda_normalization", "cross_guarantees", "leverage_ratio", "icr"],
+    "options": [
+      {
+        "text_he": "D/EBITDA מדווח: 5.0x | D/EBITDA מנורמל: 8.75x | ICR מנורמל: 2.5x | חשיפה כוללת: 215,000,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "D/EBITDA מדווח: 5.0x | D/EBITDA מנורמל: 5.0x (ללא נרמול) | ICR: 4.4x | חשיפה: 175,000,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא נוטרלו שערוכי IAS 40; ICR לא מנורמל; ערבויות צולבות לא נכללו בחשיפה"
+      },
+      {
+        "text_he": "D/EBITDA מנורמל: 8.75x | ICR: 4.4x (על EBITDA מדווח, לא מנורמל) | חשיפה: 215,000,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR צריך להיחשב על EBITDA מנורמל: 20M/8M = 2.5x, לא 35M/8M = 4.4x"
+      },
+      {
+        "text_he": "D/EBITDA: 175,000,000/120,000,000 = 1.46x (חישוב חוב/הכנסות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכנה D/EBITDA הוא EBITDA (לא הכנסות); D/EBITDA מנורמל = 175M/20M = 8.75x"
+      }
+    ],
+    "explanation_html_he": "<p>(א) D/EBITDA מדווח: 175M/35M = <strong>5.0x</strong>. מנורמל (ללא 15M שערוכים): 175M/20M = <strong>8.75x</strong> — פי 1.75! (ב) ICR מנורמל: 20M/8M = <strong>2.5x</strong> — גבולי. (ג) חשיפה כוללת: 175M חוב + 40M ערבויות = <strong>215,000,000 ₪</strong>. ועדת אשראי: D/EBITDA 8.75 גבוה מאוד — כנראה דחייה או: בטחונות נוספים, covenant חוב מתחת ל-6.0 EBITDA, ניטרול ערבויות צולבות. מספר עובדים (120) — נתון לא רלוונטי.</p>"
+  }
+]
