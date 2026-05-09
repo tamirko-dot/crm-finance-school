@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C06-M05-CMP-Q01",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו מסמך Term Sheet במימון נדל\"ן, והאם הוא מחייב משפטית את הצדדים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Term Sheet הוא ה'הסכמה עקרונית' — הוא מגדיר את גבולות העסקה לפני שהצוות המשפטי מנסח חוזה מלא. בישראל נהוג שהוא אינו מחייב, אך מנהל אשראי טוב יודע שסעיפי סודיות ובלעדיות בתוכו עשויים להיות בני אכיפה — חשוב לקרוא כל מילה.",
+    "topic_tags": ["term_sheet", "binding", "credit_process"],
+    "options": [
+      {
+        "text_he": "Term Sheet הוא מסמך עקרונות המסכם את התנאים הפיננסיים המוצעים להלוואה (סכום, ריבית, בטחונות, מח\"מ) לפני עריכת הסכם הלוואה מלא — ככלל אינו מחייב משפטית, אולם סעיפי סודיות ובלעדיות בו עשויים לחייב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Term Sheet הוא הסכם הלוואה מלא ומחייב בכל תנאיו ומחייב חתימת עורך דין מטעם שני הצדדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסכם הלוואה מלא (Loan Agreement) הוא המסמך המחייב; ה-Term Sheet הוא שלב מוקדם ועקרוני שאינו מחייב ככלל"
+      },
+      {
+        "text_he": "Term Sheet הוא דו\"ח בדיקת נאותות המוגש ללווה לאחר אישור ועדת האשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דו\"ח Due Diligence הוא מסמך ניתוח פנימי של המלווה; ה-Term Sheet הוא תקציר תנאים שנשלח ללווה כהצעת מסגרת"
+      },
+      {
+        "text_he": "Term Sheet הוא מסמך פנימי בלבד של המלווה, אינו מועבר ללווה ומשמש אך ורק לצורך אישור ועדת האשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-Term Sheet מועבר ללווה ומשמש בסיס למשא ומתן; הוא אינו מסמך פנימי בלבד"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Term Sheet (מסמך עקרונות)</strong> הוא השלב הראשון בתהליך מימון נדל\"ן לאחר אישור עקרוני של ועדת האשראי. הוא כולל: סכום ההלוואה, שיעור הריבית וסוגה, לוח סילוקין, יחסים פיננסיים מינימליים (Covenants), בטחונות נדרשים, עמלות ותנאי קדם (Conditions Precedent).</p><p><strong>מעמד משפטי:</strong> ברוב המקרים הוא אינו מחייב (Non-Binding), אולם סעיפים ספציפיים כגון סודיות (Confidentiality) ובלעדיות (Exclusivity) עשויים להיות בני אכיפה. בישראל, בית המשפט עשוי לפרש Term Sheet שהצדדים פעלו לפיו כיוצר מחויבות בתום לב. לכן — קוראים כל מילה לפני חתימה.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-CMP-Q02",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם שלושת סוגי הריבית העיקריים בהלוואות נדל\"ן בישראל, ומה ההבדל ביניהם?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הריבית היא הלב של כל Term Sheet — מנהל אשראי שלא מבחין בין Fixed, Floating ו-PIK עשוי להעריך שגוי את העלות האמיתית ללווה ואת הסיכון למלווה. PIK בפרט מסתיר אשראי שגדל בשקט.",
+    "topic_tags": ["interest_types", "fixed", "floating", "pik"],
+    "options": [
+      {
+        "text_he": "ריבית קבועה (Fixed) — שיעור אחיד לכל תקופת ההלוואה; ריבית משתנה (Floating) — מבוססת על ריבית ייחוס (כגון Prime) בתוספת מרווח; ריבית PIK — אינה משולמת במזומן אלא מצטברת לקרן ומחויבת בפירעון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריבית פריים, ריבית ליבור וריבית אג\"ח ממשלתי — שלוש ריביות הייחוס הנהוגות בישראל לצמידת הלוואות נדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו ריביות ייחוס ולא סוגי ריבית; הסיווג הנכון הוא Fixed, Floating ו-PIK לפי מנגנון תשלום ועדכון"
+      },
+      {
+        "text_he": "ריבית פשוטה, ריבית דריבית וריבית נומינלית — שלושה מצבי חישוב שנקבעים לפי לוח הסילוקין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו שיטות חישוב מתמטי ולא סוגי ריבית; ה-Term Sheet מגדיר את הסוג (Fixed/Floating/PIK) ולא שיטת חישוב בלבד"
+      },
+      {
+        "text_he": "ריבית שנתית, ריבית חודשית וריבית יומית — המרת ריבית לפי תדירות החיוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תדירות החיוב היא פרמטר טכני; סוגי הריבית הרלוונטיים ב-Term Sheet הם Fixed, Floating ו-PIK לפי אופן עדכון ותשלום"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלושת סוגי הריבית העיקריים:</strong></p><ol><li><strong>ריבית קבועה (Fixed Rate)</strong> — שיעור זהה לכל אורך ההלוואה; מקנה ודאות לשני הצדדים; נפוץ בהלוואות לנכסים מניבים יציבים</li><li><strong>ריבית משתנה (Floating Rate)</strong> — מחושבת כ-Prime + מרווח, או SOFR + Spread בעסקאות בינלאומיות; חושפת את הלווה לסיכון ריבית; מחייבת ניתוח Stress Test על עלייה בריבית</li><li><strong>ריבית PIK (Payment-in-Kind)</strong> — הריבית אינה משולמת שוטפת אלא מצטברת לקרן; הלוואה של 10M ₪ ב-8% PIK לשנה הופכת ל-10.8M ₪ ללא כל תזרים; שכיח בהלוואות גישור ו-Mezzanine; מסוכן לפי שה-Exposure גדל ללא הכרה שוטפת</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M05-CMP-Q03",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי עמלת פירעון מוקדם (Prepayment Penalty) ומדוע המלווים דורשים אותה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Prepayment Penalty היא הגנה על ה-Yield של המלווה — אם לווה פורע מוקדם בסביבת ריבית יורדת, המלווה מאבד הכנסה עתידית. כשאני מנתח Term Sheet אני בודק: האם הפנלטי פוחת עם הזמן? האם יש חלון פטור ב-6 חודשים האחרונים? אלו נקודות שווה לנהל עליהן משא ומתן.",
+    "topic_tags": ["prepayment_penalty", "term_sheet", "yield_protection"],
+    "options": [
+      {
+        "text_he": "תשלום שהלווה מחויב לשלם למלווה אם פורע את ההלוואה לפני מועד הפירעון המוסכם — מפצה את המלווה על הכנסות ריבית עתידיות שיאבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "קנס שהמלווה גובה אם הלווה מפגר בתשלום ריבית שוטפת ביותר מ-30 יום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פיגור בתשלום מוביל לריבית פיגורים (Default Interest) ולא ל-Prepayment Penalty; השניים הם מנגנונים שונים לחלוטין"
+      },
+      {
+        "text_he": "עמלה חד-פעמית הנגבית בעת הוצאת ההלוואה כתמורה לעבודת החיתום של המלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עמלה בהוצאת ההלוואה היא Origination Fee או Arrangement Fee; Prepayment Penalty קשורה לפירעון מוקדם בלבד"
+      },
+      {
+        "text_he": "עמלה המשולמת לרשויות המס בעת מכירת הנכס הממומן לפני תום תקופת ההחזקה המינימלית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מדובר בהוצאה מול רשויות המדינה ולא מול המלווה; Prepayment Penalty היא תנאי חוזי בין הלווה לבנק"
+      }
+    ],
+    "explanation_html_he": "<p><strong>עמלת פירעון מוקדם (Prepayment Penalty)</strong> היא מנגנון הגנה שנועד להבטיח שהמלווה יקבל את ה-Yield שתמחר בעת מתן ההלוואה.</p><p><strong>מבנה נפוץ:</strong></p><ul><li>שנה 1–2: 3% מהיתרה הפרועה</li><li>שנה 3–4: 2%</li><li>שנה 5+: ללא עמלה (או 1%)</li></ul><p><strong>מדוע חשוב לנתח:</strong> לווה המוכר נכס לפני תום ההלוואה יישא בעמלה זו — עלות זו צריכה להיכלל בחישוב ה-IRR של הפרויקט. מנהל אשראי בודק שהלווה הבין ואישר תנאי זה, ושהוא תואם לאסטרטגיית ה-Exit שלו.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-CMP-Q04",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו Event of Default (עילת הפרה) ב-Term Sheet, ומדוע הגדרתו המדויקת קריטית למלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Event of Default הוא ה'כפתור האדום' של המלווה — ברגע שמתרחש, הוא מאפשר לדרוש פירעון מיידי, לממש בטוחות ולעצור משיכות. אבל הגדרה רחבה מדי עלולה ליצור Event of Default בנסיבות שוליות ולפגוע בפרויקט תקין. הדיוק בניסוח הוא עולם שלם.",
+    "topic_tags": ["event_of_default", "covenants", "term_sheet"],
+    "options": [
+      {
+        "text_he": "אירוע שהוגדר מראש בהסכם ההלוואה שהתרחשותו מקנה למלווה זכות לדרוש פירעון מיידי של מלוא ההלוואה ולממש בטוחות — לדוגמה: אי-תשלום שוטף, הפרת Covenant, פשיטת רגל או מכירת הנכס ללא אישור",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כל סיטואציה בה שווי הנכס הממומן יורד בלפחות 10% ביחס לשווי בעת לקיחת ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידת ערך כשלעצמה אינה בהכרח Event of Default אלא עשויה להפעיל Covenant ספציפי — ורק אם הוגדר כך מפורשות בהסכם"
+      },
+      {
+        "text_he": "פירעון מוקדם של ההלוואה ללא הודעה מוקדמת של 30 יום כנדרש בהסכם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אמנם הפרת הודעה מוקדמת עשויה להיות הפרת חוזה, אך Event of Default הוא מנגנון מפורש של הפרות קשות — לא פגם פרוצדורלי"
+      },
+      {
+        "text_he": "שינוי בחקיקה הישראלית שמגדיל את עלות ההלוואה מעל לסף שנקבע בהסכם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי חקיקתי מטופל בדרך כלל בסעיף Increased Cost ולא כ-Event of Default; ה-Events הם בעיקר אירועי כשל של הלווה עצמו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Event of Default</strong> הוא רשימת האירועים שנוגדים לאישור מתן הלוואה ומקנים למלווה זכות להפעיל את ה-Remedies שלו.</p><p><strong>אירועים נפוצים:</strong></p><ul><li>אי-תשלום ריבית או קרן במועד (בדרך כלל לאחר Grace Period של 3–5 ימים)</li><li>הפרת Covenant פיננסי (DSCR מתחת לסף, LTV מעל לסף)</li><li>הגשת בקשת פשיטת רגל / כינוס נכסים על הלווה</li><li>מכירה, שעבוד או העברת הנכס ללא הסכמת המלווה</li><li>שינוי שליטה בלווה (Change of Control) ללא אישור</li><li>הצהרה כוזבת בתיק ההלוואה</li></ul><p><strong>חשיבות הדיוק:</strong> מלווה חייב לנסח כל Event בבהירות — הגדרה מעורפלת עלולה להיתקל בקושי אכיפה בבית משפט.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-PRX-Q01",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>להלן קטע מ-Term Sheet להלוואת נדל\"ן:</p><blockquote><p>«ריבית: Prime + 2.5% משתנה חודשית ללא תקרה. פירעון מוקדם: 4% מהיתרה בכל עת ללא חלון פטור. ערבות אישית: ערבות בלתי מוגבלת של בעל מניות מחזיק 25%. מכירת הנכס: מהווה Event of Default אלא אם ניתנה הסכמה מראש ובכתב בלפחות 90 יום מראש.»</p></blockquote><p>איזה סעיף הוא המחמיר ביותר מבחינת הלווה ומדוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריבית ללא תקרה היא הסיכון האסימטרי הגדול ביותר — בסביבת ריבית עולה, כל עלייה בפריים מועברת ישירות ללווה ללא הגבלה. שאר הסעיפים מגבילים אבל ניתנים לניהול; ריבית ללא Cap עלולה להכפיל את עלות ההלוואה.",
+    "topic_tags": ["term_sheet", "interest_cap", "floating_rate", "borrower_risk"],
+    "options": [
+      {
+        "text_he": "ריבית Prime + 2.5% ללא תקרה — חושפת את הלווה לעלייה בלתי מוגבלת בעלות המימון; עלייה של 3% בפריים תגדיל את הריבית ב-100% ביחס לתוספת המרווח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עמלת פירעון מוקדם של 4% ללא חלון פטור — מונעת לחלוטין כל אפשרות ל-Refinancing משתלם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 4% ללא פטור הוא חמור אך מוגדר וניתן לחישוב; ריבית ללא תקרה היא סיכון פתוח שיכול לעלות על כל עמלה קבועה"
+      },
+      {
+        "text_he": "ערבות אישית בלתי מוגבלת ממחזיק 25% — חושפת אדם פרטי לחבות העולה על חלקו היחסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות בלתי מוגבלת על מחזיק מיעוט היא בעייתית, אך בפועל ניתן לנהל עליה משא ומתן; הסיכון הפיננסי השוטף מריבית ללא Cap גדול יותר"
+      },
+      {
+        "text_he": "הגדרת מכירת הנכס כ-Event of Default ללא אפשרות ל-Assumption — חוסמת כל Exit",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסעיף מאפשר מכירה בהסכמה מראש; זהו סעיף שגרתי; הסיכון המהותי ביותר הוא הריבית ללא תקרה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הסעיף המחמיר ביותר: ריבית Prime + 2.5% ללא תקרה.</strong></p><p>בישראל, ריבית הפריים נעה בין 1.6% ל-6.25% בעשור האחרון. אם הפריים עולה מ-4.5% ל-7.5% (עלייה של 3%), ריבית הלווה עולה מ-7% ל-10% — עלייה של 43% בעלות המימון. בנכס עם DSCR של 1.20, עלייה כזו עלולה להפיל את ה-DSCR מתחת ל-1.0.</p><p><strong>בהשוואה:</strong></p><ul><li>עמלת 4% — עלות ידועה, ניתנת לתמחור</li><li>ערבות אישית — ניתנת למשא ומתן להגבלה לסכום מוגדר</li><li>הגבלת מכירה — שגרתית ובת-אכיפה</li></ul><p>ריבית ללא Cap היא הסיכון הבלתי-מוגבל היחיד ברשימה.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-PRX-Q02",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואת גישור של 5,000,000 ₪ ניתנת בריבית PIK של 10% לשנה לתקופה של 3 שנים. הריבית מצטברת לקרן ואינה משולמת שוטפת. מהו סכום הפירעון הכולל בתום 3 שנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "PIK על PIK — זה דריבית לכל דבר. לווים רבים מסכימים ל-PIK בלי להבין שהריבית של שנה 2 היא על הקרן המוגדלת. לאחר 3 שנים הם פורעים 6,655,000 ₪ ולא 6,500,000 ₪ — הפרש של 155,000 ₪. כאשר מדובר ב-50M ₪ הפרש זה הופך למשמעותי.",
+    "topic_tags": ["pik", "compound_interest", "bridge_loan"],
+    "options": [
+      {
+        "text_he": "6,655,000 ₪ — הריבית מצטברת בדריבית: 5,000,000 × (1.10)³ = 5,000,000 × 1.331 = 6,655,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "6,500,000 ₪ — ריבית של 500,000 ₪ לשנה × 3 שנים = 1,500,000 ₪ על קרן של 5,000,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה מתאים לריבית פשוטה; ב-PIK הריבית מתווספת לקרן מדי שנה ובשנה הבאה הריבית מחושבת על הקרן המוגדלת"
+      },
+      {
+        "text_he": "6,600,000 ₪ — 5,000,000 ₪ + 10% לשנה × 3 שנים × ½ (הנחת פריסה ליניארית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין 'הנחת פריסה ליניארית' ב-PIK; המנגנון הוא דריבית (1.10)³ ללא שום הנחה"
+      },
+      {
+        "text_he": "5,500,000 ₪ — רק שנה אחת של ריבית PIK מצטברת לאחר שהמלווה בחר להמיר את שתי השנים הראשונות למזומן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השאלה מגדירה מפורשות 3 שנות PIK ללא תשלום שוטף; לא ניתן 'לבחור' להמיר אלא אם כן נקבע אחרת בהסכם"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב PIK (Payment-in-Kind) — דריבית:</strong></p><table><tr><th>שנה</th><th>קרן בתחילת שנה</th><th>ריבית PIK (10%)</th><th>קרן בסוף שנה</th></tr><tr><td>1</td><td>5,000,000</td><td>500,000</td><td>5,500,000</td></tr><tr><td>2</td><td>5,500,000</td><td>550,000</td><td>6,050,000</td></tr><tr><td>3</td><td>6,050,000</td><td>605,000</td><td>6,655,000</td></tr></table><p><strong>נוסחה:</strong> 5,000,000 × (1.10)³ = 5,000,000 × 1.331 = <strong>6,655,000 ₪</strong></p><p>לעומת ריבית פשוטה: 5,000,000 + (500,000 × 3) = 6,500,000 ₪ — ה-PIK יקר יותר ב-155,000 ₪ בשל הדריבית.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-PRX-Q03",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה קיבל שתי הצעות מימון לנכס מניב:</p><ul><li><strong>הצעה א':</strong> ריבית שנתית קבועה 7.5%, עמלת פירעון מוקדם 2% לכל אורך התקופה, מח\"מ 7 שנים</li><li><strong>הצעה ב':</strong> ריבית שנתית קבועה 7.0%, עמלת פירעון מוקדם 5% בשנים 1–3, 3% בשנים 4–5, ללא עמלה משנה 6, מח\"מ 7 שנים</li></ul><p>הלווה מתכנן למכור את הנכס בעוד 4 שנים. איזו הצעה יקרה יותר בפועל עבורו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריבית נמוכה יותר לא תמיד אומרת עלות נמוכה יותר — תמיד יש לחשב את מלוא עלות ה-Exit הצפויה. לווה שמתכנן מכירה ב-4 שנים צריך לחשב: ריבית × 4 שנים + עמלת פירעון מוקדם.",
+    "topic_tags": ["term_sheet_comparison", "prepayment_penalty", "total_cost"],
+    "options": [
+      {
+        "text_he": "הצעה א' יקרה יותר — ריבית 7.5% × 4 שנים = 30%, פלוס עמלת פירעון 2% = סה\"כ 32%; הצעה ב' עולה 7.0% × 4 שנים = 28%, פלוס 3% = 31%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הצעה ב' יקרה יותר כי עמלת הפירעון המוקדם בשנה 4 גבוהה יותר (3% לעומת 2%) ומבטלת את יתרון הריבית הנמוכה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בחישוב מלא: הצעה א' = 30% + 2% = 32%; הצעה ב' = 28% + 3% = 31%; הצעה א' יקרה יותר ב-1 נקודת אחוז"
+      },
+      {
+        "text_he": "שתי ההצעות זהות בעלותן הכוללת לאחר 4 שנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרש ריבית הוא 0.5% לשנה × 4 = 2%; הפרש עמלה הוא 3% מול 2% = 1%; בסך הכל יש הפרש של 1% לטובת הצעה ב'"
+      },
+      {
+        "text_he": "לא ניתן לקבוע ללא ידיעת גובה ההלוואה המדויק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתן להשוות על בסיס אחוזים מהקרן; גובה ההלוואה אינו משנה את הבחירה היחסית כאשר שתי ההצעות הן על אותו סכום"
+      }
+    ],
+    "explanation_html_he": "<p><strong>השוואת עלות כוללת על פני 4 שנות אחזקה (כ-% מהקרן):</strong></p><table><tr><th></th><th>הצעה א' (7.5% קבוע)</th><th>הצעה ב' (7.0% קבוע)</th></tr><tr><td>ריבית שנתית × 4 שנים</td><td>30.0%</td><td>28.0%</td></tr><tr><td>עמלת פירעון מוקדם (שנה 4)</td><td>2.0%</td><td>3.0%</td></tr><tr><td><strong>סה\"כ</strong></td><td><strong>32.0%</strong></td><td><strong>31.0%</strong></td></tr></table><p>בתוכנית Exit בשנה 4 — <strong>הצעה א' יקרה יותר ב-1%</strong>.</p><p><strong>אזהרה:</strong> אם הלווה ישנה תוכניתו ויצא בשנה 2, הצעה ב' תהיה יקרה יותר (7%×2 + 5% = 19% לעומת 7.5%×2 + 2% = 17%). לכן בחירת ההצעה תלויה בוודאות תוכנית ה-Exit.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-PRX-Q04",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה פורע הלוואה של 8,000,000 ₪ לאחר שנתיים מתוך תקופה מוסכמת של 5 שנים. ה-Term Sheet קובע: עמלת פירעון מוקדם = 3% מיתרת ההלוואה בשנים 1–2, ו-2% בשנים 3–5. קרן ששולמה עד כה: 400,000 ₪. מהי עמלת הפירעון המוקדם?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תמיד מחשבים עמלת פירעון מוקדם על היתרה הנותרת — לא על הסכום המקורי. לווים טועים בכך לעיתים קרובות וסוגרים עסקת מכירה לפני שהבינו מה באמת עולה להם לצאת.",
+    "topic_tags": ["prepayment_penalty", "calculation", "outstanding_balance"],
+    "options": [
+      {
+        "text_he": "228,000 ₪ — יתרת ההלוואה = 8,000,000 − 400,000 = 7,600,000 ₪; עמלה = 7,600,000 × 3% = 228,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "240,000 ₪ — עמלה על הסכום המקורי 8,000,000 ₪ × 3% = 240,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עמלת פירעון מוקדם מחושבת על היתרה הנותרת בפועל, לא על הסכום המקורי — 400,000 ₪ כבר שולמו"
+      },
+      {
+        "text_he": "152,000 ₪ — עמלה של 2% על יתרה של 7,600,000 ₪ כי הפירעון הוא בסוף שנה 2 שנחשבת לחלון השני",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שנה 2 נכללת בחלון 1–2 שהשיעור בו הוא 3%, לא 2%; שיעור 2% חל משנה 3 ואילך"
+      },
+      {
+        "text_he": "160,000 ₪ — עמלה של 2% על 8,000,000 ₪ כי בשנה 2 כבר עברנו את המחצית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי בשני הפנים: ראשית, שנה 2 נכללת בחלון 3% ולא 2%; שנית, הבסיס הוא יתרת ההלוואה ולא הסכום המקורי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב עמלת פירעון מוקדם:</strong></p><ol><li>קבע את שנת הפירעון: <strong>שנה 2</strong> — חלון שיעור <strong>3%</strong> (שנים 1–2)</li><li>חשב יתרת הלוואה: 8,000,000 − 400,000 = <strong>7,600,000 ₪</strong></li><li>עמלה = 7,600,000 × 3% = <strong>228,000 ₪</strong></li></ol><p><strong>שגיאה נפוצה א':</strong> שימוש בסכום המקורי (8,000,000 ₪) במקום ביתרה (7,600,000 ₪) → 240,000 ₪ — מנופח.</p><p><strong>שגיאה נפוצה ב':</strong> שימוש בשיעור 2% (שנים 3–5) על פירעון בשנה 2 → 152,000 ₪ — נמוך מדי.</p>"
+  },
+  {
+    "question_id_external": "C06-M05-PRX-Q05",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>להלן שלושה תרחישים שאירעו בפרויקט נדל\"ן ממומן. זהה איזה מהם מהווה Event of Default לפי ה-Term Sheet הסטנדרטי:</p><ol><li>הלווה ביצע שיפוץ פנימי ב-200,000 ₪ ללא הודעה מוקדמת למלווה</li><li>ה-DSCR ירד ל-1.08 בעוד ה-Covenant מחייב DSCR ≥ 1.15</li><li>אחד מהשוכרים הגיש תביעה כנגד הלווה בגין ליקויי בנייה בסכום של 80,000 ₪</li></ol>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "לא כל בעיה היא Event of Default — צריך לדעת להבחין. הפרת Covenant מדידה היא Event ברור. תביעה קטנה אינה Event אלא אם עוברת סף מהותיות. שיפוץ ללא הודעה הוא לכל היותר הפרה פרוצדורלית הניתנת לריפוי. הבנת ההיררכיה הזו היא מהות ניהול אשראי.",
+    "topic_tags": ["event_of_default", "covenant_breach", "dscr"],
+    "options": [
+      {
+        "text_he": "תרחיש 2 בלבד — הפרת Covenant פיננסי (DSCR מתחת ל-1.15) הוא Event of Default מוגדר וידוע מראש; שני האחרים אינם עומדים בסף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שלושת התרחישים מהווים Event of Default — כל הפרה של תנאי הסכם ההלוואה מקנה למלווה זכות פירעון מיידי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא כל הפרה היא Event of Default; שיפוץ ללא הודעה הוא לרוב הפרה פרוצדורלית בת-ריפוי; תביעה של 80,000 ₪ אינה עומדת בסף מהותיות"
+      },
+      {
+        "text_he": "תרחישים 2 ו-3 — הפרת DSCR ותביעה משפטית פעילה מהווים יחדיו אירועי חדלות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תביעה של 80,000 ₪ אינה בדרך כלל Event of Default; הסכמי הלוואה נהוגים לקבוע סף מהותיות (לדוגמה: תביעות מעל 500,000 ₪) לפני שתביעה מהווה Event"
+      },
+      {
+        "text_he": "תרחיש 1 בלבד — ביצוע שינויים בנכס ללא אישור הוא הפרה החמורה ביותר של זכויות המלווה בבטוחה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיפוץ פנימי קטן הוא לכל היותר הפרת הודעה בת-ריפוי; הפרת DSCR היא הפרת Covenant פיננסי ממדרגה ראשונה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח כל תרחיש:</strong></p><ol><li><strong>שיפוץ ב-200,000 ₪ ללא הודעה</strong> — הפרה פרוצדורלית (Breach of Notice Covenant). לרוב ניתנת לריפוי (Cure) תוך 30 יום. לא Event of Default עצמאי אלא אם כן ה-Term Sheet מגדיר כזה מפורשות.</li><li><strong>DSCR = 1.08 מתחת ל-Covenant 1.15</strong> — <strong>Event of Default מובהק</strong>. הפרת Covenant פיננסי מדיד ומוגדר. המלווה רשאי לדרוש ריפוי תוך 30 יום, להקפיא משיכות, ובמידת הצורך לדרוש פירעון מיידי.</li><li><strong>תביעה של 80,000 ₪</strong> — אינה Event of Default בדרך כלל; הסכמי הלוואה קובעים סף (לרוב 250,000–1,000,000 ₪) שמעליו תביעה היא Event; 80,000 ₪ הם מתחת לכל סף סביר.</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M05-PRX-Q06",
+    "course_number": 6,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>Term Sheet קובע Covenant: DSCR ≥ 1.15 נמדד רבעונית. הנכס מניב NOI של 1,380,000 ₪ לשנה ושירות חוב של 1,200,000 ₪ לשנה (DSCR = 1.15). מנהל הסיכונים טוען שה-Covenant מגן מספיק. מנהל האשראי טוען שהוא לא מספיק. מי צודק ומדוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR של 1.15 כ-Covenant כאשר הנכס עצמו נמצא ב-1.15 אומר שהנכס כבר על הגבול ברגע מתן ההלוואה — אין שום כר ביטחון לפני הפרה. Covenant צריך להיות נמוך בהרבה מהרמה הנוכחית כדי לאפשר תגובה לפני שמגיעים לסף.",
+    "topic_tags": ["dscr_covenant", "credit_protection", "covenant_design"],
+    "options": [
+      {
+        "text_he": "מנהל האשראי צודק — DSCR נוכחי של 1.15 שווה בדיוק ל-Covenant; ירידה קטנה כלשהי ב-NOI תפר מיידית את ה-Covenant ללא כל אזהרה מוקדמת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מנהל הסיכונים צודק — DSCR של 1.15 מהווה כר ביטחון של 15% מעל נקודת האיזון ומספיק לנכסים מניבים יציבים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.15 הוא גם הרמה הנוכחית וגם הסף — אין מרחק בין הביצוע לבין הפרת ה-Covenant; מנהל סיכונים טוב מבחין בין כר ביטחון ביחס ל-1.0 לבין מרחק מ-Covenant"
+      },
+      {
+        "text_he": "שניהם צודקים — DSCR של 1.15 הוא ממוצע שוק ומהווה הגנה טובה לנכסים בשוק יציב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם 1.15 הוא ממוצע שוק, כאן הבעיה היא שהנכס כבר על הסף — הגדרה כזו לא מעידה על מצב תקין"
+      },
+      {
+        "text_he": "לא ניתן לקבוע — תלוי בסוג הנכס, שוק ההשכרה ואם הריבית קבועה או משתנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה המרכזית היא אובייקטיבית — DSCR נוכחי = Covenant; אמנם הנסיבות משפיעות על הסיכון, אבל הפגם המבני ב-Covenant ברור ללא קשר לנסיבות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הבעיה המבנית: DSCR נוכחי = Covenant = 1.15</strong></p><p>Covenant אמור לתפקד כ<strong>אזהרה מוקדמת (Early Warning)</strong> — הוא צריך להיות מוגדר ברמה שאם מגיעים אליה, יש עדיין זמן לפעול לפני נזק אמיתי.</p><p>אם ה-Covenant הוא 1.15 והנכס נמצא ב-1.15 — כל ירידה ב-NOI (עזיבת שוכר, עלייה בהוצאות, תקלה בנכס) תיצור מיד הפרה.</p><p><strong>מה נכון לעשות:</strong></p><ul><li>DSCR בעת מתן הלוואה: לפחות 1.25–1.30</li><li>Covenant: 1.15 (אזהרה) — מרחק של 10–15 נקודות אחוז מהרמה הנוכחית</li></ul><p>Covenant שנקבע שווה לרמה הנוכחית הוא Covenant ריק מתוכן — הוא מגן רק על הנייר.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-CMP-Q01",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם שלושת סוגי הבדיקות המרכזיות ב-Due Diligence (בדיקת נאותות) של עסקת נדל\"ן, ומה כולל כל אחד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שלושת ה-DD הם כמו רגלי שולחן — חסר אחד והשולחן קורס. ראיתי עסקאות שנפלו כי דילגו על ה-Technical DD כדי לחסוך בזמן ובסוף גילו ליקויי בנייה שהפחיתו את שווי הנכס ב-20%.",
+    "topic_tags": ["due_diligence", "legal_dd", "financial_dd", "technical_dd"],
+    "options": [
+      {
+        "text_he": "בדיקה משפטית (Legal DD) — בעלות, שעבודים, היתרים; בדיקה פיננסית (Financial DD) — תזרים, דו\"חות, Covenants; בדיקה טכנית (Technical DD) — מצב פיזי הנכס, שמאות, בדיקות קונסטרוקציה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בדיקת הלווה, בדיקת השוק ובדיקת הרגולציה — שלושה תחומי ניתוח סיכון שמנהל האשראי מבצע לפני הוועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו אמנם נבדקים ב-Credit Analysis, אך שלושת סוגי ה-DD הפורמליים בנדל\"ן הם: Legal, Financial ו-Technical"
+      },
+      {
+        "text_he": "בדיקת כדאיות (Feasibility), בדיקת סביבה (Environmental) ובדיקת ביטוח (Insurance) — שלושה DD המחויבים על פי תקנות בנק ישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אמנם Environmental DD קיים בנסיבות מסוימות, אך אינו אחד משלושת ה-DD המרכזיים הסטנדרטיים; הסיווג הנפוץ הוא Legal, Financial ו-Technical"
+      },
+      {
+        "text_he": "בדיקת שווי (Valuation), בדיקת הכנסות (Income) ובדיקת הוצאות (Cost) — שלושה מרכיבים של ניתוח הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו מרכיבים פיננסיים-שמאיים ולא סוגי DD; ה-Due Diligence המוסדי מחולק לפי מקצוע: עורכי דין (Legal), רו\"ח (Financial) ומהנדסים/שמאים (Technical)"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלושת סוגי Due Diligence בנדל\"ן:</strong></p><ol><li><strong>Legal DD (בדיקה משפטית)</strong> — מבוצעת ע\"י עורך דין: בעלות רשומה בטאבו, שעבודים קיימים, חכירה, היתרי בנייה ותכנון, חוזי שכירות, תביעות תלויות, חבות מסים</li><li><strong>Financial DD (בדיקה פיננסית)</strong> — מבוצעת ע\"י רו\"ח/יועץ פיננסי: דו\"חות כספיים מבוקרים, לוחות סילוקין קיימים, חוזי שכירות מול ביצוע בפועל, חשיפות מס, Covenants קיימים</li><li><strong>Technical DD (בדיקה טכנית)</strong> — מבוצעת ע\"י מהנדס/שמאי: בדיקת קונסטרוקציה, מתקנים (חשמל, אינסטלציה, מיזוג), ליקויים, שמאות מקצועית עצמאית, עמידה בתקני בנייה</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M06-CMP-Q02",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם Conditions Precedent (תנאי קדם) לסגירת עסקת מימון נדל\"ן, ומה קורה אם לא מתקיימים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "CPs הם 'רשימת הקניות' לסגירה — עד שכל פריט מסומן, הכסף לא יוצא. ראיתי עסקאות שנתקעו שבועות בגלל CP אחד חסר. מנהל אשראי טוב עוקב אחר CPs מהיום הראשון ולא מחכה לשבוע הסגירה.",
+    "topic_tags": ["conditions_precedent", "financial_close", "drawdown"],
+    "options": [
+      {
+        "text_he": "תנאים שחייבים להתקיים לפני שהמלווה משחרר את כספי ההלוואה — לדוגמה: רישום משכנתא, ביטוח נכס, הגשת מסמכים משפטיים. אם לא מתקיימים, המלווה אינו מחויב לשחרר כספים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תנאים שהלווה חייב לעמוד בהם לאחר קבלת ההלוואה, כגון שמירת DSCR ו-LTV — כשלון בהם מוביל ל-Event of Default",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו הם Ongoing Covenants ולא Conditions Precedent; ה-CPs הם תנאים לפני הסגירה ושחרור הכסף"
+      },
+      {
+        "text_he": "אמות מידה פיננסיות שנקבעות בתחילת ההלוואה ונבדקות בכל רבעון כדי לוודא שהנכס עומד בדרישות המלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיקה רבעונית היא Periodic Covenant Testing; Conditions Precedent הם דרישות חד-פעמיות לפני שחרור כספים"
+      },
+      {
+        "text_he": "דרישות בנק ישראל שכל מוסד בנקאי חייב לעמוד בהן לפני מתן הלוואות נדל\"ן מעל 10 מיליון ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Conditions Precedent הם תנאים חוזיים ספציפיים לעסקה בין המלווה לבין הלווה — לא דרישות רגולטוריות כלליות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Conditions Precedent (CPs)</strong> הם רשימה ממצה של תנאים שחייבים להתקיים לפני שחרור כל משיכה (Drawdown). הם מוגדרים מפורשות ב-Term Sheet ובהסכם ההלוואה.</p><p><strong>דוגמאות נפוצות ל-CPs:</strong></p><ul><li>רישום משכנתא ראשונה בדרגה א' על הנכס בטאבו</li><li>הצגת פוליסת ביטוח רכוש ואחריות כלפי שלישים</li><li>הצגת כל היתרי הבנייה הרלוונטיים</li><li>חתימת הסכם ההלוואה המלא</li><li>ויתור על כל שעבוד קיים</li><li>הצגת אישור עו\"ד בעניין כשירות הלווה</li></ul><p><strong>אי-עמידה:</strong> אם CP לא מתקיים עד לתאריך הסגירה, המלווה אינו חייב לשחרר כספים ורשאי לבטל את ההתקשרות בהתאם לתנאי ה-Term Sheet.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-CMP-Q03",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מתרחש ב-Financial Close (סגירה פיננסית) של עסקת מימון נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Financial Close הוא 'שעת האמת' — כל מסמך חייב להיות על השולחן. מנהל אשראי שמגיע לסגירה ויש CP שחסר — יש לו בעיה. הגישה הנכונה היא לעקוב אחר כל CP מהיום הראשון ולא לגלות חריגות שבוע לפני הסגירה.",
+    "topic_tags": ["financial_close", "drawdown", "conditions_precedent"],
+    "options": [
+      {
+        "text_he": "מועד בו כל ה-Conditions Precedent מאושרים, המסמכים חתומים, הבטוחות רשומות וכספי ההלוואה משוחררים ללווה לראשונה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מועד בו ועדת האשראי מאשרת עקרונית את ההלוואה לפני תחילת ה-Due Diligence",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אישור ועדת האשראי קודם ל-Financial Close; ה-Financial Close הוא שלב מאוחר יותר לאחר השלמת כל הבדיקות"
+      },
+      {
+        "text_he": "מועד בו הנכס נרשם בטאבו על שם הלווה לאחר השלמת עסקת רכישה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רישום בטאבו הוא לרוב Condition Precedent — תנאי לסגירה, לא עצם ה-Financial Close"
+      },
+      {
+        "text_he": "מועד בו ה-Term Sheet נחתם על ידי שני הצדדים ומתחיל שלב בדיקת הנאותות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חתימת Term Sheet היא תחילת התהליך; Financial Close הוא סיום התהליך בשחרור כספים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Financial Close — שלבים:</strong></p><ol><li><strong>אימות CPs</strong> — בדיקה שכל Conditions Precedent מולאו: משכנתא רשומה, ביטוחים בתוקף, מסמכים משפטיים חתומים</li><li><strong>חתימת הסכם ההלוואה המלא</strong> — הסכם מפורט הכולל כל התנאים, Covenants, Events of Default ונהלי פירעון</li><li><strong>שחרור קרן ראשונית (Initial Drawdown)</strong> — העברת הכסף לחשבון הלווה או ישירות לחשבון נאמנות</li><li><strong>הפעלת ניטור שוטף</strong> — מינוי Loan Monitoring שמבקר קיום Covenants לאורך חיי ההלוואה</li></ol><p><strong>חשיבות:</strong> Financial Close הוא נקודת אל-חזור — לאחריו המלווה מחויב לסכום ההלוואה. לכן כל בעיה שנגלית לפני Financial Close חייבת לקבל מענה לפני שחרור הכסף.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-CMP-Q04",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל המרכזי בין Due Diligence על נכס מניב לבין Due Diligence על נכס בפיתוח (פרויקט ייזום)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בנכס מניב הכל קיים — ניתן לבדוק הכנסות היסטוריות, חוזי שכירות, תפוסה בפועל. בייזום — כל המספרים הם תחזיות. DD על ייזום הוא תרגיל של 'כמה אנחנו בוטחים בתחזיות האלה' ופחות 'אימות עובדות'.",
+    "topic_tags": ["due_diligence", "income_producing", "development", "construction_risk"],
+    "options": [
+      {
+        "text_he": "בנכס מניב — DD מאמת הכנסות ותפוסה קיימות; בפרויקט פיתוח — DD בוחן תכנון, היתרים, עלויות בנייה, לוח זמנים ומהימנות תחזיות המכירה/השכרה העתידיות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין הבדל מהותי — שני סוגי ה-DD בודקים בעלות, שעבודים ודו\"חות כספיים באמצעות אותה מתודולוגיה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל מהותי — נכס מניב כולל נתוני ביצוע היסטוריים; ייזום מבוסס כמעט לחלוטין על תחזיות ולכן דורש בדיקות שונות לחלוטין"
+      },
+      {
+        "text_he": "בנכס מניב ה-DD מתמקד בשוכרים בלבד; בפרויקט פיתוח ה-DD מתמקד ביזם בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ב-DD של נכס מניב בודקים גם את הנכס, ה-LTV, ה-DSCR ועוד; ה-DD על ייזום בודק הרבה מעבר ליזם"
+      },
+      {
+        "text_he": "בנכס מניב ה-DD קצר יותר כי הנכס כבר קיים; בפרויקט פיתוח ה-DD ארוך יותר בגלל מורכבות ההיתרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל אינו רק בזמן אלא בתוכן ובמהות — בדיקת נתונים קיימים מול אימות תחזיות עתידיות; ה-DD על ייזום שונה מהותית ולא רק ארוך יותר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>השוואת DD: מניב מול ייזום:</strong></p><table><tr><th>תחום</th><th>נכס מניב</th><th>פרויקט ייזום</th></tr><tr><td>הכנסות</td><td>בדיקת חוזי שכירות קיימים, תפוסה בפועל, היסטוריה</td><td>בדיקת ניתוח שוק, תחזית מחירים, הסכמי מכירה מראש (Pre-Sale)</td></tr><tr><td>פיזי</td><td>מצב קיים, ליקויים, גיל הנכס</td><td>תכנון, היתרים, בחירת קבלן, לוח זמנים לבנייה</td></tr><tr><td>סיכון עיקרי</td><td>הפחתת הכנסות / ירידת ערך שוק</td><td>סיכון בנייה (עלויות/לוח זמנים/ביצוע) וסיכון שוק (מחיר מכירה בעת השלמה)</td></tr><tr><td>רגישות תחזיות</td><td>בינונית — יש עוגן היסטורי</td><td>גבוהה — כל המספרים עתידיים</td></tr></table>"
+  },
+  {
+    "question_id_external": "C06-M06-PRX-Q01",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>להלן רשימת פריטים שנאספו לקראת סגירת הלוואת נדל\"ן על מרכז מסחרי:</p><ol><li>נסח טאבו עדכני</li><li>חוזי שכירות של כלל השוכרים</li><li>דו\"חות כספיים של הלווה לשנתיים האחרונות</li><li>תוכנית אב תכנונית מהעירייה</li><li>אישור מיסוי מקרקעין</li></ol><p>זהה שני פריטים קריטיים שחסרים לפני Financial Close.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שמאות עצמאית וביטוח נכס — אלו שני הפריטים שאני בודק ראשון בכל DD. שמאות כי היא עוגן ה-LTV שלי, וביטוח כי אם הנכס נשרף מחר — אין לי בטוחה. שניהם תמיד חסרים ברשימות ה-DD של ייזמים מתחילים.",
+    "topic_tags": ["due_diligence_checklist", "appraisal", "insurance", "conditions_precedent"],
+    "options": [
+      {
+        "text_he": "שמאות עצמאית (Independent Appraisal) ופוליסת ביטוח רכוש — השמאות אינה מוזכרת ברשימה וה-LTV לא ניתן לחישוב; ביטוח נכס הוא CP בסיסי שחסר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בדיקה טכנית (Technical DD) ואישור בנק ישראל — Technical DD חסר ואישור רגולטורי נדרש לכל הלוואה מעל 5 מיליון ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'אישור בנק ישראל' אינו CP נדרש פר-עסקה; Technical DD אמנם חסר, אולם שמאות עצמאית וביטוח הרכוש הם הפריטים הקריטיים יותר"
+      },
+      {
+        "text_he": "ערבות אישית של הלווה וחוזה ניהול הנכס — שניהם נדרשים לפני כל סגירת עסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית וחוזה ניהול הם תנאים שנקבעים לפי נסיבות כל עסקה; שמאות עצמאית וביטוח הנכס הם פריטים בסיסיים שלעולם לא נעדרים"
+      },
+      {
+        "text_he": "נסח רישום היסטורי ואישור ממינהל מקרקעי ישראל — נדרשים לאימות בעלות מלאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נסח טאבו עדכני כבר קיים ברשימה; הפריטים הקריטיים החסרים הם שמאות עצמאית וביטוח נכס"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שני הפריטים הקריטיים החסרים:</strong></p><ol><li><strong>שמאות עצמאית (Independent Appraisal)</strong> — ללא שמאות, המלווה אינו יודע את שווי הנכס ואינו יכול לחשב LTV. זהו הבסיס לכל מבנה האשראי. נסח טאבו מוכיח בעלות אך לא שווי.</li><li><strong>פוליסת ביטוח רכוש (Property Insurance)</strong> — הנכס הוא הבטוחה; אם הוא נהרס ואין ביטוח, המלווה מאבד את בטחונותיו. ביטוח נכס הוא CP בסיסי בכל הלוואת נדל\"ן.</li></ol><p><strong>מה כן קיים ברשימה:</strong> נסח טאבו (בעלות), חוזי שכירות (הכנסות), דו\"חות כספיים (מצב לווה), תוכנית אב (תכנון), אישור מס (ניקיון חבויות). כל אלו חשובים אך אינם מספיקים ללא השמאות והביטוח.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-PRX-Q02",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג שמאות מטעמו של 25,000,000 ₪ לנכס מניב. שמאי עצמאי מטעם המלווה מעריך את הנכס ב-21,250,000 ₪ — פחות ב-15%. הלוואה המבוקשת היא 16,000,000 ₪. מה עושה המלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תמיד עובדים עם שמאות ה-Lower — זה העיקרון הבסיסי. יזם תמיד 'מאמין' שהנכס שלו שווה יותר; השמאי העצמאי מטעמנו הוא הפילטר. אם הלווה לא מוכן לקבל את שמאות המלווה — זה איתות אזהרה על העסקה כולה.",
+    "topic_tags": ["appraisal_shortfall", "ltv", "loan_sizing", "lender_response"],
+    "options": [
+      {
+        "text_he": "משתמש בשמאות השמרנית של 21,250,000 ₪ לחישוב LTV; בודק אם ההלוואה של 16,000,000 ₪ עומדת במגבלת ה-LTV המאושרת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ממוצע שתי השמאויות: (25,000,000 + 21,250,000) ÷ 2 = 23,125,000 ₪ — ומשתמש בממוצע לחישוב LTV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע שמאויות אינו מקובל; המלווה תמיד מאמץ את השמאות השמרנית (Lower of Two) כדי להגן על עמדת ה-LTV שלו"
+      },
+      {
+        "text_he": "מקבל את שמאות היזם כי היא גבוהה יותר ומייצגת פוטנציאל שוק; מתנה אישור בהמצאת חוות דעת שנייה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מלווה אחראי לעולם לא מאמץ שמאות גבוהה יותר — הוא הכין שמאות עצמאית בדיוק כדי לבדוק את שמאות היזם"
+      },
+      {
+        "text_he": "מבטל את ההלוואה אוטומטית כי כל סטייה מעל 10% בין שתי שמאויות מהווה סיבה לסירוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביטול אוטומטי אינו המדיניות הנכונה; המלווה מחשב LTV על בסיס שמאות שמרנית ובוחן אם ההלוואה עדיין מאושרת בגבולות הפרמטרים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כלל: Lower of Two Appraisals</strong></p><p>מלווה תמיד עובד עם השמאות הנמוכה יותר לחישוב LTV.</p><p><strong>חישוב בדוגמה זו:</strong></p><ul><li>שמאות מאושרת: <strong>21,250,000 ₪</strong></li><li>הלוואה מבוקשת: 16,000,000 ₪</li><li>LTV = 16,000,000 ÷ 21,250,000 = <strong>75.3%</strong></li></ul><p>אם מדיניות המלווה היא LTV מקסימלי 70% — ההלוואה המקסימלית היא 21,250,000 × 70% = 14,875,000 ₪. המלווה יציע ללווה הפחתה של 1,125,000 ₪ מהסכום המבוקש.</p><p>אם LTV מקסימלי הוא 75% — ההלוואה המקסימלית היא 15,937,500 ₪ — עדיין נמוכה מהמבוקש. הלווה יתבקש להגדיל הון עצמי.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-PRX-Q03",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>להלן רשימת Conditions Precedent לסגירת עסקה. ביום הסגירה המתוכנן, בדוק אילו CPs עדיין לא מולאו:</p><ol><li>הסכם הלוואה חתום ✓</li><li>נסח טאבו ללא שעבודים ✓</li><li>פוליסת ביטוח רכוש — בתהליך חידוש, תהיה מוכנה בעוד 3 ימים</li><li>רישום משכנתא ראשונה בדרגה א' — הוגשה לטאבו לפני שבוע, צפויה להירשם בעוד 10 ימים</li><li>ערבות אישית של בעל מניות ✓</li></ol><p>מה המלווה עושה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שני CPs פתוחים — ביטוח ומשכנתא. שניהם קריטיים ולא ניתן לוותר עליהם. מלווה מנוסה לפעמים ישחרר כספים ל-Escrow (נאמנות) שיוחזק עד לרישום המשכנתא, אבל ביטוח — לא; כסף לא יוצא ללא ביטוח.",
+    "topic_tags": ["conditions_precedent", "financial_close", "mortgage_registration"],
+    "options": [
+      {
+        "text_he": "CPs 3 ו-4 לא מולאו — ביטוח ורישום משכנתא חסרים; המלווה נמנע משחרור כספים עד לסגירת שני הפריטים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "CP 4 בלבד חסר — הגשת הבקשה לטאבו מספיקה לצורך Financial Close; יש לחכות רק לביצוע בפועל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגשת בקשה אינה רישום; המלווה מחייב שהמשכנתא רשומה לפני שחרור כספים — לא רק שהוגשה בקשה"
+      },
+      {
+        "text_he": "לא קיימת בעיה — לשני הפריטים יש לוח זמנים ידוע; המלווה ישחרר כספים ויסתמך על ביצוע בשבועיים הקרובים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שחרור כספים ללא ביטוח ורישום משכנתא חושף את המלווה לסיכון מקסימלי — אם הנכס נפגע לפני הביטוח אין כיסוי; אם נרשם שעבוד אחר לפני משכנתא המלווה — הוא יאבד את בכירותו"
+      },
+      {
+        "text_he": "CP 3 בלבד חסר — ביטוח; רישום המשכנתא כבר הוגש ולכן ה-Lien מוגן מהיום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגשת בקשה לטאבו אינה יוצרת שעבוד מחייב; שעבוד נרשם רק עם השלמת הרישום — עד אז, נושה אחר עשוי להקדים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח מצב CPs ביום הסגירה:</strong></p><ul><li>CP 1 — הסכם הלוואה חתום ✓ — מולא</li><li>CP 2 — נסח טאבו ללא שעבודים ✓ — מולא</li><li>CP 3 — פוליסת ביטוח רכוש ✗ — <strong>חסר</strong></li><li>CP 4 — רישום משכנתא ✗ — <strong>חסר</strong> (הוגשה בקשה, לא נרשמה)</li><li>CP 5 — ערבות אישית ✓ — מולא</li></ul><p><strong>פעולת המלווה:</strong> דחיית Financial Close עד להשלמת שני הפריטים. אלטרנטיבה שמרנית: שחרור לנאמנות (Escrow) שיוחזק עד לרישום המשכנתא, בתנאי שביטוח הרכוש בתוקף מלא.</p><p><strong>הסיכון ברישום לא-מלא:</strong> בין הגשה לרישום, נושים אחרים יכולים לרשום שעבודים בדרגה גבוהה יותר. בישראל הרישום בטאבו קובע את הבכירות.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-PRX-Q04",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מנהל פרויקט פונה למנהל האשראי יומיים לפני מועד Financial Close: «אנחנו תחת לחץ זמנים קשה. היזם חייב את הכסף עד יום ראשון לסגירת עסקת הרכישה. Technical DD עדיין לא הסתיים — המהנדס אמר שיסיים בעוד 5 ימים. אפשר לסגור לפני ה-Technical DD ולקבל את דו\"ח המהנדס בדיעבד?»</p><p>מה התגובה הנכונה של מנהל האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "לחץ זמנים הוא אחד ממניפולציות ה-Due Diligence הנפוצות. 'חייב את הכסף עד יום ראשון' הוא בעיה של היזם — לא של המלווה. מנהל אשראי שמכניע תחת לחץ ומדלג על DD הוא מנהל אשראי שמסכן את המוסד.",
+    "topic_tags": ["technical_dd", "pressure", "financial_close", "credit_discipline"],
+    "options": [
+      {
+        "text_he": "סירוב — Technical DD הוא תנאי קדם לסגירה; קבלת דו\"ח בדיעבד אינה בדיקת נאותות; הסגירה נדחית עד לסיום הבדיקה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אישור עם Escrow — 10% מהלוואה מוחזקים בנאמנות עד לקבלת דו\"ח המהנדס תוך 5 ימים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Escrow מועיל לבעיות פרוצדורליות ידועות; Technical DD שטרם הושלם עשוי לגלות ליקויים מהותיים — 10% לא יכסה נזק כזה"
+      },
+      {
+        "text_he": "אישור מלא — היזם אחראי לנכס, ולכן ממצאי Technical DD הם בסיכונו; אם ייגלו ליקויים הם יתוקנו על חשבונו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Technical DD נועד להגן על המלווה — ליקויים מהותיים עשויים לפגוע בשווי הנכס ובשמאות, ואז ה-LTV של המלווה כבר לא תקף"
+      },
+      {
+        "text_he": "אישור מותנה — הכסף משתחרר בלוויית התחייבות חתומה של היזם לתקן כל ממצא ב-Technical DD תוך 30 יום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; התחייבות לתיקון בדיעבד אינה תחליף ל-DD; ממצא חמור (לדוגמה: ליקויי בנייה מבניים) עשוי לדרוש הפחתה בסכום ההלוואה — ולזה אין תרופה לאחר שהכסף שוחרר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>התשובה הנכונה: דחיית הסגירה עד לסיום Technical DD.</strong></p><p><strong>מדוע לא ניתן לדלג:</strong></p><ul><li>Technical DD עשוי לגלות ליקויים מהותיים (רטיבות, שיקוע יסודות, מערכות מתיישנות) שיפחיתו את שווי הנכס</li><li>שמאות המלווה מניחה שהנכס במצב תקין — ממצא חמור יאיין אותה ויפגע ב-LTV</li><li>לאחר שחרור כספים אין סעד אפקטיבי — 'התחייבות לתיקון' קשה לאכיפה</li></ul><p><strong>כיצד לנהל את המצב:</strong></p><ol><li>הסבר ליזם שה-DD הוא CP מחייב ואינו ניתן לדחייה</li><li>הצע דחייה של 5 ימים לביצוע הסגירה</li><li>אם היזם לא יכול לדחות — זו בעיית מימון שלו, לא של המלווה</li></ol><p><strong>עיקרון מנחה:</strong> לחץ זמנים מצד הלווה אינו סיבה לוותר על הגנות בסיסיות. מנהל אשראי שמכניע בפני לחצים אלו מסכן את ספר האשראי.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-PRX-Q05",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שמאי עצמאי מטעם המלווה העריך נכס מניב ב-18,000,000 ₪. היזם הציג שמאות של 22,000,000 ₪. ההלוואה המבוקשת היא 15,000,000 ₪ והמדיניות מגבילה ל-LTV מקסימלי 70%. חשב: (א) את ה-LTV בפועל לפי שמאות המלווה; (ב) את ההלוואה המקסימלית לפי המדיניות; (ג) בכמה יש להקטין את ההלוואה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "תמיד Lower of Two. ה-LTV נבנה על השמאות השמרנית, לא על ממוצע ולא על שמאות הלווה. פה מדובר בפער של 4 מיליון ₪ בין שתי שמאויות — פער כה גדול מחייב שאלות לגבי המתודולוגיה של שמאי היזם.",
+    "topic_tags": ["ltv_calculation", "appraisal_shortfall", "loan_sizing"],
+    "options": [
+      {
+        "text_he": "(א) LTV = 83.3%; (ב) הלוואה מקסימלית = 12,600,000 ₪; (ג) הפחתה נדרשת = 2,400,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) LTV = 75%; (ב) הלוואה מקסימלית = 14,000,000 ₪; (ג) הפחתה = 1,000,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה מבוסס על שמאות ממוצעת (20,000,000 ₪) — מלווה עובד עם שמאות השמרנית בלבד (18,000,000 ₪)"
+      },
+      {
+        "text_he": "(א) LTV = 68.2%; (ב) הלוואה מקסימלית = 15,400,000 ₪; (ג) אין צורך בהפחתה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה מבוסס על שמאות הגבוהה של היזם (22,000,000 ₪) — שיטה שגויה לחלוטין"
+      },
+      {
+        "text_he": "(א) LTV = 83.3%; (ב) הלוואה מקסימלית = 12,600,000 ₪; (ג) הפחתה נדרשת = 3,400,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-LTV וההלוואה המקסימלית נכונים, אך הפחתה = 15,000,000 − 12,600,000 = 2,400,000 ₪ ולא 3,400,000 ₪"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלבי החישוב:</strong></p><p><strong>(א) LTV לפי שמאות המלווה (Lower of Two):</strong></p><ul><li>שמאות מאושרת: 18,000,000 ₪</li><li>LTV = 15,000,000 ÷ 18,000,000 = <strong>83.3%</strong> — חורג ממגבלת 70%</li></ul><p><strong>(ב) הלוואה מקסימלית לפי מדיניות:</strong></p><ul><li>LTV מקסימלי = 70%</li><li>הלוואה מקסימלית = 18,000,000 × 70% = <strong>12,600,000 ₪</strong></li></ul><p><strong>(ג) הפחתה נדרשת:</strong></p><ul><li>15,000,000 − 12,600,000 = <strong>2,400,000 ₪</strong></li></ul><p><strong>השלכות:</strong> הלווה יתבקש להוסיף 2,400,000 ₪ הון עצמי, לספק בטוחה נוספת, או להסכים לסכום הלוואה מופחת. אם הוא אינו יכול — העסקה לא תתקדם.</p>"
+  },
+  {
+    "question_id_external": "C06-M06-PRX-Q06",
+    "course_number": 6,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>במהלך Legal DD על נכס מניב שמיועד לשמש כבטוחה להלוואה של 20,000,000 ₪, עורך הדין מגלה: (א) שעבוד לא-רשום לטובת ספק ציוד בסך 1,200,000 ₪ שלא דווח על ידי הלווה; (ב) תביעה שטרם נרשמה בטאבו מצד דייר לשעבר. תאר את מלוא תגובת המלווה.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "שעבוד לא-מדווח הוא דגל אדום על הכנות הלווה — אולי שגגה, אולי הסתרה מכוונת. בכל מקרה, מלווה חייב להקפיא את התהליך, לחקור ולדרוש ניקיון מלא לפני כל שחרור. לא מדובר רק בסיכון משפטי — זה סיכון לאמינות הלווה.",
+    "topic_tags": ["legal_dd", "undisclosed_lien", "lender_response", "conditions_precedent"],
+    "options": [
+      {
+        "text_he": "הקפאת תהליך הסגירה; דרישת גילוי מלא מהלווה; ויתור חתום של ספק הציוד; בירור מלא של התביעה; בחינה מחודשת של נאמנות הלווה ושינויים אפשריים בתנאי ההלוואה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המשך העסקה בכפוף לרישום שעבוד בכיר של המלווה; 1,200,000 ₪ הוא סכום קטן ביחס ל-20,000,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גודל השעבוד אינו העניין — העניין הוא שהלווה לא דיווח עליו; זה פגם באמינות שחייב בירור לפני שנמשכים"
+      },
+      {
+        "text_he": "ניכוי 1,200,000 ₪ מסכום ההלוואה כ-Escrow עד שהשעבוד יוסר; המשך בתהליך הסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Escrow אינו פיתרון — השעבוד עדיין קיים ועשוי להגביר את תביעות הנשייה על הנכס; יש לדרוש הסרה מוחלטת לפני הסגירה"
+      },
+      {
+        "text_he": "ביטול מיידי של העסקה כי כל שעבוד לא-מדווח מהווה הוכחה להונאה ומחייב סגירת תיק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביטול מיידי הוא מוגזם לפני בירור — ייתכן שמדובר בהשמטה בתום לב; נדרש תהליך בירור לפני החלטה סופית; ביטול הוא אופציה אחרונה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תגובת המלווה לממצאי Legal DD:</strong></p><p><strong>שלב 1 — הקפאה מיידית:</strong> הפסקת כל ההכנות לסגירה עד לבירור הממצאים.</p><p><strong>שלב 2 — בירור השעבוד הלא-רשום:</strong></p><ul><li>דרישת הסבר בכתב מהלווה: מדוע לא דווח? מתי נוצר? האם ידע?</li><li>דרישת ויתור (Waiver/Release) חתום ומאושר מספק הציוד על כל תביעה</li><li>בדיקת נסח טאבו עדכני לאחר הסרת השעבוד</li></ul><p><strong>שלב 3 — בירור התביעה:</strong></p><ul><li>הפנייה לעורך הדין לקבל עותק מלא של כתב התביעה</li><li>הערכת סכום הסיכון ועמדת הלווה</li><li>קביעה: האם התביעה מהותית דיה כדי לדרוש הגבלה נוספת?</li></ul><p><strong>שלב 4 — בחינה מחודשת של האשראי:</strong></p><ul><li>האם הלווה מהימן? ממצא של שעבוד מוסתר חייב להוביל להחמרה בתנאים</li><li>שיקול: הגדלת ריבית (Risk Premium), הוספת Covenants, הקטנת סכום ההלוואה, דרישת ערבות נוספת</li></ul>"
+  }
+]

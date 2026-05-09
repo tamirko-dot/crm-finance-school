@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C06-M01-CMP-Q01",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו \"מחסנית ההון\" (Capital Stack) בעסקת נדל\"ן ומי נושא את ההפסד הראשון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מחסנית ההון היא ה-DNA של כל עסקת מימון נדל\"ן — היא קובעת מי מרוויח ראשון, מי נפגע ראשון, ומי שולט בנכס בתרחיש כישלון. הבנת המחסנית היא תנאי בסיסי לכל ניתוח אשראי בתחום.",
+    "topic_tags": ["capital_stack", "loss_waterfall", "deal_structure"],
+    "options": [
+      {
+        "text_he": "מחסנית ההון היא מבנה השכבות המממנות פרויקט נדל\"ן: חוב בכיר, חוב נחות (מזנין), והון עצמי. ההון העצמי נמצא בתחתית המחסנית ונושא בהפסד הראשון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מחסנית ההון היא ההון העצמי של היזם בלבד; בנק הממן עסקה אינו חלק מהמחסנית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המחסנית כוללת את כל שכבות המימון — חוב בכיר, מזנין והון עצמי כאחד"
+      },
+      {
+        "text_he": "בעסקת נדל\"ן נושא המלווה הבכיר בהפסד הראשון כי הוא הגדול ביותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההפסד הראשון נופל תמיד על ההון העצמי — כרית הביטחון לכל שאר הנושים"
+      },
+      {
+        "text_he": "מחסנית ההון רלוונטית רק לקרנות נדל\"ן גדולות ולא לפרויקטי יזמות רגילים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל עסקת נדל\"ן ממומנת — בכל קנה מידה — מכילה מחסנית הון, גם אם היא פשוטה (חוב + הון)"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מחסנית ההון (Capital Stack)</strong> מתארת את השכבות המממנות פרויקט נדל\"ן, מסודרות לפי עדיפות בקבלת תשלומים ובנשיאת הפסדים:</p><ul><li><strong>חוב בכיר (Senior Debt)</strong> — ראשון בקבלת ריבית וקרן, אחרון בספיגת הפסד</li><li><strong>חוב מזנין (Mezzanine)</strong> — אמצע; נחות לבכיר, בכיר לאקוויטי</li><li><strong>הון עצמי (Equity)</strong> — ראשון בספיגת הפסד, אחרון בקבלת תשואה</li></ul><p><strong>עיקרון ה-First Loss:</strong> ההון העצמי הוא כרית ביטחון עבור כל המלווים. ירידת ערך הנכס פוגעת קודם כל בהון היזם.</p>"
+  },
+  {
+    "question_id_external": "C06-M01-CMP-Q02",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו LTV לפי טרנש (LTV by Tranche) וכיצד הוא שונה מ-LTV כולל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "LTV לפי טרנש חשוב כי הוא מספר לנו כמה כרית ביטחון ספציפית יש לכל שכבת חוב. מלווה בכיר עם LTV של 60% נמצא במצב שונה לחלוטין ממלווה שני עם LTV מצטבר של 80%.",
+    "topic_tags": ["ltv_by_tranche", "capital_stack", "senior_debt"],
+    "options": [
+      {
+        "text_he": "LTV לפי טרנש מחשב את ה-LTV המצטבר עד אותה שכבה בלבד. LTV בכיר = חוב בכיר ÷ שווי נכס; LTV מצטבר = (חוב בכיר + מזנין) ÷ שווי נכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV לפי טרנש זהה ל-LTV הכולל — כי כל השכבות מובטחות באותו נכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לכל שכבה יש LTV מצטבר שונה; מלווה מזנין 'רואה' LTV גבוה יותר ממלווה בכיר"
+      },
+      {
+        "text_he": "LTV לפי טרנש מחלק את הנכס לחלקים — חלק ראשון שייך לבנק, חלק שני ליזם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנכס שייך ליזם (SPV) כולו; הטרנשים מתייחסים לשכבות החוב, לא לחלקי הנכס"
+      },
+      {
+        "text_he": "LTV לפי טרנש רלוונטי רק כשיש יותר מבנק אחד בעסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם כשבנק אחד מממן שתי שכבות שונות (בכיר + מזנין), ניתן לחשב LTV לכל שכבה בנפרד"
+      }
+    ],
+    "explanation_html_he": "<p><strong>LTV לפי טרנש — דוגמה:</strong></p><ul><li>שווי נכס: 20 מיליון ₪</li><li>חוב בכיר: 12 מיליון ₪ → LTV בכיר = 60%</li><li>חוב מזנין: 3 מיליון ₪ → LTV מצטבר (Senior + Mez) = 75%</li><li>הון עצמי: 5 מיליון ₪ → LTV כולל = 75%</li></ul><p><strong>משמעות:</strong> המלווה הבכיר מוגן עד ירידת ערך של 40%; המלווה המזנין מוגן רק עד ירידה של 25%. ההפרש ב-LTV בין הטרנשים מבטא את הסיכון היחסי של כל שכבה.</p>"
+  },
+  {
+    "question_id_external": "C06-M01-CMP-Q03",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו מסמכים עיקריים נחתמים בסגירת עסקת נדל\"ן ממומנת, ומה תפקיד כל אחד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מסמכי הסגירה הם המפת הדרכים המשפטית של העסקה. אנליסט אשראי חייב להכיר אותם גם אם אינו עורך דין — הם קובעים מה קורה כשהדברים משתבשים.",
+    "topic_tags": ["closing_documents", "loan_agreement", "mortgage", "deal_structure"],
+    "options": [
+      {
+        "text_he": "הסכם הלוואה (Loan Agreement), שטר משכנתא, הסכם ערבות, הסכם בין-נושים (Intercreditor) — כל מסמך מסדיר היבט אחר של מערכת היחסים בין הצדדים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בסגירה נחתם מסמך יחיד — שטר המשכנתא — שמסדיר הכל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עסקאות ממומנות כוללות מסמכים מרובים: הסכם הלוואה, שעבודים, ערבויות, Intercreditor ועוד"
+      },
+      {
+        "text_he": "הסכם הלוואה וחוזה הרכישה הם אותו מסמך המוגש לרשם המקרקעין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסכם הלוואה הוא מסמך בין הלווה למלווה; חוזה רכישה הוא בין מוכר לקונה — מסמכים שונים לחלוטין"
+      },
+      {
+        "text_he": "מסמכי הסגירה כוללים רק ניירות ערך; הבטחונות נרשמים בנפרד לאחר הסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רישום הבטחונות (משכנתא, שעבוד) הוא חלק אינטגרלי מתנאי הסגירה ומתבצע בסמוך אליה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מסמכי סגירה עיקריים בעסקת נדל\"ן ממומנת:</strong></p><ul><li><strong>הסכם הלוואה (Loan Agreement):</strong> תנאי ההלוואה — סכום, ריבית, לוח סילוקין, ברירות מחדל, covenants</li><li><strong>שטר משכנתא:</strong> רישום שעבוד ראשון על הנכס בטאבו; בטחון ריאלי ראשי</li><li><strong>הסכם ערבות (Guarantee):</strong> ערבות אישית של היזם/בעל השליטה לפירעון ההלוואה</li><li><strong>הסכם בין-נושים (Intercreditor Agreement):</strong> בעסקות רב-שכבתיות — מסדיר עדיפות, שקט מזנין, זכויות אכיפה</li><li><strong>שעבוד מניות (Share Pledge):</strong> שעבוד מניות ה-SPV כביטחון נוסף</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M01-CMP-Q04",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהן תפקידיהם השונים של היזם, הבנק המלווה, ומשקיע המזנין בעסקת פיתוח נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "כל שחקן בעסקה מגיע עם אינטרסים שונים ולעיתים מנוגדים. הבנה עמוקה של מה כל צד רוצה ומה הוא מפחד ממנו — היא כלי ניתוח רב-ערך לאנליסט.",
+    "topic_tags": ["deal_parties", "developer", "senior_lender", "mezzanine_lender"],
+    "options": [
+      {
+        "text_he": "היזם מביא את הרעיון, הקרקע וההון העצמי ונוטל את רוב הסיכון. הבנק הבכיר מממן את מרבית הפרויקט תמורת ריבית קבועה עם עדיפות ראשונה. משקיע המזנין ממלא את הפער בין הלוואה בכירה להון עצמי בתמורה לתשואה גבוהה יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "היזם והבנק הם שותפים שווים בעסקה; הרווח מחולק ביניהם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבנק הוא מלווה בלבד ולא שותף; הוא מקבל ריבית, לא חלק ברווח"
+      },
+      {
+        "text_he": "משקיע המזנין הוא תמיד בנק מסחרי נוסף; לא ניתן שיהיה קרן השקעות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מימון מזנין ניתן על ידי קרנות מזנין פרטיות, משקיעים מוסדיים וחברות ביטוח — לא רק בנקים"
+      },
+      {
+        "text_he": "הבנק הבכיר הוא הנושא הראשי בסיכון הפרויקט בשל גודל מימונו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבנק הבכיר נמצא בעדיפות ראשונה בפירעון ומוגן על ידי ההון העצמי והמזנין — הוא בדרך כלל נושא פחות סיכון יחסית לשכבה שמתחתיו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שחקני העסקה ותפקידיהם:</strong></p><ul><li><strong>יזם (Sponsor/Developer):</strong> יוזם, מביא קרקע/עסקה, מנהל את הפרויקט, מספק הון עצמי. נהנה מ-Upside ונושא ב-Downside ראשון</li><li><strong>מלווה בכיר (Senior Lender):</strong> בנק מסחרי, כ-50-65% מהמחסנית. תשואה קבועה ונמוכה, עדיפות ראשונה בפירעון ובאכיפת בטחונות</li><li><strong>משקיע מזנין (Mezzanine Investor):</strong> קרן מזנין / משקיע פרטי. ממלא פער מימוני, תשואה גבוהה (8-15%), עדיפות על הון אך נחות לחוב בכיר. לעיתים מקבל Equity Kicker</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M01-PRX-Q01",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט נדל\"ן ששוויו 30 מיליון ₪ מומן כך: חוב בכיר 18 מיליון ₪, הלוואת מזנין 4.5 מיליון ₪, הון עצמי 7.5 מיליון ₪. חשבו את ה-LTV של כל טרנש ואת ה-LTV המצטבר, וזהו את עדיפות ההפסד.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חישוב LTV לפי טרנש הוא הכלי הבסיסי להבנת הסיכון של כל שכבה. כל פעם שאתם רואים מחסנית הון — עצרו וחשבו: מה ה-LTV המצטבר של כל שכבה?",
+    "topic_tags": ["ltv_by_tranche", "capital_stack", "loss_priority"],
+    "options": [
+      {
+        "text_he": "LTV בכיר = 60%; LTV מצטבר (כולל מזנין) = 75%; ההפסד נופל תחילה על ההון העצמי (7.5M ₪), אחר כך על המזנין, ולבסוף על החוב הבכיר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV בכיר = 75%; LTV מצטבר = 85%; ההפסד נופל תחילה על החוב הבכיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV בכיר = 18÷30 = 60%; LTV מצטבר = (18+4.5)÷30 = 75%; ההפסד נופל תחילה על ההון"
+      },
+      {
+        "text_he": "LTV בכיר = 60%; LTV מזנין = 15%; ההפסד מחולק שווה בין כל השכבות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV המזנין הוא LTV מצטבר (75%), לא LTV שולי; ההפסד אינו מחולק שווה — הוא ספוג לפי עדיפות"
+      },
+      {
+        "text_he": "LTV המחסנית כולה = 25%; ההון העצמי נמצא בראש ולא בתחתית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV המחסנית = (18+4.5)÷30 = 75%; ההון העצמי נמצא בתחתית ונספג ראשון"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב LTV לפי טרנש:</strong></p><ul><li>LTV בכיר = 18M ÷ 30M = <strong>60.0%</strong></li><li>LTV מצטבר (Senior + Mez) = (18+4.5)M ÷ 30M = 22.5÷30 = <strong>75.0%</strong></li><li>הון עצמי = 7.5M = 25% — כרית ביטחון של כל נושי החוב</li></ul><p><strong>סדר ספיגת הפסד:</strong><br>ירידת שווי ראשונה (0-25%) → נספגת על ידי ההון העצמי<br>ירידת שווי 25-40% → פוגעת במזנין<br>ירידת שווי מעל 40% → מתחילה לפגוע בחוב הבכיר</p>"
+  },
+  {
+    "question_id_external": "C06-M01-PRX-Q02",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שווי נכס מסחרי ירד מ-25 מיליון ₪ ל-17 מיליון ₪ (ירידה של 32%). המחסנית: חוב בכיר 13M ₪, מזנין 3M ₪, הון עצמי 9M ₪. איזו שכבה נפגעת ואיך?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תרחיש ירידת ערך הוא ה-stress test המרכזי של כל מחסנית הון. אנליסט אשראי חייב לדעת לגזור מיידית איזו שכבה 'קיבלה מהלומה' ובאיזה גודל.",
+    "topic_tags": ["loss_waterfall", "impairment", "capital_stack"],
+    "options": [
+      {
+        "text_he": "ההון העצמי (9M ₪) נמחק כולו; המזנין (3M ₪) נפגע חלקית — מתוך 3M ₪ נותרים רק 1M ₪; החוב הבכיר (13M ₪) לא נפגע",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כל השכבות נפגעות באחוז שווה של 32%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ספיגת הפסד היא סדרתית — ההון ספוג ראשון, רק לאחר מחיקתו המזנין מתחיל להיפגע"
+      },
+      {
+        "text_he": "החוב הבכיר נפגע ראשון כי הוא הגדול ביותר (13M ₪)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החוב הבכיר מוגן על ידי כל השכבות שמתחתיו; הוא ייפגע רק אחרי מחיקת ההון והמזנין"
+      },
+      {
+        "text_he": "ירידת הערך (8M ₪) נספגת כולה על ידי ההון העצמי (9M ₪); אין פגיעה בחוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידה = 25M−17M = 8M ₪; הון = 9M — ההון אכן ספג, אבל 8M < 9M אז ההון לא נמחק לגמרי; נותר לו 1M ₪. עם זאת, בחישוב מדויק: שווי חדש 17M, חוב כולל 16M → הון נותר 1M ₪"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong></p><ul><li>שווי חדש: 17M ₪</li><li>לאחר ירידה: חוב בכיר (13M) + מזנין (3M) = 16M ₪ סך חוב</li><li>שווי נכס (17M) פחות חוב כולל (16M) = 1M ₪ → הון נותר: 1M (מתוך 9M מקוריים)</li></ul><p><strong>ניתוח ספיגה:</strong> ירידת שווי = 8M ₪; ספוגה כמעט כולה מהון עצמי (8M מתוך 9M); המזנין עדיין מכוסה; הבכיר לא נפגע כלל.<br><strong>לקח:</strong> ירידה של 36% (עד 16M ÷ 25M) תתחיל לפגוע בחוב — מרחק מסוכן יחסית.</p>"
+  },
+  {
+    "question_id_external": "C06-M01-PRX-Q03",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בעסקת פיתוח למגורים, הסיכון ה\"שיווקי\" (שמכירות הדירות יאחרו) — באיזו שכבת מחסנית הוא יושב בעיקר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "זיהוי היכן יושב סיכון ספציפי במחסנית הוא מיומנות ניתוחית מרכזית. סיכונים שונים מוחזקים על ידי שכבות שונות — לא הכל נופל על ההון.",
+    "topic_tags": ["risk_allocation", "capital_stack", "development_risk"],
+    "options": [
+      {
+        "text_he": "הסיכון השיווקי יושב בעיקר בשכבת ההון העצמי — עיכוב במכירות פוגע ראשון ברווחיות היזם, לפני שמשפיע על מלווים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הסיכון השיווקי יושב בשכבת החוב הבכיר — הבנק הוא שנפגע מעיכוב בפירעון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבנק מוגן על ידי ביטחונות ועדיפות; עיכוב קצר פוגע ביזם, לא בבנק מיידית"
+      },
+      {
+        "text_he": "הסיכון השיווקי מחולק שווה בין כל שכבות המחסנית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקת הסיכון אינה שווה — ההון העצמי הוא ה-First Loss Position ונספג ראשון"
+      },
+      {
+        "text_he": "הסיכון השיווקי אינו קשור למחסנית ההון — הוא סיכון שוק כללי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל סיכון בפרויקט מתורגם בסופו של דבר לסיכון פיננסי שנספג לפי סדר המחסנית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הקצאת סיכון שיווקי במחסנית:</strong></p><p>עיכוב במכירות דירות → תזרים מזומנים פחות → היזם לא מקבל את הרווח שציפה.</p><ul><li>בשלב ראשון: ההון העצמי ספוג — רווחי היזם יורדים</li><li>בשלב שני: אם העיכוב ארוך — הלוואת הבנייה מוארכת, ריבית מצטברת, פוגעת ב-LTV</li><li>בשלב שלישי: אם מכירות נכשלות — הבנק מפעיל ביטחונות</li></ul><p><strong>לקח:</strong> יזם שמציג תחזית מכירות אגרסיבית נושא בסיכון השיווקי; אנליסט הבנק צריך לבחון: כמה כרית הון יש כנגד תרחיש מכירה איטית?</p>"
+  },
+  {
+    "question_id_external": "C06-M01-PRX-Q04",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סדרו את שלבי סגירת עסקת נדל\"ן ממומנת לפי הסדר הנכון: (א) חתימת הסכם הלוואה; (ב) שמאות וניתוח בנקאי; (ג) רישום משכנתא בטאבו; (ד) חתימת חוזה רכישת הנכס; (ה) אישור אשראי פנימי בבנק.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הכרת תהליך הסגירה חשובה לאנליסט כי כל שלב יוצר תלות על השלב הבא. עיכוב בשמאות עלול לדחות את כל הסגירה — לפעמים בעלות כבדה ללווה.",
+    "topic_tags": ["closing_process", "deal_structure", "sequence"],
+    "options": [
+      {
+        "text_he": "ב ← ה ← א ← ד ← ג (שמאות → אישור → הסכם הלוואה → חוזה רכישה → רישום)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ד ← ב ← ה ← א ← ג (חוזה רכישה קודם לשמאות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות ובדיקת נאותות מתבצעות לרוב לפני חתימת חוזה הרכישה הסופי, או כתנאי תלייה"
+      },
+      {
+        "text_he": "א ← ב ← ה ← ד ← ג (הסכם הלוואה חתום לפני שמאות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא ניתן לחתום הסכם הלוואה לפני שהבנק ביצע שמאות ואישור אשראי"
+      },
+      {
+        "text_he": "ג ← א ← ב ← ה ← ד (רישום משכנתא מקדים הכל)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המשכנתא נרשמת לאחר שכל המסמכים נחתמו והכסף עובר — היא השלב האחרון"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סדר שלבי סגירה סטנדרטי:</strong></p><ol><li><strong>שמאות וניתוח בנקאי (ב)</strong> — הבנק מזמין שמאי; מנתח את הפרויקט, הלווה וביטחונות</li><li><strong>אישור אשראי פנימי (ה)</strong> — ועדת אשראי מאשרת תנאים</li><li><strong>חתימת הסכם הלוואה (א)</strong> — תנאים מוסכמים בין הצדדים</li><li><strong>חתימת חוזה רכישה (ד)</strong> — נפוץ ש-א ו-ד מתבצעים במקביל (Simultaneous Closing)</li><li><strong>רישום משכנתא בטאבו (ג)</strong> — תוך ימים ספורים לאחר הסגירה; מאבטח את המלווה</li></ol>"
+  },
+  {
+    "question_id_external": "C06-M01-PRX-Q05",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג מחסנית הון לפרויקט: \"חוב בכיר 75%, מזנין 15%, הון עצמי 10%.\" אנליסט בכיר מציין שיש בעיה מבנית בהצעה. זהו את הבעיה.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "כרית ההון העצמי בפרויקטי יזמות בישראל בדרך כלל נדרשת להיות לפחות 20-25%. הון עצמי של 10% בלבד הוא אזהרה מהותית — לבנק ולמלווה המזנין.",
+    "topic_tags": ["capital_stack", "equity_cushion", "underwriting_standards"],
+    "options": [
+      {
+        "text_he": "הון עצמי של 10% אינו מספיק כרית ביטחון — ירידת ערך של 10% בלבד מוחקת את ההון. LTV מצטבר של 90% גבוה מהנהוג לפרויקטי יזמות בישראל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבעיה היא שהמזנין (15%) גדול מדי ביחס לחוב הבכיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה המרכזית היא הון עצמי נמוך מדי (10%), לא גודל המזנין"
+      },
+      {
+        "text_he": "אין בעיה מבנית; LTV של 90% מקובל בפרויקטי מגורים בישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV מצטבר של 90% אינו מקובל לפרויקטי יזמות; הוא מקובל לעיתים במשכנתאות דיור, לא במימון בנייה"
+      },
+      {
+        "text_he": "הבעיה היא שחוב בכיר של 75% חורג ממגבלת LTV של 70% לנדל\"ן מסחרי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-LTV הבכיר (75%) אכן גבוה, אך הבעיה העמוקה יותר היא כרית ההון הנמוכה (10%) שחושפת גם את המזנין"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הבעיה המבנית:</strong> הון עצמי של 10% יוצר כרית ביטחון זעירה.</p><ul><li>ירידת שווי של 10% → ההון נמחק לחלוטין → המזנין נחשף</li><li>ירידת שווי של 25% → גם המזנין נמחק → החוב הבכיר בסיכון</li><li>LTV מצטבר = 90% — גבוה מאוד לסטנדרט ישראלי</li></ul><p><strong>דרישה סטנדרטית:</strong> בפרויקטי יזמות בישראל, בנקים מסחריים נוהגים לדרוש הון עצמי של לפחות 20% (LTC בכיר ≤ 65-70%). 10% לא יאושר על ידי ועדת אשראי של בנק ממוסד.</p>"
+  },
+  {
+    "question_id_external": "C06-M01-PRX-Q06",
+    "course_number": 6,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>תאור עסקה: \"פרויקט מגורים. מימון: בנק א' נתן הלוואת בנייה של 50 מיליון ₪; קרן מזנין נתנה 10 מיליון ₪; היזם הביא 15 מיליון ₪ הון עצמי. לא נחתם הסכם בין-נושים.\" זהו את השגיאה המבנית.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הסכם בין-נושים הוא לא 'nice-to-have' — הוא הגדרת חוקי המשחק בין המלווים. בלעדיו, בתרחיש כישלון, כל מלווה יפעל לבד ויגרום לכאוס שמזיק לכולם.",
+    "topic_tags": ["intercreditor_agreement", "deal_structure", "mezzanine"],
+    "options": [
+      {
+        "text_he": "היעדר הסכם בין-נושים (Intercreditor Agreement) הוא השגיאה המבנית הקריטית — בלעדיו אין הסדרה של עדיפויות, זכויות אכיפה ו'שקט מזנין' (Standstill) בתרחיש חדלות פירעון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "השגיאה היא שחוב בכיר (50M) גדול מדי ביחס להון (15M)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-LTC לפרויקט סביר (76%); הבעיה המבנית היא היעדר הסכם בין-נושים, לא יחס החוב"
+      },
+      {
+        "text_he": "השגיאה היא שקרן מזנין לא יכולה להשתתף בפרויקט שבו יש בנק מסחרי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיתוף מלווה בכיר ומזנין בפרויקט מקובל לחלוטין; הבעיה היא ההיעדר של הסכמה מסודרת ביניהם"
+      },
+      {
+        "text_he": "אין שגיאה מבנית; שני מלווים יכולים לפעול בפרויקט ללא מסמך משותף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ללא Intercreditor, כל מלווה עלול לאכוף ביטחונות ולפגוע בפירעון למלווה השני — סיכון משמעותי לשני הצדדים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הסכם בין-נושים (Intercreditor Agreement) — מה הוא קובע?</strong></p><ul><li><strong>עדיפות בפירעון:</strong> המלווה הבכיר מקבל כסף לפני המזנין</li><li><strong>Standstill / שקט מזנין:</strong> המזנין מתחייב לא לאכוף ביטחונות למשך תקופה (90-180 יום) לאחר ברירת מחדל, כדי לאפשר לבנק לנהל את המצב</li><li><strong>זכויות Cure:</strong> האם המזנין רשאי לרפא חדלות פירעון לבנק?</li><li><strong>Pay-over:</strong> אם המזנין קיבל תשלום בניגוד לסדר הקדימויות — מחזיר לבנק</li></ul><p><strong>בלי הסכם בין-נושים:</strong> כל מלווה פועל לפי נוחיותו; עלול להגיע לעימות משפטי בזמן הגרוע ביותר.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-CMP-Q01",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מבדיל בין חוב בכיר (Senior Debt) לחוב מזנין (Mezzanine Debt) מבחינת מבנה, עדיפות ותשואה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ההבדל המהותי הוא בסיכון/תשואה: המזנין נוטל על עצמו יותר סיכון (נחות בעדיפות) ולכן דורש תשואה גבוהה יותר. אנליסט חייב לקרוא הסכם מזנין בתשומת לב — הוא מורכב יותר מהסכם הלוואה בכיר.",
+    "topic_tags": ["senior_debt", "mezzanine", "risk_return", "seniority"],
+    "options": [
+      {
+        "text_he": "חוב בכיר — עדיפות ראשונה, ריבית נמוכה (4-7%), מובטח במשכנתא ראשונה. חוב מזנין — עדיפות שנייה, ריבית גבוהה (8-15%), מובטח במשכנתא שנייה או שעבוד מניות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מזנין הוא חוב בכיר שניתן על ידי קרן פרטית; ההבדל הוא רק בזהות המלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל המהותי הוא בעדיפות פירעון ובסיכון — לא בזהות המלווה"
+      },
+      {
+        "text_he": "מזנין הוא תמיד בצורת הון עצמי ולא חוב; הוא מקנה בעלות בנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזנין הוא כלי חוב (debt) הנחות לחוב הבכיר, לא הון עצמי; הוא עלול להכיל Equity Kicker אך אינו הון עצמי בפני עצמו"
+      },
+      {
+        "text_he": "חוב בכיר ומזנין זהים בעדיפות; ההבדל הוא רק בגובה הריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל הקריטי הוא עדיפות בפירעון ובאכיפת ביטחונות — לא רק הריבית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>השוואה: חוב בכיר vs. מזנין</strong></p><table style='width:100%; border-collapse:collapse;'><tr><th>מאפיין</th><th>חוב בכיר</th><th>מזנין</th></tr><tr><td>עדיפות</td><td>ראשונה</td><td>שנייה (נחות)</td></tr><tr><td>ריבית שנתית</td><td>4-7%</td><td>8-15%+</td></tr><tr><td>ביטחון</td><td>משכנתא ראשונה</td><td>משכנתא שנייה / שעבוד מניות</td></tr><tr><td>LTV מצטבר</td><td>50-65%</td><td>65-80%</td></tr><tr><td>סיכון יחסי</td><td>נמוך</td><td>גבוה</td></tr></table><p><strong>עיקרון:</strong> ככל שאתה נמוך יותר במחסנית — אתה דורש יותר תשואה כפיצוי על הסיכון הגבוה יותר.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-CMP-Q02",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ריבית PIK (Payment-In-Kind) ומה הסיכון שהיא יוצרת בחוב מזנין?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "PIK נראה 'ידידותי' ללווה בזמן הבנייה — אין תשלומי מזומן. אבל הוא בגדר 'פצצה מתקתקת': ככל שהזמן עובר, הקרן גדלה בצורה שקשה לשלם בסוף התקופה.",
+    "topic_tags": ["pik_interest", "mezzanine", "compounding_risk"],
+    "options": [
+      {
+        "text_he": "PIK = ריבית שנצברת לקרן במקום להשתלם במזומן. הסיכון: הקרן גדלה בצורה כפולה-מורכבת לאורך הזמן, מה שמגדיל את נטל הפירעון ואת ה-LTV הדינמי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "PIK = ריבית משתנה הנצמדת למדד; הסיכון הוא תנודתיות בתשלום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; PIK = Payment-In-Kind = ריבית שנוספת לקרן; אין לה קשר לריבית צמודה"
+      },
+      {
+        "text_he": "PIK מפחית סיכון כי הלווה אינו צריך לשלם ריבית שוטפת; תזרים המזומנים משתפר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; PIK מיטיב עם הלווה לטווח קצר אך מגדיל את חבות הפירעון הסופית ואת הסיכון לאי-פירעון"
+      },
+      {
+        "text_he": "PIK רלוונטי רק לחוב בכיר ולא נמצא במזנין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; PIK נפוץ דווקא במזנין ובחוב נחות, שם נזילות הלווה מוגבלת בשלב הפיתוח"
+      }
+    ],
+    "explanation_html_he": "<p><strong>PIK (Payment-In-Kind):</strong> במקום לשלם ריבית במזומן, הריבית מתווספת לקרן ההלוואה.</p><p><strong>דוגמה:</strong> הלוואת מזנין של 5M ₪ בריבית PIK 12%:</p><ul><li>שנה 1: קרן = 5M + 0.6M = 5.6M</li><li>שנה 2: קרן = 5.6M + 0.672M = 6.27M</li><li>שנה 3: קרן = 6.27M + 0.75M = 7.02M</li></ul><p><strong>הסיכון:</strong> לאחר 3 שנים, הלווה חייב 7.02M על הלוואה מקורית של 5M. LTV מצטבר עולה. אם הפרויקט לא הניב מספיק, הלווה עומד בפני חוסר יכולת פירעון.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-CMP-Q03",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו הסכם בין-נושים (Intercreditor Agreement) ומה הוראות ה\"שקט\" (Standstill) שהוא קובע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Standstill הוא ה'כלי הניהול' של הבנק הבכיר בתרחיש אשראי. הוא מונע מהמזנין לפגוע בנכס בדיוק בזמן שהבנק צריך שקט כדי לבצע workout.",
+    "topic_tags": ["intercreditor_agreement", "standstill", "senior_lender_rights"],
+    "options": [
+      {
+        "text_he": "הסכם בין-נושים מסדיר יחסי עדיפות, תשלומים ואכיפה בין מלווים. Standstill מחייב את המזנין להימנע מאכיפת ביטחונות לתקופה מוגדרת (בדרך כלל 90-180 יום) לאחר ברירת מחדל, על מנת לאפשר לבנק הבכיר לנהל את המצב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Standstill הוא הסכמת הלווה לא לפרוע הלוואות נוספות לאחר ברירת מחדל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Standstill הוא התחייבות המזנין (לא הלווה) להימנע מאכיפה — כדי שהבכיר ינהל את הפתרון"
+      },
+      {
+        "text_he": "הסכם בין-נושים נחתם רק כשיש יותר משני בנקים בעסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסכם בין-נושים נדרש בכל מבנה עם שכבות חוב שונות — גם אם יש בנק אחד ומלווה מזנין אחד"
+      },
+      {
+        "text_he": "Standstill מחייב את הבנק הבכיר לחכות למזנין לפני שפועל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההיפך הוא הנכון — Standstill מחייב את המזנין לחכות לבנק הבכיר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הסכם בין-נושים — הוראות עיקריות:</strong></p><ul><li><strong>Payment Waterfall:</strong> בנק בכיר מקבל ריבית וקרן לפני המזנין</li><li><strong>Standstill:</strong> בתרחיש Default — המזנין לא יכול לאכוף ביטחוניו למשך 90-180 יום</li><li><strong>Cure Rights:</strong> המזנין רשאי 'לרפא' ברירת מחדל על ידי תשלום לבנק הבכיר</li><li><strong>Purchase Option:</strong> לעיתים המזנין רשאי לרכוש את החוב הבכיר</li><li><strong>Pay-Over:</strong> אם המזנין קיבל תשלום שאינו לפי הסדר, עליו להעבירו לבנק</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M02-CMP-Q04",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי תשואת המטרה של הון עצמי בפרויקטי נדל\"ן לעומת חוב בכיר, ומדוע ההפרש גדול?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ה-IRR של 18-25% שהיזם דורש נראה גבוה — אבל צריך לזכור שאם הפרויקט נכשל, הוא מאבד הכל. ה'פרמיית הסיכון' על ההון עצמי מגלמת הפסד מלא פוטנציאלי.",
+    "topic_tags": ["equity_return", "irr", "risk_premium", "capital_stack"],
+    "options": [
+      {
+        "text_he": "הון עצמי מכוון ל-IRR של 15-25%+ בפרויקטי יזמות; חוב בכיר מסתפק ב-4-7%. ההפרש משקף עדיפות חוב בפירעון — הון עצמי ספוג ראשון ולכן דורש פרמיית סיכון גבוהה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הון עצמי דורש תשואה נמוכה יותר מחוב, כי בעל ההון שולט בנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שליטה בנכס לא מפחיתה סיכון — ההון העצמי עדיין ספוג ראשון ולכן דורש תשואה גבוהה יותר"
+      },
+      {
+        "text_he": "הון עצמי ומזנין מכוונים לאותה תשואה (8-12%) כי שניהם נחותים לחוב הבכיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הון עצמי נמצא בתחתית המחסנית (First Loss) ומכוון לתשואה גבוהה יותר ממזנין"
+      },
+      {
+        "text_he": "בנק בכיר ומשקיע הון שותפים לאותה תשואת מטרה כי שניהם מסכנים כסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תשואת הבנק הבכיר הרבה נמוכה יותר — הוא מוגן על ידי ביטחונות ועדיפות; הסיכון שלהם שונה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תשואות לפי שכבה במחסנית (ישראל, 2024-2025):</strong></p><ul><li><strong>חוב בכיר:</strong> 4-7% (ריבית על הלוואה; תשואה קבועה ומוגנת)</li><li><strong>חוב מזנין:</strong> 8-15% (ריבית גבוהה + לעיתים Equity Kicker)</li><li><strong>הון עצמי:</strong> 15-25%+ IRR (רווח יזמי; תלוי בהצלחת הפרויקט)</li></ul><p><strong>הגיון:</strong> ככל שאתה נמוך יותר במחסנית (First Loss), המשמעות היא שאתה הראשון לספוג הפסד — ולכן צריך תשואה גבוהה יותר כפיצוי. זהו עיקרון ה-Risk-Return Tradeoff הבסיסי.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-PRX-Q01",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט ממומן כך: חוב בכיר 50M ₪ בריבית 5.5%; מזנין 12M ₪ בריבית 13%; הון עצמי 18M ₪ (סך 80M ₪). חשבו את עלות ההון המשוקללת (WACC) של החוב בפרויקט (חוב בכיר + מזנין בלבד).</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עלות הון משוקללת היא הכלי לבחינת כדאיות: אם ה-Cap Rate של הנכס נמוכה מעלות ההון המשוקללת של החוב — הפרויקט בבעיה.",
+    "topic_tags": ["wacc", "blended_cost_of_capital", "capital_stack"],
+    "options": [
+      {
+        "text_he": "עלות חוב משוקללת = (50×5.5% + 12×13%) ÷ (50+12) = (2.75M + 1.56M) ÷ 62M = 4.31M ÷ 62M ≈ 6.95%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עלות חוב משוקללת = (5.5% + 13%) ÷ 2 = 9.25% (ממוצע פשוט)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע פשוט מתעלם ממשקל כל שכבה; עלות משוקללת נותנת משקל גבוה יותר לחוב הבכיר הגדול"
+      },
+      {
+        "text_he": "עלות חוב משוקללת = 13% — כי המזנין מייצג את הסיכון השולי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עלות שולית שונה מעלות משוקללת; לחישוב WACC משתמשים בממוצע משוקלל לפי גודל כל שכבה"
+      },
+      {
+        "text_he": "עלות חוב משוקללת = 5.5% — כי החוב הבכיר הוא הגדול ביותר ולכן קובע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החוב הבכיר משפיע יותר בשל גודלו, אך ריבית המזנין מוסיפה לעלות הכוללת"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב עלות חוב משוקללת:</strong></p><ul><li>חוב בכיר: 50M ₪ × 5.5% = 2.75M ₪ עלות שנתית</li><li>מזנין: 12M ₪ × 13% = 1.56M ₪ עלות שנתית</li><li>סך עלות חוב שנתית = 4.31M ₪</li><li>סך חוב = 62M ₪</li><li><strong>עלות חוב משוקללת = 4.31 ÷ 62 = 6.95%</strong></li></ul><p><strong>פרשנות:</strong> ה-Cap Rate של הנכס חייב להיות מעל 6.95% כדי שהפרויקט יהיה כדאי מבחינת מינוף חיובי (Positive Leverage). אחרת — שירות החוב גבוה מה-NOI.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-PRX-Q02",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>זהו את המאפיין הנכון של חוב מזנין מבין ההצהרות הבאות.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שאלות 'זיהוי מאפיינים' בוחנות אם הבנת את מהות המכשיר ולא רק שמו. חוב מזנין הוא כלי גמיש — ריבית גבוהה, עדיפות נחותה, ולעיתים גם רכיב הוני.",
+    "topic_tags": ["mezzanine", "characteristics", "hybrid_instrument"],
+    "options": [
+      {
+        "text_he": "חוב מזנין מאופיין בריבית גבוהה, נחיתות לחוב בכיר, עדיפות על הון עצמי, ולעיתים כולל Equity Kicker המקנה למלווה אחוז מהרווח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חוב מזנין מאופיין בריבית הנמוכה ביותר במחסנית כי הוא בטוח יותר מהון עצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; למרות שמזנין בכיר להון — ריביתו גבוהה כי הוא עדיין נחות לחוב בכיר ונמצא בסיכון גבוה"
+      },
+      {
+        "text_he": "חוב מזנין הוא תמיד מובטח במשכנתא ראשונה, בדיוק כמו חוב בכיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזנין מובטח בדרך כלל במשכנתא שנייה או שעבוד מניות — לא ראשונה"
+      },
+      {
+        "text_he": "חוב מזנין זהה להון עצמי מבחינה משפטית ורואייתית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזנין הוא מכשיר חוב (Debt) לכל דבר — בדוחות יוצג כהתחייבות, לא כהון; הבדל קריטי בתרחיש פשיטת רגל"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מאפייני חוב מזנין:</strong></p><ul><li><strong>עדיפות:</strong> נחות לחוב בכיר, בכיר להון עצמי</li><li><strong>ריבית:</strong> גבוהה (8-15%) — מפצה על סיכון מוגבר</li><li><strong>ביטחון:</strong> משכנתא שנייה או שעבוד מניות SPV</li><li><strong>Equity Kicker:</strong> לעיתים זכות להמיר לאחוז מהון, או ל-Profit Participation</li><li><strong>PIK:</strong> לעיתים הריבית מצטברת לקרן (לא משולמת שוטפית)</li><li><strong>מבחינה חשבונאית:</strong> חוב (Debt) — לא הון; מופיע כהתחייבות בדוחות</li></ul>"
+  },
+  {
+    "question_id_external": "C06-M02-PRX-Q03",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת פרויקטים קרסה. ערך נכסיה נאמד ב-40M ₪. מחסנית: חוב בכיר 30M ₪; מזנין 8M ₪; הון עצמי 12M ₪. מה תיאור חלוקת ההתאוששות בין הנושים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חלוקת התאוששות בפשיטת רגל היא הבחינה האולטימטיבית של עדיפות המחסנית. שלב בשלב: בכיר מקבל ראשון עד לסיפוק מלא, ורק אחר כך עובר לשכבה הבאה.",
+    "topic_tags": ["recovery", "waterfall", "insolvency", "capital_stack"],
+    "options": [
+      {
+        "text_he": "בכיר מקבל 30M ₪ (מוחזר במלואו); מזנין מקבל 8M ₪ (מוחזר במלואו); הון עצמי מקבל 2M ₪ (מתוך 12M — הפסד של 10M)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חלוקה פרו-ראטה: כל שכבה מקבלת 80% (40÷50) מחבותה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקה בפשיטת רגל היא לפי עדיפות (Waterfall) — לא פרו-ראטה; הבכיר מקבל ראשון עד לסיפוק מלא"
+      },
+      {
+        "text_he": "בכיר מקבל 30M; מזנין מקבל 10M (מכיוון שנותרו 10M); הון עצמי לא מקבל כלום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נותרו 40M−30M = 10M; אך המזנין זכאי ל-8M (לא 10M); ולהון העצמי נותרים 2M"
+      },
+      {
+        "text_he": "בכיר מקבל 24M (60% מנכסים); מזנין מקבל 4.8M; הון מקבל 7.2M — חלוקה לפי גודל שכבה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקה לפי גודל שכבה אינה הדרך המשפטית; יש לכבד את עדיפות הנושה הבכיר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חלוקת Waterfall בפירוק:</strong></p><ol><li>ערך נכסים זמין: 40M ₪</li><li>חוב בכיר (30M) ← מקבל ראשון → <strong>30M ₪ מלא</strong>; נותר: 10M</li><li>מזנין (8M) ← מקבל שני → <strong>8M ₪ מלא</strong>; נותר: 2M</li><li>הון עצמי (12M) ← מקבל את השאריות → <strong>2M ₪ בלבד</strong>; הפסד: 10M</li></ol><p><strong>לקח:</strong> ירידת שווי מ-50M ל-40M (20%) — רק ההון עצמי ספג; שני נושי החוב יצאו בשלום. זה ממחיש מדוע הון עצמי מכוון ל-IRR גבוה: הסיכון אמיתי.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-PRX-Q04",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מדוע ריבית PIK על הלוואת מזנין מגדילה את הסיכון עם הזמן? הסבירו באמצעות הלוואה של 10M ₪ בריבית PIK של 14% ל-3 שנים.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריבית מצטברת יוצרת אפקט של 'שוק שנדחף' — לא נראה את הבעיה כל עוד מישהו לא דורש לפרוע. ברגע שהמזנין מגיע לפדיון — הסכום גדול בהרבה ממה שהלווה ציפה.",
+    "topic_tags": ["pik_interest", "compounding", "mezzanine_risk"],
+    "options": [
+      {
+        "text_he": "אחרי 3 שנים הקרן גדלה ל-10M × 1.14³ ≈ 14.8M ₪. LTV דינמי עלה משמעותית. ריבית PIK 'מסתירה' גידול חוב עד לפדיון — נטל הפירעון גבוה ממה שהלווה הבין",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "PIK אינה מגדילה סיכון — הלווה לא משלם עכשיו אז הוא שומר מזומנים לפירעון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמירת מזומנים לא מבטיחה שיהיה מספיק לפרוע קרן שגדלה ל-14.8M לעומת 10M"
+      },
+      {
+        "text_he": "אחרי 3 שנים קרן = 10M + 3×1.4M = 14.2M ₪ (חישוב לינארי); זהו סיכון בינוני",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; PIK הוא ריבית דריבית (compound); החישוב הנכון הוא 10M × 1.14³ = 14.8M, לא 14.2M"
+      },
+      {
+        "text_he": "PIK מגדילה סיכון רק אם שיעור הריבית עולה; בריבית קבועה אין סיכון נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם בריבית קבועה, PIK מגדילה קרן בריבית דריבית — הסיכון הוא גידול הקרן, לא שינוי הריבית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>גידול קרן PIK:</strong></p><ul><li>שנה 0: 10M ₪</li><li>שנה 1: 10M × 1.14 = 11.4M ₪</li><li>שנה 2: 11.4M × 1.14 = 13.0M ₪</li><li>שנה 3: 13.0M × 1.14 ≈ <strong>14.8M ₪</strong></li></ul><p><strong>ניתוח סיכון:</strong><br>• LTV מצטבר עלה בגין גידול חוב<br>• לווה שיש לו נכס ב-20M ₪: LTV מצטבר עלה מ-50% ל-74%<br>• הלווה עשוי לא להכיר בגידול הזה עד לרגע הפדיון<br>• אנליסט חייב להציג LTV דינמי תוך התחשבות בגידול PIK</p>"
+  },
+  {
+    "question_id_external": "C06-M02-PRX-Q05",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>השוו שתי עסקות: עסקה א: חוב בכיר 60%, מזנין 20%, הון 20%. עסקה ב: חוב בכיר 50%, מזנין 0%, הון 50%. מה ניתוח הסיכון/תשואה מנקודת מבט הבנק הבכיר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עבור הבנק הבכיר, כרית ביטחון של 40% (עסקה ב) טובה בהרבה מ-20% (עסקה א). אבל עסקה א מציעה תשואה גבוהה יותר על ההון — לא לבנק, אלא ליזם. הבנק שואל: 'כמה רחוק ה-LTV שלי מהפסד?'",
+    "topic_tags": ["risk_return", "capital_stack_comparison", "senior_lender_perspective"],
+    "options": [
+      {
+        "text_he": "עסקה ב בטוחה יותר לבנק הבכיר — כרית ביטחון של 50% לעומת 40% בעסקה א. עסקה א מינוף גבוה יותר, מגדיל סיכון לבנק ומגדיל תשואה ליזם",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עסקה א בטוחה יותר לבנק כי הלוואה בכירה קטנה יותר (60% לעומת 50%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כרית ביטחון לבנק בעסקה א היא 40% (מזנין+הון) לעומת 50% בעסקה ב; עסקה ב בטוחה יותר"
+      },
+      {
+        "text_he": "שתי העסקות שוות מנקודת מבט הבנק — LTV בכיר שונה אך ה-DSCR זהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV בכיר שונה ישירות משפיע על סיכון הבנק; אי אפשר להסיק שה-DSCR זהה ללא נתוני הכנסה"
+      },
+      {
+        "text_he": "עסקה א עדיפה כי המזנין (20%) מספק ביטחון נוסף לבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המזנין אינו 'ביטחון' לבנק — הוא נושה נוסף שמגביר סיכון בהסכמי בין-נושים; הכרית האמיתית היא סך השכבות הנחותות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח השוואתי מנקודת מבט הבנק הבכיר:</strong></p><table style='width:100%; border-collapse:collapse;'><tr><th></th><th>עסקה א</th><th>עסקה ב</th></tr><tr><td>LTV בכיר</td><td>60%</td><td>50%</td></tr><tr><td>כרית ביטחון</td><td>40% (מזנין+הון)</td><td>50% (הון בלבד)</td></tr><tr><td>סיכון לבנק</td><td>בינוני</td><td>נמוך</td></tr><tr><td>מינוף ליזם</td><td>גבוה</td><td>נמוך</td></tr></table><p><strong>מסקנה:</strong> עסקה ב בטוחה יותר לבנק. עסקה א מאפשרת ליזם מינוף גבוה יותר ותשואת הון גבוהה יותר — אך מגדילה סיכון כולל.</p>"
+  },
+  {
+    "question_id_external": "C06-M02-PRX-Q06",
+    "course_number": 6,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מציג לבנק מסמך: \"מבנה מימון: הון עצמי 15M ₪, מזנין 10M ₪ (שניהם = הון ביחד: 25M ₪), חוב בכיר 35M ₪.\" זהו את השגיאה המקצועית בהצגת היזם.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הגדרת מזנין כ'הון' היא טעות — או ניסיון מכוון להציג ל-LTV נמוך יותר. אנליסט חייב לזהות שמזנין הוא חוב לכל דבר ולחשב LTV מצטבר נכון.",
+    "topic_tags": ["mezzanine_vs_equity", "misclassification", "ltv_calculation"],
+    "options": [
+      {
+        "text_he": "היזם שגה בסיווג מזנין כ'הון'; מזנין הוא חוב. LTV מצטבר נכון = (35M+10M) ÷ 60M = 75%, לא LTV של 58% שהיזם מרמז עליו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין שגיאה; מותר לסווג מזנין כהון אם כך הוסכם בין הצדדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזנין הוא חוב מבחינה משפטית וחשבונאית — סיווגו כ'הון' מטעה ומשנה את ה-LTV הנצג"
+      },
+      {
+        "text_he": "הבעיה היא שסך המימון (60M) קטן מדי לפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גודל המימון אינו הבעיה המתוארת; השגיאה היא בסיווג מזנין כהון"
+      },
+      {
+        "text_he": "הבעיה היא שחוב בכיר (35M) גבוה מדי; יש להפחיתו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גודל החוב הבכיר אינו הבעיה המרכזית; הבעיה היא ייצוג לא נכון של המחסנית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>זיהוי השגיאה:</strong></p><p>אם שווי פרויקט = 60M ₪:</p><ul><li>ייצוג היזם: הון = 25M → LTV = 35 ÷ 60 = 58.3% (נראה נמוך ובטוח)</li><li>המציאות: חוב = 35M + 10M (מזנין) = 45M → LTV מצטבר = 45 ÷ 60 = <strong>75%</strong></li></ul><p><strong>לקח מקצועי:</strong> מזנין הוא חוב — הוא מופיע כהתחייבות בדוחות הכספיים; במקרה פשיטת רגל, המזנין דורש פירעון לפני ההון. בנק המחשב LTV לפי ייצוג היזם (58%) יסתכן בחשיפה בלתי מוכרת.</p>"
+  }
+]
