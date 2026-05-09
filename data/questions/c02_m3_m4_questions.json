@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C02-M03-CMP-Q01",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה נוסחת יחס השוטף (Current Ratio)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "current-ratio", "liquidity"],
+    "options": [
+      {
+        "text_he": "נכסים שוטפים ÷ התחייבויות שוטפות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נכסים שוטפים ÷ סך נכסים",
+        "is_correct": false,
+        "distractor_rationale_he": "זה לא יחס שוטף אלא יחס נכסים שוטפים לסך נכסים"
+      },
+      {
+        "text_he": "(נכסים שוטפים − מלאי) ÷ התחייבויות שוטפות",
+        "is_correct": false,
+        "distractor_rationale_he": "זהו יחס מהיר (Quick Ratio), לא שוטף"
+      },
+      {
+        "text_he": "הון חוזר ÷ סך התחייבויות",
+        "is_correct": false,
+        "distractor_rationale_he": "לא נוסחה מוכרת; יחס שוטף משווה נכסים שוטפים להתחייבויות שוטפות"
+      }
+    ],
+    "explanation_html_he": "<p>Current Ratio = נכסים שוטפים / התחייבויות שוטפות. בדיקת יחס שוטף > 1.0 אומרת שהחברה יכולה לכסות התחייבויות שוטפות מנכסיה השוטפים. יחס מהיר = (נכסים שוטפים - מלאי) / התחייבויות שוטפות — שמרני יותר כי ממעט מלאי שקשה למימוש מהיר.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-CMP-Q02",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הוא IAS 40 ואיזו בחירת מדיניות הוא מציע לחברות נדל&quot;ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "IAS-40", "fair-value"],
+    "options": [
+      {
+        "text_he": "תקן IFRS לנדל&quot;ן להשקעה (מוחזק לשכ&quot;ד או שבח) — מציע בחירה בין מודל שווי הוגן (שערוך דרך P&amp;L) ומודל עלות עם פחת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תקן המחייב כל חברה להציג נדל&quot;ן לפי שווי שוק — אין בחירה, חובה שווי הוגן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IAS 40 מציע בחירה בין מודל שווי הוגן למודל עלות"
+      },
+      {
+        "text_he": "תקן אמריקאי (US GAAP) שאינו נהוג בישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IAS 40 הוא תקן IFRS ונהוג בישראל"
+      },
+      {
+        "text_he": "תקן למלאי דירות בפיתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מלאי דירות בפיתוח (למכירה) תחת IAS 2/IFRS 15, לא IAS 40"
+      }
+    ],
+    "explanation_html_he": "<p>IAS 40 חל על נדל&quot;ן שמוחזק להשגת שכ&quot;ד או שבח (לא למכירה). שני מודלים: (1) שווי הוגן — שערוכים דרך P&amp;L; (2) עלות — כמו רכוש קבוע עם פחת. רוב חברות הנדל&quot;ן הישראליות בוחרות בשווי הוגן.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-CMP-Q03",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין נכסים שוטפים לנכסים לא-שוטפים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "current-assets", "non-current-assets"],
+    "options": [
+      {
+        "text_he": "נכסים שוטפים צפויים להמיר למזומן תוך 12 חודש; נכסים לא-שוטפים מוחזקים לתקופה ארוכה יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נכסים שוטפים הם נזילים בלבד (מזומן); נכסים לא-שוטפים כוללים גם מלאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מלאי הוא שוטף כאשר יוממש תוך שנה"
+      },
+      {
+        "text_he": "נכסים שוטפים מופחתים בעוד לא-שוטפים אינם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פחת חל על נכסים קבועים (לא-שוטפים), לא על שוטפים"
+      },
+      {
+        "text_he": "ההבדל הוא רק בסיווג בדוח — אין משמעות פיננסית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסיווג משפיע על יחסי נזילות ועל ניתוח הון חוזר"
+      }
+    ],
+    "explanation_html_he": "<p>נכסים שוטפים: מזומן, לקוחות, מלאי — יוממשו תוך 12 חודש. נכסים לא-שוטפים: נדל&quot;ן להשקעה, רכוש קבוע, השקעות ארוכות טווח. ההבדל קריטי לחישוב יחסי נזילות ולהבנת מבנה ההון.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-CMP-Q04",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה יתרת הרווחים (Retained Earnings)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "equity", "retained-earnings"],
+    "options": [
+      {
+        "text_he": "הצטברות כל הרווחים נטו שלא חולקו כדיבידנד מאז הקמת החברה — חלק מהון עצמי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רווח השנה האחרונה שטרם אושר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יתרת רווחים צוברת כל השנים, לא רק השנה האחרונה"
+      },
+      {
+        "text_he": "קרן שנפרשה לפרויקטים עתידיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרשות לפרויקטים הן רזרבות ייעודיות, לא יתרת רווחים"
+      },
+      {
+        "text_he": "ההפרש בין שווי שוק לשווי בספרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זהו פרמיה/דיסקאונט שוק, לא יתרת רווחים"
+      }
+    ],
+    "explanation_html_he": "<p>יתרת רווחים = Σ(רווחים נטו) − Σ(דיבידנדים) מאז הקמת החברה. חלק מהון עצמי. יכולה להיות שלילית (גירעון צבור) אם החברה הפסידה במצטבר. חשוב לאנליסט: יתרת רווחים שלילית גדולה עם הון עצמי חיובי אומרת שרוב ההון הוא הון רשום/פרמיה — לא נוצר מפעילות.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-PRX-Q01",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מאזן: נכסים שוטפים 3,200,000 ₪, מלאי 800,000 ₪, התחייבויות שוטפות 2,000,000 ₪. מה יחס שוטף ויחס מהיר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "current-ratio", "quick-ratio", "liquidity"],
+    "options": [
+      {
+        "text_he": "יחס שוטף: 1.60 | יחס מהיר: 1.20",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יחס שוטף: 1.60 | יחס מהיר: 1.60",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא הורידו מלאי לחישוב יחס מהיר"
+      },
+      {
+        "text_he": "יחס שוטף: 1.20 | יחס מהיר: 0.80",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: בלבול בין השניים; חישבו מהיר כשוטף ושוטף כמהיר"
+      },
+      {
+        "text_he": "יחס שוטף: 2.40 | יחס מהיר: 1.60",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: חילקו ב-נכסים שוטפים במקום בהתחייבויות שוטפות"
+      }
+    ],
+    "explanation_html_he": "<p>יחס שוטף = 3,200,000 / 2,000,000 = 1.60. יחס מהיר = (3,200,000 − 800,000) / 2,000,000 = 2,400,000 / 2,000,000 = 1.20. יחס שוטף > 1.5 מצוין. יחס מהיר > 1.0 סביר. מלאי מופחת מיחס מהיר כי הוא הנכס הפחות נזיל בנכסים השוטפים.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-PRX-Q02",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל&quot;ן מחזיקה: (א) קרקע מיועדת לפרויקט עתידי 5,000,000 ₪; (ב) מבנה משרדים מושכר 12,000,000 ₪; (ג) 30 דירות בבנייה למכירה 18,000,000 ₪. תחת איזה תקן ייסווג כל נכס?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "IAS-40", "IAS-16", "IAS-2", "classification"],
+    "options": [
+      {
+        "text_he": "(א) IAS 16 רכוש קבוע/קרקע; (ב) IAS 40 נדל&quot;ן להשקעה; (ג) IAS 2/IFRS 15 מלאי דירות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שלושתם IAS 40",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רק נכסים המוחזקים לשכ&quot;ד או שבח הם IAS 40; דירות למכירה הן מלאי"
+      },
+      {
+        "text_he": "(א) ו-(ב) IAS 40; (ג) IAS 16",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קרקע לפרויקט עתידי אינה IAS 40; דירות למכירה אינן IAS 16"
+      },
+      {
+        "text_he": "(א) מלאי; (ב) ו-(ג) IAS 40",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קרקע לפרויקט עתידי היא IAS 16; דירות בבנייה למכירה הן מלאי"
+      }
+    ],
+    "explanation_html_he": "<p>הסיווג קובע את אופן ההכרה והמדידה: IAS 40 — שווי הוגן דרך P&amp;L. IAS 2 — עלות; הכרה בהכנסה בהשלמה/מסירה. IAS 16 — עלות + פחת. שלוש קטגוריות שונות לגמרי — שגיאת סיווג תעוות את הדוחות.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-PRX-Q03",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה מחזיקה מבנה מסחרי בשיטת שווי הוגן (IAS 40). שמאי העריך עלייה בשווי 2,000,000 ₪ בסוף שנה. כיצד ישפיע על: (א) רווח נקי; (ב) הון עצמי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "IAS-40", "fair-value", "equity", "tax"],
+    "options": [
+      {
+        "text_he": "(א) רווח נקי עולה ב-2,000,000 ₪ (שערוך IAS 40 דרך P&amp;L); (ב) הון עצמי עולה בכ-1,540,000 ₪ (2,000,000 × (1−23%) מס)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) לא משפיע על רווח; (ב) עולה ב-2,000,000 דרך OCI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בשיטת שווי הוגן IAS 40 השערוך עובר דרך P&amp;L (לא OCI)"
+      },
+      {
+        "text_he": "(א) רווח עולה ב-2,000,000; (ב) הון עולה ב-2,000,000 ₪ בדיוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מס חברות 23% מקטין את ההשפעה על הון"
+      },
+      {
+        "text_he": "(א) ו-(ב) לא מושפעים — שערוך הוא הערכה בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בשיטת שווי הוגן, שערוך הוא הכנסה מוכרת ומשפיעה על כל הדוחות"
+      }
+    ],
+    "explanation_html_he": "<p>IAS 40 מודל שווי הוגן: שערוך חיובי 2,000,000 ₪ → נרשם כהכנסה בP&amp;L → רווח לפני מס עולה 2,000,000 → מס 23% = 460,000 → רווח נקי עולה 1,540,000 → הון עצמי עולה 1,540,000. זו הסיבה שחברות נדל&quot;ן ישראליות מראות רווחי שיא בזמן עליית מחירים.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-PRX-Q04",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן שתי חברות נדל&quot;ן עם יחס שוטף זהה 1.8. חברה א': רוב הנכסים השוטפים — דירות בבנייה. חברה ב': רוב הנכסים — מזומן ולקוחות. מה מסקנת האנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "liquidity", "current-ratio", "asset-quality"],
+    "options": [
+      {
+        "text_he": "חברה ב' עדיפה מבחינת נזילות — דירות בבנייה קשה לממש מהר; יחס שוטף זהה מסתיר פער גדול בנזילות בפועל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שתיהן שוות — יחס שוטף זהה פירושו סיכון נזילות זהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; איכות הנכסים השוטפים קריטית, לא רק הכמות"
+      },
+      {
+        "text_he": "חברה א' עדיפה — מלאי דירות הוא נכס ממשי בעל ערך גבוה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערך גבוה אינו שווה נזילות; בשוק יורד דירות בבנייה עלולות לאבד ערך ולא להימכר"
+      },
+      {
+        "text_he": "אי אפשר להחליט — נדרש מידע על ההתחייבויות השוטפות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההתחייבויות זהות (יחס 1.8 לשניהן); המידע הרלוונטי הוא הרכב הנכסים"
+      }
+    ],
+    "explanation_html_he": "<p>יחס שוטף מודד כמות, לא איכות. אנליסט מנוסה בוחן את הרכב הנכסים השוטפים: מזומן (מיידי) > לקוחות (שבועות) > מלאי דירות (חודשים-שנים). יחס מהיר של חברה א' יהיה נמוך משמעותית מ-1.8; של חברה ב' יישאר קרוב ל-1.8.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-PRX-Q05",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה מדווחת: הון רשום 1,000,000 ₪; פרמיה על מניות 9,000,000 ₪; יתרת רווחים שלילית (גירעון) (5,000,000) ₪; רזרבת שערוך 2,000,000 ₪. מה ההון העצמי הכולל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "equity", "retained-earnings", "revaluation-reserve"],
+    "options": [
+      {
+        "text_he": "7,000,000 ₪ (1,000K + 9,000K − 5,000K + 2,000K)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "15,000,000 ₪ (סכום כל הרכיבים ללא שלילי)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא ניכו גירעון שלילי"
+      },
+      {
+        "text_he": "5,000,000 ₪ (רק הון רשום + פרמיה − גירעון, ללא רזרבת שערוך)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: שכחו רזרבת שערוך"
+      },
+      {
+        "text_he": "12,000,000 ₪ (הון + פרמיה + שערוך, ללא ניכוי גירעון)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא ניכו גירעון"
+      }
+    ],
+    "explanation_html_he": "<p>הון עצמי = הון רשום + פרמיה + יתרת רווחים (חיובית או שלילית) + רזרבות = 1,000,000 + 9,000,000 + (−5,000,000) + 2,000,000 = 7,000,000 ₪. גירעון צבור (יתרת רווחים שלילית) מפחית הון. רזרבת שערוך (חלק מOCI) מוסיפה.</p>"
+  },
+  {
+    "question_id_external": "C02-M03-PRX-Q06",
+    "course_number": 2,
+    "module_number": 3,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מאזן חברת נדל&quot;ן מסחרי (ש&quot;ח): מזומן 800K, לקוחות 1,400K, מלאי 600K, נכסים שוטפים אחרים 200K; נדל&quot;ן להשקעה (שווי הוגן) 22,000K, רכוש קבוע נטו 1,500K. ספקים 700K, הלוואה שוטפת 2,100K, הלוואה לזמן ארוך 14,000K.</p><p>חשב: (א) יחס שוטף; (ב) יחס מהיר; (ג) הון עצמי; (ד) יחס חוב להון (D/E).</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "",
+    "topic_tags": ["balance-sheet", "current-ratio", "quick-ratio", "equity", "leverage", "DE-ratio"],
+    "options": [
+      {
+        "text_he": "שוטף: 1.07 | מהיר: 0.86 | הון עצמי: 9,700,000 ₪ | D/E: 1.73",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שוטף: 1.07 | מהיר: 1.07 | הון עצמי: 9,700,000 ₪ | D/E: 1.73",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא הורידו מלאי ביחס מהיר"
+      },
+      {
+        "text_he": "שוטף: 12.50 | מהיר: 11.71 | הון: 9,700,000 | D/E: 1.73",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: כללו נדל&quot;ן להשקעה (22,000K) בנכסים שוטפים"
+      },
+      {
+        "text_he": "שוטף: 1.07 | מהיר: 0.86 | הון: 7,700,000 ₪ | D/E: 2.18",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: שכחו לכלול נדל&quot;ן להשקעה בנכסים לחישוב הון עצמי"
+      }
+    ],
+    "explanation_html_he": "<p>(א) נכסים שוטפים = 800+1,400+600+200 = 3,000K. התחייבויות שוטפות = 700+2,100 = 2,800K. יחס שוטף = 3,000/2,800 = 1.07 — גבולי.</p><p>(ב) יחס מהיר = (3,000−600)/2,800 = 2,400/2,800 = 0.857 — מתחת ל-1.0, מצריך תשומת לב.</p><p>(ג) סך נכסים = 3,000+22,000+1,500 = 26,500K. סך התחייבויות = 2,800+14,000 = 16,800K. הון עצמי = 26,500−16,800 = 9,700K.</p><p>(ד) D/E = 16,800K/9,700K = 1.73 — מינוף בינוני-גבוה. נדל&quot;ן להשקעה (22,000K) הוא 83% מסך הנכסים — ריכוזיות גבוהה בנכס אחד.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-CMP-Q01",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה שלוש הפעילויות של דוח תזרים המזומנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "operating-activities", "investing-activities", "financing-activities"],
+    "options": [
+      {
+        "text_he": "פעילות שוטפת (Operating), פעילות השקעה (Investing), פעילות מימון (Financing)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פעילות שוטפת, פעילות הכנסה ופעילות הוצאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פעילות הכנסה/הוצאה אינן קטגוריות של תזרים; הקטגוריות הן שוטפת/השקעה/מימון"
+      },
+      {
+        "text_he": "תזרים חיובי, שלילי ונייטרלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו תיאורים של כיוון, לא קטגוריות מובנות בדוח"
+      },
+      {
+        "text_he": "פעילות קצר-טווח, בינוני-טווח וארוך-טווח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקת הדוח אינה לפי אופק זמן אלא לפי סוג הפעילות"
+      }
+    ],
+    "explanation_html_he": "<p>דוח תזרים מזומנים מחולק לשלוש: (1) שוטפת — מהפעילות העסקית הרגילה (גביית שכ&quot;ד, תשלום ספקים, שכר). (2) השקעה — רכישה/מכירה של נכסים לזמן ארוך. (3) מימון — הלוואות, הנפקת מניות, דיבידנדים. סכום שלושתן = שינוי נטו במזומן.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-CMP-Q02",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין השיטה הישירה לעקיפה בדוח תזרים מזומנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "indirect-method", "direct-method"],
+    "options": [
+      {
+        "text_he": "ישירה: מציגה תקבולי/תשלומי מזומן ספציפיים (שכ&quot;ד שנגבה, ספקים ששולמו). עקיפה: מתחילה ברווח נקי ומתאימה לפריטים לא-מזומניים (פחת, שינויים בהון חוזר)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ישירה: מחשבת פעילות שוטפת בלבד; עקיפה: כל שלוש הפעילויות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שתיהן מחשבות פעילות שוטפת; פעילות השקעה ומימון תמיד מוצגות ישירות"
+      },
+      {
+        "text_he": "ישירה: לחברות קטנות; עקיפה: לציבוריות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שתיהן מותרות לכל גודל חברה; העקיפה נפוצה יותר בפועל"
+      },
+      {
+        "text_he": "אין הבדל בתוצאה בין השיטות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי בחלקו; התוצאה הסופית (סך תזרים שוטף) זהה, אך הצגת הסעיפים שונה לחלוטין"
+      }
+    ],
+    "explanation_html_he": "<p>שתי השיטות מגיעות לאותו סכום תזרים שוטף. העקיפה נפוצה יותר כי קל יותר לבנות אותה מדוח רווח והפסד ומאזן. הישירה נחשבת אינפורמטיבית יותר אך דורשת יותר נתונים.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-CMP-Q03",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע פחת מתווסף בחזרה לרווח נקי בשיטה העקיפה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "indirect-method", "depreciation", "non-cash"],
+    "options": [
+      {
+        "text_he": "פחת הוא הוצאה לא-מזומנית — ניכה מהרווח אך לא גרם ליציאת כסף. יש להוסיפו כדי לקבל תזרים אמיתי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פחת הוא הכנסה נסתרת שמגדילה שווי הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין; פחת הוא הוצאה שמקטינה ערך נכס, לא מגדילה אותו"
+      },
+      {
+        "text_he": "הוצאות פחת אינן מוכרות לצורכי מס ולכן אין לנכותן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פחת כן מוכר במס; הסיבה להוספה חזרה היא היותו לא-מזומני"
+      },
+      {
+        "text_he": "פחת נרשם בפעילות השקעה ויש להעבירו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פחת נרשם בפעילות שוטפת כהתאמה לרווח נקי"
+      }
+    ],
+    "explanation_html_he": "<p>שיטה עקיפה מתחילה מרווח נקי ומחזירה פריטים לא-מזומניים. פחת ניכה מהרווח אך לא יצא מזומן מהחברה — לכן מוסיפים אותו חזרה. דוגמה: רווח 1,000,000 + פחת 200,000 = תזרים שוטף גבוה יותר ב-200K מהרווח.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-CMP-Q04",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה המשמעות של תזרים שוטף שלילי מתמשך כאשר הרווח חיובי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "operating-activities", "red-flags", "earnings-quality"],
+    "options": [
+      {
+        "text_he": "דגל אדום — החברה מרוויחה על הנייר אך לא מייצרת מזומן; עשוי להצביע על הכרת הכנסות לפני גביה, שערוכים חשבונאיים, או מודל עסקי לקוי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מצב תקין לחברות צמיחה — השקעות גדולות שוטפות כסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תזרים השקעה שלילי תקין לצמיחה; תזרים שוטף שלילי מתמשך הוא אחר לגמרי ומדאיג"
+      },
+      {
+        "text_he": "מעיד על השקעה בצמיחה — סימן חיובי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השקעה בצמיחה מופיעה בתזרים השקעה, לא שוטף"
+      },
+      {
+        "text_he": "קורה לכל חברות הנדל&quot;ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חברת נדל&quot;ן מניב בריאה צריכה להציג תזרים שוטף חיובי מגביית שכ&quot;ד"
+      }
+    ],
+    "explanation_html_he": "<p>הפרד בין רווח נקי (חשבונאי) לתזרים (מזומן). שערוכי IAS 40 מגדילים רווח בלי לייצר מזומן. לקוחות שלא שילמו מגדילים הכנסות בלי מזומן. תזרים שוטף שלילי 3 שנים רצופות הוא אחד הדגלים האדומים הקריטיים לאנליסט אשראי.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-PRX-Q01",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סווג כל פעולה לפי קטגוריית תזרים: (א) גביית שכ&quot;ד; (ב) רכישת נכס מסחרי; (ג) לקיחת הלוואה; (ד) תשלום ריבית.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "classification", "operating-activities", "investing-activities", "financing-activities"],
+    "options": [
+      {
+        "text_he": "(א) שוטפת; (ב) השקעה; (ג) מימון; (ד) שוטפת (לפי IAS 7, בישראל נהוג לסווג ריבית ששולמה כשוטפת)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) מימון; (ב) השקעה; (ג) מימון; (ד) מימון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גביית שכ&quot;ד היא שוטפת, ריבית ששולמה בישראל — שוטפת"
+      },
+      {
+        "text_he": "(א) שוטפת; (ב) שוטפת; (ג) מימון; (ד) שוטפת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רכישת נכס מסחרי היא פעילות השקעה"
+      },
+      {
+        "text_he": "(א) שוטפת; (ב) השקעה; (ג) שוטפת; (ד) מימון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הלוואה חדשה היא מימון, לא שוטף"
+      }
+    ],
+    "explanation_html_he": "<p>חוקי הסיווג: שוטפת = פעולות עסקיות רגילות (הכנסות, הוצאות תפעוליות, ריבית ששולמה). השקעה = קנייה/מכירה נכסים ארוכי טווח. מימון = הון ממשקיעים, הלוואות, דיבידנדים.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-PRX-Q02",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>רווח נקי 2,000,000 ₪. פחת 400,000. עלייה בלקוחות 600,000. ירידה במלאי 200,000. עלייה בספקים 150,000. חשב תזרים שוטף בשיטה עקיפה.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "indirect-method", "working-capital"],
+    "options": [
+      {
+        "text_he": "2,150,000 ₪ (2,000K + 400K − 600K + 200K + 150K)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "2,400,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הוסיפו עלייה בלקוחות במקום לנכות (עלייה בלקוחות = כסף שטרם נגבה = שלילי בתזרים)"
+      },
+      {
+        "text_he": "1,800,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא הוסיפו פחת חזרה"
+      },
+      {
+        "text_he": "3,350,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הוסיפו הכל (כולל לקוחות) ללא הבחנה בסימן"
+      }
+    ],
+    "explanation_html_he": "<p>שיטה עקיפה: רווח נקי 2,000K + פחת 400K (לא-מזומני, +) − עלייה לקוחות 600K (כסף שלא נגבה, −) + ירידה מלאי 200K (כסף שנחסך, +) + עלייה ספקים 150K (כסף שלא שולם, +) = 2,150K. כלל: עלייה בנכסים = מינוס תזרים; עלייה בהתחייבויות = פלוס תזרים.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-PRX-Q03",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>FCF של חברה: תזרים שוטף 5,000,000 ₪, Capex 1,800,000 ₪. מה FCF ומדוע הוא חשוב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "FCF", "free-cash-flow", "capex"],
+    "options": [
+      {
+        "text_he": "FCF = 3,200,000 ₪ (5,000K − 1,800K). חשוב כי מייצג מזומן זמין לפירעון חוב, דיבידנד, או השקעה נוספת — לאחר שמירה על הבסיס הנכסי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "FCF = 5,000,000 ₪ (תזרים שוטף בלבד)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF ניכה Capex כדי לייצג מזומן שנותר אחרי השקעה הנדרשת לקיום הפעילות"
+      },
+      {
+        "text_he": "FCF = 1,800,000 ₪ (רק ה-Capex)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; FCF הוא תזרים שוטף פחות Capex, לא ה-Capex עצמו"
+      },
+      {
+        "text_he": "FCF = 6,800,000 ₪ (סכום)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה היא חיסור (תזרים שוטף − Capex), לא חיבור"
+      }
+    ],
+    "explanation_html_he": "<p>FCF = תזרים שוטף − Capex = 5,000,000 − 1,800,000 = 3,200,000 ₪. Capex (Capital Expenditure) הוא השקעות הון בנכסים קבועים — הכרחי לתחזוקה ולצמיחה. FCF מייצג מה שנותר לאחר שהחברה השקיעה בבסיסה. לאנליסט: FCF הוא מה שיכול לשמש לפירעון חוב.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-PRX-Q04",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מדווח: רווח נקי 8,000,000 ₪ (כולל שערוך IAS 40 של 6,000,000 ₪). פחת 300,000. עלייה לקוחות 500,000. מה תזרים שוטף מנורמל (ללא שערוך)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "IAS-40", "normalization", "indirect-method"],
+    "options": [
+      {
+        "text_he": "1,800,000 ₪ (8,000K − 6,000K + 300K − 500K)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "7,800,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא נטרלו שערוך IAS 40 (הוסיפו פחת וניכו לקוחות מהרווח המלא)"
+      },
+      {
+        "text_he": "8,300,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הוסיפו פחת אך לא נטרלו שערוך"
+      },
+      {
+        "text_he": "2,000,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: נטרלו שערוך אך שכחו להוסיף פחת ולנכות לקוחות"
+      }
+    ],
+    "explanation_html_he": "<p>שערוך IAS 40 מגדיל רווח חשבונאי אך לא מייצר מזומן — יש לנטרל. תזרים שוטף = 8,000K (רווח) − 6,000K (שערוך לא-מזומני) + 300K (פחת) − 500K (לקוחות לא גבויים) = 1,800K. הפרש עצום בין רווח (8M) לתזרים (1.8M) — ממחיש מדוע אנליסטים בוחנים תזרים בנפרד מרווח.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-PRX-Q05",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה עם תזרים שוטף שלילי (−2,000,000) ורווח נקי חיובי 3,000,000. ההפרש נובע בעיקר מגידול לקוחות 4,500,000. מה הפרשנות המקצועית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "red-flags", "accounts-receivable", "earnings-quality"],
+    "options": [
+      {
+        "text_he": "דגל אדום: החברה מכירה בהכנסה שלא נגבתה — לקוחות לא משלמים. אנליסט יבקש דו&quot;ח גיול חובות ויבדוק ספקולציית הכנסות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מצב תקין — לקוחות חדשים מקבלים אשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גידול חד של 4.5M בלקוחות בשנה אחת עם תזרים שלילי הוא חמור"
+      },
+      {
+        "text_he": "הפרש נובע מפחת גבוה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גידול לקוחות, לא פחת, הוא ההסבר המפורש בשאלה"
+      },
+      {
+        "text_he": "בעיה עונתית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גידול לקוחות מתמשך אינו עונתי; עונתיות הייתה מתאפסת בתחילת שנה"
+      }
+    ],
+    "explanation_html_he": "<p>כאשר לקוחות גדלים 4.5M בעוד תזרים שוטף −2M ורווח +3M: הפרש גדול בין רווח לתזרים (5M) כמעט כולו ב&quot;לקוחות&quot;. זה אומר שהחברה מכירה בהכנסות שלא נגבו. בנדל&quot;ן: האם הדירות מסופקות? האם הסכמי המכר תקינים? האם ישנם קונים שלא יכולים לסגור מימון? אנליסט יבקש גיול חובות ויבחן מדיניות הכרה.</p>"
+  },
+  {
+    "question_id_external": "C02-M04-PRX-Q06",
+    "course_number": 2,
+    "module_number": 4,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נתוני שנה לחברת נדל&quot;ן (ש&quot;ח): רווח נקי 4,500,000; פחת 600,000; שערוך IAS 40 כלול ברווח 2,800,000; עלייה לקוחות 1,200,000; ירידה מלאי דירות 3,000,000; עלייה ספקים 400,000; רכישת נכס מסחרי 12,000,000; הלוואה חדשה 10,000,000; פירעון הלוואה 1,500,000.</p><p>חשב: (א) תזרים שוטף; (ב) תזרים השקעה; (ג) תזרים מימון.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "",
+    "topic_tags": ["cash-flow", "indirect-method", "IAS-40", "investing-activities", "financing-activities", "comprehensive"],
+    "options": [
+      {
+        "text_he": "שוטף: 4,500,000 ₪ | השקעה: −12,000,000 ₪ | מימון: 8,500,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שוטף: 7,300,000 ₪ | השקעה: −12,000,000 ₪ | מימון: 8,500,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא נטרלו שערוך IAS 40"
+      },
+      {
+        "text_he": "שוטף: 4,500,000 ₪ | השקעה: −12,000,000 ₪ | מימון: −8,500,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הפכו סימן מימון"
+      },
+      {
+        "text_he": "שוטף: 5,500,000 ₪ (כללו הלוואה בשוטף) | השקעה: −12,000,000 ₪ | מימון: −1,500,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הלוואה חדשה היא מימון, לא שוטף"
+      }
+    ],
+    "explanation_html_he": "<p>שוטף (עקיפה): 4,500K רווח − 2,800K שערוך + 600K פחת − 1,200K לקוחות + 3,000K מלאי + 400K ספקים = 4,500K.</p><p>השקעה: −12,000K (רכישת נכס מסחרי).</p><p>מימון: +10,000K הלוואה חדשה − 1,500K פירעון = +8,500K.</p><p>שים לב: ירידת מלאי (+3M) מגיעה ממכירת דירות שנגבו — חיובי לתזרים שוטף. שערוך IAS 40 (2,800K) מנוטרל כי הוא לא-מזומני.</p>"
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "question_id_external": "C02-M01-CMP-Q01",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי משוואת החשבונאות הבסיסית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "משוואת החשבונאות היא עמוד השדרה של כל ניתוח אשראי — בדוק תמיד שהמאזן מאוזן לפני שאתה מנתח יחסים פיננסיים.",
+    "topic_tags": ["accounting-equation", "balance-sheet"],
+    "options": [
+      {"text_he": "נכסים = התחייבויות + הון עצמי", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הכנסות = הוצאות + רווח", "is_correct": false, "distractor_rationale_he": "זוהי נגזרת של דוח רווח והפסד, לא משוואת המאזן. הכנסות פחות הוצאות שוות רווח — לא נוסחת איזון."},
+      {"text_he": "הון עצמי = נכסים + התחייבויות", "is_correct": false, "distractor_rationale_he": "הסדר שגוי — ההון העצמי שווה לנכסים מינוס התחייבויות, לא נכסים פלוס התחייבויות."},
+      {"text_he": "נכסים שוטפים = התחייבויות שוטפות + הון חוזר", "is_correct": false, "distractor_rationale_he": "זוהי הגדרת ההון החוזר (Working Capital) ולא משוואת החשבונאות הכוללת. היא מתייחסת רק לנכסים ולהתחייבויות השוטפים."}
+    ],
+    "explanation_html_he": "<p>משוואת החשבונאות הבסיסית היא: <strong>נכסים = התחייבויות + הון עצמי</strong>.</p><p>משוואה זו מייצגת את המאזן: כל נכסי החברה ממומנים על ידי שני מקורות — חוב (התחייבויות) או הון שהשקיעו הבעלים ורווחים שנצברו (הון עצמי). המשוואה חייבת תמיד להיות מאוזנת.</p><ul><li><strong>נכסים</strong>: כל מה שיש לחברה — מזומן, נדל\"ן, ציוד, חייבים.</li><li><strong>התחייבויות</strong>: כל מה שהחברה חייבת לצדדים שלישיים — הלוואות, ספקים, אגרות חוב.</li><li><strong>הון עצמי</strong>: ההפרש בין נכסים להתחייבויות — שייך לבעלי המניות.</li></ul><p>האפשרויות השגויות מבלבלות בין משוואת המאזן למשוואות של דוחות אחרים או מדדים נגזרים.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-CMP-Q02",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין בסיס מזומן לבסיס צבירה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בניתוח אשראי לנדל\"ן, הדוחות הכספיים מוגשים לפי בסיס צבירה (IFRS/GAAP). חשוב להבין שרווח חשבונאי אינו שווה תזרים מזומנים — לכן אנו מנתחים גם את דוח תזרים המזומנים.",
+    "topic_tags": ["accrual-basis", "cash-basis", "accounting-principles"],
+    "options": [
+      {"text_he": "בסיס מזומן מכיר בהכנסה/הוצאה בעת קבלת/תשלום הכסף; בסיס צבירה מכיר כשהעסקה מתרחשת, ללא קשר לתזמון הכסף", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "בסיס מזומן מדויק יותר לחברות גדולות; בסיס צבירה מיועד לעסקים קטנים", "is_correct": false, "distractor_rationale_he": "ההיפך הוא הנכון — חברות ציבוריות וגדולות מחויבות בבסיס צבירה לפי IFRS/GAAP. עסקים קטנים עשויים להשתמש בבסיס מזומן לצורכי דיווח פשוט."},
+      {"text_he": "בסיס צבירה מכיר בהכנסה רק כשמתקבל מזומן; בסיס מזומן מכיר לפי מועד העסקה", "is_correct": false, "distractor_rationale_he": "זוהי החלפה שגויה בין ההגדרות. בסיס הצבירה מכיר לפי מועד העסקה; בסיס המזומן מכיר לפי קבלת/תשלום המזומן."},
+      {"text_he": "שניהם זהים — ההבדל הוא רק בשם, לא בתוצאה", "is_correct": false, "distractor_rationale_he": "ההבדל מהותי ומשפיע ישירות על הרווח המדווח. בבסיס מזומן, הכנסה שטרם נגבתה אינה מוכרת; בבסיס צבירה היא כן. ההבדל יוצר פערים משמעותיים ברווח ובמאזן."}
+    ],
+    "explanation_html_he": "<p><strong>בסיס מזומן (Cash Basis):</strong> מכיר בהכנסה בעת קבלת התשלום ובהוצאה בעת ביצוע התשלום. פשוט אך לא משקף את המציאות הכלכלית.</p><p><strong>בסיס צבירה (Accrual Basis):</strong> מכיר בהכנסה כשהיא הופקה (גם אם לא נגבתה) ובהוצאה כשנוצרה (גם אם לא שולמה). זהו הבסיס שנדרש על ידי IFRS ו-US GAAP.</p><p><strong>דוגמה:</strong> חברה נדל\"ן מאכלת שוכר בחודש ינואר אך מקבלת תשלום בפברואר. בבסיס צבירה — ההכנסה מוכרת בינואר. בבסיס מזומן — רק בפברואר.</p><p>ההבדל מסביר מדוע רווח חשבונאי (מדווח לפי צבירה) שונה לעיתים קרובות מתזרים המזומנים בפועל.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-CMP-Q03",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה עקרון ההתאמה (Matching Principle)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "עקרון ההתאמה הוא הבסיס לפחת — הוצאות הפחת על נכסי נדל\"ן מוכרות לאורך חיי הנכס כי הנכס מייצר הכנסה לאורך כל תקופה זו.",
+    "topic_tags": ["matching-principle", "accounting-principles"],
+    "options": [
+      {"text_he": "הוצאות יוכרו באותה תקופה שבה ההכנסות שהן גרמו להן הוכרו", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ההכנסות וההוצאות צריכות להיות שוות בכל תקופה", "is_correct": false, "distractor_rationale_he": "שוויון הכנסות להוצאות אינו מטרת החשבונאות — הרווח הוא ההפרש ביניהן. עקרון ההתאמה עוסק בתזמון ההכרה, לא בגודל."},
+      {"text_he": "יש להתאים את הדוחות הכספיים לתקנים בינלאומיים", "is_correct": false, "distractor_rationale_he": "זהו עקרון העקביות או ציות לתקנים (Compliance), לא עקרון ההתאמה. עקרון ההתאמה (Matching) עוסק בקישור הכנסות להוצאות בזמן."},
+      {"text_he": "עלויות ייוחסו לפרויקט שבו נוצרו, ללא קשר לתקופת הדיווח", "is_correct": false, "distractor_rationale_he": "ייחוס עלויות לפרויקט הוא חשבונאות עלויות (Cost Accounting), לא עקרון ההתאמה. עקרון ההתאמה קושר הוצאות לתקופת ההכנסה שהן תמכו בה."}
+    ],
+    "explanation_html_he": "<p><strong>עקרון ההתאמה (Matching Principle)</strong> קובע שהוצאות צריכות להיות מוכרות באותה תקופה חשבונאית שבה ההכנסות שהן תמכו בהן מוכרות.</p><p><strong>דוגמאות ליישום:</strong></p><ul><li><strong>פחת:</strong> נכס שנרכש ב-10,000,000 ₪ ומופחת על 40 שנה — 250,000 ₪ לשנה מותאמים להכנסות שהנכס מייצר בכל שנה.</li><li><strong>עמלות מכירה:</strong> עמלת מתווך המשולמת בסיום עסקה מוכרת כהוצאה בתקופה שבה מוכרת ההכנסה ממכירת הנכס.</li><li><strong>הוצאות פרסום:</strong> קשה לשייך ישירות להכנסה — לכן מוכרות בתקופה שבה הוצאו.</li></ul><p>העיקרון מבטיח שהרווח מייצג נכון את הביצועים הכלכליים של התקופה.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-CMP-Q04",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההנחה של \"עסק חי\" (Going Concern)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "כאשר רואה החשבון מציין בחוות הדעת שיש ספק לגבי 'עסק חי', זהו דגל אדום קריטי לאנליסט אשראי — יש לבחון את ההנחות ולשקול האם הנכסים יוערכו מחדש לפי שווי פירוק.",
+    "topic_tags": ["going-concern", "accounting-principles"],
+    "options": [
+      {"text_he": "ההנחה שהחברה תמשיך לפעול לפחות 12 חודשים נוספים ממועד הדוח, וכי אין כוונה לפרק אותה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ההנחה שהחברה פועלת בשוק חיי ודינמי עם ביקוש גבוה למוצריה", "is_correct": false, "distractor_rationale_he": "מצב השוק אינו קשור להנחת 'עסק חי'. ההנחה עוסקת ביכולת ובכוונה של החברה להמשיך לפעול, ללא קשר לאטרקטיביות הענף."},
+      {"text_he": "ההנחה שכל הנכסים מוערכים לפי שווי ניכוי בפירוק (Liquidation Value)", "is_correct": false, "distractor_rationale_he": "זהו בדיוק ההיפך — הנחת 'עסק חי' מאפשרת לדווח נכסים לפי שווי שימוש ועלות מופחתת. שווי פירוק משמש כאשר ההנחה לא מתקיימת."},
+      {"text_he": "ההנחה שרואה החשבון חי ועובד בזמן עריכת הדוחות", "is_correct": false, "distractor_rationale_he": "פרשנות מילולית שגויה לחלוטין. 'עסק חי' מתייחס לחברה (Going Concern) ולא לרואה החשבון."}
+    ],
+    "explanation_html_he": "<p><strong>הנחת 'עסק חי' (Going Concern Assumption)</strong> היא אחת מהנחות היסוד של החשבונאות: הדוחות הכספיים נערכים מתוך הנחה שהחברה תמשיך לפעול לפחות 12 חודשים ממועד הדוח, ואין כוונה או צורך לפרקה.</p><p><strong>השפעות ההנחה:</strong></p><ul><li>נכסים מוצגים לפי עלות מופחתת, לא לפי שווי פירוק.</li><li>הוצאות דחויות מוכרות על פני חיי הנכס.</li><li>חוב לטווח ארוך מסווג בהתאם לפירעון בפועל.</li></ul><p><strong>כאשר ההנחה מוטלת בספק:</strong> רואה החשבון מוסיף הסתייגות בחוות דעתו. לאנליסט אשראי — זהו אות מדאיג המחייב ניתוח עומק של הנזילות, ההתחייבויות ויכולת הפירעון.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-PRX-Q01",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה מקבלת שכר דירה ל-6 חודשים מראש בסך 120,000 ₪. לפי בסיס צבירה, כמה הכנסה תוכר בחודש הראשון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "בניתוח P&L של חברות נדל\"ן, חשוב לזהות 'הכנסה נדחית' במאזן — שכר דירה שנגבה מראש אך טרם הוכר הוא התחייבות, לא הכנסה.",
+    "topic_tags": ["accrual-basis", "revenue-recognition", "deferred-revenue"],
+    "options": [
+      {"text_he": "20,000 ₪ (1/6 מהסכום — הכנסה מוכרת כשהשירות ניתן)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "120,000 ₪ (כל הסכום בקבלה)", "is_correct": false, "distractor_rationale_he": "הכרה של הסכום המלא בקבלה היא בסיס מזומן, לא צבירה. לפי צבירה, ההכנסה מוכרת בהתאם לתקופה שבה השירות (מגורים/שכירות) ניתן בפועל."},
+      {"text_he": "0 ₪ (ההכנסה תוכר רק בסוף 6 החודשים)", "is_correct": false, "distractor_rationale_he": "לפי בסיס צבירה, ההכנסה מוכרת בהדרגה ככל שהשירות ניתן. אין סיבה לדחות את כל ההכנסה לסוף התקופה."},
+      {"text_he": "60,000 ₪ (מחצית הסכום, כי יש 2 רבעונים)", "is_correct": false, "distractor_rationale_he": "חלוקה לרבעונים אינה נכונה כאן — ההכנסה מחולקת ל-6 חודשים שווים, לא ל-2 רבעונים. 60,000 ₪ מייצג 3 חודשים, לא חודש אחד."}
+    ],
+    "explanation_html_he": "<p><strong>לפי בסיס צבירה:</strong> הכנסה מוכרת כשהיא מופקת (כשהשירות ניתן), לא כשהכסף מתקבל.</p><p><strong>חישוב:</strong> 120,000 ₪ ÷ 6 חודשים = <strong>20,000 ₪ לחודש</strong>.</p><p><strong>טיפול חשבונאי:</strong></p><ul><li>בקבלת 120,000 ₪: <em>חייב מזומן 120,000 | זכה הכנסה נדחית 120,000</em></li><li>בכל חודש: <em>חייב הכנסה נדחית 20,000 | זכה הכנסות שכר דירה 20,000</em></li></ul><p>ב'בסיס מזומן' היה מוכר 120,000 ₪ בחודש הראשון — זה ההבדל המהותי.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-PRX-Q02",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן פותחת עם הון עצמי 2,000,000 ₪. היא לוקחת הלוואה בנקאית של 8,000,000 ₪ ורוכשת נכס ב-10,000,000 ₪. מה סך הנכסים לאחר העסקה?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "כל פעולה עסקית משמרת את איזון המשוואה החשבונאית. בהלוואה + רכישה — נכס עולה (הנכס הנרכש), וגם התחייבות עולה (ההלוואה), ונקיים: נכסים = התחייבויות + הון עצמי.",
+    "topic_tags": ["accounting-equation", "balance-sheet", "real-estate"],
+    "options": [
+      {"text_he": "10,000,000 ₪ (הנכס שנרכש — לאחר הרכישה, המזומן הומר לנכס)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "18,000,000 ₪ (נכס + מזומן ההלוואה לפני הרכישה)", "is_correct": false, "distractor_rationale_he": "לפני הרכישה, אמנם היה מזומן מההלוואה (8M) + הון עצמי (2M) = 10M — אך לאחר הרכישה, המזומן הומר לנכס. אין כפל ספירה של 18M."},
+      {"text_he": "12,000,000 ₪ (נכס + הון עצמי)", "is_correct": false, "distractor_rationale_he": "הון עצמי אינו נכס — הוא מקור מימון. חיבור נכס + הון עצמי מערבב שני צדדים שונים של המשוואה החשבונאית."},
+      {"text_he": "8,000,000 ₪ (רק ההלוואה)", "is_correct": false, "distractor_rationale_he": "הנכס נרכש ב-10,000,000 ₪ (ממומן על ידי הלוואה 8M + הון 2M). סך הנכסים אינו שווה רק להלוואה."}
+    ],
+    "explanation_html_he": "<p><strong>מעקב אחר המשוואה החשבונאית:</strong></p><p><strong>שלב 1 — פתיחה:</strong> הון עצמי 2,000,000 → נכסים (מזומן) = 2,000,000 ₪.</p><p><strong>שלב 2 — לאחר ההלוואה:</strong> מזומן עולה ל-10,000,000 ₪. התחייבות (הלוואה) = 8,000,000 ₪. הון עצמי = 2,000,000 ₪. סה\"כ: 10M = 8M + 2M ✓</p><p><strong>שלב 3 — לאחר רכישת הנכס ב-10M:</strong> מזומן יורד ל-0, נכס נדל\"ן עולה ל-10,000,000 ₪. סך הנכסים = 10,000,000 ₪. התחייבויות = 8,000,000 ₪. הון עצמי = 2,000,000 ₪. 10M = 8M + 2M ✓</p><p>הרכישה מחליפה נכס אחד (מזומן) בנכס אחר (נדל\"ן) — ללא שינוי בסך הנכסים.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-PRX-Q03",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה מדווחת על רווח נקי של 500,000 ₪ בבסיס צבירה. נתונים: הכנסות 1,200,000 ₪ (מהן 300,000 ₪ טרם נגבו); הוצאות 700,000 ₪ (מהן 150,000 ₪ טרם שולמו). מה הרווח לפי בסיס מזומן?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "הפער בין רווח חשבונאי לתזרים מזומנים תפעולי הוא ליבת ניתוח האשראי. חברה יכולה להיות רווחית ועדיין לפשוט רגל — אם הלקוחות לא משלמים.",
+    "topic_tags": ["accrual-basis", "cash-basis", "profitability"],
+    "options": [
+      {"text_he": "350,000 ₪ (הכנסות שנגבו 900,000 פחות הוצאות ששולמו 550,000)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "500,000 ₪ (זהה לבסיס צבירה)", "is_correct": false, "distractor_rationale_he": "הרווח לפי בסיס מזומן שונה מבסיס צבירה כאשר יש הכנסות שטרם נגבו או הוצאות שטרם שולמו — וכאן שני המצבים מתקיימים."},
+      {"text_he": "650,000 ₪ (הכנסות מזומן 900,000 פחות הוצאות מזומן 550,000 ועוד הוצאות שלא שולמו 150,000)", "is_correct": false, "distractor_rationale_he": "שגיאה — הוצאות שטרם שולמו (150,000 ₪) אינן נכללות בבסיס מזומן כלל, ולא מוסיפים אותן לרווח. בבסיס מזומן מכירים רק בהוצאות ששולמו בפועל."},
+      {"text_he": "200,000 ₪ (חיסרו את כל ההכנסות שטרם נגבו וגם את כל ההוצאות שטרם שולמו מהרווח)", "is_correct": false, "distractor_rationale_he": "חיסור הכנסות שלא נגבו (300K) נכון, אך חיסור הוצאות שלא שולמו (150K) שגוי — הוצאות שלא שולמו מגדילות את הרווח בבסיס מזומן (כי לא הוצאנו כסף), לא מקטינות אותו."}
+    ],
+    "explanation_html_he": "<p><strong>מעבר מבסיס צבירה לבסיס מזומן:</strong></p><p><strong>הכנסות בבסיס מזומן:</strong> 1,200,000 - 300,000 (לא נגבו) = <strong>900,000 ₪</strong></p><p><strong>הוצאות בבסיס מזומן:</strong> 700,000 - 150,000 (לא שולמו) = <strong>550,000 ₪</strong></p><p><strong>רווח בסיס מזומן:</strong> 900,000 - 550,000 = <strong>350,000 ₪</strong></p><p><strong>הסבר:</strong> בבסיס מזומן מכירים רק בכסף שנכנס ושיצא. הכנסות שטרם נגבו = לא נכנס כסף → מחסירים. הוצאות שטרם שולמו = לא יצא כסף → לא מכירים בהן כהוצאה.</p><p>פער של 150,000 ₪ בין הרווחים מסביר כ-23% הבדל בכושר הפירעון בפועל.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-PRX-Q04",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה בנתה מחסן בעלות של 5,000,000 ₪. לפי IFRS (IAS 16), היא מפחיתה אותו ב-4% לשנה (25 שנה). לפי עקרון איזה מעקרונות החשבונאות מוצדקת שיטת הפחת?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "כשאתה רואה פחת גבוה בחברת נדל\"ן ישראלית שמחזיקה נדל\"ן בשיטת שווי הוגן (IAS 40) — שאל מדוע: שווי הוגן לא מגיע עם פחת. פחת מופיע רק בשיטת עלות.",
+    "topic_tags": ["matching-principle", "depreciation", "IFRS", "IAS16"],
+    "options": [
+      {"text_he": "עקרון ההתאמה — הוצאת הפחת מותאמת לשנות השימוש שבהן הנכס מייצר הכנסה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "עקרון השמרנות — כי מוכרים הפסד (פחת) אף שהנכס עדיין קיים", "is_correct": false, "distractor_rationale_he": "עקרון השמרנות (Conservatism) מחייב זהירות בהכרת רווחים — לא להכיר רווח לא ודאי. פחת אינו ביטוי לשמרנות אלא להתאמת עלויות לפני הכנסה."},
+      {"text_he": "עקרון העסק החי — כי הנכס ממשיך לשמש את העסק", "is_correct": false, "distractor_rationale_he": "עקרון העסק החי הוא הנחת יסוד — לא הצדקה לשיטת פחת. הוא מאפשר לא לרשום נכסים לפי שווי פירוק, אך אינו מסביר מדוע הפחת מחולק על פני שנים."},
+      {"text_he": "עקרון הגילוי הנאות — כי יש לגלות את שווי הנכס בכל שנה", "is_correct": false, "distractor_rationale_he": "גילוי נאות (Full Disclosure) מחייב לדווח על מידע חיוני לקוראי הדוחות — לא מסביר כיצד לחשב את הפחת. זהו עיקרון שקיפות, לא עיקרון הקצאת עלות."}
+    ],
+    "explanation_html_he": "<p><strong>עקרון ההתאמה (Matching Principle)</strong> הוא הבסיס לפחת.</p><p>המחסן עולה 5,000,000 ₪ ויניב הכנסות (שכר דירה, שירותי אחסנה) על פני 25 שנה. לפי עקרון ההתאמה, עלות הנכס צריכה להיות מוכרת כהוצאה בתקופות שבהן הוא מייצר את ההכנסה — לא בשנת הרכישה בלבד.</p><p><strong>חישוב:</strong> 5,000,000 ₪ × 4% = <strong>200,000 ₪ פחת שנתי</strong>. כל שנה מוכרים הוצאה של 200,000 ₪ מול ההכנסות שהמחסן ייצר.</p><p><strong>IAS 16</strong> מחייב שהשיטה תשקף את דפוס צריכת הטבות הנכס. 'קו ישר' (Straight-Line) מניח שהנכס מספק תועלת שוות בכל שנה.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-PRX-Q05",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מה ההבדל המרכזי בין IFRS ל-US GAAP בנוגע לנדל\"ן להשקעה?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בישראל, חברות הנדל\"ן הציבוריות מדווחות לפי IFRS ובוחרות בדרך כלל במודל שווי הוגן (IAS 40) — כך שהרווח כולל שערוכי נדל\"ן גדולים שאינם תזרים. תמיד נטרל שערוכים בחישוב EBITDA מנורמל.",
+    "topic_tags": ["IFRS", "US-GAAP", "investment-property", "fair-value", "IAS40"],
+    "options": [
+      {"text_he": "IFRS מאפשר מודל שווי הוגן (רווחי/הפסדי שערוך דרך רווח והפסד); US GAAP מחייב מודל עלות עם פחת — אין אפשרות שווי הוגן", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ב-IFRS נדל\"ן להשקעה מסווג תמיד כנכס שוטף; ב-US GAAP תמיד כנכס קבוע", "is_correct": false, "distractor_rationale_he": "שגוי — IAS 40 (IFRS) מסווג נדל\"ן להשקעה כנכס לא-שוטף (Fixed Asset) בשני המודלים. הסיווג לנכס שוטף/קבוע אינו ההבדל הרלוונטי."},
+      {"text_he": "US GAAP מאפשר מודל שווי הוגן; IFRS מחייב מודל עלות", "is_correct": false, "distractor_rationale_he": "זהו ההיפך הגמור מהאמת. IFRS (IAS 40) הוא שמאפשר את שתי האפשרויות (עלות / שווי הוגן), ו-US GAAP הוא המגביל לעלות בלבד."},
+      {"text_he": "אין הבדל מהותי — שני התקנים מתייחסים לנדל\"ן להשקעה באופן זהה", "is_correct": false, "distractor_rationale_he": "ההבדל מהותי ומשמעותי ביותר. חברה שמשתמשת בשווי הוגן לפי IFRS יכולה לרשום רווחי שערוך גדולים שמנפחים את הרווח הנקי — בעוד חברה זהה לפי US GAAP תדווח רק על פחת."}
+    ],
+    "explanation_html_he": "<p><strong>IAS 40 (IFRS) — נדל\"ן להשקעה:</strong> החברה בוחרת בין שני מודלים:</p><ul><li><strong>מודל עלות:</strong> נכס מוצג בעלות פחות פחת — בדומה ל-US GAAP.</li><li><strong>מודל שווי הוגן:</strong> נכס מוצג בשווי שוק. שינויים בשווי (שערוכים) עוברים דרך <em>דוח רווח והפסד</em>.</li></ul><p><strong>US GAAP (ASC 360):</strong> נדל\"ן להשקעה מדווח תמיד לפי עלות פחות פחת. אין אפשרות לשווי הוגן. בדיקת ירידת ערך לפי מבחן Impairment בלבד.</p><p><strong>השלכה לאנליסט:</strong> חברה ישראלית מדווחת לפי IFRS ורשמה שערוך חיובי 5,000,000 ₪ — רווחה הנקי גבוה, אך אין כסף במזומן. חובה לנטרל שערוכים בחישוב EBITDA מנורמל.</p>"
+  },
+  {
+    "question_id_external": "C02-M01-PRX-Q06",
+    "course_number": 2,
+    "module_number": 1,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן פותחת שנה עם: מזומן 500,000 ₪, נכסים אחרים 4,500,000 ₪, הלוואה בנקאית 3,000,000 ₪, ספקים 200,000 ₪. במהלך השנה: (א) גבתה שכ\"ד 800,000 ₪ במזומן; (ב) שילמה הוצאות תפעול 300,000 ₪ במזומן; (ג) רכשה נכס נוסף ב-2,000,000 ₪ מהלוואה חדשה; (ד) מספר עובדים: 12.</p><p>מה הון עצמי סוף שנה?</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "רכישת נכס במימון הלוואה מגדילה את שני צדדי המשוואה בסכום זהה — ולכן אינה משפיעה על ההון העצמי. רק פעולות שמשפיעות על P&L (הכנסות, הוצאות) משנות את ההון.",
+    "topic_tags": ["accounting-equation", "equity", "multi-step-calculation", "real-estate"],
+    "options": [
+      {"text_he": "2,300,000 ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "4,300,000 ₪ (הוסיפו בטעות גם את הנכס החדש 2,000,000 להון)", "is_correct": false, "distractor_rationale_he": "הנכס החדש מומן בהלוואה — כלומר נכסים עלו ב-2M וגם התחייבויות עלו ב-2M. ההון העצמי לא השתנה מפעולה זו."},
+      {"text_he": "1,800,000 ₪ (הון עצמי פתיחה ללא הוספת רווח השנה)", "is_correct": false, "distractor_rationale_he": "שכחו להוסיף את רווח השנה (500,000 ₪) להון הפתיחה. הרווח מגדיל את הרווחים הצבורים ועל ידי כך את ההון העצמי."},
+      {"text_he": "2,800,000 ₪ (הוסיפו לרווח רק הכנסות ללא ניכוי הוצאות)", "is_correct": false, "distractor_rationale_he": "חישבו: 1,800K + 800K (הכנסות בלבד) = 2,600K — ולמעשה שגו בכך שלא ניכו הוצאות תפעול 300,000 ₪. הרווח הוא 800K - 300K = 500K, לא 800K."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — הון עצמי פתיחה:</strong></p><p>סך נכסים פתיחה: 500,000 + 4,500,000 = 5,000,000 ₪<br>סך התחייבויות פתיחה: 3,000,000 + 200,000 = 3,200,000 ₪<br>הון עצמי פתיחה: 5,000,000 - 3,200,000 = <strong>1,800,000 ₪</strong></p><p><strong>שלב 2 — ניתוח פעולות השנה:</strong></p><ul><li>(א) גבייה 800,000 ₪ → הכנסה מוכרת ← <strong>מגדיל הון עצמי</strong></li><li>(ב) תשלום הוצאות 300,000 ₪ ← <strong>מקטין הון עצמי</strong></li><li>(ג) רכישת נכס בהלוואה 2,000,000 ₪ → נכסים +2M, התחייבויות +2M ← <strong>אין השפעה על הון עצמי</strong></li><li>(ד) מספר עובדים — נתון שאינו רלוונטי לחישוב!</li></ul><p><strong>שלב 3 — רווח שנה:</strong> 800,000 - 300,000 = <strong>500,000 ₪</strong></p><p><strong>שלב 4 — הון עצמי סגירה:</strong> 1,800,000 + 500,000 = <strong>2,300,000 ₪</strong></p><p><strong>אימות:</strong> סך נכסים סגירה: 5,000,000 + 800,000 (מזומן גביה) - 300,000 (תשלום הוצ') + 2,000,000 (נכס חדש) = 7,500,000 ₪. סך התחייבויות: 3,200,000 + 2,000,000 (הלוואה חדשה) = 5,200,000 ₪. הון עצמי: 7,500,000 - 5,200,000 = 2,300,000 ₪ ✓</p>"
+  },
+  {
+    "question_id_external": "C02-M02-CMP-Q01",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי ההגדרה הנכונה של EBITDA?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "EBITDA הוא המדד המרכזי בתמחור הלוואות נדל\"ן — יחס Debt/EBITDA ו-EBITDA/ריבית הם קוונאנטים נפוצים. הכר את ה-EBITDA כמו את כף ידך.",
+    "topic_tags": ["EBITDA", "P&L", "profitability-metrics"],
+    "options": [
+      {"text_he": "רווח לפני ריבית, מסים, פחת והפחתות (Earnings Before Interest, Tax, Depreciation and Amortization) — מדד פרוקסי לתזרים מזומנים תפעולי", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "רווח נקי לפני תשלום דיבידנד לבעלי המניות", "is_correct": false, "distractor_rationale_he": "רווח נקי כבר כולל ריבית ומסים — EBITDA מתחיל מנקודה גבוהה יותר בדוח רווח והפסד. דיבידנד כלל אינו חלק מחישוב EBITDA."},
+      {"text_he": "הכנסות ממכירות לפני ניכוי כל הוצאות הייצור", "is_correct": false, "distractor_rationale_he": "זוהי הגדרת ההכנסות הגולמיות (Top Line) ולא EBITDA. EBITDA מתחשב בהוצאות תפעוליות; הוא אינו מדד הכנסות."},
+      {"text_he": "רווח גולמי לאחר ניכוי הוצאות מכירה ושיווק", "is_correct": false, "distractor_rationale_he": "זוהי קירוב לרווח התפעולי (EBIT) — לא EBITDA. EBITDA מוסיף בחזרה פחת והפחתות ל-EBIT כדי לנטרל השפעת מדיניות ההשקעות."}
+    ],
+    "explanation_html_he": "<p><strong>EBITDA = Earnings Before Interest, Tax, Depreciation and Amortization</strong></p><p>רווח לפני: ריבית, מסים, פחת (Depreciation על נכסים מוחשיים) והפחתות (Amortization על נכסים בלתי מוחשיים).</p><p><strong>מבנה דוח רווח והפסד:</strong></p><ul><li>הכנסות</li><li>(-) עלות הכנסות</li><li>= <strong>רווח גולמי</strong></li><li>(-) הוצאות תפעוליות (שיווק, הנהלה)</li><li>= <strong>EBITDA</strong></li><li>(-) פחת והפחתות</li><li>= <strong>EBIT</strong></li><li>(-) ריבית</li><li>= <strong>EBT</strong></li><li>(-) מסים</li><li>= <strong>רווח נקי</strong></li></ul><p>EBITDA מנטרל מדיניות מימון (ריבית) ומדיניות הנהלה (מסים, פחת) — ולכן מאפשר השוואה בין חברות.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-CMP-Q02",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין EBIT ל-EBITDA?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בחברות נדל\"ן עם נכסים גדולים ופחת גבוה, הפער בין EBIT ל-EBITDA עשוי להיות עצום. תמיד שאל: האם הפחת משקף בלאי אמיתי, או שמא שווי הנכסים עולה בפועל?",
+    "topic_tags": ["EBIT", "EBITDA", "depreciation", "P&L"],
+    "options": [
+      {"text_he": "EBITDA = EBIT + פחת + הפחתות; EBITDA מנטרל את השפעת החלטות ההשקעה בנכסים (פחת)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "EBIT כולל ריבית; EBITDA אינו כולל ריבית", "is_correct": false, "distractor_rationale_he": "שגוי — גם EBIT וגם EBITDA הם לפני ריבית. ה-'I' ב-EBIT ו-EBITDA שניהם מייצג Interest (ריבית) שאינה כלולה."},
+      {"text_he": "EBITDA כולל מסים; EBIT אינו כולל מסים", "is_correct": false, "distractor_rationale_he": "שגוי — שניהם לפני מסים. ה-'T' ב-EBIT ו-EBITDA שניהם מייצג Tax (מסים) שאינם כלולים."},
+      {"text_he": "אין הבדל — EBIT ו-EBITDA הם שמות שונים לאותו מדד", "is_correct": false, "distractor_rationale_he": "יש הבדל ברור: EBIT כולל בתוכו את הוצאות הפחת וההפחתות; EBITDA מוסיף אותן בחזרה ולכן תמיד גבוה יותר מ-EBIT (כשיש פחת)."}
+    ],
+    "explanation_html_he": "<p><strong>הקשר בין EBIT ל-EBITDA:</strong></p><p><strong>EBIT</strong> (Earnings Before Interest & Tax) = רווח תפעולי — כולל בתוכו הוצאות פחת.</p><p><strong>EBITDA</strong> = EBIT <strong>+ פחת + הפחתות</strong>.</p><p>כלומר: EBITDA מתחיל מ-EBIT ומוסיף בחזרה פחת (Depreciation) והפחתות (Amortization) — כי אלה הוצאות שאינן תזרים מזומנים (Non-Cash Expenses).</p><p><strong>דוגמה:</strong> EBIT = 2,000,000 ₪; פחת = 500,000 ₪ → EBITDA = 2,500,000 ₪.</p><p><strong>מדוע EBITDA גדול יותר?</strong> כי פחת הוא הוצאה חשבונאית שמקטינה את EBIT, אך אין תשלום מזומן בגינה. הוספתה בחזרה מקרבת את EBITDA לתזרים המזומנים התפעולי.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-CMP-Q03",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הוא OCI (Other Comprehensive Income — רווח כולל אחר) ומה הוא מייצג בחברת נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "OCI הוא 'רכבת תחתית' של שינויי הון שלא עוברים דרך P&L — בחברות נדל\"ן ישראליות הוא לרוב קטן, כי שערוכים בIAS 40 כן עוברים דרך P&L. אם רואה OCI גדול — בדוק מה מסתתר שם.",
+    "topic_tags": ["OCI", "comprehensive-income", "equity", "P&L"],
+    "options": [
+      {"text_he": "OCI כולל פריטים שמשפיעים על הון עצמי אך לא עוברים דרך דוח רווח והפסד — בחברות נדל\"ן לרוב שערוכי נכסים שאינם להשקעה (לדוגמה, נדל\"ן בשיטת שווי הוגן לפי IAS 16 Revaluation Model)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "OCI הוא סכום כל ההכנסות האחרות שלא ממכירת דירות — שכר דירה, דמי ניהול", "is_correct": false, "distractor_rationale_he": "שכר דירה ודמי ניהול הם הכנסות תפעוליות רגילות שמופיעות בגוף דוח רווח והפסד — לא ב-OCI. OCI הוא מסלול נפרד לפריטים ספציפיים שתקני IFRS/GAAP מנתבים אליו."},
+      {"text_he": "OCI מייצג הכנסות חד-פעמיות שאינן חלק מהפעילות השוטפת של החברה", "is_correct": false, "distractor_rationale_he": "הכנסות חד-פעמיות (כמו רווח ממכירת נכס) מופיעות בדרך כלל בתוך דוח רווח והפסד — לא ב-OCI. OCI כולל פריטים ספציפיים שתקני החשבונאות מפנים אליו, כגון הפרשי תרגום מטבע."},
+      {"text_he": "OCI הוא ההפרש בין הרווח הנקי לבין הרווח לפני מס", "is_correct": false, "distractor_rationale_he": "ההפרש בין רווח לפני מס לרווח נקי הוא הוצאת המס — לא OCI. OCI הוא מרכיב נפרד מחוץ לדוח רווח והפסד הרגיל."}
+    ],
+    "explanation_html_he": "<p><strong>OCI (Other Comprehensive Income)</strong> הוא חלק מדוח הרווח הכולל (Statement of Comprehensive Income) הכולל פריטים שמשפיעים על ההון העצמי אך תקני IFRS/GAAP קובעים שלא יעברו דרך דוח רווח והפסד.</p><p><strong>פריטים נפוצים ב-OCI:</strong></p><ul><li>הפרשי תרגום מטבע חוץ (על הלוואות במטבע זר)</li><li>שינויים בשווי הוגן של כלים פיננסיים (FVOCI)</li><li>שערוך נכסים לפי מודל השערוך של IAS 16 (לא IAS 40)</li><li>שינויים אקטואריים בחבות פנסיה</li></ul><p><strong>בחברות נדל\"ן ישראליות:</strong> נדל\"ן להשקעה לפי IAS 40 (שווי הוגן) — שערוכיו עוברים דרך P&L, לא OCI. OCI בחברות כאלה לרוב מתייחס להלוואות במטבע זר או לכלים פיננסיים.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-CMP-Q04",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע אנליסטי אשראי מבצעים \"נרמול EBITDA\" ומנטרלים פריטים חד-פעמיים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "בכל ועדת אשראי, הנרמול שלך ייבחן. אם הלוות ב-EBITDA מנופח על ידי פריט חד-פעמי — הבנק נחשף לחוב שהלווה לא יוכל לפרוע. תמיד הסבר ופרט כל נטרול.",
+    "topic_tags": ["EBITDA-normalization", "recurring-revenue", "credit-analysis"],
+    "options": [
+      {"text_he": "כדי לקבל מדד שמייצג את כוח הרוויח החוזר של העסק — בסיס להשוואה ולחיזוי תזרים עתידי; הכנסות חד-פעמיות אינן ניתנות לחיזוי ולא ישמשו לפירעון חוב עתידי", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כי תקני IFRS מחייבים הצגת EBITDA מנורמל בדוחות הכספיים", "is_correct": false, "distractor_rationale_he": "IFRS אינו מגדיר EBITDA כלל (לא בסיסי ולא מנורמל). EBITDA הוא מדד Non-GAAP שנוצר על ידי שוק ההון — לא חשבונאי."},
+      {"text_he": "כדי להגדיל מלאכותית את ה-EBITDA ולהצדיק ריבית גבוהה יותר בהלוואה", "is_correct": false, "distractor_rationale_he": "הנרמול נועד לדייק, לא להגדיל. לעיתים הנרמול דווקא מקטין את ה-EBITDA (כשמנטרלים הכנסות חד-פעמיות). מטרתו שמרנות ודיוק ביכולת הפירעון."},
+      {"text_he": "כי הוצאות חד-פעמיות אינן מוכרות לצורכי מס ולכן אינן רלוונטיות לניתוח", "is_correct": false, "distractor_rationale_he": "ההנמקה שגויה לחלוטין. אנרמול EBITDA קשור לחיזוי תזרים עתידי, לא להטבות מס. הוצאות חד-פעמיות רבות כן מוכרות לצורכי מס."}
+    ],
+    "explanation_html_he": "<p><strong>נרמול EBITDA (EBITDA Normalization)</strong> הוא תהליך ניכוי פריטים שאינם חזרתיים מה-EBITDA המדווח, על מנת לקבל מדד מייצג לכוח הרוויח הפנימי.</p><p><strong>פריטים שמנטרלים:</strong></p><ul><li>רווחי/הפסדי שערוך נדל\"ן (Non-cash, irregular)</li><li>רווח ממכירת נכסים (חד-פעמי)</li><li>פיצויי ביטוח / תביעות משפטיות (חד-פעמי)</li><li>הוצאות ארגון מחדש / פיטורים המוניים (חד-פעמי)</li></ul><p><strong>הרציונל:</strong> הלוואה תפורע מתזרים עתידי — שמבוסס על הכנסות חוזרות ויציבות. אם EBITDA מנופח על ידי הכנסה שלא תחזור, יחס הכיסוי (Debt/EBITDA) מטעה את המלווה.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-PRX-Q01",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת יזמות מכרה נכס שהיה ברשותה 10 שנים ברווח של 3,000,000 ₪. כיצד ינהג אנליסט אשראי עם פריט זה בחישוב EBITDA מנורמל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "שאלה מנחה: 'האם הכנסה זו תחזור בשנה הבאה?' אם לא — נטרל. מכירת נכסי השקעה היא אירוע הוני, לא תפעולי. חברות נדל\"ן לעיתים מוכרות נכסים מדי שנה — במקרה כזה, בחן את הדפוס לאורך 3-5 שנים.",
+    "topic_tags": ["EBITDA-normalization", "one-time-items", "asset-sale", "credit-analysis"],
+    "options": [
+      {"text_he": "ינטרל (יוציא) את הרווח מה-EBITDA — כי מכירת נכס היא אירוע חד-פעמי שאינו חזרתי ואינו ייצוגי לכושר הרוויח השוטף", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "יכלול את הרווח ב-EBITDA — כי הוא מופיע בדוח רווח והפסד ולכן חלק מהפעילות", "is_correct": false, "distractor_rationale_he": "הופעה ב-P&L אינה מבחן לכלילה ב-EBITDA מנורמל. מבחן הנרמול הוא חזרתיות — ומכירת נכס שבוצעה פעם אחת אחרי 10 שנים אינה צפויה להישנות."},
+      {"text_he": "יחלק את הרווח ל-10 שנים (300,000 ₪/שנה) ויכלול חלק שנתי ב-EBITDA", "is_correct": false, "distractor_rationale_he": "חלוקת רווח הון לשנות ההחזקה אינה שיטה מקובלת בניתוח אשראי. הרווח התממש בפועל בשנה זו; שנות ההחזקה אינן רלוונטיות להחלטת הנרמול."},
+      {"text_he": "יסווג את הרווח כהכנסה מפעילות מימון ולא יתייחס אליו כלל", "is_correct": false, "distractor_rationale_he": "סיווג כהכנסת מימון שגוי — מכירת נכס עסקי היא פעילות השקעה (לפי תזרים מזומנים). גם אם הייתה מסווגת כמימון, האנליסט עדיין חייב להכיר בה ולנטרלה."}
+    ],
+    "explanation_html_he": "<p><strong>מכירת נכס לאחר 10 שנים — אירוע חד-פעמי:</strong></p><p>רווח של 3,000,000 ₪ ממכירה חד-פעמית אינו מייצג את הרווחיות התפעולית החוזרת של החברה.</p><p><strong>פעולת האנליסט:</strong></p><ol><li>מזהה את הרווח בדוח רווח והפסד.</li><li>מסמן אותו כ\"פריט חד-פעמי\" (Non-Recurring Item).</li><li>מחסיר אותו מה-EBITDA המדווח לצורך חישוב ה-EBITDA המנורמל.</li></ol><p><strong>נוסחה:</strong> EBITDA מנורמל = EBITDA מדווח - 3,000,000 ₪ (רווח מכירת נכס)</p><p><strong>חריג לשקול:</strong> אם החברה מוכרת נכסים כל שנה כחלק מאסטרטגיה עסקית (Merchant Builder) — ייתכן שזה בכל זאת חוזר. יש לבחון דפוס היסטורי.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-PRX-Q02",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה עם הכנסות 5,000,000 ₪, עלות הכנסות 3,200,000 ₪, הוצאות מכירה ושיווק 400,000 ₪. מה הרווח הגולמי ומה שיעורו?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שיעור רווח גולמי של 36% לחברת שירותי נדל\"ן ממוצעת — בינוני. חברות ניהול נדל\"ן יעילות מגיעות ל-50%+. השווה תמיד מול ענף ומול השנים הקודמות.",
+    "topic_tags": ["gross-profit", "gross-margin", "P&L"],
+    "options": [
+      {"text_he": "רווח גולמי: 1,800,000 ₪ | שיעור: 36%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "רווח גולמי: 1,400,000 ₪ | שיעור: 28%", "is_correct": false, "distractor_rationale_he": "שגיאה: הוצאות מכירה ושיווק אינן מנוכות מהרווח הגולמי — הן מנוכות ברמת ה-EBIT (רווח תפעולי). הרווח הגולמי = הכנסות פחות עלות הכנסות בלבד."},
+      {"text_he": "רווח גולמי: 5,000,000 ₪ | שיעור: 100%", "is_correct": false, "distractor_rationale_he": "שגיאה: שכחו לנכות את עלות הכנסות. ההכנסות הגולמיות הן 5,000,000 ₪, אך הרווח הגולמי מנכה את עלות הייצור/אספקת השירות."},
+      {"text_he": "רווח גולמי: 3,200,000 ₪ | שיעור: 64%", "is_correct": false, "distractor_rationale_he": "3,200,000 ₪ הוא עלות הכנסות — לא הרווח. הבלבול בין עלות לרווח הוא שגיאה בסיסית. הרווח הגולמי = הכנסות פחות עלות, לא העלות עצמה."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב רווח גולמי:</strong></p><p>רווח גולמי = הכנסות - עלות הכנסות<br>רווח גולמי = 5,000,000 - 3,200,000 = <strong>1,800,000 ₪</strong></p><p><strong>שיעור רווח גולמי (Gross Margin):</strong><br>שיעור = רווח גולמי ÷ הכנסות × 100<br>שיעור = 1,800,000 ÷ 5,000,000 × 100 = <strong>36%</strong></p><p><strong>מה לא כולל הרווח הגולמי:</strong> הוצאות מכירה ושיווק (400,000 ₪) מנוכות בשלב הבא — בחישוב ה-EBIT. הרווח הגולמי מודד רק את הרווחיות הישירה מייצור/מתן השירות.</p><p><strong>מבנה מלא:</strong> רווח גולמי 1,800,000 → EBIT = 1,800,000 - 400,000 (שיווק) = 1,400,000 ₪.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-PRX-Q03",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נתונים: הכנסות 8,000,000 ₪, עלות הכנסות 4,500,000 ₪, הוצאות מכירה 600,000 ₪, הוצאות הנהלה 400,000 ₪, פחת כלול בהוצאות הנהלה 300,000 ₪, הוצאות ריבית 350,000 ₪, מס 23%. חשב EBITDA.</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "שים לב שהפחת 'כלול' בהוצאות הנהלה — לא בנוסף אליהן. טעות נפוצה היא להחסיר פחת פעמיים. בנה תמיד את ה-EBIT קודם ואז הוסף פחת.",
+    "topic_tags": ["EBITDA", "EBIT", "depreciation", "P&L-calculation"],
+    "options": [
+      {"text_he": "2,800,000 ₪ (EBIT = 8M - 4.5M - 0.6M - 0.4M = 2,500,000 ₪; EBITDA = 2,500,000 + 300,000 פחת = 2,800,000 ₪)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "2,500,000 ₪ (EBIT בלבד, ללא הוספת פחת)", "is_correct": false, "distractor_rationale_he": "2,500,000 ₪ הוא ה-EBIT — לא EBITDA. EBITDA מוסיף את הפחת (300,000 ₪) ל-EBIT, כי פחת אינו תזרים מזומנים."},
+      {"text_he": "2,150,000 ₪ (ניכו ריבית 350,000 מ-EBIT)", "is_correct": false, "distractor_rationale_he": "EBITDA הוא לפני ריבית — האות 'I' ב-EBITDA מייצגת Interest שאינה מנוכה. ניכוי ריבית מ-EBITDA הוא שגיאה מושגית יסודית."},
+      {"text_he": "3,150,000 ₪ (הוסיפו ריבית 350,000 לחזרה בנוסף לפחת)", "is_correct": false, "distractor_rationale_he": "ריבית אינה מוחזרת בחישוב EBITDA — היא מנוכה ב-EBIT (שהוא 'Before Interest'), ולכן כבר לא כלולה. רק פחת והפחתות מוחזרים."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב שלב-אחר-שלב:</strong></p><p><strong>שלב 1 — רווח גולמי:</strong><br>8,000,000 - 4,500,000 = <strong>3,500,000 ₪</strong></p><p><strong>שלב 2 — EBIT (רווח תפעולי):</strong><br>3,500,000 - 600,000 (מכירה) - 400,000 (הנהלה, כולל פחת) = <strong>2,500,000 ₪</strong></p><p><strong>שלב 3 — EBITDA:</strong><br>EBITDA = EBIT + פחת = 2,500,000 + 300,000 = <strong>2,800,000 ₪</strong></p><p><strong>הבהרה:</strong> הפחת (300,000 ₪) כלול בתוך הוצאות ההנהלה (400,000 ₪) — כלומר לא מוסיפים 300K בנפרד בנוסף לניכוי ה-400K. מנכים 400K ואז מחזירים 300K ← נטו: ניכוי של 100K בגין הנהלה שאינה פחת.</p><p><strong>פריטים שלא נכנסים לחישוב EBITDA:</strong> ריבית (350,000) ומסים — כי EBITDA הוא Before Interest, Tax.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-PRX-Q04",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שתי חברות נדל\"ן עם EBITDA מדווח זהה של 4,000,000 ₪. חברה א' מחזיקה נכסים בשיטת שווי הוגן (IAS 40) ורשמה שערוך חיובי של 2,500,000 ₪ בשנה. חברה ב' ללא שערוכים. מה ה-EBITDA המנורמל של חברה א'?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "שתי חברות עם EBITDA מדווח זהה — אך כוח הרוויח האמיתי שונה לחלוטין. חברה א' בלי שערוך — כוח רוויח של 1.5M בלבד. לא תנטרל שערוכים — תטעה בניתוח האשראי.",
+    "topic_tags": ["EBITDA-normalization", "fair-value", "IAS40", "revaluation"],
+    "options": [
+      {"text_he": "1,500,000 ₪ (4,000,000 פחות 2,500,000 שערוך שאינו חוזר)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "4,000,000 ₪ (לא מנטרלים שערוכים — הם חלק מ-IFRS)", "is_correct": false, "distractor_rationale_he": "שערוכי נדל\"ן לפי IFRS/IAS 40 הם חוקיים ונדרשים חשבונאית — אך הם אינם תזרים מזומנים ואינם חוזרים בוודאות. האנליסט חייב לנטרלם לצורך הערכת כושר פירעון."},
+      {"text_he": "6,500,000 ₪ (מוסיפים שערוכים בטעות כהכנסה תזרימית)", "is_correct": false, "distractor_rationale_he": "שגיאה חמורה — שערוכים חיוביים אינם הכנסה במזומן. הוספתם ל-EBITDA מגדילה מלאכותית את יכולת הפירעון. שערוך הוא הכרה בעלייה בשווי, לא כסף שנכנס לקופה."},
+      {"text_he": "2,500,000 ₪ (לוקחים רק את השערוך כ-EBITDA תפעולי)", "is_correct": false, "distractor_rationale_he": "השערוך לבדו אינו מייצג EBITDA — גם התפעול הרגיל תורם. ה-EBITDA המנורמל מנכה את השערוך מה-EBITDA הכולל: 4,000,000 - 2,500,000 = 1,500,000 ₪."}
+    ],
+    "explanation_html_he": "<p><strong>ניתוח השוואתי:</strong></p><p>EBITDA מדווח של חברה א': 4,000,000 ₪ — <em>כולל</em> שערוך חיובי 2,500,000 ₪.</p><p><strong>נרמול:</strong> EBITDA מנורמל = 4,000,000 - 2,500,000 = <strong>1,500,000 ₪</strong></p><p><strong>השוואה:</strong></p><ul><li>חברה א' — EBITDA מנורמל: 1,500,000 ₪</li><li>חברה ב' — EBITDA מנורמל: 4,000,000 ₪</li></ul><p>חברה ב' חזקה בהרבה מבחינת כוח הרוויח התפעולי.</p><p><strong>מדוע מנטרלים שערוכים?</strong></p><ul><li>הם Non-Cash — לא נכנס מזומן.</li><li>הם Non-Recurring — השנה עלו, השנה הבאה עלולים לרדת.</li><li>הם תלויים בשמאי ובשוק — לא בשליטת ההנהלה.</li></ul>"
+  },
+  {
+    "question_id_external": "C02-M02-PRX-Q05",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן P&L של יזם נדל\"ן. הוא מזהה: (א) הכנסות שכ\"ד קבועות 1,200,000 ₪; (ב) רווח ממכירת דירה 800,000 ₪; (ג) פיצוי ביטוח על שריפה 200,000 ₪; (ד) הכנסות ניהול חוזרות 300,000 ₪. מה סך ההכנסות החוזרות (Recurring Revenue)?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 105,
+    "senior_insight_he": "חברת נדל\"ן שרוב הכנסותיה ממכירות (Non-Recurring) ולא משכ\"ד (Recurring) — הכנסותיה תנודתיות ותלויות בשוק. בעת מיתון, הכנסות המכירה נעלמות אך ההוצאות וההלוואות נשארות.",
+    "topic_tags": ["recurring-revenue", "non-recurring", "revenue-classification", "credit-analysis"],
+    "options": [
+      {"text_he": "1,500,000 ₪ (שכ\"ד 1,200,000 + ניהול 300,000 — שניהם חוזרים)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "2,300,000 ₪ (סך כל ההכנסות)", "is_correct": false, "distractor_rationale_he": "כלל ההכנסות אינן חוזרות. רווח מכירת דירה (800K) ופיצוי ביטוח (200K) הם חד-פעמיים — אין ודאות שיחזרו בשנה הבאה."},
+      {"text_he": "1,200,000 ₪ (רק שכר דירה)", "is_correct": false, "distractor_rationale_he": "שכח לכלול הכנסות ניהול חוזרות (300,000 ₪). הכנסות ניהול שחוזרות מדי חודש הן Recurring בדיוק כמו שכר דירה."},
+      {"text_he": "2,000,000 ₪ (שכ\"ד + רווח מכירת דירה)", "is_correct": false, "distractor_rationale_he": "רווח ממכירת דירה (800,000 ₪) אינו הכנסה חוזרת — זהו אירוע מכירה חד-פעמי. גם אם מוכרים דירות כל שנה, כל מכירה ספציפית אינה בגדר Recurring."}
+    ],
+    "explanation_html_he": "<p><strong>סיווג הכנסות לפי חזרתיות:</strong></p><table border='1' style='border-collapse:collapse;width:100%'><tr><th>הכנסה</th><th>סכום</th><th>סיווג</th><th>הסבר</th></tr><tr><td>שכ\"ד</td><td>1,200,000</td><td>חוזרת ✓</td><td>חוזר מדי חודש לפי חוזה</td></tr><tr><td>רווח מכירת דירה</td><td>800,000</td><td>חד-פעמי ✗</td><td>תלוי בהחלטת מכירה נקודתית</td></tr><tr><td>פיצוי ביטוח</td><td>200,000</td><td>חד-פעמי ✗</td><td>אירוע חריג (שריפה)</td></tr><tr><td>הכנסות ניהול</td><td>300,000</td><td>חוזרת ✓</td><td>חוזר מדי חודש לפי חוזה ניהול</td></tr></table><p><strong>סיכום:</strong><br>הכנסה חוזרת (Recurring): 1,200,000 + 300,000 = <strong>1,500,000 ₪</strong><br>הכנסה חד-פעמית (Non-Recurring): 800,000 + 200,000 = 1,000,000 ₪</p><p>לצורך ניתוח אשראי, ה-EBITDA המנורמל יבוסס על 1,500,000 ₪ כבסיס הכנסות חוזר.</p>"
+  },
+  {
+    "question_id_external": "C02-M02-PRX-Q06",
+    "course_number": 2,
+    "module_number": 2,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>P&L של חברת נדל\"ן מסחרי (בש\"ח): הכנסות שכ\"ד: 6,000,000; הכנסות ניהול: 400,000; רווח ממכירת קרקע: 1,800,000; עלות הכנסות (ניהול ואחזקה): 2,200,000; הוצאות הנהלה: 500,000; פחת כלול בהוצ' הנהלה: 350,000; חוב אבוד (שכ\"ד לא גבוי): 150,000; הוצאות ריבית: 900,000; שיעור מס: 23%; מספר נכסים בתיק: 7.</p><p>חשב: (א) EBITDA מדווח; (ב) EBITDA מנורמל לאחר נטרול הכנסות חד-פעמיות.</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 240,
+    "senior_insight_he": "שים לב: מספר נכסים בתיק הוא נתון שאינו רלוונטי לחישוב. בועות אשראי: ריבית 900,000 על EBITDA מנורמל 3,900,000 — יחס כיסוי ריבית (ICR) = 3,900,000/900,000 = 4.3x. בדרך כלל מינימום 1.5-2.0x נדרש לאישור הלוואה.",
+    "topic_tags": ["EBITDA", "EBITDA-normalization", "advanced-P&L", "multi-step-calculation", "credit-analysis"],
+    "options": [
+      {"text_he": "EBITDA מדווח: 5,700,000 ₪ | EBITDA מנורמל: 3,900,000 ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "EBITDA מדווח: 5,700,000 ₪ | EBITDA מנורמל: 5,700,000 ₪ (לא נטרלו מכירת קרקע)", "is_correct": false, "distractor_rationale_he": "לא נטרלו את רווח מכירת קרקע (1,800,000 ₪) שהוא אירוע חד-פעמי. EBITDA מנורמל חייב לנכות פריטים שאינם חוזרים."},
+      {"text_he": "EBITDA מדווח: 4,450,000 ₪ | EBITDA מנורמל: 2,650,000 ₪ (ניכו ריבית בחישוב EBIT)", "is_correct": false, "distractor_rationale_he": "ניכוי ריבית (900,000 ₪) הוא שגיאה מושגית — EBITDA הוא לפני ריבית. EBIT = 5,350,000 ₪ (לפני ריבית), לא 4,450,000."},
+      {"text_he": "EBITDA מדווח: 6,600,000 ₪ | EBITDA מנורמל: 4,800,000 ₪ (לא ניכו חוב אבוד 150,000)", "is_correct": false, "distractor_rationale_he": "חוב אבוד (150,000 ₪) הוא הוצאה תפעולית לגיטימית שיש לנכות בחישוב EBIT. גם אם הוא חד-פעמי — שאלה זו אינה מנטרלת אותו (שאלה שיקולית נפרדת). אי-ניכויו מנפח את ה-EBITDA ב-150K."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב שלב-אחר-שלב:</strong></p><p><strong>הכנסות סה\"כ:</strong><br>6,000,000 (שכ\"ד) + 400,000 (ניהול) + 1,800,000 (מכירת קרקע) = <strong>8,200,000 ₪</strong></p><p><strong>שלב 1 — EBIT:</strong><br>8,200,000<br>- 2,200,000 (עלות הכנסות)<br>- 500,000 (הוצאות הנהלה, כולל פחת 350K)<br>- 150,000 (חוב אבוד)<br>= <strong>EBIT = 5,350,000 ₪</strong></p><p><strong>שלב 2 — EBITDA מדווח:</strong><br>EBITDA = EBIT + פחת = 5,350,000 + 350,000 = <strong>5,700,000 ₪</strong></p><p><strong>שלב 3 — נרמול:</strong><br>פריטים חד-פעמיים: רווח מכירת קרקע 1,800,000 ₪ (חד-פעמי, אינו חוזר)<br>EBITDA מנורמל = 5,700,000 - 1,800,000 = <strong>3,900,000 ₪</strong></p><p><strong>נתון לא רלוונטי:</strong> מספר נכסים בתיק (7) — אינו משפיע על חישוב EBITDA.</p><p><strong>ניתוח נוסף:</strong><br>יחס כיסוי ריבית (ICR) = EBITDA מנורמל ÷ ריבית = 3,900,000 ÷ 900,000 = <strong>4.3x</strong> — בטוח.</p>"
+  }
+]
+
