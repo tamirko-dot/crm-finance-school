@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C03-M01-CMP-Q01",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ניתוח אנכי (Vertical Analysis)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ניתוח אנכי הוא כלי ההשוואה הבסיסי ביותר בין חברות — הוא מנטרל הבדלי גודל ומאפשר לראות את המבנה הפנימי של דוחות החברה.",
+    "topic_tags": ["methodology", "vertical-analysis"],
+    "options": [
+      {
+        "text_he": "הצגת כל שורה בדוח כאחוז מבסיס (הכנסות ב-P&L, סך נכסים במאזן) — מאפשר השוואה בין חברות בגדלים שונים וזיהוי חריגות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "השוואת שנה לשנה של כל שורה",
+        "is_correct": false,
+        "distractor_rationale_he": "זהו ניתוח אופקי, לא אנכי. ניתוח אופקי מודד שינויים לאורך זמן; ניתוח אנכי מודד הרכב יחסי בתוך תקופה אחת."
+      },
+      {
+        "text_he": "ניתוח שרשרת האספקה של החברה ממוצרי גלם ועד לצרכן",
+        "is_correct": false,
+        "distractor_rationale_he": "הגדרה שגויה לחלוטין. ניתוח אנכי הוא מושג חשבונאי-פיננסי הנוגע לדוחות כספיים, לא לשרשרת אספקה."
+      },
+      {
+        "text_he": "חישוב יחסים פיננסיים ביחס לבנצ'מארק ענפי",
+        "is_correct": false,
+        "distractor_rationale_he": "זהו ניתוח יחסים (Ratio Analysis) ביחס לבנצ'מארק — שלב נפרד בתהליך הניתוח, לא ניתוח אנכי."
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח אנכי: ב-P&L — כל שורה כ-% מהכנסות. במאזן — כל שורה כ-% מסך נכסים.</p><p>מאפשר: (1) השוואה בין חברות בגדלים שונים; (2) זיהוי מגמות; (3) גילוי חריגות.</p><p>דוגמה: עלות הכנסות 65% = גולמי 35%. אם ממוצע ענף 30% — החברה יעילה יותר מהענף.</p>"
+  },
+  {
+    "question_id_external": "C03-M01-CMP-Q02",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה סדר 6 שלבי ניתוח הדוחות הנכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סדר הניתוח קריטי — יחס D/E של 2.0 נראה גבוה בחברת שירות אך נמוך בחברת נדל\"ן. בלי הקשר ענפי, כל שאר הניתוח חסר משמעות.",
+    "topic_tags": ["methodology", "analysis-steps"],
+    "options": [
+      {
+        "text_he": "(1) הקשר ענפי; (2) מבנה דוחות; (3) יחסים; (4) מגמות; (5) אזהרות; (6) סינתזה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(1) יחסים; (2) מגמות; (3) הקשר ענפי; (4) מבנה; (5) סינתזה; (6) אזהרות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — יחסים ללא הקשר ענפי חסרי משמעות. יחס שנראה גבוה בענף אחד עשוי להיות תקני בענף אחר."
+      },
+      {
+        "text_he": "(1) אזהרות; (2) יחסים; (3) מגמות; (4) הקשר; (5) מבנה; (6) סינתזה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — מתחילים עם הקשר ענפי, לא עם אזהרות. התחלה עם אזהרות מובילה לניתוח מוטה ובלתי שלם."
+      },
+      {
+        "text_he": "הסדר לא חשוב — ניתן לבצע בכל סדר לפי זמינות המידע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — הסדר חשוב מאוד. אי-הבנת ההקשר הענפי תוביל לפרשנות שגויה של כל שאר הממצאים."
+      }
+    ],
+    "explanation_html_he": "<p>הסדר הנכון: <strong>הקשר ענפי → מבנה → יחסים → מגמות → אזהרות → סינתזה</strong>.</p><p>מדוע? כי יחס D/E של 2.0 &quot;גבוה&quot; בחברת שירות אך &quot;נמוך&quot; בחברת נדל\"ן. בלי הקשר ענפי, כל שאר הניתוח חסר משמעות.</p>"
+  },
+  {
+    "question_id_external": "C03-M01-CMP-Q03",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הכוונה ב&quot;הערת עסק חי&quot; (Going Concern Note) בדוח רואה החשבון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הערת עסק חי היא אחד הדגלים האדומים החמורים ביותר — הלוואה לחברה עם הערה כזו מחייבת בטחונות יוצאי דופן ואישור הנהלה בכירה.",
+    "topic_tags": ["methodology", "auditor-quality", "going-concern"],
+    "options": [
+      {
+        "text_he": "רואה החשבון מטיל ספק ביכולת החברה להמשיך לפעול 12 חודשים נוספים — דגל אדום חמור המחייב בחינה מיוחדת לפני כל אישור אשראי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הערה שהחברה פועלת בשוק חי ודינמי עם צמיחה חיובית",
+        "is_correct": false,
+        "distractor_rationale_he": "הפוך לחלוטין — הערת עסק חי היא אזהרה חמורה על ספק בהמשך הקיום, לא מחמאה על דינמיות."
+      },
+      {
+        "text_he": "הערה שמציינת שהחברה קיבלה אישור לפעול מרשות ניירות ערך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — הערת עסק חי היא ספק לגבי המשך קיום, לא אישור פעילות מרגולטור."
+      },
+      {
+        "text_he": "הערה שמיידעת שהחברה עברה בדיקת בקרת איכות פנימית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין — הערת עסק חי היא אזהרה קיומית של רואה החשבון, ואין לה קשר לבקרת איכות פנימית."
+      }
+    ],
+    "explanation_html_he": "<p><strong>Going Concern (עסק חי)</strong>: הנחה חשבונאית בסיסית שחברה תמשיך לפעול לפחות 12 חודשים נוספים.</p><p>כאשר רואה החשבון מטיל ספק בהנחה זו ומוסיף &quot;הערת עסק חי&quot; — זהו דגל אדום קיצוני.</p><p>לאנליסט אשראי: הלוואה לחברה עם הערת עסק חי מחייבת בטחונות יוצאי דופן ואישור הנהלה בכירה.</p>"
+  },
+  {
+    "question_id_external": "C03-M01-CMP-Q04",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה היתרון המרכזי של בנצ'מארק היסטורי-עצמי (חברה מול עצמה) על פני בנצ'מארק ענפי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "לחברה ייחודית ללא מתחרים ישירים, הבנצ'מארק ההיסטורי הוא כמעט הכלי היחיד להעריך ביצועים יחסיים.",
+    "topic_tags": ["methodology", "benchmarks"],
+    "options": [
+      {
+        "text_he": "מסנן השפעות ענפיות ומאקרו — מראה שינוי יחסי של החברה עצמה; גם עבור חברות ייחודיות שאין להן מתחרים ישירים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בנצ'מארק ענפי תמיד עדיף — מספק הקשר רחב יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — הבנצ'מארק הנכון תלוי בשאלה שרוצים לענות עליה. לשינוי מגמה עצמית, הבנצ'מארק ההיסטורי עדיף."
+      },
+      {
+        "text_he": "בנצ'מארק היסטורי-עצמי מבטל את השפעת האינפלציה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — הבנצ'מארק ההיסטורי אינו מבטל אינפלציה אוטומטית; יש להתאים לאינפלציה בנפרד אם נדרש."
+      },
+      {
+        "text_he": "אין יתרון — שני הבנצ'מארקים זהים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — כל סוג בנצ'מארק עונה על שאלה שונה. ענפי שואל 'האם טובה ביחס לסקטור?'; היסטורי שואל 'האם השתפרה או הידרדרה?'."
+      }
+    ],
+    "explanation_html_he": "<p>שלושה בנצ'מארקים עיקריים:</p><ol><li><strong>ענפי</strong> — &quot;האם החברה טובה ביחס לסקטור?&quot;</li><li><strong>אסטרטגי</strong> — &quot;האם מתקרבת לחברת המטרה?&quot;</li><li><strong>היסטורי-עצמי</strong> — &quot;האם מתרחקת מרמת הביצוע שלה?&quot;</li></ol><p>הבנצ'מארק ההיסטורי מאפשר לשאול &quot;מה השתנה?&quot; ללא רעש ענפי, ומתאים במיוחד לחברות ייחודיות.</p>"
+  },
+  {
+    "question_id_external": "C03-M01-PRX-Q01",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מאזן חברה: סך נכסים 50,000,000 ₪. נכסים שוטפים 8,000,000 ₪. נדל\"ן להשקעה 30,000,000 ₪. רכוש קבוע 12,000,000 ₪.</p><p>מה אחוז נדל\"ן להשקעה מסך הנכסים (ניתוח אנכי)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ריכוזיות גבוהה (60% בקטגוריה אחת) היא ממצא חשוב — שאל: מה ה-Cap Rate? מה הסיכון הספציפי לנכס?",
+    "topic_tags": ["methodology", "vertical-analysis", "practice"],
+    "options": [
+      {
+        "text_he": "60% (30,000,000 / 50,000,000)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "40% (בלבול בין 30M ל-20M — שגיאת חישוב)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאת חישוב — 20M אינו הנתון של נדל\"ן להשקעה. נדל\"ן להשקעה הוא 30M מתוך סך 50M."
+      },
+      {
+        "text_he": "24% (12,000,000 / 50,000,000 — רכוש קבוע בטעות)",
+        "is_correct": false,
+        "distractor_rationale_he": "חולקו רכוש קבוע (12M) במקום נדל\"ן להשקעה (30M). יש לקרוא בזהירות את השורה הנכונה."
+      },
+      {
+        "text_he": "16% (8,000,000 / 50,000,000 — נכסים שוטפים בטעות)",
+        "is_correct": false,
+        "distractor_rationale_he": "חולקו נכסים שוטפים (8M) במקום נדל\"ן להשקעה (30M). בניתוח אנכי חשוב לזהות את השורה הנכונה."
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח אנכי מאזן = כל שורה ÷ סך נכסים × 100.</p><p>נדל\"ן להשקעה: 30,000,000 / 50,000,000 = <strong>60%</strong>.</p><p>ריכוזיות גבוהה (60% בנכס אחד/קטגוריה) היא ממצא חשוב לאנליסט — שאל: מה ה-Cap Rate? מה הסיכון הספציפי?</p>"
+  },
+  {
+    "question_id_external": "C03-M01-PRX-Q02",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הכנסות שנה 1: 20,000,000 ₪; שנה 2: 24,000,000 ₪; שנה 3: 21,600,000 ₪.</p><p>מה שיעורי הצמיחה בניתוח אופקי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ירידה של 10% אחרי צמיחה של 20% — מגמה לא יציבה הדורשת הבנה: האם זה עונתי? פרויקט חד-פעמי?",
+    "topic_tags": ["methodology", "horizontal-analysis", "practice"],
+    "options": [
+      {
+        "text_he": "שנה 2: +20%; שנה 3: −10%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שנה 2: +4,000,000 ₪; שנה 3: −2,400,000 ₪ (ערכים מוחלטים)",
+        "is_correct": false,
+        "distractor_rationale_he": "אלה שינויים מוחלטים, לא שיעורי צמיחה אחוזיים. ניתוח אופקי דורש אחוזים לצורך השוואה בין תקופות ובין חברות."
+      },
+      {
+        "text_he": "שנה 2: +20%; שנה 3: +8% (חישוב ביחס לשנה 1 במקום שנה 2)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה בשנה 3 — יש לחשב ביחס לשנה 2 (הקודמת), לא לשנה 1. 21.6M/20M−1=8% זו שגיאה; הנכון: 21.6M/24M−1=−10%."
+      },
+      {
+        "text_he": "שנה 2: +24%; שנה 3: +8% (חילוק בשנה 3 בטעות)",
+        "is_correct": false,
+        "distractor_rationale_he": "שתי השגיאות: בשנה 2 חילקו 24M/20M ולא חסרו 1 (24/20=1.2→20%), ובשנה 3 השתמשו בבסיס שגוי."
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח אופקי = (ערך שנה נוכחית / ערך שנה קודמת) − 1.</p><ul><li>שנה 2: 24M / 20M − 1 = 0.20 = <strong>+20%</strong></li><li>שנה 3: 21.6M / 24M − 1 = −0.10 = <strong>−10%</strong></li></ul><p>ירידה של 10% אחרי צמיחה של 20% — מגמה לא יציבה הדורשת הבנה: האם זה עונתי? פרויקט חד-פעמי?</p>"
+  },
+  {
+    "question_id_external": "C03-M01-PRX-Q03",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן החליפה את משרד רואי החשבון שלה 3 פעמים ב-5 שנים, כאשר השינוי האחרון היה מ-Big 4 לחברה מקומית קטנה. דוחות 2022 הוגשו 4 חודשים באיחור.</p><p>כמה דגלים אדומים זיהית ומה הצעד הבא?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שני הדגלים יחד — חילוף רו\"ח תכוף ואיחור בדיווח — הם שילוב מדאיג מאוד שמחייב חקירה לפני המשך תהליך האשראי.",
+    "topic_tags": ["methodology", "auditor-quality", "red-flags"],
+    "options": [
+      {
+        "text_he": "שני דגלים: (1) החלפת רו\"ח תכופה + ירידה לרו\"ח קטן — ייתכן שהרו\"ח הגדול סירב לחתום; (2) איחור בדיווח. צעד ראשון: בקש הסבר כתוב מההנהלה ופגישה עם רו\"ח הנוכחי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין דגלים — חילוף רו\"ח הוא שגרה עסקית ואיחור בדיווח קורה לכולם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — שני הדגלים הללו יחד, ובפרט הירידה מ-Big 4 לחברה קטנה, הם מדאיגים מאוד ודורשים חקירה."
+      },
+      {
+        "text_he": "דגל אחד בלבד (האיחור בדיווח)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — החלפת רו\"ח תכופה מ-Big 4 לחברה קטנה היא דגל עצמאי חשוב ולא פחות חמור מהאיחור."
+      },
+      {
+        "text_he": "יש להפסיק מיד את תהליך האשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — דגלים אדומים מצדיקים חקירה, לא הפסקה אוטומטית. ייתכן הסבר תמים; יש לאסוף מידע נוסף תחילה."
+      }
+    ],
+    "explanation_html_he": "<p>שני דגלים אדומים:</p><ol><li>3 חילופי רו\"ח ב-5 שנים + ירידה מ-Big 4 → ייתכן שגוף גדול סירב לחתום על דוחות שנויים במחלוקת.</li><li>איחור של 4 חודשים → ייתכן שנדרש זמן לגלגל/להסתיר מידע.</li></ol><p>שני הדגלים יחד דורשים: פגישה עם רו\"ח, דרישת מכתב הסבר, בדיקת הסתייגויות בדוחות קודמים.</p>"
+  },
+  {
+    "question_id_external": "C03-M01-PRX-Q04",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>P&L אנכי: הכנסות 100%; COGS 72%; גולמי 28%; הוצ' תפעול 18%; EBIT 10%; ריבית 4%; מס 1.38%; נקי 4.62%.</p><p>ממוצע ענף: גולמי 32%, EBIT 14%, נקי 7%.</p><p>מה שלוש התצפיות המרכזיות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ניתוח אנכי לא שואל 'חיובי?' אלא 'ביחס למה?' — שלוש חריגות שליליות יחד מול הענף מצביעות על סיכון אשראי מוגבר.",
+    "topic_tags": ["methodology", "vertical-analysis", "benchmarks"],
+    "options": [
+      {
+        "text_he": "(1) גולמי נמוך מהענף (28% vs 32%) — עלויות גבוהות; (2) EBIT נמוך מהענף (10% vs 14%) — הוצ' תפעול גבוהות; (3) ריבית גבוהה (4% מהכנסות) — מינוף גבוה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "החברה בריאה — כל הרווחים חיוביים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — ניתוח אנכי לא שואל 'חיובי?' אלא 'ביחס למה?' כל הרווחים חיוביים אך נמוכים משמעותית מממוצע הענף."
+      },
+      {
+        "text_he": "רק הרווח הגולמי רלוונטי — השאר מושפע מגורמים חיצוניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — כל שורה ב-P&L רלוונטית ומשקפת החלטות ניהול. הוצ' תפעול, ריבית ומס הם כולם ניתנים לניהול."
+      },
+      {
+        "text_he": "ריבית גבוהה אומרת שהחברה מממנת צמיחה — זהו סימן חיובי",
+        "is_correct": false,
+        "distractor_rationale_he": "לא בהכרח — ריבית גבוהה כ-% מהכנסות מעידה על מינוף גבוה שעלול לסכן את ה-ICR ואת ה-DSCR."
+      }
+    ],
+    "explanation_html_he": "<p>שלוש תצפיות:</p><ol><li>גולמי 28% vs ענף 32% = לחץ עלויות/תמחור נמוך.</li><li>EBIT 10% vs ענף 14% = בעיה תפעולית.</li><li>ריבית 4% מהכנסות → ICR = EBIT/ריבית = 10%/4% = 2.5x — נמוך.</li></ol><p>כל שלוש ביחד = חברה עם לחץ תחרותי + מינוף גבוה = סיכון אשראי מוגבר.</p>"
+  },
+  {
+    "question_id_external": "C03-M01-PRX-Q05",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה ייחודית בשוק נישה (ללא מתחרים ישירים) שהרחיבה לשוק חדש ב-2022.</p><p>מתי תבחר בבנצ'מארק ענפי ומתי בהיסטורי-עצמי? מה הניחוש הטוב ביותר לשנת 2023?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "כניסה לשוק חדש ב-2022 יוצרת נקודת שבר — ניתוח 'לפני ואחרי' הוא כלי הניתוח המרכזי לתחזית 2023.",
+    "topic_tags": ["methodology", "benchmarks"],
+    "options": [
+      {
+        "text_he": "בנצ'מארק היסטורי: כי אין מתחרים ישירים; ניתוח מגמות 2020-2022 ייתן בסיס לתחזית 2023. בנצ'מארק ענפי: ניתן לשולי רווח גולמי בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בנצ'מארק ענפי תמיד — כי מספק הקשר מאקרו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — ללא מתחרים ישירים, ממוצע ענפי עלול לא לייצג את החברה הייחודית. הבנצ'מארק הנכון תלוי בשאלה הנשאלת."
+      },
+      {
+        "text_he": "היסטורי בלבד — בנצ'מארק ענפי תמיד שגוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — שני הסוגים שימושיים; ענפי טוב לשולי גולמי; היסטורי לטרנד. שלילת אחד לחלוטין מקצינה יתר על המידה."
+      },
+      {
+        "text_he": "אין צורך בבנצ'מארק לחברות ייחודיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — בנצ'מארק הכרחי בכל ניתוח אשראי; השאלה היא רק של איזה סוג בנצ'מארק להשתמש."
+      }
+    ],
+    "explanation_html_he": "<p>לחברה ייחודית:</p><ol><li><strong>בנצ'מארק היסטורי עצמי</strong> הוא הכלי הראשי — מראה ירידה/עלייה עצמית ללא רעש ענפי.</li><li><strong>בנצ'מארק ענפי</strong> משמש לשולי גולמי ויעילות תפעולית (אפשר להשוות עם הענף הכללי).</li><li><strong>כניסה לשוק חדש ב-2022</strong> = נקודת שבר — ניתוח &quot;לפני ואחרי&quot; מאוד רלוונטי לתחזית 2023.</li></ol>"
+  },
+  {
+    "question_id_external": "C03-M01-PRX-Q06",
+    "course_number": 3,
+    "module_number": 1,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ניתוח אנכי ואופקי של חברת נדל\"ן (ש&quot;ח):</p><ul><li>2021: הכנסות 15M; COGS 9M; גולמי 6M; הוצ' תפעול 3M; EBIT 3M</li><li>2022: הכנסות 22M; COGS 14.3M; גולמי 7.7M; הוצ' תפעול 3.8M; EBIT 3.9M</li><li>2023: הכנסות 19M; COGS 13.3M; גולמי 5.7M; הוצ' תפעול 4.5M; EBIT 1.2M</li></ul><p>נתון שאינו רלוונטי: מספר עובדים 2023: 45.</p><p>חשב: (א) גולמי % לכל שנה; (ב) EBIT % לכל שנה; (ג) שיעור צמיחה הכנסות 2022 ו-2023; (ד) זהה את המגמה המדאיגה.</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "שחיקת שולי גולמי מתמשכת לאורך 3 שנים, בשילוב עם קריסת EBIT וירידת הכנסות, היא מגמה חמורה — שאל את ההנהלה: מה תוכנית ההתאוששות?",
+    "topic_tags": ["methodology", "vertical-analysis", "horizontal-analysis", "advanced"],
+    "options": [
+      {
+        "text_he": "(א) 40%, 35%, 30%; (ב) 20%, 17.7%, 6.3%; (ג) +46.7%, −13.6%; (ד) שחיקת גולמי מתמשכת + קריסת EBIT + ירידת הכנסות — שילוב מדאיג",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) 40%, 35%, 30%; (ב) 20%, 17.7%, 6.3%; (ג) +7M, −3M (ערכים מוחלטים); (ד) המגמה תקינה",
+        "is_correct": false,
+        "distractor_rationale_he": "שתי שגיאות: (1) שיעורי צמיחה צריכים להיות אחוזיים, לא מוחלטים; (2) המגמה חמורה ולא תקינה — EBIT קרס ל-6.3%."
+      },
+      {
+        "text_he": "(א) 60%, 65%, 70% (COGS%); (ב) כנ\"ל — שגיאות חישוב",
+        "is_correct": false,
+        "distractor_rationale_he": "חושב COGS% לא גולמי%. גולמי% = 100% − COGS%. 2021: 6/15=40%; 2022: 7.7/22=35%; 2023: 5.7/19=30%."
+      },
+      {
+        "text_he": "(א) נכון; (ב) נכון; (ג) נכון; (ד) אין מגמה מדאיגה — EBIT עלה בערכים מוחלטים ב-2022 (3.9 > 3.0)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — בערכים מוחלטים EBIT עלה ב-2022 אך קרס ב-2023 ל-1.2M. ניתוח אחוזי מראה את הבעיה האמיתית: ירידה מ-20% ל-6.3%."
+      }
+    ],
+    "explanation_html_he": "<p>(א) גולמי%: 2021=6/15=40%; 2022=7.7/22=35%; 2023=5.7/19=30%.</p><p>(ב) EBIT%: 2021=3/15=20%; 2022=3.9/22=17.7%; 2023=1.2/19=6.3%.</p><p>(ג) צמיחה: (22-15)/15=46.7%; (19-22)/22=−13.6%.</p><p>(ד) שלוש מגמות מדאיגות: (1) גולמי יורד 10pp — לחץ עלויות; (2) EBIT קורס ל-6.3% — הוצ' תפעול גדלות בעוד הכנסות יורדות; (3) הכנסות ירדו אחרי שנת שיא — האם 2022 היה חד-פעמי? מספר עובדים (45) — נתון שאינו רלוונטי לחישוב.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-CMP-Q01",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה נוסחת ROE ומה ה-DuPont Decomposition שלו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ROE גבוה עשוי לנבוע מרווחיות, יעילות נכסים, או מינוף — DuPont מגלה מהיכן, וזה קריטי לאנליסט אשראי.",
+    "topic_tags": ["financial-ratios", "profitability", "dupont"],
+    "options": [
+      {
+        "text_he": "ROE = רווח נקי / הון עצמי. DuPont: ROE = Net Margin × Asset Turnover × Leverage Multiplier",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ROE = EBIT / הון עצמי; DuPont = ROE × מס × ריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — ROE משתמש ברווח נקי (אחרי מס וריבית), לא ב-EBIT. שימוש ב-EBIT מתעלם מעלות המימון והמס."
+      },
+      {
+        "text_he": "ROE = נכסים / הון עצמי × EBITDA",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין — נכסים/הון הוא Leverage Multiplier, לא ROE. ROE = רווח נקי / הון עצמי."
+      },
+      {
+        "text_he": "ROE ו-ROA זהים — ההבדל רק בשם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — ROA = רווח/נכסים; ROE = רווח/הון. ההבדל ביניהם הוא המינוף (Leverage Multiplier)."
+      }
+    ],
+    "explanation_html_he": "<p>ROE = רווח נקי / הון עצמי.</p><p>DuPont מפרק ל-3 גורמים:</p><ol><li><strong>Net Margin</strong> = רווח נקי / הכנסות (יעילות רווחיות)</li><li><strong>Asset Turnover</strong> = הכנסות / נכסים (יעילות ניהול נכסים)</li><li><strong>Leverage</strong> = נכסים / הון (מינוף)</li></ol><p>ROE גבוה עשוי לנבוע מרווחיות גבוהה, יעילות נכסים, או מינוף — DuPont מגלה מהיכן.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-CMP-Q02",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ימי לקוחות (Days Receivable) ומה הוא מודד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "עלייה מהירה בלקוחות בלי צמיחה בהכנסות היא דגל אדום — הכנסות מוכרות לפני גביה, מה שמעיד על לחץ מכירות או בעיית גביה.",
+    "topic_tags": ["financial-ratios", "efficiency", "days-receivable"],
+    "options": [
+      {
+        "text_he": "ימי לקוחות = (לקוחות / הכנסות) × 365. מודד כמה ימים בממוצע לוקח ללקוח לשלם",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ימי לקוחות = (ספקים / עלות הכנסות) × 365",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — זו נוסחת ימי ספקים (Days Payable), לא ימי לקוחות. ימי לקוחות משתמשים ביתרת לקוחות ובהכנסות."
+      },
+      {
+        "text_he": "ימי לקוחות מודד כמה ימים לוקח ללקוחות חדשים להיכנס למערכת CRM",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין — ימי לקוחות הוא מדד פיננסי של זמן גביה, ואין לו קשר למערכת CRM."
+      },
+      {
+        "text_he": "ימי לקוחות = הכנסות / לקוחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — הכנסות/לקוחות הוא מחזור לקוחות (Receivable Turnover), לא ימי לקוחות. הנוסחה הפוכה ואינה מציגה ימים."
+      }
+    ],
+    "explanation_html_he": "<p>ימי לקוחות = (לקוחות / הכנסות) × 365.</p><p>ממוצע ענף נדל\"ן: 30-60 ימים. מעל 90 ימים = חשד לגביה בעייתית.</p><p>עלייה מהירה בלקוחות בלי צמיחה בהכנסות = דגל אדום (הכנסות מוכרות לפני גביה).</p>"
+  },
+  {
+    "question_id_external": "C03-M02-CMP-Q03",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה Debt/EBITDA מודד ומה הסף המקובל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Debt/EBITDA מעל 10x הוא כמעט תמיד מחוץ לתחום המקובל — חברה כזו נדרשת להצגת תוכנית הפחתת חוב ברורה לפני כל אשראי נוסף.",
+    "topic_tags": ["financial-ratios", "leverage", "debt-service"],
+    "options": [
+      {
+        "text_he": "כמה שנים נדרשות לפירעון כל החוב מ-EBITDA שנתי; סף: < 5.0x לתאגידים, < 8.0x לפרויקטי נדל\"ן עם נכסים יציבים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Debt/EBITDA מודד רווחיות ביחס לחוב — ערך גבוה = רווחי יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "הפוך — Debt/EBITDA גבוה = יותר זמן לפירעון = סיכון גבוה יותר, לא רווחיות גבוהה."
+      },
+      {
+        "text_he": "הסף המקובל הוא < 1.0x לכל הסקטורים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — < 1.0x יהיה נדיר בנדל\"ן. הסטנדרט המקובל הוא < 5.0x לתאגידים ו-< 8.0x לנדל\"ן."
+      },
+      {
+        "text_he": "Debt/EBITDA זהה ל-DSCR",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — DSCR = NOI / שירות חוב; Debt/EBITDA = חוב כולל / EBITDA. שני מדדים שונים לשאלות שונות."
+      }
+    ],
+    "explanation_html_he": "<p>Debt/EBITDA = חוב כולל / EBITDA שנתי.</p><p>פירוש: כמה שנות EBITDA נדרשות לפירעון מלא. 4.0x = 4 שנות EBITDA.</p><p>סף: &lt; 5.0x לחברות תאגידיות; &lt; 8.0x לנדל\"ן מניב (נכסים מבטחים). מעל 10x = סיכון גבוה מאוד.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-CMP-Q04",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ICR (Interest Coverage Ratio) ומדוע הוא חשוב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ICR מתחת ל-1.5 הוא אחד האותות המוקדמים החשובים ביותר לקשיי אשראי — שינוי קטן בהכנסות עלול לגרום לאי-עמידה בתשלומי ריבית.",
+    "topic_tags": ["financial-ratios", "leverage", "debt-service", "ICR"],
+    "options": [
+      {
+        "text_he": "ICR = EBIT / הוצאות ריבית. מודד כמה פעמים EBIT מכסה את הריבית. ICR < 1.5 מסוכן",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ICR = EBITDA / שירות חוב כולל (קרן + ריבית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — זהו DSCR (Debt Service Coverage Ratio), לא ICR. ICR = EBIT / ריבית בלבד (לא קרן)."
+      },
+      {
+        "text_he": "ICR מודד את הכיסוי של כל ההתחייבויות השוטפות, לא רק ריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — ICR ספציפי לריבית בלבד. כיסוי התחייבויות שוטפות נמדד ביחס שוטף (Current Ratio)."
+      },
+      {
+        "text_he": "ICR > 5.0 מסוכן — מעיד על מינוף גבוה",
+        "is_correct": false,
+        "distractor_rationale_he": "הפוך — ICR גבוה = בטוח יותר (EBIT מכסה ריבית בקלות); ICR נמוך (< 1.5) = מסוכן."
+      }
+    ],
+    "explanation_html_he": "<p>ICR = EBIT / Interest Expense.</p><p>דוגמה: EBIT 3,000,000 ₪ / ריבית 1,200,000 ₪ = ICR 2.5.</p><p>פירוש: EBIT מכסה פי 2.5 את תשלומי הריבית.</p><ul><li>ICR &lt; 2.0 = אזהרה</li><li>ICR &lt; 1.5 = סיכון גבוה</li><li>ICR &lt; 1.0 = לא מכסה ריבית — חדלות פירעון מתקרבת</li></ul>"
+  },
+  {
+    "question_id_external": "C03-M02-PRX-Q01",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה: ROE = 18%, ROA = 6%, הון עצמי 10,000,000 ₪.</p><p>מה ה-Leverage Multiplier בניתוח DuPont?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Leverage Multiplier = ROE/ROA הוא קיצור שימושי — כשניתן ROE ו-ROA, אין צורך לחשב נכסים והון בנפרד.",
+    "topic_tags": ["financial-ratios", "profitability", "dupont", "practice"],
+    "options": [
+      {
+        "text_he": "3.0 (ROE / ROA = 18% / 6% = 3; סך נכסים = 30,000,000 ₪)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "12% (ROE − ROA = 18% − 6%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — DuPont Leverage הוא מכפיל (נכסים/הון), לא הפרש אחוזים. 12% אינו Leverage Multiplier."
+      },
+      {
+        "text_he": "0.33 (ROA / ROE = 6% / 18%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — הנוסחה הפוכה. Leverage = ROE / ROA = 18%/6% = 3.0, לא ROA/ROE."
+      },
+      {
+        "text_he": "180,000 (ROA × הון עצמי = 6% × 10,000,000)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — 6% × 10M = 600,000 (הרווח הנקי), לא ה-Leverage Multiplier. המכפיל הוא מספר יחסי, לא סכום כסף."
+      }
+    ],
+    "explanation_html_he": "<p>DuPont: ROE = Net Margin × Asset Turnover × Leverage.</p><p>Leverage Multiplier = נכסים / הון עצמי.</p><p>מניתוח: ROE / ROA = Leverage (כי ROA = רווח/נכסים ו-ROE = רווח/הון).</p><p>18% / 6% = <strong>3.0</strong>.</p><p>נכסים = הון × Leverage = 10M × 3 = 30M.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-PRX-Q02",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לקוחות 2,400,000 ₪, הכנסות שנתיות 14,600,000 ₪.</p><p>מה ימי לקוחות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "60 ימים הוא בגבול הסביר לענף הנדל\"ן — כל חריגה מעל 90 ימים מחייבת שאלות ספציפיות על מדיניות האשראי של החברה.",
+    "topic_tags": ["financial-ratios", "efficiency", "days-receivable", "practice"],
+    "options": [
+      {
+        "text_he": "כ-60 ימים (2,400,000 / 14,600,000 × 365 ≈ 59.9)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "6.08 (הכנסות / לקוחות — מחזור, לא ימים)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — 14.6M/2.4M = 6.08 הוא מחזור לקוחות (Receivable Turnover), לא ימי לקוחות. יש להכפיל ב-365."
+      },
+      {
+        "text_he": "30 ימים (חישוב עם 180 במקום 365)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — השנה כוללת 365 ימים (לא 180). חצי שנה = 182.5 ימים, לא בסיס לחישוב ימי לקוחות."
+      },
+      {
+        "text_he": "164 ימים (שגיאת חשבון בסיסית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאת חישוב — הנוסחה הנכונה: (2.4M / 14.6M) × 365 = 60 ימים. 164 ימים יתאים לנכס/הכנסות גדול הרבה יותר."
+      }
+    ],
+    "explanation_html_he": "<p>ימי לקוחות = (לקוחות / הכנסות) × 365 = (2,400,000 / 14,600,000) × 365 = 0.1644 × 365 = <strong>60 ימים</strong>.</p><p>ממוצע ענף נדל\"ן: 30-60 ימים. 60 ימים = סביר אך בגבול; מעל 90 ימים = דגל.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-PRX-Q03",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>רווח נקי 2,400,000 ₪, הכנסות 24,000,000 ₪, סך נכסים 40,000,000 ₪, הון עצמי 8,000,000 ₪.</p><p>חשב ROE, ROA ו-Leverage Multiplier DuPont.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מינוף 5.0x גבוה — אנליסט יבדוק אם DSCR ו-LTV תומכים ברמת מינוף זו לפני אישור אשראי נוסף.",
+    "topic_tags": ["financial-ratios", "profitability", "dupont", "practice"],
+    "options": [
+      {
+        "text_he": "ROE = 30%, ROA = 6%, Leverage = 5.0 (2.4M/8M=30%; 2.4M/40M=6%; 40M/8M=5.0)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ROE = 30%, ROA = 6%, Leverage = 24% (ROE − ROA = 24%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — Leverage הוא מכפיל מספרי (נכסים/הון = 5.0), לא הפרש אחוזים. 24% אינו Leverage Multiplier."
+      },
+      {
+        "text_he": "ROE = 10%, ROA = 6%, Leverage = 1.67 (בלבול הכנסות והון)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה ב-ROE — חושב 2.4M/24M=10% (הכנסות במכנה) במקום 2.4M/8M=30% (הון עצמי במכנה)."
+      },
+      {
+        "text_he": "ROE = 30%, ROA = 6%, Leverage = 5.0; אך &quot;Leverage מעל 3 תמיד רע&quot;",
+        "is_correct": false,
+        "distractor_rationale_he": "החישוב נכון אך המסקנה שגויה — מינוף 5.0 גבוה אך לא בהכרח רע בנדל\"ן; תלוי DSCR ו-LTV."
+      }
+    ],
+    "explanation_html_he": "<p>ROE = 2,400,000 / 8,000,000 = <strong>30%</strong>.</p><p>ROA = 2,400,000 / 40,000,000 = <strong>6%</strong>.</p><p>Leverage = 40,000,000 / 8,000,000 = <strong>5.0x</strong>.</p><p>בדיקה: ROE = ROA × Leverage = 6% × 5 = 30% ✓.</p><p>מינוף 5.0 = גבוה; אנליסט יבדוק אם DSCR תומך בכך.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-PRX-Q04",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברה: חוב כולל 28,000,000 ₪, EBITDA 5,600,000 ₪, EBIT 4,800,000 ₪, ריבית 1,600,000 ₪.</p><p>חשב Debt/EBITDA ו-ICR. האם החברה עומדת בסף המקובל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Debt/EBITDA בדיוק בגבול הוא אות אזהרה — אנליסט ישאל: האם צמיחה צפויה תוריד את יחס החוב, או שהוא ימשיך לעלות?",
+    "topic_tags": ["financial-ratios", "leverage", "debt-service", "practice"],
+    "options": [
+      {
+        "text_he": "Debt/EBITDA = 5.0x (בגבול < 5.0x לתאגידים); ICR = 3.0x (סביר, > 2.0)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Debt/EBITDA = 5.0x; ICR = 3.5x (EBITDA/ריבית = 5.6M/1.6M במקום EBIT/ריבית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה ב-ICR — ICR = EBIT/ריבית = 4.8M/1.6M = 3.0, לא EBITDA/ריבית. EBITDA כולל פחת שאינו תשלום ריבית."
+      },
+      {
+        "text_he": "Debt/EBITDA = 17.5x (28M / 1.6M — בלבול EBITDA וריבית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה חמורה — חולקו בריבית (1.6M) במקום ב-EBITDA (5.6M). Debt/EBITDA = 28M/5.6M = 5.0x."
+      },
+      {
+        "text_he": "Debt/EBITDA = 5.0x; ICR = 3.0x; &quot;שניהם גרועים&quot;",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי בהערכה — ICR 3.0 = סביר (> 2.0). רק Debt/EBITDA בגבול ודורש מעקב, לא &quot;גרוע&quot;."
+      }
+    ],
+    "explanation_html_he": "<p>Debt/EBITDA = 28M / 5.6M = <strong>5.0x</strong> — בדיוק בגבול (< 5.0x לתאגידי).</p><p>ICR = EBIT / ריבית = 4.8M / 1.6M = <strong>3.0x</strong> — סביר (> 2.0).</p><p>סיכום: החברה עומדת בסף ICR בנוחות; Debt/EBITDA בגבול ודורש מעקב. שאלה קריטית: האם צמיחה צפויה תוריד את יחס החוב?</p>"
+  },
+  {
+    "question_id_external": "C03-M02-PRX-Q05",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>DuPont — שתי חברות עם ROE זהה 24%:</p><ul><li>חברה א': Margin 8%, Turnover 1.5, Leverage 2.0</li><li>חברה ב': Margin 3%, Turnover 2.0, Leverage 4.0</li></ul><p>איזו מהן עדיפה מנקודת מבט אנליסט אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DuPont מגלה את &quot;מקור&quot; ה-ROE — ROE הנובע ממינוף גבוה עם שולי רווח דקים הוא הרבה יותר מסוכן מ-ROE הנובע מרווחיות גבוהה.",
+    "topic_tags": ["financial-ratios", "profitability", "dupont", "leverage"],
+    "options": [
+      {
+        "text_he": "חברה א' עדיפה — ROE נובע מרווחיות ויעילות עם מינוף נמוך. חברה ב' מסוכנת — ROE נובע ממינוף גבוה (4.0x) עם שולי רווח דלים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שתיהן זהות — ROE זהה (24%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — מקור ה-ROE קריטי. מינוף גבוה = סיכון גבוה. ROE זהה יכול להסתיר פרופילי סיכון שונים לחלוטין."
+      },
+      {
+        "text_he": "חברה ב' עדיפה — Asset Turnover גבוה יותר מעיד על יעילות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — Turnover גבוה עם Margin נמוך (3%) ומינוף גבוה (4.0x) יוצר לחץ גדול. יעילות אינה מפצה על שולי רווח דקים."
+      },
+      {
+        "text_he": "אין מספיק מידע להחלטה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי — DuPont נותן מספיק מידע: מינוף 4.0 vs 2.0 הוא הבדל משמעותי בפרופיל הסיכון."
+      }
+    ],
+    "explanation_html_he": "<p>ROE = Margin × Turnover × Leverage.</p><ul><li>חברה א': 8% × 1.5 × 2.0 = 24%</li><li>חברה ב': 3% × 2.0 × 4.0 = 24%</li></ul><p>חברה ב' מסוכנת: Margin 3% = שוליים מאוד דקים; Leverage 4.0 = אם הכנסות ירדו 10%, Net Margin עלול להפוך שלילי.</p><p>חברה א': Margin 8% = כרית טובה לספיגת הפסדים. לאנליסט: מינוף גבוה עם Margin נמוך = מתכון לבעיה.</p>"
+  },
+  {
+    "question_id_external": "C03-M02-PRX-Q06",
+    "course_number": 3,
+    "module_number": 2,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חברת נדל\"ן — נתונים (ש&quot;ח): רווח נקי 3,200,000; הכנסות 32,000,000; סך נכסים 64,000,000; הון עצמי 16,000,000; לקוחות 5,760,000; התח' שוטפות 12,800,000; נכסים שוטפים 16,000,000; חוב כולל 40,000,000; EBITDA 6,400,000; EBIT 4,800,000; ריבית 1,920,000.</p><p>נתון לא רלוונטי: חברה נוסדה ב-2001.</p><p>חשב: (א) ROE ו-ROA; (ב) ימי לקוחות; (ג) יחס שוטף; (ד) Debt/EBITDA; (ה) ICR.</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 240,
+    "senior_insight_he": "D/EBITDA 6.25x מעל הסף — ועדת אשראי תבקש תוכנית הפחתת חוב ברורה ולוח זמנים ריאלי לפני כל אשראי נוסף.",
+    "topic_tags": ["financial-ratios", "profitability", "efficiency", "liquidity", "leverage", "debt-service", "advanced"],
+    "options": [
+      {
+        "text_he": "ROE=20%, ROA=5%; ימי לקוחות=66; יחס שוטף=1.25; D/EBITDA=6.25x; ICR=2.5x",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ROE=10%, ROA=5%; ימי לקוחות=66; יחס שוטף=1.25; D/EBITDA=6.25x; ICR=2.5x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה ב-ROE — חושב 3.2M/32M=10% (הכנסות במכנה) במקום 3.2M/16M=20% (הון עצמי במכנה)."
+      },
+      {
+        "text_he": "ROE=20%, ROA=5%; ימי לקוחות=66; יחס שוטף=1.25; D/EBITDA=6.25x; ICR=3.33x (EBITDA/ריבית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה ב-ICR — חושב EBITDA/ריבית=6.4M/1.92M=3.33 במקום EBIT/ריבית=4.8M/1.92M=2.5. ICR = EBIT בלבד."
+      },
+      {
+        "text_he": "ROE=20%, ROA=5%; ימי לקוחות=66; יחס שוטף=1.25; D/EBITDA=5.0x (הכנסות/EBITDA); ICR=2.5x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה ב-D/EBITDA — חושב 32M/6.4M=5.0 (הכנסות חלקי EBITDA) במקום 40M/6.4M=6.25 (חוב חלקי EBITDA)."
+      }
+    ],
+    "explanation_html_he": "<p>(א) ROE = 3.2M/16M = <strong>20%</strong>; ROA = 3.2M/64M = <strong>5%</strong>; Leverage = 64M/16M = 4.0.</p><p>(ב) ימי לקוחות = 5.76M/32M × 365 = <strong>66 ימים</strong> — סביר.</p><p>(ג) יחס שוטף = 16M/12.8M = <strong>1.25</strong> — גבולי.</p><p>(ד) D/EBITDA = 40M/6.4M = <strong>6.25x</strong> — גבוה מהסף 5.0.</p><p>(ה) ICR = EBIT/ריבית = 4.8M/1.92M = <strong>2.5x</strong> — סביר.</p><p>סיכום: D/EBITDA 6.25 = גבוה = ועדת אשראי תבקש תוכנית הפחתת חוב. שנת הייסוד (2001) — נתון שאינו רלוונטי לחישוב.</p>"
+  }
+]
