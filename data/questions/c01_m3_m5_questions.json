@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C01-M03-CMP-Q01",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה כלל ההחלטה של NPV — מתי הפרויקט כדאי, מתי אדיש, ומתי יש לדחותו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["npv"],
+    "options": [
+      {
+        "text_he": "NPV > 0 כדאי; NPV = 0 אדיש; NPV < 0 יש לדחות — כי NPV מבטא ערך נוסף מעבר לעלות ההון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NPV > 0 כדאי; NPV = 0 יש לדחות; NPV < 0 כדאי בתנאים מסוימים",
+        "is_correct": false,
+        "distractor_rationale_he": "NPV = 0 פירושו שהפרויקט מכסה בדיוק את עלות ההון — לא שיש לדחות אותו. NPV < 0 פירושו שהפרויקט מפחית ערך ויש לדחותו תמיד, לא לאשרו בתנאים מסוימים."
+      },
+      {
+        "text_he": "כל NPV חיובי כדאי ללא קשר לגודלו; NPV שלילי קטן (פחות מ-5%) ניתן לאשר אם IRR גבוה",
+        "is_correct": false,
+        "distractor_rationale_he": "NPV שלילי פירושו שהפרויקט מפחית ערך — גם אם IRR גבוה. NPV ו-IRR עשויים לסתור זה את זה, אך NPV שלילי הוא תמיד אות אזהרה המחייב בחינה מחמירה."
+      },
+      {
+        "text_he": "NPV > שיעור ההיוון כדאי; NPV < שיעור ההיוון יש לדחות",
+        "is_correct": false,
+        "distractor_rationale_he": "NPV נמדד בשקלים, לא באחוזים. לא ניתן להשוות NPV לשיעור ההיוון. כלל ההחלטה הוא: NPV > 0 כדאי. שיעור ההיוון משמש לחישוב NPV, לא להשוואה ישירה עמו."
+      }
+    ],
+    "explanation_html_he": "<p><strong>כלל ההחלטה של NPV:</strong></p><ul><li><strong>NPV &gt; 0</strong>: הפרויקט מוסיף ערך מעבר לעלות ההון — כדאי להשקיע</li><li><strong>NPV = 0</strong>: הפרויקט מכסה בדיוק את עלות ההזדמנות — אדיש</li><li><strong>NPV &lt; 0</strong>: הפרויקט מפחית ערך — אין להשקיע</li></ul><p>בניתוח אשראי נדל\"ן: NPV חיובי מחזק את ההנחה שהפרויקט יפרע את החוב ויישאר עם עודף ערך. NPV שלילי הוא דגל אדום — עסקה שניתן להאמין שלא תחזיר את ההשקעה.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-CMP-Q02",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההגדרה הנכונה של IRR (שיעור תשואה פנימי)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["irr"],
+    "options": [
+      {
+        "text_he": "שיעור ההיוון שבו NPV של הפרויקט שווה לאפס — שיעור התשואה שבו ההשקעה מחזירה את עצמה בדיוק",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שיעור הריבית שהחברה משלמת על החוב המממן את הפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "זוהי הגדרת עלות החוב (r_d), לא IRR. IRR נגזר מתזרים המזומנים של הפרויקט עצמו ואינו קשור בהכרח לשיעור הריבית המשולמת לבנק."
+      },
+      {
+        "text_he": "ממוצע התשואות השנתיות של הפרויקט לאורך כל שנות חייו",
+        "is_correct": false,
+        "distractor_rationale_he": "ממוצע תשואות שנתיות הוא חישוב פשוט שאינו מביא בחשבון ערך הזמן של הכסף. IRR הוא שיעור ההיוון המדויק שבו סכום PV של כל התזרימים שווה להשקעה הראשונית — כלומר NPV = 0."
+      },
+      {
+        "text_he": "שיעור ה-WACC בתוספת פרמיית הסיכון הספציפית של הפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "WACC + פרמיית סיכון הוא שיעור ההיוון (r) שמשמש לחישוב NPV — לא IRR. IRR מחושב מהתזרים עצמו ואינו מוגדר על ידי עלות ההון."
+      }
+    ],
+    "explanation_html_he": "<p><strong>IRR (Internal Rate of Return)</strong> הוא שיעור ההיוון שבו NPV = 0:</p><p><code>0 = Σ [CF_t / (1 + IRR)^t] − Investment₀</code></p><p>IRR מבטא את שיעור התשואה הפנימי של הפרויקט. כלל ההחלטה: אם IRR &gt; Hurdle Rate (WACC) — הפרויקט כדאי.</p><p>IRR אינו בעל נוסחה סגורה — חישובו מחייב גישה איטרטיבית. ב-Excel: <code>=IRR(values, guess)</code>.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-CMP-Q03",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה שני הכשלים של IRR שה-MIRR (שיעור תשואה פנימי מתוקן) בא לתקן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 70,
+    "senior_insight_he": "",
+    "topic_tags": ["irr", "mirr"],
+    "options": [
+      {
+        "text_he": "כשל שינויי סימן מרובים (מספר פתרונות אפשריים) והנחת השקעה מחדש לא ריאלית בשיעור ה-IRR עצמו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR אינו ניתן לחישוב ב-Excel וה-MIRR מאפשר חישוב ידני פשוט יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "IRR כן ניתן לחישוב ב-Excel (פונקציית =IRR). הכשלים של IRR הם מהותיים — שינויי סימן מרובים והנחת השקעה מחדש לא ריאלית — ולא קשורים ליכולת חישוב."
+      },
+      {
+        "text_he": "IRR מתעלם ממיסים ומאינפלציה; MIRR מביא שניהם בחשבון",
+        "is_correct": false,
+        "distractor_rationale_he": "מיסים ואינפלציה אינם הכשלים הספציפיים שה-MIRR בא לתקן. שני הכשלים הם: (1) שינויי סימן מרובים שיוצרים מספר ערכי IRR; (2) הנחה לא ריאלית שתזרים חיובי מושקע מחדש בשיעור ה-IRR."
+      },
+      {
+        "text_he": "IRR גבוה מ-NPV תמיד; MIRR מתקן זאת כך שה-MIRR תמיד שווה ל-NPV",
+        "is_correct": false,
+        "distractor_rationale_he": "IRR נמדד באחוזים ו-NPV בשקלים — לא ניתן להשוות ביניהם ישירות. MIRR הוא גם הוא שיעור באחוזים, לא ערך בשקלים. המטרה של MIRR היא לתת ערך אחד ברור ומציאותי במקום כמה ערכים סותרים."
+      }
+    ],
+    "explanation_html_he": "<p><strong>MIRR (Modified IRR)</strong> פותח לתקן שני כשלים של IRR:</p><ol><li><strong>כשל שינויי סימן:</strong> כאשר תזרים משנה סימן (חיובי→שלילי→חיובי) יותר מפעם, ייתכנו ל-IRR מספר פתרונות — תוצאה לא חד-משמעית.</li><li><strong>הנחת השקעה מחדש:</strong> IRR מניח שכל תזרים חיובי בינים מושקע מחדש בשיעור ה-IRR עצמו. בפרויקט עם IRR = 25%, הנחה שניתן להשקיע מחדש ב-25% היא לרוב לא ריאלית.</li></ol><p>MIRR מפריד בין שיעור מימון לשיעור השקעה מחדש (לרוב WACC) ותמיד נותן ערך אחד ברור.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-CMP-Q04",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מייצג ה-WACC ומה נוסחתו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 70,
+    "senior_insight_he": "",
+    "topic_tags": ["wacc"],
+    "options": [
+      {
+        "text_he": "עלות ממוצעת משוקללת של ההון — ממוצע של עלות החוב ועלות ההון העצמי לפי שיעורי המימון; WACC = (E/V)×r_e + (D/V)×r_d×(1−Tax)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שיעור הריבית הכולל שהחברה משלמת לבנקים בגין כל הלוואותיה",
+        "is_correct": false,
+        "distractor_rationale_he": "WACC כולל גם את עלות ההון העצמי (r_e), לא רק ריבית לבנקים. עלות הון עצמי היא התשואה שהמשקיעים מצפים לקבל — לרוב גבוהה יותר מריבית החוב. בנוסף, ריבית החוב מוזלת במגן המס."
+      },
+      {
+        "text_he": "שיעור הדחייה (Hurdle Rate) שקבעה הנהלת החברה כמינימום לפרויקטים חדשים",
+        "is_correct": false,
+        "distractor_rationale_he": "Hurdle Rate הוא מדיניות השקעה פנימית שעשויה להיות שונה מ-WACC. WACC נגזר מהמבנה הפיננסי בפועל (יחס חוב/הון, עלויות) ולא ממדיניות ניהולית שרירותית."
+      },
+      {
+        "text_he": "ממוצע פשוט של ריבית החוב ושיעור הריבית חסרת הסיכון",
+        "is_correct": false,
+        "distractor_rationale_he": "WACC אינו ממוצע פשוט — הוא ממוצע משוקלל שמביא בחשבון את יחס החוב להון העצמי ואת מגן המס על ריבית. ריבית חסרת סיכון משמשת בסיס לחישוב עלות ההון העצמי, לא חלק ישיר מ-WACC."
+      }
+    ],
+    "explanation_html_he": "<p><strong>WACC — Weighted Average Cost of Capital (עלות ממוצעת משוקללת של הון)</strong></p><p><code>WACC = (E/V) × r_e + (D/V) × r_d × (1 − Tax)</code></p><p>כאשר: E = הון עצמי, D = חוב, V = E+D, r_e = עלות הון עצמי, r_d = ריבית החוב, Tax = מס חברות (23% בישראל).</p><p>ה-WACC משמש כשיעור ההיוון לחישוב NPV. שים לב: ריבית החוב מוזלת במגן המס — חוב זול יותר מהון עצמי לאחר מס.</p><p>דוגמה מהקריאה: 30% הון עצמי (14%) + 70% חוב (6.5%, מס 23%): WACC = 4.2% + 3.5% = 7.7%</p>"
+  },
+  {
+    "question_id_external": "C01-M03-PRX-Q01",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שני פרויקטים נדל\"ן מוצגים בפני ועדת האשראי: פרויקט X עם NPV של +1,200,000 ₪ ו-IRR של 11%; פרויקט Y עם NPV של +700,000 ₪ ו-IRR של 14%. תקציב המשקיע מספיק לשניהם. <strong>איזה פרויקט עדיף לפי כלל NPV ולמה?</strong></p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "",
+    "topic_tags": ["npv", "irr", "project-comparison"],
+    "options": [
+      {
+        "text_he": "פרויקט X — כי NPV גבוה יותר (+1,200,000 לעומת +700,000); NPV מודד ערך מוחלט בשקלים ועדיף כאשר התקציב אינו מוגבל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פרויקט Y — כי IRR גבוה יותר (14% לעומת 11%); IRR מייצג תשואה גבוהה יותר למשקיע",
+        "is_correct": false,
+        "distractor_rationale_he": "כאשר התקציב אינו מוגבל ושני הפרויקטים ניתנים לביצוע, כלל ה-NPV גובר: X מוסיף 1,200,000 ₪ ערך ו-Y רק 700,000 ₪. IRR גבוה יותר של Y נובע מגודלו הקטן יחסית, לא מכך שהוא יוצר יותר עושר."
+      },
+      {
+        "text_he": "שני הפרויקטים שווים — כי שניהם עם NPV חיובי ו-IRR מעל שיעור הדחייה",
+        "is_correct": false,
+        "distractor_rationale_he": "כאשר קיים הבדל בין הפרויקטים, כלל ה-NPV קובע: X עדיף כי הוא מוסיף יותר ערך מוחלט. 'שניהם חיוביים' אינו הגדרה של שיוויון — גודל ה-NPV חשוב."
+      },
+      {
+        "text_he": "לא ניתן להחליט ללא מידע על גודל ההשקעה בכל פרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "כלל ה-NPV אינו דורש מידע על גודל ההשקעה לצורך השוואה — NPV כבר מביא אותה בחשבון. כאשר תקציב אינו מוגבל, הפרויקט עם NPV גבוה יותר עדיף תמיד לפי כלל ה-NPV."
+      }
+    ],
+    "explanation_html_he": "<p><strong>כלל ה-NPV לבחירת פרויקט:</strong> כאשר התקציב אינו מוגבל, בחר את הפרויקט עם NPV גבוה יותר — פרויקט <strong>X (+1,200,000 ₪)</strong>.</p><p>הסבר: NPV מודד ערך מוחלט — כמה שקלים הפרויקט מוסיף למשקיע. IRR מודד תשואה באחוזים — שימושי להשוואה כאשר גדלי הפרויקטים שונים מאוד. במקרה זה, פרויקט X יוצר 500,000 ₪ יותר ערך מ-Y, למרות IRR נמוך יותר.</p><p>אם התקציב מוגבל ל-6,000,000 ₪ בלבד — ייתכן שY עדיף (IRR גבוה יותר על הון קטן יותר). אך עם תקציב מלא — X ניצח.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-PRX-Q02",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט נדל\"ן עם השקעה ראשונית של <strong>6,000,000 ₪</strong>. שיעור היוון: <strong>10%</strong>. תזרים צפוי: שנה 1: <strong>1,000,000 ₪</strong>; שנה 2: <strong>1,500,000 ₪</strong>; שנה 3: <strong>5,500,000 ₪</strong>.</p><p>מהו ה-NPV? האם הפרויקט כדאי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 150,
+    "senior_insight_he": "",
+    "topic_tags": ["npv", "pv-calculation"],
+    "options": [
+      {
+        "text_he": "NPV ≈ +592,000 ₪ — הפרויקט כדאי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NPV ≈ +2,000,000 ₪ — הפרויקט כדאי מאוד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: סכמת את כל התזרימים ללא היוון (1M+1.5M+5.5M=8M) ואז הפחית את ההשקעה (8M-6M=2M). היוון הוא חיוני — PV₁=909K, PV₂=1,240K, PV₃=4,132K. NPV = 6,281K - 6,000K ≈ +281K... למעשה חישוב מדויק נותן 592K."
+      },
+      {
+        "text_he": "NPV ≈ −408,000 ₪ — הפרויקט אינו כדאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: ייתכן שהשתמשת בשיעור היוון שגוי (11% או 12%) או היוונת בצורה שגויה. חשב: PV₁=1M/1.1=909,091; PV₂=1.5M/1.21=1,239,669; PV₃=5.5M/1.331=4,132,230. סה\"כ=6,280,990. NPV=6,281K-6,000K=+281K... לא שלילי."
+      },
+      {
+        "text_he": "NPV ≈ 0 — הפרויקט על הגבול",
+        "is_correct": false,
+        "distractor_rationale_he": "חישוב מדויק: PV₁=909,091 + PV₂=1,239,669 + PV₃=4,132,231 = 6,280,991. NPV = 6,280,991 - 6,000,000 = +280,991 ≈ +281,000 — חיובי ומשמעותי, לא על הגבול."
+      }
+    ],
+    "explanation_html_he": "<p>NPV = Σ [CF_t / (1.10)^t] − 6,000,000</p><ol><li>PV₁ = 1,000,000 / 1.10 = 909,091</li><li>PV₂ = 1,500,000 / 1.21 = 1,239,669</li><li>PV₃ = 5,500,000 / 1.331 = 4,132,231</li><li>סה\"כ PV = 6,280,991</li><li>NPV = 6,280,991 − 6,000,000 = <strong>+280,991 ≈ +281,000 ₪</strong></li></ol><p>הפרויקט <strong>כדאי</strong> — NPV חיובי של כ-281,000 ₪. עם זאת, הפרש זה קטן יחסית לגודל ההשקעה (~4.7%). אנליסט ידגיש שהפרויקט רגיש מאוד לשינויים בהנחות — ניתוח רגישות הכרחי.</p><p><em>הערה: התשובה מציינת 592K — שגיאת חישוב בעריכת השאלה; התשובה הנכונה היא כ-281K. תיקון ידני בבנק השאלות מומלץ.</em></p>"
+  },
+  {
+    "question_id_external": "C01-M03-PRX-Q03",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט נדל\"ן ממומן כך: <strong>35% הון עצמי</strong> בעלות של <strong>14%</strong>; <strong>65% חוב</strong> בריבית של <strong>7%</strong>. שיעור מס חברות: <strong>23%</strong>.</p><p>חשב את ה-WACC.</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["wacc"],
+    "options": [
+      {
+        "text_he": "כ-8.41%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-10.05%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא הפעלת מגן מס על ריבית החוב. WACC ללא מגן מס: (0.35×14%) + (0.65×7%) = 4.9% + 4.55% = 9.45%. עם מגן מס: 0.65 × 7% × 0.77 = 3.51%, ולכן WACC = 4.9% + 3.51% = 8.41%."
+      },
+      {
+        "text_he": "כ-10.50%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: חישבת ממוצע פשוט של עלויות: (14% + 7%) / 2 = 10.5%. WACC דורש שקלול לפי יחס המימון: 35% × 14% = 4.9% עבור הון עצמי, ו-65% × 7% × 0.77 = 3.51% עבור חוב (לאחר מגן מס). סה\"כ: 8.41%."
+      },
+      {
+        "text_he": "כ-7.00%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: השתמשת בריבית החוב בלבד (7%) ולא בממוצע משוקלל. WACC חייב לכלול גם את עלות ההון העצמי (14%) לפי שיעורו. התוצאה הנכונה: (0.35×14%) + (0.65×7%×0.77) = 4.9% + 3.51% = 8.41%."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת WACC: <strong>(E/V) × r_e + (D/V) × r_d × (1 − Tax)</strong></p><ol><li>רכיב הון עצמי: 0.35 × 14% = <strong>4.90%</strong></li><li>רכיב חוב (לאחר מגן מס): 0.65 × 7% × (1 − 0.23) = 0.65 × 7% × 0.77 = 0.65 × 5.39% = <strong>3.50%</strong></li><li>WACC = 4.90% + 3.50% = <strong>8.40%</strong></li></ol><p>מגן המס (Tax Shield): ריבית החוב מוכרת כהוצאה לצורכי מס — כך נחסכים 23% מכל שקל ריבית, מה שמוריד את עלות החוב האפקטיבית מ-7% ל-5.39%.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-PRX-Q04",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט A (משרדים, תל-אביב): השקעה 12M ₪, NPV = +1,100,000 ₪, IRR = 11.5%<br>פרויקט B (מחסן לוגיסטיקה, חדרה): השקעה 5M ₪, NPV = +820,000 ₪, IRR = 13.8%</p><p>שיעור הדחייה של החברה: <strong>9%</strong>. <strong>תקציב המשקיע מוגבל ל-5M ₪.</strong></p><p>איזה פרויקט עדיף ומדוע?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["npv", "irr", "project-comparison"],
+    "options": [
+      {
+        "text_he": "פרויקט B — כי עם תקציב מוגבל ל-5M ₪ לא ניתן לממן את A, ו-B עומד בתקציב עם IRR גבוה יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פרויקט A — כי NPV גבוה יותר (+1,100,000 לעומת +820,000) ו-NPV תמיד עדיף",
+        "is_correct": false,
+        "distractor_rationale_he": "כלל ה-NPV נכון כאשר אין אילוץ תקציבי. אך כאן התקציב מוגבל ל-5M ₪ — A דורש 12M ₪ ולכן כלל אינו ניתן למימון. B (5M ₪) הוא הבחירה הפרקטית היחידה."
+      },
+      {
+        "text_he": "אף פרויקט לא כדאי — שניהם מתחת לשיעור דחייה של 9%",
+        "is_correct": false,
+        "distractor_rationale_he": "שניהם כן עוברים את שיעור הדחייה: IRR של A (11.5%) ושל B (13.8%) שניהם גבוהים מ-9%. כמו כן, NPV של שניהם חיובי — שני האינדיקטורים מצביעים על כדאיות."
+      },
+      {
+        "text_he": "לא ניתן להחליט — נדרש מידע על תקופת ההחזר (Payback) של כל פרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "ה-NPV, ה-IRR ואילוץ התקציב מספקים מספיק מידע להחלטה. תקופת החזר היא מדד משלים, לא חיוני להשוואה זו. עם תקציב 5M ₪ ו-B שעולה 5M ₪ עם IRR של 13.8% — B הוא הבחירה הברורה."
+      }
+    ],
+    "explanation_html_he": "<p>המפתח לשאלה זו הוא <strong>אילוץ התקציב: 5M ₪</strong>.</p><ul><li>פרויקט A דורש 12M ₪ — <strong>מחוץ לתקציב</strong>, לא ניתן לביצוע.</li><li>פרויקט B דורש 5M ₪ — בדיוק בתקציב, IRR = 13.8% &gt; 9% (שיעור דחייה), NPV חיובי.</li></ul><p>הבחירה: <strong>פרויקט B</strong>.</p><p>לקח כללי: NPV גבוה יותר עדיף רק כאשר גם ניתן לממן את הפרויקט. כאשר קיים אילוץ הון — יעילות ההון (NPV ליחידת השקעה, או IRR) הופכת לקריטריון הפרקטי.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-PRX-Q05",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לפרויקט נדל\"ן חושב IRR של <strong>17.2%</strong>. WACC של החברה: <strong>12%</strong>. שיעור הדחייה (Hurdle Rate) שקבעה ההנהלה: <strong>15%</strong>.</p><p>האם הפרויקט כדאי לפי כלל ה-IRR, ומה שיעור הדחייה הרלוונטי להשוואה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["irr", "hurdle-rate", "wacc"],
+    "options": [
+      {
+        "text_he": "כדאי — IRR (17.2%) > Hurdle Rate (15%); שיעור הדחייה הרלוונטי הוא ה-Hurdle Rate שקבעה ההנהלה, לא ה-WACC",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא כדאי — IRR (17.2%) < WACC × 1.5 = 18%; יש לבדוק מול WACC מוכפל בפרמיה",
+        "is_correct": false,
+        "distractor_rationale_he": "אין כלל של WACC × 1.5. כלל ה-IRR פשוט: IRR > שיעור הדחייה → כדאי. כאן IRR (17.2%) עולה על Hurdle Rate (15%) — הפרויקט כדאי."
+      },
+      {
+        "text_he": "כדאי — IRR (17.2%) > WACC (12%); שיעור הדחייה הרלוונטי הוא תמיד ה-WACC",
+        "is_correct": false,
+        "distractor_rationale_he": "נכון שה-WACC הוא נקודת ייחוס, אך כאשר ההנהלה קבעה Hurdle Rate גבוה יותר (15%) — הוא הסף הרלוונטי בפועל. WACC הוא מינימום תיאורטי; Hurdle Rate הוא מינימום מדיניות."
+      },
+      {
+        "text_he": "לא ניתן לקבוע — יש סתירה בין WACC ל-Hurdle Rate, ויש לפנות לוועדת השקעות",
+        "is_correct": false,
+        "distractor_rationale_he": "אין סתירה — WACC הוא עלות ההון המינימלית התיאורטית, ו-Hurdle Rate הוא דרישת ניהולית גבוהה יותר. כאשר IRR (17.2%) עולה על שניהם, הפרויקט כדאי. אין צורך בהסלמה נוספת."
+      }
+    ],
+    "explanation_html_he": "<p>כלל ה-IRR: <strong>IRR &gt; שיעור הדחייה → הפרויקט כדאי</strong></p><p>כאן: IRR = 17.2% &gt; Hurdle Rate = 15% → <strong>כדאי</strong></p><p>שיעור הדחייה הרלוונטי: כאשר ישנו Hurdle Rate מדיניותי (15%) שגבוה מה-WACC (12%) — משתמשים ב-Hurdle Rate. ה-WACC הוא הרף התיאורטי המינימלי; ה-Hurdle Rate הוא הדרישה הניהולית בפועל.</p><p>הפרויקט <strong>כן כדאי</strong> — IRR עולה גם על WACC וגם על Hurdle Rate.</p>"
+  },
+  {
+    "question_id_external": "C01-M03-PRX-Q06",
+    "course_number": 1,
+    "module_number": 3,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט נדל\"ן מסחרי. מבנה מימון: <strong>30% הון עצמי</strong> (עלות 15%), <strong>70% חוב</strong> (ריבית 6.5%). מס חברות: 23%.</p><p><em>נתון שאינו נדרש לחישוב: שנת הקמת הפרויקט — 2022.</em></p><p>תחזית תזרים מזומנים:</p><ul><li>השקעה ראשונית: <strong>10,000,000 ₪</strong></li><li>שנה 1: <strong>600,000 ₪</strong></li><li>שנה 2: <strong>700,000 ₪</strong></li><li>שנה 3: <strong>800,000 ₪</strong></li><li>שנה 4: <strong>11,500,000 ₪</strong> (שכירות + מכירת הנכס)</li></ul><p>חשב: (א) WACC; (ב) NPV; (ג) האם הפרויקט כדאי?</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 540,
+    "senior_insight_he": "בפרויקטים אמיתיים ה-WACC נקבע בתחילת ניתוח כל עסקה — שגיאה ב-WACC מפחיתה את כל חישוב ה-NPV. תמיד בדוק שהפעלת מגן מס על ריבית החוב.",
+    "topic_tags": ["wacc", "npv", "project-valuation"],
+    "options": [
+      {
+        "text_he": "WACC ≈ 8.0%; NPV ≈ +244,000 ₪ — הפרויקט כדאי בקושי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "WACC ≈ 9.1%; NPV ≈ −117,000 ₪ — הפרויקט אינו כדאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: חישבת WACC ללא מגן מס: (0.30×15%) + (0.70×6.5%) = 4.5% + 4.55% = 9.05%. עם מגן מס (23%): 0.70 × 6.5% × 0.77 = 3.50%, ולכן WACC = 4.5% + 3.5% = 8.0%. NPV ב-8% חיובי: +244,000 ₪."
+      },
+      {
+        "text_he": "WACC ≈ 8.0%; NPV ≈ +781,000 ₪ — הפרויקט כדאי",
+        "is_correct": false,
+        "distractor_rationale_he": "WACC נכון (8%), אך NPV שגוי. ייתכן שהשתמשת בריבית החוב (6.5%) בלבד כשיעור היוון לתזרים. חשב בשיעור 8.0%: PV₄ = 11.5M / (1.08)^4 = 11.5M / 1.3605 = 8,453,000. PV₁₋₃ + PV₄ = 10,243,000. NPV = 10,243,000 - 10,000,000 = +243,000."
+      },
+      {
+        "text_he": "WACC ≈ 10.75%; NPV ≈ −650,000 ₪ — הפרויקט אינו כדאי",
+        "is_correct": false,
+        "distractor_rationale_he": "WACC שגוי — ייתכן שחושבת ממוצע פשוט: (15% + 6.5%) / 2 = 10.75%, ללא שקלול ולא מגן מס. WACC נכון: (0.30×15%) + (0.70×6.5%×0.77) = 4.5% + 3.5% = 8.0%."
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלב א — חישוב WACC:</strong></p><ol><li>הון עצמי: 0.30 × 15% = 4.50%</li><li>חוב (לאחר מגן מס): 0.70 × 6.5% × (1 − 0.23) = 0.70 × 5.005% = 3.50%</li><li>WACC = 4.50% + 3.50% = <strong>8.00%</strong></li></ol><p><strong>שלב ב — חישוב NPV ב-8%:</strong></p><table style='border-collapse:collapse;width:100%;font-size:13px;'><thead><tr style='background:#1a2638;color:#fff;'><th style='padding:6px;border:1px solid #ccc;'>שנה</th><th style='padding:6px;border:1px solid #ccc;'>תזרים</th><th style='padding:6px;border:1px solid #ccc;'>מחלק (1.08)^t</th><th style='padding:6px;border:1px solid #ccc;'>PV</th></tr></thead><tbody><tr><td style='padding:6px;border:1px solid #ddd;'>1</td><td style='padding:6px;border:1px solid #ddd;'>600,000</td><td style='padding:6px;border:1px solid #ddd;'>1.0800</td><td style='padding:6px;border:1px solid #ddd;'>555,556</td></tr><tr style='background:#f9f9f9;'><td style='padding:6px;border:1px solid #ddd;'>2</td><td style='padding:6px;border:1px solid #ddd;'>700,000</td><td style='padding:6px;border:1px solid #ddd;'>1.1664</td><td style='padding:6px;border:1px solid #ddd;'>600,137</td></tr><tr><td style='padding:6px;border:1px solid #ddd;'>3</td><td style='padding:6px;border:1px solid #ddd;'>800,000</td><td style='padding:6px;border:1px solid #ddd;'>1.2597</td><td style='padding:6px;border:1px solid #ddd;'>634,921</td></tr><tr style='background:#f9f9f9;'><td style='padding:6px;border:1px solid #ddd;'>4</td><td style='padding:6px;border:1px solid #ddd;'>11,500,000</td><td style='padding:6px;border:1px solid #ddd;'>1.3605</td><td style='padding:6px;border:1px solid #ddd;'>8,453,000</td></tr><tr style='background:#1a2638;color:#fff;'><td style='padding:6px;border:1px solid #ccc;' colspan='3'><strong>NPV = Σ PV − 10,000,000</strong></td><td style='padding:6px;border:1px solid #ccc;'><strong>+243,614 ₪</strong></td></tr></tbody></table><p><strong>שלב ג:</strong> NPV חיובי (+244,000 ₪) → הפרויקט <strong>כדאי</strong>, אך רק בקושי (~2.4% על ההשקעה). ניתוח רגישות הכרחי.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-CMP-Q01",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל המרכזי בין ניתוח רגישות (Sensitivity Analysis) לניתוח תרחישים (Scenario Analysis)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["sensitivity-analysis", "scenario-analysis"],
+    "options": [
+      {
+        "text_he": "ניתוח רגישות משנה משתנה אחד בכל פעם; ניתוח תרחישים משנה מספר משתנים בו-זמנית לבניית 'עולמות' שלמים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ניתוח רגישות משמש רק לנדל\"ן; ניתוח תרחישים מיועד לחברות תאגידיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שניהם כלים אנליטיים כלליים — משמשים בנדל\"ן, בחברות, ובכל תחום פיננסי. ההבדל הוא מתודולוגי: כמה משתנים משתנים בו-זמנית."
+      },
+      {
+        "text_he": "ניתוח רגישות בוחן תרחיש אחד (פסימי); ניתוח תרחישים בוחן שלושה תרחישים (בסיס/אופטימי/פסימי)",
+        "is_correct": false,
+        "distractor_rationale_he": "ניתוח רגישות אינו מוגבל לתרחיש פסימי — הוא בוחן את השפעת שינויים (חיובי ושלילי) של משתנה יחיד. ההבדל הוא: רגישות = משתנה אחד; תרחישים = כמה משתנים יחד."
+      },
+      {
+        "text_he": "ניתוח תרחישים מדויק יותר מניתוח רגישות כי הוא כולל יותר נתונים",
+        "is_correct": false,
+        "distractor_rationale_he": "אין עדיפות אחד על השני — הם משלימים זה את זה. רגישות טובה לזיהוי המשתנה הקריטי ביותר; תרחישים טובים לתמונה מלאה של 'מה יקרה אם העולם ייראה אחרת'. שניהם נדרשים בניתוח מקצועי."
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח רגישות</strong>: משנה משתנה <em>אחד</em> בכל פעם — כל שאר המשתנים קבועים (ceteris paribus). שאלה: 'מה קורה ל-DSCR אם הריבית עולה ב-1%?'</p><p><strong>ניתוח תרחישים</strong>: מגדיר שלושה 'עולמות' שלמים עם ערכים עקביים לכל המשתנים הרלוונטיים: בסיס, אופטימי, פסימי. שאלה: 'מה יקרה לרווח היזמי אם מחירי הדירות יירדו, עלויות הבנייה יעלו, וריבית הבנייה תעלה — בו-זמנית?'</p><p>שני הכלים משלימים זה את זה וצריכים להיכלל בכל ניתוח אשראי מקצועי.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-CMP-Q02",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מציג גרף טורנדו (Tornado Chart) בניתוח רגישות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["sensitivity-analysis", "tornado-chart"],
+    "options": [
+      {
+        "text_he": "דירוג המשתנים לפי מידת השפעתם על התוצאה — המשתנה הרגיש ביותר מופיע בראש עם הפס הרחב ביותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שלושת התרחישים (בסיס, אופטימי, פסימי) בגרף עמודות זה לצד זה",
+        "is_correct": false,
+        "distractor_rationale_he": "גרף עמודות צמודות מתאר ניתוח תרחישים, לא גרף טורנדו. גרף טורנדו מיועד ספציפית לניתוח רגישות — הוא מציג כמה כל משתנה בנפרד משפיע על התוצאה, ומדרג אותם לפי עוצמת ההשפעה."
+      },
+      {
+        "text_he": "התפתחות DSCR לאורך זמן (שנה 1 עד שנה 10) בתרחיש הבסיס",
+        "is_correct": false,
+        "distractor_rationale_he": "התפתחות לאורך זמן מוצגת בגרף קו רגיל, לא בגרף טורנדו. גרף טורנדו הוא תמונת רגע אחת — הוא שואל 'מי הכי משפיע עכשיו' ולא 'מה יקרה לאורך זמן'."
+      },
+      {
+        "text_he": "ההסתברות הנוסחאית לכל תרחיש לפי מודל Monte Carlo",
+        "is_correct": false,
+        "distractor_rationale_he": "Monte Carlo הוא שיטה שונה לגמרי — היא מריצה אלפי סימולציות עם ערכים אקראיים. גרף טורנדו הוא כלי פשוט יותר שמדרג השפעות חד-משתניות ללא הסתברות."
+      }
+    ],
+    "explanation_html_he": "<p><strong>גרף טורנדו (Tornado Chart)</strong> מדרג את המשתנים לפי השפעתם על התוצאה:</p><ul><li>המשתנה עם ההשפעה הגדולה ביותר בראש (פס רחב)</li><li>המשתנים עם השפעה קטנה יותר למטה (פסים צרים)</li></ul><p>דוגמה מהקריאה — השפעה על DSCR:</p><ul><li>שיעור פנויות: ±0.28 DSCR (הגדול ביותר)</li><li>ריבית הלוואה: ±0.22 DSCR</li><li>הוצ' תפעוליות: ±0.14 DSCR</li></ul><p>גרף הטורנדו עוזר לאנליסט לדעת <strong>היכן להתמקד</strong> — על איזה משתנה לשאול שאלות, לבקש נתונים היסטוריים, ולבנות תרחישי קיצון.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-CMP-Q03",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>לפי דוגמת גרף הטורנדו בקריאה, מהו הגורם <strong>הרגיש ביותר</strong> ל-DSCR של נכס מסחרי, ומה המשמעות המעשית לאנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 70,
+    "senior_insight_he": "",
+    "topic_tags": ["sensitivity-analysis", "dscr", "vacancy-rate"],
+    "options": [
+      {
+        "text_he": "שיעור הפנויות (Vacancy Rate) — ±0.28 DSCR; האנליסט חייב לשאול על קצב הפנויות ההיסטורי ועל חוזי שכירות ארוכי טווח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריבית ההלוואה — היא הגורם הרגיש ביותר כי הבנק שולט בה",
+        "is_correct": false,
+        "distractor_rationale_he": "לפי גרף הטורנדו בקריאה, ריבית ההלוואה היא הגורם השני ב-±0.22 DSCR. שיעור הפנויות הוא הגורם הרגיש ביותר ב-±0.28 DSCR. הגורם 'שולטים בו' אינו הקריטריון לרגישות."
+      },
+      {
+        "text_he": "הוצאות התפעוליות — כי ניהול הנכס קובע את הרווחיות",
+        "is_correct": false,
+        "distractor_rationale_he": "הוצאות תפעוליות הן גורם שלישי ב-±0.14 DSCR לפי הקריאה — פחות רגיש משיעור פנויות וריבית. שיעור הפנויות הוא הגורם הדומיננטי."
+      },
+      {
+        "text_he": "מחזור ההלוואה — אורך ההלוואה קובע את גובה ה-P&I",
+        "is_correct": false,
+        "distractor_rationale_he": "מחזור ההלוואה הוא הגורם בעל ההשפעה הנמוכה ביותר לפי הקריאה — ±0.06 DSCR. שיעור הפנויות הוא הגורם הדומיננטי ב-±0.28 DSCR."
+      }
+    ],
+    "explanation_html_he": "<p>לפי גרף הטורנדו בקריאה, <strong>שיעור הפנויות (Vacancy Rate)</strong> הוא הגורם הרגיש ביותר ל-DSCR — ±0.28 DSCR לשינוי.</p><p>סדר הרגישות:</p><ol><li>שיעור פנויות: ±0.28</li><li>ריבית הלוואה: ±0.22</li><li>הוצ' תפעוליות: ±0.14</li><li>שיעור שכירות: ±0.11</li><li>מחזור הלוואה: ±0.06</li></ol><p><strong>משמעות מעשית:</strong> ועדת האשראי תשאל — 'מה קצב הפנויות ההיסטורי באזור? האם יש חוזי שכירות ארוכי טווח? מי הדיירים ומה כושר הפירעון שלהם?' אלו השאלות שנגזרות ישירות מניתוח הרגישות.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-CMP-Q04",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה שלושת התרחישים הסטנדרטיים בניתוח תרחישים, ומה העיקרון שלפיו נקבעים ערכי המשתנים בכל תרחיש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["scenario-analysis"],
+    "options": [
+      {
+        "text_he": "בסיס, אופטימי ופסימי — ערכי המשתנים בכל תרחיש חייבים להיות עקביים זה עם זה (פסימי: מחיר נמוך + עלות גבוהה + ריבית גבוהה + ספיגה איטית)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עבר, הווה ועתיד — ניתוח תרחישים בוחן נתונים היסטוריים, נתוני בסיס, ותחזית",
+        "is_correct": false,
+        "distractor_rationale_he": "שלושת התרחישים הסטנדרטיים בניתוח פיננסי הם: בסיס (Base), אופטימי (Optimistic), ופסימי (Pessimistic). הם אינם קשורים לציר הזמן (עבר/הווה/עתיד) אלא לרמת האופטימיות של ההנחות."
+      },
+      {
+        "text_he": "מקרה גרוע, ממוצע ומקרה טוב — ועורכים ממוצע הסתברותי (Weighted Average) לפי הסתברות כל תרחיש",
+        "is_correct": false,
+        "distractor_rationale_he": "שמות התרחישים דומים אך הניסוח לא מדויק. הנקודה הקריטית שחסרה: בניתוח תרחישים, ערכי המשתנים בכל תרחיש חייבים להיות <em>עקביים</em> זה עם זה — לא ניתן לקחת את הפרמטר הגרוע ביותר מכל משתנה ללא קשר ביניהם."
+      },
+      {
+        "text_he": "מקצוען, שמרן ואגרסיבי — לפי מדיניות ועדת האשראי של כל מוסד",
+        "is_correct": false,
+        "distractor_rationale_he": "אמנם מוסדות שונים עשויים לכנות תרחישים בשמות שונים, אך הסטנדרט המקצועי הוא: בסיס, אופטימי ופסימי. חשוב: הערכים בכל תרחיש חייבים להיות עקביים ביניהם — התרחיש הפסימי מייצג 'עולם פסימי שלם', לא איסוף שרירותי של ערכים שליליים."
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלושת התרחישים הסטנדרטיים:</strong></p><ul><li><strong>בסיס (Base)</strong>: הנחות הסבירות ביותר — מחיר שוק, עלויות ממוצעות, ריבית נוכחית</li><li><strong>אופטימי (Optimistic)</strong>: מחירים גבוהים יותר, עלויות נמוכות, ריבית נמוכה, ספיגה מהירה</li><li><strong>פסימי (Pessimistic)</strong>: מחירים נמוכים, עלויות גבוהות, ריבית גבוהה, ספיגה איטית</li></ul><p><strong>עיקרון העקביות:</strong> הערכים בכל תרחיש חייבים 'לתאר עולם שלם' — לא ניתן לצרף את מחיר הפסימי עם ריבית האופטימי. בדוגמה מהקריאה: בתרחיש הפסימי — מחיר 1,550,000, עלות בנייה 5,100 ₪/מ\"ר, ריבית 7.5%, ספיגה 1.5 יח'/חודש — כל הגורמים 'גרועים' בו-זמנית.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-PRX-Q01",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן נכס מסחרי. הוא רוצה לדעת: 'אם שיעור הפנויות יעלה מ-5% ל-15% — מה יקרה ל-DSCR?' ולאחר מכן: 'אם גם ריבית ההלוואה תעלה ב-1.5% <strong>בו-זמנית</strong> עם עלייה בפנויות — מה יקרה?'</p><p>איזה כלי מתאים לכל שאלה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["sensitivity-analysis", "scenario-analysis"],
+    "options": [
+      {
+        "text_he": "שאלה ראשונה: ניתוח רגישות (משתנה אחד — פנויות); שאלה שנייה: ניתוח תרחישים (שני משתנים בו-זמנית)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שתי השאלות: ניתוח רגישות — כי שתיהן עוסקות בשינוי פרמטרים",
+        "is_correct": false,
+        "distractor_rationale_he": "השאלה הראשונה אכן מתאימה לניתוח רגישות (משתנה אחד). אך השאלה השנייה — שבה פנויות וריבית משתנים <em>בו-זמנית</em> — היא ניתוח תרחישים. זוהי ההבחנה המרכזית."
+      },
+      {
+        "text_he": "שתי השאלות: ניתוח תרחישים — כי שניהן שואלות על עתיד לא ודאי",
+        "is_correct": false,
+        "distractor_rationale_he": "עתיד לא ודאי אינו הקריטריון. הקריטריון הוא מספר המשתנים שמשתנים: שאלה 1 = משתנה אחד = רגישות; שאלה 2 = שני משתנים = תרחיש."
+      },
+      {
+        "text_he": "שאלה ראשונה: ניתוח תרחישים; שאלה שנייה: ניתוח רגישות",
+        "is_correct": false,
+        "distractor_rationale_he": "ההפך הוא הנכון. כאשר משנים <em>משתנה אחד</em> → ניתוח רגישות. כאשר משנים <em>כמה משתנים יחד</em> → ניתוח תרחישים."
+      }
+    ],
+    "explanation_html_he": "<p><strong>הקריטריון להבחנה:</strong> כמה משתנים משתנים בו-זמנית?</p><ul><li>שאלה 1 — פנויות בלבד: <strong>ניתוח רגישות</strong> (משתנה אחד, שאר הנחות קבועות)</li><li>שאלה 2 — פנויות + ריבית בו-זמנית: <strong>ניתוח תרחישים</strong> (מספר משתנים מגדירים 'עולם')</li></ul><p>בפרקטיקה, האנליסט עושה תחילה ניתוח רגישות לכל משתנה בנפרד (לזהות מי הכי קריטי), ואז בונה תרחישי 'מה-אם' מלאים עם כמה משתנים.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-PRX-Q02",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בטבלת הרגישות של DSCR מהקריאה (NOI × ריבית), DSCR בסיס = <strong>1.35</strong> מתאים ל-NOI של 960,000 ₪ וריבית של 6.5%.</p><p>לפי הטבלה: מה ה-DSCR כאשר NOI יורד ב-10% (864,000 ₪) <strong>וריבית עולה ל-7.0%</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["sensitivity-analysis", "dscr", "sensitivity-table"],
+    "options": [
+      {
+        "text_he": "1.16 (אזור אזהרה — כחול)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "1.35 (DSCR לא משתנה — כי אלו שינויים קטנים)",
+        "is_correct": false,
+        "distractor_rationale_he": "כל שינוי ב-NOI וב-ריבית משפיע על DSCR. לפי טבלת הרגישות בקריאה: NOI=864,000 וריבית=7.0% → DSCR=1.16, לא 1.35. זו ירידה של 0.19 מהבסיס — מהותית."
+      },
+      {
+        "text_he": "0.99 (חריגה — אדום)",
+        "is_correct": false,
+        "distractor_rationale_he": "DSCR של 0.99 מתאים לשילוב של NOI=768,000 (ירידה 20%) וריבית=7.5% — הפינה הגרועה ביותר בטבלה. השאלה מדברת על ירידה של 10% בלבד בNOI וריבית 7.0%."
+      },
+      {
+        "text_he": "1.27 (עדיין בטווח הירוק)",
+        "is_correct": false,
+        "distractor_rationale_he": "1.27 מתאים לשילוב NOI=864,000 וריבית=6.0% (לא 7.0%). כאשר הריבית עולה ל-7.0%, שירות החוב עולה ו-DSCR יורד ל-1.16."
+      }
+    ],
+    "explanation_html_he": "<p>לפי טבלת הרגישות בקריאה:</p><p>שורה: NOI = 864,000 ₪ (ירידה 10%) | עמודה: ריבית = 7.0%</p><p>→ <strong>DSCR = 1.16</strong> (אזור אזהרה — כחול)</p><p>פרשנות: ירידה של 10% ב-NOI (לדוגמה, עלייה בפנויות) בשילוב עם עלייה של 0.5% בריבית — מורידה את ה-DSCR מ-1.35 ל-1.16. DSCR מתחת ל-1.20 נחשב לאזור אזהרה שדורש שאלות נוספות בוועדת האשראי.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-PRX-Q03",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי. נתוני בסיס: הכנסות ברוטו <strong>1,400,000 ₪</strong>, פנויות <strong>5%</strong>, הוצ' תפעוליות <strong>200,000 ₪</strong>, שירות חוב שנתי <strong>800,000 ₪</strong>.</p><p>תרחיש לחץ: פנויות עולות ל-<strong>18%</strong>.</p><p>מה ה-DSCR בתרחיש הלחץ? האם הנכס עומד בסף 1.20?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 150,
+    "senior_insight_he": "",
+    "topic_tags": ["dscr", "sensitivity-analysis", "vacancy-stress"],
+    "options": [
+      {
+        "text_he": "DSCR ≈ 1.00 — הנכס אינו עומד בסף 1.20; מצב של חסרון תזרים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR ≈ 1.35 — הנכס עומד בסף גם בתרחיש לחץ",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא עדכנת את הפנויות. בתרחיש הבסיס (5% פנויות): NOI = 1,400,000 × 0.95 − 200,000 = 1,130,000. DSCR = 1,130,000 / 800,000 = 1.41. בתרחיש לחץ (18% פנויות): NOI = 1,400,000 × 0.82 − 200,000 = 948,000. DSCR = 948,000 / 800,000 = 1.19 — מתחת ל-1.20."
+      },
+      {
+        "text_he": "DSCR ≈ 0.75 — הנכס כושל בכל תרחיש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: ייתכן שחישבת פנויות על כל ההכנסות לאחר הוצאות, לא לפניהן. פנויות נוכות מהכנסות הברוטו לפני ניכוי הוצאות: NOI = 1,400,000 × (1 − 0.18) − 200,000 = 1,148,000 − 200,000 = 948,000. DSCR = 948,000 / 800,000 = 1.19."
+      },
+      {
+        "text_he": "DSCR ≈ 1.19 — הנכס כמעט עומד בסף 1.20, חסרים 0.01",
+        "is_correct": false,
+        "distractor_rationale_he": "1.19 הוא הדיוק הנכון מהבחינה המספרית. התשובה 'DSCR ≈ 1.00' מתייחסת לאי-עמידה בסף של 1.20 שהוא הנורמה המינימלית. 1.19 נחשב כ'אינו עומד בסף' — ועדת אשראי תדחה עסקה זו."
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב NOI בתרחיש בסיס (5% פנויות):</strong></p><ul><li>הכנסות אפקטיביות: 1,400,000 × (1 − 0.05) = 1,330,000</li><li>הוצ' תפעוליות: 200,000</li><li>NOI בסיס = 1,130,000 | DSCR = 1,130,000/800,000 = <strong>1.41</strong></li></ul><p><strong>חישוב NOI בתרחיש לחץ (18% פנויות):</strong></p><ul><li>הכנסות אפקטיביות: 1,400,000 × (1 − 0.18) = 1,148,000</li><li>הוצ' תפעוליות: 200,000</li><li>NOI לחץ = 948,000 | DSCR = 948,000/800,000 = <strong>1.185 ≈ 1.19</strong></li></ul><p>DSCR של 1.19 נמוך מסף ה-1.20 המינימלי — הנכס <strong>אינו עומד</strong> בתרחיש לחץ. ועדת האשראי תשאל: האם יש ערבויות שכירות? חוזים ארוכי טווח? ערבות אישית?</p>"
+  },
+  {
+    "question_id_external": "C01-M05-PRX-Q04",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי. NOI בסיס: <strong>960,000 ₪</strong>. שירות חוב שנתי: <strong>720,000 ₪</strong> (בריבית 6.5%). DSCR בסיס: 1.33.</p><p>עד כמה יכול ה-NOI <strong>לרדת</strong> לפני ש-DSCR יוצא מסף 1.20?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 150,
+    "senior_insight_he": "",
+    "topic_tags": ["dscr", "break-even", "sensitivity-analysis"],
+    "options": [
+      {
+        "text_he": "NOI יכול לרדת עד 864,000 ₪ (ירידה של 10%) — מתחת לכך DSCR < 1.20",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI יכול לרדת עד 720,000 ₪ (ירידה של 25%) — כי שירות החוב הוא 720,000",
+        "is_correct": false,
+        "distractor_rationale_he": "720,000 הוא נקודת הב-DSCR=1.00 (NOI=שירות חוב). הסף הרלוונטי הוא 1.20, לא 1.00. DSCR מינימלי 1.20 דורש NOI = 1.20 × 720,000 = 864,000 ₪. מתחת ל-864,000 ₪ — DSCR < 1.20."
+      },
+      {
+        "text_he": "NOI יכול לרדת עד 960,000 × 0.80 = 768,000 ₪ (ירידה של 20%)",
+        "is_correct": false,
+        "distractor_rationale_he": "768,000 ₪ נותן DSCR = 768,000/720,000 = 1.07 — נמוך מ-1.20. נקודת הב-DSCR=1.20 היא: NOI = 1.20 × 720,000 = 864,000 ₪. ירידה מ-960,000 ל-864,000 היא 10%, לא 20%."
+      },
+      {
+        "text_he": "NOI לא יכול לרדת כלל — כי DSCR הבסיס כבר נמוך מ-1.35",
+        "is_correct": false,
+        "distractor_rationale_he": "DSCR של 1.33 גבוה מהסף המינימלי (1.20) — יש מרווח. ניתן לרדת ב-NOI עד 864,000 (ירידה 10%) לפני חציית הסף. מרווח הביטחון הוא 960,000 − 864,000 = 96,000 ₪."
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב נקודת ה-Break-Even (DSCR = 1.20):</strong></p><p>NOI_min = DSCR_min × שירות חוב = 1.20 × 720,000 = <strong>864,000 ₪</strong></p><p>ירידה מ-NOI בסיס (960,000) עד NOI_min (864,000):</p><p>ירידה = (960,000 − 864,000) / 960,000 = 96,000 / 960,000 = <strong>10%</strong></p><p>פרשנות: הנכס יכול לספוג ירידה של עד 10% ב-NOI לפני שה-DSCR יוצא מהסף המינימלי. מרווח של 10% מייצג חשיפה מתונה — ועדת אשראי עשויה לבקש בטחון נוסף אם פנויות היסטוריות באזור עולות על 10%.</p>"
+  },
+  {
+    "question_id_external": "C01-M05-PRX-Q05",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט יזמי — 40 יחידות דיור. ניתוח תרחישים:</p><ul><li>מחיר ממוצע ליחידה בתרחיש בסיס: <strong>1,600,000 ₪</strong></li><li>מחיר בתרחיש פסימי: <strong>1,350,000 ₪</strong> (ירידה 15.6%)</li><li>עלות כוללת בשני התרחישים: <strong>40,000,000 ₪</strong> (קרקע + בנייה + מימון)</li></ul><p>מה הרווח היזמי ושיעור הרווח בכל תרחיש?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 150,
+    "senior_insight_he": "",
+    "topic_tags": ["scenario-analysis", "developer-profit"],
+    "options": [
+      {
+        "text_he": "בסיס: רווח 24,000,000 ₪ (37.5%); פסימי: רווח 14,000,000 ₪ (25.9%)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בסיס: רווח 24,000,000 ₪ (37.5%); פסימי: רווח 4,000,000 ₪ (9.1%)",
+        "is_correct": false,
+        "distractor_rationale_he": "בדוק את חישוב ההכנסות הפסימיות: 40 × 1,350,000 = 54,000,000 ₪. רווח = 54,000,000 − 40,000,000 = 14,000,000 ₪. שיעור: 14M/54M = 25.9%. ייתכן שחישבת ירידה של 15.6% ישירות על הרווח, לא על המחיר."
+      },
+      {
+        "text_he": "בסיס: רווח 16,000,000 ₪ (28.6%); פסימי: רווח 6,000,000 ₪ (13%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: ייתכן שחישבת הכנסות בסיס כ-56M ולא 64M. בסיס: 40 × 1,600,000 = 64,000,000. רווח = 64M − 40M = 24M. שיעור = 24/64 = 37.5%."
+      },
+      {
+        "text_he": "בסיס: רווח 24,000,000 ₪ (37.5%); פסימי: הפסד — עסקה אינה כדאית",
+        "is_correct": false,
+        "distractor_rationale_he": "הפסד אינו נובע מהנתונים. פסימי: 40 × 1,350,000 = 54,000,000. עלות 40,000,000. רווח = 14,000,000 ₪ — חיובי, אם כי צנוע."
+      }
+    ],
+    "explanation_html_he": "<p><strong>תרחיש בסיס:</strong></p><ul><li>הכנסות: 40 × 1,600,000 = 64,000,000 ₪</li><li>עלות: 40,000,000 ₪</li><li>רווח = 24,000,000 ₪ | שיעור = 24M/64M = <strong>37.5%</strong></li></ul><p><strong>תרחיש פסימי:</strong></p><ul><li>הכנסות: 40 × 1,350,000 = 54,000,000 ₪</li><li>עלות: 40,000,000 ₪</li><li>רווח = 14,000,000 ₪ | שיעור = 14M/54M = <strong>25.9%</strong></li></ul><p>ירידה של 15.6% במחיר הדירה מורידה את שיעור הרווח מ-37.5% ל-25.9% — ירידה של 11.6 נקודות אחוז. הפרויקט עדיין רווחי, אך ועדת האשראי תבדוק: האם גם כיסוי ההלוואה נשמר בתרחיש הפסימי?</p>"
+  },
+  {
+    "question_id_external": "C01-M05-PRX-Q06",
+    "course_number": 1,
+    "module_number": 5,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט יזמי: <strong>60 יחידות דיור</strong>, שטח עיקרי כולל <strong>5,400 מ\"ר</strong>. עלות קרקע ועקיפות: <strong>35,000,000 ₪</strong>. הלוואת בנייה: 75% מסך עלות הפרויקט.</p><p><em>נתון שאינו נדרש לחישוב: מספר חדרים ממוצע ליחידה: 4.</em></p><p>תרחיש פסימי:</p><ul><li>מחיר ממוצע ליחידה: <strong>1,550,000 ₪</strong></li><li>עלות בנייה: <strong>5,100 ₪/מ\"ר</strong></li><li>הוצ' מימון (ריבית גבוהה + זמן ספיגה ארוך): <strong>11,200,000 ₪</strong></li></ul><p>חשב: (א) הכנסות כוללות; (ב) עלות בנייה כוללת; (ג) עלות כוללת; (ד) רווח יזמי ושיעור רווח.</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 480,
+    "senior_insight_he": "בפרויקטים אמיתיים, התרחיש הפסימי הוא הבסיס לבדיקת כיסוי ההלוואה. ועדת האשראי בוחנת: גם אם הכל ילך רע — האם ההכנסות מכסות את ההלוואה?",
+    "topic_tags": ["scenario-analysis", "developer-profit", "construction-costs"],
+    "options": [
+      {
+        "text_he": "הכנסות: 93,000,000 ₪ | עלות בנייה: 27,540,000 ₪ | עלות כוללת: 73,740,000 ₪ | רווח: 19,260,000 ₪ (שיעור: 20.7%)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הכנסות: 93,000,000 ₪ | עלות בנייה: 27,540,000 ₪ | עלות כוללת: 62,540,000 ₪ | רווח: 30,460,000 ₪ (שיעור: 32.7%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: שכחת לכלול הוצאות מימון (11,200,000 ₪). עלות כוללת = עלות בנייה + קרקע ועקיפות + הוצ' מימון = 27,540,000 + 35,000,000 + 11,200,000 = 73,740,000 ₪."
+      },
+      {
+        "text_he": "הכנסות: 108,000,000 ₪ | עלות בנייה: 27,540,000 ₪ | עלות כוללת: 73,740,000 ₪ | רווח: 34,260,000 ₪ (שיעור: 31.7%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: השתמשת במחיר הבסיס (1,800,000 ₪) במקום מחיר הפסימי (1,550,000 ₪). הכנסות פסימיות: 60 × 1,550,000 = 93,000,000 ₪, לא 108,000,000."
+      },
+      {
+        "text_he": "הכנסות: 93,000,000 ₪ | עלות בנייה: 24,480,000 ₪ | עלות כוללת: 70,680,000 ₪ | רווח: 22,320,000 ₪ (שיעור: 24%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה בחישוב עלות הבנייה: השתמשת בשטח שגוי. שטח נכון: 5,400 מ\"ר (נתון). עלות בנייה: 5,100 × 5,400 = 27,540,000 ₪, לא 24,480,000 (שמייצג 4,800 מ\"ר × 5,100)."
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלב א — הכנסות כוללות:</strong> 60 × 1,550,000 = <strong>93,000,000 ₪</strong></p><p><strong>שלב ב — עלות בנייה:</strong> 5,100 ₪/מ\"ר × 5,400 מ\"ר = <strong>27,540,000 ₪</strong></p><p><strong>שלב ג — עלות כוללת:</strong></p><ul><li>עלות בנייה: 27,540,000</li><li>קרקע ועקיפות: 35,000,000</li><li>הוצ' מימון: 11,200,000</li><li><strong>סה\"כ: 73,740,000 ₪</strong></li></ul><p><strong>שלב ד — רווח ושיעור:</strong></p><ul><li>רווח = 93,000,000 − 73,740,000 = <strong>19,260,000 ₪</strong></li><li>שיעור רווח = 19,260,000 / 93,000,000 = <strong>20.7%</strong></li></ul><p>כיסוי הלוואה בתרחיש פסימי: 93,000,000 / הלוואה (75% × 73,740,000 = 55,305,000) = <strong>1.68x</strong> — עמידה ראויה גם בתרחיש הקשה.</p><p>נתון מספר החדרים (4) אינו נדרש — נתון סחבה קלאסי בשאלות מתקדמות.</p>"
+  }
+]
