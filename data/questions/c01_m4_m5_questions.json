@@ -1,0 +1,212 @@
+[
+  {
+    "question_id_external": "C01-M04-CMP-Q01",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל הבסיסי בין LTV ל-DSCR — מה כל אחד מהם מודד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ltv-dscr"],
+    "options": [
+      {"text_he": "LTV מודד את יחס ההלוואה לשווי הנכס (סיכון בטוחה), בעוד DSCR מודד את יחס ההכנסה התפעולית לשירות החוב (סיכון תזרים)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "LTV מודד את רמת הריבית על ההלוואה, ו-DSCR מודד את שווי הנכס ביחס לשוק", "is_correct": false, "distractor_rationale_he": "LTV הוא Loan-to-Value — יחס הלוואה לשווי. אין לו קשר לריבית. DSCR הוא Debt Service Coverage Ratio — יחס כיסוי שירות חוב."},
+      {"text_he": "שני המדדים מודדים את אותו הדבר — סיכון האשראי הכולל של הלווה — אך בשיטות חישוב שונות", "is_correct": false, "distractor_rationale_he": "השניים מודדים ממדים שונים של סיכון: LTV — סיכון הבטוחה, DSCR — סיכון תזרים המזומנים. ניתן לקבל LTV נמוך אך DSCR בעייתי, ולהפך."},
+      {"text_he": "DSCR מודד את שווי הנכס מול עלות הקרקע, ו-LTV מודד את ההכנסות מול ההוצאות התפעוליות", "is_correct": false, "distractor_rationale_he": "ההגדרות הפוכות ושגויות. DSCR = NOI / Debt Service. LTV = Loan / Value."}
+    ],
+    "explanation_html_he": "<p><strong>LTV (Loan to Value)</strong> = הלוואה / שווי נכס. מודד את חשיפת הבנק אם הלווה לא יעמוד בתשלומים והנכס יימכר לכיסוי החוב. ככל שה-LTV נמוך יותר, כך לבנק יש כרית ביטחון גדולה יותר.</p><p><strong>DSCR (Debt Service Coverage Ratio)</strong> = NOI / שירות חוב שנתי. מודד האם ההכנסה השוטפת של הנכס מספיקה לכסות את תשלומי הקרן והריבית. DSCR מתחת ל-1.0 אומר שהנכס אינו מייצר מספיק כדי לשרת את החוב.</p><p>שני המדדים משלימים זה את זה: LTV מגן מפני ירידת ערך, DSCR מגן מפני קריסת הכנסות.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-CMP-Q02",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו שווי בכפייה (Forced Sale Value) ומה ההנחה הטיפוסית הנהוגה בישראל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ltv-dscr", "forced-sale-value"],
+    "options": [
+      {"text_he": "שווי בכפייה הוא הערכת מחיר המכירה של נכס בתנאי מכירה מאולצת ומהירה; ההנחה הטיפוסית בישראל היא 75%–85% משווי השוק", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "שווי בכפייה הוא שווי הנכס לאחר ניכוי כל החובות הרשומים עליו; ההנחה הנהוגה היא 50% משווי השוק", "is_correct": false, "distractor_rationale_he": "שווי בכפייה אינו קשור לניכוי חובות — הוא מייצג את המחיר שניתן להשיג במכירה מהירה תחת לחץ. הנחה של 50% היא קיצונית ואינה תואמת את הנוהג בישראל."},
+      {"text_he": "שווי בכפייה הוא שווי הנכס לפי עלות הבנייה בלבד, ללא ערך הקרקע; ההנחה הטיפוסית היא 60% משווי השוק", "is_correct": false, "distractor_rationale_he": "הגדרה שגויה לחלוטין. שווי בכפייה נגזר משווי השוק בניכוי 'עלות הלחץ', לא מעלות הבנייה."},
+      {"text_he": "שווי בכפייה זהה לשווי השוק הוגן; ההבדל הוא רק במסגרת הזמן הניתנת למוכר — 30 ימים במקום 90 ימים", "is_correct": false, "distractor_rationale_he": "מסגרת הזמן היא גורם, אך שווי בכפייה אינו זהה לשווי שוק — הוא נמוך ממנו. ההנחה משקפת שחיקת מחיר בשל הדחיפות."}
+    ],
+    "explanation_html_he": "<p><strong>שווי בכפייה (Forced Sale Value / FSV)</strong> הוא הערכת השווי שניתן להשיג עבור נכס כאשר הוא נמכר בתנאי לחץ — זמן קצר, מוטיבציה גבוהה למכירה, ולרוב ללא שיווק מיטבי.</p><p>בישראל, הנוהג המקובל הוא להניח <strong>FSV של 75%–85% משווי השוק</strong>, בהתאם לסוג הנכס ולסחירותו. נכסים בעלי שוק משני דל (כגון מלונות, בתי חרושת) יקבלו הנחה גדולה יותר; נכסי מגורים בביקוש גבוה יקבלו הנחה קטנה יותר.</p><p>הבנקים משתמשים ב-FSV לחישוב LTV ריאלי — כלומר, האם ההלוואה מכוסה גם בתרחיש מכירה בכפייה.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-CMP-Q03",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ה-DSCR המינימלי הנורמטיבי לנכס מסחרי יציב (Stabilized) בישראל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ltv-dscr", "benchmarks"],
+    "options": [
+      {"text_he": "1.25x", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "1.00x", "is_correct": false, "distractor_rationale_he": "DSCR של 1.00x אומר שאין מרווח כלל — כל שקל של NOI הולך לשירות חוב. אין כרית לאירועים בלתי צפויים. זה נדחה על ידי כל ועדת אשראי רצינית."},
+      {"text_he": "1.10x", "is_correct": false, "distractor_rationale_he": "1.10x מספק מרווח מינימלי בלבד ואינו עומד בדרישות הנורמטיביות לנכסים מסחריים. הנוהג המקובל דורש לפחות 1.25x."},
+      {"text_he": "1.50x", "is_correct": false, "distractor_rationale_he": "1.50x הוא מדד איכותי מצוין, אך אינו ה'מינימום הנורמטיבי'. הדרישה המינימלית המקובלת היא 1.25x; 1.50x ומעלה הוא אישור נוח."}
+    ],
+    "explanation_html_he": "<p>הנוהג הנורמטיבי בישראל ובמדינות מערביות קובע כי <strong>DSCR מינימלי לנכס מסחרי יציב הוא 1.25x</strong>.</p><p>פירוש: על כל שקל של שירות חוב, הנכס מייצר 1.25 ₪ של NOI — כרית של 25% מעל שירות החוב.</p><ul><li><strong>מגורים להשכרה:</strong> לרוב 1.20x–1.25x</li><li><strong>מסחרי (משרדים, מרכזי קניות):</strong> 1.25x–1.35x</li><li><strong>מלונאות / אירוח:</strong> 1.40x ומעלה (בשל תנודתיות הכנסות גבוהה)</li><li><strong>פרויקטי פיתוח:</strong> DSCR אינו רלוונטי בשלב הבנייה; בוחנים LTC ו-DSCR פרו-פורמה</li></ul><p>ה-DSCR המינימלי הוא קו אדום — סטייה ממנו מחייבת בטחונות נוספים, ערבויות, או הקטנת ההלוואה.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-CMP-Q04",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מתי משתמשים ב-LTC במקום ב-LTV, ומדוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["ltv-dscr", "ltc"],
+    "options": [
+      {"text_he": "LTC משמש בפרויקטי פיתוח ובנייה, שם אין עדיין נכס מניב ולכן אין שווי שוק לנכס גמור — במקומו משווים את ההלוואה לסך עלויות הפרויקט", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "LTC משמש כאשר שווי הנכס גבוה מאוד ועולה על 50 מיליון ₪, שכן LTV אינו מדויק בנכסים גדולים", "is_correct": false, "distractor_rationale_he": "הבחירה בין LTV ל-LTC אינה תלויה בגודל הנכס אלא בשלב הפרויקט. LTV משמש לנכסים קיימים בכל גודל."},
+      {"text_he": "LTC הוא מדד חלופי ל-LTV המשמש רק בעסקאות מגורים למטרות מס", "is_correct": false, "distractor_rationale_he": "LTC אינו מדד מיסויי. הוא מדד אשראי ייעודי לשלב הבנייה."},
+      {"text_he": "LTC ו-LTV מחושבים באותו אופן, אך LTC כולל גם את עלות הריבית הצבורה על ההלוואה", "is_correct": false, "distractor_rationale_he": "LTC = הלוואה / עלות כוללת של הפרויקט. LTV = הלוואה / שווי שוק. אלו מדדים שונים המשקפים מצבי פרויקט שונים."}
+    ],
+    "explanation_html_he": "<p><strong>LTC (Loan to Cost)</strong> = הלוואה / סך עלויות הפרויקט.</p><p>משתמשים ב-LTC בפרויקטי <strong>בנייה ופיתוח</strong> מהסיבות הבאות:</p><ol><li>בשלב הבנייה אין נכס מניב — לא ניתן לחשב שווי שוק אמין לנכס שטרם נבנה</li><li>עלות הפרויקט ידועה ומוסכמת (קרקע + בנייה + פיתוח + עלויות נלוות)</li><li>LTC משקף את מידת המימון הזר ביחס להשקעה הכוללת, ומכאן את הסיכון למלווה</li></ol><p>הנורמה הנהוגה: <strong>LTC מקסימלי 65%–75%</strong> לפרויקטי בנייה למגורים. פירוש הדבר: היזם חייב להביא הון עצמי של לפחות 25%–35% מסך עלות הפרויקט.</p><p>עם השלמת הפרויקט ומעבר לשלב ה-Stabilization, ממירים את ה-LTC ל-LTV על בסיס שמאות עדכנית.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-PRX-Q01",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואה בסך <strong>4,500,000 ₪</strong> ניתנת כנגד נכס ששוויו <strong>7,500,000 ₪</strong>.</p><p>מהו ה-LTV?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "בוועדת האשראי, LTV של 60% נחשב שמרני ומאפשר מרווח נוח. ניתן לאשר בתנאים סטנדרטיים ללא בטחונות נוספים — הבנק מכוסה גם בתרחיש של ירידת ערך של 40%.",
+    "topic_tags": ["ltv-dscr", "ltv-calculation"],
+    "options": [
+      {"text_he": "60.0%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "66.7%", "is_correct": false, "distractor_rationale_he": "שגיאה קלאסית: חישוב ההלוואה כאחוז מה-Equity (4,500,000 / 6,750,000) במקום מהשווי הכולל. LTV = הלוואה / שווי נכס, לא הלוואה / הון עצמי."},
+      {"text_he": "45.0%", "is_correct": false, "distractor_rationale_he": "טעות בהיפוך המונה והמכנה: 4,500,000 / 10,000,000 — המכנה אינו נכון. הנוסחה: הלוואה חלקי שווי נכס = 4,500,000 / 7,500,000."},
+      {"text_he": "75.0%", "is_correct": false, "distractor_rationale_he": "ייתכן שנלקח שווי הנכס כמונה: 7,500,000 / 10,000,000. הנוסחה הנכונה היא הלוואה / שווי נכס."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב LTV:</strong></p><p>LTV = הלוואה / שווי נכס = 4,500,000 / 7,500,000 = <strong>0.60 = 60%</strong></p><p>פירוש: הבנק מימן 60% משווי הנכס. ה-Equity של הלווה הוא 40% = 3,000,000 ₪.</p><p>LTV של 60% נחשב שמרני — הבנק מכוסה גם אם ערך הנכס יירד ב-40%. הנורמה המקובלת לנכסים מסחריים היא LTV מקסימלי של 65%–70%.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-PRX-Q02",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי מייצר <strong>NOI שנתי של 2,100,000 ₪</strong>. שירות החוב השנתי (קרן + ריבית) עומד על <strong>1,500,000 ₪</strong>.</p><p>מהו ה-DSCR?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "בוועדת האשראי, DSCR של 1.40x על נכס מסחרי יציב הוא אישור נוח. יש מרווח של 40% מעל שירות החוב — הנכס יכול לספוג ירידת תפוסה משמעותית לפני שהתזרים יפגע בהחזרי ההלוואה.",
+    "topic_tags": ["ltv-dscr", "dscr-calculation"],
+    "options": [
+      {"text_he": "1.40x", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "0.71x", "is_correct": false, "distractor_rationale_he": "היפוך המונה והמכנה: 1,500,000 / 2,100,000. DSCR = NOI / שירות חוב, לא להפך. DSCR מתחת ל-1.0 אומר גירעון תזרימי."},
+      {"text_he": "1.29x", "is_correct": false, "distractor_rationale_he": "ייתכן שנוכה רכיב כלשהו מה-NOI בטעות. הנוסחה פשוטה: 2,100,000 / 1,500,000."},
+      {"text_he": "2.10x", "is_correct": false, "distractor_rationale_he": "ייתכן שהחלוקה נעשתה ב-1,000,000 במקום ב-1,500,000. יש לחלק בשירות החוב המלא."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב DSCR:</strong></p><p>DSCR = NOI / שירות חוב שנתי = 2,100,000 / 1,500,000 = <strong>1.40x</strong></p><p>פירוש: על כל ₪ של שירות חוב, הנכס מייצר 1.40 ₪ של הכנסה תפעולית נטו. מרווח הביטחון הוא 40%.</p><p>DSCR זה עומד בנורמה המינימלית של 1.25x לנכסים מסחריים ואף עולה עליה — מה שמאפשר אישור בתנאים שוטפים.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-PRX-Q03",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שמאי העריך נכס בשווי שוק של <strong>8,000,000 ₪</strong>. הבנק מחיל גורם שווי בכפייה של <strong>80%</strong>. ההלוואה המבוקשת היא <strong>5,000,000 ₪</strong>.</p><p>מהו ה-LTV האמיתי על בסיס שווי הבטוחה (שווי בכפייה)?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בוועדת האשראי, ההבדל בין LTV על שווי שוק לבין LTV על שווי בכפייה הוא קריטי. LTV של 62.5% על שווי שוק נשמע סביר, אך על שווי בכפייה הוא 78.1% — כבר קרוב לגבול. אנליסט שמחשב רק LTV שוק מפספס את הסיכון האמיתי.",
+    "topic_tags": ["ltv-dscr", "forced-sale-value", "ltv-calculation"],
+    "options": [
+      {"text_he": "78.1%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "62.5%", "is_correct": false, "distractor_rationale_he": "זהו ה-LTV על שווי שוק (5,000,000 / 8,000,000). השאלה מבקשת LTV על שווי בכפייה — יש להכפיל תחילה ב-80%: 8,000,000 × 80% = 6,400,000."},
+      {"text_he": "80.0%", "is_correct": false, "distractor_rationale_he": "80% הוא גורם שווי הבכפייה, לא ה-LTV. יש לחשב: שווי בכפייה = 8,000,000 × 80% = 6,400,000, ואז LTV = 5,000,000 / 6,400,000."},
+      {"text_he": "50.0%", "is_correct": false, "distractor_rationale_he": "ייתכן שחושב 5,000,000 / 10,000,000 — מכנה שגוי. השתמשו בשווי הנכון: 8,000,000 × 80%."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — חישוב שווי בכפייה:</strong></p><p>FSV = שווי שוק × גורם בכפייה = 8,000,000 × 80% = <strong>6,400,000 ₪</strong></p><p><strong>שלב 2 — חישוב LTV על שווי בכפייה:</strong></p><p>LTV (FSV) = הלוואה / שווי בכפייה = 5,000,000 / 6,400,000 = <strong>78.1%</strong></p><p><strong>השוואה:</strong></p><ul><li>LTV על שווי שוק: 5,000,000 / 8,000,000 = 62.5% — נראה סביר</li><li>LTV על שווי בכפייה: 78.1% — כבר קרוב לגבול הנורמטיבי</li></ul><p>מסקנה: ניתוח אשראי חייב להסתמך על LTV המבוסס על שווי בכפייה, לא על שווי שוק.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-PRX-Q04",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט פיתוח נדל\"ן כולל: עלות קרקע 8,000,000 ₪, עלות בנייה 14,000,000 ₪, עלויות רישוי ותכנון 1,500,000 ₪, עלויות שיווק ומכירה 1,500,000 ₪. סך עלויות הפרויקט: <strong>25,000,000 ₪</strong>. הון עצמי של היזם: <strong>5,000,000 ₪</strong>. ההלוואה המבוקשת: 20,000,000 ₪.</p><p>מהו ה-LTC?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בוועדת האשראי, LTC של 80% הוא גבוה מאוד ומעל הנורמה המקובלת. היזם מכניס רק 20% הון עצמי — מינוף גבוה שמגלגל רוב הסיכון לבנק. ועדת אשראי רצינית תדרוש LTC מקסימלי של 65%–70%, כלומר הון עצמי של לפחות 7.5–8.75 מיליון ₪.",
+    "topic_tags": ["ltc", "ltv-dscr", "development-finance"],
+    "options": [
+      {"text_he": "80.0%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "25.0%", "is_correct": false, "distractor_rationale_he": "25% הוא אחוז ההון העצמי מסך עלות הפרויקט — זהו ה-Equity Ratio, לא ה-LTC. LTC = הלוואה / סך עלויות."},
+      {"text_he": "71.4%", "is_correct": false, "distractor_rationale_he": "שגיאה אפשרית: שימוש בעלות בנייה בלבד (14,000,000) כמכנה. LTC מחשב מסך עלויות הפרויקט הכולל (25,000,000)."},
+      {"text_he": "57.1%", "is_correct": false, "distractor_rationale_he": "ייתכן שחושב 20,000,000 / 35,000,000 — מכנה שאינו נכון. המכנה הוא סך עלויות הפרויקט: 25,000,000."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב LTC:</strong></p><p>LTC = הלוואה / סך עלויות הפרויקט = 20,000,000 / 25,000,000 = <strong>80%</strong></p><p>ה-Equity Ratio = הון עצמי / סך עלויות = 5,000,000 / 25,000,000 = 20%</p><p>שים לב: LTC = 1 - Equity Ratio רק אם ההלוואה + ההון = סך עלויות (כפי שקורה כאן).</p><p>LTC של 80% גבוה מהנורמה. מלווים שמרניים דורשים LTC מקסימלי של 65%–70%, מה שיחייב את היזם להביא עוד 2.5–3.75 מיליון ₪ הון עצמי.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-PRX-Q05",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 3,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לפניכם נתונים עבור נכס מסחרי:</p><ul><li>הכנסות שכירות שנתיות: <strong>3,500,000 ₪</strong></li><li>הוצאות תפעוליות (ניהול, אחזקה, ביטוח): <strong>800,000 ₪</strong></li><li>שירות חוב שנתי (קרן + ריבית): <strong>2,000,000 ₪</strong></li><li>מס על רווחי הון צפוי עם מכירת הנכס בעוד 7 שנים: <strong>1,200,000 ₪</strong></li></ul><p>מהו ה-DSCR הנכון?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "בוועדת האשראי, מס רווחי הון הוא הסחה קלאסית שמוכרי עסקאות מכניסים לנתוניהם. DSCR מחושב על בסיס NOI — הכנסות פחות הוצאות תפעוליות שוטפות. מס עתידי על מכירה אינו הוצאה שוטפת ואינו נכנס לחישוב.",
+    "topic_tags": ["ltv-dscr", "dscr-calculation", "noi"],
+    "options": [
+      {"text_he": "1.35x (NOI = 2,700,000 / שירות חוב 2,000,000)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "0.75x (הכנסות 3,500,000 פחות כל ההוצאות כולל מס ושירות חוב = 2,700,000 חלקי 3,600,000)", "is_correct": false, "distractor_rationale_he": "שגיאה כפולה: הכללת מס רווחי הון ב-NOI, וחלוקה שגויה. DSCR = NOI / שירות חוב, כאשר NOI = הכנסות פחות הוצאות תפעוליות בלבד."},
+      {"text_he": "1.15x (הכנסות 3,500,000 פחות כל ההוצאות כולל מס 800,000+1,200,000 = 2,300,000 חלקי שירות חוב 2,000,000)", "is_correct": false, "distractor_rationale_he": "הכללת מס רווחי הון (1,200,000) בחישוב ה-NOI היא טעות. מס רווחי הון הוא אירוע עתידי חד-פעמי, לא הוצאה תפעולית שוטפת."},
+      {"text_he": "1.75x (הכנסות 3,500,000 חלקי שירות חוב 2,000,000, ללא ניכוי הוצאות)", "is_correct": false, "distractor_rationale_he": "לא ניתן להתעלם מהוצאות תפעוליות. NOI = הכנסות פחות הוצאות תפעוליות. אי-ניכוי ההוצאות מייצר NOI מנופח ו-DSCR אופטימי מדי."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — זיהוי נתון הסחה:</strong><br>מס על רווחי הון צפוי עם מכירה עתידית — אינו הוצאה תפעולית שוטפת. <strong>מוציאים מהחישוב.</strong></p><p><strong>שלב 2 — חישוב NOI:</strong><br>NOI = הכנסות שכירות − הוצאות תפעוליות = 3,500,000 − 800,000 = <strong>2,700,000 ₪</strong></p><p><strong>שלב 3 — חישוב DSCR:</strong><br>DSCR = NOI / שירות חוב = 2,700,000 / 2,000,000 = <strong>1.35x</strong></p><p>מסקנה: הנכס עומד בנורמה של 1.25x ומעלה. מס רווחי הון הוא פריט שחייב להופיע בניתוח כדאיות המכירה — לא בחישוב DSCR.</p>"
+  },
+  {
+    "question_id_external": "C01-M04-PRX-Q06",
+    "course_number": 1,
+    "module_number": 4,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט בנייה למגורים — נתוני עלויות:</p><ul><li>קרקע: <strong>18,000,000 ₪</strong></li><li>עלויות בנייה ישירות: <strong>45,000,000 ₪</strong></li><li>שכר טרחה מקצועי (אדריכל, מהנדס, יעוץ): <strong>6,000,000 ₪</strong></li><li>עלויות שיווק ומכירה: <strong>5% מסך מכירות צפויות</strong> (מחיר 90,000,000 ₪) = <strong>4,500,000 ₪</strong></li><li>רזרבת ביצוע (Contingency): <strong>5% מסך בנייה + שכ\"ט</strong> = (45,000,000 + 6,000,000) × 5% = <strong>2,550,000 ₪</strong></li><li>הון עצמי יזמי: <strong>12,000,000 ₪</strong></li></ul><p>מהו ה-LTC של הפרויקט?</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "בוועדת האשראי, LTC של 84% הוא אדום. היזם מממן 84% מהפרויקט בחוב — מינוף עקיף קיצוני. גם אם פרויקטים דומים הצליחו, הבנק נוטל סיכון שהמוכר (היזם) לא נוטל. כרגיל, ועדה תדרוש להפחית את ההלוואה לכדי LTC של 70% לכל היותר, כלומר שהיזם יכניס עוד כ-17.8 מיליון ₪ הון עצמי — דבר שעשוי לשנות מהותית את היתכנות הפרויקט.",
+    "topic_tags": ["ltc", "development-finance", "project-costs"],
+    "options": [
+      {"text_he": "84.1% (הלוואה 63,550,000 / סך עלויות 75,550,000)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "70.0% (הלוואה / עלויות בנייה ישירות בלבד 45,000,000+6,000,000+2,550,000)", "is_correct": false, "distractor_rationale_he": "שגיאה: השמטת עלות הקרקע ועלויות השיווק מסך עלויות הפרויקט. LTC מחושב על כלל עלויות הפרויקט כולל קרקע ושיווק."},
+      {"text_he": "60.0% (הלוואה / שווי מכירות 90,000,000 — שימוש בGDV במקום בעלות)", "is_correct": false, "distractor_rationale_he": "זוהי שגיאה קונספטואלית חמורה: שימוש ב-GDV (Gross Development Value) כמכנה במקום בסך עלויות. LTC = הלוואה / עלות, לא הלוואה / שווי שוק."},
+      {"text_he": "78.5% (הלוואה 63,550,000 / עלויות ללא שיווק וקונטינגנסי 81,000,000)", "is_correct": false, "distractor_rationale_he": "השמטת עלויות שיווק וקונטינגנסי מסך עלויות הפרויקט. כל עלויות הפרויקט — לרבות שיווק ורזרבות — נכנסות לחישוב."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — חישוב סך עלויות הפרויקט:</strong></p><table style='border-collapse:collapse;width:100%'><tr><td>קרקע</td><td>18,000,000</td></tr><tr><td>בנייה ישירה</td><td>45,000,000</td></tr><tr><td>שכ\"ט מקצועי</td><td>6,000,000</td></tr><tr><td>שיווק ומכירה</td><td>4,500,000</td></tr><tr><td>קונטינגנסי</td><td>2,550,000</td></tr><tr><td><strong>סך עלויות</strong></td><td><strong>76,050,000</strong></td></tr></table><p><strong>שלב 2 — חישוב ההלוואה:</strong><br>הלוואה = סך עלויות − הון עצמי = 76,050,000 − 12,000,000 = <strong>64,050,000 ₪</strong></p><p><strong>שלב 3 — חישוב LTC:</strong><br>LTC = 64,050,000 / 76,050,000 = <strong>84.2%</strong></p><p>LTC זה גבוה מאוד ועולה על הנורמה המקובלת. ועדת אשראי תדרוש הגדלת ההון העצמי משמעותית.</p>"
+  }
+]

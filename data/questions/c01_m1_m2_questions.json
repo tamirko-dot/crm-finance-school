@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C01-M01-CMP-Q01",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>הקריאה מנתה שלוש סיבות לכך ששקל היום שווה יותר משקל בעתיד. אלו מהבאות הן שלוש הסיבות הנכונות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["tvm-basics"],
+    "options": [
+      {
+        "text_he": "יכולת השקעה, אינפלציה, ואי-ודאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יכולת השקעה, מיסוי, וסיכון ריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "מיסוי וסיכון ריבית אינם אחת משלוש הסיבות שנמנו בקריאה. הסיבות הן: יכולת השקעה (הכסף יכול לייצר תשואה), אינפלציה (שחיקת כוח קנייה), ואי-ודאות (תשלום עתידי עלול לא להגיע)."
+      },
+      {
+        "text_he": "אינפלציה, מינוף, ואי-ודאות",
+        "is_correct": false,
+        "distractor_rationale_he": "מינוף אינו אחת מהסיבות הבסיסיות לערך הזמן של הכסף. הסיבה הראשונה הנכונה היא יכולת השקעה — שקל שבידינו כבר היום יכול להיות מושקע ולהרוויח ריבית."
+      },
+      {
+        "text_he": "ריבית דריבית, אינפלציה, וסיכון שוק",
+        "is_correct": false,
+        "distractor_rationale_he": "ריבית דריבית היא מנגנון חישוב ולא סיבה לעדיפות כסף מיידי. סיכון שוק אינו מוזכר כסיבה עצמאית. הסיבות הנכונות הן: יכולת השקעה, אינפלציה, ואי-ודאות."
+      }
+    ],
+    "explanation_html_he": "<p>הקריאה מנתה שלוש סיבות לכך שלשקל היום ערך גבוה יותר משקל עתידי:</p><ol><li><strong>יכולת השקעה:</strong> שקל שבידינו כבר היום יכול להיות מושקע ולהרוויח ריבית — שקל שיגיע רק בעוד שנה מפסיד שנה שלמה של הזדמנויות.</li><li><strong>אינפלציה:</strong> עם הזמן עולים המחירים, ולכן כוח הקנייה של שקל עתידי נמוך יותר משל שקל עכשווי.</li><li><strong>אי-ודאות:</strong> תשלום עתידי אינו וודאי — ככל שמרוחק יותר, גדלה הסכנה שלא יתקבל בפועל.</li></ol>"
+  },
+  {
+    "question_id_external": "C01-M01-CMP-Q02",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל המהותי בין ריבית פשוטה (Simple Interest) לריבית דריבית (Compound Interest)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["simple-compound-interest"],
+    "options": [
+      {
+        "text_he": "בריבית פשוטה, הריבית מחושבת על הקרן המקורית בלבד; בריבית דריבית, הריבית שנצברה מוסיפה לקרן ומרוויחה בעצמה ריבית בתקופות הבאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריבית פשוטה גדולה יותר מריבית דריבית בכל תקופה; לכן הלוואות בריבית פשוטה יקרות יותר ללווה",
+        "is_correct": false,
+        "distractor_rationale_he": "הטענה שגויה. בתקופה הראשונה השתיים שוות. מהתקופה השנייה ואילך ריבית דריבית תמיד גדולה יותר — כי הריבית שנצברה מרוויחה ריבית נוספת. לאחר שנים רבות ההפרש הופך לדרמטי."
+      },
+      {
+        "text_he": "ריבית פשוטה נפוצה בהלוואות ארוכות-טווח כמו משכנתאות, ואילו ריבית דריבית מיועדת להלוואות קצרות-מועד בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "ההפך הוא הנכון. ריבית פשוטה נפוצה דווקא בהלוואות קצרות-מועד ובתאריכי ערך בין בנקים. כל הלוואות המשכנתא מחושבות בשיטת 'שפיצר' — ריבית דריבית חודשית."
+      },
+      {
+        "text_he": "בשתי השיטות התוצאה זהה; ההבדל הוא רק בשיטת הצגת החישוב, לא בסכום הסופי",
+        "is_correct": false,
+        "distractor_rationale_he": "ההבדל הוא אמיתי ומשמעותי. לדוגמה: 100,000 ₪ בריבית 6% ל-30 שנה: ריבית פשוטה → 280,000 ₪; ריבית דריבית → 574,349 ₪. הפרש של כמעט 300,000 ₪."
+      }
+    ],
+    "explanation_html_he": "<p><strong>ריבית פשוטה:</strong> הריבית מחושבת תמיד על הקרן המקורית בלבד. נוסחה: FV = PV × (1 + r × n). לאחר 5 שנים על 100,000 ₪ בריבית 6%: 100,000 × 1.30 = 130,000 ₪.</p><p><strong>ריבית דריבית:</strong> הריבית שנצברה מתווספת לקרן ומרוויחה ריבית בעצמה. נוסחה: FV = PV × (1 + r)^n. לאחר 5 שנים: 100,000 × (1.06)^5 = 133,823 ₪.</p><p>אנליסט אשראי חייב להשתמש תמיד בריבית דריבית לחישוב הלוואות נדל\"ן. שימוש בנוסחה הפשוטה יניב תוצאות שגויות באופן מהותי.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-CMP-Q03",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה היא ריבית אפקטיבית (EAR — Effective Annual Rate) ומה נוסחת החישוב שלה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 70,
+    "senior_insight_he": "",
+    "topic_tags": ["ear-nominal-rate"],
+    "options": [
+      {
+        "text_he": "EAR היא התשואה השנתית האמיתית לאחר הבאת תדירות ההרכבה בחשבון; הנוסחה: EAR = (1 + r_nom / m)^m − 1",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "EAR היא הריבית הנומינלית מחולקת במספר תקופות ההרכבה בשנה; הנוסחה: EAR = r_nom / m",
+        "is_correct": false,
+        "distractor_rationale_he": "הנוסחה r_nom / m היא הריבית לתקופה (למשל ריבית חודשית), לא ה-EAR. ה-EAR מביא בחשבון אפקט ההרכבה ולכן כולל חזקה: (1 + r_nom/m)^m − 1. התוצאה תמיד גבוהה מ-r_nom כאשר m > 1."
+      },
+      {
+        "text_he": "EAR היא הריבית הנומינלית בניכוי שיעור האינפלציה; הנוסחה: EAR = r_nom − inflation",
+        "is_correct": false,
+        "distractor_rationale_he": "זוהי הגדרת הריבית הריאלית (לפי קירוב פישר), לא ה-EAR. ה-EAR אינו עוסק באינפלציה כלל — הוא ממיר ריבית נומינלית לשיעור שנתי אפקטיבי בהתחשב בתדירות ההרכבה."
+      },
+      {
+        "text_he": "EAR היא הריבית הנומינלית כפולה במספר תקופות ההרכבה; הנוסחה: EAR = r_nom × m",
+        "is_correct": false,
+        "distractor_rationale_he": "כפל פשוט של הריבית במספר תקופות מתעלם מאפקט הדריבית. ריבית נומינלית 1% לחודש × 12 חודשים = 12% נומינלי, אך ה-EAR האמיתי הוא (1.01)^12 − 1 = 12.68% — גבוה יותר בשל ריבית על ריבית."
+      }
+    ],
+    "explanation_html_he": "<p><strong>ריבית אפקטיבית (EAR)</strong> מבטאת את התשואה השנתית האמיתית לאחר הבאת תדירות ההרכבה בחשבון.</p><p>נוסחה: <code>EAR = (1 + r_nom / m)^m − 1</code></p><p>כאשר r_nom = ריבית נומינלית שנתית, m = מספר תקופות הרכבה בשנה.</p><p>דוגמה מהקריאה: ריבית פריים 7.25% נומינלית, הרכבה חודשית (m=12):<br>EAR = (1 + 0.0725/12)^12 − 1 = 7.499%</p><p>ה-EAR תמיד גבוה מהריבית הנומינלית כאשר m > 1, כי הריבית שנצברה בין התקופות מרוויחה ריבית בעצמה.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-CMP-Q04",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי נוסחת הפרפטואיטי (Perpetuity) וכיצד היא קשורה להערכת שווי נכסים מניבים בשיטת Cap Rate?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["perpetuity", "cap-rate"],
+    "options": [
+      {
+        "text_he": "PV = C / r; שווי נכס מניב = NOI שנתי / Cap Rate — שתי הנוסחאות זהות מבחינה מתמטית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "PV = C × r; שיטת ה-Cap Rate מכפילה את ה-NOI בשיעור ההיוון",
+        "is_correct": false,
+        "distractor_rationale_he": "כפל בשיעור ההיוון מניב תוצאה הפוכה לחלוטין. נוסחת הפרפטואיטי היא חלוקה: PV = C / r. נכס עם NOI של 600,000 ₪ ו-Cap Rate של 6%: שווי = 600,000 / 0.06 = 10,000,000 ₪, לא 600,000 × 0.06 = 36,000."
+      },
+      {
+        "text_he": "PV = C / r^n; שיטת ה-Cap Rate מביאה בחשבון מספר שנות ההחזקה המוערך",
+        "is_correct": false,
+        "distractor_rationale_he": "הוספת המעריך n הופכת את הנוסחה לנוסחת היוון של תזרים בודד, לא פרפטואיטי. פרפטואיטי הוא אינסוף תקופות, ומכאן האלגנטיות: כאשר n → ∞ הסדרה מתכנסת לפשטות PV = C / r בלבד."
+      },
+      {
+        "text_he": "PV = C × (1 + r) / r; ה-Cap Rate שווה ל-(1 + r) ולא ל-r",
+        "is_correct": false,
+        "distractor_rationale_he": "נוסחת C × (1 + r) / r היא ערך נוכחי של אנואיטי-מאוחר — לא פרפטואיטי. בפרפטואיטי פשוט (ordinary perpetuity), הנוסחה המדויקת היא PV = C / r. ה-Cap Rate שבשוק הנדל\"ן מקביל בדיוק ל-r בנוסחה זו."
+      }
+    ],
+    "explanation_html_he": "<p><strong>פרפטואיטי (Perpetuity)</strong> הוא סדרת תשלומים שווים לאינסוף. ערכו הנוכחי: <code>PV = C / r</code></p><p>כאשר C = תשלום שנתי קבוע, r = שיעור ההיוון.</p><p><strong>הקשר ל-Cap Rate:</strong> שיטת הערכת שווי נכסים מניבים: שווי נכס = NOI / Cap Rate — זוהי נוסחת הפרפטואיטי! ה-Cap Rate הוא שיעור ההיוון שהשוק מייחס לנכס.</p><p>דוגמה: נכס עם NOI שנתי של 600,000 ₪ ו-Cap Rate שוקי של 6%: שווי = 600,000 / 0.06 = <strong>10,000,000 ₪</strong></p><p>שינוי בריבית בנק ישראל גורר שינוי ב-Cap Rate ובהתאם בשווי הנכסים המניבים — אחד הסיכונים המרכזיים בתיק נכסים מניב.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-PRX-Q01",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בחישוב ריבית דריבית, מה התוצאה לאחר <strong>תקופה אחת בלבד</strong> בהשוואה לחישוב ריבית פשוטה באותם נתונים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["simple-compound-interest"],
+    "options": [
+      {
+        "text_he": "התוצאה זהה — לאחר תקופה אחת בלבד שתי השיטות נותנות את אותו ערך עתידי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריבית דריבית גדולה יותר גם לאחר תקופה אחת — כי הנוסחה (1+r)^1 גדולה מ-(1 + r×1)",
+        "is_correct": false,
+        "distractor_rationale_he": "למעשה (1+r)^1 = 1+r בדיוק, ו-(1 + r×1) = 1+r גם כן. שתי הנוסחאות מניבות את אותה תוצאה לתקופה אחת. ההבדל מתחיל מהתקופה השנייה."
+      },
+      {
+        "text_he": "ריבית פשוטה גדולה יותר בתקופה הראשונה — כי היא מסכמת את כל הריבית מראש",
+        "is_correct": false,
+        "distractor_rationale_he": "ריבית פשוטה אינה מסכמת את הריבית מראש — היא מחושבת תקופה אחר תקופה. לאחר תקופה אחת, שתיהן נותנות FV = PV × (1 + r)."
+      },
+      {
+        "text_he": "ההבדל בין השיטות מתחיל כבר מהתקופה הראשונה וגדל בהדרגה",
+        "is_correct": false,
+        "distractor_rationale_he": "ההבדל אינו קיים בתקופה הראשונה — הוא מתחיל בתקופה השנייה. בתקופה 1: ריבית פשוטה: PV × (1 + r × 1) = PV × (1+r). ריבית דריבית: PV × (1+r)^1 = PV × (1+r). תוצאות זהות."
+      }
+    ],
+    "explanation_html_he": "<p>בתקופה אחת בלבד, שתי הנוסחאות מניבות תוצאה זהה:</p><ul><li>ריבית פשוטה: FV = PV × (1 + r × 1) = PV × (1 + r)</li><li>ריבית דריבית: FV = PV × (1 + r)^1 = PV × (1 + r)</li></ul><p>ההבדל מתחיל בתקופה השנייה: בריבית פשוטה, הריבית מחושבת שוב על הקרן המקורית בלבד. בריבית דריבית, הריבית שנצברה בתקופה הראשונה מצטרפת לקרן ומרוויחה ריבית גם היא.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-PRX-Q02",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק מפקיד <strong>500,000 ₪</strong> בפיקדון בריבית דריבית שנתית של <strong>4%</strong> לתקופה של <strong>3 שנים</strong>.</p><p>מהו הערך העתידי (FV) של הפיקדון בתום 3 שנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["compound-interest", "fv-calculation"],
+    "options": [
+      {
+        "text_he": "562,432 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "560,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "זוהי תוצאת ריבית פשוטה: 500,000 × (1 + 0.04 × 3) = 500,000 × 1.12 = 560,000 ₪. הלוואות ופיקדונות נדל\"ן מחושבים בריבית דריבית: 500,000 × (1.04)^3 = 562,432 ₪."
+      },
+      {
+        "text_he": "520,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "חישוב שגוי — חושב ריבית לשנה אחת בלבד: 500,000 × 1.04 = 520,000. יש להעלות ב-3 תקופות: (1.04)^3 = 1.124864, לכן FV = 562,432 ₪."
+      },
+      {
+        "text_he": "624,320 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה — כנראה בוצעה כפלה ב-3 ריביות: 500,000 × 1.04 × 3. הנוסחה הנכונה היא חזקה, לא כפל חוזר: 500,000 × (1.04)^3 = 562,432 ₪."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת ערך עתידי בריבית דריבית: <strong>FV = PV × (1 + r)^n</strong></p><p>FV = 500,000 × (1.04)^3</p><p>חישוב שלב אחר שלב:</p><ul><li>(1.04)^1 = 1.04 → 520,000</li><li>(1.04)^2 = 1.0816 → 540,800</li><li>(1.04)^3 = 1.124864 → <strong>562,432 ₪</strong></li></ul>"
+  },
+  {
+    "question_id_external": "C01-M01-PRX-Q03",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק מציע הלוואת ליווי בריבית נומינלית שנתית של <strong>9.6%</strong> עם הרכבה חודשית (m = 12).</p><p>מהי ריבית ה-EAR (ריבית אפקטיבית שנתית) של ההלוואה?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["ear-nominal-rate"],
+    "options": [
+      {
+        "text_he": "10.03%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "9.60%",
+        "is_correct": false,
+        "distractor_rationale_he": "9.6% הוא שיעור הריבית הנומינלית, לא האפקטיבית. הריבית האפקטיבית תמיד גבוהה יותר מהנומינלית כאשר מספר תקופות ההרכבה גדול מ-1, כי ריבית הנצברת בתוך השנה מרוויחה ריבית בעצמה."
+      },
+      {
+        "text_he": "0.80%",
+        "is_correct": false,
+        "distractor_rationale_he": "0.80% הוא הריבית החודשית (9.6% / 12), לא ה-EAR השנתי. ה-EAR דורש להעלות את (1 + ריבית חודשית) בחזקת 12 ולהפחית 1: (1.008)^12 − 1 = 10.03%."
+      },
+      {
+        "text_he": "9.96%",
+        "is_correct": false,
+        "distractor_rationale_he": "קירוב שגוי. נוסחת ה-EAR המדויקת: (1 + 0.096/12)^12 − 1 = (1.008)^12 − 1 = 10.03%. שגיאה נפוצה: ניסיון לחבר ריביות חודשיות עם הפרש — לא מדויק."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת ריבית אפקטיבית: <strong>EAR = (1 + r_nom / m)^m − 1</strong></p><p>r_nom = 9.6% = 0.096; m = 12</p><p>חישוב שלב אחר שלב:</p><ol><li>ריבית חודשית: 0.096 / 12 = 0.008 (= 0.8% לחודש)</li><li>(1.008)^12: נחשב בצמדים: (1.008)^2 = 1.016064; (1.016064)^2 = 1.032449; (1.032449)^2 = 1.065942; × (1.008)^4 = 1.032449... שיטה פשוטה: (1.008)^12 ≈ 1.10033</li><li>EAR = 1.10033 − 1 = <strong>10.03%</strong></li></ol><p>ההפרש בין 9.6% (נומינלי) ל-10.03% (אפקטיבי): 0.43% — על הלוואת ליווי של 10 מיליון ₪ מגיע לכ-43,000 ₪ בשנה.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-PRX-Q04",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי צפוי להניב הכנסה נקייה (NOI) שנתית קבועה של <strong>840,000 ₪</strong>. שיעור ה-Cap Rate השוקי לסוג נכס זה הוא <strong>7%</strong>.</p><p>מה השווי הנוכחי הנגזר מנוסחת הפרפטואיטי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "",
+    "topic_tags": ["perpetuity", "cap-rate", "property-valuation"],
+    "options": [
+      {
+        "text_he": "12,000,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "5,880,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: כפלת במקום לחלק — 840,000 × 7 = 5,880,000. נוסחת הפרפטואיטי היא חלוקה: PV = C / r = 840,000 / 0.07 = 12,000,000 ₪. Cap Rate נמוך יותר = שווי גבוה יותר."
+      },
+      {
+        "text_he": "16,800,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "חולק ב-0.05 (5%) במקום ב-0.07 (7%). הקפד להשתמש ב-Cap Rate המדויק. 840,000 / 0.07 = 12,000,000, לא 840,000 / 0.05 = 16,800,000."
+      },
+      {
+        "text_he": "10,500,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "חישוב לפי 8% במקום 7%: 840,000 / 0.08 = 10,500,000. בדוק שוב את שיעור ה-Cap Rate הנתון — 7% — ותחשב: 840,000 / 0.07 = 12,000,000."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת פרפטואיטי להערכת שווי נכס מניב: <strong>PV = NOI / Cap Rate</strong></p><p>PV = 840,000 / 0.07 = <strong>12,000,000 ₪</strong></p><p>נקודה חשובה: אם ה-Cap Rate יעלה ל-8% עקב עלייה בריבית בנק ישראל, שווי הנכס יירד ל-840,000 / 0.08 = 10,500,000 ₪ — ירידה של 1,500,000 ₪ מבלי שהכנסת הנכס השתנתה כלל. זהו הסיכון המרכזי של נכסים מניבים בסביבת ריבית עולה.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-PRX-Q05",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מבקש הלוואת משכנתא בסך <strong>1,200,000 ₪</strong>. ריבית שנתית קבועה: <strong>6%</strong> (= 0.5% לחודש). תקופת ההלוואה: <strong>20 שנה (240 חודשים)</strong>.</p><p>מהו התשלום החודשי הקבוע (שיטת שפיצר)?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "",
+    "topic_tags": ["annuity", "mortgage-payment", "pmt-formula"],
+    "options": [
+      {
+        "text_he": "כ-8,597 ₪ לחודש",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-6,000 ₪ לחודש",
+        "is_correct": false,
+        "distractor_rationale_he": "6,000 ₪ הוא הריבית החודשית על הקרן בלבד (1,200,000 × 0.5%), ללא רכיב פירעון הקרן. תשלום שפיצר כולל גם פירעון קרן, ולכן גבוה יותר: PMT = 1,200,000 × 0.005 / [1 − (1.005)^(−240)] ≈ 8,597 ₪."
+      },
+      {
+        "text_he": "כ-7,200 ₪ לחודש",
+        "is_correct": false,
+        "distractor_rationale_he": "חישוב שגוי — אינו נגזר מנוסחת PMT. שיטת שפיצר דורשת נוסחת PMT מדויקת: PMT = 1,200,000 × 0.005 / [1 − (1.005)^(−240)] ≈ 8,597 ₪."
+      },
+      {
+        "text_he": "כ-10,480 ₪ לחודש",
+        "is_correct": false,
+        "distractor_rationale_he": "תוצאה זו קרובה לתשלום ל-10 שנים (120 חודשים), לא 20 שנה. ככל שתקופת ההלוואה ארוכה יותר, התשלום החודשי נמוך יותר — אך סך הריבית הכוללת גדל. ל-240 חודשים: PMT ≈ 8,597 ₪."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת תשלום אנואיטי: <strong>PMT = PV × r / [1 − (1 + r)^(−n)]</strong></p><p>r = 0.5% = 0.005 לחודש; n = 240 חודשים; PV = 1,200,000</p><p>שלבי חישוב:</p><ol><li>(1.005)^12 ≈ 1.0617</li><li>(1.005)^240 = (1.0617)^20 ≈ 3.3102</li><li>(1.005)^(−240) = 1/3.3102 ≈ 0.3021</li><li>1 − 0.3021 = 0.6979</li><li>PMT = 1,200,000 × 0.005 / 0.6979 = 6,000 / 0.6979 ≈ <strong>8,597 ₪</strong></li></ol><p>לאורך 20 שנה, הלווה ישלם סה\"כ 240 × 8,597 = 2,063,280 ₪ — כלומר 863,280 ₪ ריבית על קרן של 1,200,000 ₪.</p>"
+  },
+  {
+    "question_id_external": "C01-M01-PRX-Q06",
+    "course_number": 1,
+    "module_number": 1,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב בירושלים מוצע למכירה. שיעור ההיוון הנדרש: <strong>9% לשנה</strong>. שטח הנכס: <strong>320 מ\"ר</strong> (נתון שאינו נדרש לחישוב). תחזית תזרים מזומנים נקי (NOI):</p><ul><li>שנה 1: <strong>120,000 ₪</strong> (אכלוס חלקי)</li><li>שנה 2: <strong>240,000 ₪</strong></li><li>שנה 3: <strong>255,000 ₪</strong></li><li>שנה 4: <strong>265,000 ₪</strong></li><li>שנה 5: <strong>3,150,000 ₪</strong> (שכירות שנה 5 + תמורת מכירת הנכס)</li></ul><p>מה הערך הנוכחי הכולל (PV) של הנכס?</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 480,
+    "senior_insight_he": "בפרויקטים אמיתיים, שנת האכלוס תמיד נמוכה מהשנים הבאות. אל תשכח להוון כל תזרים לפי תקופתו המדויקת — שגיאה נפוצה היא שימוש ב-(1.09)^4 עבור שנה 5.",
+    "topic_tags": ["uneven-cash-flows", "pv-calculation", "property-valuation"],
+    "options": [
+      {
+        "text_he": "כ-2,744,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-2,636,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: שיעור היוון של 10% שימש במקום 9%. שיעור ההיוון הנתון הוא 9%; השימוש ב-10% (ריבית עגולה נוחה) הוא טעות נפוצה. כל תזרים מהוון ב-(1.09)^t, לא (1.10)^t."
+      },
+      {
+        "text_he": "כ-2,928,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: תזרים שנה 5 הוון ב-(1.09)^4 במקום (1.09)^5. שנה 5 דורשת 5 תקופות: 3,150,000 / (1.09)^5 = 3,150,000 / 1.5386 ≈ 2,047,200 ₪. שימוש ב-4 תקופות נותן 2,231,100 — גבוה מדי."
+      },
+      {
+        "text_he": "כ-4,030,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: סכום כל התזרימים ללא היוון: 120,000 + 240,000 + 255,000 + 265,000 + 3,150,000 = 4,030,000 ₪. היוון הוא הליבה של שאלה זו — כל שקל עתידי שווה פחות משקל היום. ללא היוון, הסכום חסר משמעות כלכלית."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחה: <strong>PV = Σ CF_t / (1.09)^t</strong></p><table style='border-collapse:collapse;width:100%;font-size:13px;'><thead><tr style='background:#1a2638;color:#fff;'><th style='padding:7px;border:1px solid #ccc;'>שנה</th><th style='padding:7px;border:1px solid #ccc;'>תזרים</th><th style='padding:7px;border:1px solid #ccc;'>מחלק (1.09)^t</th><th style='padding:7px;border:1px solid #ccc;'>PV</th></tr></thead><tbody><tr><td style='padding:7px;border:1px solid #ddd;'>1</td><td style='padding:7px;border:1px solid #ddd;'>120,000</td><td style='padding:7px;border:1px solid #ddd;'>1.0900</td><td style='padding:7px;border:1px solid #ddd;'>110,092</td></tr><tr style='background:#f9f9f9;'><td style='padding:7px;border:1px solid #ddd;'>2</td><td style='padding:7px;border:1px solid #ddd;'>240,000</td><td style='padding:7px;border:1px solid #ddd;'>1.1881</td><td style='padding:7px;border:1px solid #ddd;'>201,996</td></tr><tr><td style='padding:7px;border:1px solid #ddd;'>3</td><td style='padding:7px;border:1px solid #ddd;'>255,000</td><td style='padding:7px;border:1px solid #ddd;'>1.2950</td><td style='padding:7px;border:1px solid #ddd;'>196,906</td></tr><tr style='background:#f9f9f9;'><td style='padding:7px;border:1px solid #ddd;'>4</td><td style='padding:7px;border:1px solid #ddd;'>265,000</td><td style='padding:7px;border:1px solid #ddd;'>1.4116</td><td style='padding:7px;border:1px solid #ddd;'>187,738</td></tr><tr><td style='padding:7px;border:1px solid #ddd;'>5</td><td style='padding:7px;border:1px solid #ddd;'>3,150,000</td><td style='padding:7px;border:1px solid #ddd;'>1.5386</td><td style='padding:7px;border:1px solid #ddd;'>2,047,231</td></tr><tr style='background:#1a2638;color:#fff;'><td style='padding:7px;border:1px solid #ccc;' colspan='3'><strong>PV כולל</strong></td><td style='padding:7px;border:1px solid #ccc;'><strong>2,743,963 ₪</strong></td></tr></tbody></table><p>שנת האכלוס (120,000 ₪ לעומת 240,000 ₪ בשנה 2) משפיעה מהותית על הערכת השווי. אנליסט יבצע ניתוח רגישות על הנחת האכלוס ועל שיעור ההיוון.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-CMP-Q01",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הנוסחה הקובעת את ריבית הפריים בישראל ומה המרווח הנהוג?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["prime-rate", "bank-of-israel"],
+    "options": [
+      {
+        "text_he": "פריים = ריבית בנק ישראל + 1.5%; המרווח משקף עלויות פעילות הבנקים ורווח מינימלי, ונשמר יציב לאורך עשורים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פריים = ריבית בנק ישראל + 2%; המרווח נקבע מחדש בכל ישיבת ועדה מוניטרית",
+        "is_correct": false,
+        "distractor_rationale_he": "המרווח הוא 1.5%, לא 2%. כמו כן, המרווח אינו נקבע מחדש בכל ישיבה — הוא נשמר כמעט ללא שינוי לאורך עשורים, גם כאשר ריבית בנק ישראל עצמה משתנה."
+      },
+      {
+        "text_he": "פריים = ממוצע ריביות חמשת הבנקים הגדולים; כל בנק קובע את הפריים שלו עצמאית",
+        "is_correct": false,
+        "distractor_rationale_he": "הפריים אינו ממוצע עצמאי של הבנקים. הוא נגזר ישירות מריבית בנק ישראל + 1.5%. כל הבנקים המסחריים מיישרים קו עם אותו פריים."
+      },
+      {
+        "text_he": "פריים = ריבית בנק ישראל × 1.5; ריבית הפריים עולה ב-50% ביחס לשינוי בריבית בנק ישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה מהותית: הנוסחה היא חיבור (+1.5%), לא כפל (×1.5). אם ריבית בנק ישראל היא 4%, הפריים הוא 4% + 1.5% = 5.5%, לא 4% × 1.5 = 6%."
+      }
+    ],
+    "explanation_html_he": "<p><strong>ריבית פריים = ריבית בנק ישראל + 1.5%</strong></p><p>המרווח של 1.5% משקף עלויות פעילות הבנקים המסחריים ורווח מינימלי. הוא נשמר כמעט ללא שינוי לאורך עשורים.</p><p>לדוגמה מהקריאה:</p><ul><li>ינואר 2022: BoI = 0.10% → פריים = 1.60%</li><li>ינואר 2024: BoI = 4.75% → פריים = 6.25%</li><li>ינואר 2025: BoI = 4.50% → פריים = 6.00%</li></ul><p>שינוי בהחלטת הוועדה המוניטרית משפיע מיידית על עלות כל הלוואת ליווי בריבית פריים.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-CMP-Q02",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הוא יעד האינפלציה של בנק ישראל ומה קורה כאשר האינפלציה חורגת ממנו כלפי מעלה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["cpi-inflation", "bank-of-israel"],
+    "options": [
+      {
+        "text_he": "יעד האינפלציה: 1%–3% לשנה; חריגה מעלה מהיעד גורמת לבנק ישראל להעלות ריבית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יעד האינפלציה: 0%–2% לשנה, כמו הבנק המרכזי האירופי; חריגה גורמת להורדת ריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "יעד האינפלציה של בנק ישראל הוא 1%–3%, לא 0%–2% כמו ה-ECB. כמו כן, כאשר האינפלציה חורגת מהיעד כלפי מעלה, הבנק מגיב בהעלאת ריבית — לא בהורדתה."
+      },
+      {
+        "text_he": "יעד האינפלציה: 2%–4% לשנה; חריגה מטה (דפלציה) מדאיגה יותר מחריגה מעלה",
+        "is_correct": false,
+        "distractor_rationale_he": "יעד האינפלציה של בנק ישראל הוא 1%–3%, לא 2%–4%. שתי כיווני החריגה מדאיגים את הבנק, אם כי ב-2022-2024 הדאגה הייתה מאינפלציה גבוהה, לא דפלציה."
+      },
+      {
+        "text_he": "לבנק ישראל אין יעד אינפלציה מוגדר; הוא מגיב בגמישות לפי שיקול דעת הוועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "לבנק ישראל יש יעד אינפלציה מוגדר בחוק: 1%–3% לשנה. הוועדה המוניטרית פועלת בגמישות, אך מתוך מחויבות מפורשת ליעד זה."
+      }
+    ],
+    "explanation_html_he": "<p>בנק ישראל מחויב ליעד אינפלציה של <strong>1%–3% לשנה</strong>.</p><p>כאשר האינפלציה חורגת מהיעד כלפי מעלה → הבנק נוטה <strong>להעלות ריבית</strong>.<br>כאשר האינפלציה מתחת ליעד → הבנק נוטה <strong>להוריד ריבית</strong>.</p><p>מדד המחירים לצרכן (CPI) מפורסם מדי חודש על-ידי הלשכה המרכזית לסטטיסטיקה (למ\"ס).</p><p>לאנליסט: עלייה בציפיות האינפלציה → ציפייה לעלייה בריבית → עלייה בעלות המימון של פרויקטים → השפעה ישירה על DSCR ו-NPV.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-CMP-Q03",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>בתרחיש של <strong>אינפלציה גבוהה</strong> (5% לשנה) — מי נהנה יותר מבחינה ריאלית: לווה בהלוואה <strong>צמודת מדד</strong> או לווה בהלוואה <strong>שאינה צמודה</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "",
+    "topic_tags": ["cpi-linked-loan", "inflation-risk"],
+    "options": [
+      {
+        "text_he": "לווה בהלוואה שאינה צמודה — הוא פורע את חובו בשקלים שכוח הקנייה שלהם ירד, ויתרת הקרן שלו לא גדלה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לווה בהלוואה צמודה — כי הריבית הנקובה שלו נמוכה יותר מלכתחילה, והוא משלם פחות כסף בפועל",
+        "is_correct": false,
+        "distractor_rationale_he": "אמנם הריבית הנקובה בהלוואה צמודה נמוכה יותר, אך בתרחיש אינפלציה גבוהה יתרת הקרן גדלה בשיעור האינפלציה. בסוף שנה עם 5% אינפלציה: על הלוואה של 1M ₪ נוספים 50,000 ₪ לקרן — בנוסף לתשלומי הריבית."
+      },
+      {
+        "text_he": "שניהם שווים — האינפלציה משפיעה על שני סוגי ההלוואות באופן זהה בטווח הארוך",
+        "is_correct": false,
+        "distractor_rationale_he": "ההשפעה שונה מהותית. בהלוואה צמודה: יתרת הקרן עולה עם האינפלציה. בהלוואה שאינה צמודה: הריבית הנומינלית קבועה, אך ריאלית נשחקת. ההבדל מצטבר לסכומים גדולים לאורך תקופת ההלוואה."
+      },
+      {
+        "text_he": "המלווה בהלוואה שאינה צמודה — כי הוא מקבל ריבית נומינלית גבוהה שמפצה על האינפלציה",
+        "is_correct": false,
+        "distractor_rationale_he": "השאלה מתייחסת ללווה, לא למלווה. מנקודת הלווה, בהלוואה לא-צמודה הוא מרוויח מהאינפלציה כי פורע בשקלים 'קלים'. המלווה בהלוואה לא-צמודה הוא זה שנפגע מאינפלציה גבוהה."
+      }
+    ],
+    "explanation_html_he": "<p>בתרחיש אינפלציה גבוהה, הלווה בהלוואה <strong>שאינה צמודה</strong> נהנה יותר מבחינה ריאלית:</p><ul><li>הוא פורע את חובו בשקלים שכוח הקנייה שלהם ירד</li><li>יתרת הקרן שלו אינה גדלה עם האינפלציה</li><li>הריבית הריאלית שהוא משלם בפועל נמוכה מהריבית הנומינלית</li></ul><p>הלווה בהלוואה צמודה, לעומת זאת, ספוג את נטל האינפלציה בגידול יתרת הקרן.</p><p>דוגמה מהקריאה: הלוואה צמודה 1M ₪, 4% אינפלציה — יתרת קרן בסוף שנה 1: 1,040,000 ₪ + ריבית 25,000 ₪ = עלות ריאלית 6.5%.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-CMP-Q04",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מחייב בנק ישראל בנוגע לבחינת כושר ההחזר בהלוואות עם מרכיב ריבית משתנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["variable-rate", "stress-test", "bank-of-israel-regulation"],
+    "options": [
+      {
+        "text_he": "הבנקים מחויבים לבחון כושר ההחזר גם בתרחיש עלייה של 2%–3% בריבית (מבחן לחץ — Stress Test)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבנקים מחויבים לבחון כושר החזר רק לפי הריבית הנוכחית; בדיקות תרחיש עתידי הן המלצה בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "בנק ישראל (הוראה 329 ותיקוניה) מחייב במפורש בחינת כושר החזר בתרחיש עלייה של 2%–3% בריבית. זוהי דרישה מחייבת, לא המלצה."
+      },
+      {
+        "text_he": "הבנקים מחויבים לבחון כושר החזר בתרחיש עלייה של 5% בריבית — תרחיש קיצון מלא",
+        "is_correct": false,
+        "distractor_rationale_he": "דרישת בנק ישראל היא עלייה של 2%–3%, לא 5%. תרחיש של 5% קיצוני מדי ואינו הדרישה הסטנדרטית, אם כי בנקים עשויים לערוך בדיקות פנימיות נוספות."
+      },
+      {
+        "text_he": "בנק ישראל ממליץ (אך לא מחייב) על מבחן לחץ; כל בנק קובע את מדיניות הבחינה הפנימית שלו",
+        "is_correct": false,
+        "distractor_rationale_he": "מבחן הלחץ הוא חובה מחייבת לפי הוראות בנק ישראל, לא המלצה. כאנליסט, עליך לכלול תרחיש זה בכל ניתוח הלוואה עם מרכיב ריבית משתנה."
+      }
+    ],
+    "explanation_html_he": "<p>בנק ישראל (הוראה 329 ותיקוניה) <strong>מחייב</strong> בנקים לבדוק כושר החזר גם בתרחיש עלייה של <strong>2%–3% בריבית</strong> (Stress Test).</p><p>כאנליסט אשראי, עליך לכלול תרחיש זה בכל ניתוח הלוואה שכוללת מרכיב פריים.</p><p>הדוגמה מהקריאה ממחישה את הצורך: בין ינואר 2022 לינואר 2024, ריבית הפריים עלתה ב-4.65% — מעבר למבחן הלחץ הסטנדרטי. לווים שלא עמדו במבחן הלחץ מצאו עצמם בקשיים רציניים.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-PRX-Q01",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ריבית בנק ישראל עומדת כיום על <strong>3.25%</strong>. מהי ריבית הפריים הנוכחית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 45,
+    "senior_insight_he": "",
+    "topic_tags": ["prime-rate", "bank-of-israel"],
+    "options": [
+      {
+        "text_he": "4.75%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "3.25%",
+        "is_correct": false,
+        "distractor_rationale_he": "ריבית בנק ישראל ≠ ריבית פריים. יש להוסיף מרווח של 1.5%: פריים = 3.25% + 1.5% = 4.75%."
+      },
+      {
+        "text_he": "5.00%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הוספת מרווח של 1.75% במקום 1.5%. המרווח הקבוע הוא 1.5%: פריים = 3.25% + 1.5% = 4.75%."
+      },
+      {
+        "text_he": "4.88%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: כפלת ב-1.5 במקום לחבר 1.5%: 3.25% × 1.5 = 4.875%. הנוסחה הנכונה היא חיבור: פריים = BoI + 1.5% = 3.25% + 1.5% = 4.75%."
+      }
+    ],
+    "explanation_html_he": "<p><strong>פריים = ריבית בנק ישראל + 1.5%</strong></p><p>פריים = 3.25% + 1.5% = <strong>4.75%</strong></p><p>שינוי של 1% בריבית BoI = שינוי של 1% בריבית הפריים = שינוי ישיר בעלות כל הלוואת ליווי בריבית משתנה. עקוב אחר ישיבות הוועדה המוניטרית כחלק שגרתי מעבודת האנליסט.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-PRX-Q02",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ריבית נומינלית: <strong>5%</strong>. אינפלציה שנתית: <strong>4%</strong>. מהי הריבית הריאלית לפי <strong>קירוב פישר</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "",
+    "topic_tags": ["fisher-equation", "real-interest-rate"],
+    "options": [
+      {
+        "text_he": "כ-1% (ריבית ריאלית חיובית — המלווה עדיין מרוויח ריאלית)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-9% (חיבור הריביות: 5% + 4%)",
+        "is_correct": false,
+        "distractor_rationale_he": "חיבור הריביות שגוי לחלוטין. קירוב פישר: r_real ≈ r_nominal − inflation = 5% − 4% = 1%."
+      },
+      {
+        "text_he": "כ-−4% (ריבית ריאלית שלילית — הלווה מרוויח מהאינפלציה)",
+        "is_correct": false,
+        "distractor_rationale_he": "ריבית ריאלית שלילית מתקבלת כאשר האינפלציה עולה על הריבית הנומינלית. כאן: 5% > 4%, לכן הריאלית חיובית: 5% − 4% = 1%."
+      },
+      {
+        "text_he": "כ-5% (הריבית הריאלית שווה לנומינלית כשהאינפלציה נמוכה מהריבית)",
+        "is_correct": false,
+        "distractor_rationale_he": "הריבית הריאלית שווה לנומינלית רק כאשר האינפלציה היא 0%. אינפלציה של 4% שוחקת את הריאלית: r_real ≈ 5% − 4% = 1%."
+      }
+    ],
+    "explanation_html_he": "<p>קירוב פישר: <strong>r_real ≈ r_nominal − inflation</strong></p><p>r_real ≈ 5% − 4% = <strong>1%</strong></p><p>נוסחה מדויקת: r_real = (1.05 / 1.04) − 1 = 0.9615% ≈ 0.96%</p><p>ההפרש בין הקירוב (1%) לנוסחה המדויקת (0.96%) קטן כאן, אך גדל ככל שהריביות גבוהות יותר. פרשנות: המלווה מרוויח ריאלית כ-1% — כספו לא נשחק, אך גם לא צומח בהרבה מעבר לאינפלציה.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-PRX-Q03",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ריבית פריים: <strong>5.5%</strong>. אינפלציה שנתית: <strong>2.8%</strong>.</p><p>חשב את הריבית הריאלית בנוסחת פישר <strong>המדויקת</strong>: r_real = (1 + r_nominal) / (1 + inflation) − 1</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "",
+    "topic_tags": ["fisher-equation", "real-interest-rate"],
+    "options": [
+      {
+        "text_he": "כ-2.63%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-2.70%",
+        "is_correct": false,
+        "distractor_rationale_he": "זוהי תוצאת הקירוב: 5.5% − 2.8% = 2.7%. הנוסחה המדויקת של פישר: (1.055 / 1.028) − 1 = 1.02627 − 1 = 2.63%. ההפרש קטן כאן אך גדל בריביות גבוהות."
+      },
+      {
+        "text_he": "כ-8.45%",
+        "is_correct": false,
+        "distractor_rationale_he": "כפלת במקום לחלק: 1.055 × 1.028 − 1 = 8.45%. נוסחת פישר המדויקת היא חלוקה: (1 + r_nom) / (1 + π) − 1 = 1.055 / 1.028 − 1 = 2.63%."
+      },
+      {
+        "text_he": "כ-−2.56%",
+        "is_correct": false,
+        "distractor_rationale_he": "תוצאה שלילית מתקבלת כאשר מחלקים הפוך: (1.028 / 1.055) − 1 = −2.56%. הנוסחה הנכונה: (1 + r_nom) / (1 + π) − 1 = (1.055 / 1.028) − 1 = +2.63%."
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת פישר המדויקת: <strong>(1 + r_real) = (1 + r_nominal) / (1 + inflation)</strong></p><p>חישוב:</p><ol><li>1 + r_nominal = 1 + 0.055 = 1.055</li><li>1 + inflation = 1 + 0.028 = 1.028</li><li>1.055 / 1.028 = 1.02627</li><li>r_real = 1.02627 − 1 = <strong>0.02627 = 2.63%</strong></li></ol><p>השוואה לקירוב: 5.5% − 2.8% = 2.70%. ההפרש (0.07%) קטן כאן, אך על הלוואה של 100 מיליון ₪ לתקופה של 10 שנים יכול להצטבר.</p><p>כלל אצבע: השתמש בנוסחה המדויקת כאשר ריביות > 5%; השתמש בקירוב לחישוב מהיר בשטח כאשר ריביות נמוכות.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-PRX-Q04",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואה צמודת מדד בסך <strong>800,000 ₪</strong>. ריבית ריאלית שנתית: <strong>2%</strong>. האינפלציה בשנה הראשונה: <strong>4.5%</strong>.</p><p>מה הן: (א) יתרת הקרן בסוף שנה 1, ו-(ב) הריבית ששולמה בשנה 1?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 150,
+    "senior_insight_he": "",
+    "topic_tags": ["cpi-linked-loan", "cpi-indexation"],
+    "options": [
+      {
+        "text_he": "יתרת קרן: 836,000 ₪ — ריבית ששולמה: 16,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יתרת קרן: 836,000 ₪ — ריבית ששולמה: 37,620 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "הריבית מחושבת על הקרן המקורית (800,000 ₪), לא על הקרן המוצמדת (836,000 ₪). ריבית שנה 1: 800,000 × 2% = 16,000 ₪. תוספת ההצמדה (36,000 ₪) היא גידול בקרן, לא תשלום ריבית."
+      },
+      {
+        "text_he": "יתרת קרן: 816,000 ₪ — ריבית ששולמה: 16,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "הקרן עולה לפי שיעור ההצמדה (4.5%), לא לפי שיעור הריבית (2%). יתרת קרן נכונה: 800,000 × 1.045 = 836,000 ₪. הוספת 2% לקרן היא שגיאה."
+      },
+      {
+        "text_he": "יתרת קרן: 800,000 ₪ — ריבית ששולמה: 36,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הקרן לא נשמרת קבועה — זו ההגדרה של הלוואה צמודה. בהלוואה צמודת מדד, הקרן גדלה עם האינפלציה: 800,000 × 1.045 = 836,000. בנוסף, 36,000 = 800,000 × 4.5% = שיעור ההצמדה, לא הריבית הריאלית."
+      }
+    ],
+    "explanation_html_he": "<p>בהלוואה צמודת מדד:</p><ol><li><strong>יתרת קרן</strong> מתעדכנת לפי שיעור ההצמדה (= שיעור האינפלציה): 800,000 × 1.045 = <strong>836,000 ₪</strong></li><li><strong>ריבית</strong> מחושבת על הקרן המקורית (לפני ההצמדה): 800,000 × 2% = <strong>16,000 ₪</strong></li></ol><p>עלות אפקטיבית שנה 1: ריבית 16,000 ₪ + הצמדה 36,000 ₪ = 52,000 ₪ = 6.5% על הקרן המקורית.</p><p>לעומת הלוואה לא-צמודה בריבית 6.5%: תשלום 52,000 ₪, אך הקרן נשמרת 800,000 ₪ — לא גדלה. בתרחיש אינפלציה גבוהה, הלוואה לא-צמודה עדיפה מנקודת מבט הלווה.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-PRX-Q05",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>חוזה שכירות מסחרי: <strong>8,000 ₪ לחודש</strong> ל-<strong>24 חודשים</strong>. ריבית: <strong>0.6% לחודש</strong>.</p><p>מה ההפרש בערך הנוכחי בין תשלום בתחילת חודש (Annuity Due) לתשלום בסוף חודש (Ordinary Annuity)?</p>",
+    "image_url": "",
+    "points": 2,
+    "avg_time_seconds": 180,
+    "senior_insight_he": "",
+    "topic_tags": ["annuity-due", "ordinary-annuity", "lease-valuation"],
+    "options": [
+      {
+        "text_he": "כ-1,070 ₪ (Annuity Due גבוה יותר מ-Ordinary)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "8,000 ₪ (הפרש של תשלום אחד מלא, לא מהוון)",
+        "is_correct": false,
+        "distractor_rationale_he": "הפרש של תשלום מלא (8,000 ₪) מתעלם מהיוון. התשלום המוקדם שווה יותר, אך ערכו הנוכחי קטן מ-8,000 ₪. ההפרש הנכון: PV(Ordinary) × r = כ-178,320 × 0.006 = כ-1,070 ₪."
+      },
+      {
+        "text_he": "אין הפרש — שתי השיטות נותנות אותו ערך נוכחי כאשר n ו-r זהים",
+        "is_correct": false,
+        "distractor_rationale_he": "יש הפרש. Annuity Due שווה יותר כי כל תשלום מגיע תקופה מוקדם יותר ומהוון בפחות. קשר: PV(Due) = PV(Ordinary) × (1 + r). לכל r > 0, ה-Due תמיד גדול יותר."
+      },
+      {
+        "text_he": "כ-48 ₪ (ריבית חודשית על תשלום אחד: 8,000 × 0.6%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: הפעלת ריבית על תשלום אחד (8,000 × 0.6% = 48) במקום על ה-PV הכולל. ההפרש הנכון: PV(Ordinary) × r = כ-178,320 × 0.006 = כ-1,070 ₪."
+      }
+    ],
+    "explanation_html_he": "<p><strong>Ordinary Annuity</strong> (תשלום בסוף חודש):</p><p>PV = 8,000 × [1 − (1.006)^(−24)] / 0.006</p><ol><li>(1.006)^24 ≈ 1.15438 → (1.006)^(−24) ≈ 0.86626</li><li>1 − 0.86626 = 0.13374</li><li>PV = 8,000 × 0.13374 / 0.006 = 8,000 × 22.29 = <strong>178,320 ₪</strong></li></ol><p><strong>Annuity Due</strong> (תשלום בתחילת חודש):</p><p>PV(Due) = PV(Ord) × (1 + r) = 178,320 × 1.006 = <strong>179,390 ₪</strong></p><p><strong>הפרש = 179,390 − 178,320 = 1,070 ₪</strong></p><p>בחוזי שכירות מסחריים גדולים, ההפרש יכול להגיע לעשרות אלפי שקלים. תמיד בדוק מתי בדיוק מתבצע התשלום לפי החוזה.</p>"
+  },
+  {
+    "question_id_external": "C01-M02-PRX-Q06",
+    "course_number": 1,
+    "module_number": 2,
+    "question_type": 3,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה נטל הלוואת משכנתא בריבית <strong>פריים מינוס 0.5%</strong> על סכום <strong>2,000,000 ₪</strong> ל-<strong>20 שנה (240 חודשים)</strong>.</p><p><em>נתון שאינו נדרש לחישוב: שיעור ה-LTV בעת מתן ההלוואה היה 70%.</em></p><p><strong>בינואר 2022</strong>: ריבית בנק ישראל = 0.10%<br><strong>בינואר 2024</strong>: ריבית בנק ישראל = 4.75%</p><p>חשב: (א) התשלום החודשי בכל תקופה; (ב) ההפרש החודשי בין שתי התקופות.</p><p>נוסחה: PMT = PV × r_m / [1 − (1 + r_m)^(−240)]</p>",
+    "image_url": "",
+    "points": 3,
+    "avg_time_seconds": 600,
+    "senior_insight_he": "מחזור 2022-2024 לימד שעלייה של 4.65% בריבית תוך שנתיים כמעט הכפילה את ההחזר החודשי של לווים בריבית משתנה. מבחן הלחץ הסטנדרטי (2%-3%) לא תפס את עוצמת האירוע.",
+    "topic_tags": ["prime-rate", "variable-rate", "mortgage-payment", "stress-test", "pmt-formula"],
+    "options": [
+      {
+        "text_he": "ינואר 2022: כ-9,288 ₪; ינואר 2024: כ-14,041 ₪; הפרש: כ-4,750 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ינואר 2022: כ-9,288 ₪; ינואר 2024: כ-14,041 ₪; הפרש: כ-7,750 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "התשלומים נכונים, אך ההפרש שגוי. 7,750 ₪ = 2,000,000 × (5.75% − 1.1%) / 12 — חישוב הפרש ריבית ישיר על הקרן, ללא נוסחת PMT. ההפרש הנכון: 14,041 − 9,288 ≈ 4,753 ₪."
+      },
+      {
+        "text_he": "ינואר 2022: כ-11,667 ₪; ינואר 2024: כ-15,833 ₪; הפרש: כ-4,167 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה: לא הופחת מרווח הפריים (מינוס 0.5%) וחושב לפי ריביות פריים גולמיות (1.6% ו-6.25%). יש להפחית את המרווח: ריבית הלוואה ב-2022 = 1.6% − 0.5% = 1.1%; ב-2024 = 6.25% − 0.5% = 5.75%."
+      },
+      {
+        "text_he": "ינואר 2022: כ-1,833 ₪; ינואר 2024: כ-9,583 ₪; הפרש: כ-7,750 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגיאה חמורה: חושבה הריבית החודשית על הקרן בלבד (2M × 1.1%/12 = 1,833 ₪), לא ה-PMT. PMT הוא תשלום מלא של קרן + ריבית לפי נוסחת האנואיטי, ולא הריבית לבדה."
+      }
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — גזירת ריבית ההלוואה:</strong></p><p>ינואר 2022: BoI = 0.10% → פריים = 1.60% → הלוואה = 1.60% − 0.50% = <strong>1.10% שנתי</strong><br>ינואר 2024: BoI = 4.75% → פריים = 6.25% → הלוואה = 6.25% − 0.50% = <strong>5.75% שנתי</strong></p><p><strong>שלב 2 — PMT ינואר 2022</strong> (r_m = 1.10% / 12 = 0.0009167):</p><ol><li>(1.0009167)^240 ≈ 1.2460</li><li>(1.0009167)^(−240) ≈ 0.8026</li><li>1 − 0.8026 = 0.1974</li><li>PMT = 2,000,000 × 0.0009167 / 0.1974 = 1,833.4 / 0.1974 ≈ <strong>9,288 ₪</strong></li></ol><p><strong>שלב 3 — PMT ינואר 2024</strong> (r_m = 5.75% / 12 = 0.004792):</p><ol><li>(1.004792)^240 ≈ 3.1493</li><li>(1.004792)^(−240) ≈ 0.3175</li><li>1 − 0.3175 = 0.6825</li><li>PMT = 2,000,000 × 0.004792 / 0.6825 = 9,583.3 / 0.6825 ≈ <strong>14,041 ₪</strong></li></ol><p><strong>הפרש: 14,041 − 9,288 ≈ 4,753 ₪ לחודש</strong></p><p>נתון ה-LTV (70%) לא היה נדרש — זהו נתון סחבה קלאסי. לווה שלא זיהה זאת עשוי לבזבז זמן יקר בחישוב מיותר.</p>"
+  }
+]
