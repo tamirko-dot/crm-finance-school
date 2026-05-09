@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C04-M01-CMP-Q01",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הנוסחה לחישוב LTV (Loan-to-Value) ומה המשמעות הכלכלית שלה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "LTV הוא מדד כרית ביטחון — הוא מספר לנו כמה הנכס יכול לאבד מערכו לפני שהבנק נכנס להפסד. LTV של 70% פירושו שהנכס צריך לאבד יותר מ-30% מערכו כדי לחשוף את הבנק לסיכון קרן.",
+    "topic_tags": ["ltv"],
+    "options": [
+      {
+        "text_he": "LTV = (סכום ההלוואה ÷ שווי השוק של הנכס) × 100. המדד מבטא את חלק הנכס הממומן על-ידי חוב — ככל ש-LTV גבוה יותר, כרית הביטחון של המלווה קטנה יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV = (שווי השוק של הנכס ÷ סכום ההלוואה) × 100. המדד מבטא כמה שווי הנכס עולה על ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה היחס ההפוך — Loan Coverage Ratio; נוסחת LTV שמה את ההלוואה במונה"
+      },
+      {
+        "text_he": "LTV = (עלות הפרויקט ÷ ההון העצמי) × 100. המדד מודד מינוף על בסיס עלות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה קרוב יותר ל-LTC; LTV מתייחס לשווי שוק של הנכס, לא לעלותו"
+      },
+      {
+        "text_he": "LTV = (ההון העצמי ÷ שווי השוק של הנכס) × 100. המדד מבטא את אחוז הבעלות של הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה Equity Ratio, לא LTV; LTV מודד את חלק ה-DEBT, לא ה-Equity"
+      }
+    ],
+    "explanation_html_he": "<p><strong>LTV (Loan-to-Value)</strong> = סכום ההלוואה ÷ שווי שוק הנכס × 100. לדוגמה: הלוואה של 3.5 מיליון ₪ על נכס ששוויו 5 מיליון ₪ → LTV = 70%. <strong>משמעות כלכלית:</strong> כרית ביטחון של 30% — הנכס יכול לאבד עד 30% מערכו ועדיין להכסות את יתרת ההלוואה. ככל ש-LTV גבוה יותר, הסיכון למלווה גבוה יותר.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-CMP-Q02",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו LTC (Loan-to-Cost) ובאיזה הקשר הוא רלוונטי יותר מ-LTV?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "LTC נפוץ במימון בנייה כי בשלב ההקמה אין עדיין נכס מניב לשמאות שוק. LTV יחזור למרכז הבמה ברגע שהנכס יושלם ויתחיל לייצר הכנסות.",
+    "topic_tags": ["ltc", "ltv", "construction_finance"],
+    "options": [
+      {
+        "text_he": "LTC = (סכום ההלוואה ÷ עלות הפרויקט הכוללת) × 100. הוא רלוונטי בעיקר במימון ייזום ובנייה, שבהם שווי השוק טרם גובש",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTC זהה ל-LTV אך מחושב בשקלים ולא באחוזים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTC ו-LTV שניהם מחושבים באחוזים, אך המכנה שונה: עלות vs. שווי שוק"
+      },
+      {
+        "text_he": "LTC מחושב על בסיס הכנסות צפויות מהפרויקט, לא על בסיס עלותו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTC מתייחס לעלות הפרויקט בפועל — קרקע + בנייה + הוצאות פיתוח"
+      },
+      {
+        "text_he": "LTC רלוונטי רק בנדל\"ן מסחרי מניב ואינו בשימוש בפרויקטי מגורים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTC בשימוש נרחב גם בפרויקטי מגורים — בכל פרויקט ייזום שבו הנכס טרם קיים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>LTC (Loan-to-Cost)</strong> = סכום ההלוואה ÷ עלות הפרויקט הכוללת × 100. עלות הפרויקט כוללת: קרקע + עלויות בנייה + עלויות פיתוח + הוצאות מימון + שכר טרחה. <strong>מתי LTC עדיף על LTV?</strong> בשלב הייזום — לפני שהנכס הושלם — אין שווי שוק אמין; LTC מעגן את המימון בנתון ידוע (עלות). בגמר הבנייה עוברים ל-LTV על בסיס שמאות.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-CMP-Q03",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מעל איזה LTV בנק ישראל נוהג להטיל תנאים מחמירים על הלוואות לדיור, ומה הגיון המדיניות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מגבלות ה-LTV של בנק ישראל נועדו לשמור על יציבות פיננסית ולא רק להגן על הבנק הספציפי — מינוף גבוה מדי ברמת המערכת יכול להאיץ מחזורי בועה ושפל בשוק הנדל\"ן.",
+    "topic_tags": ["ltv", "bank_of_israel", "regulation"],
+    "options": [
+      {
+        "text_he": "בנק ישראל מגביל LTV ל-75% לדירה ראשונה (למגורים), ול-50% לדירה להשקעה. מעל הרף הבנקים נדרשים לדרישות הון גבוהות יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בנק ישראל מגביל LTV ל-90% לכל סוגי המשכנתאות ללא הבחנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ישנה הבחנה בין דירה ראשונה, דירה יחידה ודירה להשקעה; 90% אינו הרף הנהוג"
+      },
+      {
+        "text_he": "בנק ישראל אינו מטיל מגבלות LTV — כל בנק קובע את מדיניותו באופן עצמאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנק ישראל פרסם הוראות מפורשות בנושא LTV כחלק מניהול הסיכון המאקרו-יציבותי"
+      },
+      {
+        "text_he": "בנק ישראל מגביל LTV ל-60% לכל הלוואות נדל\"ן, מגורים ומסחרי כאחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרף 60% קרוב לנדל\"ן מסחרי-מניב אצל חלק מהבנקים, אך אינו ההנחיה הרשמית לכל סוגי ההלוואות"
+      }
+    ],
+    "explanation_html_he": "<p>בנק ישראל קובע תקרות LTV להלוואות לדיור: <strong>דירה יחידה/ראשונה</strong> — עד 75%; <strong>דירה להשקעה (לא יחידה)</strong> — עד 50%. הלוואות מעל הרפים דורשות מהבנקים להחזיק הון עצמי גבוה יותר כנגדן, מה שמייקר אותן. המדיניות נועדת למנוע מינוף יתר של משקי בית ולצנן ספקולציה בשוק הנדל\"ן.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-CMP-Q04",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה המשמעות של \"LTV דינמי\" ומדוע הוא חשוב לניהול אשראי שוטף?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "LTV דינמי הוא \"מד מתח\" שוטף של ההלוואה. בנק שמחשב LTV רק בעת מתן האשראי ואינו מעדכן אותו לאורך חיי ההלוואה — עלול להיות מופתע כשהנכס ירד בערכו.",
+    "topic_tags": ["ltv", "dynamic_ltv", "credit_monitoring"],
+    "options": [
+      {
+        "text_he": "LTV דינמי הוא חישוב LTV מעודכן לאורך חיי ההלוואה, המשקף שינויים בשווי הנכס ובקרן הנותרת. הוא מאפשר זיהוי מוקדם של הידרדרות ביטחונות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV דינמי הוא שיטה שמחשבת LTV על בסיס שווי ממוצע של 3 שנים אחרונות כדי להחליק תנודות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע היסטורי אינו LTV דינמי; LTV דינמי משקף את הערך הנוכחי בפועל"
+      },
+      {
+        "text_he": "LTV דינמי מייחס שווי שוק גבוה יותר לנכסים בסביבת ריבית עולה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בסביבת ריבית עולה שווי נכסים בדרך כלל יורד; LTV דינמי פשוט מעדכן לשווי נוכחי"
+      },
+      {
+        "text_he": "LTV דינמי חל רק על הלוואות בריבית משתנה ואינו רלוונטי למשכנתאות בריבית קבועה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV דינמי רלוונטי לכל הלוואה מובטחת בנכס, ללא קשר לסוג הריבית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>LTV דינמי</strong> = יתרת ההלוואה הנוכחית ÷ שווי שוק הנכס הנוכחי × 100. הוא משתנה לאורך חיי ההלוואה מסיבות שתיים: (א) קרן הלוואה יורדת ככל שהלווה משלם; (ב) שווי הנכס עולה או יורד. <strong>חשיבות:</strong> LTV שהיה 70% ביום הנפקה עשוי לעלות ל-85%+ אם שווי הנכס ירד — trigger לדרישת ביטחונות נוספים או שמאות עדכנית.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-PRX-Q01",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק נתן הלוואה של 4,200,000 ₪ לרכישת נכס מסחרי ששוויו 6,000,000 ₪. חשבו את ה-LTV והחליטו אם ההלוואה עומדת במגבלת LTV של 70% הנהוגה בבנק לנדל\"ן מסחרי-מניב.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תמיד בדקו מה מדיניות ה-LTV של המוסד הפיננסי לפי קטגוריית הנכס — נדל\"ן מסחרי בדרך כלל מקבל LTV נמוך יותר מנדל\"ן למגורים בשל סחירות נמוכה יותר.",
+    "topic_tags": ["ltv", "calculation"],
+    "options": [
+      {
+        "text_he": "LTV = 70.0% — ההלוואה עומדת בדיוק בגבול המדיניות, ניתן לאשר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV = 72.0% — ההלוואה חורגת ממדיניות ה-70% ויש לדחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 4,200,000 ÷ 6,000,000 = 0.70 = 70%, לא 72%"
+      },
+      {
+        "text_he": "LTV = 68.5% — ההלוואה מתחת למגבלה, ניתן לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החישוב הנכון הוא 4,200,000 ÷ 6,000,000 = 70.0%, לא 68.5%"
+      },
+      {
+        "text_he": "LTV = 142.9% — חורג מהותית, יש לדחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 142.9% הוא תוצאה של היפוך המנה (6,000,000 ÷ 4,200,000); יש לחלק הלוואה בשווי נכס"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong> LTV = 4,200,000 ÷ 6,000,000 = 0.700 = <strong>70.0%</strong>. ההלוואה עומדת בדיוק בגבול מדיניות ה-70%. <strong>הערת אנליסט:</strong> 'עומד בגבול' אינו אומר 'נוחות גבוהה' — כרית הביטחון של הבנק היא 30% בלבד. כל ירידת ערך מעל 30% תחשוף את הבנק להפסד. מומלץ לבדוק רגישות לתרחיש ירידת שווי של 10-15%.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-PRX-Q02",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>יזם מקים מתחם מגורים בעלות כוללת של 20 מיליון ₪ (קרקע 6 מיליון + בנייה ופיתוח 14 מיליון). הבנק שוקל מימון של 14 מיליון ₪. שמאי העריך את שווי הגמר ב-26 מיליון ₪. איזה מדד מימוני — LTV או LTC — מתאים לניתוח הלוואה זו בשלב הבנייה, ולמה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בנאות מפוכחות: שמאות 'כשיסתיים הפרויקט' היא תמיד מספר תיאורטי. LTC עוגן בנתוני עלות שניתן לאמת ולפקח עליהם — זה מה שמגן על הבנק בשלב הבנייה.",
+    "topic_tags": ["ltc", "ltv", "construction_finance"],
+    "options": [
+      {
+        "text_he": "LTC — כי בשלב הבנייה שווי הגמר הוא הערכה תיאורטית; LTC = 14÷20 = 70% מעוגן בעלות בפועל שניתן לאמת. LTV על בסיס שמאות גמר (14÷26 = 53.8%) מסוכן כי מניח השלמה מוצלחת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV — כי הבנק תמיד מעדיף LTV; שמאות הגמר היא המדד השמרני יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV על בסיס שמאות גמר עתידית פחות שמרני בשלב הבנייה כי הוא מניח הצלחה; LTC מעוגן בעלות"
+      },
+      {
+        "text_he": "שני המדדים שווי ערך בשלב הבנייה; הבנק יכול להשתמש בכל אחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ישנה העדפה מקצועית ברורה ל-LTC בשלב ייזום ובנייה — הסיבה היא אמינות המכנה"
+      },
+      {
+        "text_he": "DSCR הוא המדד הרלוונטי, לא LTV ולא LTC, כי הפרויקט עדיין לא מניב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR רלוונטי לנדל\"ן מניב; בהלוואת בנייה LTC הוא מדד הביטחונות המרכזי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>LTC מתאים לשלב הבנייה:</strong> LTC = 14M ÷ 20M = 70%. LTV על בסיס שמאות גמר: 14M ÷ 26M = 53.8% — נמוך ומרגיע, אך מבוסס על הנחת הצלחה. <strong>הסיכון:</strong> אם הפרויקט לא יסתיים או שיעלה יותר מהתוכנית, שמאות הגמר לא תתממש. LTC מאפשר פיקוח על ניצול ההלוואה ב'גרנטים' לפי התקדמות הבנייה — זהו הכלי המקצועי לניהול סיכון בנאי.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-PRX-Q03",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב הומן ב-LTV של 65% לפני 3 שנים. מאז ירדו שכר הדירה ב-15% ושיעורי ה-Cap Rate בשוק עלו מ-6% ל-7.5%. קרן ההלוואה ירדה ב-5%. מה קרה ל-LTV הדינמי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "זהו תרחיש 'מלקחיים': הנכס נחלש (הכנסה פחות + שוק מתמחר בסיכון גבוה יותר) בעוד שהחוב ירד מעט. זה בדיוק הסיטואציה שמטרידה מנהלי אשראי — LTV עלול לחצות ברף פנימי ולחייב מעורבות.",
+    "topic_tags": ["dynamic_ltv", "cap_rate", "credit_monitoring"],
+    "options": [
+      {
+        "text_he": "ה-LTV עלה מעבר ל-65% — ירידת NOI בשילוב עם התרחבות ה-Cap Rate מקטינה את שווי הנכס בשיעור גבוה מקיצוץ הקרן",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-LTV ירד — כי קרן ההלוואה ירדה ב-5%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידת קרן מקטינה את המונה, אך ירידת שווי הנכס מקטינה את המכנה בשיעור גבוה יותר — נטו ה-LTV עולה"
+      },
+      {
+        "text_he": "ה-LTV נשאר בסביבת 65% כי שני הצדדים (הלוואה ושווי) השתנו בסכומים דומים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידת שווי נכס מירידת NOI + התרחבות Cap Rate היא כפולה — הרבה יותר גדולה מירידת הקרן"
+      },
+      {
+        "text_he": "ה-LTV ירד כי בסביבת ריבית עולה הבנק מכיר בשווי נכסים גבוה יותר כגידור אינפלציה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית עולה בדרך כלל לוחצת שווי נדל\"ן מניב כלפי מטה בשל התרחבות Cap Rate"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הדגמה מספרית:</strong> נניח NOI מקורי 600K ₪. שווי מקורי = 600K ÷ 6% = 10M ₪. הלוואה מקורית = 65% × 10M = 6.5M ₪. אחרי 3 שנים: NOI חדש = 600K × 0.85 = 510K ₪; שווי חדש = 510K ÷ 7.5% = 6.8M ₪ (ירידה של 32%!); קרן חדשה = 6.5M × 0.95 = 6.175M ₪. <strong>LTV דינמי = 6.175M ÷ 6.8M = 90.8%</strong> — עלייה דרמטית מ-65%.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-PRX-Q04",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מציג חישוב LTV כך: 'שווי הנכס 8 מיליון ₪, הלוואה 5.6 מיליון ₪, LTV = 5.6 ÷ 8 = 70% — בסדר.' לאחר מכן מתברר שהנכס ממושכן גם לבנק אחר בסך 1.2 מיליון ₪. מה השגיאה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Combined LTV (CLTV) הוא הכלי הנכון כשיש מספר שעבודים. שעבוד שני לא נראה בחישוב בסיסי — ולכן בדיקת תוכן רשם המשכונות והרישום הפנקסאי חיוניים לפני כל אישור אשראי.",
+    "topic_tags": ["ltv", "cltv", "collateral"],
+    "options": [
+      {
+        "text_he": "האנליסט התעלם מהשעבוד הקיים לבנק השני. LTV המשולב (CLTV) = (5.6 + 1.2) ÷ 8 = 85%, גבוה משמעותית מ-70%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין שגיאה — כל בנק מחשב LTV על ה הלוואה שלו בלבד; השעבוד לבנק האחר אינו רלוונטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שעבוד קודם מגביל את ערך הביטחון הזמין — CLTV הוא המדד הרלוונטי לניתוח"
+      },
+      {
+        "text_he": "האנליסט צריך להפחית מהשעבוד לבנק האחר ולחשב LTV נטו = (5.6 - 1.2) ÷ 8 = 55%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין מפחיתים שעבוד אחד מהאחר — מחברים אותם לחישוב ה-CLTV"
+      },
+      {
+        "text_he": "השגיאה היא בשווי הנכס — יש לנכות את השעבוד הקיים משווי הנכס ולחשב LTV = 5.6 ÷ (8-1.2) = 82.4%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי הנכס הוא שווי שוק מלא; החוב הכולל הוא זה שמצטבר — CLTV = (5.6+1.2)÷8"
+      }
+    ],
+    "explanation_html_he": "<p><strong>CLTV (Combined LTV)</strong> = סך כל השעבודים על הנכס ÷ שווי הנכס. כאן: CLTV = (5,600,000 + 1,200,000) ÷ 8,000,000 = 6,800,000 ÷ 8,000,000 = <strong>85%</strong>. הנכס אינו חופשי לשעבוד מלא — חלק מהבטחה כבר 'מכובס' לבנק הקודם. מדיניות LTV עלולה להיפגע. <strong>לקח מקצועי:</strong> תמיד בדקו נסח טאבו ורישום משכונות לפני חישוב LTV.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-PRX-Q05",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק בוחן הלוואת נדל\"ן מניב למשרדים. ה-LTV בנפקה: 68%. מדיניות הבנק: LTV > 80% מחייב ביטחונות נוספים. האנליסט מבצע ניתוח רגישות: מה יהיה ה-LTV אם שווי הנכס יירד ב-15%? האם יופעל ה-trigger?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ניתוח רגישות LTV הוא חובה — לא אופציה. כל בקשת אשראי נדל\"ן צריכה לכלול stress test: 'מה קורה ל-LTV אם השוק יורד 15-20%?'",
+    "topic_tags": ["ltv", "stress_test", "sensitivity_analysis"],
+    "options": [
+      {
+        "text_he": "LTV חדש ≈ 80% — הנכס ירד ב-15% מה שמעלה LTV מ-68% לסביבת 80%, בדיוק על ה-trigger. יש לנתח בקפידה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV חדש ≈ 57.8% — ירידת שווי הנכס מורידה גם את ה-LTV כי ה'חשיפה' קטנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידת שווי נכס מקטינה את המכנה, מה שמעלה את LTV — לא מוריד אותו"
+      },
+      {
+        "text_he": "LTV חדש ≈ 68% — ה-LTV לא משתנה כי קרן ההלוואה ושווי הנכס יורדים באחוז דומה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קרן ההלוואה אינה יורדת בגלל ירידת שווי שוק; רק המכנה (שווי נכס) קטן"
+      },
+      {
+        "text_he": "LTV חדש ≈ 83% — הנכס ירד ב-15% והגיע מעל ה-trigger; נדרשים ביטחונות נוספים מיידית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-LTV החדש הוא 68% ÷ 0.85 ≈ 80%, לא 83%; חשיבה שגויה יכולה לגרום לפעולת יתר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong> LTV מקורי = 68%. שווי נכס ירד ב-15% → המכנה קטן לפקטור 0.85. LTV חדש = 68% ÷ 0.85 = <strong>80.0%</strong>. הגענו בדיוק ל-trigger של הבנק. <strong>נוסחת אצבע:</strong> LTV חדש = LTV מקורי ÷ (1 − % ירידה). <strong>המלצה:</strong> אינדיקציה שה-buffer של 12% (80%−68%) כמעט מוצה בתרחיש ירידה של 15%; יש לשקול covenant LTV נמוך יותר.</p>"
+  },
+  {
+    "question_id_external": "C04-M01-PRX-Q06",
+    "course_number": 4,
+    "module_number": 1,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מגורים נרכש ב-3.8 מיליון ₪; הלוואה של 2.85 מיליון ₪ (LTV 75%). לאחר שנה שווי הנכס עלה ל-4.3 מיליון ₪ וקרן ההלוואה ירדה ל-2.76 מיליון ₪. הלווה מבקש הלוואה נוספת בשעבוד שני של 400K ₪. האם ה-CLTV לאחר ההלוואה הנוספת עובר 75%?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בקשות לשחרור הון עצמי (home equity) הן נפוצות בשוק עולה. האתגר: ה-CLTV לאחר השחרור עשוי להחזיר את הלווה לרמת מינוף גבוהה — חשוב לבחון גם DSCR לאחר ההחזרים המצטברים.",
+    "topic_tags": ["cltv", "ltv", "home_equity"],
+    "options": [
+      {
+        "text_he": "CLTV = (2,760,000 + 400,000) ÷ 4,300,000 = 73.5% — מתחת ל-75%; הבקשה עומדת בגבול LTV",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "CLTV = (2,850,000 + 400,000) ÷ 3,800,000 = 85.5% — חורג מ-75%; יש לדחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יש להשתמש בקרן הנוכחית (2.76M) ובשווי הנוכחי (4.3M), לא בנתוני הרכישה"
+      },
+      {
+        "text_he": "CLTV = 400,000 ÷ 4,300,000 = 9.3% — ה-LTV של ההלוואה החדשה בלבד נמוך מאוד; ניתן לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CLTV מחשב את כל החוב הממושכן — לא רק את ההלוואה החדשה"
+      },
+      {
+        "text_he": "CLTV = (2,760,000 + 400,000) ÷ 3,800,000 = 83.2% — חורג; יש לדחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המכנה צריך להיות שווי השוק הנוכחי (4.3M), לא מחיר הרכישה (3.8M)"
+      }
+    ],
+    "explanation_html_he": "<p><strong>CLTV = (קרן נוכחית + הלוואה חדשה) ÷ שווי שוק נוכחי</strong> = (2,760,000 + 400,000) ÷ 4,300,000 = 3,160,000 ÷ 4,300,000 = <strong>73.5%</strong>. עומד מתחת לרף 75%. <strong>הערה:</strong> עלייה עתידית בריבית תגדיל את ההחזר החודשי המצטבר — יש לבדוק גם את ה-DSCR / PTI (Payment-to-Income) לאחר ההלוואה הנוספת.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-CMP-Q01",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הנוסחה ל-DSCR (Debt Service Coverage Ratio) ומה הוא מודד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DSCR מודד כמה פעמים הנכס 'משלם לעצמו' — DSCR של 1.25 אומר שלכל ₪1 של החזר חוב יש ₪1.25 הכנסה נטו. ה-0.25 הוא כרית הביטחון.",
+    "topic_tags": ["dscr"],
+    "options": [
+      {
+        "text_he": "DSCR = NOI ÷ שירות חוב שנתי (קרן + ריבית). מדד זה מביע כמה פעמים תזרים המזומנים מהנכס מכסה את החזרי ההלוואה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR = הכנסות ברוטו ÷ ריבית שנתית. כולל את ריבית בלבד כי קרן מוחזרת ממכירת הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR כולל קרן וריבית יחד (שירות חוב מלא); שימוש בהכנסות ברוטו ללא הפחתת הוצאות הפעלה מנפח את המדד"
+      },
+      {
+        "text_he": "DSCR = רווח נקי ÷ הלוואה כוללת. מדד זה בוחן כמה שנים לפרעון ההלוואה מהרווח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה קרוב יותר ל-Debt Payback Period; DSCR מתייחס לשירות חוב שנתי, לא לקרן כוללת"
+      },
+      {
+        "text_he": "DSCR = EBITDA ÷ שירות חוב. זהה בדיוק ל-NOI לכל מטרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; EBITDA ו-NOI אינם זהים בנדל\"ן — NOI אינו כולל פחת, שינויי שווי (IAS 40), או הכנסות/הוצאות חד-פעמיות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>DSCR = NOI ÷ שירות חוב שנתי</strong>. שירות חוב = ריבית + פרעון קרן (קרן אמורטיזציה). NOI = הכנסות שכירות − הוצאות תפעול (ללא פחת, ריבית ומסים). <strong>פרשנות:</strong> DSCR = 1.0 = אפסי — כל התזרים הולך לשירות חוב; DSCR = 1.25 = כרית של 20%; DSCR < 1.0 = הנכס אינו מכסה את חובו — מצריך הון עצמי נוסף.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-CMP-Q02",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו פריטים כלולים ב-NOI לצורך חישוב DSCR בנדל\"ן מניב, ואילו מוחרגים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "טעות קלאסית: הכללת הכנסה חד-פעמית (כגון פיצוי ביטוח, שערוך IAS 40, מכירת נכס) ב-NOI — מנפחת DSCR ומסתירה חולשה שוטפת. תמיד נרמל לפני שמחשבים DSCR.",
+    "topic_tags": ["noi", "dscr", "normalization"],
+    "options": [
+      {
+        "text_he": "כלול: שכ\"ד, הכנסות פחות מקומות ריקים, הכנסות נלוות שוטפות. מוחרג: פחת, ריבית, מסים, שערוכי IAS 40, הכנסות חד-פעמיות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כלול: כל הכנסות הדוחות הכספיים כולל שערוכים. מוחרג: ריבית בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שערוכי IAS 40 ופריטים חד-פעמיים חייבים להיות מוחרגים מ-NOI לצורך DSCR"
+      },
+      {
+        "text_he": "כלול: שכ\"ד ופחת (כי פחת מייצג השקעה עתידית). מוחרג: ריבית ומסים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פחת מוחרג מ-NOI — NOI הוא תזרים מזומנים מהפעלה לפני שירות חוב ולפני השקעות"
+      },
+      {
+        "text_he": "כלול: שכ\"ד ומסים עירוניים (כי הם חלק מהוצאות הנכס). מוחרג: הוצאות ניהול",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מסים עירוניים (ארנונה) הם הוצאה תפעולית שמפחיתה NOI — הם אינם 'כלולים' בהכנסה; הוצאות ניהול מפחיתות NOI"
+      }
+    ],
+    "explanation_html_he": "<p><strong>NOI לצורך DSCR:</strong><br><strong>כלול (+):</strong> שכר דירה חוזי, הכנסות חנייה, הכנסות שירות שוטפות, הכנסות ממתן שטח (antenna וכו').<br><strong>מפחיתים (−):</strong> ארנונה, ביטוח, ניהול נכס, תחזוקה שוטפת, עלויות שיווק, רזרבה לתחלופה (<em>capex reserve</em>), vacancy allowance.<br><strong>מוחרגים לחלוטין:</strong> פחת, ריבית, מסי חברה, שערוכי IAS 40, פריטים חד-פעמיים. תוצאה = NOI מנורמל לצורך DSCR.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-CMP-Q03",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ICR (Interest Coverage Ratio) ובמה הוא שונה מ-DSCR מבחינת שמרנות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ICR נפוץ בהלוואות Bullet (תשלום ריבית בלבד) — הנפוצות במימון נדל\"ן מסחרי. בהלוואה כזו שירות החוב השנתי הוא ריבית בלבד; ICR = DSCR. כשמגיעים לפירעון הבלון — מרחישים מחדש ובאותו רגע ה-DSCR הופך קריטי.",
+    "topic_tags": ["icr", "dscr", "interest_only"],
+    "options": [
+      {
+        "text_he": "ICR = NOI ÷ ריבית שנתית בלבד (ללא קרן). ICR פחות שמרני מ-DSCR כי הוא מתעלם מהחזר הקרן — נותן מדד גבוה יותר על אותה הלוואה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ICR = NOI ÷ (קרן + ריבית), בדיוק כמו DSCR — ההבדל הוא רק בשם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR כולל ריבית בלבד במכנה; DSCR כולל קרן וריבית — זה ההבדל המהותי"
+      },
+      {
+        "text_he": "ICR שמרני יותר מ-DSCR כי הוא מחלק ב-ריבית שהיא בדרך כלל נמוכה מ-שירות חוב מלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית < שירות חוב מלא → ICR > DSCR → ICR פחות שמרני, לא יותר"
+      },
+      {
+        "text_he": "ICR ו-DSCR שווים בהלוואות Amortizing ו-ICR גבוה יותר בהלוואות Bullet",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בהלוואות Amortizing ICR > DSCR (כי DSCR כולל גם קרן); בהלוואות Bullet שניהם שווים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ICR = NOI ÷ ריבית שנתית.</strong> <strong>DSCR = NOI ÷ (ריבית + קרן).</strong><br>מכיוון שריבית < שירות חוב מלא → ICR > DSCR תמיד בהלוואות amortizing. <strong>דוגמה:</strong> NOI = 1,200K; ריבית = 700K; קרן שנתית = 300K. ICR = 1,200÷700 = 1.71; DSCR = 1,200÷1,000 = 1.20. <strong>שמרנות:</strong> DSCR שמרני יותר ומועדף לניתוח בנקאי מלא; ICR מספיק כשהמבנה הוא Bullet/Interest-Only.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-CMP-Q04",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו רף ה-DSCR המקובל לנדל\"ן מניב בישראל ומדוע לא מספיק DSCR = 1.0?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DSCR = 1.0 הוא קו האפס — כל שיבוש קטן (דייר עוזב, עלות תחזוקה בלתי צפויה) מכניס את ההלוואה לחריגה. הכרית בין 1.0 ל-1.25 היא הביטוח של הבנק מפני הפתעות.",
+    "topic_tags": ["dscr", "underwriting_standards"],
+    "options": [
+      {
+        "text_he": "הרף המקובל הוא DSCR ≥ 1.25. DSCR = 1.0 אינו מספיק כי אין כרית לאירועי vacancy, עליית הוצאות, או ירידת שכר דירה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הרף המקובל הוא DSCR ≥ 2.0 — הכנסות צריכות לכסות את החוב פי שניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR 2.0 הוא שמרני מאוד ונדיר כדרישת מינימום; 1.25 הוא רף סטנדרטי בשוק"
+      },
+      {
+        "text_he": "הרף המקובל הוא DSCR ≥ 1.0 — כל עוד הנכס מכסה את ההחזרים, ההלוואה תקינה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR = 1.0 הוא אפסי — אין שום מרווח לטעויות, שינויי שוק, או הוצאות בלתי צפויות"
+      },
+      {
+        "text_he": "הרף המקובל הוא DSCR ≥ 1.5 לכל סוגי הנדל\"ן המניב ללא הבחנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.5 משמש לפעמים לנכסים עם סיכון גבוה יותר (מלונאות, מסחרי עם דייר יחיד), אך הרף הסטנדרטי הוא 1.25"
+      }
+    ],
+    "explanation_html_he": "<p><strong>רף סטנדרטי: DSCR ≥ 1.25.</strong> כרית ביטחון = 20% מעל שירות החוב. <strong>מדוע לא 1.0?</strong> NOI תמיד מכיל הנחות: שכ\"ד מלא, תפוסה מלאה, הוצאות יציבות — בפועל תמיד יהיו סטיות. Vacancy של 8% + עלייה בהוצאות ניהול יכולים בקלות למחוק 10-15% מה-NOI. <strong>נכסים מיוחדים:</strong> מלונות, מסחרי-דייר-יחיד — לעיתים דורשים DSCR ≥ 1.4-1.5.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-PRX-Q01",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב: הכנסות שכ\"ד שנתיות 1,800,000 ₪, הוצאות תפעול 520,000 ₪. שירות חוב שנתי: ריבית 380,000 ₪ + קרן 180,000 ₪. חשבו DSCR. האם הנכס עומד ברף של 1.25?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR של 1.29 הוא גבולי — רק 4% מעל הרף. כל עלייה בשיעורי הריבית בחידוש ההלוואה, או ירידה קלה בתפוסה, תוריד את הנכס מתחת ל-1.25. זה מחייב ניתוח רגישות.",
+    "topic_tags": ["dscr", "calculation"],
+    "options": [
+      {
+        "text_he": "NOI = 1,280,000 ₪; שירות חוב = 560,000 ₪; DSCR = 2.29 — עומד בנוחות ברף 1.25",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שירות חוב = 380,000 + 180,000 = 560,000; NOI = 1,800,000 − 520,000 = 1,280,000; 1,280,000÷560,000 = 2.29 — חישוב זה נכון! בדקו שוב את האפשרויות"
+      },
+      {
+        "text_he": "NOI = 1,280,000 ₪; שירות חוב = 560,000 ₪; DSCR = 2.29 — עומד ברף 1.25",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI = 1,800,000 ₪; שירות חוב = 560,000 ₪; DSCR = 3.21 — הוצאות תפעול אינן מפחיתות NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI = הכנסות מינוס הוצאות תפעול; שימוש בהכנסות ברוטו ב-NOI מנפח את DSCR"
+      },
+      {
+        "text_he": "NOI = 1,280,000 ₪; שירות חוב = 380,000 ₪ (ריבית בלבד); DSCR = 3.37 — זהו ICR, לא DSCR",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה ICR, לא DSCR; DSCR כולל גם פרעון קרן בשירות החוב"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong> NOI = 1,800,000 − 520,000 = <strong>1,280,000 ₪</strong>. שירות חוב = 380,000 + 180,000 = <strong>560,000 ₪</strong>. DSCR = 1,280,000 ÷ 560,000 = <strong>2.29</strong>. <strong>מסקנה:</strong> עומד בנוחות ברף 1.25, עם כרית ביטחון נרחבת. <strong>הערה:</strong> שימו לב שאפשרות א' ואפשרות ב' נראות דומות — השגיאה הייתה בניסוח א' (distractor) ולא בחשבון.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-PRX-Q02",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מרכז מסחרי מדווח: NOI שנתי = 2,400,000 ₪. בתוך ה-NOI נכלל: רווח שערוך IAS 40 חד-פעמי של 350,000 ₪ ופיצוי ביטוח חד-פעמי של 80,000 ₪. שירות חוב שנתי = 1,900,000 ₪. חשבו DSCR מנורמל.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נירמול NOI הוא אחד המיומנויות המפרידות בין אנליסט טוב לבינוני. נכסים מציגים לעיתים קרובות NOI 'מאובזר' — השאלה תמיד: 'מה מחזור מציאותי ושוטף?'",
+    "topic_tags": ["dscr", "noi_normalization", "ias40"],
+    "options": [
+      {
+        "text_he": "NOI מנורמל = 2,400,000 − 350,000 − 80,000 = 1,970,000 ₪; DSCR מנורמל = 1,970,000 ÷ 1,900,000 = 1.037 — גבולי מאוד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI מנורמל = 2,400,000; DSCR = 2,400,000 ÷ 1,900,000 = 1.26 — עומד ברף 1.25",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שימוש ב-NOI מדווח ללא נירמול מסתיר את חולשת התזרים השוטף; DSCR האמיתי הוא 1.037"
+      },
+      {
+        "text_he": "NOI מנורמל = 2,400,000 − 350,000 = 2,050,000 ₪; DSCR = 2,050,000 ÷ 1,900,000 = 1.079 — יש לנרמל רק שערוך IAS 40, לא ביטוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם פיצוי ביטוח חד-פעמי אינו חלק מה-NOI השוטף — יש לנרמל את שניהם"
+      },
+      {
+        "text_he": "NOI מנורמל = 2,400,000 ÷ 1.15 = 2,087,000 ₪; DSCR = 1.10 — יש להפחית 15% כמרווח שמרני",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפחתה אחוזית שרירותית אינה נירמול; נירמול מזהה ומסיר פריטים חד-פעמיים ספציפיים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>נירמול NOI:</strong> NOI מדווח: 2,400,000 ₪. להפחית: שערוך IAS 40 (350,000) + פיצוי ביטוח חד-פעמי (80,000) = 430,000 ₪. <strong>NOI מנורמל = 1,970,000 ₪.</strong> DSCR מנורמל = 1,970,000 ÷ 1,900,000 = <strong>1.037</strong> — גבולי מאוד, כמעט לא עומד ב-1.0 בפועל. <strong>מסקנה:</strong> ה-DSCR המדווח (1.26) הטעה — לאחר נירמול הנכס מגלה חשיפה מהותית.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-PRX-Q03",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מדוע ICR גבוה מ-DSCR אינו אומר שהנכס בטוח יותר? הסבירו באמצעות הדוגמה: NOI = 900K ₪, ריבית = 600K ₪, פרעון קרן = 300K ₪.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ICR גבוה עם DSCR נמוך פירושו לעיתים קרובות שהלוואה Bullet מתקרבת לפדיון — ואז פתאום נדרש לפרוע קרן גדולה. אנליסט חייב לדעת מתי הלוואה ה-Bullet בשלה.",
+    "topic_tags": ["icr", "dscr", "bullet_loan"],
+    "options": [
+      {
+        "text_he": "ICR = 900÷600 = 1.50; DSCR = 900÷900 = 1.00. ICR גבוה יותר אך DSCR = 1.0 מציין שאין כרית לפרעון קרן — כל אירוע שלילי מעמיד את ההלוואה בסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ICR = 1.50 ו-DSCR = 1.50 — הם זהים כי ה-NOI מכסה את כל שירות החוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR מחלק ב-(ריבית+קרן) = 900K; 900÷900 = 1.00, לא 1.50"
+      },
+      {
+        "text_he": "ICR גבוה יותר ולכן שמרני יותר — הוא מדד טוב יותר לניהול סיכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR גבוה יותר בגלל מכנה קטן יותר (ריבית בלבד) — זה פחות שמרני, לא יותר"
+      },
+      {
+        "text_he": "ICR = 0.67; DSCR = 1.00 — ICR נמוך מ-DSCR בגלל שהמכנה שלו גדול יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR = NOI÷ריבית = 900÷600 = 1.50; ICR תמיד גדול מ-DSCR כי מכנה ה-ICR קטן יותר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong> ICR = 900K ÷ 600K = <strong>1.50</strong>; DSCR = 900K ÷ (600K+300K) = 900K ÷ 900K = <strong>1.00</strong>. <strong>פרשנות:</strong> ICR = 1.5 נראה בריא, אך DSCR = 1.0 חושף שהנכס ממש לא מייצר עודף לאחר כיסוי כל שירות החוב. כל הפחתה ב-NOI (vacancy, תיקון גדול) מוריד מתחת ל-1.0 ויוצר חסר תזרים. ICR גבוה מסתיר בעיית פרעון קרן.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-PRX-Q04",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניין משרדים: NOI שנתי נוכחי = 1,500,000 ₪. שיעור תפוסה נוכחי 95%. האנליסט מזהה שחוזה שכירות ב-10% מהשטח פג תוך 6 חודשים ולא חודש. שירות חוב שנתי = 1,200,000 ₪. חשבו את ה-DSCR המעודכן לאחר אובדן הדייר.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Vacancy analysis — בדיקת לוח פקיעת חוזים (lease expiry schedule) — היא אחת הבדיקות הסטנדרטיות בנדל\"ן מניב. אנליסט שמסתכל רק על ה-NOI הנוכחי מפספס את 'פצצת הזמן' של חוזים קרובים לפקיעה.",
+    "topic_tags": ["dscr", "vacancy", "lease_analysis"],
+    "options": [
+      {
+        "text_he": "NOI מעודכן ≈ 1,342,000 ₪; DSCR מעודכן ≈ 1.12 — מתחת לרף 1.25, מחייב תשומת לב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI מעודכן = 1,500,000 ₪ ו-DSCR = 1.25 — אובדן דייר משפיע רק מהשנה הבאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אנליסט חייב לשקלל את אובדן ההכנסה הצפוי ב-DSCR — חוזה פוקע תוך 6 חודשים הוא סיכון ידוע"
+      },
+      {
+        "text_he": "NOI מעודכן = 1,350,000 ₪; DSCR = 1,350,000 ÷ 1,200,000 = 1.125 — מחשבים על NOI אחרי 50% ירידה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אובדן 10% מהשטח (עם תפוסה נוכחית 95%) מוריד את ה-NOI ב-10%/95% ≈ 10.5% — לא 10% פשוטים מ-NOI"
+      },
+      {
+        "text_he": "NOI מעודכן = 1,200,000 ₪; DSCR = 1.00 — הנכס בדיוק מכסה את החוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידת NOI היא כ-10% (אובדן דייר שמהווה 10% מהשטח), לא 20% — לא מגיעים ל-1,200K"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong> הדייר שפג חוזהו מהווה 10% מהשטח = 10% מה-NOI ≈ 150,000 ₪. <strong>NOI מעודכן = 1,500,000 − 150,000 = 1,350,000 ₪.</strong> (שימו לב: חלק מ-6 החודשים עדיין שולם — NOI שנתי ממוצע ≈ 1,425,000 ₪ בשנה הראשונה. לפי full-year: 1,350K.) DSCR = 1,350,000 ÷ 1,200,000 = <strong>1.125</strong> — מתחת ל-1.25. <strong>מסקנה:</strong> יש לנתח pipeline של דיירים ולהוסיף covenant על לוח פקיעת חוזים.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-PRX-Q05",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שני נכסים מניבים מוצגים לאישור: <br>נכס A: NOI = 2,000,000 ₪, ריבית = 1,100,000 ₪, קרן שנתית = 400,000 ₪. <br>נכס B: NOI = 1,800,000 ₪, ריבית = 900,000 ₪, הלוואת Bullet ללא פרעון שוטף. <br>מה ה-DSCR וה-ICR של כל נכס, ואיזה נכס מסוכן יותר מנקודת מבט שירות חוב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נכס B נראה 'נוח' כי אין פרעון קרן שוטף — אבל בפדיון ה-Bullet כל הקרן מגיעה בבת-אחת. השאלה האמיתית: האם בעל הנכס יוכל לממחזר? בסביבת אשראי מהודקת, Bullet Loans הם מקור סיכון מיוחד.",
+    "topic_tags": ["dscr", "icr", "bullet_loan", "comparison"],
+    "options": [
+      {
+        "text_he": "נכס A: DSCR=1.33, ICR=1.82; נכס B: DSCR=ICR=2.00 (Bullet). נכס A מסוכן יותר שוטפית, אך נכס B חושף לסיכון מיחזור קרן בפדיון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נכס A: DSCR=1.33; נכס B: DSCR=1.80 — נכס B בטוח יותר בכל מדד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR נכס B עם Bullet = ICR = 2.00 (אין קרן שנתית); אך הבטיחות לטווח ארוך תלויה במיחזור"
+      },
+      {
+        "text_he": "נכס A: ICR=1.82; נכס B: ICR=2.00 — ICR בלבד מספיק לניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR בלבד אינו מספיק — נכס A יש לו גם DSCR שמראה כרית קטנה יותר"
+      },
+      {
+        "text_he": "נכס A: DSCR=1.33, ICR=1.33 — שניהם זהים כי ריבית=קרן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR נכס A = 2,000÷1,100 = 1.82; DSCR = 2,000÷1,500 = 1.33 — שונים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>נכס A:</strong> שירות חוב = 1,100+400 = 1,500K. DSCR = 2,000÷1,500 = <strong>1.33</strong>. ICR = 2,000÷1,100 = <strong>1.82</strong>.<br><strong>נכס B (Bullet):</strong> שירות שוטף = ריבית בלבד = 900K. DSCR = ICR = 1,800÷900 = <strong>2.00</strong>.<br><strong>ניתוח:</strong> נכס B נראה טוב יותר שוטפית. אך Bullet Loan פירושו שבפדיון יש לפרוע את כל הקרן — סיכון מיחזור (Refinancing Risk). בסביבת עליית ריבית, מיחזור Bullet עלול להיות יקר בהרבה או לא זמין.</p>"
+  },
+  {
+    "question_id_external": "C04-M02-PRX-Q06",
+    "course_number": 4,
+    "module_number": 2,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מחסן לוגיסטי: DSCR = 1.32. הדייר היחיד (100% מהשטח) הוא חברת מסחר אלקטרוני שדיווחה על הפסד תפעולי ב-2 רבעונים אחרונים. החוזה עוד 18 חודשים. כיצד היה מדויק יותר לנתח את הסיכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR = 1.32 'נראה' סביר, אך כשיש דייר יחיד בחוזה קצר-יחסית ועם סימני מצוקה פיננסית — ה-DSCR של היום הוא לא המדד הרלוונטי. הסיכון הוא: מה ה-DSCR לאחר עזיבת הדייר?",
+    "topic_tags": ["dscr", "single_tenant", "credit_risk", "scenario_analysis"],
+    "options": [
+      {
+        "text_he": "יש לנתח DSCR בתרחיש vacancy מלאה לאחר 18 חודשים + להעריך מחדש את ה-LTV בתרחיש נכס ריק; DSCR נוכחי אינו מייצג את הסיכון הכולל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR = 1.32 עומד ברף 1.25 — ניתוח מספיק; הדייר עדיין משלם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR נוכחי מתעלם מסיכון מובנה (דייר יחיד + חוזה קצר + חולשה פיננסית) — נדרש stress test"
+      },
+      {
+        "text_he": "יש להעלות את הריבית על ההלוואה ב-0.5% כ-risk premium ולחשב DSCR חדש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תמחור סיכון באמצעות ריבית הוא כלי אחד, אך הניתוח המרכזי צריך להיות תרחיש vacancy — לא רק עדכון ריבית"
+      },
+      {
+        "text_he": "יש לדרוש ביטחון נוסף (ערבות אישית) ולהסתפק ב-DSCR הנוכחי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות היא ביטחון רזה בהשוואה לניתוח תרחישי vacancy מלאה — הבעיה היא בניתוח, לא רק בביטחונות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הגישה הנכונה — Vacancy Scenario Analysis:</strong><br>1. חשב DSCR בהנחת vacancy מלאה לאחר 18 חודשים (DSCR = 0).<br>2. העריך שווי נכס ריק (Cap Rate עולה בהיעדר דייר; שווי יורד).<br>3. חשב LTV דינמי בתרחיש vacancy.<br>4. בדוק: האם שווי הנכס מכסה את יתרת ההלוואה גם בלי דייר?<br><strong>לקח:</strong> נכס דייר-יחיד עם חוזה קצר הוא בעצם '18-month call option' — לאחר מכן הבנק עשוי להיות מול נכס ריק עם שווי ירוד.</p>"
+  }
+]

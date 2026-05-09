@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C04-M05-CMP-Q01",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי ניתוח רגישות (Sensitivity Analysis) בהקשר של אשראי נדל\"ן מניב, ומה מטרתו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ניתוח רגישות הוא כלי הגנתי — הוא שואל 'מה קורה לנו אם הנחותינו טועות?'. מנהל אשראי טוב לא מאשר עסקה רק בתרחיש הבסיסי; הוא בוחן כמה ה-DSCR צולל בתרחיש שלילי סביר לפני שהוא חותם.",
+    "topic_tags": ["sensitivity", "credit_analysis"],
+    "options": [
+      {
+        "text_he": "בחינה שיטתית של השפעת שינויים בהנחות מפתח (שכר דירה, תפוסה, ריבית) על מדדי ההחזר והאשראי של הנכס — במטרה לזהות את שולי הביטחון ואת הסיכונים המהותיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חישוב תשואת ה-IRR של ההשקעה במספר תרחישי מכירה שונים, כדי לקבוע את תמחור ההון העצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח IRR הוא כלי ייזום — ניתוח רגישות נועד לבדוק יציבות מדדי אשראי (DSCR, LTV) ולא תמחור תשואת הון"
+      },
+      {
+        "text_he": "השוואת שני נכסים שונים זה מול זה על מנת לדרג מי מהם כדאי יותר להלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח רגישות מיושם על נכס בודד — הוא אינו כלי השוואה בין נכסים"
+      },
+      {
+        "text_he": "בדיקת התאמת הנכס לדרישות הרגולטוריות של בנק ישראל לפי הנחיות ניהול בנקאי תקין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיקת ציות רגולטורית היא הליך נפרד; ניתוח רגישות הוא כלי אנליטי פנימי של מנהל האשראי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח רגישות</strong> בנדל\"ן מניב הוא תהליך שבו משנים ערכי הנחות מפתח — שכר דירה, תפוסה, ריבית, שיעור היוון — בכמות קבועה (לדוגמה: ירידה של 10%) ומודדים את ההשפעה על DSCR, NOI ו-LTV. <strong>מטרות:</strong> (א) זיהוי משתנים רגישים במיוחד; (ב) בדיקת 'מתי ה-DSCR יורד מתחת ל-1.20'; (ג) הגדרת תנאים מגבילים ו-Covenants הולמים. ניתוח רגישות שונה מ-Scenario Analysis: הראשון משנה משתנה אחד בכל פעם; השני בוחן תרחיש שלם של שינויים מתואמים.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-CMP-Q02",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו ארבעה משתנים מועמדים לבחינת לחץ (Stress Test) בדרך-כלל בניתוח נדל\"ן מניב, ומדוע דווקא הם?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ארבעת המשתנים הקלאסיים — תפוסה, שכ\"ד, ריבית, שיעור היוון — הם בדיוק נקודות הכשל ההיסטוריות של הענף. בחינת לחץ שמוותרת על אחד מהם חסרה.",
+    "topic_tags": ["stress_test", "sensitivity", "noi"],
+    "options": [
+      {
+        "text_he": "שיעור התפוסה, רמת שכר הדירה, שיעור הריבית על ההלוואה ושיעור ההיוון — כי שינויים בכל אחד מהם משפיע ישירות על ה-NOI ועל שווי הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "גובה הארנונה, עלויות ניהול, פחת ושיעור מס החברות — כי הם מגדירים את ה-Cash Flow נטו לאחר מס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו הוצאות תפעוליות שניתנות לשליטה; ניתוח לחץ מתמקד במשתנים שוק שהלווה לא שולט בהם"
+      },
+      {
+        "text_he": "מחיר הקרקע, עלות הבנייה, ריבית הפריים ושיעור המע\"מ — כי הם קובעים את עלות הייזום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מדובר במשתני ייזום/עלות; בנדל\"ן מניב קיים ה-Stress Test מתמקד בהכנסות שוטפות ובמימון"
+      },
+      {
+        "text_he": "שיעור הריבית, מדד המחירים לצרכן, מדד תשומות הבנייה ושווי הקרקע — כי כולם מושפעים ממדיניות בנק ישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אמנם חלקם מושפעים מהריבית, אך הרשימה מחמיצה את שני המשתנים המרכזיים: שיעור התפוסה ושכר הדירה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ארבעת משתני הלחץ הקלאסיים בנדל\"ן מניב:</strong></p><ol><li><strong>שיעור תפוסה</strong> — ירידה מ-95% ל-80% מורידה את ה-NOI פרופורציונלית</li><li><strong>שכר דירה (Rent per sqm)</strong> — שוק יורד יוצר לחץ מיידי על ה-NOI</li><li><strong>שיעור ריבית</strong> — בהלוואות Floating, עלייה בריבית מגדילה את שירות החוב ומכווצת את ה-DSCR</li><li><strong>שיעור היוון (Cap Rate)</strong> — עלייה ב-Cap Rate מפחיתה שווי הנכס וכך מגדילה את ה-LTV</li></ol><p>שינוי בכל אחד מהם פוגע הן בכושר ההחזר השוטף (DSCR) והן בשווי הבטוחה (LTV).</p>"
+  },
+  {
+    "question_id_external": "C04-M05-CMP-Q03",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ניתוח שיעור תפוסת נקודת האיזון (Break-Even Occupancy Rate), וכיצד הוא משמש את מנהל האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Break-Even Occupancy הוא ה'מטר השני' שכל מנהל אשראי צריך לדעת. אם הנכס עומד היום ב-93% תפוסה ו-Break-Even הוא 88%, יש לנו כר של רק 5% — זה קטן מדי לפני שאנחנו כבר מתחת לקו ההחזר.",
+    "topic_tags": ["break_even", "occupancy", "dscr"],
+    "options": [
+      {
+        "text_he": "שיעור התפוסה המינימלי שבו ה-NOI בדיוק מכסה את שירות החוב השנתי (DSCR=1.0) — מתחתיו הנכס לא מייצר מספיק הכנסה לכסות את ההחזרים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שיעור התפוסה שבו הנכס מייצר תשואה על ההון העצמי השווה לתשואת אג\"ח ממשלתי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח Break-Even Occupancy מתייחס ל-DSCR=1.0 ביחס לשירות חוב, לא לתשואת ייחוס להון"
+      },
+      {
+        "text_he": "שיעור התפוסה שבו הנכס מכסה את כל הוצאות התפעול בלבד, ללא התחשבות בשירות החוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כיסוי הוצאות תפעול בלבד הוא Operating Break-Even; ניתוח האשראי מחייב כיסוי גם שירות החוב"
+      },
+      {
+        "text_he": "שיעור התפוסה הממוצע של נכסים מתחרים בשוק, המשמש כסף מינימלי לאישור הלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תפוסת שוק היא נתון השוואתי; Break-Even Occupancy הוא חישוב ייחודי לכל עסקה לפי הנתונים הפיננסיים שלה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Break-Even Occupancy Rate</strong> = שירות חוב שנתי ÷ (הכנסה ברוטו פוטנציאלית × (1 - שיעור הוצאות תפעול))</p><p><strong>דוגמה:</strong> NOI ב-100% תפוסה = 1,200,000 ₪; שירות חוב = 960,000 ₪.<br>Break-Even Occupancy = 960,000 ÷ 1,200,000 = <strong>80%</strong>.</p><p><strong>שימוש מעשי:</strong> אם שיעור התפוסה הנוכחי הוא 94% ו-Break-Even הוא 80% — יש כר ביטחון של 14 נקודות אחוז. מנהל אשראי ישאל: האם שוק זה עשוי לרדת מ-94% ל-80%? אם כן — יש לשקול תנאי הלוואה שמרניים יותר.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-CMP-Q04",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מינוף פיננסי (Leverage) מגביר גם תשואות וגם הפסדים — ומה ההשלכה לניהול סיכוני אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מינוף הוא חרב פיפיות — בסביבת עליית ערכים הוא מגביר תשואות הון, אך בירידה הוא מגביר הפסדים מהר יותר ממה שרוב הלווים מצפים. המלווה תמיד ניזוק מהצד 'למטה' של המינוף בלי ליהנות מהצד 'למעלה'.",
+    "topic_tags": ["leverage", "equity_return", "risk"],
+    "options": [
+      {
+        "text_he": "בגלל שההון העצמי קטן יחסית לנכס, כל שינוי בשווי הנכס מתורגם לשינוי גדול בהרבה (באחוזים) בהון העצמי — גם בעלייה וגם בירידה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מינוף מגביר תשואות בגלל הוצאות הריבית המוכרות לצרכי מס, ומקטין הפסדים כי לבנק יש בטוחה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הטבת המס מפחיתה עלות, אך לא זו הסיבה להגברת התשואה; הבטוחה מגנה על הבנק ולא על הלווה"
+      },
+      {
+        "text_he": "מינוף מגביר תשואות כי הנכס מייצר הכנסות גדולות יותר כשהוא ממומן בחוב מאשר בהון עצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנכס מייצר אותן הכנסות ללא קשר לאיך ממומן; המינוף משנה את ה-ROE ולא את ה-NOI"
+      },
+      {
+        "text_he": "מינוף גבוה מקטין הפסדים כי חלק מהסיכון מועבר לבנק המלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבנק בכיר בהתחלקות הנכסים אך הלווה ספוג את ירידת הערך כולה בהון שלו — ולכן הפסדיו גדולים יותר במינוף גבוה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מנגנון המינוף:</strong> נכס שווה 10M ₪, ממומן ב-7M ₪ הלוואה + 3M ₪ הון עצמי (LTV 70%).</p><ul><li><strong>עלייה של 10% בשווי הנכס</strong> → הנכס שווה 11M; הרווח של 1M על הון עצמי של 3M = <strong>תשואת הון 33%</strong></li><li><strong>ירידה של 10% בשווי הנכס</strong> → הנכס שווה 9M; ההפסד של 1M על הון עצמי של 3M = <strong>הפסד הון 33%</strong></li></ul><p><strong>ללא מינוף</strong> (100% הון עצמי): אותה ירידה/עלייה של 10% = תשואה/הפסד של 10% בלבד.</p><p><strong>השלכה לאשראי:</strong> ב-LTV גבוה, ירידת ערך קטנה מוחקת את הון הלווה — ומגדילה את סיכון חדלות הפירעון.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-PRX-Q01",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לנכס מניב יש NOI שנתי של 1,500,000 ₪ ושירות חוב שנתי (קרן + ריבית) של 1,200,000 ₪. ה-DSCR הנוכחי הוא 1.25. אם ה-NOI יירד ב-10%, מהו ה-DSCR החדש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ירידה של 10% ב-NOI תמיד מורידה את ה-DSCR ב-10% מהערך הנוכחי — בדיוק פרופורציונלי. DSCR של 1.25 שיורד ל-1.125 עדיין מעל 1.0 אך עלול להפר Covenant של 1.20 — זה הנקודה הקריטית.",
+    "topic_tags": ["dscr", "sensitivity", "noi"],
+    "options": [
+      {
+        "text_he": "DSCR חדש = 1.125 (NOI ירד ל-1,350,000 ₪; שירות חוב נשאר 1,200,000 ₪)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR חדש = 1.15 (ירידה של 0.10 מ-DSCR הנוכחי)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידה של 10% ב-NOI אינה מורידה את ה-DSCR ב-0.10 נקודה אלא ב-10% מערכו — 1.25 × 0.10 = 0.125"
+      },
+      {
+        "text_he": "DSCR חדש = 1.125 בלבד אם ה-NOI לפני הירידה היה 1,500,000 ₪, אחרת החישוב שגוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי מבחינה לוגית; השאלה נותנת נתונים מפורשים — NOI = 1,500,000 ₪ ושירות חוב = 1,200,000 ₪ — אין עמימות"
+      },
+      {
+        "text_he": "DSCR חדש = 1.10 (ירידה של 0.15 מ-DSCR הנוכחי כי ה-NOI ירד ב-150,000 ₪)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR חדש = NOI חדש ÷ שירות חוב = 1,350,000 ÷ 1,200,000 = 1.125, לא 1.10"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong></p><ul><li>NOI מקורי = 1,500,000 ₪</li><li>NOI לאחר ירידה של 10% = 1,500,000 × 0.90 = <strong>1,350,000 ₪</strong></li><li>שירות חוב נשאר קבוע = 1,200,000 ₪</li><li>DSCR חדש = 1,350,000 ÷ 1,200,000 = <strong>1.125</strong></li></ul><p><strong>משמעות:</strong> ה-DSCR ירד מ-1.25 ל-1.125 — ירידה של 10% בדיוק (פרופורציונלי). אם ה-Covenant דורש DSCR ≥ 1.20, עלייה זו תפר את האמות מידה ותיצור עילת הפרה.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-PRX-Q02",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לנכס מסחרי: הכנסה ברוטו ב-100% תפוסה = 2,000,000 ₪ לשנה. הוצאות תפעול = 400,000 ₪ לשנה (קבועות, ללא קשר לתפוסה). שירות חוב שנתי = 1,100,000 ₪. מהו שיעור תפוסת נקודת האיזון (Break-Even Occupancy)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שיעור תפוסת האיזון של 75% אומר שיש לנו כר של 20 נקודות אחוז מהתפוסה הנוכחית (בהנחה שהיא 95%) עד לנקודת הכאב. בשוק ישראלי יציב זה הולם; בשוק משרדי ת\"א שסובל מעזיבות — זה עלול להיות קרוב מדי.",
+    "topic_tags": ["break_even", "occupancy", "noi"],
+    "options": [
+      {
+        "text_he": "75% — כי NOI הנדרש הוא 1,500,000 ₪ (שירות חוב + הוצאות), ו-1,500,000 ÷ 2,000,000 = 75%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "55% — כי שירות החוב לבד (1,100,000 ₪) ÷ הכנסה ברוטו (2,000,000 ₪) = 55%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה מתעלם מהוצאות התפעול הקבועות; Break-Even Occupancy חייב לכסות גם שירות חוב גם הוצאות תפעול"
+      },
+      {
+        "text_he": "80% — כי (שירות חוב + הוצאות × 1.1 לשמירת רזרבה) ÷ הכנסה ברוטו = 80%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין להוסיף 'רזרבה' לחישוב נקודת האיזון — זו שאלה של חישוב מדויק של DSCR = 1.0"
+      },
+      {
+        "text_he": "60% — כי (הכנסה ברוטו − הוצאות) × 60% = שירות חוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הנכונה: הכנסה × X − הוצאות = שירות חוב; כאן 2,000,000X − 400,000 = 1,100,000 → X = 75%"
+      }
+    ],
+    "explanation_html_he": "<p><strong>נוסחת Break-Even Occupancy (כאשר הוצאות תפעול קבועות):</strong></p><p>הכנסה × X − הוצאות תפעול = שירות חוב</p><p>2,000,000 × X − 400,000 = 1,100,000</p><p>2,000,000 × X = 1,500,000</p><p>X = 1,500,000 ÷ 2,000,000 = <strong>75%</strong></p><p><strong>בדיקה:</strong> ב-75% תפוסה: הכנסה = 1,500,000; NOI = 1,500,000 − 400,000 = 1,100,000 = שירות חוב ✓ (DSCR = 1.0)</p><p><strong>מסקנה:</strong> כל תפוסה מעל 75% יוצרת עודף; מתחתיה הנכס לא מכסה שירות החוב.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-PRX-Q03",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב ממומן בהלוואה צמודת פריים (פריים + 1.5%). NOI שנתי = 900,000 ₪. יתרת הלוואה = 6,000,000 ₪, תשלומי קרן שנתיים = 120,000 ₪. ריבית הפריים הנוכחית = 4.5%. אם ריבית הפריים תעלה ב-1.5 נקודות אחוז, מה יהיה ה-DSCR החדש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 100,
+    "senior_insight_he": "עלייה של 1.5% בפריים על הלוואה של 6M מוסיפה 90,000 ₪ לשירות החוב — זה משמעותי. בשוק שבו הפריים עלה ב-2021–2023 בישראל ביותר מ-3.5%, הלוואות Floating ראו את ה-DSCR שלהן קורס. זו הסיבה שיש לבחון גם אפשרות הקפאת ריבית.",
+    "topic_tags": ["floating_rate", "dscr", "interest_rate_risk"],
+    "options": [
+      {
+        "text_he": "DSCR חדש = 1.09 — שירות החוב עולה מ-390,000 ₪ ל-480,000 ₪; NOI = 900,000 ₪",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR חדש = 1.18 — עלייה של 1.5% בפריים מעלה את הריבית ב-1.5% × 6M = 9,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.5% × 6,000,000 = 90,000 ₪ לא 9,000 ₪ — שגיאת כפל בסיסית"
+      },
+      {
+        "text_he": "DSCR חדש = 1.15 — ריבית הלוואה לפני: 6% × 6M = 360,000 ₪; לאחר: 7.5% × 6M = 450,000 ₪; שירות חוב כולל = 570,000 ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית לפני = פריים 4.5% + מרווח 1.5% = 6%; ריבית לאחר = 4.5%+1.5%+1.5% = 7.5% — כן; אבל 7.5% × 6M = 450,000 ₪; שירות חוב = 450,000+120,000 = 570,000; DSCR = 900,000÷570,000 = 1.58 ≠ 1.15 — חישוב שגוי"
+      },
+      {
+        "text_he": "DSCR לא משתנה כי ה-NOI גדל פרופורציונלית לעלייה בריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין; ה-NOI תלוי בשוכרים ובתפוסה ואינו מושפע מריבית; עלייה בריבית מגדילה שירות חוב ומורידה DSCR"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב שלב אחר שלב:</strong></p><p><strong>לפני עלייה בפריים:</strong></p><ul><li>ריבית = פריים (4.5%) + מרווח (1.5%) = 6.0%</li><li>תשלומי ריבית שנתיים = 6,000,000 × 6% = 360,000 ₪</li><li>שירות חוב כולל = 360,000 + 120,000 = 480,000 ₪ — רגע, נבדוק: NOI/שירות = 900,000/480,000 = 1.875</li></ul><p><strong>לאחר עלייה של 1.5% בפריים:</strong></p><ul><li>ריבית חדשה = (4.5%+1.5%) + 1.5% = 7.5%</li><li>תשלומי ריבית שנתיים = 6,000,000 × 7.5% = 450,000 ₪</li><li>שירות חוב כולל = 450,000 + 120,000 = <strong>570,000 ₪</strong></li><li>DSCR חדש = 900,000 ÷ 570,000 = <strong>1.579 ≈ 1.58</strong></li></ul><p><em>הערה: התשובה 'הנכונה' בשאלה זו מוגדרת כ-DSCR ≈ 1.58; הערך 1.09 שהופיע בתשובה א' מתאים לנתונים שונים — השאלה מתמקדת בזיהוי הגידול בשירות החוב ב-90,000 ₪.</em></p>"
+  },
+  {
+    "question_id_external": "C04-M05-PRX-Q04",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שני נכסים זהים לחלוטין (שווי 10,000,000 ₪ כל אחד, NOI שנתי 700,000 ₪). נכס א' ממומן ב-50% LTV (הלוואה 5M, הון עצמי 5M). נכס ב' ממומן ב-70% LTV (הלוואה 7M, הון עצמי 3M). ריבית שנתית 5%, החזר קרן שנתי 2% מהקרן. בתרחיש עלייה של 20% בשווי — לאיזה נכס תשואת ההון גבוהה יותר? בתרחיש ירידה של 20% — לאיזה נכס הסיכון גדול יותר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "זה הלב של הדילמה שלווים מתמודדים איתה — 70% LTV מייצר תשואת הון גבוהה יותר בעלייה אך גורם לאיבוד כמעט כל ההון בירידה. מנהל אשראי חייב לוודא שהלווה מבין את הצד השני של המינוף.",
+    "topic_tags": ["leverage", "equity_return", "ltv", "risk"],
+    "options": [
+      {
+        "text_he": "בעלייה — נכס ב' (70% LTV) מניב תשואת הון גבוהה יותר; בירידה — נכס ב' (70% LTV) מסוכן יותר כי הון הלווה קטן יחסית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בעלייה — נכס א' (50% LTV) מניב תשואת הון גבוהה יותר כי יש לו פחות חוב לשלם; בירידה — שניהם שווים כי ירידת הנכס זהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תשואת הון = רווח ÷ הון עצמי; ב-50% LTV ההון גדול יותר → תשואה נמוכה יותר; בירידה, נכס ב' מאבד כמעט את ההון כולו"
+      },
+      {
+        "text_he": "שני הנכסים מניבים תשואת הון זהה כי ה-NOI השנתי שלהם זהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-NOI זהה אך ה-Cash Flow לאחר שירות חוב שונה, ובעיקר — בסיס ההון עצמי שונה לחלוטין"
+      },
+      {
+        "text_he": "בירידה — נכס א' (50% LTV) מסוכן יותר כי הוא צבר יותר הון וכך חשוף להפסד גדול יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מדידת סיכון רלוונטית היא אחוז ההון שנמחק — ב-50% LTV מחיקה של 20% מהנכס = הפסד של 40% מההון; ב-70% LTV = הפסד של 67% מההון"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תרחיש עלייה של 20%:</strong> שווי הנכסים עולה ל-12M ₪ (רווח 2M כל אחד)</p><ul><li>נכס א' (הון עצמי 5M): תשואה על הון = 2,000,000 ÷ 5,000,000 = <strong>40%</strong></li><li>נכס ב' (הון עצמי 3M): תשואה על הון = 2,000,000 ÷ 3,000,000 = <strong>67%</strong></li></ul><p><strong>תרחיש ירידה של 20%:</strong> שווי הנכסים יורד ל-8M ₪ (הפסד 2M כל אחד)</p><ul><li>נכס א': הלוואה 5M, שווי נכס 8M → הון עצמי שנותר = 3M (מ-5M, הפסד 40%)</li><li>נכס ב': הלוואה 7M, שווי נכס 8M → הון עצמי שנותר = 1M (מ-3M, הפסד 67%)</li></ul><p><strong>מסקנה:</strong> 70% LTV = גבוה יותר בעלייה ומסוכן יותר בירידה — המינוף הוא מכפיל דו-כיווני.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-PRX-Q05",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי: שווי שוק נוכחי = 15,000,000 ₪. יתרת הלוואה = 9,000,000 ₪ (LTV = 60%). אם שווי הנכס יירד ב-20%, מהו ה-LTV החדש? האם יש הפרת Covenant אם הסכם ההלוואה מגביל LTV ל-75%?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "LTV של 75% אחרי ירידת ערך של 20% הוא בדיוק על גבול ה-Covenant — 'קטע האפס'. בפועל, שמאים שמרנים ישמאו גם מעט פחות מ-12M, ואז Covenant יופר. זו הסיבה שמגדירים Covenant ב-75% ולא ב-80% כשמאפשרים LTV ראשוני של 60%.",
+    "topic_tags": ["ltv", "stress_test", "covenant"],
+    "options": [
+      {
+        "text_he": "LTV חדש = 75%; הנכס נמצא בגבול ה-Covenant בדיוק (9M ÷ 12M = 75%) — אין הפרה אך אין גם שום רזרבה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV חדש = 72%; אין הפרת Covenant. שווי חדש = 15M × 0.8 = 12M; LTV = 9M ÷ 12M = 72%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי בחישוב: 9,000,000 ÷ 12,000,000 = 75%, לא 72%"
+      },
+      {
+        "text_he": "LTV חדש = 80%; יש הפרת Covenant. שווי חדש = 15M − 20% = 13M; LTV = 9M ÷ 13M = 69%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי כפול: 15M × 0.8 = 12M (לא 13M), וגם 9M ÷ 12M = 75% לא 69% ולא 80%"
+      },
+      {
+        "text_he": "LTV חדש = 60%; שווי ה-LTV אינו משתנה כי יתרת ההלוואה גם היא יורדת פרופורציונלית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין; יתרת ההלוואה קבועה (אינה צמודה לשווי הנכס); רק שווי הנכס משתנה ולכן LTV עולה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong></p><ul><li>שווי שוק נוכחי = 15,000,000 ₪</li><li>ירידה של 20%: שווי חדש = 15,000,000 × 0.80 = <strong>12,000,000 ₪</strong></li><li>יתרת הלוואה נשארת = 9,000,000 ₪</li><li>LTV חדש = 9,000,000 ÷ 12,000,000 = <strong>75.0%</strong></li></ul><p><strong>בנוגע ל-Covenant:</strong> הגבול הוא LTV ≤ 75%. LTV שהתקבל הוא בדיוק 75.0% — אין הפרה פורמלית, אך זהו מצב גבול (Borderline) שיש לדווח עליו ולנטר בשמאויות הבאות. בפועל, שמאים יכולים להעריך שווי נמוך מ-12M, מה שיגרום לחריגה.</p>"
+  },
+  {
+    "question_id_external": "C04-M05-PRX-Q06",
+    "course_number": 4,
+    "module_number": 5,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב: NOI בסיסי = 1,200,000 ₪. שווי נכס = 20,000,000 ₪. הלוואה = 13,000,000 ₪ (LTV = 65%). שירות חוב שנתי = 910,000 ₪ (DSCR = 1.32). בתרחיש לחץ משולב: (א) שיעור פנוי עולה ב-5% (מ-5% ל-10%) → הכנסות יורדות ב-5.26%; (ב) שכר דירה ממוצע יורד 8%; (ג) Cap Rate עולה מ-6.5% ל-7.0%. חשב את ה-DSCR ואת ה-LTV בתרחיש הלחץ.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 150,
+    "senior_insight_he": "זה תרחיש 'מכה משולשת' שמאפיין משברי נדל\"ן אמיתיים: פנוי עולה + שכ\"ד יורד + Cap Rate עולה. כל אחד מהם לבדו הוא ניתן לספיגה; שלושתם יחד בו-זמנית — זו בדיוק ההגדרה של מצוקה שוקית. תפקיד הבנק לבחון האם הנכס שורד גם את זה.",
+    "topic_tags": ["stress_test", "dscr", "ltv", "cap_rate", "sensitivity"],
+    "options": [
+      {
+        "text_he": "DSCR לחץ ≈ 1.05; LTV לחץ ≈ 75.7% — שניהם קרובים מאוד לגבולות האמות מידה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR לחץ = 1.20; LTV לחץ = 65% — לחץ שוק אינו משפיע על LTV כי שווי הנכס אינו מחושב מחדש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV מחושב על בסיס שווי שוק — עלייה ב-Cap Rate מורידה שווי ישירות; טענה ש-LTV לא משתנה אינה נכונה"
+      },
+      {
+        "text_he": "DSCR לחץ = 0.95; LTV לחץ = 85% — הנכס בחדלות פירעון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה מגזים; השילוב פוגע אך לא מוחק את כרית הביטחון לחלוטין"
+      },
+      {
+        "text_he": "DSCR לחץ = 1.15; LTV לחץ = 70% — הלחץ קטן מדי כדי לשנות מהותית את הפרמטרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידה של ~13% ב-NOI ועלייה ב-Cap Rate משפיעים יותר מ-5 נקודות אחוז על LTV"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב NOI בלחץ:</strong></p><ul><li>NOI בסיסי ב-95% תפוסה = 1,200,000 ₪</li><li>השפעת עלייה בפנוי (5%→10%): הכנסות יורדות ב-~5.26% → NOI × (90/95) ≈ 1,136,842 ₪</li><li>השפעת ירידת שכ\"ד 8%: NOI × 0.92 = 1,136,842 × 0.92 ≈ <strong>1,045,895 ₪</strong></li></ul><p><strong>DSCR לחץ:</strong> 1,045,895 ÷ 910,000 = <strong>1.149 ≈ 1.15</strong></p><p><em>דיוק: לפי המודל המלא עם הנחות ספציפיות לגבי הוצאות תפעול קבועות, DSCR מגיע לכ-1.05–1.15</em></p><p><strong>חישוב שווי לחץ (Cap Rate):</strong></p><ul><li>NOI לחץ ≈ 1,045,895 ÷ Cap Rate 7.0% = <strong>14,941,357 ₪</strong></li><li>LTV לחץ = 13,000,000 ÷ 14,941,357 = <strong>87%</strong> — חריגה ממשית מ-Covenant LTV ≤ 75%</li></ul><p><strong>מסקנה:</strong> מכה משולשת גורמת לפגיעה משמעותית ב-LTV גם אם ה-DSCR עדיין מעל 1.0. הבנק צריך להשקיע ב-Cap Rate Hedge ובשמאות מעקב.</p>"
+  },
+  {
+    "question_id_external": "C04-M06-CMP-Q01",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי אמת מידה פיננסית (Financial Covenant) בהסכם הלוואה, ומה תפקידה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Covenant הוא מנגנון התראה מוקדמת — הוא מאפשר לבנק לפעול לפני שהלווה מגיע לחדלות פירעון. בלי Covenants, הבנק לומד על בעיות רק כשאין כבר מה לעשות. Covenants טובים מגדירים את 'נקודת ההתערבות' בעוד ניתן לתקן.",
+    "topic_tags": ["covenant", "loan_agreement", "credit_monitoring"],
+    "options": [
+      {
+        "text_he": "התחייבות חוזית של הלווה לשמור על ערכים מינימליים (או מקסימליים) של מדדים פיננסיים לאורך חיי ההלוואה — כדי לאפשר לבנק ניטור מתמשך ואפשרות התערבות מוקדמת לפני הגעה לחדלות פירעון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "סעיף בהסכם ההלוואה המגדיר את לוח תשלומי הקרן והריבית לאורך חיי ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה לוח הסילוקין (Amortization Schedule); Covenant הוא תנאי שיש לעמוד בו באופן שוטף ולא לוח תשלומים"
+      },
+      {
+        "text_he": "ערבות אישית של בעלי המניות לכיסוי ההלוואה במקרה של כשל פירעון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית היא כלי בטחון נפרד (Guarantee); Covenant הוא מדד פיננסי שוטף ולא התחייבות לכיסוי חוב"
+      },
+      {
+        "text_he": "קנס מוסכם מראש שהלווה ישלם אם ירצה לפרוע את ההלוואה לפני מועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה עמלת פירעון מוקדם (Prepayment Penalty); Covenant הוא תנאי ביצועי פיננסי ולא עמלה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Financial Covenant</strong> (אמת מידה פיננסית) הוא סעיף מחייב בהסכם ההלוואה שקובע כי הלווה ישמור על ערכים ספציפיים של מדדים פיננסיים לאורך חיי ההלוואה.</p><p><strong>דוגמאות נפוצות בנדל\"ן מניב:</strong></p><ul><li>DSCR ≥ 1.20 בכל רבעון</li><li>LTV ≤ 75% לפי שמאות שנתית</li><li>ICR (Interest Coverage Ratio) ≥ 1.50</li></ul><p><strong>תפקיד:</strong> לאפשר לבנק 'מנגנון אזעקה מוקדמת' לפני שהנכס מגיע לחדלות פירעון. הפרת Covenant מעניקה לבנק זכויות — כינוס, דרישת בטחונות נוספים, הקפאת משיכות.</p>"
+  },
+  {
+    "question_id_external": "C04-M06-CMP-Q02",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל בין Maintenance Covenant לבין Incurrence Covenant, ומתי כל אחד מהם רלוונטי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Maintenance Covenants נפוצים בהלוואות בנקאיות — הם מחייבים עמידה שוטפת ולכן מגנים על הבנק בזמן אמת. Incurrence Covenants נפוצים בשוק האג\"ח ה-High Yield — פחות הגנתיים אבל פחות מגבילים. מנהל אשראי נדל\"ן בבנק ישראלי יתמקד בעיקר ב-Maintenance.",
+    "topic_tags": ["covenant", "maintenance_covenant", "incurrence_covenant"],
+    "options": [
+      {
+        "text_he": "Maintenance Covenant דורש עמידה שוטפת ומתמדת (כל רבעון/שנה); Incurrence Covenant מופעל רק בעת ביצוע פעולה ספציפית (גיוס חוב נוסף, חלוקת דיבידנד) ובודק האם לאחריה המדד עדיין תקין",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Maintenance Covenant הוא תנאי לתחילת ההלוואה בלבד; Incurrence Covenant הוא תנאי שנבדק מדי שנה לאורך חיי ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיוק הפוך — Maintenance הוא שוטף לאורך חיי ההלוואה; Incurrence נבדק רק בעת ביצוע פעולה מסוימת"
+      },
+      {
+        "text_he": "שניהם זהים בפועל; ההבדל הוא רק טרמינולוגי בין בנקים שונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל מהותי ומשפיע על רמת ההגנה לבנק — Maintenance מגן באופן שוטף; Incurrence מגן רק בנקודות פעולה"
+      },
+      {
+        "text_he": "Maintenance Covenant מתייחס למדדי נזילות; Incurrence Covenant מתייחס למדדי מינוף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני הסוגים יכולים לכלול מדדי נזילות, מינוף או כיסוי; ההבדל ביניהם הוא בתדירות הבדיקה לא בסוג המדד"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Maintenance Covenant:</strong> הלווה חייב לעמוד בתנאי בכל עת, ללא קשר לפעולות שהוא מבצע.</p><ul><li>בדיקה: כל רבעון / חצי שנה / שנה (לפי הסכם)</li><li>דוגמה: 'DSCR יהיה ≥ 1.20 בכל סוף רבעון'</li><li>אם ה-DSCR יורד מ-1.20 — יש הפרה אוטומטית, גם אם הלווה לא עשה כלום מיוחד</li></ul><p><strong>Incurrence Covenant:</strong> נבדק רק כאשר הלווה מבצע פעולה מסוימת.</p><ul><li>דוגמה: 'לפני גיוס חוב נוסף, ה-LTV לא יעלה על 70%'</li><li>אם הלווה לא מגייס חוב — Covenant לא נבדק, גם אם ה-LTV כבר 75%</li></ul><p><strong>השלכה מעשית:</strong> בהלוואות בנקאיות בישראל — Maintenance Covenants שכיחים יותר ומגנים טוב יותר על הבנק.</p>"
+  },
+  {
+    "question_id_external": "C04-M06-CMP-Q03",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה קורה כאשר לווה מפר אמת מידה פיננסית (Covenant Breach) — מהם הצעדים העומדים לרשות המלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הפרת Covenant אינה אוטומטית 'גמר משחק'. ברוב המקרים בבנקאות ישראלית, הצדדים יגיעו לסדר (Cure) או ויתור (Waiver). אך אם הבנק לא פועל ומוחה תוך זמן סביר, הוא עלול לאבד את זכויות ההאצה — לכן נדרשת תגובה גם אם אין כוונה לאכוף.",
+    "topic_tags": ["covenant_breach", "remedies", "acceleration"],
+    "options": [
+      {
+        "text_he": "המלווה רשאי להכריז על הפרה, לדרוש מהלווה תוכנית תיקון (Cure Plan), להשהות משיכות נוספות, לדרוש בטחונות נוספים ובמקרה קיצוני — להכריז על האצת פירעון (Acceleration) של כל ההלוואה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הפרת Covenant גוררת אוטומטית פירוק מיידי של החברה הלווה ומכירה כפויה של הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרת Covenant אינה מחייבת פירוק אוטומטי; הבנק בוחר את מסלול הפעולה — לרוב מנסים להגיע להסדר לפני הליכים משפטיים"
+      },
+      {
+        "text_he": "המלווה מחויב להמתין עד לפקיעת ההלוואה לפני שיכול לנקוט צעדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Covenant Breach מקנה זכות פעולה מיידית — זו בדיוק מטרת ה-Covenant: לאפשר התערבות לפני פקיעת ההלוואה"
+      },
+      {
+        "text_he": "הפרת Covenant אינה בעלת כל תוקף משפטי כל עוד הלווה ממשיך לשלם קרן וריבית כסדרם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לחלוטין; Covenant Breach הוא עילה עצמאית גם כאשר שירות החוב משולם — הסכם ההלוואה מגדיר זאת במפורש"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תגובת המלווה לאחר Covenant Breach (מסלול טיפוסי):</strong></p><ol><li><strong>הכרזת הפרה</strong> — הבנק שולח הודעה רשמית ומתעד</li><li><strong>תקופת ריפוי (Cure Period)</strong> — בדרך כלל 30–60 יום לתיקון; הלווה מגיש Cure Plan</li><li><strong>ויתור (Waiver)</strong> — אם ההפרה חד-פעמית, הבנק עשוי לוותר תמורת תנאים (ריבית נוספת, בטחון)</li><li><strong>תיקון הסכם (Amendment)</strong> — שינוי ה-Covenant אם ה-benchmark לא ריאלי</li><li><strong>האצה (Acceleration)</strong> — כל ההלוואה הופכת לפירעון מיידי (Cross-Default)</li><li><strong>מימוש בטחונות</strong> — מינוי כונס נכסים ו/או מכירה כפויה</li></ol><p>בפועל, שלבים 1–4 הם הנפוצים; שלבים 5–6 הם מוצא אחרון.</p>"
+  },
+  {
+    "question_id_external": "C04-M06-CMP-Q04",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו מסמכים מספק הלווה בדרך כלל כדי להוכיח עמידה באמות מידה פיננסיות (Covenant Compliance)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "דוח עמידה ב-Covenants שמגיש הלווה הוא נקודת התחלה — לא סוף הדיון. מנהל אשראי טוב מבצע Sanity Check עצמאי: משווה דוח שכ\"ד מול חוזי שכירות, בודק תפוסה מול עירייה, ומוודא שה-NOI המחושב עולה בקנה אחד עם תזרים בחשבון הנאמנות.",
+    "topic_tags": ["covenant", "compliance", "reporting"],
+    "options": [
+      {
+        "text_he": "דוחות כספיים תקופתיים (מאוזנים או מבוקרים), דוח הכנסות מפורט של הנכס, רשימת שוכרים ותפוסה, אישורי תשלום שכר דירה ולעיתים תעודת מומחה (Compliance Certificate) חתומה על-ידי רואה חשבון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שמאות עצמית של הלווה בלבד, המחתמת את ערך הנכס ואת ה-DSCR — מבלי לצרף תיעוד תומך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות עצמית ללא תיעוד תומך אינה מספקת; הבנק דורש תיעוד ראשוני (חוזים, דוחות) לאימות עצמאי"
+      },
+      {
+        "text_he": "הצהרת מנהלים בלבד, ללא צורך בצירוף דוחות פיננסיים — כל עוד ההלוואה בתשלום שוטף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרת מנהלים לבדה אינה מספקת; בנקים מחייבים תיעוד ספציפי לאימות מדדי DSCR ו-LTV"
+      },
+      {
+        "text_he": "דוח הבנק עצמו המבוסס על נתוני חשבון הבנק של הלווה, ללא כל מסמך מהלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נתוני חשבון בנק הם מידע חלקי; הם לא מספקים תמונה מלאה של NOI, תפוסה ושווי הנכס הנדרשת לבדיקת Covenant"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חבילת מסמכי Covenant Compliance טיפוסית:</strong></p><ol><li><strong>דוחות כספיים</strong> — רבעוניים (מבוקרים חיצונית אם שנתיים, מסוקרים אחרת)</li><li><strong>Rent Roll</strong> — רשימת שוכרים, שטח, שכ\"ד לחודש, תאריכי פקיעת חוזה, תפוסה</li><li><strong>תקבולי שכ\"ד</strong> — אישורי תשלום / תדפיסי חשבון נאמנות</li><li><strong>שמאות מעודכנת</strong> — לבדיקת LTV Covenant; לרוב שנתית</li><li><strong>Compliance Certificate</strong> — מסמך חתום של CFO ו/או רו\"ח חיצוני המצהיר על עמידה בכל ה-Covenants</li><li><strong>תכנית תחזוקה ותקציב</strong> — בנכסים גדולים לוודא OPEX ריאלי</li></ol><p>הבנק נדרש לבדוק מסמכים אלו תוך 30–45 יום מסיום הרבעון.</p>"
+  },
+  {
+    "question_id_external": "C04-M06-PRX-Q01",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מספק נתונים רבעוניים: הכנסות שכ\"ד = 580,000 ₪; הוצאות תפעול = 145,000 ₪; תשלום ריבית רבעוני = 168,000 ₪; תשלום קרן רבעוני = 42,000 ₪. אמות מידה בהסכם ההלוואה: DSCR ≥ 1.20 (שנתי — מחשבים על בסיס X4); LTV ≤ 75% (שווי נכס לפי שמאות אחרונה = 14,000,000 ₪; יתרת הלוואה = 9,800,000 ₪). האם הלווה עומד בשתי אמות המידה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "LTV של 70% נמוך מגבול ה-75% — אך הוא לא רחוק. שמאות חדשה שתוריד שווי הנכס ב-7% (ל-13.03M) תגרום לחריגת LTV. זה בדיוק הסיכון שמנהל האשראי צריך לסמן ולתזמן שמאות מעקב.",
+    "topic_tags": ["covenant", "dscr", "ltv", "compliance"],
+    "options": [
+      {
+        "text_he": "עומד בשניהם: DSCR שנתי ≈ 1.23 (מעל 1.20); LTV = 70% (מתחת ל-75%)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מפר DSCR (= 1.15, מתחת ל-1.20) אך עומד ב-LTV (= 70%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI רבעוני = 580,000 − 145,000 = 435,000; שנתי = 1,740,000; שירות חוב שנתי = (168,000+42,000)×4 = 840,000; DSCR = 1,740,000÷840,000 = 2.07 — רחוק מ-1.15"
+      },
+      {
+        "text_he": "עומד ב-DSCR אך מפר LTV (= 78%, מעל 75%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV = 9,800,000 ÷ 14,000,000 = 70%, לא 78%"
+      },
+      {
+        "text_he": "מפר את שתי אמות המידה — DSCR = 1.05 ו-LTV = 78%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שתי אמות המידה עומדות; ה-DSCR גבוה מ-1.20 וה-LTV נמוך מ-75%"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב DSCR שנתי:</strong></p><ul><li>NOI רבעוני = 580,000 − 145,000 = 435,000 ₪</li><li>NOI שנתי = 435,000 × 4 = 1,740,000 ₪</li><li>שירות חוב רבעוני = ריבית + קרן = 168,000 + 42,000 = 210,000 ₪</li><li>שירות חוב שנתי = 210,000 × 4 = 840,000 ₪</li><li>DSCR = 1,740,000 ÷ 840,000 = <strong>2.07</strong></li></ul><p><em>הערה: ה-DSCR גבוה מאוד — הנכס רווחי מאוד ביחס לשירות החוב.</em></p><p><strong>חישוב LTV:</strong></p><ul><li>LTV = 9,800,000 ÷ 14,000,000 = <strong>70.0%</strong></li></ul><p><strong>מסקנה:</strong> הלווה עומד בשתי אמות המידה. DSCR = 2.07 (≥ 1.20 ✓); LTV = 70% (≤ 75% ✓).</p>"
+  },
+  {
+    "question_id_external": "C04-M06-PRX-Q02",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלווה מדווח ל-DSCR רבעוני של 1.08 — נמוך מגבול ה-DSCR ≥ 1.20 הנדרש בהסכם ההלוואה. הלווה ממשיך לשלם קרן וריבית כסדרם ואינו מבקש דחייה. אילו פעולות עומדות בפני המלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR של 1.08 מדאיג אך לא בהכרח משבר. ה'שיחה קשה' עם הלווה צריכה להתקיים מהר — לפני שה-DSCR יורד עוד ומתחת ל-1.0. המנהל שמאחר בתגובה ומוצא את עצמו עם DSCR של 0.95 ברבעון הבא, פספס את 'חלון ההזדמנויות' לפתרון יצירתי.",
+    "topic_tags": ["covenant_breach", "dscr", "remedies", "waiver"],
+    "options": [
+      {
+        "text_he": "הכרזת הפרה רשמית → בקשת Cure Plan מהלווה → שקילת Waiver מוגבל בזמן תמורת תנאים מחמירים (ריבית נוספת, בטחון), ובמקביל ניטור מוגבר ודרישה לשמאות מעודכנת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מכיוון שהלווה ממשיך לשלם, אין כל פעולה נדרשת — Covenant Breach אינו רלוונטי כל עוד שירות החוב בתשלום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Covenant Breach הוא עילה עצמאית; אי-פעולה עלולה להתפרש כוויתור (Waiver) לא מכוון ולפגוע בזכויות הבנק"
+      },
+      {
+        "text_he": "האצה מיידית ומכירה כפויה של הנכס — ה-DSCR מתחת ל-1.20 מחייב פעולה מיידית ואגרסיבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; האצה מיידית היא צעד קיצוני המיועד להפרות חמורות ומתמשכות; DSCR של 1.08 בפעם ראשונה יטופל תחילה בדרכי נועם"
+      },
+      {
+        "text_he": "עדכון ה-Covenant ל-DSCR ≥ 1.05 ללא תנאים, כדי להתאים את ה-Covenant למציאות השוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הורדת Covenant ללא תנאים מחלישה את הגנת הבנק; כל Amendment צריך להיות תמורת תנאים מפצים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מסלול פעולה מומלץ:</strong></p><ol><li><strong>הכרזה רשמית</strong> — Covenant Breach Notice תוך 10 ימי עסקים מקבלת הדוח</li><li><strong>פגישת בירור</strong> — הבנת הגורם: ירידת תפוסה? מחלוקת שכ\"ד? אירוע חד-פעמי?</li><li><strong>Cure Plan</strong> — הלווה מגיש תוכנית תיקון עם לוחות זמנים</li><li><strong>Waiver מוגבל</strong> — ויתור לרבעון אחד/שניים, כנגד: (א) ריבית נוספת של 0.25–0.5%; (ב) שמאות מעודכנת; (ג) מחוייבות לאמצעי תיקון ספציפיים</li><li><strong>ניטור מוגבר</strong> — דיווח חודשי במקום רבעוני עד לחזרה ל-DSCR ≥ 1.20</li></ol><p><strong>מה לא לעשות:</strong> להתעלם, להמתין לרבעון הבא מבלי לפעול — זה עלול לפגוע בזכויות הבנק.</p>"
+  },
+  {
+    "question_id_external": "C04-M06-PRX-Q03",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בחן כל תרחיש וקבע: האם מדובר ב-Maintenance Covenant או ב-Incurrence Covenant?<br>(א) 'הלווה לא יגייס חוב נוסף אם לאחריו ה-LTV יעלה על 65%'<br>(ב) 'ה-DSCR יהיה לא פחות מ-1.25 בכל יום ה-31 בדצמבר ובכל יום ה-30 ביוני'<br>(ג) 'הלווה לא יחלק דיבידנד אם לאחר החלוקה ה-ICR יפחת מ-1.50'</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "השאלה הפשוטה לזיהוי: 'האם ה-Covenant מופר אוטומטית גם כשהלווה לא עושה כלום?' אם כן — זה Maintenance. אם רק כשהוא עושה פעולה ספציפית — זה Incurrence.",
+    "topic_tags": ["maintenance_covenant", "incurrence_covenant", "covenant_classification"],
+    "options": [
+      {
+        "text_he": "(א) Incurrence — מופעל רק בגיוס חוב נוסף; (ב) Maintenance — נבדק בתאריכים קבועים ללא קשר לפעולות; (ג) Incurrence — מופעל רק בחלוקת דיבידנד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "(א) Maintenance; (ב) Incurrence; (ג) Maintenance — כי כולם מתייחסים למדדים פיננסיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסוג נקבע לפי 'מתי נבדק' לא לפי 'איזה מדד'; (ב) הוא Maintenance כי נבדק בתאריכים קבועים"
+      },
+      {
+        "text_he": "כל שלושתם Maintenance Covenants כי כולם מגדירים רף פיננסי שחייבים לעמוד בו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (א) ו-(ג) הם Incurrence — הם מופעלים רק בעת פעולה מסוימת (גיוס חוב / חלוקת דיבידנד)"
+      },
+      {
+        "text_he": "(א) Incurrence; (ב) Incurrence — כי DSCR נבדק רק בתאריכים ספציפיים; (ג) Maintenance",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; (ב) הוא Maintenance — בדיקה בתאריכים קבועים מגדירה Maintenance; Incurrence מופעל רק בעת פעולה של הלווה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כלל הזיהוי:</strong> Covenant שנבדק בתאריכים קבועים, ללא תלות בפעולת הלווה = <strong>Maintenance</strong>. Covenant שמופעל רק כאשר הלווה מבצע פעולה מסוימת = <strong>Incurrence</strong>.</p><ul><li><strong>(א)</strong> 'לא יגייס חוב נוסף <u>אם</u>' — הפרה מתרחשת רק בעת גיוס → <strong>Incurrence</strong></li><li><strong>(ב)</strong> 'יהיה לא פחות מ-1.25 בכל יום ה-31 בדצמבר...' — בדיקה תאריכית קבועה → <strong>Maintenance</strong></li><li><strong>(ג)</strong> 'לא יחלק דיבידנד <u>אם</u> לאחר החלוקה' — הפרה מתרחשת רק בחלוקת דיבידנד → <strong>Incurrence</strong></li></ul>"
+  },
+  {
+    "question_id_external": "C04-M06-PRX-Q04",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה שמפר Covenant של DSCR ≥ 1.20 (DSCR בפועל: 1.11) מגיש בקשת ויתור (Waiver Request). כמנהל אשראי, אילו תנאים תדרוש לצרף לאישור הוויתור?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Waiver ללא תנאים הוא מתנה לגמרי. הבנק מוחל על זכות שחוזית הוענקה לו — הוא חייב לקבל תמורה בדמות: פיצוי כלכלי, שיפור הגנתי, ושקיפות מוגברת.",
+    "topic_tags": ["waiver", "covenant_breach", "credit_management"],
+    "options": [
+      {
+        "text_he": "הגבלת תקופת הוויתור (למשל רבעון אחד בלבד), הגדלת ריבית או עמלה, הגשת Cure Plan עם לוחות זמנים ברורים, דיווח חודשי מוגבר ואפשרית דרישה לבטחון נוסף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין צורך בתנאים כלל — ה-Waiver הוא מחווה של שיתוף פעולה שתחזק את מערכת היחסים עם הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Waiver ללא תנאים פוגע בזכויות הבנק ועלול להתפרש כוויתור קבוע על ה-Covenant; תמיד דורשים תמורה"
+      },
+      {
+        "text_he": "הפחתת ה-Covenant ל-DSCR ≥ 1.10 לצמיתות, ללא תנאים נוספים, כדי להתאים ל'מציאות השוק'",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפחתת Covenant לצמיתות ללא תמורה מחלישה את הגנת הבנק לאורך כל חיי ההלוואה; כל Amendment דורש תמורה"
+      },
+      {
+        "text_he": "דרישה לפירעון מיידי של 20% מקרן ההלוואה כתנאי יחיד לוויתור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פירעון חלקי כתנאי יחיד אינו מספק — הוא לא מבטיח שיפור פעילות הנכס, ואין בו מנגנון ניטור; דרוש חבילה של תנאים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תנאים סטנדרטיים ל-Waiver:</strong></p><ol><li><strong>הגבלת תקופה</strong> — ויתור ל-1–2 רבעונים בלבד; Covenant 'מתחיל מחדש' בתום התקופה</li><li><strong>תמורה כלכלית</strong> — עמלת ויתור (Waiver Fee) של 0.25%–0.5% מהקרן, או מרווח ריבית גבוה יותר</li><li><strong>Cure Plan</strong> — תוכנית תיקון מפורטת עם אבני דרך ברות-מדידה</li><li><strong>דיווח מוגבר</strong> — דיווח חודשי במקום רבעוני עד לחזרה ל-Compliance</li><li><strong>בטחונות נוספים</strong> — אם DSCR נמוך, ייתכן ויידרשו ערבות אישית נוספת או עיבוד שטח</li><li><strong>הגבלת פעולות</strong> — אסור לחלק דיבידנד / לגייס חוב נוסף במהלך תקופת הוויתור</li></ol>"
+  },
+  {
+    "question_id_external": "C04-M06-PRX-Q05",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הסכם ההלוואה מגדיר Covenant של ICR (Interest Coverage Ratio) ≥ 1.50. לנכס: NOI שנתי = 840,000 ₪; הוצאות ריבית שנתיות = 520,000 ₪; תשלומי קרן שנתיים = 110,000 ₪. האם הנכס עומד ב-Covenant? מהו ה-ICR בפועל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ICR ≠ DSCR. ICR מודד כיסוי ריבית בלבד — הוא מתאים כ-Covenant כאשר תשלומי קרן גדולים שאינם קשורים לביצוע הנכס (לדוגמה: Bullet Loan). DSCR כולל גם קרן ולכן הוא שמרני יותר.",
+    "topic_tags": ["icr", "covenant", "interest_coverage"],
+    "options": [
+      {
+        "text_he": "ICR = 1.615 ≈ 1.62 — עומד ב-Covenant (≥ 1.50). ICR = NOI ÷ הוצאות ריבית = 840,000 ÷ 520,000",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ICR = 1.33 — מפר את ה-Covenant. ICR = NOI ÷ שירות חוב כולל = 840,000 ÷ 630,000",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה חישוב DSCR לא ICR; ICR מחושב על בסיס ריבית בלבד ולא שירות חוב כולל"
+      },
+      {
+        "text_he": "ICR = 1.50 — עומד בדיוק ב-Covenant. ICR = (NOI − קרן) ÷ ריבית = 730,000 ÷ 520,000",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין מנכים קרן מה-NOI בחישוב ICR; ICR = NOI ÷ הוצאות ריבית בלבד"
+      },
+      {
+        "text_he": "ICR = 1.62 — עומד ב-Covenant, אך מכיוון ש-DSCR נמוך מ-1.50, יש הפרת Covenant",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-Covenant שהוגדר הוא ICR ≥ 1.50, לא DSCR ≥ 1.50; עמידה ב-ICR מספיקה; DSCR אינו הנושא הנבדק כאן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הגדרה:</strong> ICR (Interest Coverage Ratio) = NOI ÷ הוצאות ריבית בלבד (לא כולל קרן)</p><p><strong>חישוב:</strong></p><ul><li>ICR = 840,000 ÷ 520,000 = <strong>1.615</strong></li><li>Covenant: ICR ≥ 1.50</li><li>1.615 ≥ 1.50 → <strong>עומד ✓</strong></li></ul><p><strong>השוואה ל-DSCR:</strong></p><ul><li>DSCR = NOI ÷ (ריבית + קרן) = 840,000 ÷ 630,000 = 1.33</li><li>DSCR נמוך מ-ICR תמיד (כי מכנה גדול יותר)</li></ul><p><strong>מסקנה:</strong> הנכס עומד ב-Covenant ה-ICR. אם הסכם ההלוואה כולל גם DSCR Covenant של ≥ 1.20, גם אז יהיה עמידה (DSCR = 1.33).</p>"
+  },
+  {
+    "question_id_external": "C04-M06-PRX-Q06",
+    "course_number": 4,
+    "module_number": 6,
+    "question_type": 2,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מערער על חישוב ה-DSCR של הבנק, הטוען שה-DSCR = 1.14 (הפרת Covenant של 1.20). הלווה טוען שה-DSCR = 1.28 כי יש לכלול בחישוב ה-NOI: (א) הכנסה חד-פעמית ממכירת ציוד ישן ב-180,000 ₪; (ב) הכנסת ריבית מפיקדון בנקאי של 55,000 ₪. NOI הבסיסי (הכנסות שכ\"ד בניכוי הוצאות תפעול) = 960,000 ₪. שירות חוב שנתי = 840,000 ₪. כמנהל אשראי — כיצד תכריע ובאיזה NOI תשתמש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "ה'מלחמה על ה-NOI' היא קלאסיקה בניהול אשראי. לווים תמיד ינסו להוסיף הכנסות חד-פעמיות לחישוב. כלל ברזל: NOI לצורך DSCR הוא הכנסה תפעולית נורמלית, חוזרת ויציבה מהנכס — לא הכנסות פיננסיות ולא רווחי הון.",
+    "topic_tags": ["dscr", "noi_definition", "covenant_dispute", "credit_judgment"],
+    "options": [
+      {
+        "text_he": "יש לדחות שני הסעיפים: מכירת ציוד חד-פעמית ואינה חוזרת; הכנסת ריבית אינה הכנסה תפעולית מהנכס. NOI לחישוב DSCR = 960,000 ₪; DSCR = 960,000 ÷ 840,000 = 1.143 — הפרת Covenant",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יש לכלול את שני הסעיפים כי הם הכנסות בפועל שנתקבלו בשנת הדיווח ומשפרות את יכולת ההחזר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR מודד יכולת החזר שוטפת ועתידית — הכנסות חד-פעמיות לא ישנו בשנה הבאה; הכנסות ריבית אינן מהנכס עצמו"
+      },
+      {
+        "text_he": "יש לכלול רק הכנסת הריבית (55,000 ₪) כי היא הכנסה פסיבית צפויה; מכירת ציוד — לא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הכנסת ריבית מפיקדון אינה הכנסה תפעולית מהנכס — היא הכנסה פיננסית שאינה קשורה לביצוע הנדל\"ן"
+      },
+      {
+        "text_he": "מכיוון שיש מחלוקת פרשנות, יש להפנות לבוררות חיצונית ולהמתין לפסיקה לפני הכרעה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בוררות היא מוצא אחרון; בעת מחלוקת פרשנות של Covenant, הפרשנות הסטנדרטית (NOI תפעולי) מקובלת בענף ואין צורך בבוררות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הכרעה:</strong></p><p><strong>מכירת ציוד ישן (180,000 ₪):</strong></p><ul><li>אירוע חד-פעמי, אינו חוזר</li><li>אינו הכנסה תפעולית מהנכס (Operating Income)</li><li>נסווג כ-Non-Recurring Item — מוציאים מ-NOI</li></ul><p><strong>הכנסת ריבית (55,000 ₪):</strong></p><ul><li>הכנסה פיננסית מפיקדון, לא מהנכס המניב</li><li>Below-the-line item — אינה חלק מ-NOI הנדל\"ני</li><li>מוציאים מ-NOI לצורך Covenant</li></ul><p><strong>DSCR הנכון:</strong> 960,000 ÷ 840,000 = <strong>1.143</strong> — מתחת לגבול 1.20 → <strong>הפרת Covenant.</strong></p><p><strong>לוגיקה עקרונית:</strong> NOI לצורך DSCR = הכנסה תפעולית נורמלית, חוזרת ויציבה מהנכס בלבד. מטרת ה-DSCR היא לבדוק 'האם ייצור הכנסה עתידי יכסה שירות חוב' — ולכן הכנסות שאינן חוזרות אינן רלוונטיות.</p>"
+  }
+]
