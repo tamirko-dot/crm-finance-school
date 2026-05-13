@@ -99,7 +99,7 @@ def trainee_detail(request: HttpRequest, pk: int) -> HttpResponse:
 
 # ─── unlock requests inbox ────────────────────────────────────────────────────
 
-@manager_required
+@staff_required
 def unlock_requests(request: HttpRequest) -> HttpResponse:
     pending = UnlockRequest.objects.filter(
         status=UnlockRequestStatus.PENDING
@@ -114,7 +114,7 @@ def unlock_requests(request: HttpRequest) -> HttpResponse:
 
 
 @require_POST
-@manager_required
+@staff_required
 def approve_request(request: HttpRequest, pk: int) -> HttpResponse:
     unlock_req = get_object_or_404(UnlockRequest, pk=pk, status=UnlockRequestStatus.PENDING)
     note = request.POST.get("note", "").strip()
@@ -127,7 +127,7 @@ def approve_request(request: HttpRequest, pk: int) -> HttpResponse:
 
 
 @require_POST
-@manager_required
+@staff_required
 def deny_request(request: HttpRequest, pk: int) -> HttpResponse:
     unlock_req = get_object_or_404(UnlockRequest, pk=pk, status=UnlockRequestStatus.PENDING)
     note = request.POST.get("note", "").strip()

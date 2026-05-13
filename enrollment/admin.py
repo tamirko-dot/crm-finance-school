@@ -8,7 +8,7 @@ class CourseEnrollmentAdmin(admin.ModelAdmin):
     list_filter = ("status", "course__domain", "course")
     search_fields = ("user__email", "user__full_name_he", "course__title_he")
     raw_id_fields = ("user", "course", "unlocked_by")
-    readonly_fields = ("created_at", "updated_at")
+    readonly_fields = ("status", "created_at", "updated_at")
     ordering = ["-created_at"]
 
 
@@ -18,7 +18,7 @@ class UnlockRequestAdmin(admin.ModelAdmin):
     list_filter = ("status", "course__domain")
     search_fields = ("user__email", "user__full_name_he", "course__title_he")
     raw_id_fields = ("user", "course", "responded_by")
-    readonly_fields = ("requested_at",)
+    readonly_fields = ("status", "requested_at", "responded_at", "responded_by")
     ordering = ["-requested_at"]
 
 
