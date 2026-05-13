@@ -13,7 +13,7 @@ import csv
 from accounts.models import User, UserRole
 from capstone.models import CapstoneSubmission, CapstoneStatus
 from content.models import Course, Domain
-from core.decorators.roles import manager_required, manager_or_ceo_required, ceo_required, admin_or_ceo_required
+from core.decorators.roles import manager_required, manager_or_ceo_required, ceo_required, admin_or_ceo_required, staff_required
 from documents.models import AuditLog
 from enrollment.models import (
     CourseEnrollment, EnrollmentStatus, ModuleProgress, UnlockRequest, UnlockRequestStatus,
