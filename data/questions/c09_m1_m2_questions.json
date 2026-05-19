@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C09-M01-CMP-Q01",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם ארבעת מרכיבי ה-<strong>DCF (Discounted Cash Flow)</strong> הבסיסיים בניתוח נכס נדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DCF הוא שפת האנליסט — לפני כל שיחה עם ועדת אשראי, ודא שאתה יכול להסביר כל שורה במודל בלי להסתכל בגיליון.",
+    "topic_tags": ["dcf", "noi", "cap_rate"],
+    "options": [
+      {
+        "text_he": "הכנסה תפעולית נטו (NOI), שיעור פנויות, הוצאות הון (CapEx), ושיעור היוון ביציאה (Exit Cap Rate)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הכנסה ברוטו, מס הכנסה, עמלת ניהול ועלות מימון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו שורות בדוח רווח והפסד החשבונאי, לא המרכיבים הקלאסיים של מודל DCF נדל\"ני"
+      },
+      {
+        "text_he": "מחיר רכישה, שיפוצים, שכר טרחה משפטי ועמלת תיווך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו עלויות עסקה חד-פעמיות, לא מרכיבי תזרים שוטף במודל DCF"
+      },
+      {
+        "text_he": "LTV, DSCR, שיעור ריבית ותקופת הלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פרמטרי מימון שחיוניים להיוון הון עצמי אך אינם ארבעת מרכיבי ה-DCF הבסיסיים"
+      }
+    ],
+    "explanation_html_he": "<p>מודל DCF לנדל\"ן מניב בנוי על ארבעה אבני יסוד:</p><ul><li><strong>NOI</strong> — הכנסות שכירות בניכוי הוצאות תפעוליות (ללא מימון ופחת)</li><li><strong>שיעור פנויות</strong> — הנחת האחוז מהנכס שאינו מושכר בכל שנה</li><li><strong>CapEx</strong> — הוצאות הון לתחזוקה ושדרוג שמוציאות מזומן מחוץ לDCF השוטף</li><li><strong>Exit Cap Rate</strong> — שיעור ההיוון שלפיו מוכרים את הנכס בסוף תקופת האחזקה, קובע את ערך המכירה הסופי</li></ul><p>שגיאה נפוצה: הכללת החזרי קרן הלוואה כהוצאה — זה נכון לDCF ממונף אך לא ל-NOI unlevered.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-CMP-Q02",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל העקרוני בין <strong>IRR</strong> ל-<strong>NPV</strong> כמדדי כדאיות השקעה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "IRR ו-NPV יכולים לסתור זה את זה — כאשר הפרויקטים שונים בגודל, NPV הוא המדד העדיף לקבלת החלטה.",
+    "topic_tags": ["irr", "npv", "dcf"],
+    "options": [
+      {
+        "text_he": "NPV מודד את הערך המוחלט שנוצר בשקלים, ואילו IRR מודד את שיעור התשואה הפנימי באחוזים — ללא התייחסות לסכום ההשקעה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NPV וIRR זהים מבחינה מתמטית — הם רק ייצוגים שונים של אותו חישוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני המדדים נגזרים מאותם תזרימי מזומן אך מודדים דברים שונים לחלוטין — ערך מוחלט לעומת שיעור תשואה"
+      },
+      {
+        "text_he": "IRR מתאים להשקעות קצרות טווח ו-NPV מתאים להשקעות ארוכות טווח בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין מגבלת אופק זמן על כל אחד מהמדדים — הבחירה ביניהם תלויה בשאלה העסקית, לא באורך ההשקעה"
+      },
+      {
+        "text_he": "NPV מתייחס לתזרים לפני מס ו-IRR מתייחס לתזרים אחרי מס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני המדדים ניתנים לחישוב על בסיס לפני-מס או אחרי-מס בהתאם להנחות המודל"
+      }
+    ],
+    "explanation_html_he": "<p><strong>NPV (Net Present Value)</strong> מחשב את ערך הנוכחי של כל תזרימי המזומן העתידיים בניכוי ההשקעה הראשונית, ומספק תשובה בשקלים: \"כמה ערך נוצר?\"</p><p><strong>IRR (Internal Rate of Return)</strong> מוצא את שיעור ההיוון שבו NPV שווה לאפס — תשובה באחוזים: \"מה שיעור התשואה?\"</p><ul><li>NPV &gt; 0 = כדאי (בהנחת שיעור היוון מתאים)</li><li>IRR &gt; Hurdle Rate = כדאי</li><li>בפרויקטים בגדלים שונים: NPV עדיף כי הוא מודד ערך מוחלט</li></ul>"
+  },
+  {
+    "question_id_external": "C09-M01-CMP-Q03",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם הגורמים העיקריים שמשפיעים על <strong>Exit Cap Rate</strong> בעסקת נדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "הנחת Exit Cap Rate גבוהה ב-50-100 נקודות בסיס מ-Entry Cap Rate היא עמדה שמרנית סבירה — תמיד שאל את הספונסר מה ההנחה שלו ולמה.",
+    "topic_tags": ["exit_cap_rate", "dcf", "irr"],
+    "options": [
+      {
+        "text_he": "גיל הנכס בעת המכירה, מצב השוק הצפוי, איכות השוכרים ותנאי המימון בעת יציאה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מחיר הרכישה ההיסטורי, עלות הבנייה ושיעור הפחת החשבונאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Exit Cap Rate הוא תוצר של תנאי שוק עתידיים ואיכות הנכס, לא של עלויות היסטוריות"
+      },
+      {
+        "text_he": "אך ורק שיעורי הריבית בשוק — Exit Cap Rate הוא פונקציה ישירה של הריבית חסרת הסיכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית משפיעה על Cap Rate אך גורמים נוספים כגון ביקוש, איכות שוכרים ומיקום גם קריטיים"
+      },
+      {
+        "text_he": "שיעור דמי הניהול שגובה חברת הניהול בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דמי ניהול הם הוצאה תפעולית שמשפיעה על NOI, לא על שיעור ההיוון ביציאה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Exit Cap Rate</strong> הוא הגורם הרגיש ביותר בדרך כלל ב-DCF נדל\"ני כי הוא קובע את ערך הנכס בסוף תקופת האחזקה:</p><ul><li><strong>גיל הנכס</strong>: נכס ישן יותר נמכר בCap Rate גבוה יותר (ערך נמוך יותר)</li><li><strong>מצב שוק</strong>: שוק קר = Cap Rate גבוה; שוק חם = Cap Rate נמוך</li><li><strong>איכות שוכרים</strong>: חוזים ארוכים עם שוכרים חזקים מוזילים Cap Rate</li><li><strong>סביבת ריבית</strong>: ריבית עולה לרוב מעלה Cap Rate ולהפך</li></ul><p>שמרנות: הנחת Exit Cap Rate גבוה יותר מ-Entry Cap Rate מוזילה את ה-IRR ומייצרת ניתוח שמרני.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-CMP-Q04",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>שגיאת Levered vs. Unlevered Cash Flow</strong> ומדוע היא גורמת לעיוות ב-IRR?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "תמיד הגדר בבירור: האם ה-IRR שאתה מציג הוא על הנכס (unlevered) או על ההון העצמי (levered) — ערבוב ביניהם הוא אחת השגיאות הנפוצות בהצגות לוועדת אשראי.",
+    "topic_tags": ["dcf", "levered", "unlevered", "irr"],
+    "options": [
+      {
+        "text_he": "שימוש בתזרים ממונף (Levered) לחישוב IRR על הנכס כולו מנפח את שיעור התשואה כי הוא מייחס לנכס רק חלק מהתזרים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR ממונף תמיד נמוך יותר מ-IRR לא ממונף כי הריבית על החוב מקטינה את התשואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בפועל ממוצע ממונף מגדיל לרוב את ה-IRR על ההון העצמי ביחס ל-IRR הלא-ממונף כשהמינוף יעיל"
+      },
+      {
+        "text_he": "שגיאה זו אינה חומרית — IRR ממונף ולא-ממונף נותנים תוצאה זהה בסוף תקופת האחזקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-IRR הממונף על ההון שונה משמעותית מה-IRR הלא-ממונף ושניהם מביאים להחלטות שונות"
+      },
+      {
+        "text_he": "Levered IRR נמדד בשקלים ו-Unlevered IRR נמדד באחוזים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם נמדדים באחוזים — ההבדל הוא מה התזרים שנכנס לחישוב, לא יחידת המדידה"
+      }
+    ],
+    "explanation_html_he": "<p>ישנם שני סוגי IRR שונים לחלוטין:</p><ul><li><strong>Unlevered IRR (Project IRR)</strong>: מחשב תשואה על הנכס כולו, בלי להתחשב במינוף — שואל \"כמה שווה הנכס ביחס לכל ההשקעה?\"</li><li><strong>Levered IRR (Equity IRR)</strong>: מחשב תשואה על ההון העצמי בלבד — שואל \"כמה הרווחתי על כל שקל שהשקעתי מכיסי?\"</li></ul><p>ערבוב: אם מחשבים Equity IRR (עם חוב) ומציגים אותו כ-Project IRR — נוצרת תמונה מוגזמת של כדאיות הנכס. זה קריטי בניתוח אשראי כי הבנק צריך לדעת מה ה-Unlevered IRR כדי להבין אם ערך הנכס מכסה את החוב.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-CMP-Q05",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מחשבים <strong>Equity Multiple</strong> ומה הוא מודד שה-IRR לא מודד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "IRR גבוה על השקעה קצנה מאוד יכול להיות פחות אטרקטיבי מ-Equity Multiple גבוה על השקעה גדולה — תמיד הצג שניהם יחד.",
+    "topic_tags": ["equity_multiple", "irr", "dcf"],
+    "options": [
+      {
+        "text_he": "Equity Multiple = סך תקבולים להון / הון עצמי מושקע; הוא מודד כמה כפולות של ההשקעה הוחזרו, ללא התחשבות בזמן",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Equity Multiple = NOI / שווי הנכס; הוא שיעור היוון ההון העצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו נוסחת Cap Rate, לא Equity Multiple — שני מדדים שונים לחלוטין"
+      },
+      {
+        "text_he": "Equity Multiple = IRR / שיעור ריבית חסרת סיכון; הוא מייצג פרמיית הסיכון של ההשקעה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Equity Multiple הוא מדד מוחלט של כפולות הון, לא יחס שנגזר מIRR"
+      },
+      {
+        "text_he": "Equity Multiple = הון עצמי מושקע / סך ההכנסות משכירות בתקופת האחזקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה ואינה כוללת תמורת מכירה — Equity Multiple כולל את כלל התקבולים לרבות אקזיט"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Equity Multiple</strong> = (סך חלוקות + תמורת מכירה) / הון עצמי מושקע</p><p>לדוגמה: השקעת 1,000,000 ₪, קיבלת 2,300,000 ₪ — Equity Multiple = 2.3x</p><p>מה הוא מוסיף מעבר ל-IRR?</p><ul><li>IRR של 20% על שנתיים מעולה, אך Equity Multiple של 1.4x — השתכרת רק 40% על הכסף</li><li>IRR של 15% על עשר שנים עם Equity Multiple של 4.0x — המכפיל הרבה יותר מרשים</li></ul><p>IRR לא מביא בחשבון את גודל ההשקעה או את כמות הכסף שנוצר — Equity Multiple ממלא את הפער הזה.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-PRC-Q01",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי נרכש ב-10,000,000 ₪. ה-NOI בשנה הראשונה הוא 600,000 ₪ וצפוי לגדול ב-3% בשנה. לאחר 5 שנים הנכס נמכר לפי Exit Cap Rate של 6%. מהו <strong>מחיר המכירה</strong> הצפוי בסוף שנה 5?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מחיר מכירה = NOI שנה 6 / Exit Cap Rate — חשוב להשתמש ב-NOI של השנה שאחרי המכירה, לא שנת המכירה עצמה.",
+    "topic_tags": ["exit_cap_rate", "dcf", "noi"],
+    "options": [
+      {
+        "text_he": "כ-11,593,000 ₪ (NOI שנה 6 ÷ 6%)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-10,000,000 ₪ — מחיר הרכישה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מחיר מכירה מחושב מ-NOI עתידי ו-Exit Cap Rate, לא ממחיר הרכישה ההיסטורי"
+      },
+      {
+        "text_he": "כ-10,927,000 ₪ (NOI שנה 5 ÷ 6%)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הנכונה דורשת NOI שנה 6 (שנה לאחר המכירה), לא NOI שנה 5"
+      },
+      {
+        "text_he": "כ-696,000 ₪ — ה-NOI של שנה 6 בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-NOI הוא המונה בנוסחה, לא מחיר המכירה עצמו — יש לחלק אותו בExit Cap Rate"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב שלב אחר שלב:</p><ul><li>NOI שנה 1 = 600,000 ₪</li><li>NOI שנה 6 = 600,000 × (1.03)^5 = 600,000 × 1.1593 ≈ 695,580 ₪</li><li>מחיר מכירה = NOI שנה 6 / Exit Cap Rate = 695,580 / 0.06 ≈ <strong>11,593,000 ₪</strong></li></ul><p>הכלל: משתמשים ב-NOI של השנה שאחרי המכירה כי הקונה קונה את תזרים העתיד, לא את שנת ה-Exit. Cap Rate = NOI פורוורד / מחיר.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-PRC-Q02",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מודל DCF מניב IRR של 18% על ההון העצמי. שיעור ה-Hurdle Rate של הקרן הוא 12%. ה-Equity Multiple הוא 1.8x על 3 שנים. האם ההשקעה עומדת בקריטריונים ומהי נקודת החולשה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Equity Multiple של 1.8x על 3 שנים פירושו 80% תשואה ב-3 שנים — ידוע, אך לא מרשים לעסקת ערך מוסף. שאל תמיד: מה ה-Equity Multiple אם ה-Exit מתעכב שנה?",
+    "topic_tags": ["irr", "equity_multiple", "hurdle_rate"],
+    "options": [
+      {
+        "text_he": "כן, IRR עולה על Hurdle Rate — אך Equity Multiple של 1.8x על 3 שנים מצביע על כך שמרבית התשואה מגיעה ממכירה ולא מתזרים שוטף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא, ההשקעה נכשלת כי Equity Multiple צריך להיות לפחות 2.0x בכל מקרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין סף מינימלי אוניברסלי ל-Equity Multiple — הכלל הוא Hurdle Rate, ו-IRR של 18% עולה עליו"
+      },
+      {
+        "text_he": "כן, שני המדדים מצוינים ואין נקודת חולשה לבחון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תמיד יש מה לבחון — כאן מרבית הערך תלוי במכירה, מה שיוצר סיכון Exit אם השוק יקרר"
+      },
+      {
+        "text_he": "לא ניתן לקבוע בלי לדעת את ה-LTV וה-DSCR של העסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השאלה היא על כדאיות מנקודת מבט Equity — LTV ו-DSCR הם שאלות של הלווה-מלווה, לא של השאלה כאן"
+      }
+    ],
+    "explanation_html_he": "<p>הערכת ההשקעה:</p><ul><li><strong>IRR 18% &gt; Hurdle 12%</strong>: עומד בקריטריון ✓</li><li><strong>Equity Multiple 1.8x על 3 שנים</strong>: כלומר ~22% IRR שנתי פשוט — אך 1.8x נמוך יחסית לעסקות בעלות ערך מוסף</li></ul><p>נקודת חולשה מרכזית: אם רוב ה-IRR מגיע ממכירה (Exit), אז כל דחייה בלוח הזמנים או הרעה בשוק תגרור ירידה חדה ב-IRR. אנליסט אשראי צריך לשאול: מה קורה ל-IRR אם ה-Exit מתעכב שנה? אם הוא יורד מתחת ל-Hurdle — זהו סיכון מהותי.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-PRC-Q03",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מודל DCF מציג IRR של 22%. עם זאת, מגלים ששיעור הפנויות הונח ב-3% אך הממוצע ההיסטורי לנכסים דומים באזור הוא 8%. מה ההשפעה הצפויה על ה-IRR אם מתקנים את הנחת הפנויות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הנחת פנויות נמוכה מהממוצע ההיסטורי היא דגל אדום קלאסי — שאל תמיד על הצדקה ספציפית (חוזה ארוך-טווח, שוכר עוגן) לפני שמקבל אותה.",
+    "topic_tags": ["vacancy", "dcf", "irr", "sensitivity"],
+    "options": [
+      {
+        "text_he": "ה-IRR יירד — פנויות גבוהות יותר מקטינות NOI, מקטינות תזרים שוטף ומורידות גם את ערך האקזיט שמבוסס על NOI",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-IRR לא ישתנה כי שיעור הפנויות משפיע רק על DSCR, לא על ה-IRR",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פנויות מפחיתות הכנסות ומורידות NOI, שמשפיע ישירות על כל תזרימי הDCF וה-IRR"
+      },
+      {
+        "text_he": "ה-IRR יעלה כי פנויות גבוהות יותר מייצרות הזדמנות לשדרוג שוכרים ועליית דמי שכירות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זוהי טענה עסקית אופטימית שאינה חלק מהנחות DCF בסיסיות — בהיעדר הכנסה נוכחית, ה-IRR יורד"
+      },
+      {
+        "text_he": "ה-IRR יירד מעט אך לא משמעותית כי פנויות הן רק 5% מהכנסה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עלייה מ-3% ל-8% בפנויות היא 5 נקודות אחוז — זה ירידה של ~5-6% ב-NOI שמורידה IRR ב-3-5 נקודות בסיס בדרך כלל, שזה משמעותי"
+      }
+    ],
+    "explanation_html_he": "<p>מנגנון ההשפעה:</p><ol><li>פנויות עולות מ-3% ל-8% → <strong>הכנסה משכירות יורדת ב-~5.2%</strong> (ממוצע על כל השנים)</li><li>NOI נמוך יותר → <strong>תזרים שוטף נמוך יותר</strong> בכל שנה</li><li>NOI נמוך בשנה 6 → <strong>ערך אקזיט נמוך יותר</strong> (כי Exit Value = NOI שנה 6 / Exit Cap Rate)</li></ol><p>האפקט כפול: תזרים שוטף ואקזיט שניהם יורדים. IRR של 22% עם הנחת 3% עשוי לרדת ל-16%-17% עם הנחת 8% — ייתכן שכבר לא עובר את ה-Hurdle Rate.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-PRC-Q04",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניתוח DCF, הספונסר מציג NOI שנה 1 של 1,200,000 ₪ אך לא מנכה <strong>CapEx</strong> של 150,000 ₪ לשנה לתחזוקה שוטפת. מה ההשפעה על הניתוח?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "CapEx תחזוקתי (Maintenance CapEx) חייב להיות מוכלל ב-DCF — מודל שמתעלם ממנו מנפח IRR ו-NPV ומסתיר את צרכי ההון של הנכס.",
+    "topic_tags": ["capex", "dcf", "noi"],
+    "options": [
+      {
+        "text_he": "IRR ו-NPV יהיו מנופחים — ה-CapEx הוא יציאת מזומן אמיתית שמקטינה את התזרים הפנוי לבעל ההון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "CapEx אינו משפיע על DCF כי הוא הוצאה הונית שמופיעה רק בדוח המאזן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DCF עוקב אחר תזרים מזומן בפועל — CapEx הוא יציאת מזומן ריאלית שחייבת להיכלל"
+      },
+      {
+        "text_he": "ה-CapEx יוצר ערך ולכן מגדיל את Exit Value — ההשפעה הכוללת על IRR חיובית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CapEx תחזוקתי שומר על ערך קיים ולא יוצר ערך נוסף — הוא הוצאה נחוצה שחייבת להיות ב-DCF"
+      },
+      {
+        "text_he": "ה-CapEx משפיע רק על חישוב ה-DSCR ולא על ה-IRR",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CapEx מצמצם את ה-Free Cash Flow ומשפיע על IRR — ה-DSCR הוא מדד נפרד לשירות החוב"
+      }
+    ],
+    "explanation_html_he": "<p>CapEx תחזוקתי הוא יציאת מזומן ריאלית שמתרחשת בין אם מציגים אותה ב-DCF ובין אם לא:</p><ul><li>NOI ללא CapEx: 1,200,000 ₪</li><li>NOI נטו (After CapEx): 1,200,000 − 150,000 = <strong>1,050,000 ₪</strong></li><li>הפרש של 150,000 ₪/שנה × 5 שנים = 750,000 ₪ פחות תזרים מצטבר</li></ul><p>השפעה: IRR מנופח ב-1-3 נקודות אחוז לפחות, NPV גבוה יותר ממה שאמיתי. אנליסט אשראי חייב לשאול: \"היכן ה-CapEx במודל?\" — אם אינו מופיע, המודל לא מייצג מציאות.</p>"
+  },
+  {
+    "question_id_external": "C09-M01-PRC-Q05",
+    "course_number": 9,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ספונסר מציג DCF עם IRR של 19% על בסיס Exit Cap Rate של 5.0%. שוק הנדל\"ן באזור מתמחר נכסים דומים ב-6.5%-7.0%. מה הפעולה הנכונה של אנליסט האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Exit Cap Rate נמוך ב-150-200 נקודות בסיס מהשוק הוא דגל אדום חריף — דרוש ביסוס חזק מאוד, ובהיעדרו ערוך Sensitivity Analysis עם Cap Rate שוק.",
+    "topic_tags": ["exit_cap_rate", "dcf", "irr", "credit_analysis"],
+    "options": [
+      {
+        "text_he": "לערוך Sensitivity Analysis עם Exit Cap Rate של 6.5% ו-7.0% ולהציג ל-IRR המעודכן לוועדת האשראי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לקבל את המודל כפי שהוא — הספונסר מכיר את השוק טוב יותר מהאנליסט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תפקיד האנליסט הוא לאמת הנחות מול נתוני שוק עצמאיים, לא לקבל הנחות ספונסר באופן עיוור"
+      },
+      {
+        "text_he": "לדחות את הבקשה אוטומטית כי Exit Cap Rate שאינו שוק הוא הונאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ייתכן שיש הצדקה (שוכר עוגן, חוזה ארוך) — יש לבחון ולא לדחות אוטומטית"
+      },
+      {
+        "text_he": "לבקש מהספונסר לעדכן את Exit Cap Rate ל-6.75% שהוא ממוצע השוק בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מספר אחד אינו מספיק — Sensitivity Analysis מספק תמונה רחבה יותר של תרחישים שונים"
+      }
+    ],
+    "explanation_html_he": "<p>פעולה נכונה בשלבים:</p><ol><li><strong>תיעוד הפער</strong>: Exit Cap Rate בנחה 5.0% לעומת 6.5%-7.0% בשוק — פער של 150-200 נקודות בסיס</li><li><strong>Sensitivity Analysis</strong>: חשב IRR עם Cap Rate 5.0%, 6.0%, 6.5%, 7.0%</li><li><strong>הצגה לוועדה</strong>: \"עם הנחות שוק, IRR יורד מ-19% לXX%\" — ועדת האשראי מקבלת החלטה עם מלוא התמונה</li></ol><p>ייתכן שהספונסר מצדיק את ה-5.0% בשוכר עוגן עם חוזה 15 שנה — בכך Case מוצדק. אך ללא הצדקה ספציפית, הנחת Cap Rate שוק חייבת להיות ה-base case של הבנק.</p>"
+  },
+  {
+    "question_id_external": "C09-M02-CMP-Q01",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>ניתוח רגישות (Sensitivity Analysis)</strong> ל-<strong>ניתוח תרחישים (Scenario Analysis)</strong> במודל פיננסי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Sensitivity Analysis שואל 'מה קורה אם X משתנה'; Scenario Analysis שואל 'מה קורה אם הכל משתנה ביחד בתרחיש מסוים' — שניהם חיוניים לוועדת אשראי.",
+    "topic_tags": ["sensitivity_analysis", "scenario_analysis", "dcf"],
+    "options": [
+      {
+        "text_he": "ניתוח רגישות בוחן השפעת שינוי במשתנה אחד בכל פעם, ואילו ניתוח תרחישים משנה מספר משתנים בו-זמנית לפי הגיון עסקי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ניתוח תרחישים הוא גרסה מתקדמת יותר של ניתוח רגישות שכולל יותר שורות בטבלה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו שתי שיטות שונות מהותית — לא עניין של כמות אלא של לוגיקת השינויים"
+      },
+      {
+        "text_he": "ניתוח רגישות מתייחס לגורמי חוב ו-ניתוח תרחישים מתייחס לגורמי הון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם יכולים לבחון כל גורם במודל — החלוקה אינה לפי חוב/הון"
+      },
+      {
+        "text_he": "ניתוח רגישות מחשב סטיות תקן ו-ניתוח תרחישים מחשב ערכים קיצוניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם אינם מחשבים סטיות תקן — הם כלי ניתוח דטרמיניסטיים של 'מה אם', לא סטטיסטיים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Sensitivity Analysis</strong> — בוחן השפעת שינוי בודד:</p><ul><li>\"מה קורה ל-IRR אם Exit Cap Rate עולה מ-5% ל-6%?\" (כל שאר ההנחות קבועות)</li><li>מוצג כטבלה דו-ממדית (Data Table) או גרף</li></ul><p><strong>Scenario Analysis</strong> — בוחן קבוצת שינויים הגיונית:</p><ul><li>\"תרחיש Bear: שכ\"ד יורד 10%, פנויות עולות ל-12%, Exit Cap Rate עולה ל-7%\"</li><li>שינויים אחדים יחד מייצגים מציאות עסקית סבירה</li></ul><p>שניהם חיוניים: Sensitivity מזהה את המשתנה הכי רגיש, Scenario מציג תמונה מציאותית של שוק משתנה.</p>"
+  },
+  {
+    "question_id_external": "C09-M02-CMP-Q02",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>בניתוח רגישות לנדל\"ן מניב, מהם שלושת המשתנים שאנליסטים ממליצים לבחון ראשונים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בנדל\"ן מניב, Exit Cap Rate הוא לרוב המשתנה הכי רגיש — שינוי של 50 נקודות בסיס בלבד יכול להזיז IRR ב-2-3 נקודות.",
+    "topic_tags": ["sensitivity_analysis", "noi", "cap_rate", "vacancy"],
+    "options": [
+      {
+        "text_he": "Exit Cap Rate, NOI (דמי שכירות) ושיעור הפנויות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שיעור ריבית על ההלוואה, LTV ושיעור הפחת החשבונאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פרמטרי מימון — חשובים ל-Equity IRR אך לא המשתנים הבסיסיים הראשונים בניתוח נכס"
+      },
+      {
+        "text_he": "מחיר הרכישה, עמלת התיווך ועלות השיפוצים הראשוניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו עלויות חד-פעמיות בכניסה — חשובות לנקודת הפתיחה אך לא הרגישויות השוטפות של המודל"
+      },
+      {
+        "text_he": "גיל הנכס, שטח הבנייה ומיקום גיאוגרפי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו מאפיינים פיזיים שמשפיעים על הנחות אך אינם משתנים מספריים שניתן לשנות בניתוח רגישות"
+      }
+    ],
+    "explanation_html_he": "<p>שלושת המשתנים הרגישים ביותר בנדל\"ן מניב:</p><ol><li><strong>Exit Cap Rate</strong>: שולט על ערך המכירה — 70%-80% מה-IRR בדרך כלל מגיע ממכירה. שינוי קטן = השפעה גדולה</li><li><strong>NOI / דמי שכירות</strong>: בסיס כל ה-DCF — שינוי ב-NOI משפיע על כל שנות האחזקה וגם על ערך האקזיט</li><li><strong>שיעור פנויות</strong>: מכפיל ישיר של ה-NOI — עלייה מ-3% ל-8% מקטינה הכנסות ב-~5%</li></ol><p>כלל אצבע: פתח תמיד בRanking של 3 המשתנים האלה לפי גודל ההשפעה — זה מגדיר היכן להתמקד.</p>"
+  },
+  {
+    "question_id_external": "C09-M02-CMP-Q03",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>Bear Case</strong> ל-<strong>Stress Case</strong> בניתוח תרחישים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Bear Case הוא סביר-שלילי; Stress Case הוא קיצוני אך אפשרי — ועדת אשראי רוצה לראות שניהם: האחד מגדיר הסתברות, השני מגדיר נזק מקסימלי.",
+    "topic_tags": ["scenario_analysis", "stress_test", "bear_case"],
+    "options": [
+      {
+        "text_he": "Bear Case הוא תרחיש שלילי סביר (ירידה מתונה בשוק), ו-Stress Case הוא תרחיש קיצון (משבר חמור) שנועד לבחון את גבול הנסבל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Bear Case ו-Stress Case זהים — שניהם מייצגים את הגרוע ביותר שיכול לקרות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bear Case הוא שלילי-סביר בעוד Stress Case הוא קיצוני הרבה יותר — חומרתם שונה בכוונה"
+      },
+      {
+        "text_he": "Bear Case מתייחס לתרחיש ריבית גבוהה ו-Stress Case מתייחס לתרחיש שכ\"ד נמוך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבחנה היא בחומרת התרחיש, לא בסוג גורם הסיכון"
+      },
+      {
+        "text_he": "Bear Case הוא לצרכי הצגה פנימית ו-Stress Case הוא לדרישות הרגולציה בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם משמשים גם לצרכים פנימיים וגם לרגולציה — ההבחנה היא בחומרה ולא בייעוד"
+      }
+    ],
+    "explanation_html_he": "<p>שלושת רמות התרחישים הסטנדרטיות:</p><ul><li><strong>Base Case</strong>: הנחות ריאליסטיות, הסבירות הגבוהה ביותר</li><li><strong>Bear Case</strong>: תרחיש שלילי סביר — ירידה של 10%-15% ב-NOI, עלייה של 50-100 נקודות בסיס ב-Cap Rate. הסתברות: 20%-30%</li><li><strong>Stress Case</strong>: קיצון — ירידה של 25%+ ב-NOI, עלייה של 150-200 נקודות בסיס, פנויות גבוהות. שאלה: האם ההלוואה ניתנת לשירות גם כאן?</li></ul><p>ועדת אשראי בוחנת: האם Debt Service מכוסה ב-Bear Case? האם LTV נשאר מתחת לקובנט ב-Stress Case?</p>"
+  },
+  {
+    "question_id_external": "C09-M02-CMP-Q04",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>Tornado Chart</strong> ומה הוא מציג בניתוח רגישות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Tornado Chart הוא כלי תקשורת מצוין לוועדת אשראי — במבט אחד ברור איזה גורם הוא ה'אכילס' של העסקה.",
+    "topic_tags": ["tornado_chart", "sensitivity_analysis"],
+    "options": [
+      {
+        "text_he": "גרף עמודות אופקיות הממוין לפי גודל השפעה, שמראה אילו משתנים גורמים לשינוי הגדול ביותר בתוצאה (כגון IRR)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "גרף קו שמציג את התפתחות ה-IRR לאורך זמן בכל תרחיש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גרף קו לאורך זמן הוא Time Series, לא Tornado Chart — ה-Tornado הוא עמודות אופקיות ממוינות"
+      },
+      {
+        "text_he": "גרף עוגה שמחלק את מרכיבי ה-IRR לתזרים שוטף ולאקזיט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גרף עוגה מציג יחסים בין חלקים לשלם — Tornado Chart מציג רגישויות יחסיות של משתנים"
+      },
+      {
+        "text_he": "גרף פיזור (Scatter) של IRR לעומת LTV בתרחישים שונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גרף פיזור מציג קורלציה בין שני משתנים רציפים — Tornado Chart מציג דירוג רגישויות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Tornado Chart</strong> מציג רשימה ממוינת של משתנים לפי גודל השפעתם על מדד המטרה (בדרך כלל IRR או NPV):</p><ul><li>המשתנה הכי רגיש בראש הרשימה (הרוחב הגדול ביותר)</li><li>הצורה — עמודות משני צידי ציר מרכזי — נראית כמו tornado (טורנדו)</li><li>כל עמודה מראה: \"כמה IRR יורד אם X יורד X%, וכמה IRR עולה אם X עולה X%?\"</li></ul><p>שימוש: מציגים ל-Credit Committee עם הסבר: \"Exit Cap Rate הוא הגורם הדומיננטי — שינוי של 1% ב-Cap Rate מזיז IRR ב-X נקודות.\"</p>"
+  },
+  {
+    "question_id_external": "C09-M02-CMP-Q05",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מומלץ להציג תוצאות ניתוח רגישות ל<strong>ועדת אשראי</strong> בצורה האפקטיבית ביותר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ועדת אשראי לא רוצה טבלאות גדולות — היא רוצה תשובה אחת ברורה: 'האם ההלוואה בטוחה גם בתרחיש X?'",
+    "topic_tags": ["sensitivity_analysis", "credit_committee", "presentation"],
+    "options": [
+      {
+        "text_he": "להציג Tornado Chart עם דירוג רגישויות + טבלת תרחישים (Base/Bear/Stress) עם מדדי DSCR ו-LTV לכל תרחיש",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להציג את כל טבלאות הרגישות הגולמיות ממודל ה-Excel מבלי לסנן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת אשראי דורשת מסקנות ברורות, לא data dumps — יש לסנן ולהדגיש את הממצאים הקריטיים"
+      },
+      {
+        "text_he": "להציג רק את תוצאות ה-Base Case מפני שהתרחישים השליליים עלולים לסבך את הדיון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצגת Base Case בלבד מסתירה סיכונים מהוועדה — זה נוגד את חובת הגילוי של האנליסט"
+      },
+      {
+        "text_he": "להציג Simulation מונטה קרלו עם 10,000 איטרציות לדיוק מקסימלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מונטה קרלו מסבך את התקשורת — הוא כלי שימושי אך לא הפורמט האופטימלי לוועדת אשראי"
+      }
+    ],
+    "explanation_html_he": "<p>פורמט מומלץ לוועדת אשראי:</p><ol><li><strong>Tornado Chart</strong>: מציג במהירות איזה משתנה הכי קריטי</li><li><strong>טבלת תרחישים</strong> (3×4): Base / Bear / Stress × IRR / NPV / DSCR / LTV</li><li><strong>Break-even Analysis</strong>: \"ב-Exit Cap Rate כמה העסקה שוברת נקודה?\"</li><li><strong>המלצה ברורה</strong>: \"גם ב-Bear Case, DSCR ≥ 1.25x ו-LTV ≤ 70% — העסקה עומדת בקובנאנטים\"</li></ol><p>כלל: פחות טבלות, יותר מסקנות. ועדת האשראי מקבלת החלטה — עזור לה לקבל החלטה מושכלת, לא לנתח נתונים גולמיים.</p>"
+  },
+  {
+    "question_id_external": "C09-M02-PRC-Q01",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניתוח רגישות חד-ממדי, IRR הבסיסי הוא 16%. שינוי של 1 נקודת אחוז ב-Exit Cap Rate (עלייה מ-5% ל-6%) מוריד IRR ל-11%. שינוי של 10% ב-NOI (ירידה מ-1,200,000 ₪ ל-1,080,000 ₪) מוריד IRR ל-13.5%. מה מסקנת האנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Exit Cap Rate שמוריד IRR ב-5 נקודות לעומת NOI שמוריד ב-2.5 נקודות — Exit Cap Rate הוא המשתנה הדומיננטי. הבנק צריך להגדיר קובנאנט שיגן מפניו.",
+    "topic_tags": ["sensitivity_analysis", "irr", "tornado_chart"],
+    "options": [
+      {
+        "text_he": "Exit Cap Rate הוא המשתנה הרגיש יותר (השפעה של 5 נקודות) לעומת NOI (השפעה של 2.5 נקודות) — ה-Exit Cap Rate צריך להיות במרכז ניתוח הסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI הוא המשתנה הרגיש יותר כי ירידה ב-10% בהכנסות היא תרחיש שכיח יותר מעלייה בCap Rate",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המדידה של רגישות היא גודל ההשפעה על IRR בהינתן שינוי ספציפי — Exit Cap Rate הוריד יותר"
+      },
+      {
+        "text_he": "שני המשתנים שווים ברגישותם ויש לתת להם משקל שווה בניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 5 נקודות לעומת 2.5 נקודות הם פי 2 בהשפעה — Exit Cap Rate ברור יותר דומיננטי"
+      },
+      {
+        "text_he": "שני המשתנים הם בעייתיים ולכן יש לדחות את הבקשה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרגישות היא מידע ניהולי, לא סיבה לדחייה אוטומטית — יש לבחון האם IRR בתרחישים עדיין מוצדק"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח רגישות השוואתית:</p><ul><li>Exit Cap Rate +1%: IRR ירד מ-16% ל-11% — <strong>ירידה של 5 נקודות</strong></li><li>NOI −10%: IRR ירד מ-16% ל-13.5% — <strong>ירידה של 2.5 נקודות</strong></li></ul><p>ב-Tornado Chart: Exit Cap Rate יהיה בראש הרשימה (עמודה רחבה יותר). מסקנה עסקית: מרבית ערך העסקה תלוי במכירה — אנליסט האשראי צריך לשים דגש על:</p><ol><li>הנחת Exit Cap Rate ריאלית ומבוססת</li><li>מנגנונים שיגנו מפני ירידת שווי (Covenant על LTV בעת מכירה)</li></ol>"
+  },
+  {
+    "question_id_external": "C09-M02-PRC-Q02",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ספונסר מציג שלושה תרחישים: Base (IRR=18%, DSCR=1.4x), Bear (IRR=12%, DSCR=1.15x), Stress (IRR=6%, DSCR=0.95x). מינימום DSCR בקובנאנט ההלוואה הוא 1.20x. מה המסקנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR מתחת ל-1.0x ב-Stress Case פירושו שתזרים הנכס לא מכסה את שירות החוב — זהו תרחיש ברירת מחדל ויש לבחון מה מגן על הבנק.",
+    "topic_tags": ["scenario_analysis", "dscr", "covenant", "stress_test"],
+    "options": [
+      {
+        "text_he": "ב-Bear Case, DSCR של 1.15x מפר את הקובנאנט של 1.20x; ב-Stress Case, DSCR מתחת ל-1.0x פירושו חוסר כיסוי מלא",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "העסקה תקינה כי IRR חיובי גם ב-Stress Case (6%) ולכן אין סיכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR חיובי לא מבטיח כיסוי שירות חוב שוטף — DSCR מתחת ל-1.0 פירושו תזרים שלילי לשירות חוב"
+      },
+      {
+        "text_he": "יש לדחות את העסקה כי רק Base Case עומד בקובנאנט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דחייה אוטומטית אינה בהכרח נכונה — ניתן לתמחר את הסיכון, לדרוש בטחונות נוספים, או לשנות את תנאי ההלוואה"
+      },
+      {
+        "text_he": "כל שלושת התרחישים תקינים כי IRR חיובי בכולם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR של 0.95x ו-1.15x מפרים קובנאנט — IRR הוא מדד תשואה לא מדד כיסוי חוב"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח Covenant:</p><table><tr><th>תרחיש</th><th>DSCR</th><th>Covenant 1.20x</th><th>סטטוס</th></tr><tr><td>Base</td><td>1.40x</td><td>✓</td><td>תקין</td></tr><tr><td>Bear</td><td>1.15x</td><td>✗</td><td>הפרה</td></tr><tr><td>Stress</td><td>0.95x</td><td>✗✗</td><td>הפרה חמורה</td></tr></table><p>פעולה מומלצת: לדרוש:</p><ul><li>ריזרב לשירות חוב (DSRA) של 6 חודשים לפחות</li><li>ביטחונות נוספים (ערבות אישית / נכסים נוספים) לכיסוי Bear Case</li><li>או לשנות תנאי ההלוואה (LTV נמוך יותר) כך שDSCR ב-Bear Case יעלה על 1.20x</li></ul>"
+  },
+  {
+    "question_id_external": "C09-M02-PRC-Q03",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניית תרחיש Bear Case לנכס משרדים בתל אביב שנרכש לפני המגיפה: ב-2020-2021 שיעור הפנויות עלה ל-18%, דמי השכירות ירדו ב-15%, ו-Cap Rate עלה ב-150 נקודות בסיס. כיצד מתרגמים תרחיש זה לניתוח Bear Case לנכס חדש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נתונים היסטוריים ממשברים קודמים הם הבסיס הטוב ביותר ל-Stress Case — הם קרו פעם, הם יכולים לקרות שוב.",
+    "topic_tags": ["scenario_analysis", "stress_test", "office", "vacancy"],
+    "options": [
+      {
+        "text_he": "להניח בBear Case: פנויות 15%-18%, ירידת שכ\"ד של 10%-15%, עלייה ב-Exit Cap Rate של 100-150 נקודות בסיס — מבוסס על נתוני משבר 2020",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא להשתמש בנתוני 2020 כי הם חריגים ולא מייצגים סיכון עתידי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; משברים היסטוריים הם בסיס מצוין ל-Stress Case — הם הוכחה שהתרחיש אפשרי, לא בלתי סביר"
+      },
+      {
+        "text_he": "להניח פנויות 5% ו-Cap Rate +50 נקודות בסיס כ-Bear Case — הפחתה קלה מהבסיס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלה הם שינויים קטנים מדי — Bear Case לנכסי משרדים בתל אביב צריך לכלול חומרה גבוהה יותר"
+      },
+      {
+        "text_he": "Bear Case אינו רלוונטי לנכסי משרדים כי שוכרים מוסדיים מבטיחים יציבות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נכסי משרדים עם שוכרים מוסדיים חוו פגיעה חמורה ב-2020 — אין חסינות מלאה לאף סוג נכס"
+      }
+    ],
+    "explanation_html_he": "<p>כיצד מבנים Bear Case מבוסס-היסטוריה:</p><ol><li><strong>מקור</strong>: נתוני משבר 2020 במשרדי תל אביב — פנויות 18%, שכ\"ד −15%, Cap Rate +150 bps</li><li><strong>כיוונון</strong>: Bear Case (לא Stress) הוא חמור אך פחות מקיצון — לוקחים 75%-85% מעוצמת המשבר ההיסטורי</li><li><strong>הנחות Bear</strong>: פנויות 15%, שכ\"ד −12%, Cap Rate +100 bps</li><li><strong>הנחות Stress</strong>: פנויות 18%, שכ\"ד −15%, Cap Rate +150 bps (=משבר 2020)</li></ol><p>הגיון: Bear Case מייצג \"רע אך סביר\", Stress Case מייצג \"אפשרי אך נדיר\". קיבענו שניהם מהנתונים ההיסטוריים.</p>"
+  },
+  {
+    "question_id_external": "C09-M02-PRC-Q04",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ספונסר מגיש מודל DCF עם טבלת רגישות דו-ממדית (2D Sensitivity Table) שמציגה IRR לשילובים שונים של Exit Cap Rate ו-NOI Growth. IRR ב-Base Case: 17%. ב-4 מתוך 9 תאים ב-3×3 הטבלה, IRR מתחת ל-Hurdle Rate של 12%. מה מסקנת האנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אם 44% מהשילובים בטבלת הרגישות נכשלים בHurdle Rate — ריווח הבטחון של העסקה נמוך. שאל: מה ההסתברות הנסמה לכל תא?",
+    "topic_tags": ["sensitivity_analysis", "irr", "hurdle_rate", "2d_table"],
+    "options": [
+      {
+        "text_he": "ריווח הבטחון (Margin of Safety) של העסקה מוגבל — 44% מהתרחישים נכשלים. יש לבחון את הסתברות כל תרחיש ולשקול דרישת ביטחונות גבוהה יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "העסקה תקינה כי ה-Base Case עובר את ה-Hurdle Rate",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Base Case לבד אינו מספיק — ניתוח סיכון מחייב לבחון כמה תרחישים סבירים עוברים ה-Hurdle"
+      },
+      {
+        "text_he": "טבלת 3×3 היא קטנה מדי לניתוח מובהק — יש להרחיב ל-5×5 לפחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גודל הטבלה אינו הבעיה — המסקנה מ-3×3 ברורה: ריווח הבטחון נמוך"
+      },
+      {
+        "text_he": "יש לדחות כי כל עסקה שבה יותר מ-25% מהתרחישים נכשלים היא לא כשירה לאשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין כלל אחיד של 25% — ההחלטה תלויה בהסתברויות, בגודל העסקה ובבטחונות הנוספים"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח טבלת רגישות 3×3 (9 תאים):</p><ul><li>4 תאים ≤ 12% IRR = 44% מהשילובים נכשלים</li><li>5 תאים ≥ 12% IRR = 56% עוברים</li></ul><p>פעולת אנליסט:</p><ol><li><strong>הערכת הסתברות</strong>: אילו תאים בטבלה הם תרחישים סבירים? (Base = 1 תא, Bear = כמה?)</li><li><strong>Margin of Safety</strong>: מרחק ה-IRR של ה-Base Case מה-Hurdle (17%−12%=5 נקודות) הוא מידה לריווח</li><li><strong>Mitigation</strong>: LTV נמוך יותר, ריזרב, ערבויות — מנגנונים שמגנים גם כשIRR נמוך</li></ol>"
+  },
+  {
+    "question_id_external": "C09-M02-PRC-Q05",
+    "course_number": 9,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת אשראי מבקשת לדעת: \"מה Exit Cap Rate הדרוש כדי שה-IRR ייגע ב-Hurdle Rate של 12%?\" כיצד מחשבים את נקודת ה-Break Even הזו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Break-even על Exit Cap Rate הוא אחד הניתוחים הכי חשובים לוועדה — הוא מגדיר עד כמה השוק יכול להתדרדר לפני שהעסקה הופכת לבלתי כדאית.",
+    "topic_tags": ["break_even", "exit_cap_rate", "irr", "sensitivity_analysis"],
+    "options": [
+      {
+        "text_he": "בנוסחת Goal Seek / ניסוי-ותעיה: מגדילים Exit Cap Rate בהדרגה עד ש-IRR מגיע ל-12%, ומציינים את הCap Rate בנקודה זו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Break-even Exit Cap Rate = Hurdle Rate / NOI שנה 1",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נוסחה זו אינה קיימת — Break-even מחושב בשיטת Goal Seek אינטגרטיבית, לא בנוסחה סגורה פשוטה"
+      },
+      {
+        "text_he": "לא ניתן לחשב Break-even על Exit Cap Rate — יש לחשב אותו רק על NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Break-even ניתן לחישוב על כל משתנה במודל DCF, כולל Exit Cap Rate"
+      },
+      {
+        "text_he": "Break-even Exit Cap Rate = Exit Cap Rate בבסיס × (IRR בסיס / Hurdle Rate)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הקשר בין Cap Rate ל-IRR אינו לינארי ופשוט — נוסחה כזו תיתן תוצאה שגויה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב Break-even Exit Cap Rate:</p><ol><li><strong>הגדר</strong>: מה ה-Exit Cap Rate שבו IRR = Hurdle Rate (12%)?</li><li><strong>שיטה</strong>: ב-Excel — השתמש ב-Goal Seek: Set Cell (IRR) = 12%, By Changing Cell = Exit Cap Rate</li><li><strong>פרשנות</strong>: אם Break-even הוא 7.5% ו-Base Case הוא 5%, ריווח הבטחון הוא 250 נקודות בסיס</li></ol><p>מה מציגים לוועדה: \"Exit Cap Rate יכול לעלות ל-7.5% לפני שEagle Capital מגיע ל-Hurdle. שוק נוכחי ב-6%-7% — יש ריווח בטחון מוגבל של 50-150 נקודות.\"</p><p>זה מדד קונקרטי שעוזר לוועדה לשפוט: האם 50-150 נקודות בסיס של ריווח מספיק לאחר כיסוי?</p>"
+  }
+]

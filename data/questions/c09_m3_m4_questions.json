@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C09-M03-CMP-Q01",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל העיקרי בין <strong>מימון בנייה (Construction Financing)</strong> ל<strong>מימון נכס מניב (Income Property Financing)</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בניית נכס היא הלוואה לנכס שעוד לא קיים — אין תזרים, אין בטוחה גמורה, ורמת הסיכון גבוהה בהרבה מהלוואת המשכנתה שתבוא אחריה.",
+    "topic_tags": ["construction_finance", "income_property", "risk"],
+    "options": [
+      {
+        "text_he": "מימון בנייה מממן פרויקט בפיתוח ללא תזרים שוטף, עם סיכון השלמה — ואילו מימון נכס מניב מבוסס על תזרים קיים מדמי שכירות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מימון בנייה הוא תמיד קצר יותר מ-12 חודשים ומימון נכס מניב הוא תמיד מעל 10 שנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין כלל אחיד לתקופות — פרויקטי בנייה גדולים נמשכים 2-5 שנים, ומשכנתאות מניבות יכולות להיות ל-5-7 שנים בלבד"
+      },
+      {
+        "text_he": "ההבדל הוא רק בגובה הריבית — מימון בנייה תמיד יקר יותר ב-3-4% מהלוואה מניבה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרש הריבית הוא תוצר של הסיכון השונה, לא ההגדרה של ההבדל — הבדל עיקרי הוא מהות הנכס ואופי הסיכון"
+      },
+      {
+        "text_he": "מימון בנייה דורש LTV של 100% תמיד כי אין שווי נכס להציג",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מימון בנייה מבוסס על LTC (Loan-to-Cost) ולא LTV, ויחס המימון בדרך כלל 60%-75% מעלות הפרויקט"
+      }
+    ],
+    "explanation_html_he": "<p>ההבדלים המהותיים:</p><table><tr><th>פרמטר</th><th>בנייה</th><th>נכס מניב</th></tr><tr><td>תזרים</td><td>אין (בפיתוח)</td><td>קיים (שכירות)</td></tr><tr><td>בטוחה</td><td>קרקע + בנייה חלקית</td><td>נכס גמור</td></tr><tr><td>סיכון עיקרי</td><td>השלמה, עלות, שוק</td><td>פנויות, NOI, ריבית</td></tr><tr><td>מדד עיקרי</td><td>LTC, עלות גמר</td><td>DSCR, LTV</td></tr><tr><td>משיכות</td><td>שלבים (Draw Schedule)</td><td>פעם אחת</td></tr></table><p>הלוואת בנייה מומרת לרוב להלוואת Takeout (מניבה) בסיום הבנייה.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-CMP-Q02",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>Draw Schedule</strong> במימון בנייה וכיצד הוא מפחית סיכון למלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Draw Schedule מוודא שהכסף עוקב אחרי הבנייה — המלווה לא מעמיד 100% ביום הראשון אלא בשלבים, ורק לאחר אימות שהעבודה בוצעה בפועל.",
+    "topic_tags": ["draw_schedule", "construction_finance", "risk_control"],
+    "options": [
+      {
+        "text_he": "Draw Schedule הוא לוח זמנים למשיכות הלוואה בשלבים, בהתאם להתקדמות הבנייה המאושרת על ידי מפקח מטעם הבנק",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Draw Schedule הוא לוח הפירעון של ההלוואה — מתי יחזיר הלווה כל תשלום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לוח פירעון הוא Amortization Schedule — Draw Schedule הוא לוח המשיכות של כספי ההלוואה על ידי הלווה"
+      },
+      {
+        "text_he": "Draw Schedule הוא תוכנית הבנייה הארכיטקטונית שמוגשת לבנק עם הבקשה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תוכניות ארכיטקטוניות הן מסמך טכני — Draw Schedule הוא מנגנון פיננסי לשחרור כספים בשלבים"
+      },
+      {
+        "text_he": "Draw Schedule הוא לוח הפנויות הצפוי בנכס לאחר השלמתו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פנויות שייכות למודל ה-DCF לאחר הבנייה — Draw Schedule הוא מנגנון משיכת כספים במהלך שלב הבנייה"
+      }
+    ],
+    "explanation_html_he": "<p>כיצד Draw Schedule עובד:</p><ol><li>הקבלן מגיש <strong>Draw Request</strong> לשלב שהושלם (למשל: יסודות, שלד, גמר)</li><li>מפקח בנייה מטעם הבנק (<strong>Inspector / Owner's Rep</strong>) מאמת שהעבודה בוצעה</li><li>הבנק מעביר את המשיכה לאחר אישור ו-Lien Release מהקבלן</li><li>בדרך כלל מחזיקים <strong>Retainage</strong> (5%-10%) עד להשלמה מוחלטת</li></ol><p>הגנת הבנק: בכל נקודת זמן, יתרת ההלוואה לא עולה על שווי מה שנבנה בפועל — אף פעם לא ממן את מה שעוד לא קיים.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-CMP-Q03",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>Interest Reserve</strong> במימון בנייה וכיצד הוא מחושב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Interest Reserve שנחשב בצמצום הוא סיכון — אם הבנייה מתעכבת ב-6 חודשים, הרזרבה תיגמר לפני השלמת הפרויקט, והלווה יצטרך לממן מהון עצמי.",
+    "topic_tags": ["interest_reserve", "construction_finance"],
+    "options": [
+      {
+        "text_he": "Interest Reserve הוא סכום שנשמר במסגרת ההלוואה לכיסוי תשלומי ריבית שוטפים במהלך הבנייה, בחישוב: ממוצע יתרה × ריבית × תקופת בנייה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Interest Reserve הוא סכום שהלווה מפקיד בחשבון נאמנות לפני תחילת הבנייה כבטוחה מול הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Interest Reserve הוא חלק מהמסגרת עצמה — לא פיקדון נפרד — וייעודו לשלם ריבית שוטפת, לא לשמש כבטוחה"
+      },
+      {
+        "text_he": "Interest Reserve הוא ריבית שנגבית מראש ביום ההלוואה הראשון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גביית ריבית מראש על כל התקופה אינה הנוהג — Interest Reserve הוא ניצול שוטף מהמסגרת לפי ריבית צוברת"
+      },
+      {
+        "text_he": "Interest Reserve הוא רק רלוונטי להלוואות מעל 50 מיליון ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Interest Reserve מקובל בכל הלוואות בנייה ללא קשר לגודל"
+      }
+    ],
+    "explanation_html_he": "<p>Interest Reserve — חישוב פשוט:</p><ul><li>הנחה: הלוואת בנייה 10,000,000 ₪, ריבית פריים+1.5% (נניח 7%), תקופת בנייה 18 חודשים</li><li>ממוצע יתרה במהלך הבנייה ≈ 50%-60% מהמסגרת = ~5,500,000 ₪</li><li>Interest Reserve ≈ 5,500,000 × 7% × 1.5 שנים ≈ 577,500 ₪</li></ul><p>בפועל מחשבים חודש לחודש על פי Draw Schedule. חשוב: להוסיף <strong>buffer</strong> של 10%-15% לעיכובים. ה-Interest Reserve כלול בעלות הפרויקט הכוללת ומשפיע על חישוב LTC.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-CMP-Q04",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>ערבות השלמה (Completion Guarantee)</strong> ומדוע היא קריטית בהלוואות בנייה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ערבות השלמה היא ה'שרוול האחרון' של הבנק — אם הפרויקט נתקע, הערב מחויב להשלים אותו מכיסו. בלי ערבות השלמה, הבנק יישאר עם נכס חצי-בנוי.",
+    "topic_tags": ["completion_guarantee", "construction_finance", "risk"],
+    "options": [
+      {
+        "text_he": "ערבות שבה הספונסר/המפתח מתחייב לממן מהונו העצמי כל חריגה בעלויות ולהבטיח השלמת הפרויקט ללא קשר לעלות הסופית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ערבות שנותן הקבלן המבצע לכך שהוא יסיים את הבנייה בזמן ובתקציב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות הקבלן היא Performance Bond — Completion Guarantee היא ערבות הספונסר/הלווה לבנק, לא ערבות הקבלן"
+      },
+      {
+        "text_he": "ביטוח שמכסה את הבנק במקרה שהנכס ייהרס לאחר השלמת הבנייה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביטוח נכס הוא כלי נפרד — Completion Guarantee היא מחויבות חוזית של הלווה להשלמת הבנייה"
+      },
+      {
+        "text_he": "ערבות בנקאית שמבנק אחר מבטיחה לספונסר את המימון הנדרש לסיום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זוהי ערבות בנקאית מסוג אחר — Completion Guarantee היא התחייבות אישית/תאגידית של הספונסר עצמו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Completion Guarantee</strong> מגינה על הבנק ממקרה שהבנייה לא מסתיימת:</p><ul><li><strong>מגביל</strong>: \"אי-Recourse\" — בנק לא יכול לתבוע הספונסר; עם Completion Guarantee: כן יכול</li><li><strong>חריגת עלויות</strong>: הספונסר מחויב לממן את ה-Cost Overrun מהונו — הבנק לא מגדיל מסגרת</li><li><strong>בטוחת כריות</strong>: נלווה לרוב לתנאי מינימום הון עצמי (Net Worth) של הספונסר</li></ul><p>בנכסי בנייה גדולים: הבנק דורש הן Completion Guarantee הן Payment Guarantee על שירות החוב בתקופת הבנייה. ביחד הן מגנות על ה-Downside של המלווה.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-CMP-Q05",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>Takeout Commitment</strong> ומדוע הוא חשוב לאנליסט הלוואת הבנייה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Takeout Commitment מוודא שיש 'Exit Strategy' מוגדרת להלוואת הבנייה — בלעדיו, הבנק עלול להישאר תקוע עם הלוואת בנייה שאינה ניתנת לפירעון.",
+    "topic_tags": ["takeout_commitment", "construction_finance", "permanent_financing"],
+    "options": [
+      {
+        "text_he": "Takeout Commitment הוא התחייבות מלווה (בנק קבע או גוף מוסדי) למתן הלוואה קבועה (Permanent Loan) לאחר השלמת הפרויקט והשגת תפוסה מינימלית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Takeout Commitment הוא הסכם מכירה של הנכס שנחתם לפני תחילת הבנייה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסכם מכירה מראש הוא Forward Sale Agreement — Takeout Commitment הוא התחייבות מימון קבע, לא מכירה"
+      },
+      {
+        "text_he": "Takeout Commitment הוא ערבות הספונסר לפירעון הלוואת הבנייה תוך 12 חודשים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זוהי ערבות אישית — Takeout Commitment הוא מסמך שמציג מקור מימון חיצוני ספציפי ולא ערבות הלווה"
+      },
+      {
+        "text_he": "Takeout Commitment הוא אישור הרשויות לאכלוס הנכס (טופס 4)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; טופס 4 הוא אישור רגולטורי — Takeout Commitment הוא מסמך פיננסי מגוף מממן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Takeout Commitment</strong> — חלק אינטגרלי ממבנה הלוואת הבנייה:</p><ul><li><strong>מי מספק</strong>: בנק, חברת ביטוח, קרן פנסיה — גוף מממן לטווח ארוך</li><li><strong>תנאים</strong>: בדרך כלל מותנה ב-Occupancy Condition (תפוסה מינימלית, למשל 85%)</li><li><strong>תקפות</strong>: מסמך מחייב — לא כוונות בלבד</li></ul><p>ממנקודת מבט הלוואת בנייה:</p><ul><li>בלי Takeout: הבנק המממן בנייה מסתכן שלא יהיה פירעון</li><li>עם Takeout מוצק: יש Exit Strategy ברורה — הלוואת הבנייה תיפרע מהלוואת הקבע</li></ul><p>חשוב לאמת שה-Takeout הוא מחייב (Firm) ולא תנאי (Conditional) בתנאים שקשה לעמוד בהם.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-PRC-Q01",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט בנייה: עלות כוללת 20,000,000 ₪. הלוואת בנייה: 14,000,000 ₪ (LTC 70%). ריבית 8% שנתי. תקופת בנייה: 24 חודשים. ממוצע יתרה משוערת: 55% מהמסגרת. מהו ה-<strong>Interest Reserve</strong> הנדרש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תמיד הוסף buffer של 15%-20% על Interest Reserve המחושב — עיכובי בנייה הם הנורמה, לא החריג.",
+    "topic_tags": ["interest_reserve", "construction_finance"],
+    "options": [
+      {
+        "text_he": "כ-1,232,000 ₪ (14,000,000 × 55% × 8% × 2 שנים)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כ-2,240,000 ₪ (14,000,000 × 8% × 2 שנים — על מלוא המסגרת)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב על מלוא המסגרת מגזים — יתרה ממוצעת של 55% ריאלית יותר כי הכסף נמשך בהדרגה"
+      },
+      {
+        "text_he": "כ-616,000 ₪ (14,000,000 × 55% × 8% × 1 שנה)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקופת הבנייה היא 24 חודשים (2 שנים), לא שנה אחת"
+      },
+      {
+        "text_he": "כ-160,000 ₪ (14,000,000 × 8% / 7 — חלוקה שרירותית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין בסיס לחלוקה ב-7 — Interest Reserve מחושב מיתרה ממוצעת × ריבית × תקופה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב Interest Reserve:</p><ul><li>מסגרת: 14,000,000 ₪</li><li>יתרה ממוצעת: 14,000,000 × 55% = 7,700,000 ₪</li><li>ריבית שנתית: 8%</li><li>תקופה: 2 שנים</li><li>Interest Reserve = 7,700,000 × 8% × 2 = <strong>1,232,000 ₪</strong></li></ul><p>עם Buffer של 15%: 1,232,000 × 1.15 ≈ 1,417,000 ₪ — סכום שמרני יותר שמומלץ להוסיף. ה-Interest Reserve הוא חלק מעלות הפרויקט הכוללת ומשפיע על LTC.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-PRC-Q02",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט בנייה עלה 5,000,000 ₪ מעל התקציב (Cost Overrun). הלווה חתם על ערבות השלמה. הלוואת הבנייה כבר ממוצה לחלוטין. מי מממן את הגירעון ומה הבנק יכול לעשות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ערבות השלמה היא כוחו של הבנק ברגע שהפרויקט חורג — הלווה חייב להביא הון עצמי, ובלי ערבות ועם הון עצמי מוגבל, הבנק בסיכון.",
+    "topic_tags": ["cost_overrun", "completion_guarantee", "construction_finance"],
+    "options": [
+      {
+        "text_he": "הלווה חייב לממן את הגירעון מהונו העצמי — ערבות ההשלמה מחייבת אותו; הבנק יכול לתבוע ביצועה ולהפעיל לחץ על השלמת הפרויקט",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבנק חייב להגדיל את מסגרת הבנייה ב-5,000,000 ₪ — עלות הפרויקט היא באחריות הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבנק אינו מחויב להגדיל מסגרת — בנוכחות ערבות השלמה, הלווה הוא זה שנושא בחריגה"
+      },
+      {
+        "text_he": "הבנק מחויב לספוג את הגירעון כי הוא מממן את הפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבנק ממן רק עד לגובה מסגרת ההלוואה שסוכמה — Cost Overrun הוא סיכון הלווה"
+      },
+      {
+        "text_he": "ניתן לצאת מהפרויקט ולמכור את הנכס חצי-בנוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכירת נכס חצי-בנוי היא בדרך כלל ה-Worst Case — תחילה יש לנסות להפעיל ערבות השלמה ולהשלים את הפרויקט"
+      }
+    ],
+    "explanation_html_he": "<p>מנגנון ערבות ההשלמה ב-Cost Overrun:</p><ol><li>הלוואה ממוצה: הבנק לא יוסיף כסף</li><li>ערבות השלמה מופעלת: הבנק מודיע ללווה שעליו לממן 5,000,000 ₪ מהון עצמי</li><li>אם לווה מסרב/לא יכול: הבנק יכול לתבוע ביצוע בעין + פיצויים מכוח הערבות</li><li>ב-Extreme Case: הגשת תביעה והחדרת מממן חלופי</li></ol><p>לכן, לפני הלוואת בנייה: וודא שהלווה בעל הון עצמי מספיק לכיסוי Cost Overrun סביר (10%-15% מעלות הפרויקט). הון עצמי גדול = ערבות השלמה בעלת ערך.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-PRC-Q03",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט בנייה למגורים: Draw Schedule מתוכנן ל-18 חודשים. הבנייה מתעכבת — לאחר 18 חודשים, הפרויקט הושלם רק 70%. Interest Reserve מותש. מה האפשרויות בפני הבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עיכוב בנייה + מיצוי Interest Reserve הוא שילוב מסוכן — הבנק צריך לנקוט פעולה מוקדמת ולא לחכות עד שהפרויקט יגיע למשבר מלא.",
+    "topic_tags": ["construction_delay", "interest_reserve", "workout"],
+    "options": [
+      {
+        "text_he": "להאריך את ההלוואה ולדרוש הון עצמי נוסף לכיסוי Interest Reserve המתמשך, תוך אימות שהפרויקט ישים להשלמה ב-6 חודשים נוספים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להגיש מיידית בקשת Foreclosure ולכנס נכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כינוס נכס חצי-בנוי הוא ה-Worst Case scenario — תחילה יש לנסות Workout ולמצות אפשרויות לפני הליכים משפטיים"
+      },
+      {
+        "text_he": "לוותר על Interest Reserve ולהמשיך לממן ללא תשלום ריבית עד להשלמה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ויתור על ריבית ללא תמורה הוא פגיעה בזכויות הבנק — ניתן לדחות ריבית (PIK) אך לא לוותר עליה"
+      },
+      {
+        "text_he": "לא לנקוט כל פעולה — עיכוב של 30% אינו מהותי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מיצוי Interest Reserve + עיכוב 30% הם אירוע מהותי שדורש טיפול מיידי — אי-פעולה מגדיל את הסיכון"
+      }
+    ],
+    "explanation_html_he": "<p>אפשרויות הבנק בהיררכיה:</p><ol><li><strong>Workout ידידותי</strong>: דיאלוג עם הלווה — האם יש כסף נוסף? הוספת הון עצמי לכיסוי 6 חודשי ריבית ועלויות גמר</li><li><strong>Extension Agreement</strong>: הארכת ההלוואה ב-6-9 חודשים תמורת: הון עצמי נוסף, ריבית גבוהה יותר, שעבוד נוסף</li><li><strong>Completion Guarantee Enforcement</strong>: הפעלת ערבות ההשלמה אם קיימת</li><li><strong>Receivership / Foreclosure</strong>: Last Resort — מינוי כונס נכסים לניהול הפרויקט</li></ol><p>מוקדם ✓ מאוחר ✗: ככל שהבנק פועל מוקדם יותר, יש לו יותר אפשרויות ויותר ערך מהנכס.</p>"
+  },
+  {
+    "question_id_external": "C09-M03-PRC-Q04",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק מעניק הלוואת בנייה של 15,000,000 ₪. הבנק דורש <strong>Takeout Commitment</strong> לפני שחרור ראשון. הספונסר מגיש מכתב כוונות (LOI) ממוסד מממן. האם זה מספיק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "LOI הוא לא Takeout Commitment — בלי מסמך מחייב עם תנאים מוגדרים, הבנק ממן בנייה בלי Exit Strategy מוצקת.",
+    "topic_tags": ["takeout_commitment", "construction_finance", "loi"],
+    "options": [
+      {
+        "text_he": "לא — LOI הוא כוונות בלבד ואינו מחייב; יש לדרוש Firm Commitment עם תנאים ספציפיים, סכום, ריבית ותנאי תפוסה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן — LOI ממוסד פיננסי מוכר הוא מסמך מחייב לכל דבר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LOI (Letter of Intent) מוגדר כלא-מחייב בדרך כלל — הוא אות כוונה בלבד ולא חוזה מחייב"
+      },
+      {
+        "text_he": "כן — LOI מספיק בשלב הראשון; Firm Commitment יידרש רק לפני שחרור אחרון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנק אחראי לא ישחרר כספים בלי Firm Takeout — לפני כל שחרור ראשון חייב להיות Exit Strategy ברורה"
+      },
+      {
+        "text_he": "LOI מספיק אם המוסד המממן הוא בנק גדול בדירוג AA ומעלה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דירוג האשראי של המוסד אינו הופך LOI למסמך מחייב — המבנה המשפטי של המסמך קובע, לא זהות המנפיק"
+      }
+    ],
+    "explanation_html_he": "<p>LOI vs. Firm Takeout Commitment:</p><table><tr><th>פרמטר</th><th>LOI</th><th>Firm Commitment</th></tr><tr><td>תוקף משפטי</td><td>לא מחייב</td><td>מחייב</td></tr><tr><td>פרטים</td><td>כללי</td><td>ספציפי (סכום, ריבית, תנאים)</td></tr><tr><td>ערך לבנק</td><td>אפס</td><td>Exit Strategy אמיתית</td></tr></table><p>פעולה נדרשת: לדרוש Firm Commitment עם:</p><ol><li>סכום ספציפי (לפחות גובה הלוואת הבנייה)</li><li>ריבית או Spread מוגדר</li><li>תנאי Occupancy ברורים</li><li>תוקף — לפחות 90 ימים לאחר תאריך השלמה צפוי</li></ol>"
+  },
+  {
+    "question_id_external": "C09-M03-PRC-Q05",
+    "course_number": 9,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ספונסר מגיש בקשה להלוואת בנייה של 25,000,000 ₪ לפרויקט בנייה למגורים. Draw Schedule: 30 חודשים. אין Takeout Commitment. הספונסר טוען שיוכל למכור את היחידות ולפרוע את ההלוואה. מה הסיכון המרכזי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הלוואת בנייה למגורים ללא Takeout מבוססת על מכירת יחידות — זה מוצלח בשוק עולה, מסוכן מאוד בשוק יורד. שאל: מה תרחיש שמכירות איטיות בשנה?",
+    "topic_tags": ["construction_finance", "takeout", "residential", "market_risk"],
+    "options": [
+      {
+        "text_he": "אם שוק הדירות מאט, מכירות יהיו איטיות — ההלוואה לא תיפרע בסיום הבנייה, Interest Reserve יותש, ונכס גמור יישאר ממושכן ולא נזיל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הסיכון המרכזי הוא רק עלויות בנייה — שוק המגורים בישראל תמיד עולה ומכירות מובטחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שוק המגורים אינו חסין — ירידות שוק, עליות ריבית ועלייה בהיצע יכולים להאט מכירות משמעותית"
+      },
+      {
+        "text_he": "אין סיכון — בנייה למגורים בישראל תמיד תמצא קונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם בשוק פעיל, פרויקטים ספציפיים יכולים להתנהל לאט — מיקום, מחיר ותחרות משפיעים"
+      },
+      {
+        "text_he": "הסיכון הוא שהקבלן לא ישלים את הבנייה — לא קשור להיעדר Takeout",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סיכון הקבלן הוא נוסף, לא המרכזי כאן — ההיעדר של Exit Strategy ברורה הוא הסיכון הפיננסי המרכזי"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח סיכון: הלוואת בנייה מגורים ללא Takeout</p><ul><li><strong>תרחיש Base</strong>: בנייה מסתיימת, מכירות מהירות, ההלוואה נפרעת — תקין</li><li><strong>תרחיש Bear</strong>: שוק מאט, מכירות 50% מהתוכנית — פירעון חלקי בלבד</li><li><strong>תרחיש Stress</strong>: שוק קופא, ריביות עולות, אפס מכירות — הבנק תקוע עם נכס גמור שלא ניתן למכור בזמן</li></ul><p>מנגנוני הגנה שיש לדרוש:</p><ol><li>Pre-sales המשתנים ל% ממכירות מינימלי (למשל 30% לפני שחרור ראשון)</li><li>Interest Reserve גדול יותר (30 חודשים + 6 חודשים Buffer)</li><li>הון עצמי גבוה (לפחות 35% מעלות הפרויקט)</li><li>Recourse Guarantee מהספונסר</li></ol>"
+  },
+  {
+    "question_id_external": "C09-M04-CMP-Q01",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>Preferred Return</strong> במבנה Waterfall של שותפות נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Preferred Return אינה ריבית — היא תשואה מועדפת שה-LP מקבל לפני ה-GP. אם הפרויקט לא הניב מספיק, ה-GP לא מקבל דבר.",
+    "topic_tags": ["waterfall", "preferred_return", "lp", "gp"],
+    "options": [
+      {
+        "text_he": "תשואה שנתית מינימלית (בדרך כלל 6%-9%) שהשותפים המוגבלים (LP) זכאים לה לפני שה-GP מקבל חלק מהרווחים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריבית שגובה הבנק על הלוואתו לפני חלוקת רווחים לשותפים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית הבנק היא מחוץ ל-Waterfall הון — Preferred Return הוא חלוקה בין שותפי הון (LP/GP), לא לבנק"
+      },
+      {
+        "text_he": "הסכום הקבוע שה-GP (המנהל) מקבל כשכר ניהול לפני חלוקת רווחים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שכר ניהול (Management Fee) הוא תשלום נפרד — Preferred Return הוא תשואת הון מועדפת ל-LP, לא שכר ל-GP"
+      },
+      {
+        "text_he": "התשואה הממוצעת ההיסטורית של הקרן בעסקאות קודמות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביצועי עבר אינם Preferred Return — זהו שיעור חוזי מוגדר מראש ב-Limited Partnership Agreement"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Preferred Return</strong> — שכבה ראשונה ב-Waterfall ההון:</p><ol><li>LP משקיע הון בפרויקט</li><li>לפני כל Promote ל-GP, LP מקבל <strong>Preferred Return</strong> (למשל 8% על ההון המושקע)</li><li>רק לאחר שהLP קיבל את ה-8% — ה-GP זכאי ל-Promote</li></ol><p>דוגמה: LP השקיע 5,000,000 ₪. Preferred Return = 8%. LP מקבל 400,000 ₪ ראשון. עם 7% IRR — LP כמעט ולא מקבל Preferred Return מלא, GP לא מקבל Promote.</p><p>מוטיבציה: Preferred Return מבטיחה ל-LP תשואה בסיסית לפני ה-GP יגזור קופון.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-CMP-Q02",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד פועל <strong>IRR Hurdle</strong> ב-Waterfall ומה קורה כשה-IRR עובר את הסף?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "IRR Hurdle הוא ה'שוער' של ה-Promote — ה-GP יודע שרק עסקאות שמצליחות מספיק יניבו לו Carried Interest. זה מיישר אינטרסים בין GP ל-LP.",
+    "topic_tags": ["irr_hurdle", "waterfall", "promote", "carry"],
+    "options": [
+      {
+        "text_he": "כאשר IRR הפרויקט עובר את ה-Hurdle Rate (למשל 12%), ה-GP מתחיל לקבל Promote — חלק גדול יותר מהרווחים העודפים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IRR Hurdle הוא גבול עליון — אם IRR עובר את הסף, ה-LP מקבל 100% מהרווחים כבונוס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR Hurdle הוא גבול שלאחריו ה-GP מקבל יותר (Promote), לא גבול שלאחריו ה-LP לוקח הכל"
+      },
+      {
+        "text_he": "IRR Hurdle קובע את שיעור הריבית המינימלי שהמלווה הבכיר צריך לקבל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR Hurdle הוא עניין של מבנה הון (LP/GP) — ריבית המלווה הבכיר מוגדרת בנפרד בהסכם ההלוואה"
+      },
+      {
+        "text_he": "IRR Hurdle הוא אותו הדבר כמו Preferred Return — שני שמות לאותו מנגנון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Preferred Return הוא תשואה מועדפת שנתית ל-LP; IRR Hurdle הוא סף IRR כולל שמפעיל את ה-Promote ל-GP — מנגנונים שונים"
+      }
+    ],
+    "explanation_html_he": "<p>מבנה Waterfall טיפוסי:</p><ol><li><strong>שכבה 1</strong>: החזר הון + Preferred Return (8%) → LP מקבל 100%</li><li><strong>שכבה 2</strong>: Catch-Up → GP מקבל 20%-30% עד שאחוזיו מיושרים</li><li><strong>שכבה 3</strong>: IRR Hurdle (12%) → רווחים מעל מחולקים 80/20 (LP/GP) </li><li><strong>שכבה 4 (אם קיים)</strong>: IRR Hurdle שני (18%) → 70/30 LP/GP</li></ol><p>ה-Promote הוא הCar ried Interest של ה-GP — למשל 20% מהרווחים מעל Hurdle. מיישר אינטרסים: GP רוצה IRR גבוה, LP גם כן.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-CMP-Q03",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>בWaterfall נדל\"ן, מה מיקומו של <strong>המלווה הבכיר (Senior Lender)</strong> ביחס לשותפי ההון (LP/GP)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "המלווה הבכיר הוא תמיד ראשון בתור בכינוס — לפני LP, לפני GP. הוא לוקח פחות תשואה כי הוא לוקח פחות סיכון.",
+    "topic_tags": ["waterfall", "senior_lender", "lp", "gp", "capital_stack"],
+    "options": [
+      {
+        "text_he": "המלווה הבכיר מקבל ריבית ופירעון קרן לפני כל חלוקה לשותפי הון — הוא עדיף על LP ו-GP בכינוס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המלווה הבכיר מקבל רק את הריבית; פירעון הקרן נמצא אחרי LP ב-Waterfall",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלווה הבכיר מקבל הן ריבית הן קרן לפני כל חלוקת הון — הוא בכיר על כל שכבות ההון"
+      },
+      {
+        "text_he": "הWaterfall מתחיל מ-LP ואז GP; המלווה הבכיר מחוץ ל-Waterfall לחלוטין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלווה הבכיר הוא שכבה ראשונה ב-Capital Stack — \"מחוץ ל-Waterfall\" מבחינה מושגית אך עדיף על כולם בפועל"
+      },
+      {
+        "text_he": "בכינוס, המלווה הבכיר ו-LP חולקים את התמורה בשווה לפני ה-GP",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקה שווה אינה הכלל — המלווה הבכיר מקבל הכל לפני ה-LP; LP לפני GP"
+      }
+    ],
+    "explanation_html_he": "<p>Capital Stack מלמעלה (ראשון) עד למטה (אחרון):</p><ol><li><strong>Senior Debt</strong>: ריבית + קרן → ראשון תמיד</li><li><strong>Mezzanine Debt</strong> (אם קיים): ריבית גבוהה, כפוף ל-Senior</li><li><strong>Preferred Equity</strong>: Preferred Return ל-LP → שלישי</li><li><strong>Common Equity (GP)</strong>: Promote → אחרון אך גם הרווח הגבוה ביותר</li></ol><p>תשואות טיפוסיות: Senior Debt 5%-7%, Mezz 10%-14%, LP Equity 12%-16%, GP Promote אחרי Hurdle.</p><p>לוגיקה: ככל שנמוך יותר ב-Stack, הסיכון גבוה יותר ולכן גם הפוטנציאל לתשואה גבוהה יותר.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-CMP-Q04",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי חלוקת ה-<strong>GP/LP split</strong> הנפוצה <strong>מעל ה-IRR Hurdle</strong> בעסקות נדל\"ן מוסדיות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "80/20 LP/GP הוא הסטנדרט — LP משקיע את הכסף, GP מנהל ומקבל 20% Promoted Interest על הרווחים העודפים.",
+    "topic_tags": ["waterfall", "gp", "lp", "promote", "split"],
+    "options": [
+      {
+        "text_he": "80% ל-LP ו-20% ל-GP (Promote) — הוא ה-split הסטנדרטי בנדל\"ן מוסדי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "50% ל-LP ו-50% ל-GP — חלוקה שווה בין שותפים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 50/50 נדיר בנדל\"ן מוסדי — ה-LP מספק את מרבית ההון ולכן מקבל 80%, ה-GP מנהל ומקבל 20% Promote"
+      },
+      {
+        "text_he": "90% ל-LP ו-10% ל-GP בכל התרחישים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 90/10 נפוץ בעסקות פחות מסוכנות (Core), אך ב-Value-Add ו-Opportunistic הPromote הוא 20%-30%"
+      },
+      {
+        "text_he": "100% ל-LP עד ל-Hurdle; 100% ל-GP מעל ה-Hurdle",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; GP אינו לוקח 100% מהרווחים העודפים — הוא לוקח 20% Promote על הרווחים מעל Hurdle, ו-LP שומר 80%"
+      }
+    ],
+    "explanation_html_he": "<p>GP/LP Split הנפוץ:</p><ul><li><strong>Core / Core-Plus</strong>: 90/10 (GP Promote 10%)</li><li><strong>Value-Add</strong>: 80/20 (GP Promote 20%) — <strong>הנפוץ ביותר</strong></li><li><strong>Opportunistic</strong>: 70/30 (GP Promote 30%)</li></ul><p>הסיבה: ככל שהאסטרטגיה מסוכנת יותר, ה-GP נושא בסיכון גבוה יותר (ניהול, שיפוץ, ייזום) ולכן מקבל Promote גבוה יותר. ה-LP תמיד מקבל את מרבית הרווחים כי הוא מספק את ההון.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-CMP-Q05",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>ב-Waterfall בסיסי: LP השקיע 4,000,000 ₪. Preferred Return 8%. IRR Hurdle 12%. Split מעל Hurdle: 80/20. פרויקט הניב IRR של 16%. האם ה-GP מקבל Promote ומדוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Waterfall calculation צריך להיות ידוע לאנליסט בעל פה — ועדת אשראי שואלת לעיתים קרובות 'כמה ה-GP מרוויח בתרחיש X?'",
+    "topic_tags": ["waterfall", "promote", "irr_hurdle", "calculation"],
+    "options": [
+      {
+        "text_he": "כן — IRR של 16% עובר את ה-Hurdle של 12%, ולכן ה-GP זכאי ל-20% Promote על הרווחים מעל ה-Hurdle",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא — ה-GP מקבל Promote רק אם IRR עולה על 20%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-Hurdle המוגדר הוא 12% — IRR של 16% עובר אותו בבירור, ולכן Promote מופעל"
+      },
+      {
+        "text_he": "כן — אבל רק אם ה-LP קיבל את מלוא ה-Preferred Return שלו ראשון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זה נכון מבחינת סדר הWaterfall — אך התשובה 'כן' לשאלה אם GP מקבל Promote היא עדיין כן, עם IRR 16%>12%"
+      },
+      {
+        "text_he": "לא — IRR של 16% מתחת ל-Preferred Return של 8% × 2 שנים = 16% — בדיוק בגבול",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Preferred Return 8% לשנה אינו מצטבר ל-IRR Hurdle — אלו שני מדדים נפרדים; IRR 16% עובר Hurdle 12% בבירור"
+      }
+    ],
+    "explanation_html_he": "<p>Waterfall Calculation:</p><ol><li><strong>שכבה 1 — החזר הון</strong>: LP מקבל 4,000,000 ₪ חזרה ✓</li><li><strong>שכבה 2 — Preferred Return (8%)</strong>: LP מקבל 8% שנתי על הון מושקע לכל תקופת ההחזקה</li><li><strong>IRR בדיקה</strong>: IRR = 16% &gt; Hurdle 12% → <strong>Promote מופעל</strong></li><li><strong>שכבה 3 — Split מעל Hurdle</strong>: רווחים עודפים מעל 12% מחולקים 80% LP / 20% GP</li></ol><p>כלל: Promote = (IRR שהושג − Hurdle) × GP Split × סך ההון. ב-16% IRR עם Hurdle 12%: ה-GP מרוויח 20% מ-4 נקודות האחוז העודפות על ההון המושקע.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-PRC-Q01",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>במבנה Waterfall: LP השקיע 3,000,000 ₪, GP השקיע 300,000 ₪ (10% Co-Invest). Preferred Return: 8% שנתי. לאחר 3 שנים חולקים 1,500,000 ₪ רווח. האם ה-Preferred Return מכוסה ולמי הולך הרווח?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Preferred Return מחושב על ההון המושקע המצטבר — על 3,000,000 ₪ ל-LP ו-300,000 ₪ ל-GP Co-Invest כל אחד לפי חלקו.",
+    "topic_tags": ["waterfall", "preferred_return", "calculation"],
+    "options": [
+      {
+        "text_he": "Preferred Return ל-LP = 720,000 ₪ (3M × 8% × 3 שנים). הרווח הזמין 1,500,000 ₪ מכסה אותו ויש עודף של 780,000 ₪ לחלוקה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-Preferred Return הוא 240,000 ₪ (3M × 8%) — שנה אחת בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Preferred Return מצטבר על כל שנות האחזקה — 3 שנים × 8% × 3,000,000 = 720,000 ₪"
+      },
+      {
+        "text_he": "ה-1,500,000 ₪ מחולק שווה בין LP ו-GP לפי יחס ההשקעה (10/1)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הWaterfall קובע סדר עדיפות, לא חלוקה פרופורציונלית ישירה — תחילה Preferred Return ל-LP, אחר כך עודף"
+      },
+      {
+        "text_he": "כל ה-1,500,000 ₪ הולך ל-GP כי ה-LP כבר קיבל דמי שכירות שוטפים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Waterfall בונה שכבות ברורות — LP מקבל Preferred Return ראשון, ואין קשר לתשלומים שוטפים קודמים בשאלה זו"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב Waterfall שלב אחר שלב:</p><ul><li>הון LP: 3,000,000 ₪; Preferred Return: 8% × 3 שנים = 24% = <strong>720,000 ₪</strong></li><li>הון GP Co-Invest: 300,000 ₪; Preferred Return GP: 8% × 3 = <strong>72,000 ₪</strong></li><li>סה\"כ Preferred Return: 720,000 + 72,000 = 792,000 ₪</li><li>רווח זמין: 1,500,000 ₪</li><li>לאחר Preferred Return: 1,500,000 − 792,000 = <strong>708,000 ₪ לחלוקה עודפת</strong></li></ul><p>הWaterfall מכסה את ה-Preferred Return ויש עודף — לכן בחינת הHurdle Rate (אם קיים) להפעלת Promote.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-PRC-Q02",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לאחר חישוב ה-Waterfall, מגלים שה-GP קיבל Promote של 25% מהרווחים מעל Hurdle, בעוד שה-LP קיבל רק 12% IRR בסה\"כ (=Hurdle). ה-LP טוען שהמצב אינו הוגן. האם טענתו מוצדקת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אם LP קיבל בדיוק את ה-Hurdle ו-GP קיבל Promote — זה בדיוק כפי שה-Waterfall תוכנן. LP שרצה יותר היה צריך לנהל משא ומתן על Hurdle גבוה יותר.",
+    "topic_tags": ["waterfall", "promote", "fairness", "gp_lp"],
+    "options": [
+      {
+        "text_he": "לא — אם LP קיבל את ה-Hurdle המוסכם (12%) וה-GP קיבל Promote על רווחים מעליו, הכל פועל לפי ה-LPA; LP היה צריך לנהל משא ומתן על Hurdle גבוה יותר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן — GP לעולם לא צריך לקבל Promote אם LP לא קיבל מעל ה-Hurdle",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LP קיבל בדיוק את ה-Hurdle (12%) שהוסכם — הPromote ל-GP מגיע בדיוק כי IRR עבר את הHurdle"
+      },
+      {
+        "text_he": "תלוי — אם ה-LPA קובע Catch-Up Provision, ה-GP אינו יכול לקבל Promote לפני שה-LP קיבל יותר מ-Hurdle",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Catch-Up הוא תנאי שמהיר את השגת ה-GP את חלקו — הוא לא מונע ממנו לקבל Promote; LP עדיין מקבל 12%"
+      },
+      {
+        "text_he": "כן — Promote מעל 20% הוא תמיד בלתי סביר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Promote של 25% קיים בעסקות רבות — אין \"תקרה הוגנת\"; הכל תלוי בהסכמה החוזית"
+      }
+    ],
+    "explanation_html_he": "<p>הניתוח המשפטי-פיננסי:</p><ul><li>LP קיבל 12% IRR = בדיוק את ה-Hurdle שסוכם ב-LPA ✓</li><li>GP קיבל Promote = בדיוק כפי שה-LPA קובע ✓</li><li>מבחינת חוזה: הכל תקין</li></ul><p>מדוע LP מרגיש 'לא הוגן'? כי GP הרוויח Promote גבוה בעוד LP קיבל רק 12%. אבל זה בדיוק הסוכם — LP היה יכול לנהל משא ומתן על:</p><ol><li>Hurdle גבוה יותר (למשל 15%)</li><li>Split גבוה יותר ל-LP (85/15 במקום 75/25)</li><li>Multiple Hurdles — GP מקבל Promote פרוגרסיבי</li></ol><p>לקח: LP חייב להבין היטב את ה-Waterfall לפני ההשקעה.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-PRC-Q03",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק הלוואה בכירה ורשימת Capital Stack: Senior Debt (7M), Mezzanine (2M), LP Equity (3M), GP (500K). הנכס נמכר ב-11M. מהי חלוקת התמורה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Capital Stack מפשיט כל שכבה מלמעלה — Senior תמיד ראשון, GP תמיד אחרון. בכינוס, כל שקל שלא מכסה Senior הוא הפסד לשכבות הנמוכות.",
+    "topic_tags": ["waterfall", "capital_stack", "recovery", "calculation"],
+    "options": [
+      {
+        "text_he": "Senior Debt מקבל 7M ראשון; Mezzanine מקבל 2M; LP Equity מקבל 2M (יתרה); GP לא מקבל כלום",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כל השכבות מקבלות באופן פרופורציונלי: Senior 56%, Mezz 16%, LP 24%, GP 4%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Capital Stack אינו פרופורציונלי — הוא היררכי; Senior מקבל הכל לפני Mezz, ו-Mezz לפני Equity"
+      },
+      {
+        "text_he": "Senior Debt מקבל 7M; Mezzanine מקבל 2M; GP מקבל 500K; LP מקבל 1.5M",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; GP הוא האחרון בWaterfall — הוא מקבל רק אחרי שכל השכבות מעליו קיבלו. בשאלה זו, אין מספיק לGP לאחר שLP מקבל"
+      },
+      {
+        "text_he": "Senior Debt מקבל 7M; LP מקבל 3M; Mezzanine מקבל 1M; GP לא מקבל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Mezzanine הוא בכיר על LP — Mezz מקבל לפני LP, לא אחריו"
+      }
+    ],
+    "explanation_html_he": "<p>Capital Stack בכינוס (11M תמורה):</p><ol><li><strong>Senior Debt (7M)</strong>: מקבל 7M → יתרה: 11M − 7M = 4M</li><li><strong>Mezzanine (2M)</strong>: מקבל 2M → יתרה: 4M − 2M = 2M</li><li><strong>LP Equity (3M)</strong>: יש רק 2M → <strong>LP מקבל 2M (הפסד של 1M)</strong></li><li><strong>GP (500K)</strong>: יתרה = 0 → <strong>GP לא מקבל כלום</strong></li></ol><p>הפסדים: LP הפסיד 1M (33% מהשקעתו); GP הפסיד 500K (100%). Senior ו-Mezz יצאו שלמים. זה ממחיש מדוע Equity מסוכן יותר מחוב.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-PRC-Q04",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מנקודת מבט בנק (מלווה בכיר), מה הסיכון ב-Mezzanine Debt שנמצא מתחת להלוואה הבכירה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Mezzanine לא תמיד גרוע לבנק הבכיר — הוא מוסיף הון 'כרית' שמגן. אבל אם Mezz Lender לא מסכים לExtension, הוא יכול לסבך Workout.",
+    "topic_tags": ["mezzanine", "senior_lender", "capital_stack", "risk"],
+    "options": [
+      {
+        "text_he": "Mezzanine Lender עלול לפעול בניגוד לאינטרס הבנק הבכיר בעת Workout — לדרוש פירעון מוקדם או לסרב לתנאי הארכה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Mezzanine מגדיל LTV ולכן הבנק הבכיר נמצא בסיכון גבוה יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Mezzanine מוסיף שכבת הון שמגנה על Senior — הוא מקטין LTV ה-Effective של הבנק הבכיר, לא מגדיל אותו"
+      },
+      {
+        "text_he": "Mezzanine אוסר על הבנק הבכיר לכנס את הנכס בכל עת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Mezzanine כפוף ל-Intercreditor Agreement שמסדיר זכויות הכינוס — Senior בדרך כלל שומר על זכות Foreclosure"
+      },
+      {
+        "text_he": "אין סיכון — Mezzanine הוא חוב ולא הון, ולכן אינו משפיע על מעמד הבנק הבכיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Mezzanine Lender הוא נושה עם אינטרסים שעלולים לסתור את הבנק הבכיר — Intercreditor Agreement קיים בדיוק בגלל זה"
+      }
+    ],
+    "explanation_html_he": "<p>סיכון Mezzanine מנקודת מבט Senior Lender:</p><ul><li><strong>Intercreditor Conflict</strong>: בעת Workout, Mezz מעדיף לכנס מהר כדי לשמור על כסף; Senior מעדיף לחכות לשיפור שוק</li><li><strong>Extension Disputes</strong>: אם Senior מסכים להאריך, Mezz יכול לסרב ולהאיץ את פירעונו</li><li><strong>Foreclosure Right</strong>: ל-Mezz זכות Foreclosure על ה-Pledge (מניות ה-LLC), לא על הנכס — אבל זה מסבך Workout</li></ul><p>הגנה: <strong>Intercreditor Agreement</strong> מגדיר: Stand-still periods, Cure Rights, Notice Requirements — מונע Mezz מלפעול באופן חד-צדדי.</p>"
+  },
+  {
+    "question_id_external": "C09-M04-PRC-Q05",
+    "course_number": 9,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>GP מציג עסקה עם IRR של 22% אך Equity Multiple של 1.6x בלבד על 5 שנים. LP ל-GP: \"ה-IRR מרשים אך ה-Equity Multiple נמוך — מה קורה לכסף שלנו?\" כיצד מפרש אנליסט את הנתונים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "IRR גבוה עם Equity Multiple נמוך = מרבית ה-IRR מגיע מתזרים מוקדם, לא מצמיחת הון לאורך זמן. שאל: מה ה-Distribution Schedule?",
+    "topic_tags": ["irr", "equity_multiple", "waterfall", "distribution"],
+    "options": [
+      {
+        "text_he": "IRR גבוה עם Equity Multiple נמוך מצביע על כך שהחלוקות מוקדמות (חזרת הון מהיר) — על 5 שנים, 1.6x פירושו 60% תשואה כוללת בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Equity Multiple של 1.6x על 5 שנים הוא תוצאה מצוינת — מדובר בתשואה שנתית של 32%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.6x על 5 שנים = 60% תשואה כוללת, שהיא CAGR של ~10% — לא 22% IRR. IRR גבוה יותר כי חלוקות מוקדמות"
+      },
+      {
+        "text_he": "אין סתירה — IRR ו-Equity Multiple תמיד עקביים ומצביעים על אותה מסקנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR ו-Equity Multiple יכולים לסתור — IRR גבוה עם Equity Multiple נמוך הוא מצב אפשרי כשחלוקות מוקדמות"
+      },
+      {
+        "text_he": "הנתונים בלתי אפשריים — IRR של 22% חייב ליצור Equity Multiple של לפחות 2.7x על 5 שנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR 22% על 5 שנים עם חלוקות מוקדמות יכול לייצר Equity Multiple של 1.6x — IRR מושפע מעיתוי החלוקות"
+      }
+    ],
+    "explanation_html_he": "<p>הסבר הפרדוקס IRR גבוה + Equity Multiple נמוך:</p><ul><li>IRR של 22% עם חלוקות מוקדמות גדולות (שנים 1-2) נראה גבוה</li><li>אבל סך הכסף שחולק על פני 5 שנים = 1.6x = 60% תשואה מצטברת</li><li>השוואה: IRR 15% עם חלוקות אחידות × 5 שנים = Equity Multiple 2.0x</li></ul><p>המסקנה: LP מרוויח פחות כסף בסה\"כ (1.6x) למרות ה-IRR הגבוה. זה נובע מכך שה-IRR מתגמל חלוקות מוקדמות — כסף שחזר מוקדם ה-IRR גבוה, אבל הכסף לא 'נצבר' לאורך 5 שנים.</p><p>מסקנה עסקית: עסקה עם חלוקות מוקדמות מתאימה ל-LP שרוצה נזילות; LP שמחפש הצטברות הון (Wealth Creation) צריך Equity Multiple גבוה יותר.</p>"
+  }
+]
