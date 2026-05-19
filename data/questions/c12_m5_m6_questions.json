@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C12-M05-CMP-Q01",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כמה פרקים חובה כולל מזכר האשראי המלא, ומה כולל כל אחד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שמונת הפרקים הם מבנה שנבנה לאורך עשרות שנות מקצוע — כל אחד מייצג זווית שמתגמל ניתוח. מנתח שלא יודע את המבנה בעל פה לא יכול לכתוב מזכר תחת לחץ זמן.",
+    "topic_tags": ["capstone", "credit_memo", "structure"],
+    "options": [
+      {
+        "text_he": "שמונה פרקים: תקציר מנהלים, תיאור הנכס, ניתוח שוק, Due Diligence, מודל פיננסי, ניתוח סיכונים, המלצה ונספחים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חמישה פרקים: נכס, שוק, מודל, סיכון ומסקנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חמישה פרקים מחמיצים DD, תקציר מנהלים ונספחים — שלושה מרכיבים חיוניים"
+      },
+      {
+        "text_he": "עשרה פרקים כולל: היסטוריית הלווה, ניתוח מתחרים, תחזית מאקרו, אנליזת ריבית ופרק פרטי מימון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עשרה פרקים כוללים ניתוחים שאינם חלק מהמבנה הסטנדרטי; מבנה 8 הפרקים הוא הסטנדרט המקצועי"
+      },
+      {
+        "text_he": "מספר הפרקים אינו קבוע — נקבע לפי מורכבות העסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מבנה 8 הפרקים הוא חובה; ניתן להרחיב כל פרק לפי מורכבות אך לא לצמצם את מספר הפרקים"
+      }
+    ],
+    "explanation_html_he": "<p>שמונת פרקי מזכר האשראי הסטנדרטי:</p><ol><li><strong>תקציר מנהלים</strong> — עמוד אחד, נקודות עיקריות</li><li><strong>תיאור הנכס</strong> — מיקום, סוג, גודל, מצב</li><li><strong>ניתוח שוק</strong> — Comps, תפוסה, מגמות</li><li><strong>Due Diligence</strong> — 6 מסמכים, ממצאים, פערים</li><li><strong>מודל פיננסי</strong> — NOI, DSCR, LTV, Debt Yield, IRR + 3 תרחישים</li><li><strong>ניתוח סיכונים</strong> — זיהוי, כימות, הפחתות</li><li><strong>המלצה</strong> — עמדה ברורה, תנאים</li><li><strong>נספחים</strong> — מסמכי תמיכה, מודל מלא</li></ol>"
+  },
+  {
+    "question_id_external": "C12-M05-CMP-Q02",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו אורך תקציר המנהלים המרבי, ומה הוא חייב לכלול?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "תקציר מנהלים ב-3 עמודים הוא לא תקציר — הוא פרק. מנהל בכיר קורא את עמוד התקציר ומחליט אם להמשיך. אם בעמוד אחד לא הצלחת לשכנע — אף אחד לא יקרא שמונה עמודים נוספים.",
+    "topic_tags": ["capstone", "executive_summary", "length"],
+    "options": [
+      {
+        "text_he": "עמוד אחד מרבי; חייב לכלול: שם הנכס, סכום ההלוואה המוצע, DSCR ו-LTV ב-Base, והמלצה ברורה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שלושה עמודים — מספיק כדי לסכם את כל הפרקים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שלושה עמודים הם פרק, לא תקציר; מגבלת עמוד אחד היא הנחיה מפורשת"
+      },
+      {
+        "text_he": "חצי עמוד — תקציר מנהלים צריך להיות קצר ככל האפשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חצי עמוד לא יכיל את כל הנדרש; עמוד אחד הוא הסטנדרט המקצועי"
+      },
+      {
+        "text_he": "אורך לא מוגבל — חשוב שיהיה מקיף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקציר מנהלים ללא מגבלת אורך מנוגד לתכליתו; האורך המרבי הוא עמוד אחד"
+      }
+    ],
+    "explanation_html_he": "<p>תקציר מנהלים — מגבלה ותוכן:</p><ul><li><strong>מגבלה</strong>: עמוד אחד מרבי (לא 'בערך', לא 'עד שני עמודות')</li><li><strong>תוכן חובה</strong>:</li></ul><ol><li>שם הנכס, מיקום וסוג</li><li>סכום ההלוואה המוצע</li><li>DSCR ו-LTV ב-Base Case</li><li>שלושה סיכונים מרכזיים ב-bulleted</li><li>המלצה חד-משמעית</li></ol><p>הכלל: אם מנהל קורא רק את התקציר, הוא צריך לדעת האם לאשר. תקציר שמשאיר ספק — נכשל בתפקידו.</p>"
+  },
+  {
+    "question_id_external": "C12-M05-CMP-Q03",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו טווח האורך המומלץ למזכר האשראי המלא בפרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "12-18 עמודים הוא 'בדיוק נכון' — כמו Bear, לא Bull. קצר מדי אומר שלא מיצית את הניתוח; ארוך מדי אומר שלא ידעת לסנן. שניהם מסמנים חוסר שליטה.",
+    "topic_tags": ["capstone", "credit_memo", "length"],
+    "options": [
+      {
+        "text_he": "12-18 עמודים לגוף המזכר, לא כולל נספחים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "5-8 עמודים — מזכר קצר וממוקד עדיף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 5-8 עמודים אינם מאפשרים כיסוי מלא של 8 פרקים; מזכר קצר מדי יחמיץ ממדי ניתוח חיוניים"
+      },
+      {
+        "text_he": "20-30 עמודים — כיסוי מעמיק דורש יותר מ-18",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מעבר ל-18 עמודים הוא סימן לחוסר יכולת סינון; עמודים מיותרים מטשטשים מסקנות חשובות"
+      },
+      {
+        "text_he": "אורך לא מוגבל — חשוב שיהיה מקיף ככל האפשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אורך ללא גבול הוא גישה לא מקצועית; 12-18 עמודים הם הטווח שוועדת האשראי מצפה לו"
+      }
+    ],
+    "explanation_html_he": "<p>הגיון הטווח 12-18 עמודים:</p><ul><li><strong>מינימום 12</strong>: כיסוי 8 פרקים בממוצע 1.5 עמוד לפרק — כולל ניתוח, לא רק כותרות</li><li><strong>מקסימום 18</strong>: גבול שמאלץ לסנן; מה שאינו תורם להחלטה — מוציאים לנספחים</li></ul><p>חלוקה אופיינית:</p><ul><li>תקציר: 1 עמוד</li><li>תיאור נכס: 1-2</li><li>שוק: 2</li><li>DD: 2</li><li>מודל + טבלאות: 3-4</li><li>סיכונים: 2</li><li>המלצה: 1</li><li>סה\"כ: ~12-14 עמודים</li></ul>"
+  },
+  {
+    "question_id_external": "C12-M05-CMP-Q04",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה דרישת העקביות בין מזכר האשראי לבין המודל הפיננסי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "כל מספר שמזכיר במזכר — DSCR, LTV, NOI, IRR — חייב להיות זהה למה שיש בתא המודל. טעות עקביות קטנה אומרת לוועדה שהמנתח לא מבין את המספרים שלו.",
+    "topic_tags": ["capstone", "credit_memo", "consistency"],
+    "options": [
+      {
+        "text_he": "כל מספר שמוזכר במזכר — DSCR, NOI, LTV, Debt Yield — חייב להיות זהה בדיוק למספר המקביל במודל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מותר סטייה של עד 5% בין מזכר למודל — בגלל עיגולים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 5% סטייה יכולה להוביל למסקנות שגויות; הדרישה היא התאמה מלאה; עיגול מחולק ב-הסבר, לא בפער"
+      },
+      {
+        "text_he": "המזכר יכול להשתמש בנתונים משוקללים ומפושטים שאינם בהכרח במודל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל מספר חשוב חייב לנבוע מהמודל; 'נתונים מפושטים' שאינם במודל הם טענה שלא ניתן לאמת"
+      },
+      {
+        "text_he": "עקביות נדרשת רק לפרק המודל — שאר הפרקים יכולים לעגל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עקביות נדרשת בכל הפרקים; NOI שמוזכר בפרק הסיכונים חייב להיות זהה ל-NOI בפרק המודל"
+      }
+    ],
+    "explanation_html_he": "<p>דרישת העקביות — הכלל הפשוט:</p><p><strong>כל מספר במזכר = מספר ממודל, ניתן לאיתור</strong></p><p>בדיקת עקביות לפני הגשה:</p><ol><li>פתח מזכר ומודל זה לצד זה</li><li>סמן כל מספר במזכר</li><li>אתר אותו במודל</li><li>בדוק שהם זהים עד לאחר הפסיק</li></ol><p>שגיאות עקביות נפוצות:</p><ul><li>DSCR במזכר: 1.32x → במודל: 1.28x (עיגול שגוי)</li><li>NOI במזכר: 2.4M → במודל: 2.38M (נלקח מגרסה ישנה)</li><li>LTV במזכר: 65% → במודל: 67.3% (שכחת לעדכן)</li></ul>"
+  },
+  {
+    "question_id_external": "C12-M05-CMP-Q05",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם סטנדרטי הטון והזמן הדקדוקי הנדרשים במזכר האשראי המקצועי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מזכר נכתב בגוף שלישי, הווה, לשון מקצועית — לא 'לדעתי', לא 'אני חושב', לא עבר. 'ה-DSCR מייצג כרית מספקת' — לא 'לדעתי ה-DSCR היה טוב'.",
+    "topic_tags": ["capstone", "writing", "tone"],
+    "options": [
+      {
+        "text_he": "גוף שלישי, זמן הווה, לשון מקצועית ומדויקת — ללא דעות אישיות, ניחושים או ניסוחים עמומים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "גוף ראשון ('אני/אנו'), זמן עבר — מתאר מה שבדקנו ומצאנו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גוף ראשון ועבר הם לא-סטנדרטיים במזכר מקצועי; גוף שלישי הווה מקנה סמכות ואובייקטיביות"
+      },
+      {
+        "text_he": "טון מכירתי חיובי — המזכר נועד לשכנע את הוועדה לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר אשראי הוא מסמך ניתוחי, לא מצגת מכירה; טון מכירתי מחשיד ומעיד על חוסר אובייקטיביות"
+      },
+      {
+        "text_he": "טון סיפורי מספרי — מספר את 'סיפור הנכס' בצורה קריאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; טון סיפורי מתאים לפרזנטציה אך לא למזכר פורמלי; מזכר מקצועי הוא ניתוחי, לא נרטיבי"
+      }
+    ],
+    "explanation_html_he": "<p>סטנדרטי כתיבת מזכר אשראי:</p><ul><li><strong>גוף שלישי</strong>: 'הנכס ממוקם... ה-DSCR מייצג...' (לא 'בדקנו... נראה לנו...')</li><li><strong>זמן הווה</strong>: 'ה-NOI עומד על 1.2M' (לא 'ה-NOI עמד על')</li><li><strong>לשון מדויקת</strong>: 'DSCR של 1.28x' (לא 'DSCR טוב')</li><li><strong>אובייקטיביות</strong>: מציג עובדות ומסקנות — לא דעות</li></ul><p>ניסוחים שיש להימנע מהם:</p><ul><li>'לדעתנו הנכס נראה...'</li><li>'כנראה ה-DSCR יהיה...'</li><li>'מן הראוי לציין שאולי...'</li></ul>"
+  },
+  {
+    "question_id_external": "C12-M05-PRC-Q01",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>תקציר המנהלים של סטודנט מסתיים ב: 'ראינו הזדמנות טובה בנכס זה ואנו ממליצים לשקול אישורו'. מה הבעיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "'לשקול אישור' הוא לא המלצה — זה העברת הכדור לוועדה. ועדת האשראי רוצה מנתח שמחזיק בעמדה, לא מנתח שמתחמק ממנה.",
+    "topic_tags": ["capstone", "executive_summary", "recommendation_clarity"],
+    "options": [
+      {
+        "text_he": "ההמלצה עמומה ומשתמשת בגוף ראשון; נדרש: 'ועדת האשראי מוזמנת לאשר הלוואה של X ₪ ב-Y% בכפוף ל-Z' — ספציפי ובגוף שלישי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "התקציר קצר מדי — 'הזדמנות טובה' מבלי לפרט את כל השיקולים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקציר הוא עמוד אחד בכוונה — לא מקום לכל השיקולים; הבעיה היא בעמימות ההמלצה, לא בקוצר"
+      },
+      {
+        "text_he": "השפה 'ראינו' היא בגוף ראשון — נדרש גוף שלישי, שאר ההמלצה תקינה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גוף ראשון הוא בעיה, אך 'לשקול אישורו' היא עמימות קריטית שיש לתקן לפני עניין הגוף"
+      },
+      {
+        "text_he": "אין בעיה — 'לשקול אישור' היא לשון נימוסים מקצועית מקובלת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'לשקול' היא ניסוח שמחמיץ את תפקיד המנתח; ועדת האשראי מצפה לעמדה ברורה, לא להפנייה חזרה אליה"
+      }
+    ],
+    "explanation_html_he": "<p>ניסוח המלצה נכון לתקציר המנהלים:</p><p><strong>לא תקין</strong>: 'ראינו הזדמנות טובה ואנו ממליצים לשקול אישורו'</p><p><strong>תקין</strong>: 'ועדת האשראי מוזמנת לאשר הלוואה בסך 10,500,000 ₪ (LTV 65%) לתקופה של 7 שנים ב-Prime+1.5%, בכפוף למחיקת הערת האזהרה הרשומה ורישום משכנתא בדרגה ראשונה.'</p><p>ההבדל: <ul><li>סכום ספציפי</li><li>תנאים ספציפיים</li><li>תנאי מוקדם ספציפי</li><li>גוף שלישי</li></ul></p>"
+  },
+  {
+    "question_id_external": "C12-M05-PRC-Q02",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מזכר אשראי של סטודנט מציג DSCR של 1.31x בתקציר המנהלים, אך פרק המודל מציג 1.28x. מה הפעולה הנדרשת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "פער כזה בין תקציר לגוף הוא סימן שהתקציר נכתב מגרסה ישנה של המודל. הפעולה תמיד: המזכר מתעדכן לפי המודל — לא להיפך.",
+    "topic_tags": ["capstone", "consistency", "correction"],
+    "options": [
+      {
+        "text_he": "לתקן את התקציר ל-1.28x — המודל הוא מקור האמת; המזכר תמיד עוקב אחר המודל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לתקן את המודל ל-1.31x — כדי שיתאים לתקציר שכבר אושר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המודל הוא מקור האמת; שינוי מספרי מודל כדי להתאים לטקסט הוא עיוות, לא תיקון"
+      },
+      {
+        "text_he": "לא לשנות כלום — הוועדה מבינה שתקציר ומודל עלולים להיות שונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אי-עקביות מסוג זה היא כשל שמדורג בממד הדיוק הפיננסי; הוועדה לא 'מבינה' — היא פוסלת"
+      },
+      {
+        "text_he": "לכתוב הסבר בשולי התקציר: 'המספרים עוגלו לשתי ספרות אחרי הנקודה'",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.31 לעומת 1.28 אינו עיגול — זהו פער ממשי; לא ניתן להסביר אותו כ'עיגול'"
+      }
+    ],
+    "explanation_html_he": "<p>כלל ברזל: <strong>מזכר עוקב אחר מודל — תמיד</strong></p><p>הסיבה: המודל נבנה מחישובים ונתונים. המזכר מסכם אותם. אם יש פער:</p><ol><li>בדוק איפה הפער נוצר — גרסה ישנה? עיגול שגוי?</li><li>תקן את המזכר לפי המודל</li><li>בצע סריקה מלאה לעקביות לאחר תיקון</li></ol><p>מנהל שרואה 1.31 בתקציר ו-1.28 בגוף יניח שיש שגיאה. פעמיים שגיאה — לא 'עיגול'.</p>"
+  },
+  {
+    "question_id_external": "C12-M05-PRC-Q03",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מה ההבדל בין ניתוח סיכון ל-'רשימת סיכונים' בפרק הסיכונים של המזכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "רשימת סיכונים אומרת: 'סיכון 1: שוק; סיכון 2: ריבית; סיכון 3: ריקנות' — זה ספרנות. ניתוח סיכון אומר: 'ירידת תפוסה של 10% תוריד DSCR מ-1.28 ל-1.09 — הוועדה תדרוש Sweep Clause' — זה ניתוח.",
+    "topic_tags": ["capstone", "risk_analysis", "quality"],
+    "options": [
+      {
+        "text_he": "ניתוח סיכון כמת וקישר כל סיכון לתוצאה מספרית (למשל: DSCR ב-Bear) ולהפחתה; רשימה רק מונה סיכונים ללא כימות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין הבדל — שניהם קבילים לפרויקט הגמר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימה ללא כימות מקבלת ציון נמוך בממד הסיכונים (20%); ניתוח מקושר למספרים הוא הסטנדרט הנדרש"
+      },
+      {
+        "text_he": "רשימת סיכונים עדיפה — ברורה ומוכרת לוועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בהירות ופורמט רשימה הם יתרון צורני, לא ניתוחי; הוועדה רוצה כימות ופתרון, לא רק מיון"
+      },
+      {
+        "text_he": "ניתוח סיכון ארוך יותר; רשימה קצרה יותר — ניתוח עדיף כי יותר מילים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; האורך אינו המבחן; מסקנה מכומתת בשתי שורות עדיפה על תיאור ריק של עמוד"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח סיכון מלא — מבנה לכל סיכון:</p><ol><li><strong>זיהוי</strong>: 'סיכון ריקנות — תפוסה ירדה מ-92% ל-82%'</li><li><strong>כימות</strong>: 'NOI יורד ל-1.08M; DSCR יורד מ-1.28x ל-1.15x'</li><li><strong>הסתברות</strong>: 'סבירות בינונית (ריקנות שוק 15%)'</li><li><strong>הפחתה</strong>: 'Sweep Clause מעל 105% תפוסה; Debt Service Reserve של 6 חודשים'</li><li><strong>סיכום</strong>: 'לאחר הפחתות — סיכון ניהול'</li></ol><p>כל אחד מ-3-5 הסיכונים המרכזיים עובר את החמישייה הזו.</p>"
+  },
+  {
+    "question_id_external": "C12-M05-PRC-Q04",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מזכר אשראי מגיש 22 עמודים. המעריך ביקש לקצר ל-18 עמודים. מאין יש לחסוך?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "קיצור לא אמור לפגוע בניתוח — הוא אמור לחשוף ניסוחים מיותרים. אם 4 עמודים יכולים להיחסך ממקום אחד — כנראה שאותו מקום לא ניתח, רק תיאר.",
+    "topic_tags": ["capstone", "writing", "editing"],
+    "options": [
+      {
+        "text_he": "תיאורים מקדימים, פסקאות רקע שאינן מוסיפות לניתוח, ונספחים שאפשר להעביר לקובץ נפרד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פרק ה-DD — הוא הארוך ביותר ואפשר לסכמו בפחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DD מפורט הוא ממד בציון; קיצורו יפגע בניתוח ובציון; יש לחסוך מניסוחים מיותרים, לא מפרקים מהותיים"
+      },
+      {
+        "text_he": "פרק התרחישים — 3 תרחישים מייצרים עמודים רבים שאפשר לתמצת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 3 תרחישים הם דרישה מינימלית; קיצורם יפגע בממד התרחישים (15%); יש לחסוך מניסוחים לא ניתוחיים"
+      },
+      {
+        "text_he": "פרק ניתוח השוק — מידע שניוני שהמעריך יכול לחפש בעצמו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח שוק הוא ממד עצמאי ברובריקה; קיצורו יפגע בציון; המעריך לא צריך לחפש — המנתח אמור לספק"
+      }
+    ],
+    "explanation_html_he": "<p>מה לחסוך בקיצור מ-22 ל-18 עמודים:</p><ul><li><strong>תיאורים היסטוריים</strong>: 'בשנת 1995 הוקמה החברה שמחזיקה את הנכס...' — לא רלוונטי</li><li><strong>הפניות חוזרות</strong>: אם כבר הסברת בפרק 2, אל תחזור על זה בפרק 5</li><li><strong>נספחים בגוף המזכר</strong>: לוח סילוקין מלא (10 שורות) שייך לנספח, לא לגוף</li><li><strong>רקע כלכלי כללי</strong>: 'כלכלת ישראל גדלה ב-2024 ב-3.4%...' — אם לא מקושר ישירות לנכס</li></ul><p>מה לא לחסוך: ניתוח NOI, DSCR, סיכונים מכומתים, ממצאי DD.</p>"
+  },
+  {
+    "question_id_external": "C12-M05-PRC-Q05",
+    "course_number": 12,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סטודנט כתב בפרק הסיכונים: 'ייתכן שהשוק יירד'. האם זה ניסוח מקצועי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "'ייתכן' הוא ניחוש. מנתח אשראי לא מנחש — הוא מניח הנחות, מכמת תרחישים ומציג הפחתות. 'ייתכן שהשוק יירד' הוא משפט שמודל כלכלי לא יכול להוציא.",
+    "topic_tags": ["capstone", "writing", "risk_language"],
+    "options": [
+      {
+        "text_he": "לא — 'ייתכן' הוא ניסוח עמום; נדרש: 'בתרחיש Bear, ירידת שכ\"ד של 8% תוריד NOI ל-X ו-DSCR ל-Y'",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן — 'ייתכן' הוא ניסוח שמרני נכון שמשקף אי-ודאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמרנות מקצועית מתבטאת בהנחות מספריות זהירות, לא בניסוחים עמומים; 'ייתכן' הוא חוסר כימות"
+      },
+      {
+        "text_he": "כן — בפרק הסיכונים מקובל לתאר אפשרויות ללא כימות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פרק הסיכונים הוא הפרק שבו הכימות הוא החיוני ביותר; תיאורים ללא מספרים בפרק זה הם כשל ממשי"
+      },
+      {
+        "text_he": "כן בתנאי שמוסיפים 'לפי הערכתנו' לפני המשפט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'לפי הערכתנו ייתכן' הוא פחות מקצועי, לא יותר; גוף ראשון + ניחוש = ניסוח כפול שגוי"
+      }
+    ],
+    "explanation_html_he": "<p>שדרוג ניסוחי סיכון:</p><table><tr><th>לא מקצועי</th><th>מקצועי</th></tr><tr><td>'ייתכן שהשוק יירד'</td><td>'בתרחיש Bear, ירידת שכ\"ד של 8% מוריד NOI ל-1.1M ו-DSCR ל-1.12x'</td></tr><tr><td>'יש סיכוי שדייר יעזוב'</td><td>'פקיעת חוזה Anchor Tenant (35% מה-NOI) ב-2027 מייצגת סיכון ריקנות מהותי'</td></tr><tr><td>'הריבית עלולה לעלות'</td><td>'עלייה של 100 bps ב-Prime תגדיל שירות חוב ב-105K ₪ לשנה ותוריד DSCR ב-0.07x'</td></tr></table><p>הכלל: כל טענת סיכון = מספר שמגבה אותה.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-CMP-Q01",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו פורמט הקובץ הנדרש להגשת פרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": ".docx הוא הסטנדרט כי הוא מאפשר הוספת הערות וביקורת בצבע. PDF נוח אך לא מאפשר משוב משובץ. מי שמגיש PDF יתכן שיתבקש להגיש מחדש.",
+    "topic_tags": ["capstone", "submission", "file_format"],
+    "options": [
+      {
+        "text_he": ".docx — קובץ Word, לא PDF ולא פורמטים אחרים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": ".pdf — פורמט אוניברסלי שמתאים לכל מכשיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; למרות יתרונות ה-PDF, הנחיות הפרויקט קובעות .docx לצורך הוספת הערות מעריך"
+      },
+      {
+        "text_he": ".xlsx — מכיל את המודל הפיננסי ואת המזכר בטאבים שונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המודל הוא נספח ל-.docx; ה-.xlsx מוגש בנפרד כנספח; גוף ההגשה הוא .docx"
+      },
+      {
+        "text_he": "כל פורמט מקובל — PDF, Word או PowerPoint",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחיות הפרויקט מפרטות .docx בלבד; PowerPoint אינו מסמך מזכר אשראי"
+      }
+    ],
+    "explanation_html_he": "<p>דרישת פורמט ההגשה:</p><ul><li><strong>מזכר ראשי</strong>: .docx (Microsoft Word)</li><li><strong>מודל פיננסי</strong>: .xlsx (Excel) — בנפרד כנספח</li><li><strong>שם קובץ</strong>: כדאי לפרמט לפי מוסכמה ברורה — LastName_C12_Capstone.docx</li></ul><p>הסיבה ל-.docx: המעריך מוסיף הערות מסוג Track Changes ישירות בטקסט — כלי שאינו קיים ב-PDF. תשובת המשוב שנשלחת אליך היא הקובץ עם ההערות.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-CMP-Q02",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם משקלי הרובריקה בחמישה ממדי ההערכה של פרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הממד הכבד ביותר הוא דיוק פיננסי — 30%. זה אומר שמנתח שלא שולט במספרים לא יכול לפצות עליו בכתיבה יפה. אבל גם: ממד הכתיבה 25% — מנתח שכותב גרוע מפסיד רבע מהציון.",
+    "topic_tags": ["capstone", "rubric", "weights"],
+    "options": [
+      {
+        "text_he": "דיוק פיננסי 30%, כתיבה 25%, ניתוח סיכונים 20%, תרחישים 15%, המלצה 10%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כתיבה 30%, דיוק פיננסי 25%, סיכונים 20%, תרחישים 15%, המלצה 10%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הכתיבה היא 25% ולא 30%; הממד הכבד ביותר הוא דיוק פיננסי (30%)"
+      },
+      {
+        "text_he": "דיוק פיננסי 40%, כתיבה 20%, סיכונים 15%, תרחישים 15%, המלצה 10%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דיוק פיננסי הוא 30% לא 40%; הסכום לא מגיע ל-100% בחלוקה זו"
+      },
+      {
+        "text_he": "כל חמישה הממדים שווים — 20% כל אחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הממדים אינם שווים; חלוקה 30/25/20/15/10 משקפת עדיפויות מקצועיות"
+      }
+    ],
+    "explanation_html_he": "<p>משקלי הרובריקה:</p><table><tr><th>ממד</th><th>משקל</th><th>מה נבדק</th></tr><tr><td>דיוק פיננסי</td><td>30%</td><td>נכונות חישובים, עקביות מודל-מזכר</td></tr><tr><td>כתיבה</td><td>25%</td><td>בהירות, מבנה, ראיות מספריות</td></tr><tr><td>ניתוח סיכונים</td><td>20%</td><td>זיהוי, כימות, הפחתות</td></tr><tr><td>תרחישים</td><td>15%</td><td>3 תרחישים, הנחות מנומקות</td></tr><tr><td>המלצה</td><td>10%</td><td>בהירות, עמדה מנומקת</td></tr><tr><td><strong>סה\"כ</strong></td><td><strong>100%</strong></td><td></td></tr></table>"
+  },
+  {
+    "question_id_external": "C12-M06-CMP-Q03",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין 'שגיאה עובדתית' לבין 'חולשה אנליטית' במשוב מעריכים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שגיאה עובדתית היא: 'DSCR שלך שגוי, הוא 1.15 לא 1.28' — טעות שחייבים לתקן. חולשה אנליטית היא: 'ניתחת את סיכון הריבית בשטחיות' — שיפור שרצוי לעמיק. אחת פוסלת; השנייה מחלישה.",
+    "topic_tags": ["capstone", "feedback", "factual_vs_analytical"],
+    "options": [
+      {
+        "text_he": "שגיאה עובדתית: מספר שגוי, נוסחה שגויה, נתון לא נכון — חובה לתקן; חולשה אנליטית: ניתוח לא מעמיק אך לא שגוי — אפשר לשפר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין הבדל — שני סוגי המשוב מחייבים תיקון מלא לפני שהפרויקט עובר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שגיאה עובדתית היא קריטית; חולשה אנליטית היא שיפור רצוי; ההבחנה ביניהן קובעת את סדר עדיפויות התיקון"
+      },
+      {
+        "text_he": "שגיאה עובדתית עוסקת בכתיבה; חולשה אנליטית עוסקת בחישובים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שגיאה עובדתית היא בנתון (מספר, עובדה) לא בכתיבה; חולשה אנליטית היא בעומק הניתוח לא בחישוב"
+      },
+      {
+        "text_he": "חולשה אנליטית חמורה יותר כי היא משפיעה על כל הניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שגיאה עובדתית חמורה יותר — היא הופכת את הניתוח לשגוי; חולשה אנליטית מחלישה אך לא שוברת"
+      }
+    ],
+    "explanation_html_he": "<p>שני סוגי המשוב וההתייחסות:</p><table><tr><th>סוג</th><th>דוגמה</th><th>פעולה</th></tr><tr><td>שגיאה עובדתית</td><td>'LTV שלך 65% אך החישוב נותן 68%'</td><td>תיקון מיידי חובה</td></tr><tr><td>שגיאה עובדתית</td><td>'NOI שציטטת במזכר שונה מהמודל'</td><td>תיקון מיידי חובה</td></tr><tr><td>חולשה אנליטית</td><td>'ניתוח סיכון הריבית שטחי'</td><td>שיפור רצוי</td></tr><tr><td>חולשה אנליטית</td><td>'תרחיש הקיצון יכול להיות חמור יותר'</td><td>שיפור רצוי</td></tr></table><p>בתהליך עדכון: תקן שגיאות עובדתיות ראשון, שפר חולשות אנליטיות שנייה.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-CMP-Q04",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מעריכים בודקים ראשון כשפותחים פרויקט גמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "התקציר הוא 'שם הכרטיס ביקור' שלך. אם בעמוד הראשון יש טעות DSCR — המעריך יבדוק את המודל לפני שיקרא כלום אחר. התקציר קובע את הטון.",
+    "topic_tags": ["capstone", "evaluation", "first_impression"],
+    "options": [
+      {
+        "text_he": "תקציר המנהלים — האם ברור, מספרי ויש בו המלצה? זה הרושם הראשון שקובע את מסגרת הקריאה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נספחי המודל — כדי לוודא שהנתונים הבסיסיים נכונים לפני קריאת המזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מעריכים מקצועיים קוראים לפי סדר — תקציר ראשון; המודל נבדק בשלב מאוחר יותר לאימות"
+      },
+      {
+        "text_he": "פרק ה-Due Diligence — כי הוא הממד הקשה ביותר לביצוע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המעריך עובר בסדר הגיוני מהתקציר לגוף; DD נבדק לאחר שהתמונה הכללית ברורה"
+      },
+      {
+        "text_he": "פרק ההמלצה — כדי לדעת מה עמדת הסטודנט לפני קריאת הניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פרק ההמלצה הוא בסוף מסיבה — הוא הסיכום של כל הניתוח שקדם; הכניסה דרך ההמלצה לא מייצגת את אופן הקריאה הסטנדרטי"
+      }
+    ],
+    "explanation_html_he": "<p>סדר קריאת פרויקט גמר על ידי מעריך:</p><ol><li><strong>תקציר מנהלים</strong> — מה הנכס? כמה? DSCR? המלצה? (2 דקות)</li><li><strong>פרק המודל הפיננסי</strong> — בדיקת עקביות מספרים (5 דקות)</li><li><strong>פרק הסיכונים</strong> — האם זוהו הסיכונים הנכונים? (3 דקות)</li><li><strong>פרק DD</strong> — האם כל 6 מסמכים? ממצאים? (3 דקות)</li><li><strong>פרק ניתוח השוק</strong> — מקורות? Comps? (2 דקות)</li><li><strong>המלצה</strong> — האם ברורה ועקבית? (1 דקה)</li></ol><p>תקציר ירוד = מעריך מגיע לגוף עם ספקות. תקציר טוב = מעריך מגיע עם ציפייה חיובית.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-CMP-Q05",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה תהליך העדכון אם קיבלת משוב על פרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "משוב הוא מתנה — מעריך שכותב הערות מרגיש שהפרויקט שווה שיפור. תגובה נאותה: קרא, הבין, תקן שגיאות ראשון, שפר חולשות שנייה, ואל תגיב 'אני חולק על ההערה' ללא בסיס.",
+    "topic_tags": ["capstone", "revision", "feedback_process"],
+    "options": [
+      {
+        "text_he": "קריאת המשוב, תיקון שגיאות עובדתיות ראשון, שיפור חולשות אנליטיות שנייה, הגשה מחודשת עם רשימת השינויים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הגשת תשובה כתובה למעריך שמסבירה מדוע הניתוח המקורי נכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תגובה ולא תיקון אינה הגישה הנדרשת; תהליך העדכון הוא תיקון הפרויקט עצמו, לא ויכוח עם המעריך"
+      },
+      {
+        "text_he": "בחירת פרויקט אחר כי המשוב על הנכס הנוכחי מצביע על בעיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; משוב הוא הזדמנות לשיפור הפרויקט הנוכחי, לא אות לנטישתו; לא מחליפים נכס בשלב הגשה חוזרת"
+      },
+      {
+        "text_he": "הגשה מחודשת ללא שינויים עם ציון 'מוגש מחדש' בשם הקובץ",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגשה ללא שינויים אחרי משוב מציגה חוסר יחס ללמידה; המעריך יבדוק מה השתנה"
+      }
+    ],
+    "explanation_html_he": "<p>תהליך עדכון מומלץ אחרי קבלת משוב:</p><ol><li><strong>קרא את כל ההערות</strong> — לפני כלום, הבן מה נאמר</li><li><strong>מיין: עובדתי / אנליטי</strong> — שתי רשימות נפרדות</li><li><strong>תקן שגיאות עובדתיות</strong> — מספרים, נוסחאות, עקביות</li><li><strong>שפר חולשות אנליטיות</strong> — הרחב ניתוח, הוסף כימות</li><li><strong>בצע בדיקת עקביות חדשה</strong> — תיקון אחד עלול לייצר פערים חדשים</li><li><strong>הגש עם Log שינויים</strong> — 'תוקן: X, שופר: Y' — מראה שקראת את המשוב</li></ol>"
+  },
+  {
+    "question_id_external": "C12-M06-PRC-Q01",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סטודנט קיבל ציון 55 (כשל) בפרויקט. ממד הדיוק הפיננסי ניקה 40/100, ממד הכתיבה 70/100. מה הציון המשוקלל ומה הגורם העיקרי לכישלון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שנים ממדים שמסבירים 55% מהציון — כשאחד מהם מגיע רק 40/100, הנזק ממנו לבד הוא 12 נקודות שנגרעו מהמרב. ממד הדיוק הפיננסי הוא 'המפתח' — שם הכסף.",
+    "topic_tags": ["capstone", "rubric", "weighted_calculation"],
+    "options": [
+      {
+        "text_he": "הציון המשוקלל: (40×0.30)+(70×0.25) = 12+17.5 = 29.5 מתוך 55 (בשני ממדים); הגורם העיקרי — דיוק פיננסי נמוך ב-30% ממנו 60% אפשריים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הציון המשוקלל: (55+70)/2 = 62.5 — ממוצע שני הממדים; הגורם — כתיבה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע פשוט אינו חישוב נכון; יש לשקלל כל ממד במשקלו; הגורם העיקרי הוא הדיוק הפיננסי"
+      },
+      {
+        "text_he": "לא ניתן לחשב מתוך שני ממדים בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתן לחשב את תרומת שני הממדים לציון הכולל ולנתח איזה מהם גרם נזק גדול יותר"
+      },
+      {
+        "text_he": "הציון המשוקלל: (40×0.25)+(70×0.30) = 10+21 = 31; הגורם — כתיבה כי 70/100 זה נמוך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המשקלים הוחלפו; דיוק פיננסי = 30%, כתיבה = 25%; 70/100 בכתיבה הוא ממוצע-טוב, לא נמוך"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב תרומת שני הממדים:</p><ul><li>דיוק פיננסי: 40/100 × 30% = <strong>12.0 נקודות</strong> (מתוך 30 אפשריות)</li><li>כתיבה: 70/100 × 25% = <strong>17.5 נקודות</strong> (מתוך 25 אפשריות)</li><li>סה\"כ שני ממדים: 29.5 מתוך 55</li></ul><p>הגורם: ממד הדיוק הפיננסי מנפח רק 12 מתוך 30 — <strong>18 נקודות 'נשארו על השולחן'</strong>. אם הסטודנט שיפר את הדיוק ל-75/100: 22.5 + 17.5 = 40 + שאר ממדים — כנראה מעל 60 ועובר.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-PRC-Q02",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מעריך כתב: 'ניתוח הסיכונים מזהה את הסיכונים הנכונים אך לא מכמת אותם'. לאיזה ממד וכמה נקודות זה פוגע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "זיהוי ללא כימות בממד הסיכונים נותן אולי 50-60% מהממד. 20 נקודות בממד — כלומר 10-12 בפועל. ה-8-10 שהלכו לאיבוד בגלל חוסר כימות הם ה'ציון הנסתר' שאפשר לשחזר.",
+    "topic_tags": ["capstone", "risk_analysis", "scoring"],
+    "options": [
+      {
+        "text_he": "ממד ניתוח הסיכונים (20% מהציון); זיהוי ללא כימות מקנה כ-50-60% מהממד במקום 80-100% — הפסד של 4-8 נקודות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ממד הדיוק הפיננסי (30%); חוסר כימות הוא שגיאה חישובית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוסר כימות בסיכונים פוגע בממד הסיכונים; ממד הדיוק הפיננסי עוסק בנכונות חישובי המודל"
+      },
+      {
+        "text_he": "ממד הכתיבה (25%); כי הכימות הוא כישור כתיבה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כימות סיכונים הוא ניתוחי, לא ספרותי; הפגיעה היא בממד הסיכונים עצמו"
+      },
+      {
+        "text_he": "אין פגיעה — זיהוי הסיכונים הנכונים מספיק לציון מלא בממד הסיכונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרובריקה מחייבת כימות והפחתות; זיהוי לבד מקנה לכל היותר 50-60% מהממד"
+      }
+    ],
+    "explanation_html_he": "<p>ממד הסיכונים (20%) — כיצד מחשבים:</p><table><tr><th>רמת ניתוח</th><th>ציון ממד</th><th>תרומה לציון הכולל</th></tr><tr><td>זיהוי + כימות + הפחתה</td><td>85-100/100</td><td>17-20 נקודות</td></tr><tr><td>זיהוי + כימות ללא הפחתה</td><td>65-80/100</td><td>13-16 נקודות</td></tr><tr><td>זיהוי ללא כימות</td><td>45-60/100</td><td>9-12 נקודות</td></tr><tr><td>רשימה בלבד</td><td>20-40/100</td><td>4-8 נקודות</td></tr></table><p>פתרון: לכל סיכון — הוסף שורה: 'ירידת תפוסה של 10% תוריד DSCR ל-X' → ציון הממד עולה.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-PRC-Q03",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סטודנט הגיש פרויקט ב-.pdf במקום .docx. מה הסיכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "הנחיות הגשה הן לא המלצות — הן כללי הגשה. מי שלא עומד בהן יתכן שיתבקש להגיש מחדש, ובמקרה של מחסור בזמן — ציון נמוך מהרף.",
+    "topic_tags": ["capstone", "submission", "format_compliance"],
+    "options": [
+      {
+        "text_he": "הגשה בפורמט שגוי עלולה לגרום לבקשה להגשה מחודשת ב-.docx, עם עיכוב בציון; במקרי קצה — ציון נמוך על פגם פרוצדורלי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין סיכון — PDF ו-Word זהים מבחינת תוכן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; התוכן זהה אך הפורמט קובע את יכולת המעריך להוסיף הערות; אי עמידה בדרישה היא פגם פרוצדורלי"
+      },
+      {
+        "text_he": "הסיכון הוא שה-PDF לא ייפתח על מחשב המעריך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; PDF נפתח על כל מחשב; הסיכון הוא חוסר יכולת הוספת הערות, לא בעיית פתיחה"
+      },
+      {
+        "text_he": "אין סיכון — המעריך יבקש .docx רק אם יש בעיות תוכן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דרישת הפורמט היא עצמאית מתוכן; הבקשה להמיר תגיע ללא קשר לאיכות הניתוח"
+      }
+    ],
+    "explanation_html_he": "<p>דרישת .docx — הסיבה והסיכון:</p><ul><li><strong>הסיבה</strong>: המעריך מוסיף הערות Track Changes ו-Comments ישירות בטקסט; PDF לא מאפשר זאת</li><li><strong>הסיכון</strong>: בקשה להמרה → עיכוב של ימים → לחץ זמן</li><li><strong>פתרון</strong>: שמור .docx כקובץ ראשי; ייצא PDF לצפייה עצמית אך הגש .docx</li></ul><p>כלל כללי: הנחיות פרוצדורליות (פורמט, אורך, שמות קבצים) כדאי לקיים בדיוק — הן לא ניתנות לפרשנות.</p>"
+  },
+  {
+    "question_id_external": "C12-M06-PRC-Q04",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט קיבל ציון 76 סה\"כ. כדי לשפר ל-85+, על מי ממדים כדאי להתמקד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "בניהול ציון — תשואה שולית. נקודה 'קלה' לשיפור ב-20% ממד שווה יותר מנקודה 'קלה' ב-10% ממד. אסטרטגיה: שפר את הממדים הכבדים ביותר שעוד יש בהם מקום.",
+    "topic_tags": ["capstone", "improvement_strategy", "rubric"],
+    "options": [
+      {
+        "text_he": "על הממדים הכבדים (דיוק פיננסי 30%, כתיבה 25%) — שיפור קטן בהם מניב יותר נקודות מאשר שיפור גדול בממד קטן",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "על ממד ההמלצה (10%) — שהוא הקל ביותר לשיפור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממד ההמלצה שווה 10 נקודות מקסימום; שיפור מ-70% ל-100% שם נותן 3 נקודות; שיפור מקביל בדיוק פיננסי נותן 9 נקודות"
+      },
+      {
+        "text_he": "על ממד התרחישים (15%) — כי הוא הממד שהסטודנטים הכי נכשלים בו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם תרחישים הם אזור כשל נפוץ, האסטרטגיה הנכונה היא שיפור בממדים הכבדים; 15% הוא ממד בינוני"
+      },
+      {
+        "text_he": "על כל הממדים בשווה — שיפור מאוזן מניב תוצאה מיטבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיפור מאוזן מנפיש משאבים בין ממדים שונים; ממדים כבדים מניבים תשואה גבוהה יותר לאותה השקעה"
+      }
+    ],
+    "explanation_html_he": "<p>אסטרטגיית שיפור ציון — חישוב תשואה שולית:</p><table><tr><th>ממד</th><th>משקל</th><th>שיפור 10 נקודות שווה</th></tr><tr><td>דיוק פיננסי</td><td>30%</td><td>3.0 נקודות ציון</td></tr><tr><td>כתיבה</td><td>25%</td><td>2.5 נקודות ציון</td></tr><tr><td>סיכונים</td><td>20%</td><td>2.0 נקודות ציון</td></tr><tr><td>תרחישים</td><td>15%</td><td>1.5 נקודות ציון</td></tr><tr><td>המלצה</td><td>10%</td><td>1.0 נקודות ציון</td></tr></table><p>כדי לעלות מ-76 ל-85 (9 נקודות): שיפור 30 נקודות בדיוק פיננסי = 9 נקודות, לעומת שיפור 90 נקודות בממד ההמלצה = 9 נקודות. <strong>הכסף גדול הוא בממדים הכבדים.</strong></p>"
+  },
+  {
+    "question_id_external": "C12-M06-PRC-Q05",
+    "course_number": 12,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מה ה-Log שינויים שמגישים עם גרסה מעודכנת לאחר קבלת משוב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Log שינויים מוכיח שקראת את המשוב ופעלת על פיו. זה לא רק 'מדיניות' — זה הדגמה מהירה שמחסכת למעריך זמן: הוא ישר עולה לנקודות שתיקנת ולא קורא הכל מחדש.",
+    "topic_tags": ["capstone", "revision", "change_log"],
+    "options": [
+      {
+        "text_he": "מסמך קצר (חצי-עמוד) שמפרט: מה תוקן (עם ציון עמוד), מה שופר, ומה שנשמר ולמה — מאפשר למעריך לאמת שינויים ביעילות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תגובה לכל הערה של המעריך עם הסבר מדוע ההערה נכונה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Log שינויים מתעד מה שינית, לא מאשר שהמעריך צדק; תגובות הסכמה אינן מה שנדרש"
+      },
+      {
+        "text_he": "ה-Log מיותר — השינויים ברורים מעצמם בגרסה המעודכנת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ללא Log, המעריך צריך לקרוא הכל מחדש; Log מייעל את בדיקת הגרסה המעודכנת"
+      },
+      {
+        "text_he": "ה-Log כולל את כל ניסוחי המקור ואת הניסוחים החדשים לצד כל שינוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השוואת גרסאות מפורטת כזו ארוכה מדי; Log תמציתי עם הפנייה לעמוד מספיק"
+      }
+    ],
+    "explanation_html_he": "<p>Log שינויים תמציתי (דוגמה):</p><p><strong>שינויים בגרסה 2.0</strong></p><ul><li><strong>תוקן (שגיאות עובדתיות)</strong>:<ul><li>עמ' 4: DSCR Base תוקן מ-1.31x ל-1.28x (התאמה למודל)</li><li>עמ' 7: NOI 2024 תוקן מ-1.9M ל-1.87M (שורת נרמול נוספה)</li></ul></li><li><strong>שופר (חולשות אנליטיות)</strong>:<ul><li>עמ' 9: סיכון ריקנות עודכן עם כימות — ירידת תפוסה 10% → DSCR 1.09x</li><li>עמ' 11: Stress Test הורחב לכלול Debt Yield</li></ul></li></ul><p>Log כזה = 10 דקות עבודה; חוסך למעריך 30 דקות קריאה.</p>"
+  }
+]
