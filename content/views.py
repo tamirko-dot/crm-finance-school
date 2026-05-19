@@ -181,22 +181,63 @@ def module_view(request: HttpRequest, course_slug: str, module_slug: str) -> Htt
     # Ensure ModuleProgress exists
     mp, _ = ModuleProgress.objects.get_or_create(user=request.user, module=module)
 
-    current_component = _get_current_component(request.user, module)
+    all_components = list(module.components.filter(is_active=True).order_by("order"))
+    completed_pks = set(
+        ComponentProgress.objects.filter(
+            user=request.user, component__in=all_components, is_completed=True
+        ).values_list("component_id", flat=True)
+    )
+    current_component = next((c for c in all_components if c.pk not in completed_pks), None)
 
     if request.method == "POST":
         return _handle_component_post(request, course, module, mp, current_component)
 
-    # Build feedback from session if present
-    sess_key = f"comp_feedback_{module.pk}"
-    feedback = request.session.pop(sess_key, None)
+    # Free navigation: allow visiting any completed component or the current one
+    viewed_component = current_component
+    requested_pk = request.GET.get("component")
+    if requested_pk:
+        try:
+            req_pk = int(requested_pk)
+            candidate = next((c for c in all_components if c.pk == req_pk), None)
+            if candidate and (candidate.pk in completed_pks or candidate == current_component):
+                viewed_component = candidate
+        except (ValueError, TypeError):
+            pass
+
+    is_review_mode = viewed_component is not None and (
+        current_component is None or viewed_component.pk != current_component.pk
+    )
+
+    # Only pop session feedback when viewing the active (incomplete) component
+    feedback = None
+    if not is_review_mode:
+        sess_key = f"comp_feedback_{module.pk}"
+        feedback = request.session.pop(sess_key, None)
+
+    # Compute adjacent accessible components for prev/next navigation
+    prev_component = None
+    next_component = None
+    if viewed_component is not None:
+        viewed_idx = next((i for i, c in enumerate(all_components) if c.pk == viewed_component.pk), -1)
+        if viewed_idx > 0:
+            prev_component = all_components[viewed_idx - 1]
+        if 0 <= viewed_idx < len(all_components) - 1:
+            nxt = all_components[viewed_idx + 1]
+            if nxt.pk in completed_pks or nxt == current_component:
+                next_component = nxt
 
     return render(request, "content/module_view.html", {
         "course": course,
         "module": module,
         "current_component": current_component,
+        "viewed_component": viewed_component,
+        "is_review_mode": is_review_mode,
         "module_complete": current_component is None,
         "feedback": feedback,
-        "all_components": module.components.filter(is_active=True).order_by("order"),
+        "all_components": all_components,
+        "completed_pks": completed_pks,
+        "prev_component": prev_component,
+        "next_component": next_component,
     })
 
 

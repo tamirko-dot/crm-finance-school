@@ -9,74 +9,173 @@
   {{ module.title_he }}
 </div>
 
+<!-- Progress bar — completed stages are clickable links -->
 <div class="mb-6" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
   {% for comp in all_components %}
-    <div style="padding:4px 12px;border-radius:12px;font-size:12px;
-      {% if not module_complete and current_component and comp.pk == current_component.pk %}background:#1a2638;color:#fff;
-      {% elif module_complete or current_component and comp.order < current_component.order %}background:#e8f5e9;color:#2e7d32;
-      {% else %}background:#f7fafc;color:#6b7280;{% endif %}">
-      {{ comp.get_component_type_display }}
-    </div>
+    {% if viewed_component and comp.pk == viewed_component.pk %}
+      <div style="padding:4px 12px;border-radius:12px;font-size:12px;background:#1a2638;color:#fff">
+        {{ comp.get_component_type_display }}
+      </div>
+    {% elif comp.pk in completed_pks %}
+      <a href="?component={{ comp.pk }}" style="padding:4px 12px;border-radius:12px;font-size:12px;background:#e8f5e9;color:#2e7d32;text-decoration:none">
+        {{ comp.get_component_type_display }}
+      </a>
+    {% elif current_component and comp.pk == current_component.pk %}
+      <a href="{% url 'module_view' course.slug module.slug %}" style="padding:4px 12px;border-radius:12px;font-size:12px;background:#fff3cd;color:#856404;text-decoration:none">
+        {{ comp.get_component_type_display }}
+      </a>
+    {% else %}
+      <div style="padding:4px 12px;border-radius:12px;font-size:12px;background:#f7fafc;color:#6b7280">
+        {{ comp.get_component_type_display }}
+      </div>
+    {% endif %}
   {% endfor %}
+  {% if is_review_mode and current_component %}
+  <a href="{% url 'module_view' course.slug module.slug %}" style="font-size:12px;color:#2563eb;padding:4px 8px">
+    חזרה לשלב הנוכחי ←
+  </a>
+  {% endif %}
 </div>
 
-{% if module_complete %}
+{% if not viewed_component %}
+<!-- Module complete, no component selected for review -->
 <div class="card text-center py-10">
   <h2 style="color:#2e7d32" class="mb-3">המודול הושלם!</h2>
   <p style="color:#6b7280" class="mb-6">סיימת את כל הרכיבים של מודול "{{ module.title_he }}".</p>
   <a href="{% url 'course_detail' course.slug %}" class="btn-primary">חזרה לקורס</a>
 </div>
 
-{% elif current_component %}
+{% elif is_review_mode %}
+<!-- Review mode: viewing a completed stage in read-only mode -->
 
-  {% if feedback %}
-    <div class="card mb-6">
-      <h3 class="mb-4">{% if feedback.type == "exercises" %}תוצאות התרגול{% else %}תוצאות בדיקת ההבנה{% endif %}</h3>
-      {% if feedback.type == "exercises" %}
-      <p class="mb-4" style="font-weight:600">ציון: {{ feedback.score_pct }}%</p>
-      {% endif %}
-      {% for r in feedback.results %}
-      <div style="border:1px solid #cbd5e0;border-radius:4px;padding:16px;margin-bottom:12px;background:{% if r.is_correct %}#e8f5e9{% else %}#fee5e0{% endif %}">
-        <div style="font-size:13px;color:#6b7280;margin-bottom:8px">{{ r.stem|safe }}</div>
-        <div style="font-size:13px">
-          תשובתך: <strong>{{ r.chosen_text }}</strong>
-          {% if not r.is_correct %}
-          &nbsp;&bull;&nbsp; תשובה נכונה: <strong>{{ r.correct_text }}</strong>
-          {% endif %}
-        </div>
-        {% if not r.is_correct and r.distractor %}
-        <div class="callout-warning" style="margin:8px 0 0;padding:10px;font-size:13px">{{ r.distractor }}</div>
-        {% endif %}
-        {% if r.explanation %}
-        <div style="font-size:12px;color:#6b7280;margin-top:8px;border-top:1px solid #cbd5e0;padding-top:8px">{{ r.explanation|safe }}</div>
-        {% endif %}
+{% if viewed_component.component_type == "reading" %}
+<div class="card" id="reading-card">
+  <h2 class="mb-6">{{ viewed_component.module.title_he }}</h2>
+  <div>{{ viewed_component.body_html_he|safe }}</div>
+  <div style="border-top:1px solid #cbd5e0;margin-top:32px;padding-top:20px;display:flex;gap:12px;flex-wrap:wrap">
+    {% if prev_component %}<a href="?component={{ prev_component.pk }}" class="btn-secondary">שלב קודם</a>{% endif %}
+    {% if next_component %}<a href="?component={{ next_component.pk }}" class="btn-secondary">שלב הבא</a>{% endif %}
+    {% if current_component %}<a href="{% url 'module_view' course.slug module.slug %}" class="btn-primary" style="margin-inline-start:auto">חזרה לשלב הנוכחי</a>{% endif %}
+  </div>
+</div>
+
+{% elif viewed_component.component_type == "comprehension" %}
+<div class="card">
+  <h2 class="mb-2">בדיקת הבנה</h2>
+  <p style="color:#6b7280;font-size:13px" class="mb-6">{{ viewed_component.instructions_he|default:"ענה על השאלות הבאות." }}</p>
+  {% with questions=viewed_component.module.questions.all %}
+  {% for q in questions %}
+    {% if q.usage_context == "comprehension" %}
+    <div style="margin-bottom:28px;padding-bottom:24px;border-bottom:1px solid #cbd5e0">
+      <div style="font-weight:600;margin-bottom:12px">{{ q.stem_html_he|safe }}</div>
+      {% for opt in q.options.all %}
+      <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:8px;font-size:14px;color:#374151">
+        <span style="min-width:16px;color:#9ca3af">{{ forloop.counter }}.</span>
+        <span>{{ opt.text_he }}</span>
       </div>
       {% endfor %}
-      <form method="post">
-        {% csrf_token %}
-        {% if feedback.type == "exercises" %}
-          {% if not feedback.is_second_attempt %}
-          <button name="action" value="submit_exercises" type="submit" class="btn-secondary" style="margin-left:12px">ניסיון שני</button>
-          {% endif %}
-          <button name="action" value="exercises_complete" type="submit" class="btn-primary">המשך לסיכום</button>
-        {% else %}
-          <button name="action" value="comprehension_complete" type="submit" class="btn-primary">המשך לתרגילים</button>
-        {% endif %}
-      </form>
     </div>
+    {% endif %}
+  {% endfor %}
+  {% endwith %}
+  <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+    {% if prev_component %}<a href="?component={{ prev_component.pk }}" class="btn-secondary">שלב קודם</a>{% endif %}
+    {% if next_component %}<a href="?component={{ next_component.pk }}" class="btn-secondary">שלב הבא</a>{% endif %}
+    {% if current_component %}<a href="{% url 'module_view' course.slug module.slug %}" class="btn-primary" style="margin-inline-start:auto">חזרה לשלב הנוכחי</a>{% endif %}
+  </div>
+</div>
+
+{% elif viewed_component.component_type == "exercises" %}
+<div class="card">
+  <h2 class="mb-2">תרגילים</h2>
+  <p style="color:#6b7280;font-size:13px" class="mb-6">{{ viewed_component.instructions_he|default:"פתור את התרגילים הבאים." }}</p>
+  {% with questions=viewed_component.module.questions.all %}
+  {% for q in questions %}
+    {% if q.usage_context == "practice" %}
+    <div style="margin-bottom:28px;padding-bottom:24px;border-bottom:1px solid #cbd5e0">
+      <div style="font-weight:600;margin-bottom:12px">{{ q.stem_html_he|safe }}</div>
+      {% for opt in q.options.all %}
+      <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:8px;font-size:14px;color:#374151">
+        <span style="min-width:16px;color:#9ca3af">{{ forloop.counter }}.</span>
+        <span>{{ opt.text_he }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  {% endwith %}
+  <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+    {% if prev_component %}<a href="?component={{ prev_component.pk }}" class="btn-secondary">שלב קודם</a>{% endif %}
+    {% if next_component %}<a href="?component={{ next_component.pk }}" class="btn-secondary">שלב הבא</a>{% endif %}
+    {% if current_component %}<a href="{% url 'module_view' course.slug module.slug %}" class="btn-primary" style="margin-inline-start:auto">חזרה לשלב הנוכחי</a>{% endif %}
+  </div>
+</div>
+
+{% elif viewed_component.component_type == "summary" %}
+<div class="card">
+  <h2 class="mb-6">סיכום</h2>
+  {% if viewed_component.body_html_he %}
+  <div>{{ viewed_component.body_html_he|safe }}</div>
+  {% endif %}
+  <div style="border-top:1px solid #cbd5e0;margin-top:32px;padding-top:20px;display:flex;gap:12px;flex-wrap:wrap">
+    {% if prev_component %}<a href="?component={{ prev_component.pk }}" class="btn-secondary">שלב קודם</a>{% endif %}
+    {% if next_component %}<a href="?component={{ next_component.pk }}" class="btn-secondary">שלב הבא</a>{% endif %}
+    {% if current_component %}<a href="{% url 'module_view' course.slug module.slug %}" class="btn-primary" style="margin-inline-start:auto">חזרה לשלב הנוכחי</a>{% endif %}
+  </div>
+</div>
+{% endif %}
+
+{% else %}
+<!-- Normal mode: viewing the active (current) component -->
+
+  {% if feedback %}
+  <div class="card mb-6">
+    <h3 class="mb-4">{% if feedback.type == "exercises" %}תוצאות התרגול{% else %}תוצאות בדיקת ההבנה{% endif %}</h3>
+    {% if feedback.type == "exercises" %}
+    <p class="mb-4" style="font-weight:600">ציון: {{ feedback.score_pct }}%</p>
+    {% endif %}
+    {% for r in feedback.results %}
+    <div style="border:1px solid #cbd5e0;border-radius:4px;padding:16px;margin-bottom:12px;background:{% if r.is_correct %}#e8f5e9{% else %}#fee5e0{% endif %}">
+      <div style="font-size:13px;color:#6b7280;margin-bottom:8px">{{ r.stem|safe }}</div>
+      <div style="font-size:13px">
+        תשובתך: <strong>{{ r.chosen_text }}</strong>
+        {% if not r.is_correct %}
+        &nbsp;&bull;&nbsp; תשובה נכונה: <strong>{{ r.correct_text }}</strong>
+        {% endif %}
+      </div>
+      {% if not r.is_correct and r.distractor %}
+      <div class="callout-warning" style="margin:8px 0 0;padding:10px;font-size:13px">{{ r.distractor }}</div>
+      {% endif %}
+      {% if r.explanation %}
+      <div style="font-size:12px;color:#6b7280;margin-top:8px;border-top:1px solid #cbd5e0;padding-top:8px">{{ r.explanation|safe }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+    <form method="post">
+      {% csrf_token %}
+      {% if feedback.type == "exercises" %}
+        {% if not feedback.is_second_attempt %}
+        <button name="action" value="submit_exercises" type="submit" class="btn-secondary" style="margin-left:12px">ניסיון שני</button>
+        {% endif %}
+        <button name="action" value="exercises_complete" type="submit" class="btn-primary">המשך לסיכום</button>
+      {% else %}
+        <button name="action" value="comprehension_complete" type="submit" class="btn-primary">המשך לתרגילים</button>
+      {% endif %}
+    </form>
+  </div>
   {% endif %}
 
   {% if not feedback or feedback.type == "comprehension" %}
 
-  {% if current_component.component_type == "reading" %}
+  {% if viewed_component.component_type == "reading" %}
   <div class="card" id="reading-card">
-    <h2 class="mb-6">{{ current_component.module.title_he }}</h2>
-    <div id="reading-content">{{ current_component.body_html_he|safe }}</div>
+    <h2 class="mb-6">{{ viewed_component.module.title_he }}</h2>
+    <div id="reading-content">{{ viewed_component.body_html_he|safe }}</div>
     <div style="border-top:1px solid #cbd5e0;margin-top:32px;padding-top:20px">
       <form method="post" id="reading-form">
         {% csrf_token %}
         <button name="action" value="read_complete" type="submit" id="read-btn" class="btn-primary"
-          {% if not current_component.body_html_he %}{% else %}disabled style="opacity:.5;cursor:not-allowed"{% endif %}>
+          {% if not viewed_component.body_html_he %}{% else %}disabled style="opacity:.5;cursor:not-allowed"{% endif %}>
           סיימתי לקרוא — המשך
         </button>
         <p id="scroll-hint" style="font-size:12px;color:#6b7280;margin-top:8px">
@@ -92,7 +191,6 @@
       var content = document.getElementById('reading-content');
       if (!content || !btn) return;
       function check(){
-        var rect = content.getBoundingClientRect();
         var scrolled = window.scrollY + window.innerHeight;
         var target = content.offsetTop + content.offsetHeight * 0.9;
         if (scrolled >= target){
@@ -107,11 +205,11 @@
     })();
   </script>
 
-  {% elif current_component.component_type == "comprehension" %}
+  {% elif viewed_component.component_type == "comprehension" %}
   <div class="card">
     <h2 class="mb-2">בדיקת הבנה</h2>
-    <p style="color:#6b7280;font-size:13px" class="mb-6">{{ current_component.instructions_he|default:"ענה על השאלות הבאות." }}</p>
-    {% with questions=current_component.module.questions.all %}
+    <p style="color:#6b7280;font-size:13px" class="mb-6">{{ viewed_component.instructions_he|default:"ענה על השאלות הבאות." }}</p>
+    {% with questions=viewed_component.module.questions.all %}
     {% if questions %}
     <form method="post">
       {% csrf_token %}
@@ -131,7 +229,7 @@
       <button name="action" value="submit_comprehension" type="submit" class="btn-primary">בדיקת תשובות</button>
     </form>
     {% else %}
-    <form method="post"><{% csrf_token %}
+    <form method="post">{% csrf_token %}
     <p style="color:#6b7280">אין שאלות הבנה לרכיב זה.</p>
     <button name="action" value="comprehension_complete" type="submit" class="btn-primary">המשך</button>
     </form>
@@ -139,11 +237,11 @@
     {% endwith %}
   </div>
 
-  {% elif current_component.component_type == "exercises" %}
+  {% elif viewed_component.component_type == "exercises" %}
   <div class="card">
     <h2 class="mb-2">תרגילים</h2>
-    <p style="color:#6b7280;font-size:13px" class="mb-6">{{ current_component.instructions_he|default:"פתור את התרגילים הבאים. יש לך שתי הזדמנויות לכל שאלה." }}</p>
-    {% with questions=current_component.module.questions.all %}
+    <p style="color:#6b7280;font-size:13px" class="mb-6">{{ viewed_component.instructions_he|default:"פתור את התרגילים הבאים. יש לך שתי הזדמנויות לכל שאלה." }}</p>
+    {% with questions=viewed_component.module.questions.all %}
     {% if questions %}
     <form method="post">
       {% csrf_token %}
@@ -171,11 +269,11 @@
     {% endwith %}
   </div>
 
-  {% elif current_component.component_type == "summary" %}
+  {% elif viewed_component.component_type == "summary" %}
   <div class="card">
     <h2 class="mb-6">סיכום</h2>
-    {% if current_component.body_html_he %}
-    <div>{{ current_component.body_html_he|safe }}</div>
+    {% if viewed_component.body_html_he %}
+    <div>{{ viewed_component.body_html_he|safe }}</div>
     {% endif %}
     <div style="border-top:1px solid #cbd5e0;margin-top:32px;padding-top:20px">
       <form method="post">
