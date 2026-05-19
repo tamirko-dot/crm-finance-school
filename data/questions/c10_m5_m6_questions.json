@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C10-M05-CMP-Q01",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם הפרמטרים המרכזיים שמשתנים בתרחיש <strong>מיתון מאקרו</strong> בניתוח נדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מיתון לא פוגע רק ב-NOI — הוא מעלה פנייה, מחליש שוכרים, מרחיב Cap Rate ולוחץ על מחירים. האנליסט חייב לנתח את ארבעת הגורמים יחד.",
+    "topic_tags": ["recession_scenario", "macro_risk", "noi", "vacancy"],
+    "options": [
+      {
+        "text_he": "ירידת תמ\"ג, עלייה באבטלה, ירידת ביקוש לשטחים מסחריים, עלייה בפנייה, ירידת שכירות — כולם פועלים יחד לחצות ב-NOI",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תרחיש מיתון משפיע רק על שכירות — פנייה ותפוסה נשארות יציבות כי חוזים ארוכי-טווח מגנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוזים ארוכי-טווח מגנים בטווח הקצר, אך בחידוש הם תלויים בשוק; פנייה עולה כי חלק מהשוכרים חדלים פירעון גם תוך כדי חוזה"
+      },
+      {
+        "text_he": "תרחיש מיתון משפיע רק על נכסי קמעונאות, לא על משרדים או לוגיסטיקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מיתון משפיע על כל ענפי הנדל\"ן — משרדים (ירידת תעסוקה), לוגיסטיקה (ירידת ייצור וצריכה), קמעונאות (ירידת הוצאות צרכן)"
+      },
+      {
+        "text_he": "מיתון מגדיל NOI של נכסי מגורים ולכן מנטרל ירידה בנדל\"ן מסחרי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מגורים ומסחרי הם שוקות שונים — אף ניטרול לא מתרחש; ניתוח לפי סוג נכס נדרש בנפרד"
+      }
+    ],
+    "explanation_html_he": "<p>מנגנון מיתון ונדל\"ן:</p><ol><li>תמ\"ג יורד &rarr; חברות מצמצמות &rarr; פחות צורך בשטחים</li><li>אבטלה עולה &rarr; שוכרים נסגרים &rarr; פנייה עולה</li><li>ביקוש יורד + היצע גדל &rarr; שכירות יורדת</li><li>שוק חלש &rarr; Cap Rate מתרחב &rarr; שווי יורד</li></ol><p>פרמטרים לתרחיש מיתון (בנצ'מרק היסטורי 2008-2009):</p><ul><li>ירידת שכירות: 15-20%</li><li>עלייה בפנייה: 10-15 נקודות אחוז</li><li>התרחבות Cap Rate: 100-150bp</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M05-CMP-Q02",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו תרחיש <strong>Stagflation</strong> ומדוע הוא מאתגר במיוחד לנכסי נדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Stagflation הוא התרחיש הגרוע ביותר לנדל\"ן מסחרי — הוצאות תפעוליות עולות, ריבית עולה, אבל הכנסות לא עולות כי הביקוש חלש. דחיסה כפולה.",
+    "topic_tags": ["stagflation", "noi_compression", "opex", "interest_rate"],
+    "options": [
+      {
+        "text_he": "Stagflation = אינפלציה + צמיחה נמוכה/שלילית — לנדל\"ן: הוצאות תפעוליות עולות (אינפלציה), ריבית עולה, אבל הכנסות לא עולות כי הביקוש חלש — NOI נדחס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Stagflation הוא אינפלציה גבוהה עם צמיחה גבוהה — מיטיב עם נדל\"ן כי שכירות עולה עם האינפלציה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stagflation = STAGNATION (קיפאון/ירידה) + INFLATION, לא צמיחה גבוהה — זוהי המהות הכואבת של התופעה"
+      },
+      {
+        "text_he": "Stagflation משפיע רק על אג\"ח ומניות, לא על שוק הנדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stagflation פוגע ישירות בנדל\"ן דרך עלויות תפעול, ריבית, וחולשת שוכרים — זה מהאתגרים הגדולים ביותר לנכסים מניבים"
+      },
+      {
+        "text_he": "Stagflation מיטיב עם נדל\"ן כי מחירי נכסים עולים בסביבה אינפלציונית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בStagflation, עלייה בCap Rate (בגין ריבית גבוהה) מקזזת או עולה על עליית מחירים — NOI לא עולה בגלל ביקוש חלש"
+      }
+    ],
+    "explanation_html_he": "<p>Stagflation — מנגנון הפגיעה בנדל\"ן:</p><table><tr><th>גורם</th><th>תחת Stagflation</th><th>השפעה על NOI</th></tr><tr><td>הכנסות שכירות</td><td>לא עולות (ביקוש חלש)</td><td>שלילי</td></tr><tr><td>הוצאות תפעוליות</td><td>עולות (אנרגיה, שכר, חומרים)</td><td>שלילי</td></tr><tr><td>ריבית</td><td>עולה (בנק מרכזי נלחם באינפלציה)</td><td>שלילי (שירות חוב)</td></tr><tr><td>Cap Rate</td><td>מתרחב</td><td>שלילי (שווי)</td></tr></table><p>זהו שילוב קטלני שבו כל הגורמים פועלים שלילית בו-זמנית.</p>"
+  },
+  {
+    "question_id_external": "C10-M05-CMP-Q03",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>IFRS 9 Macroeconomic Overlay</strong> בחישוב <strong>ECL (Expected Credit Loss)</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "IFRS 9 ECL מחייב חשיבה קדימה, לא אחורה. הכלכלן ותרחישי המאקרו של הבנק הם חלק מהחשבונאות — לא רק מהמחקר.",
+    "topic_tags": ["ifrs9", "ecl", "macro_overlay", "provisioning"],
+    "options": [
+      {
+        "text_he": "IFRS 9 ECL מחייב לשקלל תרחישים מאקרו-כלכליים עתידיים (צמיחה, אבטלה, ריבית) בחישוב ציפיות האשראי, ולא להסתמך רק על נתוני עבר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "IFRS 9 ECL מסתמך אך ורק על הפסדים היסטוריים מחמש השנים האחרונות — אין מרכיב עתידי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IFRS 9 שינה את הגישה מIAS 39 שהיה היסטורי — עיקרון ה-ECL הוא Forward-Looking מפורשות"
+      },
+      {
+        "text_he": "IFRS 9 Macroeconomic Overlay רלוונטי רק לבנקים גדולים, לא לנושאי אשראי קטנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IFRS 9 חל על כל ישות המדווחת לפי IFRS — גודל הישות לא קובע האם נדרש Overlay"
+      },
+      {
+        "text_he": "ECL מחושב פעם אחת בעת מתן ההלוואה ואינו מתעדכן לאחר מכן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IFRS 9 ECL הוא חישוב דינמי המתעדכן בכל תקופת דיווח לפי שינויי סיכון ותרחישים מאקרו עדכניים"
+      }
+    ],
+    "explanation_html_he": "<p>IFRS 9 ECL — מבנה:</p><ol><li><strong>Stage 1</strong>: אשראי תקין — 12-Month ECL</li><li><strong>Stage 2</strong>: עלייה מהותית בסיכון — Lifetime ECL</li><li><strong>Stage 3</strong>: אשראי ביחס לפגיעה — Lifetime ECL + הכרה בהפסד</li></ol><p>Macroeconomic Overlay:</p><ul><li>הבנק מגדיר מספר תרחישים מאקרו (Base, Bear, Stress)</li><li>כל תרחיש מקבל משקל הסתברותי</li><li>ה-ECL הוא ממוצע משוקלל של ההפסדים הצפויים בכל תרחיש</li><li>כאשר התנאים המאקרו מחמירים — ה-Overlay גדל ודרישות ה-Provision עולות</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M05-CMP-Q04",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הכוונה ב<strong>קורלציית תיק</strong> (Portfolio Correlation) בהקשר של Macro Stress Testing?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "קורלציה גבוהה בתיק היא הסיכון הגרוע ביותר — כשכולם יורדים יחד, אין גיוון שמגן. זה מה שקרה בנדל\"ן האמריקאי ב-2008.",
+    "topic_tags": ["portfolio_correlation", "stress_testing", "diversification"],
+    "options": [
+      {
+        "text_he": "קורלציית תיק מודדת עד כמה הלוואות שונות בתיק מגיבות באותו כיוון לזעזוע מאקרו — קורלציה גבוהה מעלה את הסיכון הכולל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "קורלציית תיק רלוונטית רק לתיקי אג\"ח, לא להלוואות נדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קורלציה היא מושג אוניברסלי — תיק הלוואות נדל\"ן מרוכז בסקטור, אזור, וסוג שוכר נושא קורלציה מובנית"
+      },
+      {
+        "text_he": "קורלציה גבוהה בתיק נדל\"ן היא חיובית כי כל הנכסים עולים יחד בשוק חזק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קורלציה גבוהה עובדת בשני הכיוונים — היא גם מעלה יחד וגם מוחקת יחד; מנהל תיק מקצועי מעדיף פיזור"
+      },
+      {
+        "text_he": "ניתן לאפס קורלציה בתיק על ידי פיזור גיאוגרפי בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פיזור גיאוגרפי מפחית קורלציה אבל לא מאפסה — בזעזוע מאקרו גדול (משבר עולמי) כל האזורים נפגעים"
+      }
+    ],
+    "explanation_html_he": "<p>קורלציית תיק נדל\"ן — מקורות:</p><ul><li><strong>ריכוז סקטוריאלי</strong>: כל ההלוואות במשרדים — כולן נפגעות ממיתון תעסוקתי</li><li><strong>ריכוז גיאוגרפי</strong>: כל הנכסים בגוש דן — כולם נפגעים מאירוע מקומי</li><li><strong>ריכוז ענפי שוכרים</strong>: רוב השוכרים היי-טק — כולם נפגעים בהאטת הסקטור</li><li><strong>ריכוז בגודל</strong>: כל הלוואות ה-LBO — כולן נפגעות מעלייה בריבית</li></ul><p>Macro Stress Testing חייב לאמוד את הקורלציה ולחשב הפסד תיק תחת תרחיש ששם הכל נפגע ביחד.</p>"
+  },
+  {
+    "question_id_external": "C10-M05-CMP-Q05",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הם הסיכונים המאקרו <strong>הייחודיים לשוק הנדל\"ן הישראלי</strong> שחייבים להיכלל בניתוח תרחישים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ישראל אינה ארה\"ב — לסיכונים גיאופוליטיים ולתלות בייבוא יש השפעה ישירה על עלויות בנייה, תפוסה ושוק. אנליסט שלא מכיר את הייחודיות המקומית — לא מתאים לשוק.",
+    "topic_tags": ["geopolitical_risk", "israel_market", "construction_costs", "macro_scenario"],
+    "options": [
+      {
+        "text_he": "סיכון גיאופוליטי (מלחמה, ביטחון), תנודות שקל/דולר שמשפיעות על עלויות ייבוא ומימון, ועלויות בנייה שמושפעות מזמינות עבודה ומחצבה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ישראל חסינה לסיכוני מאקרו גלובליים בשל כלכלה חזקה ויצוא טכנולוגי — ניתוח מאקרו מיותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כלכלת ישראל פתוחה ומחוברת — סיכונים גלובליים ומקומיים ייחודיים (ביטחון, שקל) משפיעים ישירות על שוק הנדל\"ן"
+      },
+      {
+        "text_he": "הסיכון הישראלי היחיד הוא רגולציית תכנון ובנייה — שאר הסיכונים זהים לשווקים מערביים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רגולציה היא גורם אחד מני רבים; הסיכון הגיאופוליטי, השקל ועלויות הבנייה הם ייחודיים לישראל"
+      },
+      {
+        "text_he": "הסיכון המאקרו הישראלי מצטמצם לשינויי ריבית של בנק ישראל בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנק ישראל הוא גורם אחד — גיאופוליטיקה, שקל, שוק עבודה בבנייה ועוד הם גורמים עצמאיים לא פחות חשובים"
+      }
+    ],
+    "explanation_html_he": "<p>סיכונים מאקרו ייחודיים לישראל:</p><ol><li><strong>גיאופוליטי</strong>: עצירת בנייה, פינוי שוכרים באזורי לחימה, ירידת ביקוש ממשקיעים זרים</li><li><strong>שקל/מטבע</strong>: ייחלשות שקל מייקרת ייבוא חומרי בנייה; מחזיקי נכסים עם הלוואות דולריות חשופים לשער חליפין</li><li><strong>שוק עבודה בבנייה</strong>: עיכובי בנייה בגין מחסור בפועלים, עלייה בעלויות בנייה עד 20-30%</li><li><strong>ריבית בנק ישראל</strong>: מחזורים מהירים של שינוי ריבית (2022-2024)</li><li><strong>ביקוש עולים</strong>: גלי עלייה משפיעים על שוק מגורים ומשנים ביקוש</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M05-PRC-Q01",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בונה תרחיש מיתון לנכס משרדים. מה ההנחות המספריות המתאימות לתרחיש Bear (לא Stress) בהתבסס על נתוני שוק היסטוריים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "כיול תרחיש Bear לנתונים ריאליים הוא הבדל בין אנליסט לבין מחשבון. מי שיכול להצדיק את המספרים בנסיון היסטורי — זה אנליסט מקצועי.",
+    "topic_tags": ["bear_case_calibration", "office_market", "recession"],
+    "options": [
+      {
+        "text_he": "ירידת שכירות 8-12%, עלייה בפנייה 5-8 נקודות אחוז, התרחבות Cap Rate 50-75bp — הנחות המבוססות על מיתון מתון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ירידת שכירות 30%, עלייה בפנייה 25 נקודות אחוז, התרחבות Cap Rate 200bp — תרחיש Bear אגרסיבי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחות אלו מאפיינות תרחיש Extreme, לא Bear — Bear מניח הרעה מתונה ולא קריסת שוק"
+      },
+      {
+        "text_he": "ירידת שכירות 1-2%, עלייה בפנייה 1-2 נקודות אחוז — הנחות קל מדי שלא מייצגות מיתון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחות אלו קרובות לתנודתיות שגרתית ולא לתרחיש Bear — Bear חייב לשקף הרעה ניכרת"
+      },
+      {
+        "text_he": "Bear Case זהה לBase Case אלא שמשתמשים בריבית גבוהה יותר — שאר ההנחות נשארות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bear Case כולל שינויים בכל הפרמטרים המרכזיים, לא רק בריבית"
+      }
+    ],
+    "explanation_html_he": "<p>כיול Bear Case לנכסי משרדים — בנצ'מרק:</p><table><tr><th>פרמטר</th><th>Base</th><th>Bear</th><th>Stress</th></tr><tr><td>שכירות</td><td>שכר שוק</td><td>-8% עד -12%</td><td>-20% עד -25%</td></tr><tr><td>פנייה</td><td>נוכחית</td><td>+5% עד +8%</td><td>+12% עד +20%</td></tr><tr><td>Cap Rate</td><td>שוק</td><td>+50bp עד +75bp</td><td>+100bp עד +150bp</td></tr><tr><td>ציר זמן אכלוס מחדש</td><td>6 חודשים</td><td>12-18 חודשים</td><td>24+ חודשים</td></tr></table><p>הנחות אלו מבוססות על מחזורי מיתון ישראלי 2009 ו-2020.</p>"
+  },
+  {
+    "question_id_external": "C10-M05-PRC-Q02",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בתרחיש Stagflation, NOI של נכס מסחרי הוא 2,000K. הוצאות תפעוליות עולות ב-15% (מ-800K ל-920K) וריבית עולה ב-200bp. הלוואה 15M. NOI לאחר Stagflation?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Stagflation כואב לNOI בגלל עלייה בהוצאות בלבד — בלי שינוי בהכנסות. זה ממחיש מדוע נדל\"ן 'לא מגן מאינפלציה' תמיד, בניגוד למיתוס.",
+    "topic_tags": ["stagflation", "opex_inflation", "noi_calculation"],
+    "options": [
+      {
+        "text_he": "NOI = הכנסות - הוצאות; הכנסות נשארות (Stagflation = ביקוש חלש); NOI חדש = (2,000K + 800K) - 920K = 1,880K; ירידה של 120K",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI חדש = 2,000K &times; (1 + 15%) = 2,300K כי אינפלציה מעלה גם הכנסות שכירות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stagflation בהגדרה כולל ביקוש חלש — הכנסות שכירות לא עולות בסביבה זו; רק ב-Inflation טהורה שכירות עולה עם מחירים"
+      },
+      {
+        "text_he": "NOI חדש = 2,000K - 120K = 1,880K, לכן הריבית לא משנה את ה-NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הריבית לא משנה את ה-NOI ישירות (NOI הוא לפני מימון) — זו תשובה נכונה! NOI = 1,880K אבל הריבית עולה מפחיתה את ה-DSCR"
+      },
+      {
+        "text_he": "NOI חדש = 2,000K - 920K = 1,080K",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא מחסירים את ההוצאות החדשות מNOI הנוכחי — יש לחשב מחדש: הכנסות = NOI + הוצאות מקוריות = 2,800K; NOI חדש = 2,800K - 920K = 1,880K"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב:</p><ol><li>NOI נוכחי = הכנסות - הוצאות = 2,000K</li><li>הכנסות = NOI + הוצאות מקוריות = 2,000K + 800K = 2,800K</li><li>הכנסות לא משתנות בStagflation (ביקוש חלש)</li><li>הוצאות חדשות = 920K</li><li>NOI חדש = 2,800K - 920K = 1,880K (ירידה של 120K, 6%)</li></ol><p>השפעת ה-+200bp על DSCR (בנפרד מהNOI):</p><ul><li>שירות חוב נוכחי = 15M &times; X%; לאחר +200bp שירות חוב גדל</li><li>DSCR נפגע משני כיוונים: NOI ירד ושירות חוב עלה</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M05-PRC-Q03",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לאיזו מטרה משמשת <strong>הסתברות משוקללת של תרחישים</strong> (Probability-Weighted Scenarios) בניתוח IFRS 9 ECL?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ECL משוקלל הוא הדרך היחידה לתמחר סיכון בצורה כנה — לא רק 'מה יקרה בBase' אלא 'מה ההפסד הצפוי בממוצע על פני כל האפשרויות'.",
+    "topic_tags": ["ifrs9", "ecl", "probability_weighted", "provisioning"],
+    "options": [
+      {
+        "text_he": "להחשיב ציפיית הפסד ריאלית על ידי ממוצע משוקלל של ההפסד הצפוי בכל תרחיש לפי הסתברותו — ולא להסתמך על תרחיש אחד בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לבחור את תרחיש ה-Stress כיוון שהוא הסתברותי ביותר מבין כל התרחישים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תרחיש Stress הוא פחות סביר מBase — לכן הוא מקבל משקל הסתברותי נמוך יותר, לא גבוה יותר"
+      },
+      {
+        "text_he": "לקבוע את ה-Provision הגבוה ביותר האפשרי כדי להיות שמרניים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גישה כזו אינה תאמה ECL — שמרנות מוגזמת מנפחת Provision ואינה משקפת ציפייה ריאלית"
+      },
+      {
+        "text_he": "לספק בסיס לרגולציה להשוות Provision בין בנקים שונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההשוואה היא תוצאה עקיפה — המטרה של Probability-Weighting היא ייצוג הוגן של הפסד צפוי ריאלי"
+      }
+    ],
+    "explanation_html_he": "<p>Probability-Weighted ECL — מנגנון:</p><p>ניתוח שלושה תרחישים:</p><ul><li>Base (50% הסתברות): הפסד = 50K</li><li>Bear (35% הסתברות): הפסד = 200K</li><li>Stress (15% הסתברות): הפסד = 800K</li></ul><p>ECL משוקלל = (50K &times; 50%) + (200K &times; 35%) + (800K &times; 15%)</p><p>= 25K + 70K + 120K = 215K</p><p>זהו ה-Provision שיכלל בדוחות הכספיים — ולא 50K (רק Base) ולא 800K (רק Stress).</p>"
+  },
+  {
+    "question_id_external": "C10-M05-PRC-Q04",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בבחינת תיק הלוואות נדל\"ן של בנק, 70% מהתיק מרוכז בנכסי משרדים בגוש דן. אנליסט טוען שהגיוון הגיאוגרפי (כל הנכסים בישראל) הוא מספיק. מה הטענה הנגדית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריכוז סקטוריאלי הוא כמו קורלציה = 1 בין ההלוואות. בזעזוע לשוק המשרדים — כל 70% התיק נפגע בו-זמנית.",
+    "topic_tags": ["portfolio_concentration", "sector_risk", "diversification"],
+    "options": [
+      {
+        "text_he": "ריכוז של 70% במשרדים גוש דן יוצר קורלציה גבוהה בתיק — מיתון בסקטור ההייטק, עבודה מהבית, או ירידת ביקוש למשרדים יפגעו בכל התיק בו-זמנית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הטענה נכונה — גיוון בתוך ישראל מספיק לפיזור סיכון נדל\"ן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גיוון גיאוגרפי בתוך ישראל אינו מפחית סיכון סקטוריאלי; כל משרדי ישראל נפגעים יחד מאירועים סקטוריאליים"
+      },
+      {
+        "text_he": "הריכוז בגוש דן הוא יתרון כי מומחיות גיאוגרפית מפחיתה סיכון תפעולי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מומחיות גיאוגרפית היא יתרון בניהול, אך אינה מגנה מפני ירידת שוק מקומית — ריכוז בפני עצמו הוא סיכון"
+      },
+      {
+        "text_he": "הריכוז ב-70% מותר כל עוד כל הלוואה בנפרד עומדת בסף DSCR",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עמידה בסף ברמת הלוואה בודדת אינה מבטיחה עמידה ברמת תיק — ריכוז מייצר סיכון מערכתי גדול מסכום הבודדות"
+      }
+    ],
+    "explanation_html_he": "<p>ריכוז תיק — מנגנון הסיכון:</p><ul><li>70% תיק משרדים + מיתון היי-טק = 70% מהתיק מוחלש בו-זמנית</li><li>כשל של הלוואה בודדת: 1-2% מהתיק; כשל מערכתי: 30-70% מהתיק</li></ul><p>ניהול ריכוז מקצועי:</p><ol><li>מגבלות ריכוז: מקסימום X% לסקטור, Y% לאזור גיאוגרפי</li><li>Stress Test ריכוז: מה ה-P&L אם כל המשרדים בגוש דן יורדים 20%?</li><li>Capital Allocation: ריכוז גבוה = הון אקונומי גבוה יותר</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M05-PRC-Q05",
+    "course_number": 10,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>כיצד <strong>פיחות שקל</strong> של 15% משפיע על נכס לוגיסטי ישראלי שבו שכירות נקבעת בדולר אבל הוצאות תפעוליות ושירות החוב הם בשקל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נכס עם הכנסות דולריות ועלויות שקליות מגלם הגנת שקל אוטומטית. אבל אם הלוואה דולרית, הסיכון הפוך — ייחלשות שקל מייקרת את החוב.",
+    "topic_tags": ["fx_risk", "dollar_denominated_rent", "shekel", "noi"],
+    "options": [
+      {
+        "text_he": "פיחות שקל = הכנסות דולריות עולות בשקלים (+15%), הוצאות ושירות חוב שקלי נשארים — NOI בשקלים עולה; אם ההלוואה שקלית זהו תרחיש חיובי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "פיחות שקל תמיד שלילי לנדל\"ן ישראלי — מייקר ייבוא חומרי בנייה ומוריד ביקוש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לנכס עם הכנסות דולריות, פיחות שקל הוא חיובי לNOI שקלי — ההשפעה תלויה בהרכב הכנסות/הוצאות"
+      },
+      {
+        "text_he": "פיחות שקל אינו רלוונטי כי כל עסקאות הנדל\"ן בישראל מתבצעות בשקלים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלק ניכר מהשכירות הלוגיסטית בישראל (ובמיוחד שוכרים בינלאומיים) נקבעת בדולר — זהו עובדה שוק שחיונית להכיר"
+      },
+      {
+        "text_he": "פיחות שקל פוגע בנכס כי ייבוא מכשירים ותחזוקה מתייקר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ייקור ייבוא הוא גורם אמיתי אבל שולי — ההשפעה הדומיננטית לנכס עם שכירות דולרית היא חיובית (הכנסות שקל עולות)"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח FX Risk לנכס לוגיסטי:</p><table><tr><th>פריט</th><th>מטבע</th><th>השפעת פיחות שקל 15%</th></tr><tr><td>הכנסות שכירות</td><td>דולר</td><td>עולות בשקלים ב-15%</td></tr><tr><td>הוצאות תפעוליות</td><td>שקל</td><td>לא משתנות</td></tr><tr><td>שירות חוב (אם שקלי)</td><td>שקל</td><td>לא משתנה</td></tr><tr><td>NOI שקלי</td><td>שקל</td><td>עולה</td></tr></table><p>אם ההלוואה דולרית (Common): שירות חוב עולה ב-15% בשקלים &rarr; DSCR נפגע!</p><p>לכן: מבנה מטבע ההלוואה חייב להתאים למבנה הכנסות הנכס.</p>"
+  },
+  {
+    "question_id_external": "C10-M06-CMP-Q01",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>מבנה טבלת התרחישים</strong> הסטנדרטי בפרק ניתוח הסיכונים של מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "טבלת תרחישים שגויה בעיצוב לא מסוגלת לתקשר — ועדת אשראי צריכה לראות Base/Bear/Stress בשורות וNOI/DSCR/LTV בעמודות. כל פורמט אחר מבלבל.",
+    "topic_tags": ["scenario_table", "credit_memo", "presentation"],
+    "options": [
+      {
+        "text_he": "שורות = מדדים (NOI, שירות חוב, DSCR, LTV), עמודות = תרחישים (Base, Bear, Stress) — או להיפך; כל תרחיש מציג את ערכי המדד המרכזיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "טבלת תרחישים אינה סטנדרטית — כל אנליסט בוחר פורמט לפי שיקול דעתו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ישנו פורמט מקובל שוועדת אשראי מצפה לו — חריגה ממנו גורמת לבלבול ולתפיסת אי-מקצועיות"
+      },
+      {
+        "text_he": "הטבלה מציגה רק שני ערכים: DSCR ו-LTV — יותר מזה מייתר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת אשראי זקוקה לפחות ל-NOI, שירות חוב, DSCR, LTV ולעיתים גם לתפוסה ושווי נכס"
+      },
+      {
+        "text_he": "הטבלה מציגה רק Base ו-Stress — Bear אינו הכרחי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bear הוא תרחיש עצמאי שמייצג הרעה מתונה וסבירה — דילוג עליו מוחק מידע קריטי על עמידות בהרעה נסבלת"
+      }
+    ],
+    "explanation_html_he": "<p>מבנה טבלת תרחישים מקובל:</p><table><tr><th>מדד</th><th>Base</th><th>Bear</th><th>Stress</th></tr><tr><td>תפוסה (%)</td><td>92%</td><td>82%</td><td>68%</td></tr><tr><td>NOI (K)</td><td>2,000</td><td>1,650</td><td>1,200</td></tr><tr><td>שירות חוב (K)</td><td>1,400</td><td>1,500</td><td>1,700</td></tr><tr><td>DSCR</td><td>1.43</td><td>1.10</td><td>0.71</td></tr><tr><td>LTV (%)</td><td>60%</td><td>72%</td><td>90%</td></tr></table><p>לטבלה מצורפת הערה מפרטת את ההנחות שמאחורי כל תרחיש.</p>"
+  },
+  {
+    "question_id_external": "C10-M06-CMP-Q02",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהן <strong>נורמות שפה</strong> (Language Standards) הנדרשות בכתיבת פרק ניתוח התרחישים במזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שפה לא מדויקת = חשיבה לא מדויקת. 'הנכס נראה יציב' לא מועיל לוועדה; 'DSCR של 1.10 בBear מעיד על פגיעות מתונה' — זה מועיל.",
+    "topic_tags": ["writing_standards", "credit_memo", "language"],
+    "options": [
+      {
+        "text_he": "שפה עובדתית וכמותית: הצגת ערכים מספריים, נמנעת מ'נראה', 'צפוי', 'אולי' — מציגה ממצא ספציפי ומסקנה מוגדרת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שפה מכירתית המדגישה את חוזקות העסקה ומציגה הסתייגויות בלשון מרוככת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר אשראי אינו מסמך מכירה — הוא כלי להערכה אובייקטיבית; שפה מכירתית מחתרת את האמינות"
+      },
+      {
+        "text_he": "שפה ספרותית ורחבה המתארת את הרקע הכלכלי בפירוט נרטיבי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת אשראי מצפה לתמציתיות וכמותיות — נרטיב ארוך ללא מספרים הוא בזבוז זמן"
+      },
+      {
+        "text_he": "שפה זהירה המשתמשת בעיקר בתנאים ('אם', 'ייתכן') כדי להגן על האנליסט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שפה מתגוננת מדגישה חולשה אנליטית — האנליסט צריך להציג מסקנות ברורות עם הסתייגויות מוגדרות, לא להשתמש בלשון כסות"
+      }
+    ],
+    "explanation_html_he": "<p>נורמות שפה במזכר תרחישים:</p><ul><li><strong>עובדתי</strong>: 'DSCR בBear הוא 1.08' — לא 'DSCR עשוי להיות קרוב ל-1'</li><li><strong>כמותי</strong>: 'ירידת NOI של 18% בStress' — לא 'NOI ירד משמעותית'</li><li><strong>מסקנתי</strong>: 'הנכס עומד בשירות החוב בBase ו-Bear אך מפר בStress' — לא 'הנכס בדרך כלל תקין'</li><li><strong>מוצדק</strong>: 'הנחת פנייה של 15% מבוססת על מיתון 2009 בשוק המשרדים בתל-אביב'</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M06-CMP-Q03",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה <strong>ועדת אשראי</strong> מחפשת בפרק ניתוח התרחישים של מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ועדה לא מחפשת תחזיות — היא מחפשת הבנת סיכון. האנליסט שמציג 'כך ייראה העולם' פחות חזק מאנליסט שמציג 'הנה מה שיקרה אם העולם יטה לרע'.",
+    "topic_tags": ["credit_committee", "scenario_analysis", "risk_assessment"],
+    "options": [
+      {
+        "text_he": "הבנה עמוקה של נקודות הכשל: באיזה תרחיש DSCR נשבר, מה רמת הביטחון בStress, ומה תוכנית ההתמודדות עם תרחישי לחץ",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תחזית Base אופטימיסטית שמצדיקה את אישור העסקה — הוועדה רוצה לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת אשראי מקצועית מחפשת ניתוח סיכון אובייקטיבי ולא הצדקה — מציאת תרחישי כשל היא חלק מתפקידה"
+      },
+      {
+        "text_he": "אנליזה של שוק הנדל\"ן הכללי ולא ניתוח ספציפי לנכס ולהלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדה מצפה לניתוח ספציפי לנכס, ללווה ולמבנה ההלוואה — ניתוח שוק כללי הוא רקע, לא ניתוח"
+      },
+      {
+        "text_he": "רשימה של הנחות בלבד ללא מסקנות — הוועדה מסיקה מסקנות בעצמה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; האנליסט חייב להציג מסקנות ברורות — ועדה שמקבלת נתונים ללא מסקנות עלולה לפרש אחרת"
+      }
+    ],
+    "explanation_html_he": "<p>מה ועדת אשראי מחפשת בפרק תרחישים:</p><ol><li><strong>נקודות כשל ברורות</strong>: 'DSCR נשבר מתחת ל-1.0 בStress' — לא שורה שמסתתרת בטבלה</li><li><strong>כיסוי בביטחונות</strong>: 'גם בStress LTV = 82%, הבנק מוגן בכינוס'</li><li><strong>הנחות מוצדקות</strong>: 'פנייה 15% בBear מבוססת על נתוני 2009'</li><li><strong>מסקנה ברורה</strong>: 'ממליץ לאשר עם קובנט DSCR 1.15 ו-LTV 75%'</li><li><strong>תוכנית מגירה</strong>: 'בסיטואציה של Stress — הלווה מחויב לתגבר הון עצמי'</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M06-CMP-Q04",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד נכון <strong>לנסח מסקנה</strong> על עסקה שבה ה-DSCR בתרחיש Stress נשבר מתחת ל-1.0?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "מסקנה על Stress breach אינה אוטומטית 'דחה'. היא מחייבת: (1) הסבר הנחות, (2) הצגת ביטחונות, (3) תוכנית מגירה, (4) המלצה מנומקת.",
+    "topic_tags": ["stress_breach", "credit_conclusion", "recommendation"],
+    "options": [
+      {
+        "text_he": "להציג בפירוט: רמת ה-DSCR בStress, הנחות שמאחוריה, רמת ה-LTV כביטחון, ולנמק האם ניתן לאשר על בסיס ביטחונות חזקים עם קובנטים מתאימים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR מתחת ל-1.0 בStress = דחייה אוטומטית ללא דיון נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין דחייה אוטומטית — הנחות הStress קובעות; ביטחונות חזקים, LTV נמוך, וערבויות חזקות יכולים להצדיק אישור עם תנאים"
+      },
+      {
+        "text_he": "להסתיר את תוצאת Stress מהטבלה ולהציג רק Base ו-Bear",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסתרת תוצאת Stress היא כשל מקצועי חמור — ועדת אשראי זכאית לכל המידע הרלוונטי"
+      },
+      {
+        "text_he": "לרכך את תרחיש ה-Stress עד שה-DSCR עובר 1.0 ואז להציג",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי הנחות Stress כדי 'לעבור' הוא מניפולציה — הוא מחטיא את מטרת הניתוח ומוביל להחלטות שגויות"
+      }
+    ],
+    "explanation_html_he": "<p>מסקנה על Stress Breach — מבנה נכון:</p><ol><li><strong>עובדה</strong>: 'בתרחיש Stress (ירידת NOI 20%, ריבית +200bp), DSCR = 0.89'</li><li><strong>הקשר</strong>: 'תרחיש זה מייצג שוק של 2008-2009 ואינו הסתברות גבוהה'</li><li><strong>ביטחונות</strong>: 'LTV בStress = 78%; ערבות אישית מ-X עם נכסים נטו של Y'</li><li><strong>מיטיג</strong>: 'קובנט DSCR ב-1.10 יפעיל Watch List לפני הגעה לStress'</li><li><strong>המלצה</strong>: 'ממליץ לאשר עם קובנט, ביטחון נוסף X, ו-DSCR Review רבעוני'</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M06-CMP-Q05",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהן <strong>החולשות הנפוצות</strong> בפרקי ניתוח תרחישים של מזכרי אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "רוב מזכרי האשראי שיוחזרו בביקורת הפנימית נכשלו בתרחישים — או שהנחות לא מוצדקות, או שהמסקנה מפוזרת, או שLTV לא חושב בStress.",
+    "topic_tags": ["common_weaknesses", "credit_memo", "scenario_analysis"],
+    "options": [
+      {
+        "text_he": "הנחות לא מוצדקות (בלי קישור לנתונים), Stress לא חמור מספיק, היעדר LTV בתרחישים, ומסקנה כללית שאינה מתייחסת לתוצאת Stress",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שימוש יתר בתרחישים — ועדות אשראי מעדיפות מסמכים ממוקדים עם Base בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדות אשראי מצפות לתרחישים מרובים — 'שימוש יתר' בתרחישים אינו כשל נפוץ"
+      },
+      {
+        "text_he": "תרחישים מאורגנים מדי — ועדות מעדיפות ניתוח חופשי ולא טבלאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ארגון וטבלאות הם יתרון, לא חסרון — ועדה מקצועית מעדיפה מידע מובנה שניתן לבדוק במהירות"
+      },
+      {
+        "text_he": "יותר מדי Stress Tests — ניתוח Base ו-Bear מספיק לכל עסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stress Test הוא דרישה מינימלית — הוספתו אינה חולשה; ב-Base ו-Bear בלבד חסרה בדיקת שרידות תחת לחץ חמור"
+      }
+    ],
+    "explanation_html_he": "<p>החולשות הנפוצות ביותר — מניסיון ביקורת:</p><ol><li><strong>הנחות לא מוצדקות</strong>: 'הנחנו ירידת שכירות 10%' — ללא קישור לנתוני שוק או היסטוריה</li><li><strong>Stress לא חמור</strong>: Stress = Base -5% — לא בדיקת קצה אמיתית</li><li><strong>LTV חסר</strong>: DSCR לכל תרחיש אבל LTV רק בBase</li><li><strong>מסקנה כללית</strong>: 'העסקה תקינה' ללא התייחסות מפורשת לתוצאת Stress</li><li><strong>שוכרים לא מנותחים</strong>: NOI בתרחישים לא מנתח עזיבת שוכרים ספציפיים</li><li><strong>שנה אחת בלבד</strong>: תרחיש לשנה הקרובה בלבד — לא לכל אורך חיי ההלוואה</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M06-PRC-Q01",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כותב: 'בתרחיש שוק קשה, ה-DSCR עשוי לרדת קצת.' מה הבעיה בניסוח זה ומהו הניסוח המקצועי הנכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "'קצת' ו'עשוי' אינם שפה של ניתוח אשראי — הם שפת גידור. ועדת אשראי זקוקה למספרים, לא לתיאורים.",
+    "topic_tags": ["writing_standards", "language", "precision"],
+    "options": [
+      {
+        "text_he": "הניסוח מעורפל ואינו מספק ערך: 'תרחיש שוק קשה' אינו מוגדר, 'קצת' אינו כמות, 'עשוי' אינו ממצא. ניסוח נכון: 'בתרחיש Stress (NOI -18%, ריבית +200bp), DSCR = 1.04, לעומת 1.38 בBase'",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הניסוח נכון — שפה זהירה מגנה על האנליסט אם הניתוח שגוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שפה מגנה אינה מקצועית — האנליסט אחראי לניתוחו ולא צריך להסתיר אחרי לשון מעורפלת"
+      },
+      {
+        "text_he": "הניסוח בסדר אם הוא מופיע בסיכום ניהולי — ניתן להיות יותר כמותי רק בפרק המפורט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם בסיכום ניהולי נדרשת כמותיות — 'DSCR = 1.04 בStress' ניתן לכתוב בכל מקום ואינו ארוך יותר מ'עשוי לרדת קצת'"
+      },
+      {
+        "text_he": "הבעיה היחידה היא שלא הוגדר תרחיש ה-Stress — שאר הניסוח קביל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'קצת' ו'עשוי' הם גם בעיות — גם אם תרחיש ה-Stress מוגדר, אי-הצגת מספר DSCR ספציפי מחטיאה את המטרה"
+      }
+    ],
+    "explanation_html_he": "<p>ניסוח כושל לעומת ניסוח מקצועי:</p><table><tr><th>כושל</th><th>מקצועי</th></tr><tr><td>תרחיש שוק קשה</td><td>תרחיש Stress: NOI -18%, ריבית +200bp</td></tr><tr><td>DSCR עשוי לרדת</td><td>DSCR = 1.04</td></tr><tr><td>קצת מתחת לסף</td><td>נשאר מעל 1.0 / חורג ל-0.92</td></tr><tr><td>הנכס נראה יציב</td><td>בBase ו-Bear הנכס עומד; בStress נדרשים ביטחונות נוספים</td></tr></table>"
+  },
+  {
+    "question_id_external": "C10-M06-PRC-Q02",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת אשראי שואלת: 'מדוע בחרתם 12% ירידת שכירות בBear ולא 8% או 18%?' כיצד יש לענות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שאלת 'מדוע X% ולא Y%' היא השאלה הכי חשובה שוועדה תשאל. אנליסט שאינו יכול לענות עליה לא הכין את הניתוח כראוי.",
+    "topic_tags": ["calibration_justification", "bear_case", "credit_committee"],
+    "options": [
+      {
+        "text_he": "ענה בהפניה לנתוני שוק: 'ירידת שכירות של 12% משקפת את ירידת שכרי המשרדים בת\"א בשנת 2009 (המיתון הקרוב ביותר לנכס זה); 8% היה שמרני מדי ו-18% מאפיין Stress'",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ענה: '12% הוא האמצע בין 8% ל-18% — בחרנו את הממוצע כדי להיות מאוזנים'",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע אריתמטי אינו עוגן אנליטי — הסיבה לבחירת הנחה חייבת להיות מושרשת בנתוני שוק, לא בלוגיקה כמותית שרירותית"
+      },
+      {
+        "text_he": "ענה: 'זה שיקול דעת — כל אנליסט היה בוחר אחרת'",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תשובה כזו מחלישה את הניתוח ואת האמינות — תמיד צריכה להיות עוגן כמותי לבחירת ההנחה"
+      },
+      {
+        "text_he": "ענה: '12% כי כך עשינו בניתוחים קודמים ואנו עקביים'",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עקביות ניהולית לא מחליפה ניתוח שוק — הנחות חייבות להיות מוצדקות בנתוני שוק של הנכס הספציפי"
+      }
+    ],
+    "explanation_html_he": "<p>מבנה תשובה נכונה לשאלת כיול:</p><ol><li><strong>עוגן היסטורי</strong>: 'בשנת X, בשוק Y, ירידת שכירות הייתה Z%'</li><li><strong>רלוונטיות</strong>: 'נכס זה דומה בגודל/מיקום/ענף שוכרים לשוק X'</li><li><strong>גבולות</strong>: '8% — Bear של מיתון קל; 18% — Stress של 2008; 12% — Bear ריאלי'</li><li><strong>עקביות</strong>: 'מספר זה משמש בכל ניתוחי המשרדים שלנו ומאושר על ידי הכלכלן'</li></ol><p>ועדת אשראי מעריכה עוגן בנתונים — זה מגדיל אמינות ומוכיח מקצועיות.</p>"
+  },
+  {
+    "question_id_external": "C10-M06-PRC-Q03",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כותב מסקנה: 'מסקנה: העסקה עומדת בכל הקריטריונים בתרחיש Base. בתרחיש Stress, DSCR = 0.89 ו-LTV = 88%, אבל ביטחון הנכס חזק.' האם המסקנה מספקת? מה חסר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מסקנה שאומרת 'ביטחון חזק' בלי להסביר מדוע זה מספיק לכיסוי ב-LTV של 88% — לא מסקנה. היא גרועה ממסקנה שאין בה.",
+    "topic_tags": ["credit_conclusion", "stress_breach", "sufficiency"],
+    "options": [
+      {
+        "text_he": "המסקנה חסרה: פירוט 'ביטחון חזק' (LTV 88% חזק?), תוכנית מגירה בStress, המלצה ברורה (אשר/דחה/תנאים), וקובנטים מוצעים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המסקנה מספקת — היא מציגה את ה-DSCR וה-LTV בStress וזה מספיק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצגת מספרים ללא פרשנות ותוכנית היא חסרה — ועדה צריכה לדעת מה האנליסט ממליץ לעשות, לא רק מה קרה"
+      },
+      {
+        "text_he": "יש להסיר את ערכי ה-Stress מהמסקנה כי הם מחלישים את הבקשה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסתרת ערכי Stress שליליים מהמסקנה היא כשל מקצועי חמור ופוגמת באמינות האנליסט"
+      },
+      {
+        "text_he": "יש להוסיף ניתוח Extreme Case כי ב-Stress כבר נשבר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה אינה בתרחיש חסר אלא במסקנה חסרה — להוסיף Extreme בלי לטפל בחולשת המסקנה הנוכחית יגדיל בלבול"
+      }
+    ],
+    "explanation_html_he": "<p>מסקנה מלאה לתרחיש עם Stress Breach:</p><p><strong>עובדה</strong>: DSCR = 0.89 ו-LTV = 88% בStress — חריגה מקריטריונים.</p><p><strong>הקשר</strong>: Stress = תרחיש חריג של 2008-2009; הסתברות נמוכה אבל לא אפסית.</p><p><strong>ביטחון</strong>: LTV 88% — ב-Senior Secured, כינוס נכסים ב-88% LTV עלול לייצר הפסד; מה ה-Recovery Rate ההיסטורי בנכסים דומים?</p><p><strong>המלצה</strong>: ממליץ לאשר בתנאים: (1) קובנט DSCR = 1.10 ב-Watch List, (2) ביטחון נוסף של ערבות אישית 3M, (3) Covenant Review רבעוני.</p>"
+  },
+  {
+    "question_id_external": "C10-M06-PRC-Q04",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מגיש מזכר אשראי ללא טבלת LTV בתרחישים — רק DSCR. מנהלו מחזיר את המזכר לתיקון. מדוע LTV בתרחישים הוא דרישה חיונית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "DSCR מודד את יכולת ההחזר השוטף; LTV מודד את החשיפה בכשל. הבנק צריך לדעת שגם אם DSCR נשבר — עדיין יוכל להשתלם מהנכס. בלי LTV בStress — הניתוח חד-ממדי.",
+    "topic_tags": ["ltv", "scenario_analysis", "credit_memo", "recovery"],
+    "options": [
+      {
+        "text_he": "LTV בתרחישים מראה את כיסוי הביטחון בכל תרחיש — DSCR לבדו אינו מספר שיעור ההפסד בכינוס; ועדת אשראי צריכה לדעת את שני הממדים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV בתרחישים נדרש רק לצורכי רגולציה ולא לצורכי ניתוח — DSCR מספיק לניתוח העצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV בתרחישים הוא כלי ניתוחי עצמאי — הוא מודד את כיסוי הביטחון שאינו קשור לרגולציה בלבד"
+      },
+      {
+        "text_he": "LTV אינו משתנה בין תרחישים כי שווי הנכס קבוע — אין טעם לחשבו מחדש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי הנכס משתנה בין תרחישים (Cap Rate + NOI שונים) — לכן LTV שונה בכל תרחיש"
+      },
+      {
+        "text_he": "DSCR כולל בתוכו את ה-LTV מבחינה מתמטית — אין מידע נוסף ב-LTV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR ו-LTV מודדים דברים שונים לחלוטין — DSCR = יחס כיסוי תזרים, LTV = יחס חוב לשווי נכס"
+      }
+    ],
+    "explanation_html_he": "<p>למה LTV חיוני בכל תרחיש:</p><ul><li><strong>DSCR</strong>: מודד יכולת שירות חוב שוטפת</li><li><strong>LTV</strong>: מודד כיסוי ביטחוני בעת כינוס נכסים</li></ul><p>תרחיש שבו DSCR &lt; 1.0 אך LTV = 65% — הבנק עדיין יכול להתאושש במלואו בכינוס.</p><p>תרחיש שבו DSCR &lt; 1.0 ו-LTV = 92% — הבנק חשוף להפסד אמיתי.</p><p>שני תרחישים אלו זהים מבחינת DSCR אבל שונים לחלוטין מבחינת הסיכון האמיתי לבנק.</p>"
+  },
+  {
+    "question_id_external": "C10-M06-PRC-Q05",
+    "course_number": 10,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מהו <strong>הסדר המקצועי</strong> לכתיבת פרק ניתוח תרחישים במזכר אשראי שלם — מהרקע ועד למסקנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מזכר אשראי שכתוב נכון מספר סיפור אחד קוהרנטי: מה הנכס, מהם הסיכונים, מה קורה בכל תרחיש, ומה ממליצים. בלי הסדר הזה — הוועדה לא מבינה.",
+    "topic_tags": ["credit_memo_structure", "scenario_section", "writing"],
+    "options": [
+      {
+        "text_he": "הסדר: (1) הגדרת התרחישים והנחות; (2) טבלת תרחישים (NOI/DSCR/LTV); (3) ניתוח כל תרחיש; (4) נקודות כשל; (5) מסקנה והמלצה עם קובנטים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הסדר: מסקנה ראשונה, לאחריה הנחות, לאחריה טבלה — ועדה מעדיפה לקרוא מסקנה תחילה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנייה ממסקנה לפני הנחות מקשה על הוועדה לבחון את ההנחות — הסדר הנכון הוא הנחות &rarr; ניתוח &rarr; מסקנה"
+      },
+      {
+        "text_he": "אין סדר קבוע — כל אנליסט בונה לפי ראות עיניו כל עוד כל המידע נמצא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר אשראי הוא מסמך מוסדי עם מבנה מצופה — חריגה מהמבנה מקשה על ביקורת ועל השוואה בין מזכרים"
+      },
+      {
+        "text_he": "הסדר: (1) Base Case; (2) Bear Case; (3) Stress Case — לכל אחד פסקה נפרדת ללא טבלה משותפת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פסקאות נפרדות ללא טבלה משותפת קשות להשוואה — טבלה שמרכזת את כל התרחישים היא הכלי העדיף לתקשורת מהירה"
+      }
+    ],
+    "explanation_html_he": "<p>מבנה פרק ניתוח תרחישים — סדר מקצועי:</p><ol><li><strong>הגדרת תרחישים</strong>: Base, Bear, Stress — מה מניח כל אחד ומדוע (עוגן בנתונים)</li><li><strong>טבלת תרחישים</strong>: תפוסה, NOI, שירות חוב, DSCR, LTV — בכל תרחיש</li><li><strong>ניתוח Base</strong>: 'בBase, DSCR = 1.38 ו-LTV = 62% — תקין'</li><li><strong>ניתוח Bear</strong>: 'בBear, DSCR = 1.09 ו-LTV = 74% — מוגבל אך עומד; Watch List ב-DSCR &lt; 1.10'</li><li><strong>ניתוח Stress</strong>: 'בStress, DSCR = 0.89 ו-LTV = 88% — חריגה; נדרשת הצדקה בביטחונות'</li><li><strong>נקודות כשל</strong>: 'תפוסת Break-Even = 79%; ריבית כשל = 9%'</li><li><strong>מסקנה</strong>: המלצה מפורשת עם תנאים ספציפיים</li></ol>"
+  }
+]

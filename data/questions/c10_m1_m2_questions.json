@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C10-M01-CMP-Q01",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל העיקרי בין <strong>תרחיש Base</strong> לבין <strong>תרחיש Bear</strong> בניתוח אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "תרחיש Base הוא תחזית; תרחיש Bear הוא בדיקת עמידות. ועדת אשראי מקצועית תשאל תמיד מה קורה בBear — לא בBase.",
+    "topic_tags": ["scenario_analysis", "base_case", "bear_case"],
+    "options": [
+      {
+        "text_he": "תרחיש Base משקף הנחות ריאליות-סבירות, ואילו תרחיש Bear משקף הרעה מתונה-סבירה בפרמטרים המרכזיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תרחיש Base הוא האופטימי ביותר ותרחיש Bear הוא הפסימי ביותר האפשרי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; האופטימי הוא Bull/Upside, ואילו הפסימי הקיצוני הוא Stress או Extreme — Bear הוא הרעה מתונה בלבד"
+      },
+      {
+        "text_he": "תרחיש Base ו-Bear זהים בהנחות שוק אך שונים בהנחות מימון בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני התרחישים נבדלים בהנחות שוק, תפוסה, שכירות וגורמים נוספים — לא רק במימון"
+      },
+      {
+        "text_he": "תרחיש Bear כולל תמיד הנחת חדלות פירעון של הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bear אינו כולל בהכרח חדלות פירעון — זהו תרחיש לחץ מתון; Extreme הוא זה שבוחן מצבי קיצון חריגים"
+      }
+    ],
+    "explanation_html_he": "<p>מסגרת ניתוח התרחישים כוללת ארבעה רמות חומרה:</p><ul><li><strong>Base</strong> — תחזית ריאלית המבוססת על נתוני שוק עדכניים ועמדת הנכס</li><li><strong>Bear</strong> — הרעה מתונה וסבירה: ירידת שכירות, עלייה בפנויות, אך לא קריסה</li><li><strong>Stress</strong> — הרעה משמעותית: שוק שוקע, עזיבת שוכרים מרכזיים, עלייה חדה בריבית</li><li><strong>Extreme</strong> — תרחיש קיצוני נדיר: שילוב של כל הגרועים גם יחד</li></ul><p>האנליסט חייב להציג לפחות Base + Bear + Stress. הפער בין Base ל-Bear חייב להיות מוצדק בנתונים היסטוריים.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-CMP-Q02",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע <strong>תחזית נקודתית בודדת</strong> (Single-Point Forecast) אינה מספקת בניתוח אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מי שמביא לוועדת אשראי תחזית אחת בלבד מניח שהעתיד ידוע מראש. הוועדה תשאל: 'מה קורה אם טועים ב-15%?' — תן תשובה לפני שישאלו.",
+    "topic_tags": ["scenario_analysis", "single_point_forecast", "credit_analysis"],
+    "options": [
+      {
+        "text_he": "תחזית נקודתית אינה מביאה בחשבון אי-ודאות ותנודתיות, ולכן לא מגלה את טווח התוצאות האפשריות ואת רמת הסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תחזית נקודתית מדויקת יותר ולכן מעדיפים אותה בניתוח פשוט — רק בעסקאות גדולות נדרשים תרחישים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח תרחישים נדרש בכל עסקת אשראי ללא קשר לגודלה — הסיכון קיים תמיד"
+      },
+      {
+        "text_he": "הבעיה היא טכנית בלבד — קשה לחשב תחזית נקודתית נכונה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה היא מהותית ולא טכנית — גם תחזית נקודתית מדויקת חסרת ערך ללא הבנת פרופיל הסיכון סביבה"
+      },
+      {
+        "text_he": "תחזית נקודתית אינה מותרת על פי רגולציה של בנק ישראל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין איסור רגולטורי מפורש על תחזית נקודתית — הבעיה היא מקצועית ואנליטית, לא רגולטורית"
+      }
+    ],
+    "explanation_html_he": "<p>תחזית נקודתית יוצרת אשליה של ודאות. בעולם הנדל\"ן הגורמים המשפיעים — שכירות, תפוסה, ריבית, שיעורי היוון — כולם תנודתיים.</p><p>ניתוח תרחישים מספק:</p><ul><li><strong>מרחב תוצאות</strong> — מה הגרוע, הצפוי, הטוב</li><li><strong>בדיקת שרידות</strong> — האם ההלוואה שורדת גם בהרעה?</li><li><strong>נקודות כשל</strong> — באיזה רמת פנויות/שכירות DSCR נשבר מתחת ל-1.0?</li><li><strong>בסיס לתמחור</strong> — פרמיית סיכון מוצדקת רק אם הסיכון כמות</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M01-CMP-Q03",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הדרישה המינימלית לגבי <strong>DSCR בתרחיש Stress</strong> בניתוח אשראי נדל\"ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DSCR מתחת ל-1.0 בתרחיש Stress אינו אוטומטית דחייה — אבל כל הצדקה לאישור כזה חייבת להיות מפורשת ומנומקת בכתב.",
+    "topic_tags": ["dscr", "stress_test", "scenario_analysis"],
+    "options": [
+      {
+        "text_he": "DSCR בתרחיש Stress חייב לעלות על 1.0 — כלומר הנכס מכסה את שירות החוב גם בתנאי לחץ משמעותיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR בתרחיש Stress חייב לעלות על 1.25 כמו בתרחיש Base",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הדרישה ל-Stress נמוכה יותר מה-Base; ב-Base מקובל 1.25 ומעלה, אך ב-Stress הסף המינימלי הוא 1.0"
+      },
+      {
+        "text_he": "אין דרישה מינימלית ל-DSCR בתרחיש Stress — הוא נועד להציג את הגרוע ביותר בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם ב-Stress יש ציפייה שהחוב יכוסה — תרחיש Stress שבו DSCR מתחת ל-1.0 מחייב הצדקה מיוחדת"
+      },
+      {
+        "text_he": "DSCR בתרחיש Stress חייב לעלות על 0.75 לפחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR של 0.75 פירושו שהנכס מכסה רק 75% מהחוב — מצב זה אינו בר-קיימא ואינו עומד בסטנדרטים מקצועיים"
+      }
+    ],
+    "explanation_html_he": "<p>עמוד השדרה של ניתוח Stress הוא שאלת הכיסוי:</p><ul><li><strong>Base Case</strong>: DSCR &ge; 1.25 (מקובל)</li><li><strong>Bear Case</strong>: DSCR &ge; 1.10</li><li><strong>Stress Case</strong>: DSCR &ge; 1.00 — הנכס מכסה את שירות החוב, ולו בקושי</li></ul><p>כאשר DSCR בתרחיש Stress נופל מתחת ל-1.0, הפרויקט תלוי בהון עצמי נוסף של הלווה, בערבויות או בנכסים נלווים. אישור כזה מחייב הצדקה מפורשת ועיגון בביטחונות חזקים.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-CMP-Q04",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה <strong>מאפיין</strong> את ה-<strong>Bear Case</strong> לעומת ה-<strong>Stress Case</strong> בכל הנוגע לחומרת ההנחות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Bear ו-Stress חייבים להיות מוצדקים בנתונים. 'הורדנו ב-10% כי נראה לנו' אינה כיול — הצמד לנתוני מיתון 2008-2009 בשוק הרלוונטי.",
+    "topic_tags": ["bear_case", "stress_case", "scenario_calibration"],
+    "options": [
+      {
+        "text_he": "Bear Case משקף הרעה שנצפתה בעבר בשוקי נדל\"ן דומים, ואילו Stress Case משקף תרחיש חריג שמעבר לנסיון ההיסטורי הרגיל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Bear Case חמור יותר מ-Stress Case — Bear כולל חדלות פירעון ו-Stress רק הרעה בביצועים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסדר הוא Base < Bear < Stress < Extreme — Bear הוא הקל מבין השניים"
+      },
+      {
+        "text_he": "Bear ו-Stress שונים רק בשמם — בפועל מדובר באותו ניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבחנה ביניהם מהותית ומשקפת עוצמת לחץ שונה לחלוטין — שימוש בהם לסירוגין מוביל לניתוח שגוי"
+      },
+      {
+        "text_he": "Bear Case מיועד לנכסים מניבים ו-Stress Case מיועד לנכסי בנייה בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני התרחישים ישימים לכל סוג נכס ולכל סוג הלוואה — ההבדל הוא בחומרת ההנחות, לא בסוג הנכס"
+      }
+    ],
+    "explanation_html_he": "<p>כיול נכון של תרחישים:</p><ul><li><strong>Bear</strong>: הנחות המבוססות על הרעה שנצפתה בפועל — למשל ירידת שכירות של 8-12% בשפל של 2009</li><li><strong>Stress</strong>: הנחות חריגות המשלבות גורמי לחץ מרובים בו-זמנית — ירידת שכירות + עלייה בריבית + עזיבת שוכר מרכזי</li><li><strong>Extreme</strong>: תרחיש 'מה-אם' קיצוני — קריסת שוק, אירוע גיאופוליטי, מגיפה</li></ul><p>ועדת אשראי מצפה שהאנליסט יסביר מהיכן נגזרות ההנחות — לא רק להציג מספרים.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-CMP-Q05",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד <strong>ניתוח רגישות</strong> (Sensitivity Analysis) משלים את <strong>ניתוח התרחישים</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Sensitivity מראה איזה משתנה מסוכן ביותר; Scenario מראה מה קורה כשכולם מחמירים יחד. השניים ביחד יוצרים תמונה שלמה.",
+    "topic_tags": ["sensitivity_analysis", "scenario_analysis", "risk_tools"],
+    "options": [
+      {
+        "text_he": "ניתוח רגישות בודק השפעת שינוי <strong>משתנה בודד</strong> בעוד שאר הפרמטרים קבועים, ואילו תרחיש משנה <strong>מספר פרמטרים</strong> בו-זמנית בהלוגיקה עסקית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ניתוח רגישות מחליף את ניתוח התרחישים — אין צורך בשניהם יחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני הכלים משלימים זה את זה ומספקים מידע שונה — אחד על חשיפה למשתנה בודד, השני על שילוב של הרעות"
+      },
+      {
+        "text_he": "ניתוח רגישות מתאים לתרחישי ריבית בלבד, ואילו תרחישים מתאימים לשוכרים בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני הכלים ישימים לכל פרמטר — ריבית, שכירות, תפוסה, שיעור היוון ועוד"
+      },
+      {
+        "text_he": "ניתוח רגישות הוא כלי חשבונאי ואילו ניתוח תרחישים הוא כלי שוק ההון — בניתוח אשראי בנקאי רק תרחישים רלוונטיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם הם כלים אנליטיים כלליים בשימוש נפוץ בניתוח אשראי נדל\"ני"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח רגישות ותרחישים הם שני רבדים משלימים:</p><table><tr><th>ניתוח רגישות</th><th>ניתוח תרחישים</th></tr><tr><td>משנה משתנה אחד בכל פעם</td><td>משנה קבוצת משתנים ביחד</td></tr><tr><td>מזהה את המשתנה הקריטי ביותר</td><td>מדמה מצב שוק אמיתי</td></tr><tr><td>לא מניח קשר בין משתנים</td><td>מניח קורלציה בין גורמים</td></tr></table><p>תהליך טוב: (1) בצע Sensitivity כדי לזהות משתנים קריטיים; (2) בנה תרחישים שמשנים אותם בו-זמנית עם הגיון עסקי.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-PRC-Q01",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניתוח עסקת מימון לבניין משרדים, ה-DSCR בתרחיש Base הוא 1.35 ובתרחיש Stress הוא 0.92. מה המסקנה האנליטית הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR של 0.92 בStress אינו בהכרח דחייה — אבל הוא מחייב שאלות: מה ביטחוני הגנה? מה כיסוי ה-LTV? האם יש ערבויות? בלי תשובות לאלה — לא ניתן לאשר.",
+    "topic_tags": ["dscr", "stress_test", "credit_decision"],
+    "options": [
+      {
+        "text_he": "תרחיש Stress מראה DSCR מתחת ל-1.0, מה שמצביע על פגיעות בכיסוי החוב בתנאי לחץ — נדרש ניתוח עמוק של ביטחונות ויכולת הלווה לתגבר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מכיוון ש-DSCR בBase גבוה מ-1.25, העסקה תקינה ואין צורך לדאוג מה-Stress",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Base גבוה אינו מבטל את הסיכון בStress — ועדת אשראי מקצועית דורשת הסבר מפורש ל-DSCR מתחת ל-1.0 בStress"
+      },
+      {
+        "text_he": "העסקה נדחית אוטומטית כי DSCR בStress מתחת ל-1.0",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין דחייה אוטומטית — מדובר בגורם המחייב בחינה נוספת של ביטחונות, ערבויות ויכולת הלווה, לא בפסילה מיידית"
+      },
+      {
+        "text_he": "ה-DSCR בStress אינו רלוונטי כי Stress הוא תרחיש לא סביר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stress מייצג תרחיש ריאלי של הרעה משמעותית, לא בלתי-סביר — התעלמות ממנו מחטיאה את מטרת הניתוח"
+      }
+    ],
+    "explanation_html_he": "<p>DSCR של 0.92 בStress מעיד שבתנאי לחץ הנכס מכסה רק 92% מתשלומי החוב — פער של 8% שחייב להגיע ממקום אחר.</p><p>שאלות שחייבות להיות בדוח:</p><ul><li>מה LTV הנוכחי ומה הפגיעה בביטחונות בתרחיש Stress?</li><li>האם ללווה יש נזילות לכסות את הפער?</li><li>האם יש ערבות אישית או ביטחונות נלווים?</li><li>מהי סבירות תרחיש Stress זה בשוק הספציפי?</li></ul><p>אנליסט שאינו מציג שאלות אלה בדוח — נכשל בתפקידו.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-PRC-Q02",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בונה תרחיש Bear לנכס מסחרי ומניח ירידת שכירות של 25% וירידת תפוסה ל-60%. מנהלו אומר שהנחות אלו חמורות מדי ל-Bear ומתאימות ל-Stress. מי צודק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "כיול תרחישים הוא אמנות המבוססת על נתונים. השאלה תמיד: 'האם ראינו זאת בעבר?' — אם כן, זה Bear; אם זה רק בתרחישי קיצון היסטוריים, זה Stress.",
+    "topic_tags": ["scenario_calibration", "bear_case", "stress_case"],
+    "options": [
+      {
+        "text_he": "המנהל ככל הנראה צודק — Bear Case בדרך כלל מניח ירידות מתונות יותר (כ-10-15%), ואילו ירידה של 25% בשכירות ו-60% תפוסה מאפיינות תרחיש Stress",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "האנליסט צודק — ככל שהתרחיש חמור יותר, כך הניתוח טוב יותר ואין בעיה בהנחות אגרסיביות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תרחישים לא נכונים מבחינת הכיול עלולים להוביל לניתוח שגוי — חומרה מוגזמת ב-Bear מאפשרת לאשר עסקאות רעות כי ה-Stress נראה 'לא ריאלי'"
+      },
+      {
+        "text_he": "אין משמעות לכינוי Bear או Stress — כל עוד ה-DSCR חיובי, ניתן לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כינוי ומיפוי נכון של תרחישים חיוני לתקשורת מדויקת עם ועדת אשראי ולהשוואה בין עסקאות"
+      },
+      {
+        "text_he": "שניהם טועים — אין תקנים מוגדרים לכיול תרחישים ולכן כל הנחה קבילה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קיימים בנצ'מרק היסטוריים ונורמות מקצועיות לכיול — גם אם אינן חוקיות, הן מחייבות מקצועית"
+      }
+    ],
+    "explanation_html_he": "<p>כיול Bear Case מקובל לנכסים מסחריים בישראל:</p><ul><li>ירידת שכירות: 8-15%</li><li>עלייה בפנויות: 5-10 נקודות אחוז</li><li>עלייה בריבית: 50-100bp</li></ul><p>ירידה של 25% ותפוסה של 60% — תואמת Stress Case (שילוב של הרעות חמורות) ולא Bear.</p><p>חשיבות הכיול: אם Bear חמור מדי, ה-Stress נראה בלתי-ריאלי ומאבד ערך כבדיקה; אם Bear קל מדי, הניתוח מפספס סיכונים ריאליים.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-PRC-Q03",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניית מסגרת תרחישים לעסקת אשראי — כמה תרחישים מינימום נדרשים ומהם?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שלושה תרחישים הם המינימום המקצועי. מי שמביא אחד — לא ניתח. מי שמביא שניים — ניתח למחצה. שלושה: Base, Bear, Stress — זה הסטנדרט.",
+    "topic_tags": ["scenario_analysis", "credit_standards", "base_case"],
+    "options": [
+      {
+        "text_he": "שלושה תרחישים לפחות: Base, Bear, ו-Stress — כאשר כל אחד מייצג רמת חומרה שונה של הנחות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תרחיש אחד (Base) מספיק אם ה-DSCR גבוה מ-1.5",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR גבוה בBase אינו מייתר את הצורך בתרחישי לחץ — המצב יכול להתדרדר גם מרמה גבוהה"
+      },
+      {
+        "text_he": "שני תרחישים: אופטימי ופסימי — Base ו-Stress",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קפיצה ישירה מBase לStress מדלגת על Bear שמייצג הרעה מתונה וסבירה — זו רמת בדיקה חיונית"
+      },
+      {
+        "text_he": "חמישה תרחישים לפחות: Bull, Base, Bear, Stress, Extreme — פחות מזה אינו קביל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bull ו-Extreme הם תוספות ערך אך לא דרישת מינימום; הסטנדרט המקצועי הוא שלושה תרחישים"
+      }
+    ],
+    "explanation_html_he": "<p>סטנדרט מינימלי בניתוח אשראי נדל\"ני:</p><ol><li><strong>Base Case</strong> — תחזית ריאלית, בסיס לתמחור ולבדיקת ברת-קיימא</li><li><strong>Bear Case</strong> — הרעה מתונה המבוססת על נסיון היסטורי</li><li><strong>Stress Case</strong> — הרעה משמעותית, בדיקת שרידות החוב</li></ol><p>הוספת Extreme Case רצויה בעסקאות גדולות או בסביבה לא ודאית. Bull Case רלוונטי לצורכי תמחור וניהול תיק, אך לא לניתוח האשראי הבסיסי.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-PRC-Q04",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מציג ניתוח רגישות המראה שה-DSCR רגיש מאוד לשינויים בתפוסה. כיצד ממצא זה אמור להשפיע על בניית תרחישי הסיכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ניתוח רגישות שמזהה את המשתנה הקריטי הוא הבסיס לבניית תרחישים טובים. המשתנה הרגיש ביותר חייב לקבל טיפול מיוחד בתרחישי הסיכון.",
+    "topic_tags": ["sensitivity_analysis", "scenario_construction", "occupancy"],
+    "options": [
+      {
+        "text_he": "יש לבנות תרחישים עם שינויי תפוסה מוגדרים היטב — Bear ו-Stress יתמקדו בירידות תפוסה שונות, ויש לנמק את ההנחות על בסיס נתוני שוק",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ניתוח הרגישות מספיק — אין צורך להוסיף תרחישים נפרדים לתפוסה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח רגישות בודד משתנה בכל פעם ואינו מדמה מצב שוק ריאלי שבו מספר גורמים מחמירים יחד"
+      },
+      {
+        "text_he": "יש להוסיף ביטחונות נוספים כדי לפצות על הרגישות לתפוסה — ניתוח תרחישים לא ישנה את המסקנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביטחונות ותרחישים הם כלים שונים; ביטחונות מגינים על הבנק בכשל אך תרחישים מודדים את הסבירות לכשל עצמו"
+      },
+      {
+        "text_he": "אם התפוסה היא גורם קריטי, יש לדחות את העסקה אוטומטית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רגישות גבוהה לתפוסה אינה סיבה לדחייה אוטומטית — היא מחייבת ניתוח מעמיק של הסבירות לירידת תפוסה וגיבוי בביטחונות מתאימים"
+      }
+    ],
+    "explanation_html_he": "<p>כאשר ניתוח רגישות מגלה שמשתנה מסוים קריטי, הצעד הבא הוא:</p><ol><li>הגדרת טווח ריאלי לאותו משתנה בכל תרחיש (Bear/Stress) בהתבסס על נתוני שוק</li><li>בניית תרחישים שמשנים את המשתנה הקריטי יחד עם משתנים מתואמים (ירידת תפוסה מלווה בירידת שכירות)</li><li>הצגה מפורשת של נקודת הכשל: באיזה תפוסה DSCR נשבר מתחת ל-1.0</li></ol><p>כך הופך ניתוח הרגישות לכלי לבנייה מושכלת של תרחישים.</p>"
+  },
+  {
+    "question_id_external": "C10-M01-PRC-Q05",
+    "course_number": 10,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מה ההבדל בין <strong>תרחיש</strong> ל-<strong>סימולציית מונטה קרלו</strong> בניתוח סיכוני אשראי נדל\"ן, ומתי מתאים כל כלי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "מונטה קרלו הוא כלי מתוחכם שמתאים למנהלי תיק ולמחקר — בניתוח אשראי שגרתי, שלושה תרחישים ממוקדים ומנומקים עדיפים על אלפי סימולציות שאינן מסופרות.",
+    "topic_tags": ["scenario_analysis", "monte_carlo", "risk_tools"],
+    "options": [
+      {
+        "text_he": "תרחיש מגדיר קבוצה קבועה של הנחות עם נרטיב עסקי, ואילו מונטה קרלו מדגמת אלפי שילובים אקראיים של משתנים — תרחישים מתאימים לניתוח שגרתי, מונטה קרלו לניהול תיק",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מונטה קרלו עדיף בכל מצב כי הוא מדויק יותר מתרחישים פשוטים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מונטה קרלו מסובך יותר ולא בהכרח מדויק יותר — דרושות הנחות על התפלגות שגם הן לא ודאיות, ולתוצאות קשה לתקשר לוועדת אשראי"
+      },
+      {
+        "text_he": "שניהם זהים מבחינה מתמטית — ההבדל הוא בשם בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם שונים מהותית בגישה ובתוצאות — תרחישים נותנים נקודות ספציפיות, מונטה קרלו נותנת התפלגות הסתברותית"
+      },
+      {
+        "text_he": "תרחישים מיועדים לנכסים קיימים ומונטה קרלו מיועדת לפרויקטי פיתוח בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין הגבלה כזו — שניהם ישימים לכל סוג נכס, ההבחנה היא בשאלה האנליטית ובצורך לתקשר את הממצאים"
+      }
+    ],
+    "explanation_html_he": "<p>השוואה בין הכלים:</p><table><tr><th>תרחישים</th><th>מונטה קרלו</th></tr><tr><td>3-5 נקודות ספציפיות</td><td>10,000+ סימולציות</td></tr><tr><td>נרטיב עסקי ברור</td><td>תוצאה הסתברותית</td></tr><tr><td>קל לתקשר לוועדה</td><td>דורש הסבר סטטיסטי</td></tr><tr><td>מתאים לניתוח שגרתי</td><td>מתאים לניהול תיק/מחקר</td></tr></table><p>בניתוח אשראי שגרתי — תרחישים הם הכלי הנכון. מונטה קרלו שמור לניתוחים מתוחכמים של תיקי הלוואות או מחקר כלכלי.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-CMP-Q01",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד <strong>עלייה של 200bp בריבית</strong> משפיעה על שירות החוב ועל ה-DSCR?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "שינוי ריבית של 200bp הוא תרחיש ריאלי — ישראל עברה עליות של יותר מזה ב-2022-2023. כל אנליסט חייב לדעת את ה-DSCR שלו לאחר 200bp לפני הגשת הבקשה.",
+    "topic_tags": ["interest_rate_shock", "dscr", "debt_service"],
+    "options": [
+      {
+        "text_he": "עלייה בריבית מגדילה את תשלומי שירות החוב, מה שמקטין את ה-DSCR — הנכס מייצר פחות כיסוי יחסית לחוב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עלייה בריבית מגדילה את ה-NOI כי הכנסות שכירות עולות עם האינפלציה, ולכן DSCR עולה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית ו-NOI הם משתנים שונים — עלייה בריבית לא מגדילה NOI; שכירות מושפעת משוק הנדל\"ן ולא ישירות מהריבית"
+      },
+      {
+        "text_he": "עלייה בריבית משפיעה על שירות החוב רק בהלוואות בריבית משתנה, לא בריבית קבועה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תשובה זו נכונה לטכניקה אך לא למסגרת תרחישים — ניתוח +200bp בודק חשיפה קיימת ו/או חידוש עתידי גם אם ריבית היום קבועה"
+      },
+      {
+        "text_he": "DSCR לא מושפע מריבית — הוא מחושב רק על בסיס NOI ולא על בסיס שירות חוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR = NOI / Debt Service — המכנה הוא שירות החוב הכולל ריבית, לכן שינוי בריבית משנה את DSCR ישירות"
+      }
+    ],
+    "explanation_html_he": "<p>DSCR = NOI / Debt Service</p><p>כאשר ריבית עולה ב-200bp:</p><ul><li>Debt Service = קרן + ריבית — הריבית גדלה, שירות החוב גדל</li><li>NOI נשאר קבוע בטווח קצר (שכירות בחוזים, הוצאות תפעוליות לא קשורות לריבית)</li><li>לכן DSCR = NOI / (שירות חוב גדול יותר) = מספר קטן יותר</li></ul><p>דוגמה: NOI = 1,000K; שירות חוב לפני = 750K; DSCR = 1.33. לאחר +200bp שירות חוב = 850K; DSCR = 1.18.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-CMP-Q02",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הקשר בין <strong>עלייה בשיעורי הריבית</strong> לבין <strong>התרחבות ה-Cap Rate</strong> (שיעור היוון) ושוויים של נכסים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "קורלציית ריבית-Cap Rate היא אחת הסיבות שמשבר ריבית הופך לבעיית LTV גם בלי ירידה בNOI. שני הגורמים פוגעים בו-זמנית: עלות חוב עולה, שווי בטחון יורד.",
+    "topic_tags": ["cap_rate", "interest_rate", "property_value", "ltv"],
+    "options": [
+      {
+        "text_he": "כאשר ריביות עולות, Cap Rate נוטה להתרחב (לעלות), מה שגורם לירידת שווי הנכסים בנוסחת שווי = NOI / Cap Rate",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עלייה בריבית גורמת לירידת Cap Rate כי משקיעים מוכנים לקבל פחות תשואה בסביבת ריבית גבוהה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההיגיון הפוך — בסביבת ריבית גבוהה, משקיעים דורשים פרמיית תשואה גבוהה יותר מנדל\"ן, מה שמעלה Cap Rate ומוריד שווי"
+      },
+      {
+        "text_he": "אין קשר בין ריבית ל-Cap Rate — Cap Rate נקבע אך ורק על ידי הביקוש לנדל\"ן מניב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate מושפע ממחיר הכסף בשוק — ריבית גבוהה מייקרת אלטרנטיבות השקעה ומגדילה את העלות ההזדמנותית של נדל\"ן"
+      },
+      {
+        "text_he": "עלייה בריבית מעלה ישירות את ה-NOI, מה שמפצה על התרחבות Cap Rate",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית אינה מעלה NOI ישירות — NOI נקבע על ידי הכנסות שכירות בניכוי הוצאות תפעוליות"
+      }
+    ],
+    "explanation_html_he": "<p>מנגנון ריבית-Cap Rate-שווי:</p><ol><li>ריביות עולות &rarr; תשואות אלטרנטיביות (אג\"ח, פיקדונות) עולות</li><li>משקיעי נדל\"ן דורשים פרמיה גבוהה יותר &rarr; Cap Rate מתרחב</li><li>שווי נכס = NOI / Cap Rate &rarr; Cap Rate גבוה = שווי נמוך</li></ol><p>דוגמה: NOI = 1,000K; Cap Rate 5% &rarr; שווי = 20M. Cap Rate מתרחב ל-6% &rarr; שווי = 16.7M = ירידה של 17%.</p><p>זו הסיבה שעליית ריבית פוגעת כפלית: מגדילה עלות מימון ומוחקת שווי ביטחונות.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-CMP-Q03",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>בתרחיש שוק שבו עולה הריבית, מתרחב ה-Cap Rate ויורד ה-NOI — כיצד שלושת הגורמים <strong>יחד</strong> משפיעים על העסקה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שלישיית הרוע: ריבית עולה + Cap Rate מתרחב + NOI יורד — כל אחד לבד קשה, השלושה יחד הם תרחיש Stress קלאסי. צריך לקוונטפ את כולם ביחד, לא בנפרד.",
+    "topic_tags": ["stress_test", "cap_rate", "noi", "dscr", "ltv"],
+    "options": [
+      {
+        "text_he": "השפעה כפולה: DSCR נפגע (שירות חוב עולה וNOI יורד) ו-LTV עולה (שווי נכס יורד ויתרת הלוואה נשארת) — פגיעה בו-זמנית בכיסוי ובביטחון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הגורמים מקזזים זה את זה — NOI יורד מקזז עלייה בשווי, ולכן ההשפעה הכוללת מינימלית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שלושת הגורמים פועלים באותו כיוון שלילי — אין קיזוז, ההשפעה מצטברת ומחמירה"
+      },
+      {
+        "text_he": "רק ה-DSCR נפגע — שווי הנכס אינו רלוונטי לניתוח אשראי שוטף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי הנכס קריטי ל-LTV שהוא ביטחון הבנק — ירידת שווי יכולה לגרום לפרת ברנית LTV שמחייבת תשלום מוקדם"
+      },
+      {
+        "text_he": "רק ה-LTV נפגע — ה-DSCR לא מושפע כי NOI ושירות חוב יורדים יחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שירות חוב עולה (בגלל ריבית) בעוד NOI יורד — ה-DSCR נפגע קשות, לא נשאר יציב"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח השפעה משולבת:</p><ul><li><strong>DSCR</strong>: מכנה (שירות חוב) עולה + מונה (NOI) יורד &rarr; DSCR קורס</li><li><strong>LTV</strong>: שווי נכס = NOI / Cap Rate — NOI יורד וCap Rate עולה &rarr; שווי צונח; יתרת הלוואה קבועה &rarr; LTV קופץ</li></ul><p>דוגמה מספרית: NOI ירד מ-1,000K ל-850K (15-); Cap Rate עלה מ-5% ל-6.5%; שירות חוב עלה מ-750K ל-900K.</p><ul><li>DSCR: ירד מ-1.33 ל-0.94</li><li>שווי: ירד מ-20M ל-13.1M (35-)</li><li>LTV: עלה מ-60% ל-91%</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M02-CMP-Q04",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>בתרחיש שבו שווי נכס יורד ב-20%, מה ההשפעה על ה-<strong>LTV</strong> ומה המשמעות לגבי ברנית LTV?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "LTV breach הוא אירוע חוזי שמחייב תגובה מיידית — לא רק ניתוח. האנליסט צריך לדעת מה הפעלות הזמינות ולוודא שהחוזה מעוגן היטב.",
+    "topic_tags": ["ltv", "property_value_decline", "covenant_breach"],
+    "options": [
+      {
+        "text_he": "LTV עולה — נניח LTV מקורי 65%, ירידת שווי 20% מעלה אותו לכ-81%; אם יש ברנית LTV, פרתה מחייבת פירעון חלקי או ביטחון נוסף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV יורד כי שווי הנכס יורד — הבנק נחשף פחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV = חוב / שווי — כאשר שווי יורד והחוב נשאר, LTV עולה; הבנק נחשף יותר, לא פחות"
+      },
+      {
+        "text_he": "LTV לא משתנה כי יתרת ההלוואה ושווי הנכס יורדים יחד באותו שיעור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; יתרת ההלוואה לא יורדת אוטומטית עם ירידת שווי הנכס — היא יורדת רק בפירעון שוטף בקצב הרבה יותר איטי"
+      },
+      {
+        "text_he": "ברנית LTV מופעלת רק כאשר שווי הנכס עולה, לא כאשר יורד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ברנית LTV נועדה בדיוק להגן על הבנק מפני ירידת שווי — היא מופעלת כשLTV חורג מסף מוגדר כלפי מעלה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב השפעת ירידת שווי על LTV:</p><p>הלוואה: 13M; שווי מקורי: 20M; LTV מקורי = 65%</p><p>שווי אחרי ירידה של 20%: 16M; LTV חדש = 13M / 16M = 81.25%</p><p>אם ברנית LTV היא 75%, חרגנו ב-6.25%.</p><p>ברנית LTV מחייבת בדרך כלל:</p><ul><li>תשלום מוקדם להחזרת LTV לרמה המותרת</li><li>או הפקדת ביטחון נוסף (נכס נוסף, ערבות, פיקדון)</li><li>או משא ומתן על ווייבר</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M02-CMP-Q05",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מחשבים את ה-<strong>DSCR החדש לאחר זעזוע ריבית של +200bp</strong> כאשר NOI = 2,000K ש\"ח, יתרת קרן = 15,000K ש\"ח, ריבית נוכחית = 5%, הלוואה בלון ל-5 שנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "חישוב DSCR לאחר זעזוע ריבית הוא כלי עבודה יומיומי. אנליסט שלא יכול לחשב זאת בראש בתוך 2 דקות לא מוכן לפגישת וועדה.",
+    "topic_tags": ["dscr_calculation", "interest_rate_shock", "debt_service"],
+    "options": [
+      {
+        "text_he": "שירות חוב נוכחי: 750K (5% על 15,000K); לאחר +200bp: 1,050K (7% על 15,000K); DSCR נוכחי = 2.67; DSCR חדש = 2,000 / 1,050 = 1.90",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR נוכחי = 2,000 / 15,000 = 0.13; DSCR חדש לאחר +200bp = 0.11",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR מחושב על בסיס שירות חוב שנתי (ריבית), לא על יתרת הקרן כולה"
+      },
+      {
+        "text_he": "לא ניתן לחשב DSCR לאחר זעזוע ריבית מבלי לדעת את לוח הסילוקין המלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בהלוואת בלון, שירות החוב השנתי הוא ריבית בלבד (ללא פירעון קרן שוטף) — החישוב פשוט: ריבית חדשה X יתרת קרן"
+      },
+      {
+        "text_he": "שירות חוב לאחר +200bp = 750K + 200K = 950K; DSCR = 2,000 / 950 = 2.11",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; +200bp על 15,000K = 15,000 X 2% = 300K נוספים, לא 200K — שירות חוב חדש = 750K + 300K = 1,050K"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב שלב אחר שלב:</p><ol><li>שירות חוב נוכחי = 15,000K &times; 5% = 750K לשנה</li><li>ריבית חדשה = 5% + 2% = 7%</li><li>שירות חוב חדש = 15,000K &times; 7% = 1,050K לשנה</li><li>DSCR נוכחי = 2,000K / 750K = 2.67</li><li>DSCR חדש = 2,000K / 1,050K = 1.90</li></ol><p>ירידה מ-2.67 ל-1.90 — ירידה משמעותית אך עדיין מעל 1.0. בנכסים עם DSCR נמוך יותר, אותה עלייה בריבית תהיה קטלנית.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-PRC-Q01",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב עם NOI = 1,200K ש\"ח ושירות חוב = 900K ש\"ח (DSCR = 1.33). הריבית עולה ב-150bp ושירות החוב גדל ב-120K. מה ה-DSCR החדש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "DSCR של 1.16 אחרי זעזוע ריבית הוא קו אדום — הוא עדיין מעל 1.0 אבל הרווחה נמוכה מאוד. כל הרעה נוספת קטנה תפיל אותו מתחת ל-1.0.",
+    "topic_tags": ["dscr_calculation", "interest_rate_shock", "sensitivity"],
+    "options": [
+      {
+        "text_he": "שירות חוב חדש = 900K + 120K = 1,020K; DSCR חדש = 1,200K / 1,020K = 1.18",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR חדש = 1,200K / 900K + 150bp = 1.33 - 0.15 = 1.18, לכן DSCR = 1.18",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם התוצאה זהה, השיטה שגויה — לא מחסירים bp ישירות מDSCR אלא מחשבים את שירות החוב החדש ומחלקים"
+      },
+      {
+        "text_he": "DSCR חדש = (1,200K - 120K) / 900K = 1.20",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עלייה בריבית מגדילה את שירות החוב (מכנה), לא מקטינה את ה-NOI (מונה) — יש להוסיף 120K לשירות החוב"
+      },
+      {
+        "text_he": "DSCR חדש = 1,200K / 1,050K = 1.14",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שירות החוב החדש הוא 900K + 120K = 1,020K, לא 1,050K — 1,020K הוא המכנה הנכון"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב:</p><ul><li>שירות חוב חדש = 900K + 120K = 1,020K</li><li>DSCR חדש = 1,200K / 1,020K = 1.176 &asymp; 1.18</li></ul><p>ירידה מ-1.33 ל-1.18 — ירידה של 0.15 נקודות בגין +150bp. נשאר מעל 1.0 אבל הפגיעות גדלה. תרחיש Stress שיוסיף ירידת NOI של 10% יוריד DSCR ל-1.06 — קרוב מאוד לגבול.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-PRC-Q02",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי שוויו 25M ש\"ח עם הלוואה של 16M ש\"ח (LTV = 64%). שווי הנכס יורד ב-20% בתרחיש Stress. מה ה-LTV החדש ומה המשמעות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "LTV של 80% בStress הוא גבוה אך לא אסון — אם NOI מכסה את החוב. הבעיה תתחיל כשLTV יעלה על 80-85% ויפגוש ברנית חוזית.",
+    "topic_tags": ["ltv_calculation", "property_value_decline", "stress_test"],
+    "options": [
+      {
+        "text_he": "שווי חדש = 25M &times; 80% = 20M; LTV חדש = 16M / 20M = 80%; עלייה מ-64% ל-80% — יש לבדוק האם חורג מברנית LTV חוזית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV חדש = 64% - 20% = 44% — הLTV יורד עם שווי הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV = חוב / שווי — כאשר שווי יורד, LTV עולה לא יורד; החוב נשאר קבוע ב-16M"
+      },
+      {
+        "text_he": "LTV חדש = 16M / (25M - 20%) = 16M / 5M = 320% — העסקה קורסת לחלוטין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידה של 20% מ-25M = 5M ירידה, שווי חדש = 20M לא 5M — יש להכפיל ב-80%, לא לחסר 20%"
+      },
+      {
+        "text_he": "LTV אינו משתנה כי הבנק לא מעריך מחדש את הנכס בכל שנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בניתוח תרחישים אנו מחשבים LTV תיאורטי לפי שווי משוער — זאת אנליזה, לא חשבון ממשי; הבנק אכן מעריך מחדש בנסיבות מסוימות"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב:</p><ul><li>שווי חדש = 25M &times; (1 - 20%) = 25M &times; 80% = 20M</li><li>LTV חדש = 16M / 20M = 80%</li></ul><p>עלייה של 16 נקודות אחוז (מ-64% ל-80%). אם הסכם ההלוואה כולל ברנית LTV של 75%, פרנו אותה — הבנק זכאי לדרוש:</p><ul><li>פירעון חלקי לכדי 15M (כדי להחזיר LTV ל-75%)</li><li>או ביטחון נוסף שווה ערך</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M02-PRC-Q03",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בתרחיש שוק מורכב: ריבית עולה ב-200bp, Cap Rate מתרחב מ-5.5% ל-7%, ו-NOI יורד ב-12%. נכס עם NOI נוכחי = 1,500K, הלוואה = 18M, ריבית נוכחית = 5.5% (בלון). חשב את DSCR ו-LTV בתרחיש זה.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "תרחיש משולב זה הוא ה-Stress הקלאסי של 2023 בישראל — ריבית קפצה, Cap Rate התרחב, NOI נחלש. כל אנליסט חייב לדעת לחשב זאת.",
+    "topic_tags": ["stress_test", "dscr_calculation", "ltv_calculation", "compound_scenario"],
+    "options": [
+      {
+        "text_he": "NOI חדש = 1,320K; שירות חוב חדש = 18M &times; 7.5% = 1,350K; DSCR = 0.98; שווי חדש = 1,320K / 7% = 18.86M; LTV = 18M / 18.86M = 95.4%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI חדש = 1,320K; שירות חוב נשאר 990K (לא משתנה); DSCR = 1.33; LTV = 95%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שירות החוב השתנה — ריבית עלתה מ-5.5% ל-7.5%, לכן שירות חוב = 18M &times; 7.5% = 1,350K לא 990K"
+      },
+      {
+        "text_he": "NOI חדש = 1,320K; שירות חוב חדש = 1,350K; DSCR = 0.98; שווי חדש = 1,500K / 7% = 21.4M; LTV = 84%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לחישוב שווי חדש יש להשתמש ב-NOI החדש (1,320K), לא ב-NOI המקורי (1,500K)"
+      },
+      {
+        "text_he": "ה-DSCR אינו משתנה כי NOI ושירות חוב יורדים באותו שיעור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI יורד ב-12% בעוד שירות החוב עולה (ריבית עולה) — השינויים אינם מקבילים אלא הפוכים בכיוון, מה שמכפיל את הפגיעה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב שלב אחר שלב:</p><ol><li>NOI חדש = 1,500K &times; (1 - 12%) = 1,320K</li><li>ריבית חדשה = 5.5% + 2% = 7.5%</li><li>שירות חוב חדש = 18M &times; 7.5% = 1,350K</li><li>DSCR = 1,320K / 1,350K = 0.978 &asymp; 0.98</li><li>שווי חדש = NOI חדש / Cap Rate חדש = 1,320K / 7% = 18,857K &asymp; 18.86M</li><li>LTV = 18M / 18.86M = 95.4%</li></ol><p>מסקנה: DSCR מתחת ל-1.0, LTV מעל 90% — מצב קריטי שדורש ביטחונות נוספים חזקים מאוד.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-PRC-Q04",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מנהל אשראי שואל אנליסט: 'הצג לי את נקודת הכשל בריבית — באיזו ריבית ה-DSCR יורד מתחת ל-1.0?' NOI = 1,800K, קרן הלוואה = 20M, ריבית נוכחית = 6%. מה התשובה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נקודת הכשל בריבית היא כלי שחייב להיות בכל דוח הלוואת נדל\"ן — לא 'הNOI מכסה בBase' אלא 'DSCR = 1.0 בריבית X%'.",
+    "topic_tags": ["break_even_rate", "dscr", "interest_rate_sensitivity"],
+    "options": [
+      {
+        "text_he": "נקודת הכשל: DSCR = 1.0 כאשר שירות חוב = NOI = 1,800K; ריבית כשל = 1,800K / 20,000K = 9%; ב-6% נוכחית יש מרווח של 300bp",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נקודת הכשל היא כאשר ריבית = 1.0 = 100% — מצב לא ריאלי, אין נקודת כשל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נקודת הכשל מחושבת על ידי השוואת שירות חוב ל-NOI, לא על ידי הצבת ריבית = 1.0"
+      },
+      {
+        "text_he": "ריבית כשל = 6% + (1.0 / 1,800K) = לא ניתן לחשב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החישוב הוא: ריבית כשל = NOI / קרן הלוואה = 1,800K / 20,000K = 9%"
+      },
+      {
+        "text_he": "ריבית כשל = DSCR נוכחי &times; ריבית נוכחית = 1.5 &times; 6% = 9%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם התוצאה זהה, המתודולוגיה שגויה — אין להכפיל DSCR בריבית; החישוב הנכון הוא NOI / קרן"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב נקודת כשל בריבית:</p><ol><li>DSCR = 1.0 כאשר NOI = שירות חוב</li><li>שירות חוב = קרן &times; ריבית</li><li>ריבית כשל = NOI / קרן = 1,800K / 20,000K = 9%</li><li>מרווח עד לכשל = 9% - 6% = 3% = 300bp</li></ol><p>DSCR נוכחי = 1,800K / (20,000K &times; 6%) = 1,800K / 1,200K = 1.50</p><p>מרווח של 300bp הוא מרחק נוח — אבל בסביבת עליות חדות, מרווח זה יכול להישחק ב-18 חודשים.</p>"
+  },
+  {
+    "question_id_external": "C10-M02-PRC-Q05",
+    "course_number": 10,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב עם Cap Rate נוכחי של 5% ו-NOI של 2,500K. אנליסט בונה תרחיש שבו Cap Rate מתרחב ל-6.5% ו-NOI יורד ב-8%. מה שווי הנכס בתרחיש זה ומה שיעור הירידה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שילוב של התרחבות Cap Rate וירידת NOI הוא פצצת שווי. 5% Cap Rate ו-NOI גבוה = שווי גבוה; התרחבות ל-6.5% עם ירידת NOI = ירידת שווי דרמטית.",
+    "topic_tags": ["cap_rate", "property_valuation", "noi", "stress_test"],
+    "options": [
+      {
+        "text_he": "שווי נוכחי = 2,500K / 5% = 50M; NOI חדש = 2,300K; שווי חדש = 2,300K / 6.5% = 35.4M; ירידה = 29.2%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שווי נוכחי = 50M; שווי חדש = 50M &times; (1 - 8%) &times; (1 - 30%) = 33.3M; ירידה = 33.4%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא מכפילים את שווי המקורי — יש לחשב NOI חדש ולחלק ב-Cap Rate חדש; ה-30% לא הוצג בשאלה"
+      },
+      {
+        "text_he": "שווי חדש = 2,500K / 6.5% = 38.5M; ירידה = 23%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה שכח לכלול את ירידת ה-NOI ב-8% — יש להשתמש ב-NOI החדש (2,300K) ולא ב-NOI הנוכחי (2,500K)"
+      },
+      {
+        "text_he": "ירידת שווי = ירידת NOI + התרחבות Cap Rate = 8% + 30% = 38%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לא ניתן לחבר אחוזים כך — יש לחשב שווי מלא בשני המצבים ואז לחשב שיעור ירידה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב:</p><ol><li>שווי נוכחי = NOI / Cap Rate = 2,500K / 5% = 50,000K = 50M</li><li>NOI חדש = 2,500K &times; 92% = 2,300K</li><li>שווי חדש = 2,300K / 6.5% = 35,385K &asymp; 35.4M</li><li>ירידת שווי = (50M - 35.4M) / 50M = 29.2%</li></ol><p>ירידה של כמעט 30% בשווי מגיעה ממנגנון כפול:</p><ul><li>NOI ירד מ-2,500K ל-2,300K (מונה קטן)</li><li>Cap Rate עלה מ-5% ל-6.5% (מכנה גדל)</li></ul><p>זה ממחיש מדוע שוק ריבית עולה כה מסוכן לנדל\"ן מניב.</p>"
+  }
+]
