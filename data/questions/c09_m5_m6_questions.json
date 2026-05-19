@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C09-M05-CMP-Q01",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם שלושת סוגי <strong>ריכוזיות (Concentration Risk)</strong> שמנהלי סיכוני אשראי נדל\"ן עוקבים אחריהם בתיק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "תיק נדל\"ן מגוון אינו רק 'הרבה נכסים' — גיוון אמיתי פירושו ריכוזיות נמוכה בגיאוגרפיה, בסוג נכס ובשוכרים. בלי לבדוק שלושתם, אתה לא באמת מגוון.",
+    "topic_tags": ["concentration_risk", "portfolio", "credit_risk"],
+    "options": [
+      {
+        "text_he": "ריכוזיות גיאוגרפית (אזור/עיר), ריכוזיות בסוג נכס (משרדים/מגורים/מסחרי), וריכוזיות שוכר (חשיפה ל-1-3 שוכרים עיקריים)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריכוזיות אשראי (דירוג אשראי הלווה), ריכוזיות ריבית ו-ריכוזיות מטבע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית ומטבע הם סיכונים פיננסיים שוק, לא סיכון ריכוזיות ספציפי לתיק נדל\"ן — הריכוזיות הנדל\"נית היא גיאוגרפית, נכסית ושוכרים"
+      },
+      {
+        "text_he": "ריכוזיות בגיל הנכסים, ריכוזיות בגודל העסקאות ו-ריכוזיות בחברות קבלניות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פרמטרים רלוונטיים אך לא שלושת הסוגים הקנוניים — גיאוגרפיה, סוג נכס ושוכרים הם הקריטיים"
+      },
+      {
+        "text_he": "ריכוזיות בלווה, ריכוזיות בשנת פירעון ו-ריכוזיות בריבית משתנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריכוזיות בלווה חשובה אך שנת פירעון וריבית משתנה הם סיכוני שוק, לא הסוגים הנדל\"ניים המוגדרים"
+      }
+    ],
+    "explanation_html_he": "<p>שלושת ממדי ריכוזיות בתיק נדל\"ן:</p><ol><li><strong>גיאוגרפית</strong>: 60% מהתיק בת\"א → חשיפה לשוק מקומי; פיזור: מרכז + צפון + דרום</li><li><strong>סוג נכס</strong>: 80% משרדים → פגיעות מהפכת WFH; פיזור: שילוב מגורים+לוגיסטיקה+מסחרי</li><li><strong>שוכר</strong>: שוכר אחד = 40% מהכנסות → ריכוזיות גבוהה; פיזור: אף שוכר >15%-20% מהכנסות</li></ol><p>כלי מדידה: HHI (Herfindahl-Hirschman Index) לכל ממד — ציון נמוך = פיזור גבוה. דוחות ניהול תיק צריכים לכלול שלושתם מדי רבעון.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-CMP-Q02",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד שילוב של <strong>NOI Shock</strong> ו-<strong>Cap Rate Shock</strong> משפיע על ה-LTV של הלוואה קיימת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "NOI Shock ו-Cap Rate Shock פועלים ביחד כ'צבתות' — כל אחד מהם לבד מוריד שווי, יחד הם יכולים להכפיל את ה-LTV תוך חודשים ספורים.",
+    "topic_tags": ["noi_shock", "cap_rate_shock", "ltv", "stress_test"],
+    "options": [
+      {
+        "text_he": "NOI נמוך יותר מקטין את ערך הנכס (כי Value = NOI/Cap Rate), וCap Rate גבוה יותר גם מקטין אותו — ביחד, ה-LTV עולה חדות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI Shock ו-Cap Rate Shock מתקזזים — NOI נמוך מוריד ערך, Cap Rate גבוה מעלה אותו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate גבוה יותר מוריד ערך הנכס (ערך = NOI / Cap Rate גבוה = מכנה גדול = ערך קטן) — שניהם פועלים לאותו כיוון"
+      },
+      {
+        "text_he": "NOI Shock משפיע על DSCR בלבד, ו-Cap Rate Shock משפיע על LTV בלבד — הם לא תלויים זה בזה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-NOI משפיע גם על שווי הנכס (NOI/Cap Rate = Value) ולכן גם על LTV — הכל מחובר"
+      },
+      {
+        "text_he": "LTV לא משתנה כי קרן ההלוואה קבועה ורק ריבית משתנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV = קרן הלוואה / שווי נכס — שווי הנכס משתנה עם NOI ו-Cap Rate, ולכן LTV משתנה גם כן"
+      }
+    ],
+    "explanation_html_he": "<p>מנגנון הצבתות:</p><ul><li>נכס עם NOI=1,000,000 ₪ ו-Cap Rate=5% → Value=20,000,000 ₪; הלוואה 14M → LTV=70%</li><li>NOI Shock −15%: NOI=850,000 → Value=850,000/5%=17,000,000 → LTV=82%</li><li>Cap Rate Shock +100bps: Cap Rate=6% → Value=850,000/6%=14,167,000 → LTV=99%</li></ul><p>כלומר: שני שוקים ביחד הופכים LTV בריא ל-70% ל-LTV מסוכן של 99% — הלוואה ממונפת כמעט ב-100% מערך הנכס. זה Stress Test קלאסי לוועדת אשראי.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-CMP-Q03",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי שיטת <strong>IFRS 9 Staging</strong> לסיווג הלוואות ומה ההשפעה על הפרשות האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "IFRS 9 שינה הכל — במקום לחכות לברירת מחדל כדי להפריש, עכשיו מפרישים מהיום הראשון על בסיס הסתברות ברירת מחדל עתידית.",
+    "topic_tags": ["ifrs9", "staging", "credit_loss", "provisioning"],
+    "options": [
+      {
+        "text_he": "Stage 1 — הלוואה תקינה (הפרשה על 12 חודש ECL); Stage 2 — עלייה מהותית בסיכון (הפרשה על Lifetime ECL); Stage 3 — ברירת מחדל (Lifetime ECL מלא)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Stage 1 — תשלום בזמן; Stage 2 — עיכוב של 30-90 יום; Stage 3 — מעל 90 יום פיגור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עיכוב תשלום הוא אינדיקטור אחד בלבד — IFRS 9 מסתמך על הרעה איכותית ולא רק על פיגורים. Stage 2 מופעל על עלייה מהותית בסיכון אפילו ללא פיגור"
+      },
+      {
+        "text_he": "IFRS 9 Staging מתייחסת רק להלוואות שגדלן מעל 10 מיליון ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IFRS 9 חל על כל ההלוואות ללא קשר לגודל — אין סף כמותי"
+      },
+      {
+        "text_he": "כל שלושת ה-Stages זהים — ההבדל הוא רק בדרישות הדיווח ולא בגובה ההפרשה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההפרשה שונה מהותית: Stage 1 = 12 חודש ECL (נמוכה), Stage 2/3 = Lifetime ECL (גבוהה בהרבה)"
+      }
+    ],
+    "explanation_html_he": "<p>IFRS 9 Staging — Expected Credit Loss (ECL):</p><table><tr><th>Stage</th><th>מצב</th><th>בסיס הפרשה</th></tr><tr><td>1</td><td>אין עלייה מהותית בסיכון</td><td>12-month ECL (אופייני: 0.3%-1%)</td></tr><tr><td>2</td><td>עלייה מהותית בסיכון (SICR)</td><td>Lifetime ECL (אופייני: 3%-10%)</td></tr><tr><td>3</td><td>Default / ירידת ערך אשראי</td><td>Lifetime ECL מלא (20%-100%)</td></tr></table><p>ב-Stage 2, גם בלי פיגור — אם דירוג האשראי ירד, LTV עלה, או שהשוק הרלוונטי הרע — ההלוואה עוברת ל-Stage 2 עם הפרשה גבוהה בהרבה.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-CMP-Q04",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>ריכוזיות גיאוגרפית</strong> בתיק הלוואות נדל\"ן ומדוע היא מסוכנת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שוק נדל\"ן מקומי יכול לקרוס מסיבות ייחודיות — עזיבת מעסיק גדול, שינוי תכנוני, הצפת היצע — שלא ישפיעו על שאר הארץ. ריכוזיות גיאוגרפית חושפת את כל התיק לסיכון זה.",
+    "topic_tags": ["geographic_concentration", "portfolio_risk", "correlation"],
+    "options": [
+      {
+        "text_he": "כאשר חלק גבוה מהתיק ממוקם באזור גיאוגרפי אחד — שיפור/הרעה בשוק המקומי ישפיעו על חלק גדול מהתיק בבת אחת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ריכוזיות גיאוגרפית מסוכנת רק לנכסים במדינות שונות — בישראל כל האזורים שווי סיכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם בישראל יש הבדלים מהותיים בין שווקים אזוריים — ת\"א לעומת פריפריה לעומת עיר מרכזית אחרת"
+      },
+      {
+        "text_he": "ריכוזיות גיאוגרפית מועילה כי הבנק פיתח מומחיות שוק מקומית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מומחיות מקומית היא יתרון בניהול, אך ריכוזיות עדיין מסוכנת — אחד עדיף על השני, לא מחליף"
+      },
+      {
+        "text_he": "ריכוזיות גיאוגרפית מסוכנת רק בנכסי מגורים, לא בנכסים מסחריים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריכוזיות גיאוגרפית מסוכנת לכל סוג נכס — נכסים מסחריים ומשרדים גם הם רגישים לשינויים כלכליים אזוריים"
+      }
+    ],
+    "explanation_html_he": "<p>ריכוזיות גיאוגרפית — הסיכון:</p><ul><li><strong>קורלציה גבוהה</strong>: כל ההלוואות מושפעות בו-זמנית מגורם מקומי</li><li><strong>דוגמה</strong>: 70% מהתיק במרכז ת\"א → פקיעת בועת היי-טק מורידה ביקוש משרדים, שכ\"ד ירד, LTV עלה בכל ה-70%</li><li><strong>מחוץ לשליטה</strong>: עזיבת מעסיק גדול, שינוי תכנוני (פינוי-בינוי), הצפת היצע חדש</li></ul><p>כלי ניהול: מגבלת ריכוזיות (Concentration Limit) — למשל &lt;30% מהתיק באזור אחד. מוגדר במדיניות האשראי של הבנק.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-CMP-Q05",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>Break-even Analysis ברמת תיק</strong> ומה היא מגדירה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Break-even תיק שואל: 'כמה ברירות מחדל נסבל לפני שהתיק כולו הפסדי?' זה מידע קריטי לניהול הון הבנק.",
+    "topic_tags": ["break_even", "portfolio", "credit_loss"],
+    "options": [
+      {
+        "text_he": "ניתוח שמחשב את רמת ברירות המחדל שהתיק יכול לספוג לפני שההפסדים עולים על הכנסות הריבית — נקודת האיזון בין הכנסה להפסד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ניתוח שמחשב מהי ריבית השוק שבה הבנק מפסיק להרוויח מהתיק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Break-even על ריבית הוא ניתוח סיכון ריבית נפרד — Break-even Analysis תיק מתייחס לסיכון אשראי ולא לסיכון ריבית"
+      },
+      {
+        "text_he": "הנקודה שבה LTV ממוצע התיק מגיע ל-100%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV=100% הוא אינדיקטור לסיכון נכס ספציפי, לא Break-even Analysis ברמת תיק"
+      },
+      {
+        "text_he": "החישוב שמגדיר את גודל הביטוח הנדרש לתיק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גודל ביטוח הוא נגזרת של Break-even Analysis אך לא ההגדרה שלו"
+      }
+    ],
+    "explanation_html_he": "<p>Break-even Analysis ברמת תיק:</p><ul><li><strong>מה מחשבים</strong>: Default Rate המקסימלי שהתיק סופג לפני הפסד כולל</li><li><strong>נוסחה פשוטה</strong>: Break-even Default Rate ≈ Spread ריבית / (1 − Recovery Rate)</li><li><strong>דוגמה</strong>: Spread ממוצע 2%, Recovery Rate 60% → Break-even = 2% / 40% = 5% Default Rate</li></ul><p>פירוש: אם יותר מ-5% מהתיק ייכנס לברירת מחדל (בהנחת Recovery 60%), הבנק יפסיד כסף על התיק הזה. ניתוח זה עוזר לקבוע: האם ה-Spread שגובים מפצה מספיק על הסיכון?</p>"
+  },
+  {
+    "question_id_external": "C09-M05-PRC-Q01",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>תיק הלוואות נדל\"ן: 10 הלוואות. 4 מהן (40%) לנכסי משרדים בגוש דן. NOI ממוצע הנכסים ירד 20% בגלל WFH, ו-Cap Rate עלה ב-100 נקודות בסיס. LTV ממוצע ב-Origination: 65%. מה LTV ה-Stressed?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שוק המשרדים אחרי COVID הוא Case Study מובהק לאפקט הצבתות — NOI ו-Cap Rate זוזו יחד. כל תיק עם ריכוזיות משרדים נדרש ל-Stress Test לאחר 2020.",
+    "topic_tags": ["stress_test", "ltv", "noi_shock", "cap_rate_shock", "office"],
+    "options": [
+      {
+        "text_he": "LTV Stressed עולה לכ-91% — NOI −20% ו-Cap Rate +100bps מורידים שווי ב-~29%, כך ש-LTV עולה מ-65% ל-~91%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV Stressed הוא כ-75% — ירידה של 20% בNOI מעלה LTV ב-10 נקודות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 75% אינו מתחשב בShock ה-Cap Rate — גם Cap Rate +100bps מוריד שווי נוסף ולכן LTV גבוה בהרבה"
+      },
+      {
+        "text_he": "LTV Stressed נותר 65% — שינויים בשוק לא משפיעים על LTV שנקבע ב-Origination",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV הוא דינמי — שווי הנכס משתנה עם NOI ו-Cap Rate, ולכן LTV מתעדכן בכל שמאות חדשה"
+      },
+      {
+        "text_he": "LTV Stressed הוא 65% × 1.20 = 78% — פשוט מחלקים בגורם ה-NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החישוב מורכב יותר — יש לחשב שווי חדש = NOI מוקטן / Cap Rate גבוה, ואז לחלק קרן ההלוואה בשווי החדש"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב Stressed LTV:</p><ul><li>נניח: NOI מקורי 1,000,000 ₪; Cap Rate מקורי 5%; שווי מקורי = 20,000,000 ₪</li><li>קרן הלוואה: 20,000,000 × 65% = 13,000,000 ₪ (קבוע)</li><li>NOI Stressed: 1,000,000 × (1−20%) = 800,000 ₪</li><li>Cap Rate Stressed: 5% + 1% = 6%</li><li>שווי Stressed = 800,000 / 6% = <strong>13,333,000 ₪</strong></li><li>LTV Stressed = 13,000,000 / 13,333,000 ≈ <strong>97.5%</strong></li></ul><p>מסקנה: תיק עם ריכוזיות משרדים בגוש דן נמצא קרוב מאוד ל-LTV=100% בתרחיש Stressed. יש לבחון דרישת Collateral נוסף.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-PRC-Q02",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואה נדל\"נית עברה ל-Stage 2 של IFRS 9 לאחר שLTV עלה מ-70% ל-85%. ה-Probability of Default (PD) הוערך ב-8% ו-Loss Given Default (LGD) ב-30%. מהי <strong>Expected Credit Loss (ECL)</strong> שיש להפריש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ECL = PD × LGD × EAD — שלושת הפרמטרים הם הבסיס לכל הפרשה בבנק. למד אותם בעל-פה — כל ועדת אשראי תשאל.",
+    "topic_tags": ["ifrs9", "ecl", "pd", "lgd", "provisioning"],
+    "options": [
+      {
+        "text_he": "ECL = PD × LGD × EAD = 8% × 30% × גובה ההלוואה = 2.4% מיתרת ההלוואה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ECL = PD בלבד = 8% מיתרת ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ECL אינו PD בלבד — יש לכפול PD × LGD × EAD; PD של 8% ו-LGD 30% נותן ECL של 2.4%, לא 8%"
+      },
+      {
+        "text_he": "ECL = LGD בלבד = 30% מיתרת ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LGD הוא ההפסד בהנחת ברירת מחדל — חייבים להכפילו ב-PD (הסתברות שכן יקרה) כדי לקבל ECL"
+      },
+      {
+        "text_he": "ECL = (PD + LGD) / 2 = 19% מיתרת ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ECL הוא כפל, לא ממוצע — PD × LGD × EAD הוא הנוסחה הנכונה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב ECL (Expected Credit Loss):</p><p><strong>ECL = PD × LGD × EAD</strong></p><ul><li><strong>PD</strong> (Probability of Default) = 8%</li><li><strong>LGD</strong> (Loss Given Default) = 30% (Recovery Rate = 70%)</li><li><strong>EAD</strong> (Exposure at Default) = יתרת ההלוואה</li><li>ECL = 8% × 30% = <strong>2.4% מ-EAD</strong></li></ul><p>לדוגמה: הלוואה של 10,000,000 ₪ → ECL = 240,000 ₪ (זהו הסכום שיש להפריש).</p><p>ב-Stage 2: מחשבים Lifetime ECL (על כל אורך ההלוואה) — אם יש עוד 5 שנים, ECL גבוה בהרבה מ-Stage 1 שמחשב רק 12 חודש.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-PRC-Q03",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>תיק עם Spread ממוצע של 2.5% מעל ריבית הבסיס. Recovery Rate ממוצע: 55%. מהו ה-Break-even Default Rate של התיק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Break-even Default Rate מגדיר את 'כרית הבטחון' שה-Spread מספק. אם ה-Default Rate ההיסטורי של הסגמנט קרוב ל-Break-even — ה-Spread אינו מספיק.",
+    "topic_tags": ["break_even", "default_rate", "spread", "recovery_rate"],
+    "options": [
+      {
+        "text_he": "Break-even Default Rate = Spread / (1 − Recovery Rate) = 2.5% / 45% ≈ 5.6%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Break-even Default Rate = Spread × Recovery Rate = 2.5% × 55% = 1.375%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה מחלקת ב-(1−Recovery), לא כופלת ב-Recovery — Break-even = Spread / LGD"
+      },
+      {
+        "text_he": "Break-even Default Rate = Spread / Recovery Rate = 2.5% / 55% = 4.5%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המכנה הנכון הוא LGD (=1−Recovery=45%), לא Recovery עצמה — 2.5% / 45% = 5.56%"
+      },
+      {
+        "text_he": "Break-even Default Rate = Recovery Rate / Spread = 55% / 2.5% = 22%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה לחלוטין — Break-even הוא השיעור שהתיק יכול לספוג, לא מכפיל של Recovery"
+      }
+    ],
+    "explanation_html_he": "<p>נוסחת Break-even Default Rate:</p><p><strong>Break-even DR = Spread / LGD = Spread / (1 − Recovery Rate)</strong></p><ul><li>Spread = 2.5%</li><li>LGD = 1 − 55% = 45%</li><li>Break-even DR = 2.5% / 45% ≈ <strong>5.6%</strong></li></ul><p>פירוש: התיק יכול לספוג Default Rate של עד 5.6% (עם Recovery 55%) לפני שהוא מתחיל להפסיד כסף.</p><p>שימוש: אם Default Rate היסטורי של הלוואות נדל\"ן בישראל הוא 1%-2%, יש כרית בטחון מספקת. אם Default Rate עלה ל-4%, אנחנו מתקרבים ל-Break-even — Spread צריך לעלות.</p>"
+  },
+  {
+    "question_id_external": "C09-M05-PRC-Q04",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק עם תיק נדל\"ן: 45% מהחשיפה ל-3 לווים. מדיניות הבנק קובעת שאף לווה לא יעלה על 15% ומאף קבוצת 3 לווים לא יותר מ-30%. האם התיק עומד במדיניות ומה ה-Action Required?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ריכוזיות לווה היא אחד הסיכונים הכי ניהוליים בבנקאות — בנק גדול נפל בגלל לווה בודד גדול. Policy Limit הוא הגנה קריטית.",
+    "topic_tags": ["concentration_risk", "borrower_limit", "policy", "action"],
+    "options": [
+      {
+        "text_he": "התיק מפר את המדיניות — 45% ל-3 לווים עולה על המגבלה של 30%. יש לצמצם חשיפה: לא לחדש/להגדיל הלוואות ללווים אלו עד שהחלק יורד ל-30%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "התיק תקין — 45% ל-3 לווים כולם תחת 15% כל אחד, ולכן המדיניות נשמרת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המדיניות כוללת שתי מגבלות: כל לווה < 15% וכל קבוצת 3 < 30%. 45% לקבוצת 3 מפרת את המגבלה השנייה"
+      },
+      {
+        "text_he": "אין בעיה — מגבלות ריכוזיות חלות רק על הלוואות מעל 50 מיליון ₪",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מדיניות הריכוזיות חלה כאחוז מהתיק, לא לפי גודל מוחלט — כל הלוואה נכללת בחישוב"
+      },
+      {
+        "text_he": "יש לפנות לרגולטור לאישור חריגה מהמגבלה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פנייה לרגולטור מתאימה לחריגות מדרישות רגולטוריות — מדיניות פנימית מנוהלת בתוך הבנק; הפעולה הנדרשת היא צמצום חשיפה"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח עמידה במדיניות:</p><ul><li><strong>מגבלה 1</strong>: כל לווה &lt; 15% — ייתכן שנשמרת (45% ÷ 3 = 15% ממוצע, אבל ייתכן שאחד &gt; 15%)</li><li><strong>מגבלה 2</strong>: קבוצת 3 לווים &lt; 30% — <strong>מופרת! 45% &gt; 30%</strong></li></ul><p>Action Required:</p><ol><li><strong>לא לחדש/הגדיל</strong>: אין אישור לגדול חשיפה ל-3 לווים אלו</li><li><strong>Natural Run-off</strong>: לאפשר לחשיפה לקטון עם פירעון הלוואות קיימות</li><li><strong>Active Reduction</strong>: אם דחוף, לשקול מכירת הלוואות שוק משני (Loan Sales)</li><li><strong>דיווח</strong>: לדווח לוועדת ניהול סיכונים על החריגה ועל תוכנית הצמצום</li></ol>"
+  },
+  {
+    "question_id_external": "C09-M05-PRC-Q05",
+    "course_number": 9,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואה עברה מ-Stage 1 ל-Stage 2 של IFRS 9 לאחר שLTV עלה מ-65% ל-80%. ה-Lifetime ECL המחושב הוא 3.2% מה-EAD, לעומת 0.4% בStage 1. מה ההשפעה החשבונאית על הבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Stage 2 Migration מגדיל הפרשות ב-6-8 פעמים לרוב — זה מוחשי ברווח ובהון. לכן בנקים נלחמים על סיווג Stage, ויש פיקוח אינטנסיבי על המעבר.",
+    "topic_tags": ["ifrs9", "staging", "provisioning", "p&l_impact"],
+    "options": [
+      {
+        "text_he": "הפרשה עולה מ-0.4% ל-3.2% מה-EAD — גידול של 2.8 נקודות אחוז שנרשם כהוצאת אשראי ומקטין רווח ובסיס הון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין השפעה — IFRS 9 היא שיטת ניהול סיכונים ולא שיטה חשבונאית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IFRS 9 היא תקן חשבונאי בינלאומי מחייב — ההפרשות נרשמות ב-P&L ומשפיעות על הון הבנק"
+      },
+      {
+        "text_he": "ההפרשה הנוספת מופיעה רק בנספח הדוחות ולא ב-P&L",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרשות ECL נרשמות ב-P&L כהוצאת Credit Impairment — הן משפיעות ישירות על הרווח הנקי"
+      },
+      {
+        "text_he": "הגידול בהפרשה מ-0.4% ל-3.2% מוכפל ב-LTV החדש (80%) ולא ב-EAD",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ECL מחושב על EAD (יתרת ההלוואה), לא על LTV — LTV משמש לאומדן LGD, לא כבסיס חישוב"
+      }
+    ],
+    "explanation_html_he": "<p>השפעה חשבונאית של Stage Migration:</p><ul><li>הלוואה 10,000,000 ₪</li><li>Stage 1 הפרשה: 0.4% × 10M = <strong>40,000 ₪</strong></li><li>Stage 2 הפרשה: 3.2% × 10M = <strong>320,000 ₪</strong></li><li>גידול בהפרשה: <strong>280,000 ₪ = הוצאה ב-P&L</strong></li></ul><p>השפעה על הון: הפרשות ECL מפחיתות CET1 (Common Equity Tier 1) של הבנק. על תיק גדול עם מיגרציות מרובות — ההשפעה על יחס הון מהותית.</p><p>לכן ניהול Stage Migration הוא פעולה ניהולית אקטיבית: Early Warning Systems + Remediation Plans לפני שהלוואה מגיעה ל-Stage 3.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-CMP-Q01",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם שלושת המרכיבים העיקריים של <strong>רשימת בדיקה (Audit Checklist)</strong> לבקרת מודל פיננסי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Model Audit לא עניין של חשד — הוא ממשמעת מקצועית. גם מודל שבנית בעצמך צריך בקרה עצמאית: טעויות מוסתרות בנוסחאות מורכבות.",
+    "topic_tags": ["model_audit", "model_validation", "checklist"],
+    "options": [
+      {
+        "text_he": "בדיקת נוסחאות והפניות (בלי שגיאות); בדיקת הנחות מול מקורות חיצוניים; בדיקת Logic-flow (האם החישובים הגיוניים ועקביים)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בדיקת עיצוב הגיליון, בדיקת שמות הטאבים ובדיקת גודל הגופן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו בדיקות פרזנטציה — Model Audit מתמקד בדיוק חישובי, לוגיקה ונכונות הנחות"
+      },
+      {
+        "text_he": "בדיקת גיבוי הקובץ, בדיקת Version Control ובדיקת הגישה לקובץ",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו בדיקות ניהול קבצים — Model Audit בוחן את תוכן המודל, לא את ניהול הגרסאות"
+      },
+      {
+        "text_he": "בדיקת קורות חיים של בונה המודל, בדיקת תואר אקדמי ובדיקת ניסיון עבודה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כישורי הבונה חשובים אך Model Audit בוחן את המודל עצמו, לא את הרקע האישי"
+      }
+    ],
+    "explanation_html_he": "<p>Model Audit Checklist — שלושת עמודי התווך:</p><ol><li><strong>נוסחאות והפניות</strong>: הפניות שגויות (#REF!, #DIV/0!), כפילות בנוסחאות, Hardcoded values שצריכים להיות נוסחאות</li><li><strong>הנחות מול מקורות</strong>: Exit Cap Rate — האם מבוסס על Comps? NOI — האם מאומת מול חוזי שכירות? ריבית — האם עדכני?</li><li><strong>Logic-flow</strong>: האם סכומים מסתכמים נכון? האם תזרים Base Case סביר? האם IRR מחושב על אותם תזרימים כמו NPV?</li></ol><p>כלי: עבור על כל Cell שחיוני ולחץ F2 — בדוק מה הנוסחה. גיליון מסובך: Trace Precedents לבדיקת תלויות.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-CMP-Q02",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>Hockey Stick Projection</strong> במודל פיננסי וכיצד מזהים ומאתגרים אותו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Hockey Stick הוא הסימן הקלאסי למודל אופטימי יתר על המידה — הספונסר מניח שנים של הפסדים ואז פתאום קפיצה גדולה. שאל תמיד: מה מניע את הקפיצה?",
+    "topic_tags": ["hockey_stick", "projection", "model_validation"],
+    "options": [
+      {
+        "text_he": "תחזית שמציגה ביצועים נמוכים/שליליים בשנים הראשונות ואז עלייה חדה ולא מוסברת — מזהים לפי שיפוע חד בגרף; מאתגרים על ידי דרישת הצדקה כמותית לצמיחה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תחזית עם NOI גבוה מאוד בשנה הראשונה שיורד בהדרגה — Hockey Stick הוא תמיד דעיכה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Hockey Stick הוא דפוס של ירידה ואחר כך עלייה חדה, לא ירידה בלבד — הצורה דומה למקל הוקי"
+      },
+      {
+        "text_he": "Hockey Stick הוא תחזית עם שיעור צמיחה קבוע וגבוה (למשל 15% בשנה) לאורך כל התקופה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיעור צמיחה קבוע גבוה הוא בעיה אחרת — Hockey Stick ספציפי לדפוס של ירידה ואז קפיצה בשנות האחרון"
+      },
+      {
+        "text_he": "Hockey Stick מופיע רק בחברות סטארט-אפ, לא בנדל\"ן מניב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Hockey Stick מופיע בכל תחום — בנדל\"ן הוא מופיע כאשר ספונסר מניח שנות רמפ-אפ ואחר כך תפוסה מלאה פתאומית"
+      }
+    ],
+    "explanation_html_he": "<p>Hockey Stick — זיהוי ואתגר:</p><ul><li><strong>גרפית</strong>: גרף NOI/IRR שנראה כמו מקל הוקי — שנים 1-3 שטוחות/שליליות, שנה 4-5 קפיצה חדה</li><li><strong>שאלות לאתגר</strong>:<ol><li>מה מניע את הקפיצה? (עלייה בתפוסה? הוצאה חד-פעמית שתסתיים? חוזה גדול?)</li><li>האם הקפיצה מבוססת על נתוני שוק?</li><li>מה קורה ל-IRR אם הקפיצה מתעכבת שנה?</li></ol></li><li><strong>דפוס מסוכן</strong>: כאשר מרבית ה-IRR תלוי בשנים האחרונות — Sensitivity גבוה מאוד</li></ul><p>במשכנתא מסחרית: Hockey Stick בNOI לרוב מסתיר שהשנות הראשונות אינן מכסות שירות חוב — בדוק DSCR שנה 1-3.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-CMP-Q03",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>Circular Reference</strong> במודל Excel ומדוע היא מסוכנת בניתוח פיננסי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Circular Reference ב-Excel מייצר תוצאה שתלויה בנקודת ההתחלה — שינוי קטן בתנאי הפתיחה משנה את התשובה. מודל עם Circular Reference אינו אמין.",
+    "topic_tags": ["circular_reference", "model_error", "excel"],
+    "options": [
+      {
+        "text_he": "מצב בו נוסחה מסתמכת (ישירות או בעקיפין) על עצמה — Excel לא יכול לפתור אותה בצורה אנליטית ומאתחל עם ערך שרירותי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Circular Reference היא הפניה לגיליון אחר שנמחק — Excel מציג #REF! ולא ערך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפניה לגיליון שנמחק היא #REF! Error, לא Circular Reference — Circular Reference הוא לולאה לוגית, לא קישור שבור"
+      },
+      {
+        "text_he": "Circular Reference הוא תכונה שימושית שמאפשרת לחשב ריבית על ריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית דריבית מחושבת בנוסחה ישירה, לא ב-Circular Reference — Circular Reference הוא בעיה, לא תכונה"
+      },
+      {
+        "text_he": "Circular Reference מוגדרת כתחשיב עם יותר מ-1,000 נוסחאות המקושרות זו לזו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Circular Reference מוגדרת על ידי לולאה לוגית (A→B→A), לא על ידי כמות הנוסחאות"
+      }
+    ],
+    "explanation_html_he": "<p>Circular Reference — הסבר:</p><ul><li><strong>הגדרה</strong>: תא A מסתמך על תא B שמסתמך (בסופו של דבר) על תא A</li><li><strong>דוגמה</strong>: Interest = Loan Balance × Rate; Loan Balance = Initial + Fee − Interest (הריבית תלויה ביתרה שתלויה בריבית)</li><li><strong>בעיה</strong>: Excel פותר ב-Iteration עם ערך ראשוני שרירותי — תוצאה יכולה להיות שגויה</li><li><strong>סיכון</strong>: שינוי קטן בתא אחד יכול לשנות את כל המודל כי ה-Convergence לא מובטח</li></ul><p>פתרון: הגדר את הנוסחות בצורה לא-Circular, או השתמש ב-Circular Reference בכוונה עם הבנה של מנגנון ה-Iteration. בדיקה: Excel מציג אזהרה כשמופעלת Circular Reference.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-CMP-Q04",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם הרכיבים המינימליים של <strong>תיעוד מודל (Model Documentation)</strong> תקני?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מודל ללא תיעוד הוא 'קופסה שחורה' — אם הבונה עוזב, אף אחד לא יכול לבדוק, לעדכן, או לסמוך עליו. תיעוד הוא חלק מהמודל.",
+    "topic_tags": ["model_documentation", "model_standards"],
+    "options": [
+      {
+        "text_he": "תיאור מטרת המודל, רשימת הנחות עם מקורות, הגדרת הקלטים והפלטים, וסיכום שינויים (Change Log)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שם הבונה ותאריך הבנייה בלבד — המודל עצמו הוא התיעוד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שם ותאריך הם מינימום — תיעוד תקני כולל מטרה, הנחות, מקורות ולוג שינויים"
+      },
+      {
+        "text_he": "תיעוד מינימלי הוא לשמור את המודל עם שם קובץ תיאורי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שם קובץ אינו תיעוד — תיעוד אמיתי הוא מסמך/טאב שמסביר מה המודל עושה ולמה"
+      },
+      {
+        "text_he": "תיעוד נדרש רק לבנקים ורגולציה — אנליסטים עצמאיים לא צריכים לתעד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תיעוד הוא Best Practice לכל מודל — גם בשימוש פנימי, אם נחזור למודל אחרי שבועות נצטרך לדעת מה הנחנו"
+      }
+    ],
+    "explanation_html_he": "<p>Model Documentation — הרכיבים התקניים:</p><ol><li><strong>Executive Summary</strong>: מה המודל מחשב ולאיזה מטרה</li><li><strong>Assumptions Log</strong>: כל הנחה + מקור + תאריך (למשל: \"Cap Rate 5.5% — CBRE Q1 2024\")</li><li><strong>Input/Output Map</strong>: אילו תאים/טאבים הם קלטים, מה הפלטים הסופיים</li><li><strong>Change Log</strong>: מי שינה מה ומתי — חיוני לאחריות ובקרה</li><li><strong>Limitations</strong>: מה המודל לא מחשב (מס הכנסה? עלויות עסקה?)</li></ol><p>בבנקים: Model Documentation נדרש ל-Model Risk Management (MRM) — מודל ללא תיעוד אינו יכול לקבל אישור שימוש.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-CMP-Q05",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה פירושו של <strong>Model Validation</strong> בהקשר בנקאי ומה מייחד אותו מ-Model Audit?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Model Validation בבנק היא פונקציה עצמאית — הValidity Team לא קשור לבונה המודל. עצמאות הבקרה היא הלב של ממשל סיכונים.",
+    "topic_tags": ["model_validation", "model_audit", "model_risk"],
+    "options": [
+      {
+        "text_he": "Model Validation היא תהליך פורמלי ועצמאי שמבצע גוף נפרד מהבונה — בוחן לא רק דיוק טכני אלא גם Fitness-for-Purpose וסיכון שימוש",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Model Validation ו-Model Audit זהים — שני שמות לאותו תהליך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Model Audit בודק נכונות טכנית (נוסחאות, הנחות); Model Validation הוא תהליך ממוסד רחב יותר הכולל עצמאות, Fitness, ומסמכים פורמליים"
+      },
+      {
+        "text_he": "Model Validation רלוונטי רק למודלים סטטיסטיים (כמו מודלי PD) ולא למודלי DCF",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Model Validation חל על כל מודל שמשמש לקבלת החלטות חומריות בבנק, כולל מודלי DCF נדל\"ן"
+      },
+      {
+        "text_he": "Model Validation מבוצע על ידי הבונה עצמו לפני הגשה לוועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגדרה קריטית של Model Validation היא עצמאות — הבונה לא יכול לאמת את עצמו"
+      }
+    ],
+    "explanation_html_he": "<p>Model Validation vs. Model Audit:</p><table><tr><th>פרמטר</th><th>Model Audit</th><th>Model Validation</th></tr><tr><td>מבצע</td><td>יכול להיות הצוות עצמו</td><td>גוף עצמאי (MRM)</td></tr><tr><td>מטרה</td><td>נכונות טכנית</td><td>Fitness, דיוק, ממשל</td></tr><tr><td>פורמליות</td><td>גמיש</td><td>מסמכים, דוחות, אישורים</td></tr><tr><td>רגולציה</td><td>לא חובה</td><td>נדרש לפי Basel/SR11-7</td></tr></table><p>SR 11-7 (Fed Guidance) מגדיר Model Risk Management — בנקים חייבים לנהל Inventory של מודלים, לאמת כל מודל לפני שימוש ולבצע Periodic Re-Validation.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-PRC-Q01",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בבדיקת מודל DCF, מגלים שתא ה-Exit Value (שנה 5) מכיל ערך קבוע (Hardcoded) של 15,000,000 ₪ ולא נוסחה המחשבת NOI שנה 6 / Exit Cap Rate. מה הבעיה ומה הפתרון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Hardcoded values בתאים קריטיים הם אחת הטעויות הנפוצות ביותר — הן אינן מתעדכנות כש-Sensitivity Analysis רץ ומייצרות תוצאות כוזבות.",
+    "topic_tags": ["model_audit", "hardcoded", "exit_value", "formula"],
+    "options": [
+      {
+        "text_he": "Hardcoded Exit Value לא יתעדכן כשמשנים הנחות (Exit Cap Rate, NOI Growth) — Sensitivity Analysis יהיה שגוי. יש לבדל לנוסחה: NOI שנה 6 / Exit Cap Rate",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Hardcoded value מוטב על נוסחה — הוא מונע טעויות חישוב ומגדיל אמינות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Hardcoded value מונע עדכון אוטומטי בשינוי הנחות — הוא מקור טעויות, לא פתרון לטעויות"
+      },
+      {
+        "text_he": "הבעיה קטנה — Exit Value ל-5 שנים הוא הערכה בלבד, Hardcoded מספיק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Exit Value הוא לרוב 60%-80% מה-IRR — זהו התא הקריטי ביותר במודל. Hardcoded כאן הוא בעיה מהותית"
+      },
+      {
+        "text_he": "יש לצבוע את התא בצהוב כסימון Hardcoded ולהמשיך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סימון ויזואלי אינו פותר את הבעיה הלוגית — יש לבנות נוסחה דינמית"
+      }
+    ],
+    "explanation_html_he": "<p>Hardcoded vs. Formula — דוגמה:</p><ul><li><strong>שגוי</strong>: Exit Value = 15,000,000 (מספר קבוע)</li><li><strong>נכון</strong>: Exit Value = NOI_שנה6 / Exit_Cap_Rate</li></ul><p>למה זה משנה:</p><ol><li>אם מריצים Sensitivity Analysis על Exit Cap Rate (5%→6%) — Hardcoded לא ישתנה, ה-Sensitivity יהיה כוזב</li><li>אם NOI Growth מתעדכן — Exit Value לא ישקף את השינוי</li></ol><p>כלל זהב: כל תא שמייצג תוצאה חישובית — חייב להיות נוסחה. רק הנחות (Inputs) יכולות להיות Hardcoded, ורק בתאי קלט מסומנים ייעודיים.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-PRC-Q02",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ספונסר מגיש מודל DCF שמציג צמיחת NOI של 2% בשנים 1-3, ואחר כך קפיצה לצמיחה של 12% בשנים 4-5. ה-IRR הכולל הוא 19%. כיצד מאתגרים את ה-Hockey Stick?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הפרש בין 2% ל-12% צמיחה הוא פי 6 — זה לא 'שינוי הנחה' אלא 'שינוי עולם'. כל טענה לצמיחה כזו חייבת הצדקה מפורטת ומוצגת לוועדה.",
+    "topic_tags": ["hockey_stick", "noi_growth", "model_challenge"],
+    "options": [
+      {
+        "text_he": "לשאול: מה מניע את הקפיצה מ-2% ל-12%? לחשב IRR עם צמיחה של 2% לאורך כל 5 השנים; לבחון DSCR בשנים 1-3",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לקבל את המודל — ספונסר מכיר את השוק ויודע שהשנים האחרונות יהיו טובות יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Hockey Stick ללא הצדקה מפורטת הוא דגל אדום — ספונסר נוטה לאופטימיות; תפקיד האנליסט לאמת"
+      },
+      {
+        "text_he": "לדחות את הבקשה כי Hockey Stick מצביע על הונאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Hockey Stick אינו הונאה בהכרח — הוא הנחה אופטימית שדורשת הצדקה. יש לבחון לפני דחייה"
+      },
+      {
+        "text_he": "לאמץ ממוצע של 2% ו-12% (=7%) כ-Base Case",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע שרירותי אינו ניתוח — יש לבחון מה מניע כל שנה ולבנות הנחות מבוססות, לא ממוצע אריתמטי"
+      }
+    ],
+    "explanation_html_he": "<p>אתגור Hockey Stick — פרוטוקול:</p><ol><li><strong>שאל על הנהג</strong>: \"מה קורה בשנה 4 שמאיץ צמיחה מ-2% ל-12%? חוזה חדש? פתיחת שטח? שדרוג מוסד?\"</li><li><strong>בדוק ללא הקפיצה</strong>: חשב IRR עם צמיחה אחידה של 2% × 5 שנים — IRR יורד לXX% (הצג לוועדה)</li><li><strong>DSCR שנים 1-3</strong>: NOI נמוך עם צמיחה 2% — האם מכסה שירות חוב? אם לא — הלוואה בסיכון בשנות הפתיחה</li><li><strong>תרחיש</strong>: Base = 2% ל-3 שנים, אחר כך 5% (לא 12%); Bear = 2% כל הזמן</li></ol><p>הכלל: כל הנחה שמסבירה 50% מה-IRR חייבת להיות מאומתת ברמה גבוהה.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-PRC-Q03",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מודל DCF כולל Circular Reference: חישוב הריבית תלוי ביתרת הלוואה, שתלויה בריבית שנצברה. בדיקת Sensitivity Analysis על ריבית מראה תוצאות לא סבירות. מה הצעד הראשון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Circular Reference ב-Excel עם Iterative Calculation: תוצאה תלויה בסדר החישוב ובנקודת ההתחלה — מודל עם Circular Reference שממש 'עובד' הוא מודל שמסתיר בעיה.",
+    "topic_tags": ["circular_reference", "model_fix", "sensitivity"],
+    "options": [
+      {
+        "text_he": "לאתר את ה-Circular Reference (כלי Excel: Formulas → Error Checking) ולבנות את חישוב הריבית בצורה ישירה ללא תלות מעגלית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להפעיל Iterative Calculation ב-Excel עם 1,000 איטרציות לפתרון הבעיה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Iterative Calculation 'פותר' את הCircular Reference מבלי להסיר אותו — הבעיה הלוגית נשארת ותוצאות Sensitivity עדיין לא אמינות"
+      },
+      {
+        "text_he": "להתעלם מהCircular Reference — Sensitivity Analysis על ריבית אינו קריטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Sensitivity על ריבית קריטי בניתוח אשראי — Circular Reference שמייצר תוצאות לא סבירות הוא באג שחייב תיקון"
+      },
+      {
+        "text_he": "להגדיר את ה-Circular Reference כ-Known Issue ולהוסיף הערת הזהרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Known Issue ללא תיקון הוא מודל לא אמין — הערת הזהרה אינה מתקנת את חוסר הדיוק"
+      }
+    ],
+    "explanation_html_he": "<p>פתרון Circular Reference:</p><ol><li><strong>זיהוי</strong>: Formulas → Error Checking → Circular References; Excel מציין את התאים</li><li><strong>הבנה</strong>: ריבית = יתרה × Rate; יתרה = קרן + ריבית שנצברה (ריבית תלויה ביתרה שתלויה בריבית)</li><li><strong>פתרון</strong>: חשב ריבית על יתרה מתחילת תקופה (ידוע) — לא על יתרה שכוללת ריבית נצברת: Interest_t = Balance_t-1 × Rate</li></ol><p>כלל: Circular Reference יכול להיות מכוון ותקין (למשל חישוב Deferred Tax) אבל חייב להיות מנוהל בכוונה עם הבנה. אם Sensitivity אינו הגיוני — ה-Circular Reference כנראה לא מנוהל.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-PRC-Q04",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת ניהול סיכוני מודל (MRM) מבקשת לבצע <strong>Periodic Re-Validation</strong> למודל DCF שבשימוש לאישור הלוואות. מה נבדק ב-Re-Validation שלא נבדק בValidation הראשוני?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מודל שהיה נכון ב-2022 יכול להיות לא מתאים ב-2025 — שוק השתנה, הנחות השתנו. Re-Validation מוודא שהמודל נשאר רלוונטי.",
+    "topic_tags": ["model_validation", "re_validation", "model_risk"],
+    "options": [
+      {
+        "text_he": "Back-testing — השוואת תחזיות המודל לביצועים בפועל; בדיקת שינויי שוק שהפכו הנחות לפסולות; בדיקת שינויים בשימוש לגבי מה שאושר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Re-Validation זהה לValidation ראשוני — חוזרים בדיוק על אותן בדיקות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Re-Validation מוסיף נדבך של Back-testing ובחינת Performance over Time — לא רק בדיקת בנייה מחדש"
+      },
+      {
+        "text_he": "Re-Validation בודק רק שינויים שהכניס הבונה — אם לא שינו, אין צורך ב-Re-Validation",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם ללא שינויים במודל, שוק משתנה יכול להפוך הנחות ל-Outdated — Re-Validation שנתי הוא דרישה בין אם היו שינויים ובין אם לא"
+      },
+      {
+        "text_he": "Re-Validation בודק רק את הקוד (נוסחאות) — לא את ההנחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחות הן ליבת ה-Re-Validation — Back-testing מוודא שהנחות עדיין סבירות ביחס לנתוני שוק עדכניים"
+      }
+    ],
+    "explanation_html_he": "<p>Re-Validation — מה מוסיפים:</p><ol><li><strong>Back-testing</strong>: לקחת 20 עסקאות שאושרו ב-3 שנים האחרונות — האם מה שהמודל חזה התממש? DSCR בפועל לעומת חזוי?</li><li><strong>Assumption Refresh</strong>: Cap Rate נוכחי לעומת הנחת המודל; שיעורי פנויות נוכחיים; שיעורי ריבית</li><li><strong>Use Case Review</strong>: האם המודל משמש לסוגי עסקאות שלא אושרו במקור?</li><li><strong>Model Performance Score</strong>: ציון סופי — עדיין Fit-for-Purpose?</li></ol><p>תדירות: מינימום שנתי; לאחר שינויים מהותיים בשוק — מיידית.</p>"
+  },
+  {
+    "question_id_external": "C09-M06-PRC-Q05",
+    "course_number": 9,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מגלה בבדיקת מודל DCF שהנחת שיעור הצמיחה של דמי השכירות (3% לשנה) אינה מתועדת ואין מקור לנתון. ה-IRR של הפרויקט תלוי ב-35% מהנחה זו לפי Sensitivity Analysis. מה הפעולה הנדרשת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הנחה שמסבירה 35% מה-IRR ואין לה מקור — זהו באג בממשל המודל, לא רק שאלת דיוק. ועדת האשראי לא יכולה לאשר עסקה על בסיס הנחה שאין לה גיבוי.",
+    "topic_tags": ["model_documentation", "assumption_source", "model_audit"],
+    "options": [
+      {
+        "text_he": "לדרוש מקור לנתון (מחקר שוק, נתוני CBS, דוח JLL/CBRE); לבצע Sensitivity על 1%/2%/3% ולהציג לוועדה; לא לאשר עד שההנחה מגובה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "3% צמיחה שנתית סבירה לנדל\"ן ישראלי — ניתן להמשיך ללא מקור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'סביר' אינו מספיק כשהנחה מסבירה 35% מה-IRR — נדרש מקור מוצק, ולא הנחה כללית"
+      },
+      {
+        "text_he": "להחליף ל-0% צמיחה כ-Conservative Assumption ולהמשיך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 0% היא גם הנחה — הנכון הוא לאמת מול נתוני שוק, לא לאמץ שמרנות שרירותית"
+      },
+      {
+        "text_he": "לרשום הערה ב-Model Log ולהגיש את הבקשה — הוועדה תחליט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגשת בקשה עם הנחה קריטית לא מגובה מעמיסה על ועדת האשראי בחוסר מידע — האנליסט חייב להשלים לפני הגשה"
+      }
+    ],
+    "explanation_html_he": "<p>פרוטוקול לטיפול בהנחה לא מתועדת עם Sensitivity גבוה:</p><ol><li><strong>חשיבות</strong>: 35% מ-IRR תלוי בהנחה לא מגובה = סיכון מהותי</li><li><strong>פעולה מיידית</strong>: דרוש ממציג המודל מקור נתון תוך 48 שעות</li><li><strong>מקורות מקובלים</strong>: JLL/Cushman Market Reports, נתוני CBS, MSCI Real Estate, Comparison לנכסים דומים</li><li><strong>Sensitivity</strong>: חשב IRR עם 1%/2%/3%/4% צמיחה — הצג טווח ל-Credit Committee</li><li><strong>לא לאשר ללא</strong>: הנחה מגובה + Sensitivity Analysis מלא</li></ol><p>עיקרון: כל הנחה שמסבירה &gt;10% מהמדד הקריטי (IRR/DSCR) חייבת תיעוד ומקור — זה חלק מ-Model Governance.</p>"
+  }
+]
