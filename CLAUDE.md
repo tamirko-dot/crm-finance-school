@@ -147,9 +147,9 @@ ruff check .
 - Public marketing pages
 - Capstone Auto-Draft Generator (Phase 7 stretch — document in phase if skipped)
 
-## Course Content Status (as of 2026-05-09)
+## Course Content Status (as of 2026-05-19)
 
-6 of 12 courses fully seeded and live on Railway. C7–C12 are empty (no modules, no questions).
+All 12 courses fully seeded and live on Railway. 70 modules, 704 questions total.
 
 | Course | Title | Status |
 |--------|-------|--------|
@@ -159,12 +159,12 @@ ruff check .
 | C4 | מדדים פיננסיים בנדל"ן | ✅ 6 modules, 60 questions |
 | C5 | ניתוח תזרים מזומנים | ✅ 6 modules, 60 questions |
 | C6 | מבנה עסקאות מימון | ✅ 6 modules, 60 questions |
-| C7 | ניהול סיכונים בנדל"ן | ❌ pending |
-| C8 | ניתוח מסמכים משפטיים | ❌ pending |
-| C9 | מודלים פיננסיים מתקדמים | ❌ pending |
-| C10 | ניתוח תרחישי סיכון | ❌ pending |
-| C11 | כתיבת מזכר אשראי | ❌ pending |
-| C12 | פרויקט גמר — מימון נדל"ן | ❌ pending |
+| C7 | ניהול סיכונים בנדל"ן | ✅ 6 modules, 60 questions |
+| C8 | ניתוח מסמכים משפטיים | ✅ 6 modules, 60 questions |
+| C9 | מודלים פיננסיים מתקדמים | ✅ 6 modules, 60 questions |
+| C10 | ניתוח תרחישי סיכון | ✅ 6 modules, 60 questions |
+| C11 | כתיבת מזכר אשראי | ✅ 6 modules, 60 questions |
+| C12 | פרויקט גמר — מימון נדל"ן | ✅ 6 modules, 60 questions |
 
 Each course uses: `seed_c0X_content.py` (M1-M3), `seed_c0X_modules456.py` (M4-M6),
 and `data/questions/c0X_m1_m2/m3_m4/m5_m6_questions.json` (20 questions each).
