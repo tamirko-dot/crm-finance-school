@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C12-M03-CMP-Q01",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו שישה מסמכי Due Diligence סטנדרטיים חייבים להיות מטופלים בפרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ששת מסמכי ה-DD הם ה-'checklist' המקצועי — מנהל אשראי שמחמיץ אחד מהם נחשב כלא מקצועי. שים אותם בראש דף ה-DD שלך ועבור אחד-אחד.",
+    "topic_tags": ["capstone", "due_diligence", "dd_documents"],
+    "options": [
+      {
+        "text_he": "נסח טאבו, היתר בנייה, שמאות, דוחות כספיים, ביטוח הנכס וחוות דעת משפטית על השעבודים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רק נסח טאבו ושמאות — שאר המסמכים אינם חובה בפרויקט הגמר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נסח טאבו ושמאות הם שניים מתוך שישה; השאר (היתרים, דוחות, ביטוח, חוות דעת משפטית) הם חובה שווה"
+      },
+      {
+        "text_he": "חוזי שכירות, מחירון שוק, ריאיון עם הברוקר, סיור בנכס, תמונות ונסח טאבו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריאיון וסיור הם חלק ממחקר שוק; רשימת ה-DD הסטנדרטי מתמקדת במסמכים רשמיים ומאומתים"
+      },
+      {
+        "text_he": "דוחות בנק, אישור עירייה, מפת גוש-חלקה, אישור תב\"ע, חוזה רכישה ונסח טאבו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלק מהמסמכים האלה נחוצים אך אינם הרשימה הסטנדרטית של 6; ביטוח, שמאות ודוחות כספיים חסרים"
+      }
+    ],
+    "explanation_html_he": "<p>ששת מסמכי ה-Due Diligence הסטנדרטיים:</p><ol><li><strong>נסח טאבו</strong> — בעלות, שעבודים, הערות אזהרה, חריגות</li><li><strong>היתר בנייה</strong> — חוקיות הנכס, שימוש מותר, חריגות בנייה</li><li><strong>שמאות</strong> — שווי שוק, שווי למימוש, שיטת הערכה</li><li><strong>דוחות כספיים</strong> — הכנסות, הוצאות, NOI ל-2-3 שנים</li><li><strong>ביטוח הנכס</strong> — כיסוי, תקפות, מוטבים</li><li><strong>חוות דעת משפטית על שעבודים</strong> — חוות דעת עו\"ד על מצב הבטחונות</li></ol><p>בפרויקט הגמר — כל אחד מהם חייב להיות מסוקר, גם אם חסר.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-CMP-Q02",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד יש לטפל במסמך Due Diligence חסר בפרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "גילוי על מסמך חסר ומה שהיית לומד ממנו הוא ניתוח מקצועי — לא הודאה בכישלון. המעריך רוצה לראות שאתה יודע מה חסר ומה ההשפעה. הסתרת פער היא כישלון; גילויו הוא מקצועיות.",
+    "topic_tags": ["capstone", "due_diligence", "missing_documents"],
+    "options": [
+      {
+        "text_he": "מציינים שהמסמך לא התקבל, מסבירים מה היה ניתן ממנו, ומציינים אילו שאלות נותרות פתוחות ומה היו מבקשים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא מזכירים את המסמך החסר ומתקדמים עם הניתוח על בסיס המסמכים שקיבלנו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסתרת פערי מידע היא כשל מקצועי; המעריך מצפה לשקיפות מלאה על מה חסר"
+      },
+      {
+        "text_he": "מוסיפים הנחה מוגנת (Conservative Assumption) ומתקדמים ללא ציון הפער",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחה שמרנית היא כלי מקצועי חיוני, אבל חובה לציין גם שמסמך חסר — לא במקום, אלא בנוסף"
+      },
+      {
+        "text_he": "מחליפים את הפרויקט לנכס אחר שלו כל המסמכים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פרקטיקה מקצועית עוסקת לעיתים קרובות במסמכים חסרים; הכישור הוא לנהל פערי מידע — לא להימנע מהם"
+      }
+    ],
+    "explanation_html_he": "<p>טיפול תקני במסמך DD חסר:</p><ol><li><strong>ציון</strong>: 'היתר בנייה — לא התקבל'</li><li><strong>מה היינו מפיקים ממנו</strong>: 'ממנו היינו בודקים האם השטח המוצהר (450 מ\"ר) מוגדר בהיתר ואם קיימות חריגות בנייה'</li><li><strong>שאלות פתוחות</strong>: 'לא ידוע אם יש פסיקה נגד, חריגות בנייה עלולות לדרוש הכשרה שתעלה X'</li><li><strong>מה היינו מבקשים</strong>: 'בתהליך אמיתי היינו מבקשים מהמוכר את ההיתר כ-Condition Precedent'</li></ol><p>פסקה כזו מוכיחה שהמנתח <strong>מבין</strong> למה המסמך חשוב, גם בלי שראה אותו.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-CMP-Q03",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה חייב לכלול פרק ה-Due Diligence בפרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DD שמפרט רק מה 'סוקר' ולא מה 'מצא' הוא ריק. הוועדה רוצה לדעת: מה היה שם? מה חסר? ואיך זה משפיע על הסיכון?",
+    "topic_tags": ["capstone", "due_diligence", "section_content"],
+    "options": [
+      {
+        "text_he": "פירוט מה סוקר, מה מצאנו (ממצאים), אילו פערים קיימים ומה השפעתם על הסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רשימה של מסמכים שהתקבלו בלבד — הגשתם מוכיחה שהבדיקה בוצעה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת מסמכים היא נקודת פתיחה, לא DD מלא; נדרשים ממצאים, פערים וניתוח השפעה"
+      },
+      {
+        "text_he": "הצהרה כללית שה-Due Diligence בוצע ללא פגמים מהותיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרה כללית אינה ניתוח; המעריך רוצה ראיות ספציפיות לכל אחד מ-6 המסמכים"
+      },
+      {
+        "text_he": "פרק DD אינו חלק ממזכר האשראי — הוא מוגש כנספח נפרד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-DD הוא חלק אינטגרלי ממזכר האשראי; הממצאים מוזנים לגוף המזכר ומשפיעים על ההמלצה"
+      }
+    ],
+    "explanation_html_he": "<p>פרק DD מלא מתחלק לארבעה:</p><ol><li><strong>מה סוקר</strong> — 'בדקנו: נסח טאבו, היתר, שמאות, דוחות 3 שנים, ביטוח, חוות משפטית'</li><li><strong>ממצאים</strong> — 'השמאות מצביעה על שווי של 12M; היתר הבנייה מאשר שטח 380 מ\"ר; אין הערות אזהרה בטאבו'</li><li><strong>פערים</strong> — 'חוות הדעת המשפטית על השעבוד לא התקבלה; נדרשת בקשה מהמוכר'</li><li><strong>השפעה על סיכון</strong> — 'פער השמאות ביחס למחיר הרכישה (8.5M לעומת 12M) מייצר כרית ביטחון LTV נאה'</li></ol>"
+  },
+  {
+    "question_id_external": "C12-M03-CMP-Q04",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד קוראים נסח טאבו לצורך הפרויקט — מה בודקים ספציפית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "נסח טאבו הוא 'תעודת הזהות' של הנכס — כל מה שכתוב בו הוא עובדה משפטית. מנתח שלא יודע לקרוא טאבו לא יכול לבצע DD. הלמידה היא על ארבעת הסעיפים: בעלות, שעבודים, הגבלות, הערות.",
+    "topic_tags": ["capstone", "due_diligence", "tabu", "title_search"],
+    "options": [
+      {
+        "text_he": "בעלות הנכס, שעבודים ומשכנתאות רשומות, הגבלות על הנכס (חכירה, זיקת הנאה) והערות אזהרה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רק את שם הבעלים ואת שטח הנכס — אלה המידע היחיד הרלוונטי לניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שם הבעלים ושטח הם נקודת פתיחה; שעבודים, הגבלות והערות אזהרה חשובים לא פחות ולעיתים יותר"
+      },
+      {
+        "text_he": "תאריך הרישום בלבד — כדי לאמת שהנכס אינו 'חדש' שעלול להיות לא מוכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תאריך הרישום אינו המידע המרכזי; שעבודים, בעלות ופגמי כותרת הם הסיכונים הממשיים שמחפשים"
+      },
+      {
+        "text_he": "פרטי הנכס (גוש, חלקה) כדי למלא את הפרמטרים הנדרשים במודל הפיננסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גוש/חלקה הם מזהה מיקום, לא ניתוח; ה-DD הוא ניתוח משפטי-פיננסי של מצב הבעלות"
+      }
+    ],
+    "explanation_html_he": "<p>קריאת נסח טאבו — ארבעה סעיפים לבדיקה:</p><ol><li><strong>בעלות (Part I)</strong> — מי הבעלים? האם יש שותפויות? כמה אחוז לכל צד?</li><li><strong>שעבודים ומשכנתאות (Part II)</strong> — מה גובה המשכנתא הקיימת? לטובת מי? האם זה עולה על הצפי שלנו?</li><li><strong>הגבלות (Part III)</strong> — חכירה, זיקת הנאה, זכות קדימה, הגבלות שימוש</li><li><strong>הערות אזהרה</strong> — עיקול, הליך פשיטת רגל, תביעות — <strong>Red Flag אוטומטי</strong></li></ol><p>כל ממצא ב-II, III, IV נכנס לפרק ה-DD ומשפיע על ניתוח הסיכון.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-CMP-Q05",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה פירוש 'נרמול NOI' מדוחות כספיים היסטוריים, ולמה הוא נחוץ?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "NOI הוא ה-'כמה הנכס מרוויח בפועל' — אבל הכנסות חד-פעמיות או הוצאות חריגות מעוותות את התמונה. נרמול הוא הניתוח שמבדיל מנתח שיודע לראות מנתח שרואה רק מספרים.",
+    "topic_tags": ["capstone", "noi_normalization", "financial_analysis"],
+    "options": [
+      {
+        "text_he": "הסרת הכנסות חד-פעמיות (כגון פיצוי ביטוח) והוצאות חריגות (כגון שיפוץ גג חד-פעמי) מהדוחות — לחשב NOI ייצוגי ורציף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המרת NOI ממטבע זר לשקלים בשער נוכחי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המרת מטבע היא טכנית ולא נרמול; נרמול עוסק בהכנסות והוצאות שאינן ייצוגיות לפעילות שגרתית"
+      },
+      {
+        "text_he": "עדכון NOI לשנה הנוכחית לפי מדד המחירים לצרכן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עדכון אינפלציוני הוא תיקון ריאלי, לא נרמול; נרמול מוציא את הפריטים החד-פעמיים ולא מחפש שינוי מחירים"
+      },
+      {
+        "text_he": "חישוב ממוצע של NOI לאורך 5 שנים לצורך חלקת תנודות מחזוריות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע 5 שנים הוא גישה אחת אך לא ההגדרה של נרמול; נרמול ספציפי מזהה ומוציא פריטים חריגים, לא סתם ממצע"
+      }
+    ],
+    "explanation_html_he": "<p>נרמול NOI — תהליך בן 4 שלבים:</p><ol><li><strong>זיהוי הכנסות חד-פעמיות</strong>: פיצוי ביטוח, מכירת ציוד, דמי פינוי חריגים — מוצא מה-NOI</li><li><strong>זיהוי הוצאות חריגות</strong>: שיפוץ גג מלא (כל 20 שנה), תביעה משפטית שסולקה — מוצא</li><li><strong>הוספת הוצאות עתידיות</strong>: CapEx שנתי רגיל שלא הופיע בדוחות (כי שנה מסוימת לא היה) — מוסף</li><li><strong>NOI מנורמל</strong> = NOI דוחות + הכנסות חריגות שהוצאו - הוצאות חריגות שהוצאו + CapEx רגיל שהוסף</li></ol><p>הטבלה של 3 שנות NOI מנורמל היא נקודת הפתיחה לכל המודל.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-PRC-Q01",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בבדיקת נסח טאבו של הנכס הנבחר, נמצאה הערת אזהרה לטובת צד שלישי לא ידוע. כיצד מטפלים בממצא זה בפרויקט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "הערת אזהרה לטובת צד שלישי לא ידוע היא 'stop sign' בכל DD מקצועי. אתה לא יכול להמליץ על עסקה כשלא ברור מי יכול לעכב אותה. המזכר חייב להגיד זאת בבירור.",
+    "topic_tags": ["capstone", "due_diligence", "title_defect", "risk"],
+    "options": [
+      {
+        "text_he": "מציינים את הממצא בפרק ה-DD, מסווגים כסיכון מהותי, ומציינים שבתהליך אמיתי ממשכנאים את הנכס רק לאחר מחיקת ההערה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מתעלמים מהממצא כי אין זמן לחקור את הצד השלישי בפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; התעלמות מממצא DD היא כשל מקצועי חמור; גם בפרויקט — כל ממצא מהותי חייב להיות מתועד"
+      },
+      {
+        "text_he": "מוחקים את ה-DD מהפרויקט ומחליפים בנכס שאין לו הערה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פרויקט שנבחרה בו עסקה עם פגם — ניתן להמשיך ולנתח תוך תיעוד הסיכון; לא מחייב החלפת נכס"
+      },
+      {
+        "text_he": "מוסיפים תרחיש 'נפסל' במודל שמניח שהעסקה לא תוכל להיסגר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 'תרחיש נפסל' אינו כלי מוכר בניתוח; הגישה הנכונה היא תיעוד הסיכון, כימותו, ותנאי ל-Condition Precedent"
+      }
+    ],
+    "explanation_html_he": "<p>טיפול בהערת אזהרה בפרק ה-DD:</p><ol><li><strong>תיעוד</strong>: 'נסח טאבו מכיל הערת אזהרה לטובת X מתאריך Y'</li><li><strong>ניתוח</strong>: 'הערה זו עלולה לחסום רישום משכנתא ראשונה בדרגת עדיפות'</li><li><strong>השפעה על סיכון</strong>: 'עד למחיקת ההערה — עסקת המימון אינה יכולה להיסגר'</li><li><strong>Condition Precedent</strong>: 'בעסקה אמיתית, מחיקת ההערה תהווה תנאי מוקדם לסגירת ההלוואה'</li></ol><p>הממצא לא הורס את הפרויקט — הוא <strong>מחזק</strong> אותו בהדגמת כישורי DD מקצועיים.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-PRC-Q02",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בדוחות הכספיים של הנכס נמצא שב-2024 הייתה הכנסה חד-פעמית של 200,000 ₪ מפיצוי ביטוח על נזק מים. ה-NOI הרשום ב-2024 הוא 1.8M ₪. מה ה-NOI המנורמל לשנה זו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "פיצוי ביטוח הוא הכנסה שלא תחזור — אם תכלול אותה ב-NOI, תבנה מודל שמצייר תמונה טובה מהמציאות. הוצא אותה. תמיד.",
+    "topic_tags": ["capstone", "noi_normalization", "one_time_income"],
+    "options": [
+      {
+        "text_he": "1,600,000 ₪ — מוציאים את פיצוי הביטוח החד-פעמי (200,000 ₪) מה-NOI הרשום (1,800,000 ₪)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "1,800,000 ₪ — פיצוי הביטוח הוא הכנסה חוקית ולכן אין לנכות אותו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פיצוי הוא הכנסה חוקית אך חד-פעמית; NOI מנורמל מייצג כוח הכנסה חוזר; פיצוי שלא יחזור מעוות את המודל"
+      },
+      {
+        "text_he": "2,000,000 ₪ — מוסיפים ציפייה להכנסה דומה מביטוח בשנה הבאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין להניח שפיצוי ביטוח יחזור; ההנחה הזו תיצור NOI מנופח בלי בסיס"
+      },
+      {
+        "text_he": "1,700,000 ₪ — מנכים 50% מהפיצוי כי ייתכן שחלקו חוזר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין בסיס לניכוי חלקי; ברירת המחדל לפיצוי חד-פעמי היא הוצאה מלאה מה-NOI"
+      }
+    ],
+    "explanation_html_he": "<p>נרמול NOI 2024:</p><ul><li>NOI דוחות: 1,800,000 ₪</li><li>בניכוי הכנסה חד-פעמית (פיצוי ביטוח): (200,000) ₪</li><li><strong>NOI מנורמל: 1,600,000 ₪</strong></li></ul><p>בטבלת ה-NOI המנורמל תציג:</p><ul><li>שורת 'NOI כפי שדווח': 1,800,000 ₪</li><li>שורת 'ניכוי: פיצוי ביטוח חד-פעמי': (200,000) ₪</li><li>שורת '<strong>NOI מנורמל</strong>': 1,600,000 ₪</li></ul><p>שקיפות: כל התאמה מציגים בנפרד עם הסבר.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-PRC-Q03",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרק ה-DD בפרויקט מכיל: 'בדקנו שישה מסמכים ולא נמצאו בעיות'. האם זה מספיק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "הצהרה 'לא נמצאו בעיות' ללא ממצאים ספציפיים אינה DD — היא קריאת תמלול. DD מקצועי מפרט מה בדקת, מה מצאת ומה זה אומר, גם אם הכל תקין.",
+    "topic_tags": ["capstone", "due_diligence", "quality_of_analysis"],
+    "options": [
+      {
+        "text_he": "לא מספיק — נדרש פירוט ממצאים ספציפיים מכל מסמך גם אם תקין, לא רק הצהרה כללית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מספיק — אם אין בעיות, הצהרה כללית מסכמת נאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרה ללא ממצאים ספציפיים אינה מוכיחה שה-DD בוצע; המעריך לא יכול לאמת אותה"
+      },
+      {
+        "text_he": "מספיק בתנאי שמצרפים נספח עם צילומי המסמכים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; צילום מסמכים הוא עדות, לא ניתוח; נדרש ניתוח מה הם אומרים, לא רק שהם קיימים"
+      },
+      {
+        "text_he": "מספיק אם הנכס תקין — ניתוח מפורט נדרש רק אם יש בעיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח DD מפורט נדרש תמיד; 'אין בעיות' אינו פטור מתיעוד — זה תיעוד של ממצאים חיוביים"
+      }
+    ],
+    "explanation_html_he": "<p>פרק DD מלא גם כאשר 'הכל תקין':</p><ul><li><strong>נסח טאבו</strong>: 'בעלות רשומה על שם X בלבד; אין שעבודים קיימים; אין הערות אזהרה — ניתן לרשום משכנתא ראשונה'</li><li><strong>היתר בנייה</strong>: 'היתר מאושר ל-450 מ\"ר; שימוש משרדי; תואם שימוש בפועל; תוקף פג 2021 — נדרש חידוש'</li><li><strong>שמאות</strong>: 'שמאות מ-2025 מעריכה 14.5M; מחיר הרכישה 12M — LTV שמאי: 62%'</li></ul><p>ממצאים ספציפיים — גם חיוביים — מוכיחים עשייה. הצהרה ריקה — אינה.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-PRC-Q04",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>NOI של נכס ב-3 שנים אחרונות: 2022 — 1.5M; 2023 — 1.9M (כולל חוזה שכירות חד-פעמי של 0.3M); 2024 — 1.6M. מהו ה-NOI המנורמל הממוצע לשלוש שנים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ממוצע ללא נרמול יוצר נתון מוטה. תמיד נרמל לפני שמחשב ממוצע — לא אחרי.",
+    "topic_tags": ["capstone", "noi_normalization", "average_noi"],
+    "options": [
+      {
+        "text_he": "1,567,000 ₪: NOI מנורמל — 2022: 1.5M; 2023: 1.6M (מוצא 0.3M); 2024: 1.6M; ממוצע: (1.5+1.6+1.6)/3 = 1,567K",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "1,667,000 ₪: ממוצע ישיר של שלוש השנים ללא נרמול (1.5+1.9+1.6)/3",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע ישיר ללא נרמול כולל את ה-0.3M החד-פעמי שמייצג NOI גבוה מהממשי; יש לנרמל קודם"
+      },
+      {
+        "text_he": "1,600,000 ₪: NOI 2024 בלבד — השנה האחרונה הכי רלוונטית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שנה אחת אינה מספיקה לנרמול; שנה אחת עשויה להיות חריגה; ממוצע 3 שנים מנורמל הוא הסטנדרט"
+      },
+      {
+        "text_he": "1,900,000 ₪: שנת השיא מייצגת את פוטנציאל הנכס המלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שנת שיא שכוללת הכנסה חד-פעמית אינה מייצגת פוטנציאל — היא מייצגת מזל; NOI מנורמל מייצג כוח הכנסה מבני"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב NOI מנורמל ממוצע:</p><table><tr><th>שנה</th><th>NOI דוח</th><th>נרמול</th><th>NOI מנורמל</th></tr><tr><td>2022</td><td>1,500,000</td><td>—</td><td>1,500,000</td></tr><tr><td>2023</td><td>1,900,000</td><td>-300,000 (חוזה חד-פעמי)</td><td>1,600,000</td></tr><tr><td>2024</td><td>1,600,000</td><td>—</td><td>1,600,000</td></tr><tr><td><strong>ממוצע</strong></td><td>1,667,000</td><td></td><td><strong>1,567,000</strong></td></tr></table><p>ה-NOI המנורמל הממוצע הוא <strong>1,567,000 ₪</strong>. זה המספר שנכנס למודל.</p>"
+  },
+  {
+    "question_id_external": "C12-M03-PRC-Q05",
+    "course_number": 12,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סטודנט מגיש פרק DD עם כל ששת המסמכים מנותחים, אך לא מזכיר את השפעת הממצאים על הסיכון. מה חסר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "DD שמפרט ממצאים ללא קישור לסיכון הוא 'ספרן' לא 'מנתח'. הוועדה לא רוצה לדעת מה כתוב במסמכים — היא רוצה לדעת מה זה אומר לגבי הסיכון שהיא לוקחת.",
+    "topic_tags": ["capstone", "due_diligence", "risk_linkage"],
+    "options": [
+      {
+        "text_he": "הקישור הניתוחי בין הממצאים לסיכון — כל ממצא DD חייב להוביל לתגובה: 'לכן הסיכון X הוא Y'",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין חסר — פירוט ממצאים הוא הדרישה המלאה של פרק ה-DD",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרובריקה מחייבת ממצאים + השפעה על סיכון; פרק DD שמפרט עובדות בלבד חסר ממד ניתוחי חיוני"
+      },
+      {
+        "text_he": "חסר נספח שמות של כל המסמכים שקיבל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרשימה אינה מה שחסר; ניתוח ההשפעה על הסיכון הוא הפער הניתוחי"
+      },
+      {
+        "text_he": "חסר ציטוט ישיר ממסמכי המקור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ציטוטים ישירים אינם נדרשים; ניתוח והסקת מסקנות על סיכון הם הדרישה"
+      }
+    ],
+    "explanation_html_he": "<p>כל ממצא DD צריך 'מחרוזת' של שלושה חוליות:</p><ol><li><strong>ממצא</strong>: 'משכנתא קיימת בסך 5M ₪ לבנק לאומי'</li><li><strong>משמעות</strong>: 'ניתן לרשום משכנתא חדשה רק בדרגה שנייה, אלא אם כן הקיימת תיפרע'</li><li><strong>השפעת סיכון</strong>: 'הלווה יאלץ לפרוע קודם 5M — זה מקטין את ה-Equity Available ומשפיע על ה-LTV שלנו לשלישיים'</li></ol><p>ממצא ללא משמעות = עובדה. עובדה + משמעות + סיכון = <strong>ניתוח</strong>.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-CMP-Q01",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו חמישה רכיבים חייבים להיכלל במודל הפיננסי של פרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "חמשת הרכיבים הם 'שפה' של ניתוח אשראי נדל\"ן — מנהל שרואה מודל ללא אחד מהם יודע שהמנתח לא עבד בשוק. NOI, DSCR, LTV, Debt Yield ו-IRR הם החמישה.",
+    "topic_tags": ["capstone", "financial_model", "required_components"],
+    "options": [
+      {
+        "text_he": "בניית NOI, חישוב DSCR, חישוב LTV, Debt Yield ותחשיב יציאה / IRR",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI, DSCR, Cap Rate, Gross Rent Multiplier ו-Cash-on-Cash Return",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate, GRM ו-CoC הם מדדים שימושיים אך אינם ה-5 הנדרשים; LTV, Debt Yield ו-IRR הם חלק מהרשימה הנכונה"
+      },
+      {
+        "text_he": "רק NOI ו-DSCR — שאר המדדים הם אופציונליים בפרויקט הגמר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל חמשת הרכיבים הם חובה; NOI ו-DSCR לבד אינם מספיקים למודל מלא"
+      },
+      {
+        "text_he": "תזרים מזומנים, לוח סילוקין, הערכת שווי, תרחישי רגישות ואנליזת מינוף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו קטגוריות כלליות לא הרכיבים הנדרשים הספציפיים; NOI, DSCR, LTV, Debt Yield ו-IRR הם השמות המדויקים"
+      }
+    ],
+    "explanation_html_he": "<p>חמשת רכיבי המודל החובה:</p><ol><li><strong>NOI Build-up</strong> — בניית הכנסה נקייה: שכ\"ד × תפוסה - הוצאות תפעול - CapEx</li><li><strong>DSCR</strong> — כיסוי שירות חוב: NOI / שירות חוב שנתי</li><li><strong>LTV</strong> — יחס הלוואה לשווי: סך הלוואה / שווי נכס</li><li><strong>Debt Yield</strong> — תשואת חוב: NOI / סך הלוואה</li><li><strong>Exit / IRR</strong> — תשואה לפידיון: אנליזת מכירה צפויה ו-IRR לאקוויטי</li></ol><p>כל רכיב מייצג זווית ניתוח שונה — יחד הם מספקים תמונה פיננסית מלאה.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-CMP-Q02",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כמה תרחישים מינימום נדרשים במודל הגמר, ומה הם?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "תרחיש אחד הוא חלום; שניים הם שאלה; שלושה הם ניתוח. Base, Bear ו-Stress מייצגים: מה צפוי, מה סביר לרע, ומה קיצוני. בלעדיהם — אין תרחישים.",
+    "topic_tags": ["capstone", "financial_model", "scenarios"],
+    "options": [
+      {
+        "text_he": "שלושה תרחישים מינימום: Base Case (ציפייה בסיסית), Bear Case (הנחות שמרניות) ו-Stress Test (תרחיש קיצוני)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תרחיש אחד מספיק — Base Case עם הנחות שמרניות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Base Case שמרני הוא Bear Case; ניתוח תרחישים מחייב לפחות שלושה נקודות לבחינת מגוון תוצאות"
+      },
+      {
+        "text_he": "שניים: Base ו-Stress — ה-Bear Case מיותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bear Case מייצג תרחיש אפשרי אך לא קיצוני שחשוב לניתוח; הדילוג עליו יוצר פרצה בין הציפייה לקיצוני"
+      },
+      {
+        "text_he": "חמישה תרחישים: Base, Bear, Stress, Bull ו-Super Stress",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חמישה תרחישים הם מעבר לנדרש; Bull Case לא ממלא תפקיד בניתוח סיכון אשראי שמטרתו בדיקת חוסן"
+      }
+    ],
+    "explanation_html_he": "<p>שלושת התרחישים הסטנדרטיים:</p><table><tr><th>תרחיש</th><th>תפוסה</th><th>שכ\"ד</th><th>DSCR מינימום</th></tr><tr><td>Base Case</td><td>92%</td><td>שוק</td><td>≥1.25x</td></tr><tr><td>Bear Case</td><td>82%</td><td>-5%</td><td>≥1.0x</td></tr><tr><td>Stress Test</td><td>72%</td><td>-10%</td><td>אפשר &lt;1.0x</td></tr></table><p>הנחות כל תרחיש חייבות להיות מפורטות בגיליון נפרד. <strong>אין למשוך מספרים מהאוויר</strong> — כל הנחה מנומקת.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-CMP-Q03",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ה-Debt Yield המינימלי הנדרש ב-Base Case לפי הנחיות פרויקט הגמר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Debt Yield של 7.5% ב-Base Case פירושו שגם אם שוק הנדל\"ן קורס, המלווה יכול לקחת את הנכס ולכסות את ההשקעה ב-13-14 שנים מה-NOI בלבד. זה הרף שמגן על המלווה.",
+    "topic_tags": ["capstone", "debt_yield", "minimum_threshold"],
+    "options": [
+      {
+        "text_he": "7.5% — ה-Debt Yield המינימלי הנדרש ב-Base Case הוא 7.5%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "5.0% — זה הרף הנהוג בשוק הישראלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 5% Debt Yield הוא נמוך מדי ומסמן שה-NOI אינו מכסה את החוב ב-20 שנה; הנחיות הפרויקט קובעות 7.5%"
+      },
+      {
+        "text_he": "10% — זה הסטנדרט הבינלאומי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 10% Debt Yield הוא מחמיר מאוד ולא הסטנדרט בישראל; הנחיות הפרויקט קובעות 7.5%"
+      },
+      {
+        "text_he": "אין רף מינימלי — Debt Yield הוא מדד משלים ולא חסם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנחיות הפרויקט, Debt Yield מינימלי הוא דרישה מפורשת; מודל עם Debt Yield &lt;7.5% ב-Base יצריך הסבר מפורט"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Debt Yield = NOI / סך ההלוואה</strong></p><p>רף 7.5% ב-Base Case פירושו:</p><ul><li>הלוואה של 10M ₪ דורשת NOI מינימלי של 750,000 ₪</li><li>המלווה מכסה את ה-Principal ב-~13.3 שנים מ-NOI בלבד</li><li>עמיד לירידת שווי נכס מבלי לפגוע בכיסוי החוב</li></ul><p>Debt Yield נמוך מ-7.5% מחייב הסבר מפורש ב-Bear ו-Stress — האם עדיין מעל 1.0x DSCR? מה ה-Exit Strategy?</p>"
+  },
+  {
+    "question_id_external": "C12-M04-CMP-Q04",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה המודל הפיננסי לא צריך לעשות — שלוש שגיאות נפוצות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מודל שנכסל הוא לעתים קרובות מודל 'אופטימיסט' — שנה אחת, CapEx אפס, תפוסה 100%. הניתוח שלך יהיה מהימן רק כשהנחותיו מציאותיות.",
+    "topic_tags": ["capstone", "financial_model", "common_errors"],
+    "options": [
+      {
+        "text_he": "מודל לא צריך: להסתמך על שנה אחת בלבד (snapshot), להניח CapEx אפס, ולהניח תפוסה של 100%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מודל לא צריך: להכיל יותר מ-3 תרחישים, להשתמש ב-Excel ולציין מקורות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 3+ תרחישים הם רצויים; Excel הוא כלי סטנדרטי; מקורות חובה; אלה אינן שגיאות במודל"
+      },
+      {
+        "text_he": "מודל לא צריך: לכלול LTV, לחשב IRR ולהציג לוח סילוקין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV, IRR ולוח סילוקין הם רכיבים נדרשים; אי כללתם הוא הכשל, לא כללתם"
+      },
+      {
+        "text_he": "מודל לא צריך: להתבסס על נתונים היסטוריים, להשתמש ב-Comps ולציין שנת הניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נתונים היסטוריים ו-Comps הם חובה; שנת הניתוח חייבת להיות מצוינת; אלה דרישות, לא שגיאות"
+      }
+    ],
+    "explanation_html_he": "<p>שלוש שגיאות נפוצות שפוסלות מודל:</p><ol><li><strong>Snapshot חד-שנתי</strong> — מודל 5-10 שנים נדרש; שנה אחת מציגה תמונת עצר ולא מדגימה חוסן</li><li><strong>CapEx אפס</strong> — נכסים דורשים השקעה שוטפת (גג, מיזוג, פנים); CapEx אפס מנפח NOI מעבר למציאותי</li><li><strong>תפוסה 100%</strong> — אין נכס שתמיד מלא; ממוצע שוק הוא הנחת הבסיס; 100% מייצרת מודל מוטה</li></ol><p>גלה את השגיאות <strong>לפני</strong> שהמעריך מגלה אותן. בצע סקירה עצמית לפי רשימה זו.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-CMP-Q05",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מציגים טבלאות המודל הפיננסי בתוך מזכר האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "וועדת אשראי לא תפתח קובץ Excel — המספרים מגיעים דרך הטבלאות במזכר. אם טבלה אינה ניתנת לקריאה בשחור-לבן על מסך PDF — היא לא עוברת את המסנן.",
+    "topic_tags": ["capstone", "financial_model", "presentation"],
+    "options": [
+      {
+        "text_he": "כטבלאות מסוכמות בגוף המזכר, עם כותרות ברורות, יחידות, ושורות מדגישות — המודל המלא כנספח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רק כנספח חיצוני; בגוף המזכר מספיקים אחוזים ומסקנות ללא טבלאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוועדה לא תפנה לנספח לכל מספר; טבלאות מפתח חייבות להיות בגוף המזכר"
+      },
+      {
+        "text_he": "כגרפים בלבד — עמודות ועוגות מקלות על ההבנה ומחליפות טבלאות מספריות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גרפים תומכים אך לא מחליפים; ערכים מדויקים (DSCR, LTV) חייבים להיות בטבלה; גרף לא מאפשר אימות"
+      },
+      {
+        "text_he": "כקישורי לינק לגיליון אקסל חיצוני; אין מקום לטבלאות ארוכות במזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קישורים חיצוניים אינם קבילים; המזכר חייב להיות עצמאי ומלא ללא תלות בקבצים חיצוניים"
+      }
+    ],
+    "explanation_html_he": "<p>עיצוב טבלאות מודל במזכר — הכלל:</p><ul><li><strong>בגוף המזכר</strong>: טבלאות מסוכמות — NOI build-up (5-8 שורות), DSCR/LTV/Debt Yield לכל תרחיש, IRR summary</li><li><strong>בנספח</strong>: המודל המלא עם כל השנים, כל הנחות, לוח סילוקין מפורט</li></ul><p>סטנדרט טבלה:</p><ul><li>כותרת ברורה: 'תרחיש Base Case — יחסים פיננסיים עיקריים'</li><li>יחידות מצוינות (₪, %, x)</li><li>שורה/עמודה מודגשת לסיכום</li><li>גוף טבלה ניתן לקריאה ב-PDF (לא 8pt font)</li></ul>"
+  },
+  {
+    "question_id_external": "C12-M04-PRC-Q01",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מודל של סטודנט מציג DSCR של 1.45x ב-Base Case אך לא מציג Bear ו-Stress. האם המודל עומד בדרישות הפרויקט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "DSCR של 1.45x ב-Base הוא נהדר — אבל DSCR ב-Stress יכול להיות 0.7x. בלי תרחישים, הוועדה לא יודעת אם הנכס שורד ירידת שוק. ה-1.45x הוא חצי תשובה.",
+    "topic_tags": ["capstone", "scenarios", "dscr"],
+    "options": [
+      {
+        "text_he": "לא עומד — נדרשים שלושה תרחישים מינימום; DSCR ב-Base לבד אינו מספק",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עומד — DSCR של 1.45x גבוה מספיק כדי להוכיח חוסן גם ללא תרחישים נוספים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR בסיסי גבוה אינו פטור מתרחישים; הוועדה רוצה לראות מה קורה ב-Bear ו-Stress — לא רק ב-Best Case"
+      },
+      {
+        "text_he": "עומד — Bear ו-Stress הם אופציונליים לנכסים עם DSCR מעל 1.3x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין פטור מתרחישים על בסיס DSCR גבוה; שלושת התרחישים הם חובה ללא תנאי"
+      },
+      {
+        "text_he": "עומד בחלקו — צריך רק Bear Case; Stress Test מיועד לבנקים בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stress Test נדרש בפרויקט הגמר ואינו מסורת בנקאית בלבד; שלושת התרחישים נדרשים לכולם"
+      }
+    ],
+    "explanation_html_he": "<p>דרישת שלושת התרחישים היא מוחלטת. לדוגמה — DSCR ב-1.45x ב-Base אינו מספר טוב או רע ללא הקשר:</p><ul><li>אם Stress מראה 1.1x — מדובר בנכס חסין מאוד</li><li>אם Stress מראה 0.75x — מדובר בנכס שמצריך Sweep Mechanism</li><li>הוועדה לא יכולה לדעת בלי הנתונים</li></ul><p>הפתרון: הוסף טבלת 3 תרחישים:<br>DSCR Base: 1.45x | Bear: X | Stress: Y<br>LTV Base: X | Bear: X | Stress: X<br>Debt Yield Base: X | Bear: X | Stress: X</p>"
+  },
+  {
+    "question_id_external": "C12-M04-PRC-Q02",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>NOI ב-Base Case הוא 1.2M ₪; סך ההלוואה המוצעת הוא 14M ₪. האם העסקה עומדת ב-Debt Yield המינימלי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "1.2M / 14M = 8.57% — עובר את רף 7.5%. זה חישוב ממש פשוט שכל מנתח צריך לדעת לעשות בראש תוך 10 שניות.",
+    "topic_tags": ["capstone", "debt_yield", "calculation"],
+    "options": [
+      {
+        "text_he": "כן — Debt Yield = 1,200,000 / 14,000,000 = 8.57%, שגבוה מהרף המינימלי של 7.5%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא — Debt Yield = 14,000,000 / 1,200,000 = 11.67x, שנמוך מדי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה; Debt Yield = NOI / הלוואה, לא הלוואה/NOI; 11.67x אינה יחידה של Debt Yield"
+      },
+      {
+        "text_he": "לא — Debt Yield = 1.2M / 14M = 8.57%, שנמוך מהרף המינימלי של 10%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החישוב נכון אך הרף שגוי; הנחיות הפרויקט קובעות 7.5%, לא 10%; 8.57% עובר את 7.5%"
+      },
+      {
+        "text_he": "כן — Debt Yield = 8.57%, שגבוה מהרף המינימלי של 8%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; החישוב נכון אבל הרף שגוי; הנחיות הפרויקט קובעות 7.5%, לא 8%"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Debt Yield = NOI / סך ההלוואה</strong></p><p>= 1,200,000 / 14,000,000 = <strong>8.57%</strong></p><p>רף מינימלי בפרויקט: <strong>7.5%</strong></p><p>8.57% > 7.5% → <strong>עובר</strong></p><p>פירוש: המלווה יקבל בחזרה את ה-NOI השלם ב-14M/1.2M = 11.7 שנים מ-NOI בלבד — גם ללא מכירת הנכס. כרית ביטחון נאה.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-PRC-Q03",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מה ההבדל בין תרחיש Bear Case לתרחיש Stress Test, ולמה שניהם נחוצים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Bear הוא 'שוק רע' — אפשרי וסביר. Stress הוא 'שוק בקריסה' — נדיר אך לא בלתי אפשרי. שניהם נחוצים כי הוועדה רוצה לדעת גם 'מה הפסד סביר' וגם 'מה הסכנה הקיצונית'.",
+    "topic_tags": ["capstone", "scenarios", "bear_stress"],
+    "options": [
+      {
+        "text_he": "Bear Case: הנחות שמרניות סבירות (ירידת תפוסה ושכ\"ד של 10-15%); Stress Test: קיצוני (ירידה 25%+); Bear מראה חוסן שגרתי, Stress — חוסן קיצוני",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Bear Case: תרחיש שוק נסוג; Stress Test: זהה ל-Bear אך עם ריבית גבוהה יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stress Test אינו רק Bear עם ריבית שונה; הוא כולל הנחות קיצוניות יותר בכל משתנה — תפוסה, שכ\"ד, CapEx"
+      },
+      {
+        "text_he": "Bear Case: תרחיש למנהל; Stress Test: תרחיש לרגולטור — הבדל קהל יעד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני התרחישים מיועדים לאותה ועדת האשראי; ההבדל הוא בעוצמת ההנחות, לא בקהל היעד"
+      },
+      {
+        "text_he": "הם זהים — ניתן להגיש אחד מהם בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Bear ו-Stress אינם זהים; הם מייצגים עצימות שונה של לחץ; שניהם נדרשים ללא תחלופה"
+      }
+    ],
+    "explanation_html_he": "<p>ההבחנה בין Bear ל-Stress:</p><table><tr><th>פרמטר</th><th>Base</th><th>Bear</th><th>Stress</th></tr><tr><td>תפוסה</td><td>92%</td><td>82%</td><td>72%</td></tr><tr><td>שכ\"ד</td><td>שוק</td><td>-5%</td><td>-15%</td></tr><tr><td>CapEx</td><td>שגרתי</td><td>+10%</td><td>+20%</td></tr><tr><td>מטרת הבדיקה</td><td>ציפייה</td><td>ירידה סבירה</td><td>קריסה</td></tr></table><p>Bear שואל: 'האם נשרוד שוק רע?' Stress שואל: 'מה הכי גרוע שיכול לקרות?'. שניהם נחוצים לתמונה מלאה.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-PRC-Q04",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מודל של סטודנט מציג CapEx שנתי אפס בכל השנים. מהי הבעיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "נכס שלא דורש תחזוקה קיים רק בחלומות — ובמודלים לא מקצועיים. CapEx אפס מנפח את ה-NOI מעבר למציאות ומכסה על עלויות תפעוליות שיגיעו בהכרח.",
+    "topic_tags": ["capstone", "financial_model", "capex"],
+    "options": [
+      {
+        "text_he": "המודל מנפח את ה-NOI ואת ה-DSCR ביחס למציאות — כל נכס מחייב CapEx שנתי שגרתי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין בעיה — אם הנכס חדש, CapEx שנתי הוא אפס לשנים הראשונות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם נכס חדש דורש תחזוקה, ניקיון, ביטוחים ותיקונים; CapEx אפס מלא הוא אף פעם לא ריאלי"
+      },
+      {
+        "text_he": "הבעיה היא שה-CapEx צריך להיות בתרחיש Stress בלבד, לא ב-Base",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CapEx שגרתי נדרש בכל התרחישים; ב-Stress הוא עולה אך לא נוצר מאפס"
+      },
+      {
+        "text_he": "CapEx מועבר לפרק ה-DD ואינו חלק מהמודל הפיננסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CapEx הוא הוצאה שמשפיעה ישירות על ה-NOI ועל ה-DSCR; הוא חלק מהמודל הפיננסי, לא מה-DD"
+      }
+    ],
+    "explanation_html_he": "<p>CapEx שנתי סטנדרטי לנכס מסחרי:</p><ul><li><strong>תחזוקה שגרתית</strong>: 0.5-1% ממחיר הנכס לשנה</li><li><strong>שיפוצים קלים</strong>: ½-1 חודש שכ\"ד לשנה</li><li><strong>החלפת ציוד</strong>: מיזוג, מעלית, חשמל — מופץ לאורך אורך חיים</li></ul><p>דוגמה: נכס ב-12M ₪ → CapEx = 0.75% = 90,000 ₪/שנה<br>NOI ללא CapEx: 1,200,000<br><strong>NOI עם CapEx: 1,110,000</strong><br>ההפרש קטן אך ממשי — ו-DSCR שמשתנה ב-5-8% חשוב.</p>"
+  },
+  {
+    "question_id_external": "C12-M04-PRC-Q05",
+    "course_number": 12,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מודל עם NOI של 900,000 ₪ ושירות חוב של 720,000 ₪ מציג DSCR מספיק לפי הנחיות הפרויקט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "1.25x הוא הרף — כל מנתח חייב לדעת זאת כמו שם. 900,000 / 720,000 = 1.25x בדיוק — עובר, אך בקושי. במזכר תציין שזה על גבול הסף.",
+    "topic_tags": ["capstone", "dscr", "minimum_threshold"],
+    "options": [
+      {
+        "text_he": "כן, בקושי — DSCR = 900,000 / 720,000 = 1.25x, שהוא בדיוק הרף המינימלי המקובל; יש לציין שהמרווח אפסי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן, בנוחות — DSCR של 1.25x הוא גבוה ומספיק כרית ביטחון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.25x הוא בדיוק הרף המינימלי, לא 'גבוה'; בתרחיש Bear הוא עלול לרדת מתחת לסף — יש לציין זאת"
+      },
+      {
+        "text_he": "לא — DSCR מינימלי לפרויקט הגמר הוא 1.5x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין דרישת 1.5x בפרויקט הגמר; 1.25x הוא הסף המקובל בשוק ובפרויקט"
+      },
+      {
+        "text_he": "לא — DSCR = 720,000 / 900,000 = 0.80x, שנמוך מהרף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה; DSCR = NOI / שירות חוב = 900,000 / 720,000 = 1.25x"
+      }
+    ],
+    "explanation_html_he": "<p><strong>DSCR = NOI / שירות חוב = 900,000 / 720,000 = 1.25x</strong></p><p>הרף המינימלי ב-Base Case: <strong>1.25x</strong><br>הנכס עומד בדיוק בסף — עובר, אבל:</p><ul><li>בתרחיש Bear עם ירידת NOI של 10%: NOI = 810,000; DSCR = 810,000/720,000 = <strong>1.125x</strong> — פחות מ-1.25x</li><li>יש לציין במזכר: 'DSCR ב-Base Case הוא 1.25x — על גבול הסף המינימלי; בתרחיש Bear יורד ל-1.13x ומחייב בחינת מנגנוני הגנה'</li></ul>"
+  }
+]
