@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C11-M03-CMP-Q01",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>נורמליזציית NOI</strong> ומדוע היא נדרשת במזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "NOI לא מנורמל יכול לעוות את ה-DSCR בעשרות אחוזים — בנק שמלווה על בסיס NOI לא מנורמל מממן לפי מספר שגוי.",
+    "topic_tags": ["financial_analysis", "NOI_normalization", "credit_memo"],
+    "options": [
+      {
+        "text_he": "התאמת NOI היסטורי להסרת הכנסות חד-פעמיות והוצאות לא-חוזרות, כדי לשקף תזרים ייצוגי ובר-קיימא",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חישוב ממוצע ה-NOI של שלוש השנים האחרונות ללא התאמות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע ללא התאמות עלול לכלול סעיפים חד-פעמיים שמעוותים את התמונה"
+      },
+      {
+        "text_he": "הכפלת ה-NOI הנוכחי בשיעור גידול צפוי לשנים הבאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו תחזית עתידית, לא נורמליזציה של נתונים היסטוריים"
+      },
+      {
+        "text_he": "השוואת NOI הנכס לנכסים דומים באותו אזור גיאוגרפי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השוואה לנכסים דומים היא ניתוח בנצ&quot;מרק, לא נורמליזציית NOI"
+      }
+    ],
+    "explanation_html_he": "<p><strong>נורמליזציית NOI</strong> — שלבי הביצוע:</p><ol><li><strong>זיהוי הכנסות חד-פעמיות:</strong> פיצוי מביטוח, הכנסת פינוי חריגה — יש להסיר</li><li><strong>זיהוי הוצאות לא-חוזרות:</strong> שיפוץ גדול, קנס משפטי חד-פעמי — יש להסיר</li><li><strong>הכנסת הוצאות חסרות:</strong> Capex תחזוקתי שלא נכלל, דמי ניהול שוק</li><li><strong>מציאת NOI מנורמל:</strong> הבסיס לחישוב DSCR ו-Debt Yield</li></ol><p>דוגמה: NOI מדווח 4.5 מיליון שקל כולל פיצוי ביטוח חד-פעמי של 0.7 מיליון שקל. NOI מנורמל: 3.8 מיליון שקל.</p>"
+  },
+  {
+    "question_id_external": "C11-M03-CMP-Q02",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>איזה <strong>מבנה טבלת DSCR</strong> נדרש בפרק הניתוח הפיננסי של מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "טבלת DSCR עם שנה אחת ותרחיש אחד אינה ניתוח — היא מצגת. ניתוח אשראי אמיתי דורש שנים ותרחישים.",
+    "topic_tags": ["financial_analysis", "DSCR", "stress_test", "credit_memo"],
+    "options": [
+      {
+        "text_he": "לפחות שלוש שנות היסטוריה, שנה נוכחית, ושנות תחזית עם Base Case, Downside ו-Stress Case",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NOI של השנה הנוכחית בלבד חלקי שירות החוב השנתי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נתון נקודתי יחיד אינו מאפשר לזהות מגמות ולכן אינו מספיק לניתוח אשראי"
+      },
+      {
+        "text_he": "ממוצע חמש שנים אחרון בלבד, ללא תרחישי לחץ, כדי לשמור על פשטות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע ללא תרחישי לחץ מחמיץ את הבדיקה האם ה-DSCR יציב גם בתנאי שוק קשים"
+      },
+      {
+        "text_he": "תחזית לחמש שנים קדימה בלבד; ניתוח היסטורי אינו רלוונטי לעסקאות חדשות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביצוע היסטורי מאמת את איכות ניהול הנכס; תחזית ללא בסיס היסטורי היא ספקולציה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מבנה טבלת DSCR הנדרש:</strong></p><table><tr><th>שנה</th><th>NOI מנורמל</th><th>שירות חוב</th><th>DSCR</th></tr><tr><td>2022 (היסטורי)</td><td>3.5M</td><td>2.4M</td><td>1.46x</td></tr><tr><td>2023 (היסטורי)</td><td>3.7M</td><td>2.4M</td><td>1.54x</td></tr><tr><td>2024 (היסטורי)</td><td>3.8M</td><td>2.4M</td><td>1.58x</td></tr><tr><td>Base Case (2025)</td><td>3.9M</td><td>2.4M</td><td>1.63x</td></tr><tr><td>Downside (10% ירידה)</td><td>3.5M</td><td>2.4M</td><td>1.46x</td></tr><tr><td>Stress (20% ירידה)</td><td>3.1M</td><td>2.4M</td><td>1.29x</td></tr></table>"
+  },
+  {
+    "question_id_external": "C11-M03-CMP-Q03",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע בנקים מעדיפים להשתמש ב-<strong>Debt Yield</strong> על פני LTV כמדד ראשי להערכת עסקת מימון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "LTV תלוי בשמאות שיכולה להשתנות; Debt Yield תלוי ב-NOI שקשה לזייף — לכן הוא המדד האמין יותר.",
+    "topic_tags": ["financial_analysis", "debt_yield", "LTV", "credit_memo"],
+    "options": [
+      {
+        "text_he": "Debt Yield מבוסס על NOI ולא על שמאות, ולכן אינו מושפע מתנודות בשיטות הערכה; הוא מייצג את התשואה האמיתית של הבנק על החוב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Debt Yield גבוה יותר מ-LTV ולכן מקל על אישור עסקאות שלא היו עוברות בסף LTV",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Debt Yield ו-LTV הם מדדים שונים לחלוטין ואינם ניתנים להשוואה ישירה"
+      },
+      {
+        "text_he": "Debt Yield מחושב מהתשואה העתידית ולא מהנתונים ההיסטוריים ולכן נחשב ממבט קדימה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Debt Yield מחושב על בסיס NOI מנורמל (לרוב היסטורי); לא בהכרח על NOI עתידי"
+      },
+      {
+        "text_he": "Debt Yield לא נדרש על ידי הרגולטור הבנקאי ולכן מאפשר גמישות ניתוחית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסיבה לשימוש ב-Debt Yield היא אמינותו הניתוחית, לא היעדר דרישה רגולטורית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Debt Yield = NOI / סכום ההלוואה</strong></p><p>יתרון על פני LTV:</p><ul><li><strong>LTV:</strong> NOI / שמאות — השמאות ניתנת לתמרון (שיטת היוון, שיעור Cap Rate)</li><li><strong>Debt Yield:</strong> NOI / חוב — ה-NOI קשה יותר לזייף (מבוסס על שכר דירה בפועל)</li></ul><p>דוגמה: בנק מלווה 30 מיליון שקל. NOI מנורמל 3.6 מיליון שקל. Debt Yield = 3.6/30 = 12%. אם שיעור ה-Debt Yield המינימלי של הבנק הוא 9% — העסקה עוברת. אם השמאות תרד ב-20%, ה-Debt Yield לא משתנה.</p>"
+  },
+  {
+    "question_id_external": "C11-M03-CMP-Q04",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>לצורך חישוב LTV במזכר אשראי, איזה שמאות יש להשתמש — של <strong>הבנק</strong> או של <strong>הלווה</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שמאות הלווה תמיד אופטימית יותר — הבנק שמשתמש בה מחשב LTV נמוך מהמציאות ומסתכן חשיפה לא מזוהה.",
+    "topic_tags": ["financial_analysis", "LTV", "appraisal", "credit_memo"],
+    "options": [
+      {
+        "text_he": "שמאות הבנק (שמאי מטעם הבנק) — היא עצמאית ושמרנית; שמאות הלווה עשויה להיות מוטה כלפי מעלה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ממוצע של שמאות הבנק ושמאות הלווה כדי לקבל הערכה מאוזנת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע של שמאות מוטה ועצמאית אינו מבטל את ההטיה — השמאות עצמאית היא הקובעת"
+      },
+      {
+        "text_he": "שמאות הלווה, כי לוה מכיר את הנכס טוב יותר ויכול לספק הערכה מדויקת יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הכרות עם הנכס אינה מבטיחה אובייקטיביות; הלווה בעל אינטרס במחיר גבוה"
+      },
+      {
+        "text_he": "הגבוהה מבין שתי השמאות, כי היא מייצגת את פוטנציאל הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV מחושב על הערכה שמרנית, לא אופטימיסטית — בנק שמרני רוצה ביטחון, לא אופטימיות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כלל השמאות במזכר אשראי:</strong></p><ul><li><strong>LTV = חוב / שמאות בנק</strong> — לא שמאות הלווה</li><li>שמאי הבנק מתמנה ומשולם על ידי הבנק; עצמאותו מובנית בתהליך</li><li>אם מוצגות שתי שמאויות — יש לציין שתיהן ולהסביר את הפער</li></ul><p>דוגמה: שמאות לווה 50 מיליון שקל, שמאות בנק 44 מיליון שקל. הלוואה 33 מיליון שקל. LTV לפי שמאות בנק = 75%. LTV לפי שמאות לווה = 66%. הוועדה רואה 75%, לא 66%.</p>"
+  },
+  {
+    "question_id_external": "C11-M03-CMP-Q05",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד יש להציג <strong>מספרים פיננסיים</strong> במזכר אשראי מבחינת עיגול, שינויים אחוזיים וסף קובננטים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DSCR 1.4237x כתוב כ-1.42x — דיוק מיותר יוצר רושם של אנליזה מלאכותית, לא מקצועיות.",
+    "topic_tags": ["financial_analysis", "presentation", "rounding", "credit_memo"],
+    "options": [
+      {
+        "text_he": "NOI לרמת מיליוני שקל; DSCR עד שתי ספרות עשרוניות; שינויים אחוזיים עם סימן ושנת השוואה; קובננטים עם הסף ורמת הפרה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כל הנתונים יוצגו בדיוק מלא ללא עיגול כדי להראות שהאנליסט לא עיגל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דיוק מיותר (6 ספרות עשרוניות) מפריע לקריאה; עיגול מושכל הוא סטנדרט מקצועי"
+      },
+      {
+        "text_he": "כל הנתונים בשקלים ללא שינוי ליחידות גדולות, כדי שהוועדה תוכל לחשב בעצמה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצגת 42,350,000 שקל במקום 42.4 מיליון שקל מקשה על הקריאה ומסיחה דעת"
+      },
+      {
+        "text_he": "לציין רק את הנתון העדכני ביותר ללא השוואה לשנים קודמות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינויים לאורך זמן הם מידע קריטי לזיהוי מגמות ולאימות יציבות הנכס"
+      }
+    ],
+    "explanation_html_he": "<p><strong>עקרונות הצגת נתונים פיננסיים:</strong></p><ul><li><strong>NOI:</strong> &quot;3.8 מיליון שקל&quot; — לא &quot;3,823,450 שקל&quot;</li><li><strong>DSCR:</strong> &quot;1.42x&quot; — לא &quot;1.4237x&quot;</li><li><strong>שינוי שנתי:</strong> &quot;NOI עלה ב-5.6% משנת 2023 (3.6M) לשנת 2024 (3.8M)&quot;</li><li><strong>קובננט DSCR:</strong> &quot;קובננט DSCR מינימלי 1.20x; רמה נוכחית 1.42x; ריווח ביטחון 18%&quot;</li></ul><p>הצגה ברורה מאפשרת לוועדה לקרוא את המזכר בקצב גבוה ולזהות מיד אם DSCR מתקרב לסף הקובננט.</p>"
+  },
+  {
+    "question_id_external": "C11-M03-PRC-Q01",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הנכס הניב בשנת 2024 NOI של 4.8 מיליון שקל, אך כלל פיצוי ביטוח חד-פעמי של 0.6 מיליון שקל ותיקון גג חד-פעמי של 0.3 מיליון שקל. מהו ה-NOI המנורמל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "פיצוי ביטוח מגדיל את ה-NOI לשנה; תיקון גג מקטין אותו — שניהם חד-פעמיים ויש להסיר שניהם.",
+    "topic_tags": ["financial_analysis", "NOI_normalization", "calculation"],
+    "options": [
+      {
+        "text_he": "4.5 מיליון שקל (4.8 פחות 0.6 ועוד 0.3, כלומר הסרת הכנסה חד-פעמית והוספת הוצאה חד-פעמית)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "4.2 מיליון שקל (4.8 פחות 0.6 פחות 0.3 — הסרת שני הסעיפים)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוצאת גג חד-פעמית כבר הפחיתה את ה-NOI; יש להחזיר אותה (ולא להוסיף לה)"
+      },
+      {
+        "text_he": "4.8 מיליון שקל — אין לנרמל כי שני הסעיפים מתקזזים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פיצוי ביטוח מוסיף להכנסה; תיקון גג מוסיף להוצאה — הטיפול בכל סעיף שונה"
+      },
+      {
+        "text_he": "5.1 מיליון שקל (4.8 פחות 0.3 — הסרת הוצאה בלבד; הכנסת ביטוח היא לגיטימית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פיצוי ביטוח חד-פעמי אינו לגיטימי לנורמליזציה — הוא לא יחזור ולכן יש להסירו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב NOI מנורמל:</strong></p><ul><li>NOI מדווח: 4.8 מיליון שקל</li><li>(-) הסרת הכנסה חד-פעמית (פיצוי ביטוח): (0.6) מיליון שקל</li><li>(+) הסרת הוצאה חד-פעמית (תיקון גג): +0.3 מיליון שקל (הוצאה זו לא תחזור)</li><li><strong>NOI מנורמל: 4.5 מיליון שקל</strong></li></ul><p>לוגיקה: נורמליזציה מסירה גם הכנסות חד-פעמיות (שמנפחות NOI) וגם הוצאות חד-פעמיות (שמכווצות NOI), כדי לקבל את התזרים החוזרני.</p>"
+  },
+  {
+    "question_id_external": "C11-M03-PRC-Q02",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>DSCR בתרחיש Base Case הוא 1.48x, אך DSCR בתרחיש Stress (ירידת NOI 20%) הוא 0.98x. כיצד יש להציג ממצא זה במזכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "DSCR מתחת ל-1.0 בתרחיש לחץ פירושו שבתנאי שוק קשים הנכס לא מכסה את שירות החוב — זה סיכון מהותי שחייב לקבל בולטות מלאה.",
+    "topic_tags": ["financial_analysis", "DSCR", "stress_test", "risk_presentation"],
+    "options": [
+      {
+        "text_he": "לכלול את שני התרחישים בטבלת DSCR, להדגיש שב-Stress ה-DSCR נמוך מ-1.0, לסווג כסיכון גבוה ולהציע מיטיגציות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להציג רק את ה-Base Case כי תרחיש Stress הוא קיצוני ולא ריאלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תרחיש Stress נועד לבחון עמידות בתנאים קשים; הסתרתו מחמיצה מידע קריטי לוועדה"
+      },
+      {
+        "text_he": "להציג את הממוצע של שני התרחישים (1.23x) כנתון מייצג",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע תרחישים מסתיר את הסיכון בתרחיש הקיצוני; כל תרחיש חייב להיראות בנפרד"
+      },
+      {
+        "text_he": "לציין DSCR 0.98x בהערת שוליים ולהמשיך לנמק את ההמלצה על בסיס ה-Base Case",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממצא מהותי כ-DSCR מתחת ל-1.0 לא שייך להערת שוליים — הוא חייב להיות בגוף הניתוח"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הצגת DSCR מתחת ל-1.0 בתרחיש לחץ:</strong></p><p>בפרק הניתוח הפיננסי: טבלת שלושת התרחישים עם הדגשה של Stress.</p><p>בפרק הסיכונים: &quot;בתרחיש ירידת NOI של 20%, ה-DSCR יורד ל-0.98x — מתחת לרמת כיסוי החוב. <strong>סיכון: גבוה.</strong> מיטיגציה: DSRA (שירות חוב שישה חודשים), קובננט DSCR מינימלי 1.20x עם הפרה מהווה Event of Default.&quot;</p><p>בהמלצה: &quot;מאושר בכפוף ל-DSRA ולקובננטים.&quot;</p>"
+  },
+  {
+    "question_id_external": "C11-M03-PRC-Q03",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט הציג LTV של 68% בהסתמך על שמאות הלווה (שווי 44 מיליון שקל). שמאות הבנק מעריכה 38 מיליון שקל. מה ה-LTV הנכון לכתוב במזכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "פער של 16% בין שמאויות הוא פער משמעותי שחייב להסביר; LTV לפי שמאות לווה הוא מספר שגוי לחלוטין.",
+    "topic_tags": ["financial_analysis", "LTV", "appraisal", "calculation"],
+    "options": [
+      {
+        "text_he": "LTV 79% (הלוואה 30 מיליון שקל חלקי שמאות בנק 38 מיליון שקל); יש לציין גם את שמאות הלווה ולהסביר את הפער",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV 68% כפי שהציג האנליסט — זו השמאות הרשמית שהוזמנה לצורך העסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות הלווה אינה שמאות הבנק; LTV חייב להתבסס על שמאות עצמאית של הבנק"
+      },
+      {
+        "text_he": "LTV 73.5% (ממוצע בין 68% לבין 79%) כפשרה בין שתי ההערכות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע שמאויות אינו שיטה מקובלת; שמאות הבנק היא הקובעת"
+      },
+      {
+        "text_he": "יש לבקש שמאות שלישית לפני שמציגים LTV כלשהו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות הבנק כבר בוצעה ותקינה; אין צורך בשמאות שלישית — יש להשתמש בשמאות הבנק"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב LTV הנכון:</strong></p><ul><li>הלוואה: 30 מיליון שקל (הנחה)</li><li>שמאות בנק: 38 מיליון שקל</li><li>LTV = 30/38 = <strong>78.9% (מוצג 79%)</strong></li></ul><p><strong>ניסוח נכון במזכר:</strong></p><blockquote>&quot;LTV 79% (מבוסס על שמאות בנק: 38 מיליון שקל). שמאות הלווה הניבה 44 מיליון שקל — פער של 16%. הפער נדון עם השמאי ומיוחס לשיטת היוון שונה. שמאות הבנק אומצה לצרכי חישוב.&quot;</blockquote>"
+  },
+  {
+    "question_id_external": "C11-M03-PRC-Q04",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מזכר אשראי מציג Debt Yield של 11.2% ואינו מסביר מה סף ה-Debt Yield של הבנק לסוג עסקה זה. מה חסר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "מספר ללא הקשר אינו ניתוח — 11.2% מצוין, נמוך, או בסף? הוועדה לא יודעת.",
+    "topic_tags": ["financial_analysis", "debt_yield", "benchmark", "credit_memo"],
+    "options": [
+      {
+        "text_he": "הסף המינימלי של הבנק לסוג נכס ומינוף זה, והאם 11.2% עומד בו, חורג ממנו או נמצא בסף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חישוב Debt Yield לפי שנה היסטורית נוספת לאישור המגמה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המגמה רלוונטית אך הבעיה המיידית היא היעדר ייחוס לסף — בלי הסף 11.2% אינו מידע שלם"
+      },
+      {
+        "text_he": "פירוט של אופן חישוב ה-NOI שמבסס את ה-Debt Yield",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תיעוד חישוב חשוב אך הבעיה כאן היא היעדר ייחוס לסף הבנק, לא היעדר תיעוד"
+      },
+      {
+        "text_he": "השוואת Debt Yield לעסקאות דומות שאושרו בבנק השנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השוואה לפורטפוליו שימושית אך משנית; הדבר הראשוני הוא ייחוס לסף המדיניות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניסוח מלא של Debt Yield במזכר:</strong></p><blockquote>&quot;Debt Yield: 11.2% (NOI מנורמל 3.36 מיליון שקל / הלוואה 30 מיליון שקל). מדיניות הבנק לנכסי משרדים Class A במינוף עד 75% LTV: Debt Yield מינימלי 9.5%. העסקה הנוכחית עומדת בסף ב-170 נקודות בסיס מעל המינימום.&quot;</blockquote><p>עכשיו הוועדה יכולה להחליט: האם 170 נקודות בסיס מעל הסף מספיקות לסיכונים שזוהו?</p>"
+  },
+  {
+    "question_id_external": "C11-M03-PRC-Q05",
+    "course_number": 11,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>האנליסט כתב: &quot;NOI צפוי לגדול ב-8% לשנה בשלוש השנים הבאות.&quot; ועדת האשראי שאלה מה מבסס הנחה זו. מה הייתה הבעיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הנחות תחזית ללא בסיס הן נחות חוב גרועות — ועדת האשראי שואלת &quot;מה מבסס&quot; ומצפה לתשובה, לא לגמגום.",
+    "topic_tags": ["financial_analysis", "projections", "assumptions", "credit_memo"],
+    "options": [
+      {
+        "text_he": "ההנחה אינה מנומקת — יש לקשר אותה לחוזי שכירות עתידיים, מדד מחירים, שיעורי צמיחת שוק ממסמכים מאומתים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הצמיחה של 8% שנתית גבוהה מדי ויש להשתמש בשיעור שמרני יותר של 3-4%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה אינה בגובה האחוז אלא בהיעדר הנמקה; ייתכן ש-8% מוצדק אם מבוסס על חוזים"
+      },
+      {
+        "text_he": "אין להציג תחזית NOI במזכר אשראי — יש להסתמך על נתונים היסטוריים בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תחזית NOI היא חלק לגיטימי וחשוב במזכר, אך חייבת להיות מנומקת"
+      },
+      {
+        "text_he": "יש להוסיף הסתייגות שהתחזית אינה ודאית ועלולה לשגות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסתייגות כללית אינה מספקת; נדרשת הנמקה לגבי הבסיס להנחת הצמיחה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כיצד להציג הנחת גידול NOI מנומקת:</strong></p><blockquote>&quot;NOI צפוי לגדול ב-7.5% בין 2025 ל-2026 מהסיבות הבאות: (1) חוזי שכירות קיימים כוללים סעיף עדכון מדד CPI + 2% המיועד לינואר 2026; (2) יחידה אחת (350 מ&quot;ר) תושכר מחדש בינואר 2026 בשכר דירה גבוה ב-12% מהחוזה הקיים (מקור: הצעת מחיר מאומתת, נובמבר 2025).&quot;</blockquote><p>עכשיו לכל שקל של גידול יש מקור ספציפי שניתן לאמת.</p>"
+  },
+  {
+    "question_id_external": "C11-M04-CMP-Q01",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>המבנה הנדרש לרשומת סיכון</strong> בפרק ניתוח הסיכונים של מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סיכון ללא חומרה ומיטיגציה הוא רשימת תלונות — הוועדה רוצה לדעת מה עושים עם הסיכון, לא רק שהוא קיים.",
+    "topic_tags": ["risk_analysis", "risk_entry", "credit_memo"],
+    "options": [
+      {
+        "text_he": "זיהוי הסיכון, דירוג חומרה (גבוה/בינוני/נמוך), מנגנון המיטיגציה, וסיכון שיורי לאחר המיטיגציה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שם הסיכון ואחוז ההסתברות להתרחשותו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אחוז הסתברות קשה לכימות בעסקות אשראי; נדרשת חומרה, מיטיגציה וסיכון שיורי"
+      },
+      {
+        "text_he": "תיאור הסיכון ופסקה המסבירה למה האנליסט בכל זאת ממליץ לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פסקת הנמקה כוללת אינה מחליפה את מבנה הסיכון/חומרה/מיטיגציה/שיורי"
+      },
+      {
+        "text_he": "רשימת כל הסיכונים האפשריים בעסקה ללא סינון לפי מהותיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימה ללא עדיפות מציפה את הוועדה בסיכונים שוליים על חשבון הסיכונים המהותיים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מבנה רשומת סיכון סטנדרטית:</strong></p><table><tr><th>שדה</th><th>תוכן</th></tr><tr><td><strong>זיהוי הסיכון</strong></td><td>WALT 1.8 שנים — סיכון חידוש שכירות</td></tr><tr><td><strong>חומרה</strong></td><td>גבוהה — 80% מהכנסות בסיכון ב-2026</td></tr><tr><td><strong>מיטיגציה</strong></td><td>DSRA 6 חודשים; קובננט DSCR 1.20x; תנאי מקדים — חוזי שכירות ל-5 שנים לפחות</td></tr><tr><td><strong>סיכון שיורי</strong></td><td>בינוני — לאחר DSRA, הבנק מוגן לחצי שנה ממועד הפקיעה</td></tr></table>"
+  },
+  {
+    "question_id_external": "C11-M04-CMP-Q02",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון שיורי</strong> (Residual Risk) ומה משמעותו בהקשר של מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ועדת האשראי לא מצביעה על בסיס רשימת הסיכונים — היא מצביעה על בסיס הסיכון השיורי לאחר המיטיגציות.",
+    "topic_tags": ["risk_analysis", "residual_risk", "credit_memo"],
+    "options": [
+      {
+        "text_he": "הסיכון שנותר לאחר יישום כל אמצעי המיטיגציה — רמת החשיפה שהבנק נושא בה בפועל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הסיכון שנותר בנכסים הקיימים בבעלות הלווה לאחר מכירת הנכס הנדון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סיכון שיורי מתייחס לחשיפה שנותרת לאחר מיטיגציות, לא לנכסים אחרים של הלווה"
+      },
+      {
+        "text_he": "החלק מסכום ההלוואה שלא מובטח בבטוחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו הגדרת מינוף לא מובטח, לא סיכון שיורי; סיכון שיורי הוא מושג ניהול סיכונים"
+      },
+      {
+        "text_he": "הסיכון שנותר לאחר שהלווה שילם 30% מערך הנכס מהונו העצמי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הון עצמי הוא מיטיגציה אחת; הסיכון השיורי מחשב את ההשפעה של כל המיטיגציות יחדיו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סיכון שיורי — הסבר:</strong></p><p>הסיכון השיורי הוא התשובה לשאלה: &quot;לאחר שהבנק דרש בטוחות, DSRA, קובננטים וערבויות — מה נשאר לבנק לסבול אם הכל ייכשל?&quot;</p><p>דוגמה:</p><ul><li>סיכון: ירידת NOI של 25%</li><li>מיטיגציה: DSRA (6 חודשים), LTV 65%, ערבות אישית 5 מיליון שקל</li><li>סיכון שיורי: נמוך — גם בתרחיש קיצוני, בטוחות הבנק מכסות 92% מהחוב</li></ul><p>רמות הסיכון השיורי: גבוה / בינוני / נמוך — לא &quot;מנוהל&quot; ולא &quot;מקובל&quot; ללא נימוק.</p>"
+  },
+  {
+    "question_id_external": "C11-M04-CMP-Q03",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו <strong>סיכונים חייבים להופיע</strong> בכל מזכר אשראי לנדל&quot;ן מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ועדת אשראי שרואה מזכר ללא סיכון שוק, ריבית ורגולציה — יודעת שהאנליסט לא עשה עבודה שלמה.",
+    "topic_tags": ["risk_analysis", "mandatory_risks", "real_estate", "credit_memo"],
+    "options": [
+      {
+        "text_he": "סיכון שוק (תנודות שכר דירה/תפוסה), סיכון ריבית (עלייה בריבית), סיכון לווה (כשל אשראי), סיכון נכס (תחזוקה), וסיכון רגולציה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "סיכון לווה בלבד — שאר הסיכונים מכוסים בבטוחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בטוחות מפחיתות אבדות אך אינן מבטלות סיכונים; ניתוח סיכונים חייב לכסות את כל הסוגים"
+      },
+      {
+        "text_he": "רק הסיכונים הייחודיים לנכס הספציפי; סיכונים כלליים כמו ריבית אינם רלוונטיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סיכון ריבית רלוונטי לכל הלוואה; הסיכונים הכלליים חייבים להיות מנותחים תמיד"
+      },
+      {
+        "text_he": "הסיכונים שניתן לכמת בלבד; סיכונים לא-כמותיים כמו שינויים רגולטוריים מושמטים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אי-יכולת לכמת אינה מצדיקה השמטה; סיכונים איכותניים חייבים להיות מוכרים ומנותחים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חמשת הסיכונים החייבים להופיע בכל מזכר נדל&quot;ן:</strong></p><ol><li><strong>סיכון שוק:</strong> ירידת שכר דירה, ירידת תפוסה, עודף היצע מקומי</li><li><strong>סיכון ריבית:</strong> עלייה ב-SOFR/Prime שמגדילה שירות חוב (בהלוואות משתנות)</li><li><strong>סיכון לווה:</strong> כשל אשראי, שינוי בעלות, מינוף יתר כולל</li><li><strong>סיכון נכס:</strong> פגיעה פיזית, עלויות תחזוקה חריגות, אסבסט/זיהום</li><li><strong>סיכון רגולציה:</strong> שינוי ייעוד, מס שבח מוגדל, דרישות נגישות חדשות</li></ol>"
+  },
+  {
+    "question_id_external": "C11-M04-CMP-Q04",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד יש לכתוב <strong>DSRA כמנגנון מיטיגציה</strong> בפרק הסיכונים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "DSRA שנכתב כ&quot;נדרש DSRA&quot; בלבד לא אומר כלום — כמה? איפה? מה קורה אם מתרוקן?",
+    "topic_tags": ["risk_analysis", "DSRA", "mitigation", "credit_memo"],
+    "options": [
+      {
+        "text_he": "יש לציין: גודל ה-DSRA (בחודשי שירות חוב), מיקום (חשבון נאמנות), תנאי שחרור, ומנגנון חידוש אם נמשך",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מספיק לציין שה-DSRA נדרש כ-Condition Precedent לסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CP בלבד מסביר מתי נדרש ה-DSRA, לא מה הוא כולל או כיצד פועל"
+      },
+      {
+        "text_he": "DSRA מתואר בהסכם ההלוואה; אין צורך לחזור עליו במזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר האשראי חייב לסכם את מנגנוני המיטיגציה הקריטיים ולא להפנות להסכם"
+      },
+      {
+        "text_he": "יש לציין רק שה-DSRA קיים ושגובהו נקבע בשיקול דעת הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת האשראי חייבת לאשר את גובה ה-DSRA כחלק מהחלטת האשראי, לא לאחר מכן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תיאור DSRA מלא במזכר:</strong></p><blockquote>&quot;DSRA: שישה חודשי שירות חוב (1.2 מיליון שקל), מופקד בחשבון נאמנות ייעודי בשליטת הבנק. תנאים לשחרור: DSCR שנתי מעל 1.40x למשך ארבעה רבעונים רצופים. אם נמשך מה-DSRA — הלווה מחויב לחדשו תוך 90 יום. אי-חידוש מהווה Event of Default.&quot;</blockquote><p>מנגנון זה נכתב כך שהוועדה מבינה בדיוק מה הבנק מוגן ממנו ומה קורה בכשל.</p>"
+  },
+  {
+    "question_id_external": "C11-M04-CMP-Q05",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע <strong>לסווג סיכון כ&quot;נמוך&quot; ללא נימוק</strong> הוא בעיה מקצועית חמורה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סיכון Low בלי נימוק הוא מאיץ לכשל — הוועדה מניחה שהוא מנותח, אך אינו.",
+    "topic_tags": ["risk_analysis", "risk_classification", "justification", "credit_memo"],
+    "options": [
+      {
+        "text_he": "ללא נימוק, הוועדה אינה יכולה לאמת את הדירוג; אם הסיכון מתממש, האנליסט לא יוכל להסביר את שיקול הדעת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הוועדה תמיד מעלה סיכונים מ&quot;נמוך&quot; ל&quot;בינוני&quot; באופן אוטומטי ולכן ניסוח זה מיותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת אשראי מקצועית מקבלת ניתוח של אנליסט; אין מדיניות אוטומטית להעלאת דירוגים"
+      },
+      {
+        "text_he": "דירוג &quot;נמוך&quot; ללא נימוק הוא קביל אם שאר הסיכונים מנומקים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל דירוג חייב נימוק עצמאי; עקביות בכישלון אינה מרפאת כישלון"
+      },
+      {
+        "text_he": "הבעיה היא שימוש במונח &quot;נמוך&quot; במקום &quot;מינורי&quot; — יש להאחיד שפה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה היא היעדר נימוק, לא בחירת המונח; אחידות שפה היא עניין שניוני"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מדוע כל דירוג חייב נימוק:</strong></p><p>כשאנליסט כותב &quot;סיכון ריבית: נמוך&quot; ללא הסבר, מתעוררות שאלות:</p><ul><li>האם ה-DSCR נבדק בתרחיש ריבית +200 נקודות בסיס?</li><li>האם הריבית קבועה לכל תקופת ההלוואה?</li><li>האם יש כיסוי Cap Rate?</li></ul><p><strong>ניסוח נכון:</strong> &quot;סיכון ריבית: נמוך. ההלוואה בריבית קבועה ל-7 שנים. אין חשיפה לתנודות Prime. בתרחיש refunding ב-2032 בריבית +300 בנקודות בסיס — DSCR 1.28x (מעל הקובננט 1.20x).&quot;</p>"
+  },
+  {
+    "question_id_external": "C11-M04-PRC-Q01",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרק הסיכונים מציג: &quot;סיכון שוק: קיים. חומרה: בינונית.&quot; ועדת האשראי ביקשה עיבוד נוסף. מה חסר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "רשומת סיכון ללא מיטיגציה וסיכון שיורי היא אבחנה ללא מרשם — חסר החלק החשוב ביותר.",
+    "topic_tags": ["risk_analysis", "risk_entry", "completeness", "credit_memo"],
+    "options": [
+      {
+        "text_he": "חסר: פירוט מה מניע את הסיכון, אמצעי המיטיגציה הספציפיים, והסיכון השיורי לאחר המיטיגציה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חסר: אחוז ההסתברות שהסיכון יתממש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אחוז הסתברות אינו חלק מהמבנה הסטנדרטי; נדרשים מיטיגציה וסיכון שיורי"
+      },
+      {
+        "text_he": "חסר: השפעת הסיכון על מחיר ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קישור ישיר לתמחור הוא שלב אחר; פרק הסיכונים עצמו חייב להכיל מיטיגציה ושיורי"
+      },
+      {
+        "text_he": "חסר: השוואת סיכון השוק לנכסים מתחרים בסביבה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השוואת שוק היא ניתוח השלמה, לא הרכיב החסר ברשומת הסיכון עצמה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>רשומת סיכון שוק מלאה:</strong></p><ul><li><strong>זיהוי:</strong> ירידה בביקוש למשרדים בעקבות עבודה היברידית — שיעור תפוסה עשוי לרדת מ-94% ל-80%</li><li><strong>חומרה:</strong> בינונית — ירידת תפוסה ל-80% תוריד NOI ב-15%, DSCR מ-1.42x ל-1.21x (עדיין מעל קובננט)</li><li><strong>מיטיגציה:</strong> WALT 4.2 שנים — הגנה לשנים הקרובות; קובננט DSCR; DSRA 6 חודשים</li><li><strong>סיכון שיורי:</strong> נמוך-בינוני — מוגנים עד 2029 מחידוש; בקיעה כל שיעבוד במועד חידוש</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M04-PRC-Q02",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט רשם 11 סיכונים בפרק הסיכונים, 8 מהם מסווגים כ&quot;נמוך&quot;. ועדת האשראי מתקשה להתמקד. מה הגישה הנכונה לפרק הסיכונים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "פרק סיכונים עם 11 רשומות שרובן Low הוא מסמך שלא סיפן — הוועדה לא יכולה לדעת מה דורש תשומת לב.",
+    "topic_tags": ["risk_analysis", "materiality", "risk_prioritization", "credit_memo"],
+    "options": [
+      {
+        "text_he": "לסנן לפי מהותיות: להציג 3-5 סיכונים מהותיים בפירוט מלא ולאחד את השאר תחת &quot;סיכונים שוליים — ניהול שגרתי&quot;",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לרשום את כל 11 הסיכונים עם מיטיגציה לכל אחד — שלמות עדיפה על תמצות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 11 סיכונים בשווה מדללים את תשומת הלב מהסיכונים האמיתיים; תמצות מושכל הוא ערך"
+      },
+      {
+        "text_he": "להסיר את כל הסיכונים הנמוכים ולהציג רק את הסיכונים הגבוהים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסרה מוחלטת של סיכונים נמוכים עלולה להחמיץ מידע; יש לאחדם לקטגוריה, לא למחקם"
+      },
+      {
+        "text_he": "לשנות את דירוג כל הסיכונים ל&quot;בינוני&quot; כדי ליצור אחידות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי דירוג ללא בסיס ניתוחי הוא זיוף; הבעיה היא כמות הרשומות, לא הדירוגים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>עיקרון המהותיות בפרק הסיכונים:</strong></p><p>פרק סיכונים אפקטיבי כולל:</p><ul><li><strong>3-5 סיכונים מהותיים:</strong> כל אחד עם זיהוי, חומרה, מיטיגציה, שיורי</li><li><strong>קטגוריה אחת לסיכונים שוליים:</strong> &quot;הסיכונים הבאים זוהו ונמצאו שוליים: [רשימה]. כולם מנוהלים בשגרה.&quot;</li></ul><p>הוועדה יכולה אז להקדיש את תשומת לבה ל-3-5 הסיכונים שבאמת צריכים החלטה, במקום לסרוק 11 רשומות שוות.</p>"
+  },
+  {
+    "question_id_external": "C11-M04-PRC-Q03",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס עם שוכר עוגן יחיד שמהווה 75% מהכנסות השכירות, עם חוזה שייגמר בעוד שנתיים. כיצד יש לכתוב רשומת הסיכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריכוז שוכר עוגן בשיעור 75% עם WALT של שנתיים הוא שילוב מסוכן — אם לא הוצג כגבוה זה כשל ניתוחי.",
+    "topic_tags": ["risk_analysis", "tenant_concentration", "WALT", "risk_entry"],
+    "options": [
+      {
+        "text_he": "סיכון: ריכוז שוכר עוגן (75% הכנסות). חומרה: גבוהה. מיטיגציה: DSRA, דרישת הסכם מוקדם לחידוש 18 חודשים לפני פקיעה. סיכון שיורי: בינוני",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "סיכון: פקיעת חוזה שכירות. חומרה: בינונית. מיטיגציה: מחיר שוק תחרותי יאפשר השכרה מחדש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חומרה בינונית ומיטיגציה אופטימיסטית אינן מייצגות נאמנה סיכון ריכוז של 75% עם WALT קצר"
+      },
+      {
+        "text_he": "אין לכתוב רשומת סיכון כי השוכר גדול ואיתן פיננסית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; איתנות שוכר עכשווית אינה מבטיחה חידוש; ריכוז של 75% הוא סיכון מבני שחייב לעלות"
+      },
+      {
+        "text_he": "סיכון: WALT נמוך. חומרה: נמוכה. מיטיגציה: ייצוג הבנק בהסכם חידוש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חומרה נמוכה לריכוז 75% עם WALT שנתיים היא הערכת חסר; ייצוג בנק בחידוש אינה מיטיגציה מקובלת"
+      }
+    ],
+    "explanation_html_he": "<p><strong>רשומת סיכון ריכוז שוכר עוגן — מלאה:</strong></p><ul><li><strong>זיהוי:</strong> שוכר עוגן (חברת הי-טק ציבורית) מהווה 75% מהכנסות. חוזה פוקע דצמבר 2026 (24 חודשים).</li><li><strong>חומרה: גבוהה</strong> — אי-חידוש יוריד NOI מ-3.8M ל-0.95M; DSCR ייפול מ-1.42x ל-0.35x</li><li><strong>מיטיגציה:</strong> DSRA 6 חודשים (0.72M). קובננט: הלווה מחויב להמציא עדות מגעי חידוש 18 חודשים לפני פקיעה. הפרה = Event of Default.</li><li><strong>סיכון שיורי: בינוני</strong> — ה-DSRA מגן על 6 חודשים; מעבר לכך, הבנק חשוף.</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M04-PRC-Q04",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת האשראי שאלה: &quot;מה סיכון שינוי ייעוד קרקע?&quot; האנליסט לא כלל סיכון זה במזכר. כיצד יש לתקן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "סיכון שנוצר בוועדה ולא במזכר — מראה שהאנליסט לא עשה ניתוח סיכונים שיטתי.",
+    "topic_tags": ["risk_analysis", "regulatory_risk", "zoning", "completeness"],
+    "options": [
+      {
+        "text_he": "לבדוק את הסטטוס הרגולטורי של הנכס ולהוסיף רשומת סיכון רגולציה עם חומרה, מיטיגציה וסיכון שיורי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להסביר לוועדה שסיכון ייעוד אינו נחשב לסיכון אשראי אלא לסיכון משפטי בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי ייעוד משפיע על שווי הנכס ועל יכולת המימוש — זהו סיכון אשראי ממשי"
+      },
+      {
+        "text_he": "לציין שהסיכון הוא &quot;נמוך&quot; בגלל שסיכונים כאלו נדירים ולסיים את הדיון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דירוג ללא בדיקת הסטטוס הרגולטורי הספציפי הוא שרירותי; יש לבדוק ואז לדרג"
+      },
+      {
+        "text_he": "לא לתקן — הוועדה שאלה ותשובה מילולית מספיקה; אין צורך לעדכן את המזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר אשראי הוא מסמך רשמי; ממצאים שעלו בוועדה חייבים להיות מוספים לגרסה הסופית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תהליך תיקון:</strong></p><ol><li>בדיקת ייעוד נוכחי: תב&quot;ע, היתר בנייה, שימוש חורג אם קיים</li><li>הוספת רשומת סיכון:</li></ol><blockquote>&quot;סיכון רגולציה: שינוי ייעוד / תב&quot;ע. חומרה: נמוכה-בינונית (הנכס מסווג כ-מסחרי בתוכנית מאושרת מ-2018; אין הצעות שינוי ידועות — מקור: אגף הנדסה, ינואר 2025). מיטיגציה: שעבוד ראשון על המקרקעין; שינוי ייעוד דורש הליך ממושך הנותן לבנק זמן לפעול. סיכון שיורי: נמוך.&quot;</blockquote>"
+  },
+  {
+    "question_id_external": "C11-M04-PRC-Q05",
+    "course_number": 11,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מזכר אשראי מציג ניתוח סיכונים עם שישה סיכונים, כולם עם סיכון שיורי &quot;נמוך&quot;, ומסתיים בהמלצת אישור. ועדת האשראי חשדה שהניתוח לא אובייקטיבי. מה עלול לגרום לחשד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שישה סיכונים כולם שיורי נמוך — נדיר בעסקאות אמיתיות; כשזה קורה, הוועדה יודעת שהאנליסט נמכר לעסקה.",
+    "topic_tags": ["risk_analysis", "objectivity", "risk_bias", "credit_memo"],
+    "options": [
+      {
+        "text_he": "כל הסיכונים השיוריים נמוכים — ייתכן שהאנליסט הכפיף את הניתוח לתוצאה הרצויה (המלצת אישור) במקום לנתח אובייקטיבית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שישה סיכונים הם יותר מדי — מזכר מקצועי צריך לכלול לכל היותר שלושה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מספר הסיכונים אינו הבעיה; הבעיה היא שכולם מסווגים שיורי נמוך ללא נימוק מספק"
+      },
+      {
+        "text_he": "המלצת האישור בסוף מזכר אשראי היא כשעצמה סמן להטיה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלצת אישור היא מסקנה לגיטימית לחלוטין; הבעיה היא באיכות הניתוח שלפניה"
+      },
+      {
+        "text_he": "הבעיה היא שהמזכר לא כולל ניתוח השוואתי לעסקאות שנדחו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השוואה לעסקאות שנדחו אינה נדרשת; הבעיה היא בפנים המזכר עצמו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Confirmation Bias בניתוח סיכונים:</strong></p><p>כשאנליסט מגיע עם מסקנה ראשונית (אישור) ואז כותב ניתוח — קיים סיכון ל-Confirmation Bias:</p><ul><li>מיטיגציות מנוסחות כחזקות יותר מאשר הן</li><li>סיכון שיורי מדורג כנמוך מבלי להצדיק</li><li>תרחישי לחץ אינם נבדקים לעומק</li></ul><p><strong>מבחן האובייקטיביות:</strong> לקרוא את פרק הסיכונים ולשאול — &quot;אם מישהו אחר יקרא רק פרק זה, האם יוכל להבין מדוע הסיכון השיורי נמוך?&quot; אם לא — הניתוח לא הושלם.</p>"
+  }
+]

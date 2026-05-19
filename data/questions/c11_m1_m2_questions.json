@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C11-M01-CMP-Q01",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם <strong>החלקים הסטנדרטיים</strong> של מזכר אשראי לעסקת נדל&quot;ן ומה תפקיד כל אחד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מזכר אשראי טוב עוקב אחרי מבנה קבוע; ועדת האשראי מצפה לראות כל חלק במקומו הנכון כדי לנווט בו במהירות.",
+    "topic_tags": ["credit_memo", "structure", "sections"],
+    "options": [
+      {
+        "text_he": "תקציר מנהלים, תיאור לווה ונכס, ניתוח פיננסי, ניתוח סיכונים, תנאים וקובננטים, והמלצת אנליסט",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מבוא שיווקי, הצגת הנכס, תחזית הכנסות, השוואה לשוק, ונספח משפטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מבוא שיווקי ותחזיות שוק שייכים למסמך שיווקי, לא למזכר אשראי פנימי של בנק"
+      },
+      {
+        "text_he": "תקציר מנהלים, חוות דעת שמאי, ניתוח השוואתי, פרטי הלווה, ותנאי ריבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוות דעת שמאי היא נספח ולא חלק עצמאי במזכר; הרשימה מחמיצה ניתוח סיכונים וקובננטים"
+      },
+      {
+        "text_he": "תקציר מנהלים, ניתוח פיננסי, ניתוח משפטי, ניתוח סביבתי, ניתוח SWOT, והמלצה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח SWOT וניתוח סביבתי אינם חלקים סטנדרטיים במזכר אשראי בנקאי לנדל&quot;ן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מבנה מזכר האשראי הסטנדרטי</strong> כולל שישה חלקים עיקריים:</p><ul><li><strong>תקציר מנהלים</strong> — עומד בפני עצמו; מסכם את העסקה, הלווה, הסכום המבוקש וההמלצה</li><li><strong>תיאור הלווה והנכס</strong> — רקע, ניסיון, מבנה משפטי, תיאור הנכס ואיכות השוכרים</li><li><strong>ניתוח פיננסי</strong> — NOI, DSCR, LTV, Debt Yield ותרחישי לחץ</li><li><strong>ניתוח סיכונים</strong> — טבלת סיכון/חומרה/מיטיגציה/סיכון שיורי</li><li><strong>תנאים וקובננטים</strong> — מחיר, בטוחות, CP, קובננטים פיננסיים ולא-פיננסיים</li><li><strong>המלצת אנליסט</strong> — אישור / אישור מותנה / דחייה עם נימוק ברור</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M01-CMP-Q02",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>דרישת העצמאות</strong> של תקציר המנהלים במזכר אשראי ומה משמעותה המעשית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "חבר ועדה בכיר שלא יוכל להחליט על בסיס התקציר לבדו — סימן שהתקציר נכתב בצורה לא נכונה.",
+    "topic_tags": ["credit_memo", "executive_summary", "standalone"],
+    "options": [
+      {
+        "text_he": "תקציר המנהלים חייב להכיל את כל הנתונים הקריטיים כך שחבר ועדת אשראי יוכל להבין את העסקה ולהצביע ללא קריאת שאר המזכר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תקציר המנהלים כותב את עצמו ללא תלות בחלקים האחרים של המזכר ולכן נכתב לפניהם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דרישת העצמאות מתייחסת לשלמות המידע שבתקציר, לא לסדר הכתיבה"
+      },
+      {
+        "text_he": "תקציר המנהלים מוגש לרגולטור בנפרד ולכן אינו יכול להכיל מידע סודי מהמזכר המלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; התקציר הוא מסמך פנימי לוועדת האשראי ואינו מיועד לרגולטור בנפרד"
+      },
+      {
+        "text_he": "תקציר המנהלים חייב לכלול את כל הנספחים המצורפים למזכר כדי שיהיה עצמאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנספחים הם תמיכה ולא חלק מהתקציר; עצמאות פירושה עצמאות מידע, לא נספחים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>דרישת העצמאות</strong> של תקציר המנהלים קובעת שכל חבר ועדת אשראי שיקרא רק את התקציר יוכל:</p><ul><li>להבין מי הלווה ומה הנכס</li><li>לדעת את הסכום המבוקש, מבנה ההלוואה והתמחור</li><li>לראות את המדדים הפיננסיים המרכזיים (DSCR, LTV, Debt Yield)</li><li>להכיר את הסיכונים העיקריים ואת המיטיגציות</li><li>לקרוא את המלצת האנליסט</li></ul><p>תקציר שמפנה ל&quot;ראה פרק 3&quot; לא עומד בדרישת העצמאות.</p>"
+  },
+  {
+    "question_id_external": "C11-M01-CMP-Q03",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מי הם <strong>קוראי מזכר האשראי</strong> ומה ההשלכה על אופן הכתיבה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "כותב מזכר אשראי חייב לזכור שהקוראים הם מקצוענים עסוקים שמחפשים נתונים, לא עלילה — כל משפט מיותר הוא עלות.",
+    "topic_tags": ["credit_memo", "audience", "writing_style"],
+    "options": [
+      {
+        "text_he": "ועדת אשראי בכירה, מנהלי סיכון ולעיתים הנהלה בכירה — כולם מקצוענים פיננסיים שמחפשים נתונים כמותיים ומסקנות ברורות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הלווה וצוות המשפטי שלו — ולכן יש להימנע מנוסח ביקורתי ולהדגיש את נקודות החוזק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר האשראי הוא מסמך פנימי של הבנק ואינו מועבר ללווה"
+      },
+      {
+        "text_he": "פקידי אשראי זוטרים שצריכים הסבר מפורט על כל מונח פיננסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הקהל הוא ועדת האשראי הבכירה בעלת הסמכות, לא צוות זוטר הזקוק להדרכה"
+      },
+      {
+        "text_he": "הרגולטור הבנקאי ומשקיפים חיצוניים שיבדקו את תהליך האישור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המזכר נכתב לשימוש פנימי; הרגולטור עשוי לבדוק אותו בדיעבד אך הוא אינו הקהל הראשוני"
+      }
+    ],
+    "explanation_html_he": "<p><strong>קהל היעד</strong> של מזכר האשראי הוא ועדת האשראי הבכירה, מנהלי הסיכון ולעיתים הנהלה בכירה.</p><p>ההשלכות על הכתיבה:</p><ul><li>אין להסביר מונחים בסיסיים כמו DSCR או LTV — הקוראים מכירים אותם</li><li>יש לכתוב <strong>כמותית</strong> ולא תיאורית: &quot;DSCR 1.42x&quot; ולא &quot;כיסוי חוב סביר&quot;</li><li>יש לבנות את הטיעון בצורה לוגית ולסיים בהמלצה חד-משמעית</li><li>קצרות היא ערך — כל דף מיותר מדלל את הריכוז על הנקודות החשובות</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M01-CMP-Q04",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>תקן האורך והפורמט</strong> הנהוג למזכר אשראי מקצועי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מזכר של 40 עמודים לעסקה של 20 מיליון שקל הוא סימן שהאנליסט לא ידע לסנן מידע — הוא מחשיד, לא מרשים.",
+    "topic_tags": ["credit_memo", "format", "length"],
+    "options": [
+      {
+        "text_he": "גוף המזכר 8-15 עמודים; כותרות ברורות; נתונים בטבלאות; נספחים נפרדים; כתיבה כמותית ותמציתית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לפחות 30 עמודים עם תיאור מקיף של כל נכס ועסקה כדי לכסות את כל הסיכונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר ארוך מדי מקשה על הקריאה; המטרה היא תמצות מושכל, לא כיסוי מקיף"
+      },
+      {
+        "text_he": "מסמך חופשי ללא תבנית, שכן כל עסקה ייחודית ודורשת מבנה מותאם אישית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מבנה אחיד מאפשר לוועדת האשראי לנווט במהירות; חריגה ממנו יוצרת בלבול"
+      },
+      {
+        "text_he": "3-5 עמודים בלבד עם תרשימים גרפיים, ללא טבלאות נתונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר קצר מדי לא יכול להכיל את כל הניתוחים הנדרשים; טבלאות נתונים הן חובה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תקן הפורמט</strong> של מזכר אשראי:</p><ul><li><strong>אורך:</strong> גוף המזכר 8-15 עמודים לרוב העסקאות; נספחים (שמאות, דוחות כספיים, מסמכי DD) בנפרד</li><li><strong>מבנה:</strong> כותרות ממוספרות, טבלאות לנתונים פיננסיים, נקודות לרשימות</li><li><strong>שפה:</strong> כמותית ותמציתית — &quot;NOI 4.2 מיליון שקל&quot; ולא &quot;הנכס מניב הכנסה טובה&quot;</li><li><strong>נספחים:</strong> כל מסמך תמיכה מצוין בהפניה ברורה ממ本文 המזכר</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M01-CMP-Q05",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל המהותי בין <strong>מזכר אשראי</strong> לבין <strong>מסמך שיווקי</strong> של יזם?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "אנליסט שמעתיק שפה מ-Teaser של יזם למזכר האשראי שלו — מסמן לוועדה שהוא נמכר, לא מנתח.",
+    "topic_tags": ["credit_memo", "objectivity", "marketing_document"],
+    "options": [
+      {
+        "text_he": "מסמך שיווקי מבקש לשכנע ולמכור; מזכר אשראי מנתח אובייקטיבית, מציג סיכונים בגלוי, ומסיים בהמלצה מנומקת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ההבדל הוא רק באורך — מסמך שיווקי קצר יותר ממזכר האשראי המפורט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל המהותי הוא במטרה ובאובייקטיביות, לא באורך"
+      },
+      {
+        "text_he": "שניהם מציגים את אותו מידע אך למקבלי החלטות שונים — שיווקי ללווה, אשראי לבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבדל הוא בגישה הניתוחית: שיווקי מבליט חוזקות, אשראי מנתח גם סיכונות"
+      },
+      {
+        "text_he": "מזכר אשראי מבוסס על נתונים עתידיים בלבד; מסמך שיווקי מבוסס על ביצועים היסטוריים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מזכר אשראי משלב נתונים היסטוריים ותחזיות כאחד; ההבדל אינו בזמן הנתונים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ההבדל המהותי:</strong></p><table><tr><th>מסמך שיווקי (Teaser/OM)</th><th>מזכר אשראי</th></tr><tr><td>מטרה: לשכנע להשקיע / לממן</td><td>מטרה: לנתח ולהמליץ</td></tr><tr><td>מדגיש חוזקות, ממזער חולשות</td><td>מציג סיכונים בגלוי ובשלמות</td></tr><tr><td>שפה אופטימית ורגשית</td><td>שפה כמותית ואנליטית</td></tr><tr><td>כותב: צוות היזם</td><td>כותב: אנליסט אשראי עצמאי</td></tr></table><p>שימוש בשפה שיווקית במזכר פוגע באמינות הניתוח ועלול להוביל לאישור שגוי.</p>"
+  },
+  {
+    "question_id_external": "C11-M01-PRC-Q01",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת האשראי קיבלה מזכר שתקציר המנהלים שלו מכיל רק: &quot;העסקה נוגעת לרכישת בניין משרדים בתל אביב בסכום של 30 מיליון שקל. לפרטים נוספים ראו פרק 2 ו-3.&quot; מה הבעיה העיקרית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "תקציר שמפנה לפרקים אחרים הוא תקציר שלא מילא את תפקידו — הוא מכביד על הוועדה במקום לסייע לה.",
+    "topic_tags": ["credit_memo", "executive_summary", "standalone"],
+    "options": [
+      {
+        "text_he": "התקציר אינו עומד בפני עצמו — חסרים בו DSCR, LTV, זהות הלווה, סיכונים עיקריים והמלצה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הסכום של 30 מיליון שקל צריך להיות מוצג בדולרים לצורך השוואה בינלאומית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מטבע ישראלי תקין לעסקה מקומית; הבעיה היא בחוסר המידע הניתוחי"
+      },
+      {
+        "text_he": "כתובת הנכס אינה מצוינת ולכן הוועדה לא תוכל לאמת את הנתונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כתובת היא פרט שניוני; הבעיה המהותית היא היעדר ניתוח ותקציר עצמאי"
+      },
+      {
+        "text_he": "המזכר ארוך מדי ויש לקצר את הפרק על העסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; התקציר קצר מדי, לא ארוך מדי; בעיית המזכר היא מחסור במידע לא עודף"
+      }
+    ],
+    "explanation_html_he": "<p>תקציר המנהלים חייב לכלול לכל הפחות:</p><ul><li><strong>זהות הלווה</strong> ורמת ניסיונו</li><li><strong>תיאור הנכס</strong>: סוג, מיקום, תפוסה</li><li><strong>מדדים פיננסיים:</strong> DSCR, LTV, Debt Yield</li><li><strong>סיכונים עיקריים</strong> ומיטיגציות</li><li><strong>המלצת האנליסט</strong> — אישור / דחייה / אישור מותנה</li></ul><p>המשפט &quot;ראו פרק 2&quot; הוא כשל כתיבה — הוועדה לא צריכה לחפש מידע, היא צריכה לקבל החלטה.</p>"
+  },
+  {
+    "question_id_external": "C11-M01-PRC-Q02",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כתב את הניתוח הפיננסי לפני שסיים את תיאור הלווה. כעת עליו לכתוב את תקציר המנהלים. איזה גישה נכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "תקציר מנהלים מצוין נכתב אחרון אבל נקרא ראשון — הוא זיקוק של כל המזכר לדף אחד.",
+    "topic_tags": ["credit_memo", "executive_summary", "writing_process"],
+    "options": [
+      {
+        "text_he": "לסיים את כל חלקי המזכר ואז לכתוב את התקציר כזיקוק של הממצאים וההמלצה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לכתוב את התקציר כעת על בסיס הניתוח הפיננסי ולמלא את שאר החלקים לאחר מכן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקציר שנכתב לפני השלמת כל הניתוחים יהיה חסר ויצטרך עדכון — בזבוז זמן"
+      },
+      {
+        "text_he": "לכתוב את התקציר בו-זמנית עם הניתוח הפיננסי כדי לחסוך זמן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כתיבה במקביל מובילה לאי-עקביות; התקציר חייב לשקף את מסקנות כל החלקים"
+      },
+      {
+        "text_he": "להכין טיוטת תקציר ראשוני ולהשאיר ריקים את חלקי הסיכון שעדיין לא נכתבו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקציר עם חלקים ריקים אינו ניתן לשימוש; יש להמתין להשלמת המזכר כולו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>עיקרון כתיבת התקציר:</strong> התקציר הוא המסמך הראשון שנקרא אבל האחרון שנכתב.</p><p>לאחר השלמת כל חלקי המזכר האנליסט יכול:</p><ul><li>לזקק את זהות הלווה והנכס למשפטים ספורים</li><li>לדווח על המדדים הפיננסיים הסופיים</li><li>לסכם את הסיכונים המהותיים</li><li>לנסח המלצה חד-משמעית</li></ul><p>תקציר שנכתב לפני סיום המזכר בדרך כלל מחמיץ מידע קריטי שהתגלה בשלבים מאוחרים.</p>"
+  },
+  {
+    "question_id_external": "C11-M01-PRC-Q03",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מזכר אשראי הוגש לוועדה עם 42 עמודים: 15 עמודי גוף ו-27 עמודי נספחים. הוועדה תלונה שהמזכר &quot;כבד מדי&quot;. מה הגישה הנכונה לתיקון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "נספחים ארוכים לא פוסלים מזכר — הבעיה היא כשגוף המזכר מכיל פרטים שהיה צריך להיות בנספח.",
+    "topic_tags": ["credit_memo", "format", "length"],
+    "options": [
+      {
+        "text_he": "לבדוק אם גוף המזכר (15 עמודים) כולל פרטים מיותרים שניתן להעביר לנספחים; הנספחים עצמם אינם הבעיה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לקצץ את הנספחים ל-10 עמודים מקסימום ולמחוק מסמכי תמיכה שאינם הכרחיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מסמכי DD ושמאות הם חלק מתיק האשראי ולא ניתן לקצצם; הנספחים אינם מוגבלים באורך"
+      },
+      {
+        "text_he": "להגיש את גוף המזכר בלבד ולשמור את הנספחים לבקשה אם הוועדה תרצה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנספחים הם חלק מתיק האשראי הנדרש; השמטתם עלולה לפגוע בתהליך הבדיקה"
+      },
+      {
+        "text_he": "לפצל את המזכר לשני מסמכים נפרדים: מזכר סיכום ומסמך ניתוח מפורט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני מסמכים נפרדים יוצרים קושי ניווט וסיכון לאי-עקביות; פתרון לא סטנדרטי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ארגון נכון של מזכר אשראי:</strong></p><ul><li><strong>גוף המזכר (8-15 עמודים):</strong> ניתוח, הערכה, המלצה — ללא פרטי רקע מיותרים</li><li><strong>נספחים (אין מגבלת אורך):</strong> שמאות, דוחות כספיים, הסכמים, מסמכי DD</li></ul><p>אם גוף המזכר מכיל, למשל, 3 עמודי היסטוריה של הלווה מתוך ה-15 — יש להעביר רוב החומר לנספח ולהשאיר בגוף רק עיקרי הממצאים.</p><p>הנספחים הם הראיות; גוף המזכר הוא הניתוח המבוסס עליהן.</p>"
+  },
+  {
+    "question_id_external": "C11-M01-PRC-Q04",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לפניכם שתי גרסאות לפתיחת תקציר מנהלים. איזו גרסה מקצועית יותר ולמה?<br/>גרסה א: &quot;החברה הינה יזם מנוסה ורב-פעלים בתחום הנדל&quot;ן המסחרי.&quot;<br/>גרסה ב: &quot;היזם השלים 8 פרויקטי נדל&quot;ן מסחרי בין 2018-2025 בהיקף מצטבר של 180 מיליון שקל; אפס כשלי אשראי.&quot;</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "המילה מנוסה ללא מספרים אינה מידע — היא דעה. ועדת אשראי קונה נתונים, לא תיאורים.",
+    "topic_tags": ["credit_memo", "quantitative_writing", "borrower_description"],
+    "options": [
+      {
+        "text_he": "גרסה ב, כי היא כמותית ומאמתת: מספר פרויקטים, היקף כספי ורקורד אשראי — ניתנים לאימות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "גרסה א, כי היא תמציתית יותר ומאפשרת לוועדה להתמקד בנתונים הפיננסיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תמצות על חשבון נתונים כמותיים מוריד את איכות המזכר, לא משפר אותה"
+      },
+      {
+        "text_he": "שתי הגרסאות שוות ערך — ניתן לבחור לפי סגנון אישי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גרסה ב עדיפה ברורות; כתיבת מזכר אשראי אינה עניין של סגנון אלא של מקצועיות"
+      },
+      {
+        "text_he": "גרסה א עדיפה אם הלווה חדש ואין לו רקורד מספיק להצגה כמותית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אם ללווה אין רקורד — יש לכתוב זאת בדיוק כך ולנתח את ההשלכות, לא להתחמק בתיאור ערטילאי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כתיבה כמותית לעומת תיאורית:</strong></p><p>גרסה א היא כתיבה <strong>אדג'קטיבית</strong> — &quot;מנוסה&quot;, &quot;רב-פעלים&quot; הן הערכות סובייקטיביות ללא בסיס אמפירי.</p><p>גרסה ב היא כתיבה <strong>כמותית</strong> — מספרים שניתן לאמת מול מסמכי DD:</p><ul><li>8 פרויקטים — ניתן לאמת ממאגרי מידע</li><li>180 מיליון שקל — ניתן לאמת מדוחות כספיים</li><li>אפס כשלי אשראי — ניתן לאמת מדוח BDI / נסח רישום</li></ul><p>כל טענה במזכר אשראי מקצועי צריכה להיות ניתנת לאימות ממסמכי הבדיקה.</p>"
+  },
+  {
+    "question_id_external": "C11-M01-PRC-Q05",
+    "course_number": 11,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת אשראי החזירה מזכר לאנליסט עם ההערה: &quot;המזכר נראה כמו חומר שיווקי, לא ניתוח אשראי.&quot; מה הסיבה הסבירה ביותר להערה זו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הוועדה לא אומרת שהמסקנה שגויה — היא אומרת שהאנליסט לא עשה את עבודתו באובייקטיביות.",
+    "topic_tags": ["credit_memo", "objectivity", "common_mistakes"],
+    "options": [
+      {
+        "text_he": "האנליסט הדגיש חוזקות, השתמש בשפה שיווקית, לא הציג את הסיכונים בגלוי ולא כלל ניתוח תרחישי לחץ",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המזכר היה קצר מדי ולא כלל מספיק פרטים על הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; &quot;נראה כמו חומר שיווקי&quot; מתייחס לטון ולגישה, לא לאורך"
+      },
+      {
+        "text_he": "האנליסט לא כלל נספחים מספיקים למסמכי DD",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חסרון נספחים אינו הופך מזכר לשיווקי; ההערה מתייחסת לגישה הניתוחית"
+      },
+      {
+        "text_he": "הניתוח הפיננסי היה נכון אך הוצג בצורה גרפית במקום טבלאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אופן ההצגה הוויזואלי אינו הסיבה להערה על שיווקיות; הבעיה היא בתוכן ובאובייקטיביות"
+      }
+    ],
+    "explanation_html_he": "<p>ועדת אשראי שמכנה מזכר &quot;שיווקי&quot; מזהה בדרך כלל אחד מהדפוסים הבאים:</p><ul><li><strong>שפה אדג'קטיבית:</strong> &quot;מיקום מצוין&quot;, &quot;פוטנציאל גבוה&quot;, &quot;לווה אמין&quot;</li><li><strong>הסתרת סיכונים:</strong> אזכור חלקי של חולשות או נספחן לשולי הדף</li><li><strong>תרחיש אחד בלבד:</strong> הצגת Base Case ללא בדיקת לחץ</li><li><strong>חוסר הפרדה:</strong> ניתוח שמשלב עובדות עם שכנוע במקום להציג ניתוח ניטרלי</li></ul><p>הפתרון: לקרוא מחדש את המזכר עם שאלה אחת: &quot;האם אני מציג את הסיכונים באותה עוצמה שבה אני מציג את ההזדמנויות?&quot;</p>"
+  },
+  {
+    "question_id_external": "C11-M02-CMP-Q01",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה חייב לכלול <strong>פרק רקע הלווה</strong> במזכר אשראי מקצועי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "פרק לווה חסר הוא סיבה מספיקה לדחיית מזכר בוועדה — הבנק מלווה לאנשים, לא רק לנכסים.",
+    "topic_tags": ["credit_memo", "borrower_description", "background"],
+    "options": [
+      {
+        "text_he": "מבנה משפטי, שווי נקי וגמישות נזילה, ניסיון מוכח בפרויקטים דומים עם נתוני כמות, וזהות הערבים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שם הלווה, כתובתו, ותיאור כללי של פעילותו העסקית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פרטים בסיסיים אלו אינם מספיקים; נדרשים נתונים פיננסיים כמותיים ורקורד מוכח"
+      },
+      {
+        "text_he": "רשימת הנכסים בבעלות הלווה ותזרים המזומנים הכולל שלו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת נכסים ותזרים הם חלק מהנתונים, אך פרק הלווה חייב לכלול גם ניסיון ומבנה משפטי"
+      },
+      {
+        "text_he": "המלצות מגורמים חיצוניים ואסמכתאות על אמינות הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלצות אינן תחליף לנתונים כמותיים; ועדת אשראי מחפשת עובדות לא דעות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מרכיבי פרק רקע הלווה:</strong></p><ol><li><strong>מבנה משפטי:</strong> חברה / שותפות / יחיד; מבנה בעלות ושרשרת שליטה</li><li><strong>יכולת פיננסית:</strong> שווי נקי מאומת, נזילות זמינה, עומס חוב קיים</li><li><strong>ניסיון מוכח:</strong> &quot;8 פרויקטים, 180 מיליון שקל, 2018-2025&quot; — לא &quot;ניסיון עשיר&quot;</li><li><strong>ערבים:</strong> זהות, יכולת פיננסית של כל ערב, סוג הערבות (אישית/מוגבלת)</li></ol><p>כל נתון חייב להיות מקושר למסמך מקור (נסח חברות, דוח שמאי, דוח BDI).</p>"
+  },
+  {
+    "question_id_external": "C11-M02-CMP-Q02",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>דרישת המקור</strong> (sourcing requirement) בכתיבת מזכר אשראי ולמה היא קריטית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "טענה ללא מקור היא טענה שהאנליסט לא יכול להגן עליה בוועדה — זו נקודת תורפה מיידית.",
+    "topic_tags": ["credit_memo", "sourcing", "due_diligence"],
+    "options": [
+      {
+        "text_he": "כל טענה עובדתית במזכר חייבת להיות מקושרת למסמך DD שניתן לאמת — שמאות, דוח כספי, נסח רישום",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "דרישת המקור חלה רק על נתוני שוק כמו שיעורי תפוסה ותשואות — לא על נתוני הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דרישת המקור חלה על כל טענה עובדתית — נתוני לווה, נכס ושוק כאחד"
+      },
+      {
+        "text_he": "דרישת המקור פירושה שהאנליסט חייב לאסוף את המסמכים בעצמו ולא להסתמך על חומר מהלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חומר מהלווה מותר אך חייב להיות מאומת מול מסמכים עצמאיים; דרישת המקור היא זיהוי המקור, לא איסוף עצמאי"
+      },
+      {
+        "text_he": "דרישת המקור דורשת שלושה מקורות עצמאיים לכל נתון קריטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין דרישה לשלושה מקורות; נדרש מקור מאמת אחד אמין לכל טענה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>דרישת המקור</strong> קובעת שכל טענה עובדתית במזכר מלווה בהפניה למסמך ספציפי:</p><ul><li>&quot;שיעור תפוסה 94% (מקור: דוח שמאי, עמוד 12)&quot;</li><li>&quot;שווי נקי של הלווה 15 מיליון שקל (מקור: דוח עו&quot;ד בדיקת נאותות, נספח ג)&quot;</li><li>&quot;NOI 2024: 3.8 מיליון שקל (מקור: דוח כספי מבוקר 2024)&quot;</li></ul><p>ללא מקור — האנליסט לא יוכל לענות כשהוועדה תשאל &quot;מאין המספר הזה?&quot;. תשובה &quot;הלווה אמר לי&quot; אינה מספקת.</p>"
+  },
+  {
+    "question_id_external": "C11-M02-CMP-Q03",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו פרמטרים של <strong>תיאור הנכס</strong> חייבים להופיע במזכר אשראי לנכס מניב?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "WALT נמוך בנכס מסחרי הוא סיכון מהותי — אם לא הוצג במזכר, זו השמטת מידע קריטי.",
+    "topic_tags": ["credit_memo", "property_description", "WALT"],
+    "options": [
+      {
+        "text_he": "סוג הנכס, מיקום, תפוסה, WALT (Weighted Average Lease Term), דירוג האשראי של השוכרים הגדולים ודרגת האיכות (Class)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שטח הנכס, שנת הבנייה, ומחיר השוק לפי עסקאות השוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נתוני אלו הם בסיסיים; חסרים WALT ואיכות השוכרים שהם קריטיים לניתוח תזרים"
+      },
+      {
+        "text_he": "שם המתחם, מספר יחידות, שם מנהל הנכס ורשימת כל השוכרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת שוכרים מלאה שייכת לנספח; במזכר צריך לכלול WALT ואיכות אשראי של השוכרים העיקריים"
+      },
+      {
+        "text_he": "תאריך הרכישה, מחיר הרכישה המקורי והערכת שוק עכשווית בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מחיר רכישה הוא נתון היסטורי; נדרשים נתוני WALT, תפוסה ואיכות שוכרים לניתוח סיכון עכשווי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>פרמטרי תיאור הנכס הנדרשים:</strong></p><ul><li><strong>סוג ומיקום:</strong> משרדים Class A, תל אביב, רחוב הארבעה</li><li><strong>גודל:</strong> 8,500 מ&quot;ר שטח משרדים</li><li><strong>תפוסה:</strong> 94% תפוסה (נכון לדצמבר 2024)</li><li><strong>WALT:</strong> 4.2 שנים (כל חוזה שכירות שוקלל לפי שטח)</li><li><strong>איכות שוכרים:</strong> 60% מההכנסה משוכרים מדורגים בינלאומית</li><li><strong>דרגת איכות (Class):</strong> Class A — לובי משודרג, מיזוג מרכזי, חנייה מאובטחת</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M02-CMP-Q04",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>חולשה נפוצה</strong> בכתיבת פרק הלווה ומה היא מסמנת לוועדת האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "שפה עמומה במזכר גוררת שאלות קשות בוועדה — אנליסט מוכן מגיע עם מספרים, לא תיאורים.",
+    "topic_tags": ["credit_memo", "vague_language", "common_mistakes"],
+    "options": [
+      {
+        "text_he": "שימוש בשפה ערטילאית כמו &quot;לווה איתן&quot; ו&quot;ניסיון נרחב&quot; ללא נתונים כמותיים — מסמן שהאנליסט לא בדק לעומק",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הצגת יותר מדי נתונים כמותיים שמקשה על הוועדה לזהות את הנקודות המהותיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נתונים כמותיים הם בדיוק מה שהוועדה מחפשת; הבעיה היא מחסור בהם, לא עודף"
+      },
+      {
+        "text_he": "כתיבת פרק ארוך מדי על הלווה על חשבון הניתוח הפיננסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אורך הפרק אינו הבעיה; הבעיה היא האיכות והדיוק של המידע המוצג"
+      },
+      {
+        "text_he": "אי-הצגת מבנה בעלות מפורט בגלל מורכבות של מבנה אחזקות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מורכבות מבנה הבעלות היא סיבה להצגה מפורטת יותר, לא סיבה להשמטה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שפה ערטילאית לעומת כמותית — השוואה:</strong></p><table><tr><th>חולשה: שפה ערטילאית</th><th>תיקון: נתון כמותי</th></tr><tr><td>&quot;לווה איתן כלכלית&quot;</td><td>&quot;שווי נקי 18 מיליון שקל, נזילות זמינה 3.2 מיליון שקל&quot;</td></tr><tr><td>&quot;ניסיון נרחב&quot;</td><td>&quot;8 פרויקטים, 2015-2025, 180 מיליון שקל&quot;</td></tr><tr><td>&quot;שוכרים איכותיים&quot;</td><td>&quot;3 מתוך 5 שוכרים מדורגים BBB+ ומעלה&quot;</td></tr></table><p>ועדת אשראי שרואה שפה ערטילאית מבינה שאחד משניים: האנליסט לא מצא את הנתונים, או שהנתונים לא תומכים בטענה.</p>"
+  },
+  {
+    "question_id_external": "C11-M02-CMP-Q05",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד יש <strong>לכמת את רקורד הלווה</strong> (track record) במזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "רקורד הלווה הוא אחד המנבאים החזקים ביותר לכשל — הצגה כמותית שלו היא חלק מניתוח הסיכון.",
+    "topic_tags": ["credit_memo", "track_record", "borrower_experience"],
+    "options": [
+      {
+        "text_he": "מספר פרויקטים דומים שהושלמו, היקף כספי מצטבר, תקופת הפעילות, ואפס כשלי אשראי או תיאור של אירועי כשל אם היו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רשימת הנכסים הנוכחיים בבעלות הלווה ושווי שוק כולל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת נכסים קיימים אינה מראה ניסיון בביצוע פרויקטים; יש להציג פרויקטים שהושלמו"
+      },
+      {
+        "text_he": "המלצות בכתב מבנקים קודמים שעבדו עם הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלצות הן מידע אנקדוטלי לא מאומת; נדרשים נתונים כמותיים הניתנים לאימות"
+      },
+      {
+        "text_he": "שנות הניסיון הכוללות של הלווה בתחום הנדל&quot;ן ודרגת ההשכלה שלו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שנות ניסיון ודרגת השכלה אינן מוכיחות יכולת ביצוע; פרויקטים שהושלמו הם הראיה הרלוונטית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כימות רקורד הלווה — נוסח לדוגמה:</strong></p><blockquote>&quot;היזם השלים 8 פרויקטי נדל&quot;ן מסחרי בין 2015 ל-2025 בהיקף מצטבר של 180 מיליון שקל. כל הפרויקטים הושלמו בזמן ובתקציב. לא היו אירועי כשל אשראי בתיק הלוואות קיים (מקור: BDI, נובמבר 2025).&quot;</blockquote><p>אם היו אירועי כשל — יש לתארם בדיוק: &quot;פרויקט אחד הגיע לסדר עם הבנק ב-2019 בסכום X; הסדר הושלם במלואו&quot;. הסתרת מידע שלילי היא כשל מקצועי חמור.</p>"
+  },
+  {
+    "question_id_external": "C11-M02-PRC-Q01",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כתב: &quot;לנכס WALT של כ-3 שנים, שוכרים אמינים ותפוסה טובה.&quot; מה הבעיה בתיאור זה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "WALT של 3 שנים יכול להיות סיכון משמעותי — &quot;כ-3&quot; ו&quot;אמינים&quot; ו&quot;טובה&quot; מחביאים את הסיכון.",
+    "topic_tags": ["credit_memo", "property_description", "WALT", "vague_language"],
+    "options": [
+      {
+        "text_he": "WALT מוצג כמשוער; איכות השוכרים לא מכומתת; תפוסה לא מספרת — כל שלושת הנתונים חייבים להיות מדויקים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "WALT של 3 שנים הוא נמוך מדי ולא ניתן לאשר מימון לנכס עם WALT כזה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; WALT 3 שנים עשוי להיות מקובל בסוגי נכסים מסוימים; הבעיה היא הצגה לא מדויקת, לא הנתון עצמו"
+      },
+      {
+        "text_he": "יש לציין גם את שמות השוכרים הספציפיים בגוף המזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמות שוכרים שייכים לנספח; הבעיה היא העדר כימות, לא העדר שמות"
+      },
+      {
+        "text_he": "המשפט ארוך מדי וצריך לפצל אותו לשלוש נקודות נפרדות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אורך המשפט אינו הבעיה; הבעיה היא חוסר הדיוק הכמותי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תיקון הנדרש:</strong></p><p>מהתיאור הבעייתי: &quot;WALT של כ-3 שנים, שוכרים אמינים ותפוסה טובה&quot;</p><p>לתיאור מדויק: &quot;WALT 3.1 שנים (שוקלל לפי שטח, מקור: דוח שמאי). תפוסה 91.5% נכון לינואר 2025. שני שוכרים עיקריים (63% מהכנסות) — חברה ציבורית מדורגת AA- ואחת ממשרדי עורכי דין 50 הגדולים.&quot;</p><ul><li>&quot;כ-3&quot; → &quot;3.1&quot;</li><li>&quot;אמינים&quot; → דירוג מפורש</li><li>&quot;טובה&quot; → 91.5%</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M02-PRC-Q02",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרק הלווה במזכר מצהיר: &quot;הלווה הינו בעל ניסיון רב-שנתי ומוכח בפיתוח נדל&quot;ן.&quot; ועדת האשראי שאלה: &quot;מה מבסס טענה זו?&quot; מה היה צריך לכתוב במקום?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "כשהוועדה שואלת &quot;מה מבסס זאת?&quot; — האנליסט הפסיד את הדיון. שאלות כאלו נמנעות בכתיבה כמותית.",
+    "topic_tags": ["credit_memo", "borrower_description", "quantitative_writing"],
+    "options": [
+      {
+        "text_he": "פירוט כמותי: שנות פעילות, מספר פרויקטים שהושלמו, היקף כספי, סוג פרויקטים ודפוס אשראי (מקור: BDI ומסמכי DD)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הוספת ביוגרפיה מפורטת של הלווה כנספח נפרד למזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביוגרפיה כנספח לא פותרת את הבעיה בגוף המזכר; הנתונים הקריטיים חייבים להיות בגוף"
+      },
+      {
+        "text_he": "ציטוט המלצה מהבנק שממנו ביקש הלווה הלוואה בעבר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלצות מבנקים הן ראיה אנקדוטלית; דרושים נתוני ביצוע מאומתים, לא המלצות"
+      },
+      {
+        "text_he": "להסיר את הטענה ולא להתייחס לניסיון הלווה בכלל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניסיון הלווה הוא מידע קריטי שחייב להופיע; יש לתקן את הניסוח, לא למחוק את התוכן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניסוח מתוקן:</strong></p><blockquote>&quot;החברה פעילה בתחום פיתוח נדל&quot;ן מסחרי משנת 2011. השלימה 6 פרויקטי בנייה ומסחרי בהיקף מצטבר של 140 מיליון שקל. כל הפרויקטים הושלמו בלוח הזמנים המתוכנן. אין רישומי עיקול, כינוס נכסים, או הסדרי חוב בתיק האשראי (מקור: דוח BDI, ינואר 2025; נסח חברות, ינואר 2025).&quot;</blockquote><p>עכשיו אם הוועדה שואלת — כל מספר מקושר למסמך ספציפי שהאנליסט יכול להציג.</p>"
+  },
+  {
+    "question_id_external": "C11-M02-PRC-Q03",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מציג מזכר עצמי שמציין 12 פרויקטים שהשלים. בבדיקה מול BDI ונסח חברות, מוצאים רק 7 פרויקטים. כיצד יש לטפל בפער זה במזכר האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "פער בין הצהרת הלווה לנתונים מאומתים הוא דגל אדום שחייב לעלות למשטח — לא להיקבר בהערת שוליים.",
+    "topic_tags": ["credit_memo", "discrepancy", "due_diligence", "red_flag"],
+    "options": [
+      {
+        "text_he": "לתעד את הפער במזכר, לדרוש מהלווה הסבר מתועד לפרויקטים הנוספים, ולציין זאת כסיכון ב&quot;ניתוח הסיכונים&quot;",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לאמץ את הנתון של 7 הפרויקטים המאומתים בלבד ולא להזכיר את הטענה ל-12",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אי-תיעוד פער בין הצהרה לאימות הוא השמטת מידע מהותי — כשל מקצועי"
+      },
+      {
+        "text_he": "לדחות את מזכר האשראי אוטומטית בגלל חוסר עקביות בנתוני הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פער עשוי לנבוע מהגדרות שונות של &quot;פרויקט&quot;; יש לאמת ולתעד לפני קביעת עמדה"
+      },
+      {
+        "text_he": "לקבל את נתון 12 הפרויקטים מאחר שהלווה חתום עליו ולהפנות לנספח לפירוט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חתימת לווה אינה אימות עצמאי; מזכר אשראי מבוסס על נתונים מאומתים, לא הצהרות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>טיפול בפערים בין הצהרה לאימות:</strong></p><ol><li><strong>תיעוד הפער:</strong> &quot;הלווה הצהיר על 12 פרויקטים; אומתו 7 פרויקטים מנסח חברות ו-BDI.&quot;</li><li><strong>בקשת הסבר:</strong> לדרוש מהלווה תיעוד ל-5 הפרויקטים הנוספים</li><li><strong>אם ניתן הסבר:</strong> לאמת ולעדכן בהתאם</li><li><strong>אם לא ניתן הסבר:</strong> לציין כסיכון בפרק הסיכונים ולהתאים את הניקוד</li></ol><p>פערים בין הצהרות לאימות הם מידע חשוב — לעיתים מתגלים כמחלוקת הגדרות תמימה, ולעיתים כדגל אדום של כשל ב-integrity.</p>"
+  },
+  {
+    "question_id_external": "C11-M02-PRC-Q04",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס עם WALT של 1.8 שנים והכנסה נוכחית גבוהה. כיצד יש להציג נתון ה-WALT במזכר ומה ההשלכה על ניתוח הסיכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "WALT 1.8 שנים פירושו שתוך שנתיים המלווה עלול להחזיק בנכס ריק — זה לא פרט, זה הסיכון המרכזי.",
+    "topic_tags": ["credit_memo", "WALT", "risk_analysis", "property_description"],
+    "options": [
+      {
+        "text_he": "לציין WALT 1.8 שנים ולהעלות אותו כסיכון מהותי: &quot;רוב החוזים פוקעים תוך שנתיים — סיכון חידוש שכירות גבוה&quot;",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לציין WALT ולציין שהוא &quot;בגדר הסביר לשוק&quot; מבלי לנתח את ההשלכות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; WALT 1.8 שנים דורש ניתוח מפורט של סיכון חידוש ואינו ניתן לסיווג כ&quot;סביר&quot; ללא נימוק"
+      },
+      {
+        "text_he": "להציג WALT ב-NOI הנוכחי ולהסביר שאם השוכרים יחדשו חוזה ה-DSCR יישמר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחת חידוש חוזה היא אופטימית ולא מאומתת; יש להציג תרחיש של אי-חידוש"
+      },
+      {
+        "text_he": "לא לציין WALT אם הנכס מניב הכנסה טובה כרגע כדי לא ליצור חשש מיותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסתרת נתון מהותי כ-WALT היא כשל חמור; הוועדה חייבת לדעת את כל הסיכונים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>טיפול ב-WALT נמוך:</strong></p><p>WALT 1.8 שנים בנכס מסחרי הוא <strong>סיכון מהותי</strong> שמשפיע על:</p><ul><li><strong>NOI עתידי:</strong> אם שוכרים לא מחדשים, ה-NOI ייפול ו-DSCR יסוכן</li><li><strong>שווי הנכס:</strong> שווי נכס מניב מבוסס על חוזים קיימים; פקיעתם מוחקת ערך</li><li><strong>מחזור הלוואה:</strong> בשנת 2 הבנק עשוי להתמודד עם נכס ריק</li></ul><p>ניסוח נכון: &quot;WALT 1.8 שנים (מקור: דוח שמאי). 4 מתוך 6 חוזי שכירות עיקריים פוקעים עד דצמבר 2026. סיכון חידוש שכירות מדורג גבוה — ראו פרק 4 ניתוח סיכונים.&quot;</p>"
+  },
+  {
+    "question_id_external": "C11-M02-PRC-Q05",
+    "course_number": 11,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ערב אישי הצהיר על שווי נקי של 8 מיליון שקל. הבדיקה מגלה שרוב הנכסים המשועבדים לבנקים אחרים. כיצד יש לתאר זאת במזכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ערבות על נכסים משועבדים לבנקים אחרים היא ערבות על הנייר — ועדת האשראי חייבת לדעת זאת.",
+    "topic_tags": ["credit_memo", "guarantor", "net_worth", "pledged_assets"],
+    "options": [
+      {
+        "text_he": "לציין שווי נקי 8 מיליון שקל, להפחית את השיעבודים, ולדווח על השווי הנקי הזמין בפועל לערבות — ואם נמוך, לסווג כסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לציין שווי נקי 8 מיליון שקל כפי שהוצהר ולציין שהנתון ממתין לאימות נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; האימות כבר בוצע — הנכסים משועבדים; יש לדווח על הממצא, לא להמתין"
+      },
+      {
+        "text_he": "לדחות את הערבות כי נכסים משועבדים אינם ערך כלכלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ייתכן שחלק מהנכסים משועבדים חלקית; יש לחשב את הערך הנקי הזמין לפני מסקנה"
+      },
+      {
+        "text_he": "לציין שווי נקי 8 מיליון שקל בסוגריים עם הערה שלא כולל נכסים משועבדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערה בסוגריים אינה מספקת; יש לחשב ולהציג במפורש את השווי הנקי הזמין"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח ערבות — הצגה נכונה:</strong></p><blockquote>&quot;הערב הצהיר על שווי נקי של 8 מיליון שקל. בדיקת שיעבודים (מקור: לשכת הוצאה לפועל ונסח מקרקעין) מגלה שנכסים בשווי 6.2 מיליון שקל משועבדים לבנקים אחרים. השווי הנקי הזמין לערבות מוערך ב-1.8 מיליון שקל בלבד. <strong>הערבות האישית אינה מהווה כרית ביטחון משמעותית.</strong>&quot;</blockquote><p>הצגה כזו מאפשרת לוועדה להחליט: האם להגדיל בטוחות אחרות? לבקש ערב נוסף? לשנות תנאים? אלו שאלות שלא ניתן לשאול אם המזכר לא חשף את הנתון.</p>"
+  }
+]
