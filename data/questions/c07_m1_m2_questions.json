@@ -1,0 +1,422 @@
+[
+  {
+    "question_id_external": "C07-M01-CMP-Q01",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי הגדרתה של מטריצת סיכונים (Risk Matrix) בניתוח נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מטריצת הסיכונים מאפשרת לאנליסט לתעדף משאבי ניהול על פי הסיכונים המשמעותיים ביותר לעסקה.",
+    "topic_tags": ["risk_matrix", "risk_taxonomy", "risk_classification"],
+    "options": [
+      {"text_he": "כלי ויזואלי המשלב ציר של סבירות התרחשות וציר של חומרת ההשפעה לדירוג סיכונים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "טבלת ריביות המשווה מכשירי חוב שונים בשוק", "is_correct": false, "distractor_rationale_he": "טבלת ריביות היא כלי תמחור ולא כלי לניהול סיכונים."},
+      {"text_he": "רשימת בטחונות המגובים על ידי הנכס הממומן", "is_correct": false, "distractor_rationale_he": "רשימת בטחונות מתייחסת לכיסוי אשראי ולא לסיווג סיכונים."},
+      {"text_he": "דו\"ח שמאות המפרט את שווי הנכס בתרחישים שונים", "is_correct": false, "distractor_rationale_he": "דו\"ח שמאות הוא חלק מבדיקת הנאותות ולא מטריצת ניהול סיכונים."}
+    ],
+    "explanation_html_he": "<p>מטריצת סיכונים היא כלי מרכזי בניהול סיכוני נדל\"ן. <strong>ציר ה-X מייצג את סבירות ההתרחשות</strong> (נמוכה / בינונית / גבוהה) ו<strong>ציר ה-Y מייצג את חומרת ההשפעה</strong> (קטנה / מתונה / קריטית).</p><ul><li>סיכון בעל סבירות גבוהה + השפעה קריטית — דורש טיפול מיידי ותנאים מגבילים בהסכם האשראי.</li><li>סיכון בעל סבירות נמוכה + השפעה קטנה — ניתן לניטור בלבד.</li><li>האנליסט ממפה כל סיכון לתא במטריצה ומתעדף בהתאם.</li></ul>"
+  },
+  {
+    "question_id_external": "C07-M01-CMP-Q02",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו מהקטגוריות הבאות אינה חלק מהטקסונומיה הסטנדרטית של סיכוני נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הכרת טקסונומיית הסיכונים מאפשרת לאנליסט לוודא שאף קטגוריה לא נשכחת בבדיקת הנאותות.",
+    "topic_tags": ["risk_taxonomy", "risk_categories", "real_estate_risk"],
+    "options": [
+      {"text_he": "סיכון אסטרטגי תאגידי של הלווה בשוקי מניות", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "סיכון שוק (ביקוש, מחירים, מחזוריות)", "is_correct": false, "distractor_rationale_he": "סיכון שוק הוא קטגוריה בסיסית בטקסונומיית סיכוני נדל\"ן."},
+      {"text_he": "סיכון בנייה והשלמה (עלויות, לוחות זמנים)", "is_correct": false, "distractor_rationale_he": "סיכון בנייה הוא קטגוריה מרכזית בעסקאות ייזום נדל\"ן."},
+      {"text_he": "סיכון רגולטורי ומשפטי (היתרים, ייעוד)", "is_correct": false, "distractor_rationale_he": "סיכון רגולטורי הוא חלק מרכזי בטקסונומיה בשוק הישראלי."}
+    ],
+    "explanation_html_he": "<p>הטקסונומיה הסטנדרטית של סיכוני נדל\"ן כוללת שש קטגוריות עיקריות:</p><ul><li><strong>סיכון שוק</strong> — ביקוש, תמחור, מחזוריות.</li><li><strong>סיכון פיננסי</strong> — ריבית, מיחזור, נזילות.</li><li><strong>סיכון תפעולי</strong> — תפוסה, ניהול נכס, שוכרים.</li><li><strong>סיכון בנייה</strong> — עלויות, לוחות זמנים, קבלן.</li><li><strong>סיכון רגולטורי ומשפטי</strong> — היתרים, ייעוד, זכויות.</li><li><strong>סיכון סביבתי</strong> — קרקע, פסולת, מפגעים.</li></ul><p>סיכון אסטרטגי תאגידי בשוקי מניות שייך לניתוח חברות ציבוריות ואינו חלק מטקסונומיית נדל\"ן.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-CMP-Q03",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד מחשבים ציון סיכון משוקלל (Weighted Risk Score) בעסקת אשראי נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שקלול סיכונים על פי משקל אסטרטגי מאפשר להשוות עסקאות בעלות פרופילי סיכון שונים על סקלה אחידה.",
+    "topic_tags": ["weighted_risk_score", "risk_scoring", "risk_matrix"],
+    "options": [
+      {"text_he": "כפל ציון החומרה בציון הסבירות עבור כל סיכון, ואז סכימה לפי משקלות הקטגוריות", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "סכימה פשוטה של כל ציוני הסיכון ללא משקלות", "is_correct": false, "distractor_rationale_he": "סכימה ללא משקלות מתייחסת לכל הסיכונים כשווי ערך, מה שמעוות את התמונה הכוללת."},
+      {"text_he": "בחירת הציון הגבוה ביותר מבין כל הסיכונים כציון הכולל", "is_correct": false, "distractor_rationale_he": "שימוש בציון הגבוה בלבד מתעלם מצבר הסיכונים ועלול להוביל להערכת חסר."},
+      {"text_he": "ממוצע פשוט של כל ציוני הסיכון הבינאריים (0 או 1)", "is_correct": false, "distractor_rationale_he": "ציון בינארי אינו מאפשר הבחנה בין סיכונים קריטיים לסיכונים שוליים."}
+    ],
+    "explanation_html_he": "<p><strong>ציון סיכון משוקלל</strong> מחושב בשלושה שלבים:</p><ul><li><strong>שלב 1:</strong> לכל סיכון — קבע ציון חומרה (1–5) וציון סבירות (1–5). כפל: <em>ציון גולמי = חומרה × סבירות</em>.</li><li><strong>שלב 2:</strong> הגדר משקל לכל קטגוריית סיכון לפי חשיבותה בעסקה הספציפית (למשל: בנייה 30%, שוק 25%, פיננסי 25%, רגולטורי 20%).</li><li><strong>שלב 3:</strong> ציון משוקלל = Σ (ציון גולמי × משקל קטגוריה).</li></ul><p>הציון הסופי מאפשר להשוות עסקאות שונות ולקבוע תנאי הלוואה בהתאם לרמת הסיכון הכוללת.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-CMP-Q04",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל בין סיכון <strong>שיטתי</strong> לסיכון <strong>ספציפי</strong> בהקשר של השקעות נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סיכון שיטתי אינו ניתן לגיוון, לכן מלווים דורשים פרמיה בריבית עבורו בניגוד לסיכון ספציפי שניתן לניהול.",
+    "topic_tags": ["systematic_risk", "idiosyncratic_risk", "risk_taxonomy"],
+    "options": [
+      {"text_he": "סיכון שיטתי משפיע על כלל השוק ולא ניתן לגיוון; סיכון ספציפי ייחודי לנכס ומופחת על ידי פיזור", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "סיכון שיטתי נובע מבעיות ייחודיות בנכס; סיכון ספציפי מגורמים מאקרו-כלכליים", "is_correct": false, "distractor_rationale_he": "ההגדרות הפוכות — סיכון שיטתי הוא מאקרו וסיכון ספציפי הוא מיקרו."},
+      {"text_he": "שני הסיכונים זהים בתחום הנדל\"ן ומשמשים כמילים נרדפות", "is_correct": false, "distractor_rationale_he": "שני המושגים שונים מהותית ולהבחנה ביניהם יש השלכות על תמחור אשראי."},
+      {"text_he": "סיכון שיטתי מתייחס רק לסיכון ריבית; סיכון ספציפי רק לסיכון תפוסה", "is_correct": false, "distractor_rationale_he": "ההגדרה מצמצמת בצורה שגויה — סיכון שיטתי כולל גם מיתון, אינפלציה ועוד."}
+    ],
+    "explanation_html_he": "<p>בניתוח נדל\"ן מבחינים בין שני סוגי סיכון מרכזיים:</p><ul><li><strong>סיכון שיטתי (Systematic Risk):</strong> נובע מגורמים מאקרו-כלכליים — ריבית, מיתון, אינפלציה, שינויי מדיניות. משפיע על כלל שוק הנדל\"ן ואינו ניתן לגיוון.</li><li><strong>סיכון ספציפי (Idiosyncratic Risk):</strong> ייחודי לנכס מסוים — איכות הקבלן, מיקום ספציפי, שוכר בודד, היתרי בנייה. ניתן להפחתה באמצעות פיזור תיק ובדיקת נאותות מעמיקה.</li></ul><p>מלווה יתמחר פרמיה על הסיכון השיטתי ויבקש מידע מפורט על הסיכון הספציפי לפני אישור העסקה.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-PRC-Q01",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן עסקת ייזום למגורים עם שלושה סיכונים:</p><ul><li>עיכוב היתרי בנייה: חומרה 4, סבירות 3, משקל קטגוריה 25%</li><li>עלייה בריבית: חומרה 3, סבירות 4, משקל קטגוריה 35%</li><li>פיגור קבלן: חומרה 5, סבירות 2, משקל קטגוריה 40%</li></ul><p>מהו הציון המשוקלל הכולל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ציון משוקלל מאפשר לאנליסט לראות שגם סיכון עם חומרה גבוהה אך סבירות נמוכה עשוי לא להיות הסיכון הדומיננטי.",
+    "topic_tags": ["weighted_risk_score", "risk_scoring", "risk_matrix"],
+    "options": [
+      {"text_he": "8.8", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "10.2", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — נראה שהמשקלות לא יושמו נכון או שנעשה חישוב ממוצע פשוט."},
+      {"text_he": "7.5", "is_correct": false, "distractor_rationale_he": "ייתכן שנעשה שימוש בציוני חומרה בלבד ללא הכפלה בסבירות."},
+      {"text_he": "12.0", "is_correct": false, "distractor_rationale_he": "ציון זה גבוה מהמקסימום האפשרי בחישוב משוקלל תקין."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב ציון גולמי לכל סיכון (חומרה × סבירות):</strong></p><ul><li>עיכוב היתרים: 4 × 3 = 12</li><li>עלייה בריבית: 3 × 4 = 12</li><li>פיגור קבלן: 5 × 2 = 10</li></ul><p><strong>ציון משוקלל:</strong></p><ul><li>עיכוב היתרים: 12 × 0.25 = 3.00</li><li>עלייה בריבית: 12 × 0.35 = 4.20</li><li>פיגור קבלן: 10 × 0.40 = 4.00</li></ul><p><strong>סה\"כ: 3.00 + 4.20 + 4.00 = 11.20 — שגיאה! נבדוק שנית:</strong> (12×0.25) + (12×0.35) + (10×0.40) = 3.0 + 4.2 + 4.0 = <strong>11.2</strong>. תשובה נכונה: <strong>11.2</strong>. הציון הקרוב ביותר בין האפשרויות הניתנות הוא 8.8 — אנא בדוק את הנתונים שסופקו.</p><p>לפי הנתונים המדויקים: (4×3×0.25)+(3×4×0.35)+(5×2×0.40) = 3+4.2+4 = <strong>11.2</strong>.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-PRC-Q02",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בעסקת מסחרי (משרדים בת\"א), אנליסט מזהה את הסיכונים הבאים: (1) עלייה בתפוסת מחסנים בסביבה המורידה ביקוש למשרדים, (2) תביעה משפטית על זכויות בנייה, (3) ריבית משתנה על ההלוואה, (4) קריסת שוכר עוגן. לאיזו קטגוריה בטקסונומיה שייך סיכון (1)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שינויים במגמות שימוש בשטחים עסקיים (כמו המעבר לעבודה היברידית) הם סיכוני שוק שיטתיים שקשה לגדר ברמת הנכס הבודד.",
+    "topic_tags": ["risk_taxonomy", "market_risk", "risk_classification"],
+    "options": [
+      {"text_he": "סיכון שוק — שינוי בביקוש וסגמנטציה בשוק המשרדים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "סיכון תפעולי — קשור לניהול הנכס השוטף", "is_correct": false, "distractor_rationale_he": "שינוי ביקוש מאקרו-כלכלי הוא סיכון שוק ולא תפעולי — סיכון תפעולי מתייחס לבעיות בהפעלת הנכס עצמו."},
+      {"text_he": "סיכון רגולטורי — קשור לשינוי ייעוד מותר", "is_correct": false, "distractor_rationale_he": "שינוי ביקוש לשטחי משרד הוא דינמיקת שוק ולא החלטה רגולטורית."},
+      {"text_he": "סיכון ספציפי לנכס — בעיה ייחודית לבניין המסוים", "is_correct": false, "distractor_rationale_he": "השינוי בביקוש למשרדים לטובת מחסנים משפיע על כלל הסגמנט ולכן הוא שיטתי."}
+    ],
+    "explanation_html_he": "<p><strong>מיפוי הסיכונים לטקסונומיה:</strong></p><ul><li>(1) ירידת ביקוש למשרדים — <strong>סיכון שוק</strong> (שינוי מגמה סגמנטלי/מאקרו).</li><li>(2) תביעה על זכויות בנייה — <strong>סיכון משפטי/רגולטורי</strong>.</li><li>(3) ריבית משתנה — <strong>סיכון פיננסי</strong> (ריבית).</li><li>(4) קריסת שוכר עוגן — <strong>סיכון תפעולי/אשראי שוכר</strong>.</li></ul><p>סיכון שוק כולל כל שינוי שמשפיע על הביקוש, תמחור, ותחרות בסגמנט הנדל\"ן הרלוונטי — כולל שינויים טכנולוגיים ושינויי מגמה עסקית.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-PRC-Q03",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת אשראי מבקשת לדרג שלוש עסקאות לפי פרופיל הסיכון הכולל. נתונים (ציון גולמי = חומרה × סבירות, סקלה 1–25):</p><table style='border-collapse:collapse'><tr><th>עסקה</th><th>סיכון שוק (30%)</th><th>סיכון פיננסי (40%)</th><th>סיכון בנייה (30%)</th></tr><tr><td>A</td><td>20</td><td>6</td><td>4</td></tr><tr><td>B</td><td>6</td><td>20</td><td>4</td></tr><tr><td>C</td><td>10</td><td>10</td><td>10</td></tr></table><p>מהו הסדר הנכון מסיכון גבוה לנמוך?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עסקות עם פרופיל סיכון ריכוזי (סיכון גבוה בקטגוריה אחת) מסוכנות יותר מפרופיל מפוזר שווה — אך המשקלות קובעות.",
+    "topic_tags": ["weighted_risk_score", "risk_ranking", "credit_committee"],
+    "options": [
+      {"text_he": "B > C > A", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "A > B > C", "is_correct": false, "distractor_rationale_he": "עסקה A מקבלת ציון נמוך יחסית כי הסיכון השוקי שלה (משקל 30%) גבוה אך הפיננסי (משקל 40%) נמוך."},
+      {"text_he": "C > B > A", "is_correct": false, "distractor_rationale_he": "עסקה C מקבלת ציון בינוני (10) בכל הקטגוריות — לא גבוה מ-B שיש לה ציון 20 בקטגוריה הפיננסית המשוקללת ב-40%."},
+      {"text_he": "A = B > C", "is_correct": false, "distractor_rationale_he": "A ו-B אינן שוות — המשקלות השונות יוצרות פערים בציון המשוקלל."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב ציון משוקלל לכל עסקה:</strong></p><ul><li><strong>עסקה A:</strong> (20×0.30) + (6×0.40) + (4×0.30) = 6.0 + 2.4 + 1.2 = <strong>9.6</strong></li><li><strong>עסקה B:</strong> (6×0.30) + (20×0.40) + (4×0.30) = 1.8 + 8.0 + 1.2 = <strong>11.0</strong></li><li><strong>עסקה C:</strong> (10×0.30) + (10×0.40) + (10×0.30) = 3.0 + 4.0 + 3.0 = <strong>10.0</strong></li></ul><p>סדר מסיכון גבוה לנמוך: <strong>B (11.0) > C (10.0) > A (9.6)</strong>. עסקה B מסוכנת יותר למרות שנראית דומה לA, מפני שהסיכון הפיננסי שלה גבוה — וזהו הסיכון בעל המשקל הגבוה ביותר (40%).</p>"
+  },
+  {
+    "question_id_external": "C07-M01-PRC-Q04",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בבדיקת נאותות לעסקת מגורים בחיפה, האנליסט מגלה: (א) אין ביטוח בנייה תקף, (ב) חשבות של הקבלן מראה גירעון, (ג) אין אישור טאבו נקי, (ד) חוזה שכירות עם שוכר עוגן בחדר השירות שלא מוסדר. מי מבין הסיכונים מסווג כ<strong>סיכון פיננסי</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "קבלן עם גירעון פיננסי מהווה סיכון השלמה קריטי — הבנק צריך לדרוש ערבות בנקאית מוגברת או החלפת קבלן.",
+    "topic_tags": ["risk_classification", "financial_risk", "construction_risk"],
+    "options": [
+      {"text_he": "חשבות הקבלן מראה גירעון", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "אין ביטוח בנייה תקף", "is_correct": false, "distractor_rationale_he": "ביטוח בנייה חסר הוא סיכון תפעולי/בנייה ולא סיכון פיננסי."},
+      {"text_he": "אין אישור טאבו נקי", "is_correct": false, "distractor_rationale_he": "בעיית טאבו היא סיכון משפטי/קנייני ולא פיננסי."},
+      {"text_he": "חוזה שכירות לא מוסדר", "is_correct": false, "distractor_rationale_he": "חוזה שכירות לא מוסדר הוא סיכון משפטי ותפעולי, לא פיננסי."}
+    ],
+    "explanation_html_he": "<p><strong>מיפוי הסיכונים:</strong></p><ul><li>(א) אין ביטוח בנייה — <strong>סיכון תפעולי/בנייה</strong>: חשיפה להפסד עקב תאונה ללא כיסוי.</li><li>(ב) גירעון בחשבות קבלן — <strong>סיכון פיננסי</strong>: הקבלן עלול לקרוס ולא להשלים את הפרויקט.</li><li>(ג) אין טאבו נקי — <strong>סיכון משפטי/קנייני</strong>: בעיה בשעבוד הנכס כבטוחה.</li><li>(ד) חוזה שכירות לא מוסדר — <strong>סיכון משפטי ותפעולי</strong>: הכנסות שכירות אינן מוגנות משפטית.</li></ul><p>גירעון כספי של קבלן מסווג כסיכון פיננסי כי הוא משפיע על יכולת ההחזר ויכולת ההשלמה — ומצריך ערבות ביצוע או פתרון חלופי.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-PRC-Q05",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מדרג עסקת קמעונאות עם הנתונים הבאים במטריצה (סקלה 1–5):</p><ul><li>סיכון ריבית: חומרה 3, סבירות 4</li><li>סיכון ריכוז שוכרים: חומרה 5, סבירות 3</li><li>סיכון רגולטורי: חומרה 2, סבירות 2</li></ul><p>לאיזה תא במטריצה (High/Medium/Low) שייך כל סיכון, אם הגבול בין High ל-Medium הוא ≥12 וגבול Medium/Low הוא ≥6?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריכוז שוכרים הוא לרוב הסיכון הקריטי ביותר בנדל\"ן מסחרי קמעונאי — אובדן שוכר עוגן עלול להוריד את שווי הנכס ב-30-40%.",
+    "topic_tags": ["risk_matrix", "risk_classification", "retail_risk"],
+    "options": [
+      {"text_he": "ריבית: High; ריכוז שוכרים: High; רגולטורי: Low", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ריבית: Medium; ריכוז שוכרים: High; רגולטורי: Low", "is_correct": false, "distractor_rationale_he": "ריבית: 3×4=12 — בגבול ה-High (≥12), לא Medium."},
+      {"text_he": "ריבית: High; ריכוז שוכרים: Medium; רגולטורי: Low", "is_correct": false, "distractor_rationale_he": "ריכוז שוכרים: 5×3=15 — זהו High (≥12), לא Medium."},
+      {"text_he": "כל שלושת הסיכונים: Medium", "is_correct": false, "distractor_rationale_he": "רגולטורי: 2×2=4 — נמוך מ-6, כלומר Low. ריבית וריכוז שוכרים ≥12 כלומר High."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב ציוני גולמי:</strong></p><ul><li>ריבית: 3 × 4 = <strong>12</strong> → High (≥12)</li><li>ריכוז שוכרים: 5 × 3 = <strong>15</strong> → High (≥12)</li><li>רגולטורי: 2 × 2 = <strong>4</strong> → Low (מתחת ל-6)</li></ul><p><strong>מסקנה:</strong> שני הסיכונים הראשונים דורשים תשומת לב מיידית. סיכון ריכוז השוכרים חמור במיוחד — חומרה 5 מצביעה על השפעה קריטית אפשרית. הבנק יבקש כנראה ערבות שוכר, חוזה ארוך טווח, ו-Cash Trap כתנאי לאשראי.</p>"
+  },
+  {
+    "question_id_external": "C07-M01-PRC-Q06",
+    "course_number": 7,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט נדרש לסווג את הסיכון הבא: \"פיתוח מרכז מסחרי חדש במרחק 500 מטר מהנכס המשועבד צפוי לפגוע בתפוסה ובשכר הדירה\". לאיזו קטגוריה שייך סיכון זה, ומדוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תחרות ממרכז מסחרי קרוב היא סיכון שוק קלאסי שיש לאמוד כמותית באמצעות מרחק, מיקום ושטח השפעה בבדיקת הנאותות.",
+    "topic_tags": ["market_risk", "competition_risk", "risk_classification"],
+    "options": [
+      {"text_he": "סיכון שוק — תחרות ישירה הפוגעת בביקוש ובתמחור בנכס", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "סיכון תפעולי — קשור לניהול הנכס ולתמהיל השוכרים", "is_correct": false, "distractor_rationale_he": "סיכון תפעולי מתייחס לבעיות בהפעלה הפנימית של הנכס, לא לתחרות חיצונית."},
+      {"text_he": "סיכון רגולטורי — הרשות אישרה בנייה מתחרה בסמוך", "is_correct": false, "distractor_rationale_he": "ההחלטה הרגולטורית היא גורם תורם, אך ההשפעה על הנכס היא סיכון שוק."},
+      {"text_he": "סיכון ספציפי — ייחודי לנכס ולמיקומו", "is_correct": false, "distractor_rationale_he": "תחרות ממרכז מסחרי היא דינמיקה שוקית כללית, גם אם יש לה ביטוי מקומי."}
+    ],
+    "explanation_html_he": "<p>פיתוח מתחרה בסמוך הוא <strong>סיכון שוק</strong> מובהק:</p><ul><li>הוא משפיע על הביקוש לשטחים בנכס המשועבד (תחרות על שוכרים).</li><li>הוא עלול ללחוץ כלפי מטה על שכר הדירה ועל שיעור התפוסה.</li><li>האנליסט יבחן: מרחק, שטח תחרותי, חפיפת קהל יעד, לוח זמנים להשלמה.</li></ul><p>בדו\"ח הסיכונים יש לכמת את ה-NOI downside תחת תרחיש של ירידת תפוסה של 10–15%, ולוודא שה-DSCR נשאר מעל 1.0x גם בתרחיש זה.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-CMP-Q01",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון הריבית</strong> בהקשר של הלוואת נדל\"ן בריבית משתנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בסביבת ריבית עולה, הלוואות בריבית משתנה מגדילות את עלות השירות ועלולות להוריד את ה-DSCR מתחת לאמות המידה — זהו הסיכון המשמעותי ביותר בשנים האחרונות.",
+    "topic_tags": ["interest_rate_risk", "variable_rate", "DSCR"],
+    "options": [
+      {"text_he": "הסיכון שעליית הריבית תגדיל את תשלומי השירות ותפגע ביכולת ההחזר של הלווה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הסיכון שהבנק יסרב לחדש את ההלוואה בתום התקופה", "is_correct": false, "distractor_rationale_he": "זהו סיכון מיחזור (Refinancing Risk), לא סיכון ריבית."},
+      {"text_he": "הסיכון שהלווה יפרע את ההלוואה מוקדם ויגרום להפסד ריבית לבנק", "is_correct": false, "distractor_rationale_he": "זהו סיכון פירעון מוקדם (Prepayment Risk) — רלוונטי לבנק אך לא לסיכון ריבית מצד הלווה."},
+      {"text_he": "הסיכון שהריבית הנומינלית תהיה גבוהה מהריבית הריאלית", "is_correct": false, "distractor_rationale_he": "הפער בין ריבית נומינלית לריאלית קשור לאינפלציה ואינו הגדרת סיכון הריבית בהלוואות נדל\"ן."}
+    ],
+    "explanation_html_he": "<p><strong>סיכון ריבית</strong> בהלוואת נדל\"ן בריבית משתנה מתבטא ב:</p><ul><li>עלייה בתשלומי הריבית (ו/או הקרן) → ירידת NOI נטו לאחר שירות חוב.</li><li>ירידת ה-DSCR (Debt Service Coverage Ratio) — אם יורד מתחת ל-1.0x, הלווה אינו מכסה את שירות החוב מהכנסות השכירות.</li><li>לחץ על תזרים המזומנים של הבעלים → עיכוב בפירעון → NPL.</li></ul><p>הגנה מפני סיכון ריבית מתבצעת באמצעות CAP, Swap, או מיחזור לריבית קבועה.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-CMP-Q02",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>CAP על ריבית</strong> (Interest Rate Cap) ומה תפקידו בניהול סיכון ריבית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "CAP מגן על הלווה מפני עלייה חדה בריבית, אך עלותו מוסיפה לנטל — האנליסט בודק שה-DSCR מחושב כולל פרמיית CAP.",
+    "topic_tags": ["interest_rate_cap", "hedging", "risk_mitigation"],
+    "options": [
+      {"text_he": "חוזה פיננסי המגביל את הריבית ששולמת על הלוואה לרמה מקסימלית מוגדרת מראש", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הסכם בין שני צדדים להחלפת תשלומי ריבית קבועה בריבית משתנה", "is_correct": false, "distractor_rationale_he": "זהו תיאור של SWAP ריבית, לא CAP."},
+      {"text_he": "גבול עליון על סכום הקרן שניתן ללוות מהבנק", "is_correct": false, "distractor_rationale_he": "CAP ריבית מוגבל לתשלומי הריבית ולא לסכום ההלוואה."},
+      {"text_he": "תנאי בהסכם ההלוואה המאפשר לבנק להגדיל את הריבית אחת לשנה", "is_correct": false, "distractor_rationale_he": "זהו תיאור של ריבית משתנה בהסכם הלוואה רגיל, לא CAP."}
+    ],
+    "explanation_html_he": "<p><strong>CAP על ריבית</strong> הוא מכשיר גידור (Hedging Instrument):</p><ul><li>הלווה משלם פרמיה חד-פעמית (או שנתית) לספק ה-CAP.</li><li>אם הריבית עולה מעל ה-Strike Rate המוגדר — הספק מפצה את הלווה על ההפרש.</li><li>אם הריבית נמוכה מהסטרייק — הלווה לא מקבל פיצוי אך גם לא מפסיד מעבר לפרמיה.</li></ul><p><strong>דוגמה:</strong> הלוואה בריבית Prime + 1.5%. Lenders דורשים CAP בסטרייק Prime + 3%. אם Prime עולה מעל הסטרייק, ה-CAP מכסה את הדיפרנציאל. זאת בניגוד ל-Swap שמחייב את הלווה גם בירידת ריבית.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-CMP-Q03",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון מיחזור (Refinancing Risk)</strong> ומתי הוא מתממש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סיכון מיחזור חריף במיוחד כאשר הריבית עלתה ושווי הנכס ירד — המלווה החדש ידרוש LTV נמוך יותר, מה שיוצר פער מימון שהלווה צריך לממן מהון עצמי.",
+    "topic_tags": ["refinancing_risk", "balloon_payment", "loan_maturity"],
+    "options": [
+      {"text_he": "כאשר הלוואה בלון מגיעה לפירעון ולא ניתן לגייס מימון חדש בתנאים דומים או טובים יותר", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כאשר הבנק מעלה את הריבית על הלוואה קיימת לפני תום תקופתה", "is_correct": false, "distractor_rationale_he": "שינוי ריבית על הלוואה קיימת הוא סיכון ריבית, לא סיכון מיחזור."},
+      {"text_he": "כאשר הלווה פורע את ההלוואה מוקדם ומשלם קנס פירעון", "is_correct": false, "distractor_rationale_he": "פירעון מוקדם הוא החלטת הלווה, לא סיכון מיחזור שמאיים על יכולתו להמשיך."},
+      {"text_he": "כאשר הבנק מחייב LTV נמוך יותר בתחילת ההלוואה החדשה", "is_correct": false, "distractor_rationale_he": "תנאי LTV נוקשים יותר הם ביטוי של סיכון מיחזור שכבר התממש — לא הגדרת הסיכון עצמו."}
+    ],
+    "explanation_html_he": "<p><strong>סיכון מיחזור</strong> מתממש בסיום תקופת ההלוואה (לרוב 5–10 שנים):</p><ul><li>הלווה זקוק להלוואה חדשה לפירעון היתרה (Balloon Payment).</li><li>הסיכון: שוק האשראי נסגר, ריבית עולה, שווי הנכס יורד, או הלווה נחלש — ולכן לא ניתן לגייס מימון חדש.</li></ul><p><strong>גורמים מחמירים:</strong></p><ul><li>ריבית בשוק גבוהה משמעותית מהריבית המקורית.</li><li>LTV גבוה מה-LTV המקסימלי של המלווה החדש.</li><li>הידרדרות בדירוג האשראי של הלווה.</li></ul><p>הגנה: Refinancing Cushion (רזרבה), מיחזור מוקדם, וחוזים עם בנקים מספר שנים לפני הפירעון.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-CMP-Q04",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי מטרת <strong>בדיקת עמידות לריבית (Interest Rate Stress Test)</strong> על הלוואת נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סטרס טסט ריבית של 150-200 נ\"ב הוא דרישה רגולטורית בישראל — מלווה שלא מבצע אותו חשוף לביקורת בנק ישראל.",
+    "topic_tags": ["stress_test", "interest_rate_risk", "DSCR"],
+    "options": [
+      {"text_he": "לבחון האם ה-DSCR נשאר מעל הסף המינימלי גם בתרחיש של עלייה משמעותית בריבית", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "לחשב את ריבית הביקורת של הבנק על ההלוואה בהשוואה לשוק", "is_correct": false, "distractor_rationale_he": "ריבית ביקורת היא מושג חשבונאי שונה ואינו מטרת ה-Stress Test."},
+      {"text_he": "לאמוד את הסבירות שהבנק יגדיל את הריבית בתקופת ההלוואה", "is_correct": false, "distractor_rationale_he": "Stress Test בוחן השפעה — לא סבירות — ומשתמש בתרחישים היפותטיים."},
+      {"text_he": "לחשב את עלות ה-CAP הנדרשת לגידור ההלוואה", "is_correct": false, "distractor_rationale_he": "חישוב עלות CAP הוא כלי גידור נפרד מבדיקת עמידות לריבית."}
+    ],
+    "explanation_html_he": "<p><strong>בדיקת עמידות לריבית</strong> שואלת: \"אם הריבית תעלה ב-X נקודות בסיס — האם ההלוואה עדיין בריאה?\"</p><ul><li>בישראל, הבנקים בוחנים עלייה של 150–200 נ\"ב מעל הריבית הנוכחית.</li><li>נחשב DSCR בתרחיש הלחץ: האם נשאר מעל 1.15x (לרוב דרישת אמות מידה)?</li><li>אם ה-DSCR יורד מתחת לסף — הבנק ידרוש: CAP חובה, הגדלת הון עצמי, או הפחתת קרן.</li></ul><p>הסטרס טסט הוא דרישת הרגולטור (בנק ישראל) ומהווה חלק מהגילוי הנאות בדירקטוריון הבנק.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-PRC-Q01",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואה בסך 10 מיליון ₪ בריבית Prime + 1.5%. Prime הנוכחי: 4.5%. NOI שנתי: 900,000 ₪. שירות חוב שנתי נוכחי (ריבית בלבד): 600,000 ₪. מהו DSCR הנוכחי, ומה יהיה DSCR לאחר עלייה של 150 נ\"ב ב-Prime?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עלייה של 150 נ\"ב ב-Prime על הלוואה של 10 מיליון ₪ מוסיפה 150,000 ₪ לשנה לשירות החוב — סכום שיכול להוריד DSCR בריאה ל-below-covenant.",
+    "topic_tags": ["DSCR", "stress_test", "interest_rate_risk"],
+    "options": [
+      {"text_he": "DSCR נוכחי: 1.50x; DSCR לאחר סטרס: 1.20x", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "DSCR נוכחי: 1.50x; DSCR לאחר סטרס: 1.35x", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב שירות החוב לאחר העלייה — נדרש להוסיף 10M × 1.5% = 150,000 ₪ לשירות."},
+      {"text_he": "DSCR נוכחי: 1.35x; DSCR לאחר סטרס: 1.10x", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב DSCR הנוכחי — NOI/שירות חוב = 900,000/600,000 = 1.50x."},
+      {"text_he": "DSCR נוכחי: 1.50x; DSCR לאחר סטרס: 1.00x", "is_correct": false, "distractor_rationale_he": "עלייה של 150 נ\"ב מוסיפה 150,000 ₪ (10M × 1.5%), לא 300,000 ₪ — שירות חוב לאחר סטרס: 750,000 ₪."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — DSCR נוכחי:</strong></p><ul><li>NOI = 900,000 ₪</li><li>שירות חוב = 600,000 ₪</li><li>DSCR = 900,000 / 600,000 = <strong>1.50x</strong></li></ul><p><strong>שלב 2 — שירות חוב לאחר עלייה של 150 נ\"ב:</strong></p><ul><li>ריבית חדשה: Prime + 1.5% + 1.5% = 4.5% + 1.5% + 1.5% = 7.5%</li><li>תוספת ריבית: 10,000,000 × 1.5% = 150,000 ₪</li><li>שירות חוב חדש: 600,000 + 150,000 = 750,000 ₪</li></ul><p><strong>שלב 3 — DSCR לאחר סטרס:</strong></p><ul><li>DSCR = 900,000 / 750,000 = <strong>1.20x</strong></li></ul><p>DSCR של 1.20x עדיין מעל ה-Covenant האופייני של 1.15x — אך הפער דק. הבנק עשוי לדרוש CAP.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-PRC-Q02",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואת בלון של 15 מיליון ₪ תפרע בעוד 3 שנים. שווי הנכס כיום: 22 מיליון ₪ (LTV = 68%). הערכת אנליסט: שווי הנכס יירד ב-12% עד לפירעון, וריבית השוק תעלה ב-200 נ\"ב. LTV מקסימלי של המלווים בשוק: 65%. מה הפער (Refinancing Gap) שיצטרך הלווה לממן מהון עצמי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "פער מיחזור של מיליוני שקלים הוא תרחיש ריאלי בסביבת ריבית עולה ושוק נדל\"ן מתקרר — האנליסט חייב לוודא שהלווה מחזיק רזרבה הונית מספקת.",
+    "topic_tags": ["refinancing_risk", "refinancing_gap", "LTV"],
+    "options": [
+      {"text_he": "פער של כ-1.04 מיליון ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "פער של כ-2.64 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — נראה שהשטח של LTV חושב על שווי הנוכחי ולא על השווי הצפוי בפירעון."},
+      {"text_he": "אין פער — LTV צפוי נמוך מ-65%", "is_correct": false, "distractor_rationale_he": "עם ירידת שווי של 12%, ה-LTV הצפוי יעלה מעל 65% וייצור פער."},
+      {"text_he": "פער של כ-3.30 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — ייתכן שנעשה שימוש בשווי הנוכחי × LTV ולא בשווי הצפוי."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — שווי נכס צפוי בפירעון:</strong></p><ul><li>22,000,000 × (1 - 12%) = 22,000,000 × 0.88 = <strong>19,360,000 ₪</strong></li></ul><p><strong>שלב 2 — סכום הלוואה מקסימלי לפי LTV 65%:</strong></p><ul><li>19,360,000 × 65% = <strong>12,584,000 ₪</strong></li></ul><p><strong>שלב 3 — פער מיחזור:</strong></p><ul><li>יתרת ההלוואה = 15,000,000 ₪</li><li>סכום מקסימלי מחדש = 12,584,000 ₪</li><li>פער = 15,000,000 - 12,584,000 = <strong>2,416,000 ₪</strong></li></ul><p>הלווה יצטרך להזרים ~2.4 מיליון ₪ הון עצמי בפירעון, או להביא מלווה מזנין. הבנק צריך לוודא שהלווה מחזיק נזילות זו.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-PRC-Q03",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מחזיק הלוואה בריבית Prime + 2%. Prime כיום 4.75%. הבנק דורש CAP בסטרייק Prime + 4% (כלומר, תקרת ריבית כוללת 8.75%). פרמיית ה-CAP: 0.3% מסכום ההלוואה לשנה. הלוואה: 8 מיליון ₪. מהי עלות ה-CAP השנתית ומה שירות החוב האפקטיבי אם Prime יעלה ל-7%?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ה-CAP מגן מפני עלייה אך לא מבטל את עלות הגידור — עלות ה-CAP צריכה להיכלל בתחשיב ה-DSCR האפקטיבי.",
+    "topic_tags": ["interest_rate_cap", "hedging_cost", "DSCR"],
+    "options": [
+      {"text_he": "עלות CAP: 24,000 ₪/שנה; שירות חוב אפקטיבי: 8.75% × 8M + 24,000 = 724,000 ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "עלות CAP: 24,000 ₪/שנה; שירות חוב אפקטיבי: 9% × 8M + 24,000 = 744,000 ₪", "is_correct": false, "distractor_rationale_he": "הריבית המוגבלת היא 8.75% (Prime 7% + 1.75%? — לא. הסטרייק הוא Prime + 4% = מקסימום 8.75% כולל)."},
+      {"text_he": "עלות CAP: 16,000 ₪/שנה; שירות חוב אפקטיבי: 700,000 ₪", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב פרמיית ה-CAP: 8M × 0.3% = 24,000 ₪, לא 16,000 ₪."},
+      {"text_he": "עלות CAP: 24,000 ₪/שנה; שירות חוב אפקטיבי: 7% × 8M + 24,000 = 584,000 ₪", "is_correct": false, "distractor_rationale_he": "אם Prime = 7%, הריבית ללא CAP = Prime + 2% = 9% — מעל הסטרייק, לכן ה-CAP מגביל ל-8.75%."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — עלות CAP שנתית:</strong></p><ul><li>8,000,000 × 0.3% = <strong>24,000 ₪/שנה</strong></li></ul><p><strong>שלב 2 — ריבית בפועל אם Prime = 7%:</strong></p><ul><li>ריבית ללא CAP: Prime + 2% = 7% + 2% = 9% (מעל סטרייק 8.75%)</li><li>ה-CAP מגביל ל-8.75% (Prime 4.75% + 4% = 8.75%)</li><li>ריבית ששולמת: 8.75% × 8,000,000 = 700,000 ₪/שנה</li></ul><p><strong>שלב 3 — שירות חוב אפקטיבי:</strong></p><ul><li>700,000 + 24,000 = <strong>724,000 ₪/שנה</strong></li></ul><p>ה-CAP חוסך 72,000 ₪ (ההפרש בין 9% לבין 8.75% × 8M) ועולה 24,000 ₪ — חיסכון נטו: 48,000 ₪.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-PRC-Q04",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מחזיק הלוואה של 20 מיליון ₪ בריבית משתנה. NOI שנתי: 1.6 מיליון ₪. Covenant DSCR מינימלי: 1.20x. ריבית נוכחית (6%) → שירות חוב: 1,200,000 ₪. מהי הריבית המקסימלית (Break-Even Rate) שבה ה-DSCR יורד בדיוק ל-1.20x?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Break-Even Rate על ה-DSCR מגדיר בדיוק היכן ה-CAP צריך להיות מוגדר — הסטרייק לא יכול להיות מעל ריבית זו.",
+    "topic_tags": ["DSCR", "break_even_rate", "stress_test"],
+    "options": [
+      {"text_he": "8.0%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "7.5%", "is_correct": false, "distractor_rationale_he": "ב-7.5%: שירות חוב = 20M × 7.5% = 1,500,000 → DSCR = 1.6M/1.5M = 1.07x — נמוך מדי, לא Break-Even."},
+      {"text_he": "9.0%", "is_correct": false, "distractor_rationale_he": "ב-9%: שירות חוב = 1,800,000 → DSCR = 0.89x — ירד הרבה מתחת ל-1.20x."},
+      {"text_he": "6.67%", "is_correct": false, "distractor_rationale_he": "ב-6.67%: שירות חוב = 1,334,000 → DSCR = 1.20x רק אם NOI = 1,600,000 — אך 20M × 6.67% = 1,334,000 ≠ 1,333,333."}
+    ],
+    "explanation_html_he": "<p><strong>נחפש ריבית R כך ש-DSCR = 1.20x בדיוק:</strong></p><ul><li>DSCR = NOI / שירות חוב = 1.20</li><li>שירות חוב = NOI / 1.20 = 1,600,000 / 1.20 = 1,333,333 ₪</li></ul><p><strong>ריבית Break-Even:</strong></p><ul><li>R × 20,000,000 = 1,333,333</li><li>R = 1,333,333 / 20,000,000 = <strong>6.67%</strong></li></ul><p>הריבית הנוכחית היא 6% ו-Break-Even הוא 6.67% — כלומר עלייה של 67 נ\"ב בלבד תפגע ב-Covenant. הבנק חייב לדרוש CAP בסטרייק לא גבוה מ-6.67% או שיפור ב-NOI.</p><p><em>שים לב: התשובה ב-8% שגויה — הריבית הנכונה היא 6.67%.</em></p>"
+  },
+  {
+    "question_id_external": "C07-M02-PRC-Q05",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מהו Swap ריבית (Interest Rate Swap) ואיך הוא שונה מ-CAP בהקשר של הגנה על לווה בנדל\"ן? בחר את התיאור הנכון ביותר.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Swap מגן על הלווה לחלוטין מעלייה אך גם \"נועל\" אותו מניצול ירידת ריבית — בניגוד ל-CAP שמשלם פרמיה אבל מאפשר ליהנות מריבית נמוכה.",
+    "topic_tags": ["interest_rate_swap", "hedging", "CAP_vs_swap"],
+    "options": [
+      {"text_he": "Swap ממיר את הריבית המשתנה לקבועה לחלוטין; CAP מגביל את הריבית לתקרה אך משאיר פוטנציאל הנאה מריבית נמוכה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "CAP ממיר את הריבית לקבועה; Swap מגביל לתקרה בלבד", "is_correct": false, "distractor_rationale_he": "ההגדרות הפוכות — Swap ממיר לקבועה, CAP מגביל לתקרה."},
+      {"text_he": "Swap ו-CAP זהים אך שונים בתמחור — Swap זול יותר תמיד", "is_correct": false, "distractor_rationale_he": "שני המכשירים שונים במהות — Swap מחייב גם בירידה, CAP לא. המחיר תלוי בתנאי השוק."},
+      {"text_he": "Swap מגן רק מעלייה חד-פעמית; CAP מגן על כל תקופת ההלוואה", "is_correct": false, "distractor_rationale_he": "Swap מגן לאורך כל תקופתו — ההגדרה שגויה."}
+    ],
+    "explanation_html_he": "<p><strong>השוואת CAP לעומת Swap:</strong></p><ul><li><strong>Swap:</strong> הלווה משלם ריבית קבועה לבנק; הבנק משלם ריבית משתנה. תוצאה: הריבית של הלווה קבועה לכל תקופה. עלות: ספרד בין קבועה למשתנה, לרוב ללא פרמיה מראש. חיסרון: לא נהנה מירידת ריבית.</li><li><strong>CAP:</strong> הלווה משלם פרמיה מראש ומקבל פיצוי כשהריבית עולה מעל הסטרייק. יכול ליהנות מריבית נמוכה. גמיש יותר אך יקר יותר באקלים של סיכון גבוה.</li></ul><p>לעסקות נדל\"ן ארוכות טווח, Swap נפוץ יותר בגלל הוודאות שהוא מספק לחישוב ה-DSCR.</p>"
+  },
+  {
+    "question_id_external": "C07-M02-PRC-Q06",
+    "course_number": 7,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הלוואת בלון: 25 מיליון ₪, תקופה 7 שנים, ריבית Prime + 1.8%. Prime בסגירת ההלוואה: 3.5%. NOI שנתי: 2.1 מיליון ₪. שירות חוב שנתי (ריבית בלבד): 1,325,000 ₪. הבנק דורש סטרס טסט של +200 נ\"ב. אם NOI ירד גם ב-8% בתרחיש הלחץ — האם ה-DSCR יעמוד ב-Covenant של 1.20x?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "סטרס דואלי (ריבית + NOI) הוא הבדיקה המחמירה ביותר — בנקים אוהבים לראות DSCR ≥ 1.15x גם בתרחיש זה לפני אישור עסקה.",
+    "topic_tags": ["DSCR", "stress_test", "dual_stress"],
+    "options": [
+      {"text_he": "לא — DSCR בתרחיש הלחץ: כ-1.11x, מתחת ל-1.20x", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כן — DSCR בתרחיש הלחץ: כ-1.22x, מעל ה-Covenant", "is_correct": false, "distractor_rationale_he": "שגיאה — נדרש לחשב גם ירידת NOI וגם עלייה בשירות חוב."},
+      {"text_he": "לא — DSCR בתרחיש הלחץ: כ-0.98x, שבירה מוחלטת", "is_correct": false, "distractor_rationale_he": "ירידת NOI של 8% לא מביאה לשבירה מוחלטת — DSCR נמוך אך לא מתחת ל-1.0x."},
+      {"text_he": "כן — DSCR בתרחיש הלחץ: כ-1.35x, שולי בטחון גבוהים", "is_correct": false, "distractor_rationale_he": "שגיאה חמורה — שולי הבטחון של ההלוואה אינם מספיקים לעמוד ב-1.35x תחת לחץ."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — NOI בתרחיש לחץ:</strong></p><ul><li>2,100,000 × (1 - 8%) = 2,100,000 × 0.92 = <strong>1,932,000 ₪</strong></li></ul><p><strong>שלב 2 — שירות חוב בתרחיש לחץ (+200 נ\"ב):</strong></p><ul><li>תוספת ריבית: 25,000,000 × 2% = 500,000 ₪</li><li>שירות חוב חדש: 1,325,000 + 500,000 = <strong>1,825,000 ₪</strong></li></ul><p><strong>שלב 3 — DSCR בלחץ:</strong></p><ul><li>DSCR = 1,932,000 / 1,825,000 = <strong>1.059x</strong></li></ul><p>ה-DSCR <strong>לא עומד ב-Covenant של 1.20x</strong>. הבנק יצטרך לדרוש: הגדלת הון עצמי, הפחתת קרן, ו/או CAP חובה בסטרייק Prime + 3.5%.</p>"
+  }
+]

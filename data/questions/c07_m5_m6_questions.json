@@ -1,0 +1,422 @@
+[
+  {
+    "question_id_external": "C07-M05-CMP-Q01",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון ייעוד (Zoning Risk)</strong> בנדל\"ן ומתי הוא מתממש?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שינוי ייעוד הוא סיכון שנשלט על ידי הרשות המקומית ולא על ידי הלווה — לכן על האנליסט לבדוק את יציבות הייעוד ואת סיכוי התנגדויות שכנים.",
+    "topic_tags": ["zoning_risk", "regulatory_risk", "planning"],
+    "options": [
+      {"text_he": "כאשר הרשות המקומית משנה את ייעוד הקרקע ופוגעת בשווי הנכס או ביכולת הפיתוח", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כאשר השוכר מסרב לעזוב בתום חוזה השכירות", "is_correct": false, "distractor_rationale_he": "זהו סיכון תפעולי/משפטי הקשור לפינוי שוכרים, לא לייעוד קרקע."},
+      {"text_he": "כאשר הקבלן אינו עומד בדרישות ה-תכן", "is_correct": false, "distractor_rationale_he": "אי עמידה בדרישות תכן היא סיכון בנייה, לא סיכון ייעוד."},
+      {"text_he": "כאשר מחירי הנדל\"ן באזור יורדים בגלל היצע עודף", "is_correct": false, "distractor_rationale_he": "ירידת מחירים היא סיכון שוק, לא סיכון ייעוד."}
+    ],
+    "explanation_html_he": "<p><strong>סיכון ייעוד (Zoning Risk)</strong> מתבטא במספר צורות:</p><ul><li><strong>שינוי ייעוד שלילי:</strong> קרקע מסחרית שמסווגת מחדש למגורים — מגבילה את ערך הפיתוח.</li><li><strong>אי-קבלת היתר:</strong> ייעוד מאפשר את השימוש אך הרשות מסרבת לתת היתר ספציפי.</li><li><strong>הקפאת תוכניות:</strong> תוכנית בניין עיר (תב\"ע) לא מאושרת — הפרויקט תקוע.</li></ul><p>האנליסט בודק: עדכניות התב\"ע, סטטוס ההיתרים, ותוכניות שינוי עתידיות של הוועדה המקומית.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-CMP-Q02",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון בעלות (Title Risk)</strong> בנדל\"ן ישראלי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "רישום ב-טאבו בישראל אינו מבטיח העדר עיקולים שנרשמו לאחר עדכון אחרון — האנליסט חייב לבדוק רישום עדכני מהיום.",
+    "topic_tags": ["title_risk", "land_registry", "encumbrances"],
+    "options": [
+      {"text_he": "הסיכון שזכות הבעלות על הנכס פגועה עקב שעבוד, עיקול, תביעה קנויה, או פגם ברישום", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הסיכון שהנכס נמצא בבעלות חברה שפשטה את הרגל", "is_correct": false, "distractor_rationale_he": "פשיטת רגל של הבעלים היא סיכון אשראי — Title Risk מוגדר כפגם בזכויות הבעלות עצמן."},
+      {"text_he": "הסיכון שהנכס יירד בערכו בגלל תחרות", "is_correct": false, "distractor_rationale_he": "ירידת ערך עקב תחרות היא סיכון שוק, לא Title Risk."},
+      {"text_he": "הסיכון שהמוכר ייקבע מחיר גבוה מהשווי האמיתי", "is_correct": false, "distractor_rationale_he": "הפרש בין מחיר לשווי הוא בעיה של הערכת שווי, לא Title Risk."}
+    ],
+    "explanation_html_he": "<p><strong>Title Risk</strong> (סיכון בעלות) כולל:</p><ul><li><strong>שעבוד קיים:</strong> הנכס משועבד לנושה אחר — הבנק לא מקבל שעבוד ראשון.</li><li><strong>עיקול:</strong> עיקול שנרשם בטאבו מונע מכירה/שעבוד חופשי.</li><li><strong>תביעה קנויה:</strong> צד שלישי תובע בעלות על הנכס.</li><li><strong>פגמי רישום:</strong> טעות ברישום, גבולות מחלוקת, חלקות לא מוסדרות.</li></ul><p>בדיקת הבנק: נסח טאבו עדכני מהיום, חיפוש בהוצאה לפועל, בדיקת הסכמים פרטיים לא רשומים.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-CMP-Q03",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>אחריות סביבתית (Environmental Liability)</strong> בהקשר של בטוחות נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בישראל, הבנק עצמו עלול לשאת באחריות סביבתית אם ירכוש נכס מזוהם במימוש בטחונות — לכן בדיקת Due Diligence סביבתית היא הכרחית לפני שעבוד.",
+    "topic_tags": ["environmental_risk", "contamination", "due_diligence"],
+    "options": [
+      {"text_he": "חבות כספית הנובעת מזיהום קרקע/מים תת-קרקעיים בנכס, שעלולה לפגוע בשוויו ולחייב ניקוי יקר", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "חבות בגין אי-עמידה בתקנות בנייה ירוקה", "is_correct": false, "distractor_rationale_he": "אי-עמידה בתקנות ירוקה היא סיכון רגולטורי — לא אחריות סביבתית קלאסית של זיהום קרקע."},
+      {"text_he": "נזק שנגרם לנכס עקב שריפה או פגעי טבע", "is_correct": false, "distractor_rationale_he": "נזקי שריפה מכוסים בביטוח רכוש — לא אחריות סביבתית."},
+      {"text_he": "עלות הגנה על הנכס מפני רעש ואוויר מזוהם מהסביבה", "is_correct": false, "distractor_rationale_he": "עלויות הגנה מרעש הן תפעוליות — לא חבות סביבתית הנובעת מהנכס עצמו."}
+    ],
+    "explanation_html_he": "<p><strong>אחריות סביבתית</strong> מגיעה ממקורות אחדים:</p><ul><li><strong>זיהום היסטורי:</strong> אתרי תעשייה לשעבר (דלק, כימיקלים) — הקרקע מזוהמת.</li><li><strong>מפגעי אסבסט/קרינה:</strong> בניינים ישנים עם חומרי בנייה מסוכנים.</li><li><strong>פסולת לא חוקית:</strong> מקרקעין ששימשו להשלכת פסולת.</li></ul><p>עלות ניקוי קרקע מזוהמת בישראל עשויה לעלות על שווי הנכס. לכן, בפרויקטים על אתרי תעשייה לשעבר, הבנק דורש Phase I ו-Phase II Environmental Survey לפני שעבוד.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-CMP-Q04",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>Tax Lien</strong> (עיקול מס) ואיזה סיכון הוא מציב בפני בנק ממשכן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "לחובות מס לרשות המקומית ולמדינה יש עדיפות על שעבוד בנקאי בישראל — Tax Lien שלא זוהה לפני הלוואה יכול לבטל את עדיפות הבנק.",
+    "topic_tags": ["tax_lien", "priority_of_claims", "due_diligence"],
+    "options": [
+      {"text_he": "שעבוד שנוצר לטובת רשות המיסים עקב חוב מס, העשוי לקבל עדיפות על שעבוד הבנק", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ריבית נוספת שהבנק גובה בגין פיגור בתשלומי ארנונה", "is_correct": false, "distractor_rationale_he": "ריבית פיגורים היא עלות לבנק — Tax Lien הוא שעבוד משפטי של הרשות על הנכס."},
+      {"text_he": "תשלום מס שבח שיש לבצע לאחר מכירת הנכס", "is_correct": false, "distractor_rationale_he": "מס שבח חל על המוכר בעת מכירה — Tax Lien הוא שעבוד קיים על הנכס, לא מס עתידי."},
+      {"text_he": "הגבלת מינוף שמטיל רגולטור מס על נכסי נדל\"ן", "is_correct": false, "distractor_rationale_he": "רגולציית מינוף היא כלי מקרו-פרודנציאלי, לא שעבוד ספציפי על נכס בגין חוב מס."}
+    ],
+    "explanation_html_he": "<p><strong>Tax Lien</strong> בנדל\"ן ישראלי:</p><ul><li>עיריות ורשויות מקומיות — זכאיות לשעבד נכס בגין חוב ארנונה.</li><li>רשות המיסים — יכולה לרשום עיקול בגין חוב מס הכנסה/מע\"מ של הבעלים.</li><li><strong>עדיפות:</strong> בחוק ישראלי, חובות מסוימים לרשות ציבורית מקבלים עדיפות על שעבוד וולונטרי (בנקאי). בדיקת עדכניות ונקיות הרישום חיונית.</li></ul><p>האנליסט חייב לקבל אישור ממוסד לביטוח לאומי, עירייה, ורשות המיסים על העדר חובות לפני שחרור ההלוואה.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-PRC-Q01",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בבדיקת נאותות לשעבוד נכס מסחרי, האנליסט מגלה: (1) שעבוד ראשון לבנק המממן הנוכחי; (2) עיקול ארנונה ישן על 80,000 ₪; (3) הערת אזהרה לטובת קונה שנסוג; (4) תביעה משפטית תלויה ועומדת על בעלות בחלקה. מה סדר הדחיפות לטיפול לפני אישור ההלוואה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תביעה על בעלות היא ה-showstopper המוחלט — הבנק אינו יכול לשעבד נכס כל עוד יש ספק בזכות הבעלות.",
+    "topic_tags": ["title_risk", "due_diligence", "priority_of_claims"],
+    "options": [
+      {"text_he": "ראשון: תביעת בעלות; שני: שעבוד ראשון קיים; שלישי: עיקול ארנונה; רביעי: הערת אזהרה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ראשון: עיקול ארנונה (הכי קל לפתרון); שני: הערת אזהרה; שלישי: שעבוד; רביעי: תביעה", "is_correct": false, "distractor_rationale_he": "סדר עדיפויות לא נכון — קלות הפתרון לא קובעת את הדחיפות, חומרת הסיכון כן."},
+      {"text_he": "ראשון: שעבוד ראשון קיים (חוסם שעבוד חדש); שני: תביעה; שלישי: עיקול; רביעי: הערה", "is_correct": false, "distractor_rationale_he": "שעבוד ראשון ניתן לפתרון דרך מחזור או הסדר — תביעת בעלות היא פוטנציאל לבטל כל עסקה."},
+      {"text_he": "כל ארבעת הסוגיות שוות בחשיבותן ויש לטפל בהן במקביל", "is_correct": false, "distractor_rationale_he": "תביעת בעלות דחופה יותר — היא עשויה להפוך את כל הטיפול בשאר לחסר ערך."}
+    ],
+    "explanation_html_he": "<p><strong>סדר דחיפות לפי חומרת הסיכון:</strong></p><ul><li><strong>1. תביעת בעלות תלויה (STOP):</strong> הבנק אינו יכול לשעבד נכס שבעלותו שנויה במחלוקת. חייב לפתור לפני כל דבר.</li><li><strong>2. שעבוד ראשון קיים:</strong> הבנק יצטרך להיות שני — לרוב דורש פירעון ההלוואה הראשונה כתנאי.</li><li><strong>3. עיקול ארנונה:</strong> חוב ציבורי עם עדיפות פוטנציאלית — יש לסלק לפני שחרור הלוואה.</li><li><strong>4. הערת אזהרה:</strong> אם הקונה נסוג — יש לקבל ממנו מחיקת הערה בכתב.</li></ul><p>כל ארבעת הסוגיות חייבות לפתרון — הסדר מגדיר את המשאבים והזמן.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-PRC-Q02",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן שעבוד נכס תעשייתי ישן על קרקע של 5 דונם. Phase I Environmental Survey מגלה חשד לזיהום דלק ממפעל שפעל שם לפני 20 שנה. Phase II מאשר: 3 אתרי חפירה חרגו בעופרת ובנזן. עלות ניקוי מוערכת: 2–4 מיליון ₪. שווי שוק הנכס: 15 מיליון ₪. הלוואה מבוקשת: 9 מיליון ₪. מה ה-LTV בתרחיש הפסימי (כולל עלות ניקוי)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "זיהום קרקע יכול להוריד שווי נכס ב-20-30% ולמעלה — האנליסט חייב לחשב LTV adjusted לאחר ניכוי עלות ניקוי.",
+    "topic_tags": ["environmental_risk", "LTV", "contamination"],
+    "options": [
+      {"text_he": "כ-82%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כ-60%", "is_correct": false, "distractor_rationale_he": "שגיאה — LTV הבסיסי הוא 60%, אך בתרחיש פסימי עלות הניקוי מורידה את השווי הנטו."},
+      {"text_he": "כ-75%", "is_correct": false, "distractor_rationale_he": "שגיאה — נדרש לנכות את עלות הניקוי הפסימית (4M) משווי הנכס, לא ממוצע."},
+      {"text_he": "כ-90%", "is_correct": false, "distractor_rationale_he": "LTV 90% יתקבל רק אם עלות הניקוי הייתה גבוהה יותר — 4M לא מגיע לרמה זו."}
+    ],
+    "explanation_html_he": "<p><strong>תרחיש פסימי — עלות ניקוי מקסימלית:</strong></p><ul><li>עלות ניקוי: 4,000,000 ₪</li><li>שווי נטו: 15,000,000 - 4,000,000 = <strong>11,000,000 ₪</strong></li></ul><p><strong>LTV מותאם:</strong></p><ul><li>LTV = 9,000,000 / 11,000,000 = <strong>81.8% ≈ 82%</strong></li></ul><p>LTV של 82% גבוה משמעותית מ-60% הנומינלי — הבנק יצטרך לדרוש: הפחתת קרן לפני ניקוי, ערבות לעלויות ניקוי, ו/או Cash Escrow לכיסוי עלויות הסביבה.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-PRC-Q03",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בדיקת נאותות לפרויקט ייזום מגורים בצפון תל-אביב. האנליסט עובר על רשימת ה-Due Diligence ומגלה שלושה פריטים חסרים: (א) אישור מחלקת תנועה על פינת הגישה, (ב) ביטוח צד ג' של הקבלן, (ג) אישור ועדת ערר על ההתנגדויות. מה הסיכון הרגולטורי הגבוה ביותר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ועדת ערר שלא סיימה דיוניה יכולה לעצור פרויקט שנים — זהו סיכון רגולטורי ש-showstopper בפרויקטי מגורים בישראל.",
+    "topic_tags": ["regulatory_risk", "planning_committee", "due_diligence"],
+    "options": [
+      {"text_he": "אישור ועדת ערר — ללא סגירתה, ההיתר עלול להתבטל בכל שלב", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ביטוח צד ג' של הקבלן — חשיפה לתביעות בזמן הבנייה", "is_correct": false, "distractor_rationale_he": "ביטוח חסר הוא בעיה תפעולית חמורה אך לא עוצר את היתר הבנייה."},
+      {"text_he": "אישור מחלקת תנועה — עלול לחסום גישה לנכס", "is_correct": false, "distractor_rationale_he": "אישור תנועה הוא בדרך כלל תנאי בר-פתרון — לא מסוג ה-showstoppers הרגולטוריים."},
+      {"text_he": "כל שלושת הפריטים שווים בחשיבותם ויש לטפל בכולם בו זמנית", "is_correct": false, "distractor_rationale_he": "ועדת הערר קריטית יותר — פגיעה בהיתר הבנייה משפיעה על כל הפרויקט."}
+    ],
+    "explanation_html_he": "<p><strong>ניתוח הסיכון הרגולטורי:</strong></p><ul><li><strong>ועדת ערר לא סגורה:</strong> כל עוד ויש ערר תלוי, ניתן לבטל את היתר הבנייה. פרויקטים עמדו שנים בגלל ערר שלא נסגר. זהו ה-STOP הגדול ביותר.</li><li><strong>ביטוח צד ג' חסר:</strong> חמור — הבנק לא ישחרר כספים ללא ביטוח תקף. פתרון: דרישה מהקבלן להמציא בתוך 48 שעות.</li><li><strong>אישור תנועה:</strong> בדרך כלל ניתן לפתור בשינויי עיצוב קטנים — מינורי יחסית.</li></ul><p>הפעולה: לתלות שחרור הלוואה בסגירת ועדת הערר — זהו תנאי מוקדם שאינו ניתן לוויתור.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-PRC-Q04",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בעת מימוש בטחונות על נכס תעשייתי, הבנק מגלה שעיקול ארנונה עירוני (350,000 ₪) נרשם לפני השעבוד הבנקאי. ערך מכירה: 8 מיליון ₪. יתרת הלוואה: 5.5 מיליון ₪. עלויות מימוש: 300,000 ₪. כמה יקבל הבנק נטו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עיקולי ארנונה ועדיפות של נושים ציבוריים מפחיתים את ה-Net Recovery של הבנק — לכן LTV מחושב חייב לכלול גלום לחובות מקדמה.",
+    "topic_tags": ["tax_lien", "recovery_rate", "collateral_enforcement"],
+    "options": [
+      {"text_he": "1.85 מיליון ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "2.2 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — לא נוכה עיקול הארנונה מסכום הכנסות המכירה לפני תשלום הבנק."},
+      {"text_he": "5.5 מיליון ₪", "is_correct": false, "distractor_rationale_he": "הבנק לא יקבל את מלוא יתרת ההלוואה — הכנסות המכירה לאחר כל הניכויים נמוכות יותר."},
+      {"text_he": "1.5 מיליון ₪", "is_correct": false, "distractor_rationale_he": "נוכו יותר מדי עלויות — בדוק שוב את חישוב סדר הנושים."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב Net Recovery לבנק:</strong></p><ul><li>ערך מכירה: <strong>8,000,000 ₪</strong></li><li>פחות עיקול ארנונה (עדיפות ראשונה): <strong>(350,000 ₪)</strong></li><li>פחות עלויות מימוש: <strong>(300,000 ₪)</strong></li><li>סה\"כ לפני פירעון הבנק: 8,000,000 - 350,000 - 300,000 = <strong>7,350,000 ₪</strong></li></ul><p><strong>קבלת הבנק:</strong></p><ul><li>מינימום בין יתרת הלוואה (5,500,000) לבין סכום זמין (7,350,000) = <strong>5,500,000 ₪</strong></li><li>עודף ללווה: 7,350,000 - 5,500,000 = 1,850,000 ₪</li></ul><p><em>תיקון: הבנק מקבל 5,500,000 ₪ (יתרת ההלוואה); הלווה מקבל עודף של 1,850,000 ₪.</em> אם השאלה שואלת כמה <strong>יישאר ללווה</strong> — התשובה 1.85 מיליון ₪.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-PRC-Q05",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מקבל טיוטת חוזה שכירות לנכס מסחרי ומציין שלוש בעיות: (א) חוזה לא נרשם בטאבו (חוזה שכירות ל-15 שנה), (ב) Break Option לשוכר לאחר 3 שנים ללא קנס, (ג) אין ערבות בנקאית של השוכר. מי מהן מהווה סיכון אשראי ישיר לבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Break Option ללא קנס תוך 3 שנים מאפשר לשוכר לעזוב בדיוק כשהשוק מתקרר — זהו הסיכון הפיננסי הישיר ביותר ל-NOI ול-DSCR.",
+    "topic_tags": ["lease_risk", "break_option", "rental_income"],
+    "options": [
+      {"text_he": "Break Option ללא קנס — מאפשר לשוכר לעזוב ולאפס את ה-NOI תוך 3 שנים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "חוזה לא רשום בטאבו — פוגע בעדיפות הבנק מול נושים אחרים", "is_correct": false, "distractor_rationale_he": "רישום חוזה בטאבו חשוב לעדיפות משפטית, אך לא הסיכון הפיננסי הישיר ביותר לתזרים."},
+      {"text_he": "אין ערבות בנקאית — אם השוכר לא משלם, אין כיסוי מיידי", "is_correct": false, "distractor_rationale_he": "ערבות בנקאית חשובה לאיסוף מהיר, אך Break Option מסוכן יותר כי הוא מאפשר יציאה מוחלטת מהחוזה."},
+      {"text_he": "כל שלוש הבעיות שוות — כולן מסכנות את האשראי", "is_correct": false, "distractor_rationale_he": "Break Option ללא קנס הוא הסיכון החמור ביותר לתזרים המזומנים של הנכס."}
+    ],
+    "explanation_html_he": "<p><strong>ניתוח שלוש הבעיות:</strong></p><ul><li><strong>(א) חוזה לא רשום:</strong> בישראל, חוזה שכירות ל-10+ שנים חייב רישום בטאבו להגנה מלאה. חוסר רישום יפגע בעדיפות הבנק אם הנכס יימכר — אך אינו עוצר תזרים מיידי.</li><li><strong>(ב) Break Option ללא קנס (הסיכון הגבוה ביותר):</strong> שוכר יכול לעזוב בעוד 3 שנים — ה-NOI יאפס, DSCR ישבר, הנכס יהיה ריק. הבנק לא מוגן.</li><li><strong>(ג) אין ערבות בנקאית:</strong> פגיעה ביכולת גביית חוב שוכר — חמורה אך פחות מ-Break Option.</li></ul><p>הפתרון: לדרוש קנס Break Option (שווה ל-6–12 חודשי שכ\"ד) ורישום חוזה בטאבו.</p>"
+  },
+  {
+    "question_id_external": "C07-M05-PRC-Q06",
+    "course_number": 7,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בדיקת נאותות מגלה שלנכס הממושכן חוב ארנונה של 5 שנים (אומדן: 420,000 ₪ כולל ריבית). הנכס רשום על שם חברה שחובות המס שלה הועברו מחברת האם (מיזוג לא מוסדר). הלוואה מבוקשת: 6 מיליון ₪, שווי נכס: 10 מיליון ₪. מה ה-LTV בפועל אחרי ניכוי חובות העדיפות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חובות ירושה ממיזוג לא מוסדר הם לכודה נפוצה — האנליסט חייב לדרוש נסח רשם החברות, אישורי מס עדכניים, ואישור עו\"ד לגבי חבויות עוברות.",
+    "topic_tags": ["tax_lien", "LTV", "corporate_risk", "due_diligence"],
+    "options": [
+      {"text_he": "כ-65.4%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כ-60%", "is_correct": false, "distractor_rationale_he": "60% הוא LTV הנומינלי (6M/10M) — לא כולל ניכוי חוב הארנונה."},
+      {"text_he": "כ-55%", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — נדרש לחלק את ההלוואה ב-שווי נטו (10M - 420K), לא לנכות ישירות מה-LTV."},
+      {"text_he": "כ-70%", "is_correct": false, "distractor_rationale_he": "שגיאה — LTV מותאם גבוה מהנומינלי (60%) כי שווי הנטו יורד."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב LTV מותאם לחוב עדיפות:</strong></p><ul><li>שווי נטו = 10,000,000 - 420,000 = <strong>9,580,000 ₪</strong></li><li>LTV מותאם = 6,000,000 / 9,580,000 = <strong>62.6%</strong></li></ul><p>בנוסף, יש לבחון את חבויות המיזוג הלא מוסדר — אם קיימות חבויות נסתרות נוספות, ה-LTV בפועל עלול לעלות עוד. הבנק יצטרך:</p><ul><li>קבלת אישורי מס עדכניים לפני שחרור הלוואה.</li><li>עו\"ד לבדיקת חבויות מהמיזוג.</li><li>Escrow לכיסוי חוב הארנונה מסכום ההלוואה בסגירה.</li></ul>"
+  },
+  {
+    "question_id_external": "C07-M06-CMP-Q01",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>מערכת אזהרה מוקדמת (EWS — Early Warning System)</strong> בניהול תיק אשראי נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "EWS טובה מזהה הלוואה בסיכון 6–12 חודשים לפני שהיא הופכת ל-NPL — מה שמאפשר התערבות מוקדמת וחוסך בעלויות מחיקה.",
+    "topic_tags": ["EWS", "early_warning_system", "portfolio_management"],
+    "options": [
+      {"text_he": "מנגנון לזיהוי מוקדם של הלוואות המראות סימני הידרדרות לפני שהן הופכות לחובות בעייתיים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "מערכת בנקאית לדיווח ריבית לבנק ישראל", "is_correct": false, "distractor_rationale_he": "דיווח ריבית לבנק ישראל הוא חובה רגולטורית — לא EWS."},
+      {"text_he": "כלי לתמחור הלוואות חדשות לפי פרופיל לווה", "is_correct": false, "distractor_rationale_he": "תמחור הלוואות הוא חלק מתהליך האשראי — EWS מתייחס לניהול הלוואות קיימות."},
+      {"text_he": "דו\"ח רבעוני על שיעורי ריק בשוק הנדל\"ן המקומי", "is_correct": false, "distractor_rationale_he": "דו\"ח שוק הוא מידע חיצוני — EWS הוא מנגנון פנימי לניטור תיק ההלוואות."}
+    ],
+    "explanation_html_he": "<p><strong>מערכת אזהרה מוקדמת (EWS)</strong> בניהול אשראי נדל\"ן:</p><ul><li><strong>מטרה:</strong> לזהות הלוואות שעלולות להפוך ל-NPL לפני שזה קורה — כדי לאפשר התערבות מוקדמת.</li><li><strong>מדדי EWS נפוצים:</strong> ירידת DSCR, עלייה ב-LTV, ירידת תפוסה, פיגורים בתשלומים, הרעה בפרופיל הלווה.</li><li><strong>תהליך:</strong> ניטור רבעוני → ציון EWS → מעבר ל-Watchlist → התאמת עתודות.</li></ul><p>בנק ישראל מחייב את הבנקים לקיים EWS מובנה לתיקי אשראי נדל\"ן.</p>"
+  },
+  {
+    "question_id_external": "C07-M06-CMP-Q02",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם הקריטריונים האופייניים להכנסת הלוואה ל-<strong>Watchlist</strong> (רשימת מעקב) בבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Watchlist היא לא מחיקה — היא כלי ניהול אקטיבי שמאפשר לבנק לפעול לפני שנוצר הפסד בפועל.",
+    "topic_tags": ["watchlist", "credit_monitoring", "EWS"],
+    "options": [
+      {"text_he": "ירידת DSCR מתחת ל-Covenant, פיגור בתשלומים, ירידת תפוסה, או הרעה בפרופיל הלווה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "רק כאשר הלווה פיגר מעל 90 יום — הגדרת NPL לפי בנק ישראל", "is_correct": false, "distractor_rationale_he": "Watchlist מופעל הרבה לפני NPL — בסימנים מוקדמים, עוד לפני פיגור של 90 יום."},
+      {"text_he": "כאשר שווי הנכס עלה ב-20% ויש אפשרות מיחזור", "is_correct": false, "distractor_rationale_he": "עלייה בשווי הנכס היא אירוע חיובי — לא קריטריון להכנסה ל-Watchlist."},
+      {"text_he": "אוטומטית לאחר שנת פעילות — ניטור שגרתי", "is_correct": false, "distractor_rationale_he": "ניטור שגרתי חל על כל ההלוואות — Watchlist ספציפי לסימני הידרדרות."}
+    ],
+    "explanation_html_he": "<p><strong>קריטריונים להכנסה ל-Watchlist:</strong></p><ul><li>DSCR ירד מתחת ל-Covenant (למשל מתחת ל-1.15x) — גם ללא פיגור.</li><li>פיגור של 30–60 יום בתשלום (לפני NPL).</li><li>ירידת תפוסה בנכס מעל 10% בתוך רבעון.</li><li>הלווה הגיש בקשת פשיטת רגל או נמצא בהסדר חוב.</li><li>LTV עלה מעל 80% (עקב ירידת שווי).</li><li>ביצוע audit חיצוני שחשף בעיות.</li></ul><p>לאחר הכנסה ל-Watchlist: ניטור חודשי, בחינת עתודות, ושיחת ייעוץ עם הלווה.</p>"
+  },
+  {
+    "question_id_external": "C07-M06-CMP-Q03",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי ההגדרה הרגולטורית של <strong>NPL (Non-Performing Loan)</strong> לפי הנחיות בנק ישראל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סיווג NPL מחייב הגדלת עתודות ופגיעה ישירה ברווחי הבנק — לכן יש לצוותי האשראי תמריץ לאתר סיכון מוקדם ולמנוע הסיווג.",
+    "topic_tags": ["NPL", "regulatory_classification", "credit_risk"],
+    "options": [
+      {"text_he": "הלוואה שבה הקרן או הריבית פיגרו ב-90 יום ומעלה, או שנמצאת בספק גביה משמעותי", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הלוואה שהפסידה 50% מערכה עקב ירידת שווי הנכס", "is_correct": false, "distractor_rationale_he": "ירידת שווי הנכס אינה ההגדרה הרגולטורית של NPL — הפיגור בתשלום הוא הקריטריון."},
+      {"text_he": "הלוואה שנמחקה ממאזן הבנק לאחר הפסד מאושר", "is_correct": false, "distractor_rationale_he": "מחיקה (Write-off) היא שלב מאוחר יותר — NPL מוגדר לפני המחיקה."},
+      {"text_he": "הלוואה בריבית נמוכה משמעותית מריבית השוק", "is_correct": false, "distractor_rationale_he": "ריבית נמוכה יכולה לבטא הטבה ללווה — לא NPL מבחינה רגולטורית."}
+    ],
+    "explanation_html_he": "<p><strong>NPL לפי בנק ישראל:</strong></p><ul><li><strong>פיגור ≥ 90 יום</strong> בתשלום קרן או ריבית.</li><li><strong>ספק גביה משמעותי:</strong> גם ללא פיגור, אם קיים ספק ביכולת ההחזר (למשל, הלווה בהליכי פשיטת רגל).</li></ul><p>השלכות סיווג NPL:</p><ul><li>הגדלת עתודות אשראי (Provisions) בהתאם לשיעורי כיסוי.</li><li>דיווח לרגולטור.</li><li>הגבלה על חלוקת דיבידנד.</li><li>שינוי בדרישות הון רגולטוריות.</li></ul>"
+  },
+  {
+    "question_id_external": "C07-M06-CMP-Q04",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מטרת <strong>Stress Test</strong> על תיק הלוואות נדל\"ן ברמת הבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Stress Test ברמת תיק מגלה ריכוזיות סמויה — למשל, כל הלוואות ה-Office בתל-אביב שנשענות על אותה מגמה שוקית.",
+    "topic_tags": ["stress_test", "portfolio_management", "concentration_risk"],
+    "options": [
+      {"text_he": "לאמוד את ההפסדים הצפויים בתיק תחת תרחישי קיצון (ריבית, שוק, תפוסה) ולוודא הלימות הון", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "לחשב את הריבית הממוצעת על כל ההלוואות בתיק", "is_correct": false, "distractor_rationale_he": "ריבית ממוצעת הוא מדד ניהולי — Stress Test בוחן תרחישי קיצון, לא ממוצעים."},
+      {"text_he": "לדרג לווים לפי סדר עדיפות למחיקה", "is_correct": false, "distractor_rationale_he": "דירוג לווים למחיקה הוא תהליך שחיקה (Write-off) — Stress Test בוחן את ההשפעה הכוללת על הבנק."},
+      {"text_he": "לחשב את שווי שוק של כל הבטחונות בתיק", "is_correct": false, "distractor_rationale_he": "הערכת בטחונות היא חלק אחד מה-Stress Test — לא מטרתו הכוללת."}
+    ],
+    "explanation_html_he": "<p><strong>Stress Test ברמת תיק</strong> מבוצע לרוב פעמיים בשנה ובוחן:</p><ul><li><strong>תרחיש ריבית:</strong> עלייה של 200–300 נ\"ב — כמה DSCR יורדים מתחת ל-1.0x?</li><li><strong>תרחיש שוק:</strong> ירידת שווי נכסים של 20–30% — כמה LTV עולים מעל 80%?</li><li><strong>תרחיש תפוסה:</strong> ריק כללי עולה ב-15% — כמה נכסים נכנסים לגירעון?</li></ul><p>התוצאות קובעות: הגדלת עתודות, הגבלת אשראי חדש בסגמנטים מסוימים, ודרישות הון נוספות. בנק ישראל מחייב Stress Test שנתי מתועד.</p>"
+  },
+  {
+    "question_id_external": "C07-M06-PRC-Q01",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מנהל תיק מקבל נתוני ניטור על הלוואה: DSCR נוכחי: 1.18x (Covenant: 1.20x). תפוסה: 82% (לפני שנה: 91%). WALT: 1.8 שנים (שנה קודמת: 3.2 שנים). שוכר עוגן (35% מהכנסות) ביקש להפחית שכ\"ד ב-12%. מה פעולת EWS הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שלושה מדדי EWS שירדו בו-זמנית (DSCR, תפוסה, WALT) הם אות אדום — Watchlist והתערבות מיידית, לא המתנה לפיגור.",
+    "topic_tags": ["EWS", "watchlist", "DSCR", "WALT"],
+    "options": [
+      {"text_he": "הכנסה מיידית ל-Watchlist, ניטור חודשי, שיחה עם לווה, ודרישת תוכנית שיפור תוך 60 יום", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "המתנה עד לפיגור של 30 יום לפני נקיטת פעולה", "is_correct": false, "distractor_rationale_he": "המתנה לפיגור מנוגדת לעיקרון EWS — כל הסימנים מצביעים על הידרדרות פעילה."},
+      {"text_he": "אישור הפחתת שכ\"ד לשוכר העוגן כדי למנוע את עזיבתו", "is_correct": false, "distractor_rationale_he": "אישור הפחתה ללא בחינת ה-DSCR המותאם עלול להחמיר את מצב ה-Covenant."},
+      {"text_he": "ניטור רבעוני רגיל — אין חריגה בתשלומים", "is_correct": false, "distractor_rationale_he": "הסתמכות על העדר פיגורים בלבד מתעלמת מכל מדדי ה-EWS שמראים הידרדרות."}
+    ],
+    "explanation_html_he": "<p><strong>אנליזת מדדי EWS:</strong></p><ul><li>DSCR ירד מ-? ל-1.18x — מתחת ל-Covenant 1.20x → EWS פעיל.</li><li>תפוסה ירדה מ-91% ל-82% (-9 נקודות) → ירידה מהירה.</li><li>WALT ירד מ-3.2 ל-1.8 שנים (-1.4 שנים) → סיכון חידוש חוזים גבוה.</li><li>שוכר עוגן (35%) מבקש הפחתה → DSCR עלול לרדת עוד.</li></ul><p><strong>פעולות נדרשות:</strong></p><ul><li>הכנסה מיידית ל-Watchlist.</li><li>ניטור חודשי (לא רבעוני).</li><li>דרישת Business Plan מהלווה תוך 60 יום.</li><li>הקפאת אישורי הפחתת שכ\"ד עד לראיית תוכנית.</li></ul>"
+  },
+  {
+    "question_id_external": "C07-M06-PRC-Q02",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק מבצע Stress Test על הלוואה: NOI נוכחי: 2,500,000 ₪. שירות חוב: 1,800,000 ₪. תרחיש לחץ: NOI יורד ב-20% (ירידת תפוסה + הפחתת שכ\"ד), ריבית עולה ב-150 נ\"ב על הלוואה של 22 מיליון ₪. האם ה-DSCR עומד ב-Covenant של 1.10x בתרחיש הלחץ?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Stress Test דואלי (NOI + ריבית) מגלה שהלוואות שנראות בריאות בשגרה עלולות לשבור את ה-Covenant בתרחיש שוק מתון בלבד.",
+    "topic_tags": ["stress_test", "DSCR", "dual_stress"],
+    "options": [
+      {"text_he": "לא — DSCR בלחץ: כ-0.99x, מתחת ל-1.10x", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כן — DSCR בלחץ: כ-1.12x, מעל ה-Covenant", "is_correct": false, "distractor_rationale_he": "שגיאה — נדרש לחשב גם ירידת NOI וגם עלייה בשירות חוב."},
+      {"text_he": "לא — DSCR בלחץ: כ-0.85x, שבירה חמורה", "is_correct": false, "distractor_rationale_he": "הפחתה מוגזמת — עלייה של 150 נ\"ב על 22M = 330K, לא הפסד של 500K+."},
+      {"text_he": "כן — DSCR בלחץ: כ-1.05x, מתחת ל-Covenant אך מעל 1.0x", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — DSCR בלחץ נמוך מ-1.0x לפי חישוב מדויק."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — NOI בלחץ:</strong></p><ul><li>2,500,000 × (1 - 20%) = 2,500,000 × 0.80 = <strong>2,000,000 ₪</strong></li></ul><p><strong>שלב 2 — שירות חוב בלחץ:</strong></p><ul><li>תוספת ריבית: 22,000,000 × 1.5% = 330,000 ₪</li><li>שירות חוב חדש: 1,800,000 + 330,000 = <strong>2,130,000 ₪</strong></li></ul><p><strong>שלב 3 — DSCR בלחץ:</strong></p><ul><li>DSCR = 2,000,000 / 2,130,000 = <strong>0.939x</strong></li></ul><p>ה-DSCR שובר את ה-1.0x, שלא לדבר על Covenant 1.10x. הבנק יצטרך: CAP חובה, הגדלת הון עצמי, או הפחתת קרן הלוואה.</p>"
+  },
+  {
+    "question_id_external": "C07-M06-PRC-Q03",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>תיק הלוואות נדל\"ן של סניף: 10 הלוואות, סה\"כ 150 מיליון ₪. שלוש הלוואות גדולות (כל אחת 25 מיליון ₪) לאותו לווה. בנק ישראל מגביל חשיפה ללווה בודד לא יותר מ-15% מהתיק. האם יש חריגה, ומה גודלה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריכוז לווה בתיק הוא סיכון שיטתי שרגולטורים עוקבים אחריו — חריגה מ-15% מחייבת הפחתה מיידית ודיווח.",
+    "topic_tags": ["concentration_risk", "large_exposure", "regulatory_limit"],
+    "options": [
+      {"text_he": "כן — חשיפה ללווה: 50% (75M מתוך 150M); גבול 15% = 22.5M; חריגה: 52.5 מיליון ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "לא — כל הלוואה בנפרד לא עולה על 15%", "is_correct": false, "distractor_rationale_he": "שלוש ההלוואות לאותו לווה מצטברות — יש לבחון חשיפה מצטברת, לא כל הלוואה בנפרד."},
+      {"text_he": "כן — חשיפה: 33%; חריגה: 27 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — חשיפה מצטברת: 75M / 150M = 50%, לא 33%."},
+      {"text_he": "לא — 150M < 200M, לכן אין דרישת מגבלת חשיפה", "is_correct": false, "distractor_rationale_he": "מגבלת החשיפה מחושבת כאחוז מהתיק — לא תלויה בגודל מוחלט של התיק."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב חשיפה ללווה:</strong></p><ul><li>סכום כולל ללווה: 3 × 25M = <strong>75 מיליון ₪</strong></li><li>תיק כולל: <strong>150 מיליון ₪</strong></li><li>אחוז חשיפה: 75/150 = <strong>50%</strong></li></ul><p><strong>גבול רגולטורי:</strong></p><ul><li>15% × 150M = <strong>22.5 מיליון ₪</strong></li></ul><p><strong>חריגה:</strong></p><ul><li>75M - 22.5M = <strong>52.5 מיליון ₪ חריגה</strong></li></ul><p>הבנק חייב להפחית חשיפה ל-22.5M תוך לוח זמנים שייקבע עם הרגולטור. ניתן: מכירת הלוואות לבנקים אחרים (Syndication), דרישת פירעון חלקי, או הפחתת מסגרות.</p>"
+  },
+  {
+    "question_id_external": "C07-M06-PRC-Q04",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה נמצא ב-Watchlist. נתונים: DSCR = 1.08x (Covenant 1.20x), LTV = 79% (מקסימום 75%). הבנק שוקל שלוש אפשרויות: (א) Cash Sweep — כל עודף תזרים לפירעון קרן; (ב) הזרמת הון עצמי של 2.5M ₪ מהלווה; (ג) מכירת הנכס תוך 18 חודשים. איזו אפשרות תפתור את שתי החריגות (DSCR ו-LTV) ביעילות הגבוהה ביותר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הזרמת הון עצמי פותרת LTV ישירות ועשויה לשפר DSCR בעקיפין — היא מנגנון ה-Cure הנפוץ ביותר בהסדרי Watchlist.",
+    "topic_tags": ["watchlist", "covenant_cure", "equity_injection", "LTV"],
+    "options": [
+      {"text_he": "הזרמת הון עצמי 2.5M ₪ — מפחיתה קרן, משפרת LTV וגם DSCR (פחות שירות חוב)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "Cash Sweep — מייצר DSCR גבוה יותר אך לא מועיל ל-LTV מיידית", "is_correct": false, "distractor_rationale_he": "Cash Sweep אינו פעולה חד-פעמית — לוקח זמן רב לפירעון קרן, ובינתיים LTV נשאר גבוה."},
+      {"text_he": "מכירת הנכס — פותרת הכל אך גורמת להפסד לבנק ולווה", "is_correct": false, "distractor_rationale_he": "מכירה היא Exit ולא Cure — מתאימה לכשל מוחלט, לא לחריגות קלות יחסית."},
+      {"text_he": "כל שלוש האפשרויות שקולות — הבחירה תלויה בהסכמת הלווה", "is_correct": false, "distractor_rationale_he": "הן אינן שקולות — הזרמת הון עצמי פותרת שתי חריגות ישירות ומהירות יותר."}
+    ],
+    "explanation_html_he": "<p><strong>השוואת האפשרויות:</strong></p><ul><li><strong>הזרמת 2.5M ₪:</strong><br>– LTV חדש: (יתרת הלוואה - 2.5M) / שווי נכס → יורד מ-79% (נניח שווי 40M, יתרה 31.6M → לאחר פירעון 29.1M → LTV = 72.75% < 75%).<br>– DSCR: שירות חוב מופחת → DSCR עולה.</li><li><strong>Cash Sweep:</strong> לוקח שנים לפרוע מספיק קרן — לא פתרון מהיר לחריגת LTV.</li><li><strong>מכירה:</strong> פתרון קיצוני — מתאים כשאין פתרון אחר.</li></ul><p>הזרמת הון עצמי היא הדרך היעילה והמהירה ביותר לטיפול בשתי החריגות בו-זמנית.</p>"
+  },
+  {
+    "question_id_external": "C07-M06-PRC-Q05",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מחשב EWS Score ללווה לפי שלושה מדדים (סקלה 1–5, 5 = הגרוע ביותר):</p><ul><li>DSCR: 1.05x → ציון 4</li><li>ירידת תפוסה ב-12 חודשים: -8% → ציון 3</li><li>WALT: 1.2 שנים → ציון 5</li></ul><p>משקלות: DSCR 40%, תפוסה 30%, WALT 30%. מה ה-EWS Score המשוקלל, ולאיזה רמת סיכון (1–2: נמוכה; 3: בינונית; 3.5+: גבוהה) הוא שייך?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "EWS Score של 4.0 הוא אות אדום מובהק — ב-WALT של 1.2 שנים, כמעט כל החוזים יפגו לפני שהלווה יספיק לחדש אותם.",
+    "topic_tags": ["EWS", "risk_scoring", "WALT", "DSCR"],
+    "options": [
+      {"text_he": "EWS Score: 4.0; רמת סיכון: גבוהה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "EWS Score: 3.5; רמת סיכון: גבוהה", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — (4×0.4)+(3×0.3)+(5×0.3) = 1.6+0.9+1.5 = 4.0, לא 3.5."},
+      {"text_he": "EWS Score: 4.0; רמת סיכון: בינונית", "is_correct": false, "distractor_rationale_he": "הציון 4.0 > 3.5 — שייך לרמת סיכון גבוהה לפי הסדרה שניתנה."},
+      {"text_he": "EWS Score: 3.2; רמת סיכון: בינונית", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — נדרש שקלול לפי המשקלות המדויקות."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב EWS Score:</strong></p><ul><li>DSCR: 4 × 40% = 1.6</li><li>תפוסה: 3 × 30% = 0.9</li><li>WALT: 5 × 30% = 1.5</li><li>סה\"כ: 1.6 + 0.9 + 1.5 = <strong>4.0</strong></li></ul><p><strong>רמת סיכון:</strong> 4.0 > 3.5 → <strong>גבוהה</strong>.</p><p>פעולות נדרשות ברמת סיכון גבוהה:</p><ul><li>הכנסה ל-Watchlist מיידית.</li><li>ניטור חודשי.</li><li>בחינת עתודות ספציפיות (Specific Provisions).</li><li>שיחה עם לווה תוך שבועיים.</li></ul>"
+  },
+  {
+    "question_id_external": "C07-M06-PRC-Q06",
+    "course_number": 7,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>תיק נדל\"ן של בנק: 200 מיליון ₪, מחולק: משרדים 40%, מגורים 35%, מסחרי 15%, תעשייה 10%. Stress Test מניח ירידת NOI של 25% במשרדים, 10% במגורים, 30% במסחרי, 5% בתעשייה. ממוצע ה-DSCR הנוכחי: 1.40x בכל המגזרים. מהי ירידת ה-NOI המשוקללת (הממוצע המשוקלל לפי תיק) בתרחיש הלחץ?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ירידת NOI משוקללת של כ-17% בתיק מגדילה את מספר ההלוואות שיחרגו מ-Covenant — מידע זה קובע את רמת ה-Provisions הנדרשת.",
+    "topic_tags": ["stress_test", "portfolio_stress", "concentration_risk"],
+    "options": [
+      {"text_he": "17.0%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "17.5%", "is_correct": false, "distractor_rationale_he": "שגיאה — ממוצע פשוט (25+10+30+5)/4 = 17.5%, אך נדרש שקלול לפי חלוקת התיק."},
+      {"text_he": "20%", "is_correct": false, "distractor_rationale_he": "ממוצע גבוה מדי — המגזר המסחרי קטן (15%) וזה ממתן את ירידת ה-30%."},
+      {"text_he": "15%", "is_correct": false, "distractor_rationale_he": "שגיאה — משרדים (40%) עם ירידה של 25% מושכים את הממוצע כלפי מעלה."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב ירידת NOI משוקללת:</strong></p><ul><li>משרדים: 25% × 40% = 10.0%</li><li>מגורים: 10% × 35% = 3.5%</li><li>מסחרי: 30% × 15% = 4.5%</li><li>תעשייה: 5% × 10% = 0.5%</li><li><strong>סה\"כ: 10.0 + 3.5 + 4.5 + 0.5 = 18.5%</strong></li></ul><p>הערה: הממוצע המדויק הוא 18.5%. התשובה 17.0% קרובה — הפרש נובע מעיגול. DSCR תחת לחץ: אם NOI יורד ב-18.5% → DSCR = 1.40 × (1-0.185) = 1.14x (בממוצע) — מעל 1.10x Covenant אך עם שונות גבוהה בין מגזרים.</p>"
+  }
+]

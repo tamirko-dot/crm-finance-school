@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C08-M01-CMP-Q01",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>תנאי מקדים (Condition Precedent)</strong> בהסכם הלוואה ומה תפקידו לפני משיכת הכספים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "אנליסט אשראי חייב לוודא שכל תנאי מקדים קוים לפני כל משיכת כספים — אחרת הבנק חשוף למתן אשראי ללא הגנות.",
+    "topic_tags": ["condition_precedent", "loan_agreement", "drawdown"],
+    "options": [
+      {
+        "text_he": "תנאי מקדים הוא דרישה שעל הלווה לעמוד בה לפני שהמלווה מחויב להעמיד את ההלוואה; לא קוים התנאי — אין זכות משיכה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תנאי מקדים הוא חישוב ריבית שנקבע לפני חתימת ההסכם ומחייב את שני הצדדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב ריבית הוא חלק ממנגנון התמחור, לא תנאי מקדים לביצוע ההלוואה"
+      },
+      {
+        "text_he": "תנאי מקדים הוא תניית אירוע כשל שמאפשרת למלווה לדרוש פירעון מוקדם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אירוע כשל (Event of Default) פועל לאחר מתן ההלוואה, בעוד שתנאי מקדים מתקיים לפני משיכת הכספים"
+      },
+      {
+        "text_he": "תנאי מקדים הוא הסכמה בין הצדדים לדחות את תאריך הסגירה של העסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דחיית תאריך סגירה היא פעולה אופרטיבית נפרדת, לא ההגדרה של תנאי מקדים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תנאי מקדים (Condition Precedent — CP)</strong> הוא דרישה חוזית שעל הלווה לקיים <em>לפני</em> שהמלווה מחויב להעמיד את הכספים.</p><ul><li>דוגמאות נפוצות: רישום משכנתה בטאבו, המצאת ביטוח רכוש, חוות דעת משפטית של ייעוץ חיצוני, אישור שמאות</li><li>תפקיד ה-CP: להבטיח שכל הבטוחות, הייצוגים והמסמכים קיימים <strong>לפני</strong> שהבנק נושא בסיכון אשראי</li><li>אם CP לא קוים: הבנק אינו חייב לבצע את המשיכה, ואין לו חבות חוזית לכך</li></ul><p>מנקודת מבט אנליסט — יש לעבור על רשימת ה-CPs ולסמן כל אחד כ\"עמד\" (satisfied) או \"ממתין\" (outstanding) לפני אישור כל משיכה.</p>"
+  },
+  {
+    "question_id_external": "C08-M01-CMP-Q02",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>ייצוג ואחריות (Representation &amp; Warranty)</strong> בהסכם הלוואה ומה קורה אם הוא התגלה כשגוי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ייצוגים ואחריות הם \"תמונת המצב\" של הלווה נכון למועד הסגירה — שקר בייצוג מהווה בדרך כלל אירוע כשל מיידי.",
+    "topic_tags": ["representations_warranties", "loan_agreement", "event_of_default"],
+    "options": [
+      {
+        "text_he": "הצהרת עובדה של הלווה בדבר מצבו המשפטי, הפיננסי והתפעולי נכון למועד החתימה; אם הייצוג שגוי, הדבר מהווה בדרך כלל אירוע כשל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "התחייבות עתידית של הלווה לשמור על יחסים פיננסיים מסוימים לאורך חיי ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו הגדרת covenant (אמנה), לא של Representation & Warranty שהוא הצהרת עובדה נוכחית"
+      },
+      {
+        "text_he": "אחריות המלווה כלפי הלווה לספק את הסכום המובטח בהסכם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ייצוג ואחריות בהקשר הלוואה הוא מצד הלווה כלפי המלווה, לא להפך"
+      },
+      {
+        "text_he": "סעיף שמגביל את הלווה מלבצע פעולות ספציפיות כגון חלוקת דיבידנדים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגבלת פעולות היא negative covenant, לא ייצוג ואחריות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Representation &amp; Warranty</strong> הוא הצהרת עובדה של הלווה שנכונה למועד החתימה (ולעיתים נחזרת בכל משיכה):</p><ul><li>מצב משפטי: הלווה מאוגד כחוק, אין הליכים משפטיים מהותיים תלויים ועומדים</li><li>מצב פיננסי: הדוחות הכספיים מציגים נאמנה את מצב החברה</li><li>בעלות: הנכס הממושכן בבעלות הלווה ונקי מעיקולים שלא גולו</li></ul><p>אם ייצוג מתגלה כשקרי או מטעה — המלווה רשאי בדרך כלל להכריז על <strong>אירוע כשל</strong> ולדרוש פירעון מיידי. זו הסיבה שאנליסטים בודקים בקפדנות את רשימת ה-Reps לפני סגירה.</p>"
+  },
+  {
+    "question_id_external": "C08-M01-CMP-Q03",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו מן הבאים מהווה <strong>אירוע כשל (Event of Default)</strong> טיפוסי בהסכם הלוואה נדל\"נית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "רשימת אירועי הכשל היא לב ליבו של הסכם ההלוואה — כל סעיף שם הוא קו אדום שהמלווה קבע מראש לפני שהסיכון הופך לבלתי נסבל.",
+    "topic_tags": ["event_of_default", "loan_agreement", "acceleration"],
+    "options": [
+      {
+        "text_he": "אי-תשלום קרן או ריבית במועדם, הפרת covenant, ייצוג שגוי מהותי, פשיטת רגל של הלווה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עלייה בריבית הפריים, ירידת ערך כללית בשוק הנדל\"ן, שינוי בדירוג אשראי לאומי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אירועי שוק כלליים אינם בשליטת הלווה ואינם נכללים בדרך כלל כ-Events of Default אלא כגורמי שינוי שוק"
+      },
+      {
+        "text_he": "בקשת הלווה לדחות את מועד הפירעון בשלושה חודשים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בקשת דחייה כשלעצמה אינה אירוע כשל אלא בקשה שדורשת הסכמת המלווה; אי-פירעון בפועל — כן"
+      },
+      {
+        "text_he": "מינוי מנכ\"ל חדש בחברת הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי ניהולי כשלעצמו אינו אירוע כשל, אלא אם ה-Change of Control הוגדר כ-EOD ספציפי בהסכם"
+      }
+    ],
+    "explanation_html_he": "<p><strong>אירועי כשל (Events of Default)</strong> טיפוסיים בהסכמי הלוואה נדל\"ניים:</p><ul><li><strong>אי-תשלום</strong> — אי-תשלום ריבית/קרן במועד (לרוב עם תקופת grace של 3–5 ימים)</li><li><strong>הפרת Covenant</strong> — חריגה מיחס LTV, DSCR, ICR שנקבע בהסכם</li><li><strong>ייצוג שגוי</strong> — התגלה שייצוג מהותי היה כוזב ביום החתימה</li><li><strong>חדלות פירעון / פשיטת רגל</strong> — הגשת בקשת פירוק או כינוס נכסים</li><li><strong>Cross-Default</strong> — כשל בהלוואה אחרת מעל סף מינימלי</li></ul><p>לאחר הכרזה על EOD, המלווה רשאי להאיץ (Accelerate) את כל הסכום לפירעון מיידי ולממש בטוחות.</p>"
+  },
+  {
+    "question_id_external": "C08-M01-CMP-Q04",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כיצד קורא אנליסט אשראי הסכם הלוואה — מה הסדר הנכון לעיון בסעיפים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "אנליסט מנוסה מתחיל בהבנת מבנה העסקה ורק לאחר מכן צולל לפרטי הסעיפים — הסדר הנכון חוסך זמן ומונע אי-הבנות.",
+    "topic_tags": ["loan_agreement", "credit_analysis", "document_review"],
+    "options": [
+      {
+        "text_he": "מבנה עסקה ותנאים מרכזיים (Term Sheet) ← תנאים מקדימים ← Representations ← Covenants ← Events of Default",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Events of Default ← Covenants ← Representations ← תנאים מקדימים ← Term Sheet",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קריאה הפוכה תיצור תמונה מבולבלת — יש להבין את מבנה העסקה לפני שמנתחים פרטי הגנות"
+      },
+      {
+        "text_he": "קריאה ליניארית של ההסכם מהסעיף הראשון לאחרון בלי לדלג",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קריאה ליניארית אפשרית אך לא יעילה — אנליסט מיומן מזהה תחילה את סעיפי הסיכון המרכזיים"
+      },
+      {
+        "text_he": "התמקדות אך ורק בסעיף הריבית ולוח הסילוקין, שאר הסעיפים אחריות הלגל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אנליסט אשראי חייב להבין גם covenants, EOD ובטוחות — לא רק תמחור"
+      }
+    ],
+    "explanation_html_he": "<p>הסדר המומלץ לעיון בהסכם הלוואה נדל\"נית מנקודת מבט אנליסט:</p><ol><li><strong>Term Sheet / Facility Summary</strong> — הגדרת סכום, ריבית, מח\"מ, מטרה</li><li><strong>Conditions Precedent</strong> — מה נדרש לפני המשיכה</li><li><strong>Representations &amp; Warranties</strong> — מה הלווה מצהיר על עצמו</li><li><strong>Covenants</strong> — מה הלווה מתחייב לשמור (Financial &amp; Operational)</li><li><strong>Events of Default</strong> — מה מזכה את המלווה בהאצה</li><li><strong>Security Package</strong> — מה הבטוחות ומה סדר עדיפותן</li></ol><p>הבנת המבנה הזה מאפשרת לאנליסט לזהות במהירות את נקודות הסיכון ולתעדף את בדיקת הנאותות.</p>"
+  },
+  {
+    "question_id_external": "C08-M01-PRC-Q01",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>עיין בסעיפים הבאים מהסכם הלוואה. אילו מהם מהווה <strong>אירוע כשל (Event of Default)</strong>?</p><ul><li>א. הלווה לא שילם ריבית רבעונית שהגיעה לתשלום ב-1 במרץ, לאחר תקופת grace של 5 ימי עסקים</li><li>ב. הלווה חתם על הסכם שכירות חדש לנכס המשועבד</li><li>ג. ערך הנכס ירד ב-20% ביחס לשמאות בעת הסגירה, וה-LTV עלה מ-65% ל-79%, חורג מהמקסימום המוסכם של 75%</li><li>ד. מנכ\"ל חברת הלווה פרש והוחלף</li></ul>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אנליסט מיומן מבחין בין אירועים עסקיים רגילים (שינוי ניהול, שכירות חדשה) לבין חריגות חוזיות שמהוות EOD.",
+    "topic_tags": ["event_of_default", "loan_agreement", "ltv_covenant"],
+    "options": [
+      {
+        "text_he": "א ו-ג בלבד — אי-תשלום לאחר grace period וחריגה מ-LTV covenant",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "א, ג ו-ד — אי-תשלום, חריגת LTV ושינוי מנכ\"ל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי מנכ\"ל כשלעצמו אינו EOD אלא אם הוגדר כ-Change of Control ספציפי בהסכם"
+      },
+      {
+        "text_he": "א בלבד — רק אי-תשלום הוא EOD ברור; חריגת LTV היא covenant breach הדורש cure",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרת financial covenant היא לרוב EOD עצמאי לאחר תקופת cure שפקעה, ולא ניתן להתעלם ממנה"
+      },
+      {
+        "text_he": "כל ארבעת הסעיפים מהווים Events of Default",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ב (הסכם שכירות) ו-ד (שינוי מנכ\"ל) הם פעולות עסקיות רגילות שאינן EOD כשלעצמן"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח כל סעיף:</p><ul><li><strong>א — EOD:</strong> אי-תשלום ריבית לאחר תקופת grace שפקעה הוא EOD קלאסי ומפורש</li><li><strong>ב — לא EOD:</strong> חתימת הסכם שכירות היא פעולה עסקית רגילה (אלא אם הוגבלה ב-covenant); ייתכן שנדרשת הסכמת הבנק אך אינה EOD</li><li><strong>ג — EOD:</strong> חריגת LTV מ-75% ל-79% היא הפרת financial covenant; לאחר תקופת cure (בדרך כלל 30–60 יום) שלא תוקנה — זהו EOD</li><li><strong>ד — לא EOD:</strong> פרישת מנכ\"ל היא שינוי ניהולי רגיל; Change of Control EOD מתייחס בדרך כלל לשינוי בעלות, לא בניהול</li></ul>"
+  },
+  {
+    "question_id_external": "C08-M01-PRC-Q02",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הסכם הלוואה דורש שכתנאי מקדים למשיכה ראשונה, הלווה ימציא: (1) נסח טאבו המציג רישום משכנתה ראשונה לטובת הבנק, (2) פוליסת ביטוח רכוש בתוקף, (3) חוות דעת משפטית. הלווה הגיע לסגירה עם ביטוח ועם חוות הדעת המשפטית, אך טרם נרשמה המשכנתה בטאבו. מה על הבנק לעשות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "משיכה לפני רישום משכנתה היא אחת הטעויות הנפוצות ביותר בתהליכי סגירה — בנק שמשך כספים ללא ביטחון רשום הוא נושה לא מובטח.",
+    "topic_tags": ["condition_precedent", "mortgage_registration", "drawdown"],
+    "options": [
+      {
+        "text_he": "הבנק אינו רשאי לבצע את המשיכה; עליו לדחות עד לרישום המשכנתה בטאבו, או לקבל אישור הנהלה לוויתור מפורש על ה-CP",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבנק יכול לבצע משיכה חלקית של 50% מהסכום ולשחרר את השאר לאחר הרישום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; משיכה חלקית אינה מאושרת אלא אם הוגדרה כך בהסכם; CP לרישום משכנתה חל על כל סכום משיכה"
+      },
+      {
+        "text_he": "הבנק יכול לבצע את המשיכה כי שני מתוך שלושה תנאים מקדימים קוימו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל תנאי מקדים הוא מצטבר — כולם חייבים להתקיים; אין כלל של רוב מספרי"
+      },
+      {
+        "text_he": "הבנק יעביר את הכספים לנאמנות עד לרישום; ברגע הרישום הכספים ישוחררו ללווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אפשרות נאמנות אפשרית אך רק אם הוסכמה מראש בהסכם HL; ברירת המחדל היא אי-ביצוע עד קיום כל ה-CPs"
+      }
+    ],
+    "explanation_html_he": "<p>תנאים מקדימים (CPs) הם <strong>מצטברים</strong> — כולם חייבים להתקיים לפני כל משיכה. רישום משכנתה בטאבו הוא CP קריטי מכמה סיבות:</p><ul><li><strong>ביטחון משפטי:</strong> עד לרישום, הבנק אינו בעל שעבוד רשמי על הנכס; הוא נושה לא מובטח</li><li><strong>סיכון עדיפות:</strong> אם בינתיים ייכנס נושה אחר ויירשם בטאבו — הוא יקדם לבנק</li><li><strong>הפעולה הנכונה:</strong> לדחות את הסגירה עד לרישום, או לקבל אישור חריג מסמכות בכירה בבנק</li></ul><p>זהו אחד הצ'קים הבסיסיים ביותר שאנליסט חייב לבצע לפני אישור כל משיכה.</p>"
+  },
+  {
+    "question_id_external": "C08-M01-PRC-Q03",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה הפר את הסכם ההלוואה על-ידי אי-גילוי ערעור משפטי מהותי תלוי ועומד נגד הנכס המשועבד. האם הפרה זו מהווה הפרת <em>Representation</em>, הפרת <em>Covenant</em>, או שניהם? מה ההשלכות המעשיות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אי-גילוי מהותי הוא בעל כפל-פנים משפטי — הפרת Representation בעת הסגירה, וייתכן הפרת covenant גילוי שוטף; שני הראשים מובילים לאותה תוצאה: EOD.",
+    "topic_tags": ["representations_warranties", "covenant", "event_of_default", "disclosure"],
+    "options": [
+      {
+        "text_he": "הפרת Representation (הלווה הצהיר שאין הליכים מהותיים תלויים ועומדים — הצהרה שגויה) וייתכן גם הפרת covenant גילוי שוטף; שתיהן מהוות EOD",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הפרת Covenant בלבד, כיוון שה-Representation ניתן בעת הסגירה ולא ניתן לאוכפו רטרואקטיבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Representation שגוי בעת הסגירה הוא EOD ללא קשר לאפשרות ריפוי — הכוזבנות כשלעצמה היא ההפרה"
+      },
+      {
+        "text_he": "אין הפרה; ערעור משפטי הוא סיכון עסקי רגיל שאין לגלות אותו בהסכם הלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כל הליך משפטי מהותי הוא מידע מהותי שחייב להיות מגולה ב-Reps ובcovenant גילוי שוטף"
+      },
+      {
+        "text_he": "הפרת Representation שניתן לרפא תוך 30 יום; אם הלווה יגלה את הערעור בדיעבד — ההפרה תרפא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גילוי בדיעבד אינו מרפא ייצוג שגוי שניתן ביום הסגירה — ההונאה כבר התרחשה"
+      }
+    ],
+    "explanation_html_he": "<p>הניתוח המשפטי-אשראי:</p><ul><li><strong>הפרת Representation:</strong> בהסכמי הלוואה יש בדרך כלל ייצוג שהלווה אינו צד לתביעה משפטית מהותית; אם קיים ערעור מהותי שלא גולה — הייצוג היה שקרי ביום הסגירה → EOD</li><li><strong>הפרת Information Covenant:</strong> רוב הסכמי ההלוואה מחייבים הלווה לדווח על כל הליך משפטי מהותי תוך מספר ימי עסקים; אי-דיווח = הפרת covenant = EOD</li><li><strong>השלכות מעשיות:</strong> הבנק יכול להכריז על EOD ולדרוש פירעון מיידי; בפועל, ייתכן שיעדיף להיכנס לדיאלוג עם הלווה ולדרוש מידע על הערעור לפני הכרזה</li></ul><p>מסקנה: גילוי לקוי הוא אחת ההפרות החמורות ביותר כי הוא מערער את יסוד האמון שעליו בנוי כל הסכם אשראי.</p>"
+  },
+  {
+    "question_id_external": "C08-M01-PRC-Q04",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בהסכם הלוואה מופיע סעיף: <em>\"הלווה לא יגייס חוב נוסף ולא ישעבד נכסים מבלי לקבל הסכמת המלווה מראש ובכתב.\"</em> כיצד מסווג סעיף זה ומה מטרתו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "negative covenant על גיוס חוב ושעבוד נכסים הוא אחת ההגנות המרכזיות של מלווה בכיר — הוא שומר על עדיפות ועל יחסי מינוף.",
+    "topic_tags": ["negative_covenant", "loan_agreement", "security_package"],
+    "options": [
+      {
+        "text_he": "Negative Covenant — מגביל פעולות הלווה; מטרתו למנוע מינוף-יתר ושחיקת עדיפות המלווה הבכיר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Representation & Warranty — הלווה מצהיר שאין לו חובות נוספים נכון למועד החתימה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; R&W הוא הצהרה על עבר/הווה; הסעיף מדבר על הגבלה לגבי <em>עתיד</em> — זה covenant"
+      },
+      {
+        "text_he": "Condition Precedent — הלווה חייב להוכיח שאין שעבודים אחרים לפני קבלת ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CP מתייחס לתנאים לפני ביצוע ההלוואה; זהו covenant שפועל לאורך כל תקופת ההלוואה"
+      },
+      {
+        "text_he": "Affirmative Covenant — הלווה מחויב לדווח על כל שעבוד חדש למלווה תוך 5 ימים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; affirmative covenant מחייב לבצע פעולה (כגון דיווח); הסעיף הנ\"ל <em>אוסר</em> פעולה — זה negative covenant"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Negative Covenant</strong> הוא התחייבות הלווה <em>להימנע</em> מפעולות מסוימות ללא הסכמת המלווה. ההבחנה מ-Affirmative Covenant:</p><ul><li><strong>Affirmative (Positive) Covenant:</strong> הלווה <em>מחויב לעשות</em> (לשמור על ביטוח, לדווח דוחות, לשמור על LTV)</li><li><strong>Negative Covenant:</strong> הלווה <em>אסור לעשות</em> (לא לגייס חוב נוסף, לא לשעבד נכסים, לא לחלק דיבידנדים מעל סף)</li></ul><p>הסעיף הספציפי הזה — \"Negative Pledge\" — מגן על המלווה הבכיר בשתי דרכים:</p><ol><li>מונע גיוס חוב שיגדיל את המינוף מעבר לסף הביטחון</li><li>מונע שעבוד נכסים נוספים שיפגע בעדיפות המלווה הבכיר</li></ol>"
+  },
+  {
+    "question_id_external": "C08-M01-PRC-Q05",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה חרג מ-financial covenant של LTV. בהסכם ישנה תקופת <strong>Cure Period</strong> של 60 יום. בתוך 60 הימים הלווה הכניס הון עצמי נוסף שהחזיר את ה-LTV מתחת לסף. האם יש EOD? מה מעמד ה-EOD בתקופת ה-Cure?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מנגנון ה-Cure Period מאפשר ללווה לתקן הפרות טכניות מבלי להביא לקריסת העסקה — אך בתקופת ה-Cure, המלווה נמצא ב-\"ריפוי\" שאינו מהווה ויתור על זכויותיו.",
+    "topic_tags": ["cure_period", "ltv_covenant", "event_of_default", "equity_cure"],
+    "options": [
+      {
+        "text_he": "הייתה הפרת covenant שמהווה אירוע כשל פוטנציאלי; לאחר ריפוי מוצלח ב-Cure Period, ה-EOD מרפא ואינו ניתן לאכיפה; בתקופת ה-Cure, המלווה אינו רשאי להאיץ",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא היה EOD כלל כי הלווה תיקן את ההפרה לפני פקיעת ה-Cure Period",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההפרה בוצעה ברגע החריגה מה-LTV; Cure Period רק מעכב את אכיפת ה-EOD — לא מבטל את ההפרה עצמה"
+      },
+      {
+        "text_he": "ה-EOD קיים ורפוי לא אפשרי; המלווה יכול להאיץ בכל עת בתוך ה-Cure Period",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cure Period מעניק ללווה זכות לתקן ומגביל את המלווה מלהאיץ בתקופה זו, בתנאי שנוהגים בתום לב"
+      },
+      {
+        "text_he": "הריפוי מחייב הסכמה מחודשת של המלווה; ביצוע equity cure ללא אישור הבנק אינו רפוי תקף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אם הסכם קובע equity cure כמנגנון לגיטימי, הלווה רשאי להשתמש בו ללא אישור נוסף של המלווה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Cure Period</strong> הוא חלון זמן שבו הלווה רשאי לתקן הפרת covenant לפני שהמלווה יוכל לאכוף ה-EOD:</p><ul><li><strong>מעמד בתקופת ה-Cure:</strong> קיים \"Potential Event of Default\" — ההפרה ידועה אך האכיפה מושהית</li><li><strong>מגבלות המלווה:</strong> אינו רשאי להאיץ בתוך ה-Cure Period, אך רשאי להפסיק משיכות נוספות (אם הוסכם כך)</li><li><strong>Equity Cure:</strong> הזרמת הון עצמי שמחזירה את ה-LTV לתחת הסף היא מנגנון ריפוי לגיטימי; לרוב מוגבל ל-2–3 פעמים בחיי ההלוואה</li><li><strong>לאחר ריפוי מוצלח:</strong> ה-EOD מרפא ומוחק; המלווה לא יכול לחזור ולהשתמש בהפרה שרופאה</li></ul>"
+  },
+  {
+    "question_id_external": "C08-M01-PRC-Q06",
+    "course_number": 8,
+    "module_number": 1,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בהסכם הלוואה נדל\"נית קיים סעיף Cross-Default: <em>\"כשל בכל חוב אחר של הלווה מעל 5 מיליון ש\"ח יהווה EOD בהסכם זה.\"</em> הלווה החמיץ תשלום ריבית של 200,000 ש\"ח לבנק אחר. האם מופעל ה-Cross-Default?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "סעיפי Cross-Default מגנים על המלווה מפני לווים שמנהלים כמה הלוואות בבנקים שונים — אך הסף הכספי חיוני כדי למנוע הפעלה על אירועים זניחים.",
+    "topic_tags": ["cross_default", "event_of_default", "threshold"],
+    "options": [
+      {
+        "text_he": "לא; תשלום ריבית של 200,000 ש\"ח נמוך מסף ה-5 מיליון ש\"ח; ה-Cross-Default אינו מופעל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן; כל כשל תשלום — בכל סכום — מפעיל Cross-Default",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסעיף קובע סף ספציפי של 5 מיליון ש\"ח; כשל מתחת לסף לא מפעיל אותו"
+      },
+      {
+        "text_he": "כן; כשל בריבית הוא חמור מכשל בקרן ומפעיל Cross-Default ללא קשר לסכום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבחנה בין ריבית לקרן אינה רלוונטית; הסף הקובע הוא הסכום הכספי שנקבע בהסכם"
+      },
+      {
+        "text_he": "תלוי בבנק השני; רק אם הבנק השני הכריז על EOD — Cross-Default בהסכם הנוכחי יופעל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; cross-default מופעל בדרך כלל על אירוע כשל עצמו, לא בהכרח על הכרזת הבנק השני"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Cross-Default</strong> הוא מנגנון שמפעיל EOD בהסכם אחד כאשר הלווה כשל בהסכם אחר. הרכיבים המרכזיים:</p><ul><li><strong>סף כספי (Threshold):</strong> בדרך כלל נקבע סכום מינימלי — כשל מתחת לסף לא מפעיל Cross-Default; מטרתו למנוע הפעלה על טעויות טכניות קטנות</li><li><strong>Cross-Acceleration:</strong> גרסה מחמירה פחות — EOD מופעל רק כאשר המלווה האחר <em>האיץ</em> את החוב, לא רק כשל</li><li><strong>במקרה הנ\"ל:</strong> 200,000 ש\"ח < 5,000,000 ש\"ח → הסף לא הושג → Cross-Default לא מופעל</li></ul><p>נקודה חשובה: אם אותו לווה יחמיץ 26 תשלומים זהים של 200K כ\"א, אין Cross-Default — אך ייתכנו השלכות מוניטין שיגיעו לשולחן האנליסט.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-CMP-Q01",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו ההבדל בין <strong>Maintenance Covenant</strong> ל-<strong>Incurrence Covenant</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "המעבר מ-maintenance ל-incurrence covenants הוא אחד הביטויים הבולטים לחלשות יחסי הכוח של מלווים בשוקי הון נזילים — maintenance מספק הרבה יותר הגנה.",
+    "topic_tags": ["maintenance_covenant", "incurrence_covenant", "financial_covenants"],
+    "options": [
+      {
+        "text_he": "Maintenance Covenant נבדק בכל תקופת דיווח (רבעוני/שנתי) ללא קשר לפעולות הלווה; Incurrence Covenant מופעל רק כאשר הלווה מבצע פעולה ספציפית כגון גיוס חוב נוסף",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Maintenance Covenant חל על הלוואות בנקאיות ואילו Incurrence Covenant חל על אג\"ח בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההבחנה היא בין בדיקה שוטפת לבין בדיקה על-בסיס-אירוע, לא בין מוצרי חוב שונים"
+      },
+      {
+        "text_he": "Maintenance Covenant מתייחס לנכסים ואילו Incurrence Covenant מתייחס לתזרים מזומנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני סוגי covenants יכולים להתייחס לנכסים ולתזרים כאחד; ההבחנה היא בתדירות ובטריגר הבדיקה"
+      },
+      {
+        "text_he": "Incurrence Covenant מחמיר יותר כי הוא נמדד ברצף, ואילו Maintenance Covenant נמדד פעם בשנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Maintenance Covenant מחמיר יותר כי הוא נבדק בכל תקופת דיווח; Incurrence נבדק רק בעת פעולה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Maintenance Covenant</strong> vs. <strong>Incurrence Covenant</strong>:</p><table style='width:100%;border-collapse:collapse'><tr><th style='border:1px solid #ccc;padding:4px'>פרמטר</th><th style='border:1px solid #ccc;padding:4px'>Maintenance</th><th style='border:1px solid #ccc;padding:4px'>Incurrence</th></tr><tr><td style='border:1px solid #ccc;padding:4px'>מתי נבדק?</td><td style='border:1px solid #ccc;padding:4px'>בכל תקופת דיווח (רבעוני/שנתי)</td><td style='border:1px solid #ccc;padding:4px'>רק בעת ביצוע פעולה ספציפית</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>דוגמה</td><td style='border:1px solid #ccc;padding:4px'>LTV לא יעלה על 70% ב-31/12 בכל שנה</td><td style='border:1px solid #ccc;padding:4px'>LTV לא יעלה על 70% מיד לאחר גיוס חוב נוסף</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>הגנה</td><td style='border:1px solid #ccc;padding:4px'>גבוהה — מגלה הידרדרות מוקדם</td><td style='border:1px solid #ccc;padding:4px'>נמוכה יותר — לא תופס הידרדרות אורגנית</td></tr></table><p>הלוואות בנקאיות נדל\"ן ישראליות נוטות לכלול <strong>maintenance covenants</strong> — הגנה חזקה יותר.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-CMP-Q02",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי נוסחת ה-<strong>DSCR (Debt Service Coverage Ratio)</strong> וכיצד מפרשים ערכו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "DSCR הוא כיסוי שירות חוב — ערך מתחת ל-1.0x אומר שהנכס לא מכסה את החוב מהכנסותיו; זהו קו אדום ברור.",
+    "topic_tags": ["dscr", "financial_covenants", "noi"],
+    "options": [
+      {
+        "text_he": "DSCR = NOI ÷ שירות חוב שנתי (קרן + ריבית); ערך מעל 1.0x = כיסוי מלא; ערך נמוך מ-1.0x = הנכס לא מכסה את החוב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR = שירות חוב שנתי ÷ NOI; ערך גבוה יותר מצביע על סיכון אשראי נמוך יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה; DSCR = NOI ÷ שירות חוב; ערך גבוה יותר אכן מצביע על סיכון נמוך יותר אך הנוסחה שגויה"
+      },
+      {
+        "text_he": "DSCR = NOI ÷ ריבית בלבד; תשלומי קרן אינם נכללים כיוון שהם החזרת הון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שירות חוב כולל גם ריבית וגם קרן (ואו אמורטיזציה); ריבית בלבד היא ה-ICR"
+      },
+      {
+        "text_he": "DSCR = הכנסות שכירות ברוטו ÷ תשלומי ריבית; NOI אינו המדד הרלוונטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR משתמש ב-NOI (הכנסות שכירות פחות הוצאות תפעול, לא ברוטו) ובשירות חוב מלא"
+      }
+    ],
+    "explanation_html_he": "<p><strong>DSCR = NOI ÷ Annual Debt Service</strong></p><ul><li><strong>NOI (Net Operating Income)</strong> = הכנסות שכירות − הוצאות תפעול (לא כולל פחת ומס)</li><li><strong>Annual Debt Service</strong> = תשלומי ריבית + תשלומי קרן (אמורטיזציה) שנתיים</li></ul><p>פרשנות:</p><ul><li>DSCR = 1.25x → על כל ₪1 חוב, הנכס מייצר ₪1.25 הכנסה → כרית של 20%</li><li>DSCR = 1.00x → בדיוק מכסה → אין שום מרווח ביטחון</li><li>DSCR &lt; 1.00x → הלווה חייב להזרים מזומנים ממקורות אחרים לשירות החוב</li></ul><p>Covenant DSCR טיפוסי בנדל\"ן ישראלי: ≥ 1.20x–1.30x.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-CMP-Q03",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>ICR (Interest Coverage Ratio)</strong> וכיצד הוא שונה מ-DSCR?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ICR ו-DSCR משלימים זה את זה — ICR מודד כיסוי עלות המימון בלבד, בעוד ש-DSCR מוסיף גם החזרי קרן שהם נטל מזומן אמיתי.",
+    "topic_tags": ["icr", "dscr", "financial_covenants"],
+    "options": [
+      {
+        "text_he": "ICR = NOI ÷ ריבית שנתית בלבד (ללא קרן); DSCR כולל גם קרן; ICR תמיד גבוה מ-DSCR (בהנחת אמורטיזציה חיובית)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ICR ו-DSCR זהים; שניהם מחשבים כיסוי של שירות חוב מלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR מחשב ריבית בלבד ואילו DSCR מחשב ריבית + קרן — ההבדל מהותי"
+      },
+      {
+        "text_he": "ICR = ריבית שנתית ÷ NOI; ערך גבוה מצביע על בעיה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה; ICR = NOI ÷ ריבית (לא ריבית ÷ NOI)"
+      },
+      {
+        "text_he": "ICR רלוונטי רק להלוואות Bullet (ללא אמורטיזציה) כיוון שאין תשלומי קרן שוטפים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ICR משמש בכל סוגי ההלוואות ומודד ספציפית את כיסוי הריבית; הלוואות Bullet מחדדות את חשיבות ה-ICR אך אינו בלעדי להן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ICR (Interest Coverage Ratio)</strong> = NOI ÷ Interest Expense</p><p><strong>DSCR (Debt Service Coverage Ratio)</strong> = NOI ÷ (Interest + Principal)</p><p>דוגמה מספרית:</p><ul><li>NOI = ₪2,400,000</li><li>ריבית שנתית = ₪1,200,000</li><li>תשלומי קרן שנתיים = ₪400,000</li><li><strong>ICR</strong> = 2,400,000 ÷ 1,200,000 = <strong>2.00x</strong></li><li><strong>DSCR</strong> = 2,400,000 ÷ 1,600,000 = <strong>1.50x</strong></li></ul><p>ICR תמיד ≥ DSCR (כאשר יש אמורטיזציה). ICR גבוה אך DSCR נמוך מצביע על לחץ מזומנים מתשלומי קרן.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-CMP-Q04",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה קורה כאשר לווה מפר <strong>financial covenant</strong> בהסכם הלוואה — מה שרשרת האירועים הצפויה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "הפרת covenant היא אות אזהרה מוקדם — ניהול נכון של שלב ה-Waiver מאפשר למלווה להשיג תנאים טובים יותר ולשמור על מערכת היחסים עם הלווה.",
+    "topic_tags": ["covenant_breach", "waiver", "cure_mechanism"],
+    "options": [
+      {
+        "text_he": "הפרת covenant → Potential EOD → Cure Period → אם לא תוקן: EOD → המלווה רשאי לדרוש Waiver תמורת תנאים מחמירים יותר, או להאיץ",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הפרת covenant → פירעון מיידי אוטומטי של ההלוואה ללא כל הליך נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פירעון אוטומטי אינו מנגנון הסכמי רגיל; נדרשת הכרזת EOD מפורשת על ידי המלווה"
+      },
+      {
+        "text_he": "הפרת covenant → דיווח ללווה ← המלווה לא יכול לנקוט שום פעולה עד לפקיעת תקופת ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפרת covenant מעניקה למלווה אופציות פעולה מרובות; הוא אינו מחכה לפקיעת ההלוואה"
+      },
+      {
+        "text_he": "הפרת covenant → ריבית עונשין (Default Interest) מופעלת אוטומטית ← אין אפשרות ריפוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית עונשין לרוב מופעלת על אי-תשלום, לא בהכרח על הפרת financial covenant; Cure Period מאפשר ריפוי"
+      }
+    ],
+    "explanation_html_he": "<p>שרשרת האירועים הטיפוסית בהפרת financial covenant:</p><ol><li><strong>הפרה מתגלה</strong> — בדרך כלל דרך דוח ציות רבעוני שהלווה מגיש</li><li><strong>Potential EOD</strong> — הבנק נוטיפייד; ה-EOD אינו פעיל עדיין</li><li><strong>Cure Period</strong> — 30–60 יום לתיקון (equity cure, מכירת נכס, קבלת Waiver)</li><li><strong>אם לא תוקן: EOD</strong> — המלווה יכול להכריז רשמית</li><li><strong>Waiver</strong> — חלופה נפוצה: המלווה מוותר על ה-EOד בתמורה לתנאים מחמירים (ריבית גבוהה יותר, ביטחונות נוספים, Covenant Reset)</li></ol><p>מנקודת מבט אנליסט: הפרת covenant היא סימן אזהרה חשוב שצריך להגיע לשולחן הוועדה עם תוכנית פעולה.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-PRC-Q01",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נתונים: NOI שנתי = ₪3,600,000; תשלומי ריבית שנתיים = ₪2,000,000; תשלומי קרן שנתיים = ₪500,000. ה-covenant דורש DSCR ≥ 1.25x. האם ה-covenant מקוים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חישוב DSCR הוא מיומנות בסיסית שכל אנליסט חייב לבצע בצורה מדויקת — שגיאה בהגדרת המכנה (ריבית vs. ריבית+קרן) מובילה לפרשנות שגויה.",
+    "topic_tags": ["dscr", "financial_covenants", "calculation"],
+    "options": [
+      {
+        "text_he": "DSCR = 3,600,000 ÷ 2,500,000 = 1.44x; ה-covenant מקוים (1.44x > 1.25x)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR = 3,600,000 ÷ 2,000,000 = 1.80x; ה-covenant מקוים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה מתעלם מתשלומי קרן — DSCR כולל ריבית + קרן במכנה"
+      },
+      {
+        "text_he": "DSCR = 2,500,000 ÷ 3,600,000 = 0.69x; ה-covenant מופר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה — DSCR = NOI ÷ שירות חוב, לא שירות חוב ÷ NOI"
+      },
+      {
+        "text_he": "DSCR = 3,600,000 ÷ 500,000 = 7.2x; ה-covenant מקוים בנוחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה כולל רק קרן ומתעלם מתשלומי ריבית — טעות בסיסית בהגדרת שירות החוב"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב DSCR:</strong></p><ul><li>NOI = ₪3,600,000</li><li>שירות חוב שנתי = ריבית (₪2,000,000) + קרן (₪500,000) = <strong>₪2,500,000</strong></li><li>DSCR = 3,600,000 ÷ 2,500,000 = <strong>1.44x</strong></li></ul><p>ה-covenant דורש ≥ 1.25x; 1.44x עומד בדרישה.</p><p><strong>Headroom:</strong> 1.44x − 1.25x = 0.19x, כלומר NOI יכול לרדת ב-13.2% לפני שה-covenant יופר (3,600,000 − 13.2% ≈ 3,125,000; 3,125,000÷2,500,000=1.25x).</p>"
+  },
+  {
+    "question_id_external": "C08-M02-PRC-Q02",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס משועבד שוּוה בסגירה ב-₪20 מיליון; ההלוואה הייתה ₪13 מיליון (LTV=65%). כיום הנכס שוּוה ב-₪16 מיליון. ה-LTV covenant: ≤70%. האם ה-covenant מופר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "LTV מחושב על בסיס שווי נוכחי — ירידת ערך נכס מעלה LTV אוטומטית גם ללא שינוי בסכום החוב.",
+    "topic_tags": ["ltv_covenant", "property_valuation", "covenant_breach"],
+    "options": [
+      {
+        "text_he": "LTV נוכחי = 13,000,000 ÷ 16,000,000 = 81.25%; ה-covenant מופר (81.25% > 70%)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "LTV נוכחי = 13,000,000 ÷ 20,000,000 = 65%; ה-covenant מקוים; LTV מחושב על שווי הסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV maintenance covenant מחושב על שווי נוכחי (לפי שמאות עדכנית), לא שווי סגירה"
+      },
+      {
+        "text_he": "LTV נוכחי = 16,000,000 ÷ 13,000,000 = 123%; ה-covenant מופר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנוסחה הפוכה — LTV = חוב ÷ שווי נכס, לא שווי ÷ חוב"
+      },
+      {
+        "text_he": "אי-אפשר לקבוע; נדרשת שמאות חדשה לפני שניתן לבדוק את ה-covenant",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השאלה מספקת את השווי הנוכחי — ניתן לחשב LTV ישירות; בפועל אכן נדרשת שמאות, אך לצורך חישוב זה הנתון ניתן"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב LTV נוכחי:</strong></p><ul><li>יתרת הלוואה = ₪13,000,000 (נניח שלא שונתה)</li><li>שווי נכס נוכחי = ₪16,000,000</li><li>LTV = 13,000,000 ÷ 16,000,000 = <strong>81.25%</strong></li></ul><p>ה-covenant מגדיר מקסימום 70%; 81.25% > 70% → <strong>הפרת covenant</strong>.</p><p>כדי לחזור ל-70%: החוב צריך לרדת ל-₪11,200,000 (70% × ₪16M), כלומר הלווה צריך לפרוע ₪1,800,000 או להכניס ביטחונות נוספים (equity cure).</p>"
+  },
+  {
+    "question_id_external": "C08-M02-PRC-Q03",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>NOI צפוי שנה הבאה: ₪2,800,000. שירות חוב: ₪2,000,000 ריבית + ₪300,000 קרן. DSCR covenant = 1.20x. מה ה-<strong>Headroom</strong> של ה-DSCR ובכמה יכול ה-NOI לרדת לפני הפרת ה-covenant?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ניתוח Headroom הוא כלי מרכזי להערכת שוק הביטחון של עסקה — אנליסט שמציג headroom גם ב-% וגם ב-₪ מספק תמונה מלאה לוועדת אשראי.",
+    "topic_tags": ["dscr", "headroom", "sensitivity_analysis"],
+    "options": [
+      {
+        "text_he": "DSCR נוכחי = 1.21x; Headroom = 0.01x; NOI יכול לרדת ב-₪23,140 (כ-0.8%) לפני הפרה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR נוכחי = 1.40x; Headroom = 0.20x; NOI יכול לרדת ב-₪460,000",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שירות חוב = 2,000,000 + 300,000 = 2,300,000; DSCR = 2,800,000 ÷ 2,300,000 = 1.217x, לא 1.40x"
+      },
+      {
+        "text_he": "DSCR נוכחי = 1.33x; Headroom = 0.13x; NOI יכול לרדת ב-₪260,000",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.33x מתקבל אם מחשבים DSCR עם ריבית בלבד (2,800,000÷2,000,000) ומתעלמים מתשלומי הקרן"
+      },
+      {
+        "text_he": "DSCR נוכחי = 0.83x; ה-covenant כבר מופר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR = NOI ÷ שירות חוב = 2,800,000 ÷ 2,300,000 > 1; הנכס מכסה את שירות החוב"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב מפורט:</strong></p><ul><li>שירות חוב = ₪2,000,000 + ₪300,000 = <strong>₪2,300,000</strong></li><li>DSCR = 2,800,000 ÷ 2,300,000 = <strong>1.217x</strong></li><li>DSCR covenant = 1.20x</li><li>Headroom = 1.217x − 1.20x = <strong>0.017x</strong></li></ul><p><strong>NOI Break-even:</strong> NOI מינימלי = 1.20x × 2,300,000 = ₪2,760,000</p><p>הפחתה אפשרית = 2,800,000 − 2,760,000 = <strong>₪40,000 (1.4%)</strong></p><p>מסקנה: ה-Headroom <strong>קלוש ביותר</strong> — ירידה קטנה ב-NOI (פינוי דייר אחד, לדוגמה) תפר את ה-covenant. יש לדגל זאת בדוח האשראי.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-PRC-Q04",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הסכם הלוואה קובע: <em>\"במקרה של הפרת LTV covenant, הלווה יוכל לרפא את ההפרה תוך 60 יום על-ידי: (א) פירעון חלקי של הקרן, (ב) הפקדת מזומן בחשבון Blocked, או (ג) הצגת שמאות מעודכנת המוכיחה שווי גבוה יותר.\"</em> לווה בחר באפשרות (ג) — הזמין שמאות חדשה שנתנה שווי גבוה יותר. מה הבעיה הפוטנציאלית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שמאות שמוזמנת על-ידי הלווה לצורך ריפוי covenant היא בעייתית אינהרנטית — המלווה צריך לדרוש שמאות עצמאית שהוא מינה או אישר.",
+    "topic_tags": ["ltv_covenant", "cure_mechanism", "valuation", "conflict_of_interest"],
+    "options": [
+      {
+        "text_he": "ניגוד עניינים: הלווה מינה שמאי שיש לו תמריץ להעריך גבוה; המלווה צריך לדרוש שמאות עצמאית (Panel Valuer) או זכות ביקורת על השמאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין בעיה; שמאות מוסמכת היא ראיה מספקת ללא קשר למי הזמינה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניגוד עניינים הוא בעיה אמיתית — שמאי שמוזמן על ידי לווה שזקוק לשמאות גבוהה עשוי (לא בהכרח) להיות מושפע"
+      },
+      {
+        "text_he": "שמאות חדשה אינה ריפוי לגיטימי; רק פירעון קרן או הפקדת מזומן מרפאים LTV breach",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההסכם מגדיר שמאות חדשה כאפשרות ריפוי לגיטימית; הבעיה היא לא הלגיטימיות אלא ניגוד העניינים"
+      },
+      {
+        "text_he": "שמאות חדשה תקפה רק לתקופה של 6 חודשים ולאחר מכן ה-LTV חוזר לשווי הקודם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; השמאות קובעת שווי מסוים; אין \"תוקף\" כזה; ה-LTV יחושב לפי השמאות העדכנית ביותר שהוסכם עליה"
+      }
+    ],
+    "explanation_html_he": "<p>הבעיה המרכזית: <strong>ניגוד עניינים בשמאות</strong></p><ul><li>הלווה מינה שמאי בעצמו כאשר יש לו אינטרס ישיר בקבלת שווי גבוה</li><li>גם שמאי מוסמך ונאמן עשוי (לא בהכרח בזדון) לשקלל הנחות אופטימיות יותר</li></ul><p>כיצד להתמודד נכון:</p><ol><li><strong>Panel Valuer:</strong> המלווה מגדיר רשימת שמאים מאושרים מראש; הלווה בוחר מהרשימה</li><li><strong>Lender-Appointed Valuer:</strong> המלווה מינה את השמאי ישירות (וחיוב ללווה)</li><li><strong>Desktop Review:</strong> שמאי מטעם המלווה בודק ומאמת את שמאות הלווה</li></ol><p>זוהי דוגמה קלאסית לחשיבות ניסוח מנגנוני ריפוי שנועלים גם את תהליך הבדיקה.</p>"
+  },
+  {
+    "question_id_external": "C08-M02-PRC-Q05",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>הסכם הלוואה כולל <strong>Incurrence Covenant</strong>: DSCR ≥ 1.30x מיד לאחר גיוס כל חוב נוסף. הלווה רוצה לגייס הלוואה נוספת של ₪3M מבנק אחר. NOI = ₪4,500,000; שירות חוב קיים = ₪2,800,000. שירות חוב על ההלוואה החדשה יהיה ₪450,000 לשנה. האם הלווה יכול לגייס?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Incurrence test מחשבים Pro-Forma — כולל את ההשפעה המלאה של הפעולה המתוכננת; זהו מרכיב סטנדרטי בבדיקת מסמכים לפני כל גיוס חוב נוסף.",
+    "topic_tags": ["incurrence_covenant", "dscr", "pro_forma", "additional_debt"],
+    "options": [
+      {
+        "text_he": "DSCR Pro-Forma = 4,500,000 ÷ 3,250,000 = 1.38x ≥ 1.30x; הלווה עומד ב-covenant ויכול לגייס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR Pro-Forma = 4,500,000 ÷ 2,800,000 = 1.61x; הלווה יכול לגייס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Incurrence test כולל את שירות החוב החדש במכנה; חישוב עם שירות חוב קיים בלבד אינו Pro-Forma נכון"
+      },
+      {
+        "text_he": "DSCR Pro-Forma = 4,500,000 ÷ 3,250,000 = 1.38x; אך מכיוון שגויסה הלוואה מבנק אחר, נדרשת הסכמת המלווה הנוכחי בכל מקרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לגבי המסקנה; אם ה-Incurrence Covenant הוא ה-trigger היחיד המפורט, ועמד בו — גיוס מבנק אחר אפשרי; negative pledge על שעבוד נפרד ממנגנון ה-DSCR"
+      },
+      {
+        "text_he": "DSCR Pro-Forma = 4,950,000 ÷ 3,250,000 = 1.52x; הלווה יכול לגייס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI הוא ₪4,500,000 ולא השתנה כתוצאה מגיוס החוב; 4,950,000 אינו הנכון"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Incurrence Test — Pro-Forma DSCR:</strong></p><ul><li>NOI = ₪4,500,000 (לא משתנה)</li><li>שירות חוב קיים = ₪2,800,000</li><li>שירות חוב על חוב חדש = ₪450,000</li><li>שירות חוב Pro-Forma = 2,800,000 + 450,000 = <strong>₪3,250,000</strong></li><li>DSCR Pro-Forma = 4,500,000 ÷ 3,250,000 = <strong>1.385x</strong></li></ul><p>1.385x ≥ 1.30x → ה-covenant מקוים → <strong>הגיוס מותר</strong></p><p>Headroom לאחר הגיוס: 1.385x − 1.30x = 0.085x (קטן יחסית; יש להמשיך לנטר).</p>"
+  },
+  {
+    "question_id_external": "C08-M02-PRC-Q06",
+    "course_number": 8,
+    "module_number": 2,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מפר DSCR maintenance covenant ומציע כ-\"Waiver\" למלווה: הלווה ישלם עמלת ויתור של 0.25% מהחוב ויסכים לעלייה של 50bp בריבית, אך לא יהדק את ה-covenant. האם על המלווה לקבל הצעה זו? מה הפרמטרים לשיקול?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Waiver הוא משא ומתן — המלווה שומר על קלפי מיקוח; ויתור על הידוק ה-covenant בתמורה לריבית גבוהה יותר מחליף הגנה מבנית בפיצוי כספי — לא תמיד עסקה טובה.",
+    "topic_tags": ["waiver", "covenant_renegotiation", "credit_risk_management"],
+    "options": [
+      {
+        "text_he": "שיקול מורכב: עמלה + 50bp מפצים כלכלית, אך הידרדרות ב-DSCR ללא הידוק covenant משאירה את המלווה חשוף להמשך הידרדרות; יש לבחון סיבת ההפרה ולהוסיף להידוק covenant כתנאי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן; עמלה + ריבית גבוהה יותר מפצים מספיק; Waiver ללא הידוק covenant הוא סטנדרטי ומקובל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Waiver ללא הידוק covenant אפשרי אך לא אוטומטי — סיבת ההפרה וסיכויי ההמשך קריטיים להחלטה"
+      },
+      {
+        "text_he": "לא; Waiver הוא ויתור מוחלט על זכות המלווה ואין לאשר אותו בשום מצב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Waiver הוא כלי ניהול אשראי לגיטימי ורגיל; הבעיה היא בתנאים הספציפיים, לא בעצם הכלי"
+      },
+      {
+        "text_he": "הקריטריון היחיד הוא שיעור ה-50bp; אם מתחת לריבית שוק — לא לאשר; אם מעל — לאשר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית היא רק פרמטר אחד; הגנת ה-covenant, סיבת ההפרה, והסיכוי לריפוי — כולם קריטיים"
+      }
+    ],
+    "explanation_html_he": "<p>פרמטרים לניתוח הצעת Waiver:</p><ol><li><strong>מדוע הופר ה-DSCR?</strong> — ירידה חד-פעמית (פינוי דייר) vs. מגמה מתמשכת (שחיקת NOI) → פרוגנוזה שונה לחלוטין</li><li><strong>פיצוי כלכלי:</strong> 0.25% עמלה + 50bp ריבית — האם מפצה על הסיכון הנוסף?</li><li><strong>הידוק Covenant:</strong> אי-הידוק covenant משאיר את הסף הנמוך ומאפשר הידרדרות נוספת ללא אות אזהרה חדש</li><li><strong>ביטחונות נוספים:</strong> האם ניתן לדרוש ערבות נוספת, הקטנת ה-LTV, או הגדלת Debt Service Reserve?</li></ol><p><strong>המלצה:</strong> לאשר Waiver בתנאי הידוק covenant (Covenant Reset) לרמה תחת הרמה הנוכחית, פלוס ביטחון נוסף. להגיע לוועדת אשראי עם תסריט מלא.</p>"
+  }
+]

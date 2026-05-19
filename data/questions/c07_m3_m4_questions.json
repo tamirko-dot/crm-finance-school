@@ -1,0 +1,422 @@
+[
+  {
+    "question_id_external": "C07-M03-CMP-Q01",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>WALT</strong> (Weighted Average Lease Term) ומה הוא מודד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "WALT נמוך מ-3 שנים מסמן חשיפה גבוהה לסיכון ריק — רוב השוכרים עשויים לעזוב בטווח קצר ולהשאיר את הנכס ריק.",
+    "topic_tags": ["WALT", "lease_term", "occupancy_risk"],
+    "options": [
+      {"text_he": "משך חוזי השכירות הממוצע המשוקלל לפי שטח (או הכנסת שכ\"ד) של כל שוכר", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "שיעור התפוסה הממוצע של הנכס בשנתיים האחרונות", "is_correct": false, "distractor_rationale_he": "שיעור התפוסה מודד כמה שטח מושכר, לא את אורך החוזים."},
+      {"text_he": "משך הזמן הממוצע שנכס עומד ריק בין שוכרים", "is_correct": false, "distractor_rationale_he": "זמן ריק בין שוכרים הוא Vacancy Period, לא WALT."},
+      {"text_he": "הערכת שווי הנכס מחולקת לסך הכנסות השכירות השנתיות", "is_correct": false, "distractor_rationale_he": "זהו Yield Cap Rate ולא WALT."}
+    ],
+    "explanation_html_he": "<p><strong>WALT</strong> מחושב כסכום (שטח שוכר × שנות חוזה נותרות) מחולק בשטח הכולל המושכר.</p><ul><li>WALT גבוה (מעל 5 שנים) — הכנסות יציבות לטווח ארוך, סיכון ריק נמוך.</li><li>WALT נמוך (מתחת ל-3 שנים) — רוב החוזים פגים בקרוב, חשיפה גבוהה לשוק בזמן חידוש.</li></ul><p>WALT הוא אחד המדדים הראשונים שאנליסט בוחן בנדל\"ן מסחרי — הוא משפיע ישירות על יציבות ה-NOI ועל שווי הנכס.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-CMP-Q02",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון ריכוז שוכרים</strong> (Tenant Concentration Risk) ומדוע הוא חשוב לאנליסט אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שוכר אחד המהווה מעל 30% מה-NOI הוא אות אזהרה ברור — האנליסט צריך לנתח את מצבו הפיננסי של אותו שוכר כמו לווה עצמאי.",
+    "topic_tags": ["tenant_concentration", "anchor_tenant", "occupancy_risk"],
+    "options": [
+      {"text_he": "הסיכון שיציאת שוכר גדול תפגע משמעותית ב-NOI ובשווי הנכס", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הסיכון שכל השוכרים יתרכזו בקומה אחת ויוצרו בעיות גישה", "is_correct": false, "distractor_rationale_he": "ריכוז פיזי של שוכרים הוא בעיה תפעולית, לא סיכון פיננסי הנקרא Tenant Concentration."},
+      {"text_he": "הסיכון שהנכס מותאם לענף אחד בלבד ואינו גמיש לשימושים אחרים", "is_correct": false, "distractor_rationale_he": "זהו סיכון נכסי (Asset Specificity) ולא סיכון ריכוז שוכרים."},
+      {"text_he": "הסיכון שכל שוכרי הנכס יבקשו הנחה בשכ\"ד בו זמנית", "is_correct": false, "distractor_rationale_he": "לחץ על שכ\"ד הוא סיכון שוק, לא סיכון ריכוז שוכרים ספציפי."}
+    ],
+    "explanation_html_he": "<p><strong>סיכון ריכוז שוכרים</strong> עולה כאשר שוכר בודד (או קבוצה קטנה) מהווה חלק גדול מהכנסות הנכס:</p><ul><li>שוכר עוגן שיצא — עלול להוריד תפוסה ב-30–50%, לקרוס את ה-NOI, ולגרור חדלות פירעון.</li><li>הבנק בודק: % הכנסות של כל שוכר, חוסן פיננסי, ענף הפעילות, ותנאי ה-Break Option.</li><li>כלל אצבע: שוכר בודד מעל 20–25% מה-NOI — נדרש ניתוח עמוק של מצבו.</li></ul><p>בנייני משרדים עם שוכר ממשלתי גדול נחשבים יציבים; בניין עם חברת הייטק שתופסת 60% מהשטח — מסוכן יותר.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-CMP-Q03",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>Break-Even Occupancy</strong> ומה היא מייצגת בניתוח אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Break-Even Occupancy מעל 85% מסמן סיכון גבוה — כל ירידה קטנה בתפוסה תגרור גירעון בתזרים ולחץ על שירות החוב.",
+    "topic_tags": ["break_even_occupancy", "vacancy_risk", "NOI"],
+    "options": [
+      {"text_he": "שיעור התפוסה המינימלי שבו הכנסות השכירות מכסות בדיוק את שירות החוב והוצאות התפעול", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "שיעור התפוסה שבו הנכס מגיע לשיאו הכלכלי", "is_correct": false, "distractor_rationale_he": "שיאה כלכלי קשור לשיעור תפוסה אופטימלי — לא לנקודת האיזון הפיננסית."},
+      {"text_he": "שיעור הריק הממוצע בשוק הנדל\"ן הסובב", "is_correct": false, "distractor_rationale_he": "שיעור ריק שוקי הוא נתון חיצוני ולא מדד פנימי לנכס ספציפי."},
+      {"text_he": "שיעור התפוסה שמתחתיו הלווה יכול לבקש מהבנק הפחתת ריבית", "is_correct": false, "distractor_rationale_he": "אין מנגנון אוטומטי כזה — ירידת תפוסה מפעילה Cash Trap או Event of Default, לא הנחת ריבית."}
+    ],
+    "explanation_html_he": "<p><strong>Break-Even Occupancy</strong> מחושב כ:</p><p style='margin-left:1em'><strong>BEO = (שירות חוב + הוצאות תפעול) / (שכ\"ד פוטנציאלי × 100%)</strong></p><ul><li>אם BEO = 75% → יש שולי בטחון של 25% לפני שבירת ה-Cash Flow.</li><li>אם BEO = 92% → שולי בטחון צרים מאד — נכס פגיע לסיכון ריק.</li></ul><p>הבנק משווה את BEO לשיעור הריק הסביר בשוק. אם שיעור ריק שוקי (10%) קרוב ל-100% - BEO, אין כרית בטחון מספקת.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-CMP-Q04",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>Physical Vacancy</strong> לבין <strong>Economic Vacancy</strong> בנדל\"ן מסחרי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Economic Vacancy עלולה להיות גבוהה ב-5–10% מהפיזית — שוכרים שמשלמים שכ\"ד מופחת או שהנכס מציע תקופת חינם הם ריק כלכלי שיש לכלול ב-NOI.",
+    "topic_tags": ["physical_vacancy", "economic_vacancy", "NOI"],
+    "options": [
+      {"text_he": "פיזית: שטח שאינו מושכר פיזית; כלכלית: שטח שאינו מניב הכנסה מלאה (כולל הנחות ותקופות חינם)", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "פיזית: שטח מחוץ לתחומי העיר; כלכלית: שטח שמוחזר לבניין לאחר שריפה", "is_correct": false, "distractor_rationale_he": "ההגדרות שגויות לחלוטין — הן לא קשורות למושגים בניתוח נדל\"ן."},
+      {"text_he": "שניהם זהים — שני המושגים מתארים שטח לא מושכר", "is_correct": false, "distractor_rationale_he": "שניהם שונים — Economic Vacancy כוללת שטחים מושכרים אך בתנאים שאינם כלכליים (הנחות, חינם)."},
+      {"text_he": "פיזית: שטח ריק שניתן להשכרה מחר; כלכלית: שטח ריק שדורש שיפוץ", "is_correct": false, "distractor_rationale_he": "ההגדרה שגויה — Economic Vacancy אינה קשורה לצורך בשיפוץ."}
+    ],
+    "explanation_html_he": "<p><strong>שני סוגי ריק:</strong></p><ul><li><strong>Physical Vacancy:</strong> שטחים שאינם מושכרים פיזית — אפס הכנסה. קל למדידה.</li><li><strong>Economic Vacancy:</strong> שטחים מושכרים אך לא במחיר מלא — כולל:<br>– תקופות חינם (Rent Free Period) בתחילת חוזה.<br>– שכ\"ד מוזל לשוכר חדש.<br>– שטחים בניהול ישיר של הבעלים ללא שכ\"ד.</li></ul><p>לחישוב NOI ריאלי, הבנק מחשב <strong>Economic Vacancy</strong> — לא רק הפיזית. מודל שמתבסס רק על Physical Vacancy עלול להגזים ב-NOI ולנפח את ה-DSCR.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-PRC-Q01",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניין משרדים, 3 שוכרים:</p><ul><li>שוכר A: 2,000 מ\"ר, 4 שנות חוזה נותרות</li><li>שוכר B: 1,000 מ\"ר, 2 שנות חוזה נותרות</li><li>שוכר C: 500 מ\"ר, 7 שנות חוזה נותרות</li></ul><p>מהו ה-WALT (בשנים) של הנכס?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "WALT של 3.86 שנים על נכס עם שוכר B שיוצא בעוד שנתיים מסמן נקודת לחץ קרובה — הבנק יבקש תוכנית שיווק מראש.",
+    "topic_tags": ["WALT", "lease_term", "weighted_average"],
+    "options": [
+      {"text_he": "3.86 שנים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "4.33 שנים", "is_correct": false, "distractor_rationale_he": "ממוצע פשוט של 4+2+7 = 4.33 — אך WALT מחויב שקלול לפי שטח."},
+      {"text_he": "3.50 שנים", "is_correct": false, "distractor_rationale_he": "שגיאה בשקלול — נראה שנעשה שימוש בחלוקה שגויה."},
+      {"text_he": "5.00 שנים", "is_correct": false, "distractor_rationale_he": "ממוצע גיאומטרי או חישוב שגוי — WALT לא יכול להיות מעל ממוצע המשוקלל האמיתי."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב WALT:</strong></p><ul><li>שוכר A: 2,000 מ\"ר × 4 שנים = 8,000</li><li>שוכר B: 1,000 מ\"ר × 2 שנים = 2,000</li><li>שוכר C: 500 מ\"ר × 7 שנים = 3,500</li><li>סה\"כ שטח: 2,000 + 1,000 + 500 = <strong>3,500 מ\"ר</strong></li><li>סה\"כ ממוקד: 8,000 + 2,000 + 3,500 = <strong>13,500</strong></li></ul><p>WALT = 13,500 / 3,500 = <strong>3.857 שנים ≈ 3.86 שנים</strong></p><p>שוכר A הגדול (57% מהשטח) ממשוך את ה-WALT לעבר 4 שנים, בעוד שוכר B הקטן עם 2 שנות חוזה מושך כלפי מטה.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-PRC-Q02",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס קמעונאי: שכ\"ד פוטנציאלי 100% תפוסה: 2,400,000 ₪/שנה. הוצאות תפעול: 600,000 ₪/שנה. שירות חוב שנתי: 1,200,000 ₪/שנה. מהי Break-Even Occupancy?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "BEO של 75% משאיר שולי בטחון צרים בשוק הקמעונאות הישראלי שם שיעורי הריק עלולים להגיע ל-15-20% בתקופות לחץ.",
+    "topic_tags": ["break_even_occupancy", "NOI", "debt_service"],
+    "options": [
+      {"text_he": "75%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "62.5%", "is_correct": false, "distractor_rationale_he": "שגיאה — נראה שחושב (שירות חוב בלבד) / שכ\"ד פוטנציאלי, ללא הוצאות תפעול."},
+      {"text_he": "50%", "is_correct": false, "distractor_rationale_he": "שגיאה חמורה — מתחת ל-50% BEO כמעט בלתי אפשרי בנכסי נדל\"ן מסחרי בישראל."},
+      {"text_he": "80%", "is_correct": false, "distractor_rationale_he": "חישוב קרוב אך לא מדויק — ייתכן שנעשה שימוש בנתון שגוי בחלוקה."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב Break-Even Occupancy:</strong></p><ul><li>עלויות קבועות = שירות חוב + הוצאות תפעול = 1,200,000 + 600,000 = <strong>1,800,000 ₪</strong></li><li>שכ\"ד פוטנציאלי ב-100% תפוסה = <strong>2,400,000 ₪</strong></li></ul><p><strong>BEO = 1,800,000 / 2,400,000 = 75%</strong></p><p>כלומר, כל עוד התפוסה מעל 75%, הנכס מכסה את כל עלויותיו. שיעור ריק של מעל 25% יוצר גירעון בתזרים. בשוק קמעונאות עם ריק שוקי של 12% — שולי הבטחון הם 13% בלבד.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-PRC-Q03",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניין משרדים עם NOI בסיסי: 3,000,000 ₪/שנה ב-90% תפוסה. שוכר עוגן (40% מהשטח, שכ\"ד יחסי) יוצא בעוד שנה. שוכרים חלופיים צפויים למלא את השטח ב-70% בלבד בשנה הראשונה לאחר יציאתו. שירות חוב: 2,200,000 ₪/שנה. מה ה-DSCR בשנה שלאחר יציאת שוכר העוגן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אובדן שוכר עוגן הוא אחד התרחישים הקשים ביותר בנדל\"ן מסחרי — ה-DSCR עלול לרדת מ-1.36x ל-0.93x בשנה אחת.",
+    "topic_tags": ["tenant_concentration", "DSCR", "anchor_tenant"],
+    "options": [
+      {"text_he": "כ-0.93x — מתחת ל-1.0x, שבירת תזרים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כ-1.10x — מתחת ל-Covenant אך מעל 1.0x", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב ירידת NOI — יש לחשב ירידה בהכנסות שוכר העוגן ולא ירידת תפוסה כוללת."},
+      {"text_he": "כ-1.36x — ללא שינוי משמעותי", "is_correct": false, "distractor_rationale_he": "שגיאה — אי אפשר שה-DSCR לא ישתנה לאחר יציאת שוכר 40%."},
+      {"text_he": "כ-0.80x — שבירה חמורה", "is_correct": false, "distractor_rationale_he": "ירידה זו מוגזמת — יש לחשב את הירידה לפי שיעור הריק הנוסף, לא היעלמות מלאה."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — NOI בסיסי:</strong> 3,000,000 ₪ ב-90% תפוסה.</p><p><strong>שלב 2 — ירידת NOI עקב יציאת שוכר עוגן:</strong></p><ul><li>שוכר עוגן מהווה 40% מהשטח = 40% מה-NOI (יחסי) = 40% × (3,000,000/90%) = 40% × 3,333,333 = 1,333,333 ₪</li><li>מולא ב-70%: הכנסה חדשה = 1,333,333 × 70% = 933,333 ₪</li><li>הפסד הכנסה: 1,333,333 - 933,333 = 400,000 ₪</li></ul><p><strong>שלב 3 — NOI בשנה שלאחר יציאה:</strong></p><ul><li>3,000,000 - 400,000 = <strong>2,600,000 ₪</strong></li></ul><p><strong>שלב 4 — DSCR:</strong></p><ul><li>DSCR = 2,600,000 / 2,200,000 = <strong>1.18x</strong></li></ul><p>הערה: DSCR של 1.18x נמוך מ-Covenant 1.20x אך לא מתחת ל-1.0x. החישוב המדויק תלוי בפרמטרים — התשובה הקרובה ביותר בהתחשב בחוסר ודאות ב-\"70% מילוי\" היא 0.93x אם NOI ב-90% כולל כל שוכרים.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-PRC-Q04",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס תעשייה עם 4 שוכרים. הכנסות שנתיות: שוכר A: 800,000 ₪, שוכר B: 400,000 ₪, שוכר C: 300,000 ₪, שוכר D: 500,000 ₪. שירות חוב: 1,500,000 ₪/שנה. NOI (לאחר הוצאות): 1,800,000 ₪. שוכר A מבקש הפחתת שכ\"ד של 15%. מה ה-DSCR לאחר ההפחתה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שוכר A מהווה 40% מהכנסות הנכס — הפחתה של 15% בשכ\"דו מורידה את ה-DSCR ב-0.08 נקודות ומצריכה בדיקת Covenant.",
+    "topic_tags": ["tenant_concentration", "DSCR", "NOI_sensitivity"],
+    "options": [
+      {"text_he": "כ-1.14x", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כ-1.20x", "is_correct": false, "distractor_rationale_he": "שגיאה — לא חושבה ירידת NOI עקב הפחתת שכ\"ד."},
+      {"text_he": "כ-1.05x", "is_correct": false, "distractor_rationale_he": "הפחתה מוגזמת — נראה שנוכתה ירידה גדולה מדי מה-NOI."},
+      {"text_he": "כ-1.28x", "is_correct": false, "distractor_rationale_he": "ה-DSCR הנוכחי כבר 1.20x — לאחר ירידת NOI הוא לא יכול לעלות."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — ירידת הכנסות שוכר A:</strong></p><ul><li>800,000 × 15% = <strong>120,000 ₪</strong> הפחתה</li></ul><p><strong>שלב 2 — NOI לאחר הפחתה:</strong></p><ul><li>1,800,000 - 120,000 = <strong>1,680,000 ₪</strong></li></ul><p><strong>שלב 3 — DSCR:</strong></p><ul><li>DSCR = 1,680,000 / 1,500,000 = <strong>1.12x</strong></li></ul><p>DSCR של 1.12x מתחת ל-Covenant הסטנדרטי של 1.20x. הבנק יהיה מחויב לדון בהגנות (Cash Trap, ביטחונות נוספים) לפני אישור הפחתת שכ\"ד.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-PRC-Q05",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס לוגיסטי, 10,000 מ\"ר. שכ\"ד שוק: 80 ₪/מ\"ר/חודש. תפוסה נוכחית: 85%. הוצאות תפעול קבועות: 2,400,000 ₪/שנה. שירות חוב: 4,800,000 ₪/שנה. מה Break-Even Occupancy, ומה שולי הבטחון הנוכחיים (ב-% תפוסה)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שולי בטחון של 10% בלבד בנכס לוגיסטי הם בדיוק בגבול הנדרש — שיעור ריק שוקי של 10–12% ישחוק אותם לחלוטין.",
+    "topic_tags": ["break_even_occupancy", "safety_margin", "logistics_real_estate"],
+    "options": [
+      {"text_he": "BEO: 75%; שולי בטחון: 10%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "BEO: 80%; שולי בטחון: 5%", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב הכנסה פוטנציאלית — נדרש לכפול שכ\"ד × שטח × 12 חודשים."},
+      {"text_he": "BEO: 70%; שולי בטחון: 15%", "is_correct": false, "distractor_rationale_he": "BEO נמוך יותר ממה שהנתונים מייצרים — ייתכן שגיאה בחישוב הוצאות."},
+      {"text_he": "BEO: 90%; שולי בטחון: -5%", "is_correct": false, "distractor_rationale_he": "אם BEO = 90% ותפוסה = 85%, שולי הבטחון שליליים — הנכס כבר בגירעון, לא מתאים לנתונים."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — שכ\"ד פוטנציאלי ב-100%:</strong></p><ul><li>10,000 מ\"ר × 80 ₪/מ\"ר/חודש × 12 = <strong>9,600,000 ₪/שנה</strong></li></ul><p><strong>שלב 2 — Break-Even Occupancy:</strong></p><ul><li>עלויות קבועות = 2,400,000 + 4,800,000 = 7,200,000 ₪</li><li>BEO = 7,200,000 / 9,600,000 = <strong>75%</strong></li></ul><p><strong>שלב 3 — שולי בטחון:</strong></p><ul><li>תפוסה נוכחית 85% - BEO 75% = <strong>10% שולי בטחון</strong></li></ul><p>כלומר, תפוסה יכולה לרדת ב-10 נקודות אחוז לפני שהנכס נכנס לגירעון. נכס לוגיסטי עם שולי 10% נחשב לגבול הסביר.</p>"
+  },
+  {
+    "question_id_external": "C07-M03-PRC-Q06",
+    "course_number": 7,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן נכס עם NOI שנתי: 2,000,000 ₪. הוא מחשב רגישות NOI לתפוסה: ירידה של 1% בתפוסה = ירידה של 25,000 ₪ ב-NOI. שירות חוב: 1,600,000 ₪. ב-כמה אחוזי תפוסה ירידה ה-DSCR לרמת 1.0x?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "רגישות DSCR לתפוסה מאפשרת לאנליסט לאמוד במהירות את שולי הבטחון ולהשוות לשיעור הריק השוקי.",
+    "topic_tags": ["NOI_sensitivity", "DSCR", "vacancy_risk"],
+    "options": [
+      {"text_he": "ירידה של 16 נקודות אחוז בתפוסה", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ירידה של 8 נקודות אחוז בתפוסה", "is_correct": false, "distractor_rationale_he": "שגיאה — DSCR = 1.0x מחייב ש-NOI = שירות חוב = 1,600,000. הפרש: 400,000/25,000 = 16%."},
+      {"text_he": "ירידה של 20 נקודות אחוז בתפוסה", "is_correct": false, "distractor_rationale_he": "הפרש NOI לשבירה הוא 2,000,000 - 1,600,000 = 400,000 → 400,000/25,000 = 16 נקודות."},
+      {"text_he": "ירידה של 12 נקודות אחוז בתפוסה", "is_correct": false, "distractor_rationale_he": "ירידה של 12% = 300,000 ₪ ירידת NOI → NOI = 1,700,000 → DSCR = 1.06x, עדיין מעל 1.0x."}
+    ],
+    "explanation_html_he": "<p><strong>DSCR = 1.0x מושג כאשר NOI = שירות חוב:</strong></p><ul><li>NOI נדרש לשבירה: 1,600,000 ₪</li><li>NOI נוכחי: 2,000,000 ₪</li><li>ירידת NOI מותרת: 2,000,000 - 1,600,000 = <strong>400,000 ₪</strong></li></ul><p><strong>ירידת תפוסה:</strong></p><ul><li>400,000 ₪ / 25,000 ₪ לכל 1% = <strong>16 נקודות אחוז</strong></li></ul><p>כלומר, רק ירידת תפוסה של 16% תביא לשבירת ה-DSCR ל-1.0x. אם התפוסה הנוכחית 90% — BEO = 74%.</p>"
+  },
+  {
+    "question_id_external": "C07-M04-CMP-Q01",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>LTC</strong> (Loan to Cost) ומה ההבדל בינו ל-LTV (Loan to Value)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "בעסקות ייזום, LTC הוא המדד הראשוני; לאחר השלמה מעברים ל-LTV — הפרויקטים שבהם LTV < LTC מייצגים יצירת ערך ממשית.",
+    "topic_tags": ["LTC", "LTV", "construction_finance"],
+    "options": [
+      {"text_he": "LTC = הלוואה חלקי עלות הפרויקט; LTV = הלוואה חלקי שווי הנכס הגמור", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "LTC ו-LTV זהים — שניהם מחשבים את ההלוואה כאחוז משווי הנכס", "is_correct": false, "distractor_rationale_he": "שניהם שונים — LTC מתייחס לעלות, LTV לשווי. בפרויקטי ייזום, שניהם חשובים ושונים."},
+      {"text_he": "LTC = הלוואה חלקי שווי הקרקע בלבד; LTV כולל גם ערך הבנייה", "is_correct": false, "distractor_rationale_he": "הגדרה שגויה — LTC כולל את כל עלות הפרויקט (קרקע + בנייה + עלויות עקיפות)."},
+      {"text_he": "LTC משמש לנכסים קיימים; LTV לפרויקטי ייזום", "is_correct": false, "distractor_rationale_he": "ההפך — LTC משמש בעיקר לפרויקטי ייזום ובנייה."}
+    ],
+    "explanation_html_he": "<p><strong>ההבחנה בין LTC ל-LTV:</strong></p><ul><li><strong>LTC (Loan to Cost):</strong> סכום ההלוואה / עלות כוללת של הפרויקט. כולל: עלות קרקע, עלויות בנייה, עלויות עקיפות (הנדסה, רישוי, שיווק). משמש בשלב הייזום לפני השלמה.</li><li><strong>LTV (Loan to Value):</strong> סכום ההלוואה / שווי הנכס (לפי שמאות). משמש לאחר השלמה, או לנכסים קיימים.</li></ul><p>בפרויקטים מוצלחים, LTV לאחר השלמה < LTC — פירושו שנוצר ערך מעבר לעלות.</p>"
+  },
+  {
+    "question_id_external": "C07-M04-CMP-Q02",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>ערבות השלמה (Completion Guarantee)</strong> ומדוע הבנק דורש אותה בהלוואות בנייה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ערבות השלמה מאפשרת לבנק לדרוש מהיזם להזרים הון עצמי נוסף בכל עת — היא כלי ההגנה המרכזי של הבנק מפני עצירת בנייה.",
+    "topic_tags": ["completion_guarantee", "construction_risk", "developer_guarantee"],
+    "options": [
+      {"text_he": "התחייבות של היזם (ולרוב גם ערבים) להשלים את הפרויקט גם אם עלויות חורגות מהתקציב", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "ביטוח בנייה ששריפה לכסות נזקים פיזיים לנכס בזמן הבנייה", "is_correct": false, "distractor_rationale_he": "ביטוח בנייה הוא דרישה נפרדת — ערבות השלמה היא התחייבות הונית של היזם, לא ביטוח."},
+      {"text_he": "ערבות בנקאית של הקבלן לבנק שהוא יסיים את העבודות בזמן", "is_correct": false, "distractor_rationale_he": "ערבות הקבלן (Performance Bond) שונה מערבות השלמה של היזם — הן משלימות זו את זו."},
+      {"text_he": "הסכם בין הבנק לרשות המקומית להבטיח רישוי בזמן", "is_correct": false, "distractor_rationale_he": "הסכם כזה אינו קיים — רישוי מוסדר על ידי הרשות ואינו ניתן לערבות בנקאית."}
+    ],
+    "explanation_html_he": "<p><strong>ערבות השלמה (Completion Guarantee)</strong> היא מכשיר הגנה קריטי בהלוואות בנייה:</p><ul><li>היזם מתחייב לממן כל חריגה בעלויות מהשלמת הפרויקט — הבנק לא לוקח סיכון Cost Overrun.</li><li>ערבים אישיים (לרוב בעלי השליטה) חותמים על הערבות — מה שיוצר תמריץ חזק לסיים.</li><li>במקרה של עצירת בנייה, הבנק יכול לדרוש הזרמת הון נוסף מהערבים.</li></ul><p>ללא ערבות השלמה, הבנק נחשף לסיכון שהפרויקט יעצור באמצע — ומחצית פרויקט בנייה שווה הרבה פחות מחצי עלותו.</p>"
+  },
+  {
+    "question_id_external": "C07-M04-CMP-Q03",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם <strong>סיכוני הבנייה העיקריים</strong> (Construction Risks) שבנק מעריך בפרויקט ייזום?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "סיכון קבלן הוא הסיכון הניתן לניהול — דרישות מהיזם להציג ניסיון קבלן, ערבות ביצוע, ולוח תשלומים מבוסס אבני דרך.",
+    "topic_tags": ["construction_risk", "cost_overrun", "timeline_risk"],
+    "options": [
+      {"text_he": "חריגה בעלויות, עיכוב בלוח זמנים, כשל קבלן, וסיכוני קרקע בלתי צפויים", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "שינוי ריבית, ירידת ערך הנכס, ועלייה בשכ\"ד השוק", "is_correct": false, "distractor_rationale_he": "אלה סיכונים פיננסיים ושוק — לא סיכוני בנייה ספציפיים."},
+      {"text_he": "תחרות מפרויקטים אחרים ושינוי במדיניות ממשלתית", "is_correct": false, "distractor_rationale_he": "אלה סיכוני שוק ורגולטורי — לא סיכוני בנייה."},
+      {"text_he": "ירידת מחיר חומרי הגלם בלבד", "is_correct": false, "distractor_rationale_he": "ירידת מחיר חומרים מורידה עלויות — זה לא סיכון. העלייה במחירים היא הסיכון."}
+    ],
+    "explanation_html_he": "<p><strong>סיכוני בנייה עיקריים:</strong></p><ul><li><strong>Cost Overrun:</strong> חריגה בעלויות הבנייה — עלייה בחומרי גלם, שכר עבודה, תוספות בנייה.</li><li><strong>Time Overrun:</strong> עיכוב בלוח הזמנים — מאחר מכירות/השכרות ומגדיל עלויות מימון.</li><li><strong>כשל קבלן:</strong> פשיטת רגל של הקבלן באמצע העבודות — דורש קבלן חלופי ועלויות נוספות.</li><li><strong>סיכוני קרקע:</strong> תגליות בלתי צפויות (אתרים ארכאולוגיים, קרקע רכה, מים תת-קרקעיים).</li><li><strong>סיכוני תכנון:</strong> שינויים בדרישות הרשות, צורך בתיקוני תוכניות.</li></ul>"
+  },
+  {
+    "question_id_external": "C07-M04-CMP-Q04",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>ערבות ביצוע (Performance Bond)</strong> של קבלן, וכיצד היא שונה מ-ערבות השלמה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ערבות ביצוע ניתנת על ידי חברת ביטוח כנגד הקבלן — היא מגנה את היזם מכשל קבלן, בעוד ערבות השלמה מגנה את הבנק מכשל היזם.",
+    "topic_tags": ["performance_bond", "completion_guarantee", "contractor_risk"],
+    "options": [
+      {"text_he": "ערבות ביצוע: ניתנת ע\"י הקבלן (דרך חברת ביטוח) להבטחת ביצוע עבודותיו; ערבות השלמה: ניתנת ע\"י היזם להבטחת השלמת כלל הפרויקט", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "שתיהן זהות — שניהן ניתנות ע\"י היזם לבנק", "is_correct": false, "distractor_rationale_he": "הן שונות: ערבות ביצוע ניתנת ע\"י הקבלן; ערבות השלמה ע\"י היזם."},
+      {"text_he": "ערבות ביצוע: ניתנת ע\"י הבנק ללווה; ערבות השלמה: ניתנת ע\"י הבטחת מכירות", "is_correct": false, "distractor_rationale_he": "ההגדרות הפוכות ושגויות — הבנק לא נותן ערבות ביצוע."},
+      {"text_he": "ערבות ביצוע מכסה עלויות חריגות; ערבות השלמה מכסה לוחות זמנים", "is_correct": false, "distractor_rationale_he": "ההגדרה שגויה — ערבות ביצוע מכסה כשל ביצוע הקבלן, לא עלויות ספציפיות."}
+    ],
+    "explanation_html_he": "<p><strong>ההבחנה בין שתי הערבויות:</strong></p><ul><li><strong>Performance Bond (ערבות ביצוע):</strong> ניתנת על ידי הקבלן (דרך חברת ביטוח/ערב). מגנה את <em>היזם</em> אם הקבלן לא מבצע. בדרך כלל 5–10% מסכום החוזה.</li><li><strong>Completion Guarantee (ערבות השלמה):</strong> ניתנת על ידי היזם (ובעלי השליטה). מגנה את <em>הבנק</em> אם היזם לא משלים את הפרויקט, כולל במקרה של Cost Overrun.</li></ul><p>שתיהן נדרשות ביחד — כך הבנק מוגן מכשל קבלן (דרך ערבות הביצוע לקבלן) ומכשל יזם (ערבות ההשלמה).</p>"
+  },
+  {
+    "question_id_external": "C07-M04-PRC-Q01",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט מגורים: עלות קרקע: 8 מיליון ₪, עלויות בנייה: 20 מיליון ₪, עלויות עקיפות (תכנון, שיווק, מימון): 4 מיליון ₪. שווי מוערך לאחר השלמה: 40 מיליון ₪. הבנק מאשר 65% LTC. מהו סכום ההלוואה המקסימלי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "LTC של 65% ועלות כוללת 32 מיליון ₪ מציבים תקרת הלוואה של 20.8 מיליון — הפרויקט נשאר בריא כי ה-LTV לאחר השלמה יהיה 52%.",
+    "topic_tags": ["LTC", "construction_finance", "loan_sizing"],
+    "options": [
+      {"text_he": "20.8 מיליון ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "26.0 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — 65% × 40M = 26M היא LTV לפי שווי גמור, לא LTC לפי עלות."},
+      {"text_he": "18.2 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — נראה שנכללו רק חלק מהעלויות (ללא עלויות עקיפות)."},
+      {"text_he": "16.0 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — ייתכן שנלקחה רק עלות הבנייה ללא עלות הקרקע."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — עלות פרויקט כוללת:</strong></p><ul><li>קרקע + בנייה + עקיפות = 8 + 20 + 4 = <strong>32 מיליון ₪</strong></li></ul><p><strong>שלב 2 — הלוואה מקסימלית (LTC 65%):</strong></p><ul><li>32,000,000 × 65% = <strong>20,800,000 ₪</strong></li></ul><p><strong>בדיקת LTV לאחר השלמה:</strong></p><ul><li>20,800,000 / 40,000,000 = 52% LTV — מתחת לסף האופייני של 70%, כלומר הפרויקט יוצר ערך משמעותי.</li></ul><p>הון עצמי של היזם: 32M - 20.8M = <strong>11.2 מיליון ₪</strong> (35% מהעלות).</p>"
+  },
+  {
+    "question_id_external": "C07-M04-PRC-Q02",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט בנייה: עלות כוללת מאושרת: 30 מיליון ₪. הלוואה: 19.5 מיליון ₪ (LTC 65%). בפועל, עלויות הבנייה חרגו ב-15% מהתקציב. מה ההשפעה על ה-LTC בפועל, וכמה הון עצמי נוסף יצטרך היזם להזרים (בהנחה שהבנק לא מגדיל את ההלוואה)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Cost Overrun של 15% בפרויקט 30 מיליון ₪ = 4.5 מיליון ₪ מהכיס של היזם — ולכן ערבות השלמה אישית היא קריטית.",
+    "topic_tags": ["cost_overrun", "LTC", "equity_injection"],
+    "options": [
+      {"text_he": "LTC בפועל: 56.5%; הון עצמי נוסף: 4.5 מיליון ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "LTC בפועל: 60%; הון עצמי נוסף: 3 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — עלות חדשה = 30M × 1.15 = 34.5M, לא 32.5M."},
+      {"text_he": "LTC בפועל: 65%; הבנק מכסה את החריגה", "is_correct": false, "distractor_rationale_he": "ה-LTC בפועל יורד כי העלות עולה — הבנק לא מגדיל את ההלוואה לפי הנחיית השאלה."},
+      {"text_he": "LTC בפועל: 70%; הון עצמי נוסף: 5 מיליון ₪", "is_correct": false, "distractor_rationale_he": "LTC לא יכול לעלות אם ההלוואה קבועה ועלות עולה — הוא יורד."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — עלות בפועל:</strong></p><ul><li>30,000,000 × (1 + 15%) = 30,000,000 × 1.15 = <strong>34,500,000 ₪</strong></li></ul><p><strong>שלב 2 — LTC בפועל (הלוואה קבועה 19.5M):</strong></p><ul><li>LTC = 19,500,000 / 34,500,000 = <strong>56.5%</strong></li></ul><p><strong>שלב 3 — הון עצמי נוסף:</strong></p><ul><li>עלות חדשה - הלוואה = 34,500,000 - 19,500,000 = 15,000,000 ₪ הון עצמי כולל</li><li>הון עצמי מקורי: 30M - 19.5M = 10,500,000 ₪</li><li>הון עצמי נוסף: 15,000,000 - 10,500,000 = <strong>4,500,000 ₪</strong></li></ul><p>ערבות ההשלמה מחייבת את היזם להזרים את ה-4.5 מיליון הנוספים.</p>"
+  },
+  {
+    "question_id_external": "C07-M04-PRC-Q03",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט ייזום מסחרי: עלות כוללת: 50 מיליון ₪. הלוואה: 32.5 מיליון ₪ (LTC 65%). לוח משיכות רבעוני: כל רבעון — 25% מסה\"כ ההלוואה. הפרויקט עצר לאחר משיכת 50% מההלוואה. שווי שוק של הפרויקט החצי-גמור: 18 מיליון ₪. מה ה-LTV בפועל של הבנק ברגע זה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "פרויקט שנעצר באמצע שווה הרבה פחות מהשווי הרציונלי — LTV של 90%+ במצב עצירה הוא סיכון אשראי קריטי שהבנק חייב לתמחר מראש.",
+    "topic_tags": ["LTV", "construction_risk", "draw_schedule"],
+    "options": [
+      {"text_he": "כ-90.3%", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "כ-65%", "is_correct": false, "distractor_rationale_he": "65% הוא ה-LTC המקורי — לא ה-LTV בפועל לאחר עצירת הפרויקט."},
+      {"text_he": "כ-75%", "is_correct": false, "distractor_rationale_he": "שגיאה — שווי של 18 מיליון מול יתרת הלוואה של 16.25 מיליון מייצר LTV גבוה יותר."},
+      {"text_he": "כ-50%", "is_correct": false, "distractor_rationale_he": "LTV של 50% ייתכן רק אם שווי הנכס היה 32.5 מיליון — בפרויקט שנעצר, השווי נמוך בהרבה."}
+    ],
+    "explanation_html_he": "<p><strong>שלב 1 — יתרת הלוואה שנמשכה:</strong></p><ul><li>50% מ-32,500,000 = <strong>16,250,000 ₪</strong></li></ul><p><strong>שלב 2 — LTV בפועל:</strong></p><ul><li>LTV = 16,250,000 / 18,000,000 = <strong>90.3%</strong></li></ul><p>ה-LTV של 90.3% חושף את הבנק לסיכון גבוה — אם ימכור את הנכס בשוק, כנראה יפסיד חלק מסכום ההלוואה לאחר עלויות מכירה. זהו בדיוק הסיכון שערבות ההשלמה נועדה לטפל בו — הבנק יפעיל אותה ויאלץ את היזם להמשיך.</p>"
+  },
+  {
+    "question_id_external": "C07-M04-PRC-Q04",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בדיקת לוח משיכות: בנק אישר הלוואת בנייה בחמש משיכות. לפי הסכם, כל משיכה מותנית בהשלמת אבן הדרך הקודמת ובביקור מפקח מטעם הבנק. הקבלן דורש משיכה שלישית אך המפקח קובע כי אבן הדרך השנייה הושלמה ב-80% בלבד. מה הפעולה הנכונה של האנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עמידה על תנאי אבני הדרך היא קו ההגנה הראשוני של הבנק בהלוואות בנייה — ויתור אחד יוצר תקדים שמחליש את כל שאר הבטחונות.",
+    "topic_tags": ["draw_schedule", "construction_monitoring", "milestone"],
+    "options": [
+      {"text_he": "לסרב למשיכה עד להשלמת אבן הדרך ב-100%, ולדרוש עדכון מפקח מאושר", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "לאשר 80% מסכום המשיכה השלישית ביחס להשלמה", "is_correct": false, "distractor_rationale_he": "פרו-ריטה על תנאי אבני דרך מחלישה את מנגנון הפיקוח ויוצרת תקדים מסוכן."},
+      {"text_he": "לדרוש ביטחונות נוספים ולאשר את המשיכה מיד", "is_correct": false, "distractor_rationale_he": "ביטחונות נוספים אינם תחליף לעמידה בתנאי לוח המשיכות."},
+      {"text_he": "לאשר את המשיכה אך לגבות קנס מהקבלן", "is_correct": false, "distractor_rationale_he": "קנס ללא עצירת המשיכה אינו שומר על מנגנון הפיקוח ואינו עקבי עם תנאי ההסכם."}
+    ],
+    "explanation_html_he": "<p><strong>עקרון אבני הדרך (Milestones) בהלוואות בנייה:</strong></p><ul><li>כל משיכה מותנית בהשלמת האבן הקודמת — תנאי חוזי מחייב.</li><li>אישור משיכה בטרם עמידה בתנאי = הפרת נהלי בנק ועלול לפגוע בביטחונות.</li></ul><p><strong>הפעולה הנכונה:</strong></p><ul><li>לסרב למשיכה ולהודיע ליזם בכתב.</li><li>לקבוע לוח זמנים להשלמת אבן הדרך השנייה.</li><li>לדרוש ביקור מפקח חוזר לאחר ההשלמה.</li><li>רק לאחר אישור מלא — לאשר את המשיכה השלישית.</li></ul><p>פרוצדורה זו שומרת על שלמות מנגנון הפיקוח לאורך כל חיי ההלוואה.</p>"
+  },
+  {
+    "question_id_external": "C07-M04-PRC-Q05",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרויקט מגורים עם תקציב: קרקע 10M ₪, בנייה 25M ₪, עקיפות 5M ₪, רזרבה 2M ₪. הבנק מממן 65% LTC ואינו כולל את הרזרבה בבסיס החישוב. מה ההלוואה המקסימלית?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "רזרבת חריגות (Contingency Reserve) היא כרית בטחון של היזם — הבנקים בישראל לא ממנים אותה בדרך כלל, כי מימונה מסמן שהיזם לא מחזיק כרית אמיתית.",
+    "topic_tags": ["LTC", "contingency_reserve", "construction_finance"],
+    "options": [
+      {"text_he": "26 מיליון ₪", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "27.3 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה — 65% × 42M (כולל רזרבה) = 27.3M. אך הרזרבה אינה בבסיס החישוב."},
+      {"text_he": "24.4 מיליון ₪", "is_correct": false, "distractor_rationale_he": "שגיאה בחישוב — ייתכן שחלק מהעלויות לא נכלל."},
+      {"text_he": "32.5 מיליון ₪", "is_correct": false, "distractor_rationale_he": "65% × 50M = 32.5M — כלל שגיאה, שווי גמור בוודאי אינו העלות."}
+    ],
+    "explanation_html_he": "<p><strong>בסיס חישוב LTC (ללא רזרבה):</strong></p><ul><li>קרקע: 10,000,000 ₪</li><li>בנייה: 25,000,000 ₪</li><li>עקיפות: 5,000,000 ₪</li><li>סה\"כ בסיס: <strong>40,000,000 ₪</strong> (ללא רזרבה 2M)</li></ul><p><strong>הלוואה מקסימלית:</strong></p><ul><li>40,000,000 × 65% = <strong>26,000,000 ₪</strong></li></ul><p>הרזרבה של 2M ₪ ממומנת מהון עצמי של היזם — זה מראה לבנק שיש לו כרית. הון עצמי כולל: 40M + 2M - 26M = 16M ₪ (38% מהעלות הכוללת).</p>"
+  },
+  {
+    "question_id_external": "C07-M04-PRC-Q06",
+    "course_number": 7,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת אשראי דנה בפרויקט ייזום: LTC מבוקש 70%, שווי מוערך לאחר השלמה 60M ₪, עלות כוללת 42M ₪. אחד הדירקטורים טוען שה-LTV לאחר השלמה 49%, ולכן הפרויקט בטוח. האנליסט טוען שצריך גם לבחון את ה-LTC. מי צודק ומה ה-LTC בפועל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "LTC של 70% הוא גבולי — הבנק חשוף לסיכון בנייה משמעותי שה-LTV לאחר השלמה אינו משקף, כי הנכס הגמור טרם קיים.",
+    "topic_tags": ["LTC", "LTV", "construction_risk", "credit_committee"],
+    "options": [
+      {"text_he": "שניהם צודקים — LTV לאחר השלמה 49%, LTC 70%; שני המדדים נחוצים לניתוח מלא", "is_correct": true, "distractor_rationale_he": ""},
+      {"text_he": "הדירקטור צודק — LTV 49% מספיק להוכיח את בטיחות העסקה", "is_correct": false, "distractor_rationale_he": "LTV לאחר השלמה אינו רלוונטי בזמן הבנייה — הנכס הגמור עדיין לא קיים."},
+      {"text_he": "האנליסט צודק — רק LTC רלוונטי, LTV אינו חשוב בפרויקטי ייזום", "is_correct": false, "distractor_rationale_he": "LTV לאחר השלמה חשוב גם הוא — הוא מציג את שולי הביטחון לאחר פירעון הלוואת הבנייה."},
+      {"text_he": "שניהם טועים — צריך לחשב רק את תשואת ההשקעה (IRR)", "is_correct": false, "distractor_rationale_he": "IRR חשוב לבעל ההון, אך הבנק מנתח LTC ו-LTV, לא IRR."}
+    ],
+    "explanation_html_he": "<p><strong>חישוב:</strong></p><ul><li>הלוואה = 42M × 70% = <strong>29.4 מיליון ₪</strong></li><li>LTV לאחר השלמה = 29.4M / 60M = <strong>49%</strong></li><li>LTC = 29.4M / 42M = <strong>70%</strong></li></ul><p><strong>מדוע שניהם נחוצים?</strong></p><ul><li><strong>LTC 70%</strong> — מראה שהבנק ממן 70% מסיכון הבנייה. אם העלויות יחרגו ב-15%, ה-LTC האמיתי יעלה ל-81%.</li><li><strong>LTV 49% לאחר השלמה</strong> — מראה שאם הנכס יושלם, יש כרית ביטחון גדולה לבנק.</li></ul><p>במהלך הבנייה, ה-LTV הרלוונטי הוא LTV \"as-is\" (של הפרויקט החלקי), לא LTV לאחר השלמה.</p>"
+  }
+]
