@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C11-M05-CMP-Q01",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>אילו <strong>מרכיבים חייבים להופיע</strong> בפרק התנאים המוצעים של מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ועדת האשראי מאשרת עסקה על בסיס פרק התנאים — כל פרמטר שחסר ממנו יצטרך אישור נוסף.",
+    "topic_tags": ["proposed_terms", "credit_memo", "loan_structure"],
+    "options": [
+      {
+        "text_he": "סכום הלוואה, מח&quot;מ וסוג פירעון, ריבית ומרווח, בטוחות, תנאים מקדימים, קובננטים פיננסיים ולא-פיננסיים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "סכום הלוואה וריבית בלבד — שאר הפרמטרים נקבעים בהסכם ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת האשראי חייבת לאשר את מלוא המבנה, לא רק שני פרמטרים"
+      },
+      {
+        "text_he": "לוח סילוקין מפורט עם תשלומי קרן וריבית לכל שנה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לוח סילוקין מפורט שייך לנספח; פרק התנאים מציג את עקרונות המבנה"
+      },
+      {
+        "text_he": "ריבית, בטוחות ורשימת כל מסמכי הבדיקה שהתקבלו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת מסמכי DD היא חלק מנספח הבדיקה, לא מפרק התנאים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מרכיבי פרק התנאים המוצעים:</strong></p><ul><li><strong>סכום:</strong> 30 מיליון שקל (75% LTV)</li><li><strong>מח&quot;מ ופירעון:</strong> 7 שנים; Bullet עם Amortization 1% שנתי</li><li><strong>ריבית:</strong> Prime + 1.85% (קבועה לשנתיים, משתנה לאחר מכן)</li><li><strong>בטוחות:</strong> שעבוד ראשון על הנכס, שעבוד על חשבונות; DSRA 6 חודשים; ערבות אישית</li><li><strong>CPs:</strong> רישום משכנתה, ביטוח רכוש, חוות דעת משפטית — לפני משיכה</li><li><strong>קובננטים:</strong> DSCR מינימלי 1.20x; LTV מקסימלי 80%; דיווח רבעוני</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M05-CMP-Q02",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הם <strong>הפרמטרים הסטנדרטיים של קובננט DSCR</strong> במימון נדל&quot;ן מסחרי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "קובננט DSCR ללא תדירות בדיקה ותקופת ריפוי הוא קובננט שאי אפשר לאכוף אותו.",
+    "topic_tags": ["covenants", "DSCR", "financial_covenants", "credit_memo"],
+    "options": [
+      {
+        "text_he": "סף מינימלי (לרוב 1.20x-1.25x), תדירות בדיקה (רבעונית/שנתית), תקופת ריפוי (30-60 יום), ומה מהווה אירוע כשל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "סף DSCR של 1.0x בלבד — כל עוד הנכס מכסה את שירות החוב אין הפרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 1.0x אינו מספיק לרוב הבנקים; סף מינימלי נהוג הוא 1.20x-1.25x כרית ביטחון"
+      },
+      {
+        "text_he": "סף DSCR נקבע בוועדה לכל עסקה בנפרד ואין פרמטרים סטנדרטיים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לכל בנק יש מדיניות מינימלית; הסף מותאם אך תמיד בגבולות מדיניות"
+      },
+      {
+        "text_he": "קובננט DSCR נבדק רק בתאריך מחזור ההלוואה ולא לאורך חייה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיקה רק בסוף ההלוואה לא מאפשרת לבנק לזהות הידרדרות מוקדם"
+      }
+    ],
+    "explanation_html_he": "<p><strong>קובננט DSCR — ניסוח סטנדרטי:</strong></p><blockquote>&quot;קובננט DSCR: הלווה ישמור על DSCR לא פחות מ-1.20x, כמחושב לפי NOI שנתי מנורמל (12 חודשים אחרונים) חלקי שירות חוב שנתי. הבדיקה תתבצע רבעונית בתוך 45 יום מתום כל רבעון. הפרה: 30 יום ריפוי, לאחריהם אי-תיקון יהווה Event of Default.&quot;</blockquote>"
+  },
+  {
+    "question_id_external": "C11-M05-CMP-Q03",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>קובננט פיננסי</strong> לבין <strong>קובננט לא-פיננסי</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "קובננטים לא-פיננסיים הם לרוב הגנות מקדימות — הם נשברים לפני שה-DSCR נשבר.",
+    "topic_tags": ["covenants", "financial_covenants", "non_financial_covenants", "credit_memo"],
+    "options": [
+      {
+        "text_he": "קובננט פיננסי מבוסס על מדדים כמותיים (DSCR, LTV, נזילות); קובננט לא-פיננסי מבוסס על פעולות ואירועים (איסור על מכירה, דיווח, שינוי שימוש)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "קובננטים פיננסיים ניתנים להפרה עם ריפוי; קובננטים לא-פיננסיים מהווים כשל מיידי ללא ריפוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; לשני הסוגים יכולות להיות תקופות ריפוי; ההבדל הוא בסוג המדד, לא במנגנון הריפוי"
+      },
+      {
+        "text_he": "קובננטים פיננסיים הם תנאים מקדימים; קובננטים לא-פיננסיים הם תנאים שוטפים לכל אורך ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שניהם הם תנאים שוטפים; תנאים מקדימים (CPs) הם קטגוריה נפרדת"
+      },
+      {
+        "text_he": "רק קובננטים פיננסיים מוגדרים בהסכם ההלוואה; הלא-פיננסיים הם מכתב כוונות בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שני הסוגים מוגדרים בהסכם ההלוואה ומשפטית מחייבים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סוגי קובננטים:</strong></p><table><tr><th>פיננסיים</th><th>לא-פיננסיים</th></tr><tr><td>DSCR מינימלי 1.20x</td><td>איסור מכירת הנכס ללא אישור</td></tr><tr><td>LTV מקסימלי 80%</td><td>חובת דיווח דוחות כספיים</td></tr><tr><td>נזילות מינימלית 2M</td><td>איסור שעבוד נוסף ללא אישור</td></tr><tr><td>Debt Yield מינימלי 9%</td><td>שמירת ביטוח בתוקף</td></tr></table><p>קובננטים לא-פיננסיים הם &quot;אזהרות מוקדמות&quot; — הם מאפשרים לבנק לפעול לפני שהמצב הפיננסי מידרדר.</p>"
+  },
+  {
+    "question_id_external": "C11-M05-CMP-Q04",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם <strong>תנאים מקדימים (Conditions Precedent)</strong> ומה מספרם הטיפוסי בעסקת נדל&quot;ן מסחרי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "CP יחיד שלא קוים — ומשיכת הכספים נחסמת; לכן רשימת ה-CPs חייבת להיות ממוספרת ושלמה.",
+    "topic_tags": ["conditions_precedent", "loan_structure", "credit_memo"],
+    "options": [
+      {
+        "text_he": "דרישות שהלווה חייב לקיים לפני כל משיכה; מספר טיפוסי: 6-10 CPs, כולל שעבוד, ביטוח, חוות דעת משפטית ושמאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "CPs הם תנאים שמוסכמים בין הצדדים לאחר החתימה ואינם כלולים בהסכם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CPs הם חלק אינטגרלי מהסכם ההלוואה ומוגדרים בו במפורש"
+      },
+      {
+        "text_he": "CPs הם מכסה של CPs מקסימלי 3, כדי לא להכביד על הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין מגבלת מספר; מספר CPs נקבע לפי מורכבות העסקה ודרישות הבנק"
+      },
+      {
+        "text_he": "CPs הם אותו דבר כמו קובננטים שוטפים, רק בשם אחר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; CPs חלים לפני המשיכה הראשונה; קובננטים שוטפים חלים לאורך חיי ההלוואה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>CPs טיפוסיים בנדל&quot;ן מסחרי:</strong></p><ol><li>רישום משכנתה בטאבו / שעבוד</li><li>פוליסת ביטוח רכוש (שהבנק מוטב)</li><li>חוות דעת משפטית — ייעוץ חיצוני ועורך דין הלווה</li><li>שמאות מאושרת ע&quot;י הבנק</li><li>תשלום עמלת פתיחה</li><li>פתיחת חשבון DSRA וקפ&quot;ז</li><li>אישורי רשויות (כגון היתר בנייה בתוקף)</li><li>סגירת שעבוד קיים (אם נדרש)</li></ol><p>כל CP מרוצה מסומן &quot;Satisfied&quot; בטרם אישור המשיכה.</p>"
+  },
+  {
+    "question_id_external": "C11-M05-CMP-Q05",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהן <strong>שלוש אפשרויות ההמלצה</strong> בסיום מזכר אשראי וכיצד יש לנסח כל אחת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "המלצה שאומרת &quot;לאשר בכפוף לשיקול דעת הוועדה&quot; אינה המלצה — היא העברת אחריות.",
+    "topic_tags": ["recommendation", "approval", "conditional_approval", "credit_memo"],
+    "options": [
+      {
+        "text_he": "אישור (עם תנאי המזכר); אישור מותנה (עם תנאים מוגדרים לפני מימוש); דחייה (עם נימוק ספציפי)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אישור, המתנה לבדיקה נוספת, ודחייה — ה&quot;המתנה&quot; מאפשרת זמן לאסוף מידע נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המלצת &quot;המתנה&quot; אינה עמדה; אם חסר מידע — יש לבקש אותו לפני הגשת המזכר"
+      },
+      {
+        "text_he": "שלוש דרגות אישור: אישור מלא, אישור חלקי לסכום נמוך, ואישור עם ערבות נוספת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו הן ווריאציות של תנאים, לא אפשרויות המלצה עצמאיות; הבחנה מנוסחת אחרת"
+      },
+      {
+        "text_he": "אנליסט ממליץ; ועדה מחליטה — האנליסט אינו רשאי לפסול עסקה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; האנליסט ממליץ על כל האפשרויות כולל דחייה; הוועדה היא שמחליטה, אך ההמלצה יכולה להיות דחייה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניסוח כל אחת משלוש ההמלצות:</strong></p><ul><li><strong>אישור:</strong> &quot;אנו ממליצים לאשר הלוואה בסך 30 מיליון שקל בתנאים המפורטים בפרק 5. כל הסיכונים מנוהלים בגבולות מדיניות.&quot;</li><li><strong>אישור מותנה:</strong> &quot;אנו ממליצים לאשר בכפוף לאחד: (1) קבלת ערבות אישית ערב נוסף; (2) הורדת LTV ל-70%. ללא תנאים אלה, ה-DSCR בתרחיש Stress נמוך מדי.&quot;</li><li><strong>דחייה:</strong> &quot;אנו ממליצים לדחות. DSCR 0.98x בתרחיש Stress; WALT 1.2 שנים; ריכוז שוכר 80% — שלושת הסיכונים המהותיים אינם מנוהלים בצורה מספקת.&quot;</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M05-PRC-Q01",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>פרק התנאים כולל ריבית, LTV ובטוחות, אך לא כולל CPs ולא קובננטים. ועדת האשראי ביקשה השלמה. מה יש להוסיף?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "אישור מזכר ללא CPs וקובננטים הוא אישור עסקה ללא הגנות — זה לא אישור, זה מימון עיוור.",
+    "topic_tags": ["proposed_terms", "CPs", "covenants", "completeness"],
+    "options": [
+      {
+        "text_he": "רשימת CPs שהלווה חייב לקיים לפני משיכה, קובננטים פיננסיים (DSCR, LTV מקסימלי) וקובננטים לא-פיננסיים (דיווח, איסור מכירה)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "רק CPs — קובננטים שוטפים נקבעים בהסכם ההלוואה לאחר האישור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת האשראי חייבת לאשר את הקובננטים; לא ניתן להשאיר אותם לעו&quot;ד לאחר האישור"
+      },
+      {
+        "text_he": "רק קובננטים — CPs הם פרט טכני שלא שייך לוועדת האשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ועדת האשראי מאשרת את מלוא מבנה ההלוואה כולל CPs"
+      },
+      {
+        "text_he": "לוח סילוקין מפורט וחישוב אפקטיבי של עלות ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו פרטים חשובים אך שניוניים לעניין זה; הוועדה ביקשה CPs וקובננטים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>פרק תנאים מלא — מה חסר:</strong></p><p>לפרק תנאים קיים (ריבית, LTV, בטוחות) יש להוסיף:</p><ol><li><strong>CPs (6-10 רשומות):</strong> שעבוד, ביטוח, חוות דעת, שמאות, DSRA, אישורים</li><li><strong>קובננטים פיננסיים:</strong> DSCR מינימלי, LTV מקסימלי, נזילות מינימלית</li><li><strong>קובננטים לא-פיננסיים:</strong> דיווח רבעוני, איסור מכירה ושעבוד נוסף, שמירת ביטוח</li></ol><p>הוועדה מאשרת <strong>עסקה שלמה</strong> — לא ריבית ובטוחות בלבד.</p>"
+  },
+  {
+    "question_id_external": "C11-M05-PRC-Q02",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>קובננט DSCR מוצג כ-&quot;DSCR לא יפחת מ-1.20x.&quot; ועדת האשראי ביקשה להשלים את הניסוח. מה חסר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "קובננט ללא תדירות בדיקה ומנגנון ריפוי הוא עמום משפטית — בנק לא יוכל לאכוף אותו.",
+    "topic_tags": ["covenants", "DSCR", "enforcement", "credit_memo"],
+    "options": [
+      {
+        "text_he": "חסר: תדירות בדיקה, מועד דיווח, תקופת ריפוי, הגדרת NOI לצורך החישוב, ומה מהווה הפרה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חסר: מה ה-DSCR הנוכחי בעסקה ומה ה-DSCR בתרחיש Stress",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממצאי DSCR שייכים לפרק הניתוח הפיננסי, לא להגדרת הקובננט"
+      },
+      {
+        "text_he": "חסר: מה קורה אם הלווה לא עומד ב-DSCR בחודש הראשון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נדרש מנגנון ריפוי מלא (תדירות, ריפוי, כשל) ולא רק תרחיש חודש ראשון"
+      },
+      {
+        "text_he": "הניסוח שלם — &quot;לא יפחת מ-1.20x&quot; מספיק לאכיפה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ללא הגדרת תדירות ומנגנון ריפוי, הניסוח אינו ניתן לאכיפה ברורה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>קובננט DSCR — ניסוח מלא:</strong></p><blockquote>&quot;הלווה ישמור על DSCR (NOI שנתי מנורמל, 12 חודשים רצים, לפי הגדרת NOI בנספח א) לא פחות מ-1.20x. הבדיקה תתבצע רבעונית; הלווה יגיש אישור ציות תוך 45 יום מתום הרבעון. הפרה ראשונה: 30 ימי ריפוי לתיקון. אי-תיקון לאחר ריפוי = Event of Default המאפשר לבנק לדרוש פירעון מיידי.&quot;</blockquote>"
+  },
+  {
+    "question_id_external": "C11-M05-PRC-Q03",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כתב כהמלצה: &quot;העסקה מציגה סיכונים מסוימים אך גם הזדמנות ראויה לשיקול; ניתן לשקול אישור.&quot; ועדת האשראי ביקשה המלצה ברורה. מה הבעיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "המלצה מגודרת היא תשובה שאינה תשובה — האנליסט נשאל מה לעשות ועונה &quot;תחליטו אתם&quot;.",
+    "topic_tags": ["recommendation", "hedged_language", "credit_memo", "professional_writing"],
+    "options": [
+      {
+        "text_he": "ההמלצה מגודרת ולא מחויבת — לא ניתן לפעול לפיה; דרושה עמדה ברורה: אישור / אישור מותנה / דחייה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ההמלצה קצרה מדי ויש להרחיבה לפסקה שלמה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה היא היעדר עמדה, לא קצרה; המלצה יכולה להיות קצרה אם היא ברורה"
+      },
+      {
+        "text_he": "ההמלצה אינה כוללת שיעור ריבית מומלץ",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ריבית היא חלק מפרק התנאים; הבעיה בהמלצה היא העמימות, לא העדר ריבית"
+      },
+      {
+        "text_he": "ההמלצה צריכה להיות מנוסחת בשפה שיווקית יותר כדי לשכנע את הוועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שפה שיווקית אינה מה שחסר; נדרשת עמדה ניתוחית ברורה, לא שכנוע"
+      }
+    ],
+    "explanation_html_he": "<p><strong>המלצה מגודרת לעומת ברורה:</strong></p><table><tr><th>מגודרת (שגויה)</th><th>ברורה (נכונה)</th></tr><tr><td>&quot;ניתן לשקול אישור&quot;</td><td>&quot;אנו ממליצים לאשר&quot;</td></tr><tr><td>&quot;יש סיכונים אך גם הזדמנות&quot;</td><td>&quot;אנו ממליצים לאשר בכפוף ל-DSRA 6 חודשים&quot;</td></tr><tr><td>&quot;הוועדה תוכל לשקול&quot;</td><td>&quot;אנו ממליצים לדחות בשל DSCR 0.98x בתרחיש Stress&quot;</td></tr></table><p>גידור המלצות הוא העברת אחריות — האנליסט שם אחריות ניתוחית על הוועדה.</p>"
+  },
+  {
+    "question_id_external": "C11-M05-PRC-Q04",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מזכר מציג DSCR 1.52x ב-Base Case אך לא מציג Stress Case. האנליסט ממליץ לאשר. מה הבעיה ברצף הלוגי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "המלצת אישור על בסיס Base Case בלבד היא אישור עיוור — בנקים מממנים גם בתרחישי שוק קשים.",
+    "topic_tags": ["recommendation", "stress_test", "DSCR", "logical_consistency"],
+    "options": [
+      {
+        "text_he": "אין בסיס לאשר ללא Stress Case — אי-ידיעת ה-DSCR בתרחיש לחץ פירושו שלא בוצע ניתוח אשראי שלם",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR 1.52x גבוה מספיק ואין צורך בבדיקת Stress לעסקות עם DSCR מעל 1.40x",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין סף DSCR שמפטר מבדיקת Stress; הבדיקה נדרשת תמיד ללא קשר לרמת ה-DSCR"
+      },
+      {
+        "text_he": "ניתן לאשר בכפוף להגשת Stress Case לאחר האישור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אישור לפני בדיקת Stress הוא אישור בלי מידע קריטי — הבדיקה חייבת להיות חלק מהמזכר"
+      },
+      {
+        "text_he": "הבעיה היא שהאנליסט לא ציין מהו ה-DSCR בתרחיש Downside (10% ירידה) לפני הגעה ל-Stress",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; העדר Downside הוא חלק מהבעיה אך הבעיה המרכזית היא העדר כל בדיקת לחץ"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מדוע Stress Case חובה:</strong></p><p>הלוואות נדל&quot;ן הן ל-5-10 שנים. במהלכן ייתכנו:</p><ul><li>עלייה בריבית (בהלוואות משתנות)</li><li>ירידת תפוסה בשל שינוי שוק</li><li>פקיעת חוזי שכירות</li></ul><p>בנק שמאשר על בסיס Base Case בלבד מגלה את הסיכון רק כשהוא מתממש. בדיקת Stress (ירידה 20-25% ב-NOI) מאפשרת להחליט <strong>מראש</strong> אם המבנה עמיד.</p><p>פרוצדורה: לחשב DSCR ב-Downside ו-Stress לפני כתיבת ההמלצה.</p>"
+  },
+  {
+    "question_id_external": "C11-M05-PRC-Q05",
+    "course_number": 11,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ועדת האשראי אישרה עסקה בתנאי שהלווה ייתן ערבות אישית נוספת תוך 30 יום. כיצד יש לנסח תנאי זה במזכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "תנאי אישור שאינו מנוסח בצורה מדידה ניתן ל&quot;שחיקה&quot; — הלווה ימצא פרצות ואכיפה תהיה קשה.",
+    "topic_tags": ["conditional_approval", "conditions", "enforceability", "credit_memo"],
+    "options": [
+      {
+        "text_he": "ערבות אישית של הבעלים (100%) בסכום X שקל, ללא הגבלה / בהגבלה מוגדרת, חתומה ונוטריונית, כ-CP לפני משיכה ראשונה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הלווה יגיש ערבות אישית בסכום &quot;הולם&quot; תוך 30 יום לפי שיקול דעתו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; &quot;הולם&quot; ו&quot;לפי שיקול דעתו&quot; הם עמומים ואינם ניתנים לאכיפה; נדרש סכום מוגדר"
+      },
+      {
+        "text_he": "הלווה ידון עם הבנק על תנאי הערבות לאחר האישור",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דיון לאחר האישור פותח מחדש את התנאים שכבר אושרו — התנאי חייב להיות ספציפי"
+      },
+      {
+        "text_he": "תנאי הערבות יתווספו להסכם ההלוואה על ידי עורכי הדין ללא צורך לפרט במזכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תנאי האישור חייבים לעלות במזכר ולעבור אישור ועדה; הסכם ההלוואה מיישם את מה שאושר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניסוח תנאי אישור מדיד:</strong></p><blockquote>&quot;אישור מותנה בהתקיימות התנאי הבא לפני משיכה ראשונה (CP נוסף): ערבות אישית של מר ישראל ישראלי (ת&quot;ז XXXXXXX), בעל 100% ממניות הלווה, בסכום של 10 מיליון שקל, ללא הגבלת זמן, חתומה בפני נוטריון ומאומתת ע&quot;י עו&quot;ד הבנק.&quot;</blockquote><p>מה שהופך תנאי לאכיף:</p><ul><li>מי צריך לתת ערבות (שם ספציפי)</li><li>כמה (סכום מוגדר)</li><li>איזה סוג ערבות (ללא הגבלה / מוגבלת)</li><li>מתי (לפני משיכה / תוך 30 יום)</li><li>אימות (נוטריון / עו&quot;ד)</li></ul>"
+  },
+  {
+    "question_id_external": "C11-M06-CMP-Q01",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם <strong>חמשת עקרונות הכתיבה המקצועית</strong> במזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "אנליסט שמכיר את חמשת העקרונות ומיישם אותם — כתיבתו ניכרת מייד בשורה הראשונה.",
+    "topic_tags": ["professional_writing", "principles", "credit_memo"],
+    "options": [
+      {
+        "text_he": "כמותיות, תמצות, עובדתיות/אובייקטיביות, עקביות לוגית, ומקורות לכל טענה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עברית תקנית, משפטים קצרים, פסקאות מאוזנות, הימנעות מחזרות, ושימוש בנקודות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו עקרונות סגנון, לא עקרונות כתיבת אשראי מקצועית; הם חשובים אך שניוניים"
+      },
+      {
+        "text_he": "שכנוע, בהירות, קוצר, עושר לשוני, ויצירתיות בניסוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שכנוע ויצירתיות הם מאפיינים של כתיבה שיווקית, לא אשראי מקצועית"
+      },
+      {
+        "text_he": "יסודיות, מקיפות, מבנה אחיד, כיסוי מלא, ומניעת השמטות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מקיפות ויסודיות חשובות אך עקרונות הכתיבה של מזכר אשראי הם ספציפיים יותר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חמשת עקרונות הכתיבה המקצועית:</strong></p><ol><li><strong>כמותיות:</strong> מספרים, אחוזים, תאריכים — לא תיאורים ערטילאיים</li><li><strong>תמצות:</strong> כל משפט תורם מידע; משפטים מיותרים נמחקים</li><li><strong>עובדתיות/אובייקטיביות:</strong> הצגת הסיכונים באותה עוצמה כמו ההזדמנויות</li><li><strong>עקביות לוגית:</strong> כל מסקנה נובעת מהנתונים; אין קפיצות לוגיות</li><li><strong>מקורות:</strong> כל טענה עובדתית מקושרת למסמך DD</li></ol>"
+  },
+  {
+    "question_id_external": "C11-M06-CMP-Q02",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>טעות ניתוח אדג'קטיבי</strong> לעומת ניתוח כמותי, ומדוע היא פוגעת באמינות המזכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "כל שם תואר במזכר אשראי שאינו נתמך במספר הוא חולשה שהוועדה הבכירה תזהה ותשאל עליה.",
+    "topic_tags": ["professional_writing", "adjective_analysis", "quantitative_writing", "credit_memo"],
+    "options": [
+      {
+        "text_he": "ניתוח אדג'קטיבי משתמש בתיאורים סובייקטיביים (מצוין, חזק, נמוך) ללא בסיס כמותי; הוא פוגע כי אינו ניתן לאימות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ניתוח אדג'קטיבי משתמש בסשמות מקצועיים; ניתוח כמותי כותב בשפה פשוטה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אדג'קטיבי מתייחס לשמות תואר/הערכות, לא לשמות מקצועיים"
+      },
+      {
+        "text_he": "ניתוח אדג'קטיבי הוא כתיבה ב&quot;גוף ראשון&quot; שמביעה דעת; ניתוח כמותי הוא כתיבה אובייקטיבית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גוף ראשון/שלישי אינו ההבחנה; הבחנה היא כמותי לעומת תיאורי"
+      },
+      {
+        "text_he": "ניתוח אדג'קטיבי הוא סגנון ספרותי המקובל בסיכומי מנהלים; ניתוח כמותי מתאים לסעיפי נתונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם תקציר מנהלים בכתיבת אשראי מקצועית חייב להיות כמותי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח אדג'קטיבי לעומת כמותי:</strong></p><table><tr><th>אדג'קטיבי (שגוי)</th><th>כמותי (נכון)</th></tr><tr><td>&quot;תזרים חזק&quot;</td><td>&quot;DSCR 1.48x, NOI 3.9M&quot;</td></tr><tr><td>&quot;מיקום מצוין&quot;</td><td>&quot;תפוסה 94%, פריים Class A, תחבורה ציבורית צמודה&quot;</td></tr><tr><td>&quot;סיכון נמוך&quot;</td><td>&quot;סיכון נמוך: DSRA 6 חודשים; LTV 65%; ריבית קבועה&quot;</td></tr></table><p>כל שם תואר ניתן לתרגם למספר — זה עבודת האנליסט.</p>"
+  },
+  {
+    "question_id_external": "C11-M06-CMP-Q03",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>&quot;מבחן העט האדום&quot;</strong> שמנהלי אשראי בכירים מיישמים על מזכרים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "מנהל בכיר שקורא מזכר מחפש בדיוק: שמות תואר ללא מספרים, טענות ללא מקורות, ומסקנות ללא בסיס.",
+    "topic_tags": ["professional_writing", "red_pen_test", "quality_review", "credit_memo"],
+    "options": [
+      {
+        "text_he": "קריאת המזכר ומחיקת כל שם תואר שאינו נתמך בנתון, כל טענה ללא מקור, וכל מסקנה ללא בסיס לוגי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בדיקת כל החישובים במזכר לאיתור שגיאות אריתמטיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיקת חישובים חשובה אך מבחן העט האדום מתייחס לאיכות הניתוח והכתיבה, לא לאריתמטיקה"
+      },
+      {
+        "text_he": "בדיקת ניסוח משפטי של הסכמי הלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיקה משפטית היא תפקיד עורך דין; מבחן העט האדום הוא ניתוח איכות כתיבת אשראי"
+      },
+      {
+        "text_he": "עריכה לשונית לתיקון שגיאות כתיב ודקדוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עריכה לשונית חשובה אך אינה מהות מבחן העט האדום; הוא בודק תוכן ניתוחי"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מבחן העט האדום — שלושה סוגי סימונים:</strong></p><ol><li><strong>שם תואר ללא מספר:</strong> &quot;חזק&quot;, &quot;מצוין&quot;, &quot;נמוך&quot; — מסמן באדום, דורש נתון</li><li><strong>טענה ללא מקור:</strong> &quot;שיעור תפוסה 90%&quot; ללא &quot;(מקור: שמאי, עמוד X)&quot; — מסמן</li><li><strong>מסקנה ללא בסיס:</strong> &quot;אנו ממליצים לאשר&quot; לאחר פרק סיכונים שמציג DSCR 0.98x — מסמן</li></ol><p>כל סימון אדום הוא שאלה שהוועדה תשאל. עדיף שהאנליסט יסמן אותה בעצמו.</p>"
+  },
+  {
+    "question_id_external": "C11-M06-CMP-Q04",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה <strong>מטרת רשימת הבדיקה העצמית</strong> (Self-Review Checklist) לפני הגשת מזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מזכר שנגיש לוועדה ללא בדיקה עצמית — מזכר שמחכה לשאלות קשות.",
+    "topic_tags": ["professional_writing", "self_review", "quality_control", "credit_memo"],
+    "options": [
+      {
+        "text_he": "לאפשר לאנליסט לזהות כשלים לפני שהוועדה מזהה אותם: מידע חסר, חוסר עקביות, שפה עמומה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לסמן את המזכר כ&quot;מאושר לקריאה&quot; על ידי האנליסט לפני הגשה לוועדה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הרשימה היא כלי שיפור איכות, לא חתימה פורמלית; מטרתה שיפור, לא אישור"
+      },
+      {
+        "text_he": "לוודא שהמזכר עומד בדרישות הפורמט של הבנק (כותרות, גופן, שוליים)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פורמט הוא חלק שניוני; הרשימה בודקת בעיקר שלמות תוכן ואיכות ניתוח"
+      },
+      {
+        "text_he": "לסמן כל נספח שנכלל כדי שהוועדה תדע מה מצורף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת נספחים היא עניין ניהולי; רשימת הבדיקה העצמית מכוונת לאיכות הניתוח"
+      }
+    ],
+    "explanation_html_he": "<p><strong>רשימת בדיקה עצמית — פריטים לדוגמה:</strong></p><ul><li>האם תקציר המנהלים עומד בפני עצמו?</li><li>האם כל נתון כמותי מקושר למקור?</li><li>האם ה-NOI מנורמל ומוסבר?</li><li>האם טבלת DSCR כוללת Base, Downside ו-Stress?</li><li>האם כל סיכון כולל מיטיגציה וסיכון שיורי?</li><li>האם ההמלצה עקבית עם הניתוח?</li><li>האם המזכר נקי משפת שיווק ומשמות תואר ללא נתונים?</li></ul><p>אנליסט שמשיב &quot;לא&quot; לאחת השאלות לפני הגשה — מתקן. אחרי הגשה — נשאל בוועדה.</p>"
+  },
+  {
+    "question_id_external": "C11-M06-CMP-Q05",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע <strong>המלצות מגודרות</strong> (Hedged Recommendations) הן בעיה מקצועית במזכר אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "כשאנליסט מגדר את המלצתו — הוא מסמן שהוא לא מאמין בניתוח שלו עצמו.",
+    "topic_tags": ["professional_writing", "hedged_recommendations", "accountability", "credit_memo"],
+    "options": [
+      {
+        "text_he": "המלצה מגודרת אינה ניתנת לפעולה; היא מעבירה אחריות לוועדה ומורידה את ערך הניתוח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המלצות מגודרות הן מעידות על ניסיון מועט — אנליסט מנוסה תמיד יודע לאשר או לדחות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אנליסטים בכירים נתקלים בעסקאות קשות; הבעיה היא בניסוח הסופי, לא בניסיון"
+      },
+      {
+        "text_he": "המלצה מגודרת מאפשרת לוועדה גמישות להחליט לפי שיקול דעתה ולכן עדיפה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוועדה תמיד יכולה לחרוג מהמלצת האנליסט; אך האנליסט חייב לנקוט עמדה ברורה"
+      },
+      {
+        "text_he": "המלצות מגודרות גורמות לעיכוב באישורים בגלל הצורך בדיון נוסף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עיכוב הוא תוצאה אפשרית אך לא הבעיה המהותית; הבעיה היא ירידת ערך הניתוח"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מדוע המלצות מגודרות פסולות:</strong></p><ul><li>הוועדה שילמה (בזמן) עבור ניתוח — היא מצפה לעמדה</li><li>מזכר שמסתיים ב&quot;ניתן לשקול&quot; הוא מסמך שלא השלים את עבודתו</li><li>האנליסט שמגדר — לרוב מכיר חולשה שלא ניתח עד הסוף</li></ul><p><strong>הפתרון:</strong> אם יש ספק — לנתח את הספק ולכלול אותו. אם לאחר הניתוח ההמלצה עדיין לא ברורה — לסמן &quot;אישור מותנה&quot; עם תנאים ספציפיים ומדידים.</p>"
+  },
+  {
+    "question_id_external": "C11-M06-PRC-Q01",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לפניכם משפט ממזכר: &quot;הנכס ממוקם באזור מבוקש מאוד ומציג הכנסות יציבות לאורך שנים.&quot; יישמו מבחן עט אדום: מה ניתן לשיפור?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "שלושה שמות תואר במשפט אחד ואפס מספרים — זה ריכוז גבוה של בעיות כתיבה.",
+    "topic_tags": ["professional_writing", "red_pen_test", "quantitative_writing", "credit_memo"],
+    "options": [
+      {
+        "text_he": "יש לתחליף: &quot;מבוקש מאוד&quot; בנתוני שוק (תפוסה, שכ&quot;ד), ו&quot;יציבות לאורך שנים&quot; ב-NOI היסטורי עם תאריכים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להסיר את המשפט לגמרי — הוא מיותר אם יש פרק נפרד לתיאור הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המידע עצמו חשוב ורלוונטי; יש לשמור אותו ולתקן את הניסוח לכמותי"
+      },
+      {
+        "text_he": "להחליף &quot;מאוד&quot; ב&quot;ביותר&quot; ולהוסיף ציטוט משמאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי מילת חיזוק אינו פותר את הבעיה; נדרשים מספרים, לא תיאור משופר"
+      },
+      {
+        "text_he": "המשפט תקין — הוא מדייק בשפה ספרותית ברורה ונכונה לתקציר מנהלים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקציר מנהלים במזכר אשראי חייב להיות כמותי; &quot;מבוקש&quot; ו&quot;יציב&quot; אינם מספרים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>תיקון מבחן עט אדום:</strong></p><p>לפני: &quot;הנכס ממוקם באזור מבוקש מאוד ומציג הכנסות יציבות לאורך שנים.&quot;</p><p>אחרי: &quot;הנכס ממוקם בגוש-דן, שכונת בורסה, רחוב הרצל 40. תפוסה 93-96% בחמש השנים 2020-2024 (מקור: דוחות שנתיים). NOI: 3.4M (2022), 3.7M (2023), 3.8M (2024) — גידול עקבי.&quot;</p><p>שלושה שמות תואר הפכו לשמונה נתונים ספציפיים.</p>"
+  },
+  {
+    "question_id_external": "C11-M06-PRC-Q02",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט ניתח עסקה בעלת DSCR 1.38x ב-Base Case ו-1.08x ב-Stress Case, ואז כתב: &quot;אנו ממליצים בחום לאשר את העסקה המצוינת.&quot; מה הבעיה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "DSCR 1.08x ב-Stress Case הוא 12 נקודות בסיס מעל קובננט סטנדרטי — המלצה &quot;בחום&quot; אינה עקבית.",
+    "topic_tags": ["professional_writing", "logical_consistency", "recommendation", "credit_memo"],
+    "options": [
+      {
+        "text_he": "ההמלצה אינה עקבית עם הניתוח: DSCR 1.08x ב-Stress Case הוא סיכון מהותי שמצדיק אישור מותנה לכל היותר, לא &quot;בחום&quot;",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הביטוי &quot;בחום&quot; הוא שגוי לשונית ויש להחליפו ב&quot;בנחרצות&quot;",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה היא לוגית, לא לשונית; כל ביטוי נלהב אינו מתאים לנתוני הסיכון"
+      },
+      {
+        "text_he": "DSCR 1.38x ב-Base Case הוא גבוה מספיק ומצדיק המלצה חיובית; ה-Stress Case הוא תרחיש קיצוני בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Stress Case הוא חלק לגיטימי מהניתוח; DSCR 1.08x שם הוא ממצא שחייב לקבל ביטוי בהמלצה"
+      },
+      {
+        "text_he": "הבעיה היא שהאנליסט לא ציין מה ה-DSCR בתרחיש Downside",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו בעיה משנית; הבעיה העיקרית היא חוסר העקביות בין ניתוח הסיכונים להמלצה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>עקביות לוגית בין ניתוח להמלצה:</strong></p><p>נתוני DSCR: Base 1.38x / Stress 1.08x</p><p>הסיכוי ל-DSCR מתחת לקובננט בתרחיש לחץ אינו תואם &quot;ממליצים בחום&quot;.</p><p><strong>המלצה עקבית:</strong> &quot;אנו ממליצים לאשר בכפוף ל: (1) DSRA 6 חודשים; (2) קובננט DSCR 1.10x (מעל ה-1.08x בתרחיש Stress). ה-DSCR ב-Stress Case מצביע על כרית ביטחון מצומצמת בתנאי שוק קשים.&quot;</p>"
+  },
+  {
+    "question_id_external": "C11-M06-PRC-Q03",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט ביצע בדיקה עצמית ומצא: תקציר חסר DSCR, שני סיכונים ללא מיטיגציה, וניתוח הלווה מבוסס על הצהרה לא מאומתת. מה הסדר הנכון לתיקון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הצהרה לא מאומתת היא הבעיה הקריטית ביותר — אי-אפשר לתקן את שאר המזכר על בסיס מידע לא מאמת.",
+    "topic_tags": ["professional_writing", "self_review", "priority", "credit_memo"],
+    "options": [
+      {
+        "text_he": "ראשון: לאמת את נתוני הלווה; שני: להשלים מיטיגציה לסיכונים; שלישי: לעדכן את תקציר המנהלים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ראשון: לעדכן תקציר (הכי נקרא); שני: להשלים סיכונים; שלישי: לאמת נתוני לווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תיקון תקציר לפני אימות הנתונים יצור תקציר מבוסס על מידע לא מאמת — שגיאה כפולה"
+      },
+      {
+        "text_he": "ניתן לתקן בו-זמנית; אין תלות בין שלושת התיקונים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקציר ומיטיגציות מושפעים מאימות נתוני הלווה; יש לאמת קודם ואז לתקן שאר החלקים"
+      },
+      {
+        "text_he": "ראשון: להשלים מיטיגציה; שני: לאמת נתוני לווה; שלישי: לעדכן תקציר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מיטיגציות עשויות להשתנות לאחר אימות נתוני הלווה; סדר זה גורם לכפל עבודה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סדר תיקון נכון:</strong></p><ol><li><strong>אימות נתוני לווה:</strong> כל שאר הניתוח תלוי בהם. אם יתגלה שהנתון שונה — הניתוח ישתנה.</li><li><strong>השלמת מיטיגציות לסיכונים:</strong> לאחר שהנתונים מאומתים, הסיכונים ומיטיגציותיהם ברורים.</li><li><strong>עדכון תקציר מנהלים:</strong> תקציר כותב אחרון — הוא מסכם את הניתוח המלא.</li></ol><p>חוק זהב: התקציר תמיד מתעדכן אחרון. הוא זיקוק של המזכר, לכן הוא המוכן אחרי שהמזכר שלם.</p>"
+  },
+  {
+    "question_id_external": "C11-M06-PRC-Q04",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט כתב מזכר של 18 עמודים לעסקה פשוטה יחסית. מנהל הביניים ביקש לקצר ל-10 עמודים. כיצד יש לגשת לקיצור מבלי לאבד מידע מהותי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "קיצור מזכר אינו &quot;מחיקת מידע&quot; — הוא הזזת רקע לנספחים ושמירת ניתוח בגוף.",
+    "topic_tags": ["professional_writing", "conciseness", "editing", "credit_memo"],
+    "options": [
+      {
+        "text_he": "להעביר רקע מפורט (היסטוריה, תיאורים ארוכים) לנספחים ולשמור בגוף רק את הניתוח, המסקנות והמלצה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "למחוק את פרק ניתוח הסיכונים כי הוא הכי ארוך ולשמור את יתר הפרקים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח הסיכונים הוא ליבת הניתוח ואינו ניתן לקיצור מהותי; יש לקצר פרקי רקע"
+      },
+      {
+        "text_he": "לכתוב מחדש כל פרק בגרסה קצרה יותר על ידי קיצור משפטים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; קיצור על ידי משפטים קצרים אינו מספיק; הפחתה ב-8 עמודים דורשת מבנה מחדש"
+      },
+      {
+        "text_he": "להסיר את הצגת תרחישי ה-Downside ו-Stress כי הם חוזרים על עצמם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תרחישי לחץ הם חלק חובה מהניתוח ואינם ניתנים להסרה; הקיצור יבוא מפרקים אחרים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כיצד לקצר מ-18 ל-10 עמודים:</strong></p><p>בדרך כלל 18 עמודים כוללים:</p><ul><li>5+ עמודי רקע לווה/נכס מפורטים (תיאורים, היסטוריה, נספחים בגוף)</li><li>3+ עמודי ניתוח פיננסי</li><li>3 עמודי סיכון</li><li>2 עמודי תנאים + המלצה</li></ul><p><strong>פעולות קיצור:</strong></p><ol><li>העברת היסטוריית הלווה המפורטת לנספח — השארת 3-4 שורות עיקריות בגוף</li><li>העברת לוח הסילוקין המפורט לנספח</li><li>דחיסת תיאור שוק מפורט לפסקה אחת עם הפניה לדוח שוק בנספח</li><li>שמירת ניתוח DSCR, סיכונים, תנאים והמלצה ללא קיצור</li></ol>"
+  },
+  {
+    "question_id_external": "C11-M06-PRC-Q05",
+    "course_number": 11,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לאחר הגשת מזכר, ועדת האשראי זיהתה שהניתוח מסתמך על NOI של הלווה ולא על NOI מנורמל על ידי האנליסט. מה זה מסמן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אנליסט שמשתמש ב-NOI של הלווה הוא אנליסט שעשה את עבודת הלווה, לא את עבודת הבנק.",
+    "topic_tags": ["professional_writing", "NOI_normalization", "independence", "credit_memo"],
+    "options": [
+      {
+        "text_he": "האנליסט לא ביצע נורמליזציה עצמאית — פגם מהותי ביסודות הניתוח; ה-DSCR וה-Debt Yield מבוססים על נתון שגוי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "זו שיטה מקובלת אם הלווה סיפק דוחות כספיים מבוקרים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם NOI בדוח מבוקר עלול לכלול סעיפים חד-פעמיים; נורמליזציה עצמאית היא חובת האנליסט"
+      },
+      {
+        "text_he": "הבעיה היא רק ברמה הפורמלית; אם ה-NOI נכון, זה לא משפיע על הניתוח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NOI &quot;נכון&quot; ללא נורמליזציה עדיין עלול לכלול סעיפים חד-פעמיים; הבעיה היא מהותית"
+      },
+      {
+        "text_he": "המזכר עדיין תקין אם תקציר המנהלים ציין שה-NOI הוא של הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ציון המקור אינו מרפא את העדר הנורמליזציה; הניתוח עצמו פגום"
+      }
+    ],
+    "explanation_html_he": "<p><strong>מדוע נורמליזציה עצמאית היא חובת האנליסט:</strong></p><ul><li>ה-NOI של הלווה עשוי לכלול: פיצוי ביטוח, הכנסות מוקדמות, השמטת Capex</li><li>האנליסט חייב לבדוק: &quot;האם כל הכנסה תחזור? האם כל הוצאה נכללה?&quot;</li><li>אי-נורמליזציה עשויה להפריז ב-NOI ב-15-25% — ולהוביל לאישור עסקה עם DSCR נמוך בפועל</li></ul><p><strong>תיקון:</strong> לחזור לדוחות הכספיים, לבצע נורמליזציה עצמאית, לעדכן DSCR ו-Debt Yield, ולהגיש מחדש לוועדה.</p>"
+  }
+]
