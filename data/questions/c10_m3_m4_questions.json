@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C10-M03-CMP-Q01",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההשפעה המיידית על ה-NOI בתרחיש שבו <strong>שוכר יחיד</strong> (Single-Tenant) עוזב נכס?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "נכס Single-Tenant הוא הימור על שוכר אחד. ברגע שהוא עוזב — אפס הכנסה. האנליסט חייב לתמחר את הסיכון הזה מיום ראשון.",
+    "topic_tags": ["single_tenant", "noi_impact", "vacancy"],
+    "options": [
+      {
+        "text_he": "ה-NOI נופל לאפס (או לרמה שלילית בגין הוצאות קבועות) כיוון שאין הכנסות שכירות אחרות שיקזזו את הפנייה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-NOI יורד ב-50% כי בנכסים מסוג זה תמיד קיים שוכר גיבוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנכס Single-Tenant אין שוכר גיבוי — עזיבת השוכר היחיד מאפסת את ההכנסה כולה"
+      },
+      {
+        "text_he": "ה-NOI לא משתנה כי חוזה השכירות ממשיך לתקופת הודעה מוקדמת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תקופת הודעה מוקדמת היא ארעית ולא ניתן לסמוך עליה לטווח ארוך — האנליסט חייב לדגם את המצב מרגע עזיבת השוכר"
+      },
+      {
+        "text_he": "ה-NOI יורד רק בגובה שכר הדירה, כי הוצאות תפעוליות נשמרות ומקוזזות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הוצאות תפעוליות לא מקזזות NOI — הן מורידות אותו; ב-NOI = הכנסות - הוצאות, אין הכנסות = NOI שלילי"
+      }
+    ],
+    "explanation_html_he": "<p>בנכס Single-Tenant, כל ההכנסה תלויה בשוכר אחד.</p><p>כאשר השוכר עוזב:</p><ul><li>הכנסות שכירות = 0</li><li>הוצאות קבועות (ארנונה, ביטוח, תחזוקה) נמשכות</li><li>NOI = 0 - הוצאות = שלילי</li></ul><p>זה מבדיל נכסי Single-Tenant מנכסים מרובי-שוכרים שבהם עזיבת שוכר אחד מורידה את ה-NOI רק באחוז מסוים.</p><p>ניתוח אשראי לנכס Single-Tenant חייב לכלול: מה LTV לאחר 12 חודשי פנייה מלאה? מה עלות ה-Carry לבנק?</p>"
+  },
+  {
+    "question_id_external": "C10-M03-CMP-Q02",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה <strong>הנחות הכיול המקובלות</strong> לגבי <strong>ציר זמן השכרה מחדש</strong> ו-<strong>Rent Spread</strong> בתרחיש Bear לנכס משרדים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ציר הזמן לאכלוס מחדש הוא לב ניתוח השוכר. 12-18 חודש פנייה + שכירות נמוכה ב-10-15% — זה Bear ריאלי, לא אופטימיסטי.",
+    "topic_tags": ["re_leasing", "rent_spread", "vacancy_timeline", "bear_case"],
+    "options": [
+      {
+        "text_he": "בתרחיש Bear: 12-18 חודשי פנייה להשכרה מחדש ו-Rent Spread שלילי של 10-15% (שכירות חדשה נמוכה מהקודמת)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בתרחיש Bear: פנייה אפסית כי שוק מגורים תמיד תופס במהירות מקום פנוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שוק מגורים אינו רלוונטי לנכסי משרדים; הנחת פנייה אפסית מיידית היא Base אופטימי ולא Bear"
+      },
+      {
+        "text_he": "בתרחיש Bear: 3-6 חודשי פנייה ו-Rent Spread חיובי כי שוק מחוסר היצע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 3-6 חודשים ו-Rent Spread חיובי מתאימים לBase או אפילו Bull — Bear מניח תנאים מאתגרים יותר"
+      },
+      {
+        "text_he": "Rent Spread בתרחיש Bear חייב להיות שלילי של לפחות 30%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ירידה של 30% בשכירות מאפיינת Stress, לא Bear; Bear מניח ירידה מתונה יותר של 10-15%"
+      }
+    ],
+    "explanation_html_he": "<p>כיול Bear Case לנכס משרדים בישראל:</p><ul><li><strong>ציר פנייה</strong>: 12-18 חודש עד לאכלוס מחדש (זמן חיפוש + משא ומתן + תקופת שיפוץ)</li><li><strong>Rent Spread שלילי</strong>: -10% עד -15% ביחס לשכירות הקודמת (שוק מחייב הנחה)</li><li><strong>Rent Abatement</strong>: 3-6 חודשי שכירות חופשית מקובלים בשוק מחלש</li></ul><p>תרחיש Stress: 24+ חודשי פנייה, Rent Spread -25%, CapEx גבוה לשדרוג הנכס.</p>"
+  },
+  {
+    "question_id_external": "C10-M03-CMP-Q03",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה <strong>תפוסת ה-Break-Even</strong> ומדוע היא קריטית בניתוח תרחישי שוכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Break-Even תפוסה מגדיר את הקו האדום. אם תפוסת השוק ירדה מתחת לקו זה — DSCR מתחת ל-1.0. כל דוח צריך להציג מספר זה בבירור.",
+    "topic_tags": ["break_even_occupancy", "dscr", "noi"],
+    "options": [
+      {
+        "text_he": "תפוסת Break-Even היא רמת התפוסה שבה ה-NOI שווה בדיוק לשירות החוב (DSCR = 1.0) — מתחתיה הנכס לא מכסה את החוב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "תפוסת Break-Even היא רמת התפוסה שבה ה-NOI שווה לאפס — מתחתיה ההכנסות לא מכסות את ההוצאות התפעוליות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זו הגדרה של Break-Even תפעולי — בהקשר של אשראי, Break-Even הוא ביחס לשירות החוב (DSCR = 1.0)"
+      },
+      {
+        "text_he": "תפוסת Break-Even היא 100% פחות שיעור הפנייה ההיסטורי הממוצע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Break-Even אינו נגזר מנתוני עבר כי הוא תלוי במבנה החוב הספציפי של העסקה"
+      },
+      {
+        "text_he": "תפוסת Break-Even היא רמת התפוסה הנדרשת להחזר מלא של ההשקעה תוך 10 שנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Break-Even בהקשר של אשראי אינו קשור להחזר השקעה — הוא קשור לכיסוי שירות החוב על בסיס שנתי"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב תפוסת Break-Even:</p><ol><li>קבע את שירות החוב השנתי</li><li>חשב NOI הנדרש = שירות החוב (ל-DSCR = 1.0)</li><li>חשב את הכנסות השכירות הנדרשות = NOI הנדרש + הוצאות תפעוליות</li><li>חלק בשכר הדירה למ\"ר &times; שטח הנכס &rarr; תפוסת Break-Even</li></ol><p>דוגמה: שירות חוב = 1,000K; הוצאות תפעוליות = 400K; שכירות מלאה = 2,000K (100% תפוסה)<br>Break-Even = (1,000K + 400K) / 2,000K = 70%.</p><p>אם תפוסת השוק הנוכחית היא 85% — יש מרווח של 15 נקודות אחוז לפני הכשל.</p>"
+  },
+  {
+    "question_id_external": "C10-M03-CMP-Q04",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון Over-Rented</strong> ומהי השפעתו על ניתוח התרחישים?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Over-Rented נכס הוא פצצה מתקתקת — ה-DSCR נראה טוב היום, אבל בחידוש החוזה השכירות תרד וה-DSCR יצנח. צריך לנתח זאת מיום ראשון.",
+    "topic_tags": ["over_rented", "rent_reversion", "lease_expiry"],
+    "options": [
+      {
+        "text_he": "נכס Over-Rented הוא נכס שבו שכר הדירה הנוכחי גבוה משכר השוק — בחידוש חוזה השכירות הנכס ייאלץ לרדת לשכר שוק, מה שיקטין NOI ו-DSCR",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Over-Rented פירושו שהנכס מושכר ליותר שוכרים ממה שמאושר — סיכון משפטי בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Over-Rented הוא מונח כלכלי המתאר רמת שכירות גבוהה משכר שוק, לא צפיפות שוכרים"
+      },
+      {
+        "text_he": "Over-Rented הוא יתרון שכן הנכס מייצר NOI גבוה יותר מהממוצע בשוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Over-Rented הוא סיכון — ה-NOI הגבוה אינו בר-קיימא ויפחת בחידוש החוזה, מה שיוריד DSCR"
+      },
+      {
+        "text_he": "Over-Rented אינו רלוונטי לניתוח אשראי כי הבנק מסתמך על NOI הנוכחי בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח אשראי חייב לנתח את NOI המתוקנן לשכר שוק (Market Rent) ולהציג ירידת NOI בתרחיש חידוש חוזה"
+      }
+    ],
+    "explanation_html_he": "<p>סיכון Over-Rented — מנגנון:</p><ul><li>שוכר שילם שכר גבוה משוק בשנות שגשוג</li><li>חוזה פג — שוכר ידרוש התאמה לשכר שוק נוכחי</li><li>שכר שוק נמוך ב-20% &rarr; NOI ירד ב-20% &rarr; DSCR ירד</li></ul><p>ניתוח נכון:</p><ol><li>זהה את שכר השוק הנוכחי (Market Rent)</li><li>חשב את NOI המתוקנן לשכר שוק</li><li>בדוק DSCR בשכר שוק — זהו ה-Base הריאלי לחידוש</li><li>תרחיש Bear: שכר שוק &minus; 10% נוסף</li></ol><p>לוח זמנים לחידוש חוזה חייב להיות בכל מזכר אשראי לנכס Over-Rented.</p>"
+  },
+  {
+    "question_id_external": "C10-M03-CMP-Q05",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>אפקט הדומינו</strong> (Cascading Effect) בעת עזיבת <strong>שוכר עוגן</strong> (Anchor Tenant) ממרכז מסחרי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שוכר עוגן מושך תנועת לקוחות שממנה ניזונים שאר השוכרים. כשהוא עוזב — הוא לא לבד. זהו הסיכון הגדול ביותר בנכסי קמעונאות.",
+    "topic_tags": ["anchor_tenant", "cascading_effect", "retail_property", "noi"],
+    "options": [
+      {
+        "text_he": "עזיבת שוכר עוגן גורמת לירידת תנועת לקוחות שמחלישה שוכרים קטנים, מה שמוביל לעזיבות נוספות ולמעגל שלילי של ירידת NOI ותפוסה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עזיבת שוכר עוגן משפיעה רק על ה-NOI הישיר שלו — שאר השוכרים ממשיכים כרגיל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שוכר עוגן יוצר ערך חיצוני לשאר השוכרים דרך תנועת לקוחות — עזיבתו פוגעת בהם ישירות"
+      },
+      {
+        "text_he": "שוכר עוגן עוזב רק כאשר כל שאר השוכרים עזבו — לכן אין אפקט דומינו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההיפך הוא הנכון — שוכר העוגן לעיתים עוזב ראשון (פג חוזה, פשיטת רגל) ומפעיל את הדומינו"
+      },
+      {
+        "text_he": "אפקט דומינו רלוונטי רק בנכסי מגורים, לא בנכסים מסחריים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנכסי מגורים אין שוכרי עוגן; הדומינו הוא מאפיין ייחודי של נכסי קמעונאות ומרכזים מסחריים"
+      }
+    ],
+    "explanation_html_he": "<p>מנגנון הדומינו בעת עזיבת שוכר עוגן:</p><ol><li>שוכר עוגן (סופרמרקט, רשת גדולה) עוזב</li><li>תנועת לקוחות יורדת חדות</li><li>שוכרים קטנים (קפה, חנויות) מדווחים על ירידת מכירות</li><li>חלקם מפעילים סעיפי פתרון חוזה (Co-Tenancy Clauses) ועוזבים</li><li>תפוסה יורדת, NOI מתמוטט, שווי הנכס צונח</li></ol><p>ניתוח אשראי לנכס קמעונאי חייב לכלול:</p><ul><li>זיהוי שוכרי עוגן וסיכון לפג חוזה</li><li>בדיקת Co-Tenancy Clauses בחוזים של שוכרים אחרים</li><li>תרחיש מפורש לעזיבת שוכר עוגן</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M03-PRC-Q01",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב משרדים בשטח 5,000 מ\"ר, תפוסה נוכחית 90%, שכירות = 80 ש\"ח/מ\"ר/חודש. שירות חוב שנתי = 3,000K ש\"ח, הוצאות תפעוליות = 1,500K ש\"ח. מה תפוסת ה-Break-Even?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 120,
+    "senior_insight_he": "Break-Even תפוסה של 62.5% פירושו שיש מרווח נוח — אבל אם תפוסת שוק ירדה ל-65% בStress, אנחנו כמעט בגבול. המרווח הוא האמת, לא ה-DSCR הנוכחי.",
+    "topic_tags": ["break_even_occupancy", "noi", "debt_service"],
+    "options": [
+      {
+        "text_he": "הכנסה שנתית ב-100% = 80 &times; 5,000 &times; 12 = 4,800K; הכנסה נדרשת = שירות חוב + הוצאות = 3,000K + 1,500K = 4,500K; Break-Even = 4,500K / 4,800K = 93.75%",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Break-Even תפוסה = שירות חוב / הכנסה ב-100% = 3,000K / 4,800K = 62.5%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חישוב זה שכח לכלול את הוצאות התפעוליות — גם אותן יש לכסות מהכנסות השכירות"
+      },
+      {
+        "text_he": "Break-Even תפוסה = (שירות חוב - הוצאות) / הכנסה ב-100% = (3,000K - 1,500K) / 4,800K = 31.25%",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין לחסר הוצאות משירות חוב — שתי הקטגוריות מהוות דרישות מצד שני שיש לכסות בנפרד"
+      },
+      {
+        "text_he": "Break-Even תפוסה = (שירות חוב + הוצאות) / NOI נוכחי = 4,500K / 2,000K — לא ניתן לחשב ללא NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תפוסת Break-Even מחושבת כיחס בין הכנסה נדרשת להכנסה ב-100% תפוסה, לא ביחס לNOI הנוכחי"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב תפוסת Break-Even:</p><ol><li>הכנסה שנתית ב-100% תפוסה = 80 ש\"ח &times; 5,000 מ\"ר &times; 12 חודש = 4,800K ש\"ח</li><li>NOI הנדרש ל-DSCR = 1.0: NOI = שירות חוב = 3,000K</li><li>הכנסות נדרשות = NOI + הוצאות תפעוליות = 3,000K + 1,500K = 4,500K</li><li>Break-Even תפוסה = 4,500K / 4,800K = 93.75%</li></ol><p>תפוסה נוכחית = 90% — נמוכה מ-93.75%! כלומר ה-DSCR כבר מתחת ל-1.0. זהו ממצא קריטי שמחייב בחינה מיידית.</p>"
+  },
+  {
+    "question_id_external": "C10-M03-PRC-Q02",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מניב שבו שוכר A משלם שכירות של 120 ש\"ח/מ\"ר/חודש עבור 2,000 מ\"ר. שכר השוק הנוכחי הוא 100 ש\"ח/מ\"ר/חודש. חוזה השוכר יפוג בעוד 18 חודשים. מה ה-NOI הצפוי לאחר חידוש החוזה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ירידת NOI של 16.7% מחידוש חוזה בלבד — ללא עזיבת שוכר, ללא הרעה בשוק. זו המשמעות של Over-Rented ואחד הסיכונים הנסתרים ביותר.",
+    "topic_tags": ["over_rented", "rent_reversion", "noi_projection"],
+    "options": [
+      {
+        "text_he": "שכירות נוכחית = 120 &times; 2,000 &times; 12 = 2,880K לשנה; שכירות לאחר חידוש (שכר שוק) = 100 &times; 2,000 &times; 12 = 2,400K לשנה; ירידה של 480K",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הנכס Over-Rented בלבד — בחידוש החוזה השכירות תישאר 120 ש\"ח/מ\"ר כי הלווה יתמקח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בשוק תחרותי, שוכר יכול לבחור לעבור לנכס אחר בשכר שוק — כוח המיקוח נוטה לטובתו בחידוש"
+      },
+      {
+        "text_he": "ה-NOI לאחר חידוש = 120 ש\"ח &times; 2,000 &times; 12 = 2,880K (ללא שינוי כי החוזה מתחדש אוטומטית)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוזים לא מתחדשים אוטומטית בשכר הקודם — חידוש כרוך בשיחות מחדש ובהתאמה לשוק"
+      },
+      {
+        "text_he": "ה-NOI לאחר חידוש יעלה כי שכרי שוק עולים בדרך כלל עם הזמן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נכס Over-Rented בהגדרה משלם מעל שוק — בחידוש השכירות תרד לשכר שוק ולא תעלה"
+      }
+    ],
+    "explanation_html_he": "<p>חישוב השפעת Rent Reversion:</p><ul><li>שכירות נוכחית = 120 ש\"ח &times; 2,000 מ\"ר &times; 12 = 2,880K ש\"ח לשנה</li><li>שכירות שוק = 100 ש\"ח &times; 2,000 מ\"ר &times; 12 = 2,400K ש\"ח לשנה</li><li>ירידת NOI בחידוש = 2,880K - 2,400K = 480K ש\"ח לשנה (ירידה של 16.7%)</li></ul><p>ניתוח נכון חייב:</p><ol><li>להציג Base עם שכר שוק בחידוש (לא שכר נוכחי)</li><li>לחשב DSCR לאחר Reversion</li><li>Bear Case: שכר שוק &minus; 10% נוספים = 90 ש\"ח/מ\"ר</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M03-PRC-Q03",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מרכז מסחרי עם 10 שוכרים. שוכר עוגן (30% מה-NOI) עוזב. תניית Co-Tenancy בחוזי 3 שוכרים נוספים מאפשרת להם לצאת אם שוכר עוגן עוזב. מה ה-NOI המירבי שניתן לצפות לאבד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Co-Tenancy Clauses הם הנשק הסמוי שהאנליסט חייב לחפש בכל חוזה שכירות במרכז מסחרי. הם יכולים להפוך עזיבה של 30% ל-60%+ בבת אחת.",
+    "topic_tags": ["anchor_tenant", "co_tenancy", "noi_impact", "cascading_effect"],
+    "options": [
+      {
+        "text_he": "אם שלושת השוכרים יפעילו את סעיף ה-Co-Tenancy, ה-NOI עלול לרדת ביותר מ-30% (חלק השוכר העוגן) בגין עזיבות נוספות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ה-NOI ירד בדיוק 30% — אחוז חלק שוכר העוגן מה-NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Co-Tenancy Clauses מאפשרות לשוכרים נוספים לצאת — ה-NOI עלול לרדת בהרבה יותר מ-30%"
+      },
+      {
+        "text_he": "ה-NOI לא ירד כי 7 שוכרים נותרים וממשיכים לשלם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם אם 7 נשארים, עזיבת שוכר עוגן עלולה לגרום להם לדרוש הפחתות שכירות בשל ירידת תנועת לקוחות"
+      },
+      {
+        "text_he": "Co-Tenancy Clauses אינן חוקיות בישראל ולכן אינן רלוונטיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Co-Tenancy Clauses קיימות ומשמשות בחוזי שכירות מסחריים; האנליסט חייב לבדוק אותן בכל חוזה"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח Co-Tenancy Impact:</p><ul><li>שוכר עוגן = 30% NOI</li><li>3 שוכרים עם Co-Tenancy Clause — נניח שהם מהווים 30% NOI נוספים</li><li>ה-NOI שעלול לרדת: 30% + 30% = 60% מה-NOI הכולל</li></ul><p>זהו תרחיש Stress ריאלי שיש להציג בנפרד בדוח.</p><p>בדיקת רשימת תיוג:</p><ul><li>האם יש Co-Tenancy Clauses? בחוזים של אילו שוכרים?</li><li>מי הם שוכרי העוגן המוגדרים בסעיפים?</li><li>מה גובה ה-NOI בסיכון בתרחיש פעלות כל הסעיפים?</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M03-PRC-Q04",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס לוגיסטי עם שוכר יחיד, חוזה ל-10 שנים. עדיין 7 שנים נותרות. אנליסט טוען שאין סיכון שוכר כי 'החוזה מגן'. מה הטענה הנגדית הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חוזה ארוך הוא ביטחון — לא ביטוח. שוכר בקשיים לא יכבד חוזה. האנליסט חייב לבחון את מצב השוכר עצמו, לא רק את משך החוזה.",
+    "topic_tags": ["single_tenant", "lease_covenant", "tenant_credit_quality"],
+    "options": [
+      {
+        "text_he": "חוזה ארוך מגן מעזיבה וולונטרית, אך לא מפשיטת רגל, סגירת פעילות, או חדלות פירעון של השוכר — יש לנתח את מצבו הפיננסי של השוכר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הטענה נכונה לחלוטין — חוזה 10 שנים עם 7 שנים נותרות מבטיח NOI יציב ואין צורך בניתוח סיכון שוכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוזה מגן מבחינה משפטית אך לא כלכלית — שוכר חדל פירעון לא יכול לשלם גם עם חוזה בתוקף"
+      },
+      {
+        "text_he": "הבעיה היחידה היא כי 7 שנים זה מעט — חוזה 15 שנים היה מבטיח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; משך החוזה אינו הבעיה המרכזית — איכות האשראי של השוכר קריטית יותר ממשך החוזה"
+      },
+      {
+        "text_he": "הבעיה היחידה היא כי נכס Single-Tenant קשה יותר למכירה — אבל ה-DSCR מוגן",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נזילות הנכס היא בעיה אך לא היחידה; הסיכון העיקרי הוא כשל פיננסי של השוכר שיוביל לאפס NOI"
+      }
+    ],
+    "explanation_html_he": "<p>חוזה שכירות ארוך — מגן מה ולא מגן מה:</p><ul><li><strong>מגן מ</strong>: עזיבה וולונטרית, ניהול מחדש בלי הסכמה, הורדת שכירות חד-צדדית</li><li><strong>לא מגן מ</strong>: פשיטת רגל (בית משפט יכול לאשר ביטול חוזה), הקפאת הליכים, כינוס נכסים</li></ul><p>ניתוח שוכר Single-Tenant חייב לכלול:</p><ol><li>דירוג אשראי או ניתוח פיננסי של השוכר</li><li>ענף פעילות השוכר וחשיפה מאקרו</li><li>אחוז פעילות השוכר שמתנהלת מהנכס הספציפי</li><li>תרחיש מפורש לכישלון השוכר</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M03-PRC-Q05",
+    "course_number": 10,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בניתוח תרחיש שוכר לנכס רב-שוכרים: מה <strong>המדדים העיקריים</strong> שחייבים להופיע בטבלת תרחישי השוכר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "טבלת תרחישי שוכר שאינה כוללת תפוסת Break-Even, ציר זמן אכלוס מחדש ו-DSCR לכל תרחיש — חסרת ערך לוועדת אשראי.",
+    "topic_tags": ["tenant_scenario", "credit_memo", "dscr", "break_even_occupancy"],
+    "options": [
+      {
+        "text_he": "תפוסה, NOI, שירות חוב, DSCR, LTV — לכל תרחיש (Base/Bear/Stress) ותפוסת Break-Even כסינתזה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שם השוכר, גובה השכירות, ותאריך פג חוזה — לכל שוכר בנפרד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו נתוני רקע חיוניים אך לא הפלטת תרחישים — הטבלה חייבת להציג את ההשפעה הפיננסית לכל תרחיש"
+      },
+      {
+        "text_he": "DSCR בלבד — זהו המדד המרכזי שמספיק לוועדת אשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR לבדו אינו מספיק; הוועדה צריכה לראות גם LTV, NOI, ותפוסת Break-Even כדי להבין את מלוא תמונת הסיכון"
+      },
+      {
+        "text_he": "IRR ו-NPV של הפרויקט — מדדי הביצוע של ההשקעה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; IRR ו-NPV הם מדדי השקעה לבעל הנכס, לא מדדי אשראי לבנק — הבנק מעוניין בכיסוי החוב ובביטחונות"
+      }
+    ],
+    "explanation_html_he": "<p>מבנה טבלת תרחישי שוכר בדוח אשראי:</p><table><tr><th>מדד</th><th>Base</th><th>Bear</th><th>Stress</th></tr><tr><td>תפוסה (%)</td><td>90%</td><td>78%</td><td>62%</td></tr><tr><td>NOI (K)</td><td>2,000</td><td>1,650</td><td>1,200</td></tr><tr><td>שירות חוב (K)</td><td>1,400</td><td>1,400</td><td>1,400</td></tr><tr><td>DSCR</td><td>1.43</td><td>1.18</td><td>0.86</td></tr><tr><td>LTV (%)</td><td>62%</td><td>71%</td><td>87%</td></tr></table><p>תפוסת Break-Even = X% (מחושב בנפרד)</p><p>הסינתזה: מרווח בין תפוסה נוכחית לBE, ניתוח ציר זמן לכיסוי הפגיעה.</p>"
+  },
+  {
+    "question_id_external": "C10-M04-CMP-Q01",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהם שלושת סוגי <strong>אותות האזהרה המוקדמת</strong> (Early Warning Signals) שמשמשים בניהול תיק הלוואות נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "אותות אזהרה שנזנחים הופכים להפתעות כואבות. אנליסט שמפקח על תיק ולא מזהה דגלים אדומים — לא מבצע ניהול תיק, מבצע ניהול אסונות.",
+    "topic_tags": ["early_warning", "portfolio_monitoring", "credit_risk"],
+    "options": [
+      {
+        "text_he": "אותות פיננסיים (ירידת DSCR, חריגת LTV), אותות תפעוליים (עזיבת שוכרים, ירידת תפוסה), ואותות התנהגותיים (עיכוב בדיווח, בקשות יוצאות דופן)",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אותות שוק (מחירי נדל\"ן), אותות ריבית (שינויי בנק מרכזי), ואותות רגולטוריים (חוקי תכנון)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו גורמי מאקרו חיצוניים, לא אותות אזהרה מוקדמת ספציפיים לתיק — הם חשובים אך אינם מהווים את שלוש הקטגוריות המרכזיות"
+      },
+      {
+        "text_he": "חדלות פירעון, פשיטת רגל ועיקול — אלו שלב האזהרה האחרון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חדלות פירעון ופשיטת רגל הם אירועי כשל, לא אותות אזהרה מוקדמת — הרעיון הוא לזהות בעיות לפני שמגיעים לשם"
+      },
+      {
+        "text_he": "אותות חשבונאיים (שינויי מדיניות חשבונאית), אותות משפטיים (תביעות), ואותות מס (שינוי אחוז מס)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אלו גורמי רקע שיכולים להיות רלוונטיים, אך אינם שלוש הקטגוריות הסטנדרטיות לניהול תיק אשראי נדל\"ני"
+      }
+    ],
+    "explanation_html_he": "<p>מערכת אותות אזהרה מוקדמת — שלוש קטגוריות:</p><ol><li><strong>פיננסיים</strong>: DSCR ירד מתחת לסף, LTV עלה, פיגורים בתשלום, הפרת קובנטים</li><li><strong>תפעוליים</strong>: ירידת תפוסה, עזיבת שוכרים מרכזיים, חידוש חוזים בשכר נמוך, עלייה בהוצאות תפעוליות</li><li><strong>התנהגותיים</strong>: עיכוב בהגשת דוחות, בקשת וויבר, שינוי צד נגדי, הקשחת שיתוף פעולה</li></ol><p>זיהוי מוקדם מאפשר פעולה מתקנת לפני שנוצר נזק בלתי-הפיך.</p>"
+  },
+  {
+    "question_id_external": "C10-M04-CMP-Q02",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הקריטריונים המרכזיים <strong>לרישום הלוואה ברשימת מעקב</strong> (Watch List)?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Watch List היא כלי ניהולי, לא רק קטגוריה פנימית. הלוואה ב-Watch List מקבלת תשומת לב מוגברת — ביקורים, עדכוני דיווח, שיחות עם הלווה. זו ההזדמנות לפעול לפני הכשל.",
+    "topic_tags": ["watch_list", "portfolio_monitoring", "early_warning"],
+    "options": [
+      {
+        "text_he": "DSCR שירד מתחת לסף (לרוב 1.10-1.15), LTV שחרג מהמותר, פיגורים בתשלום, הפרת קובנטים, או שינוי מהותי בפרופיל הסיכון",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הלוואה מתווספת ל-Watch List רק לאחר פיגור של 90 יום בתשלום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 90 יום פיגור הוא NPL (Non-Performing Loan) — Watch List נועדה לזיהוי מוקדם הרבה לפני הגעה לפיגור"
+      },
+      {
+        "text_he": "Watch List כוללת אוטומטית את כל הלוואות הנדל\"ן מעל 10M ש\"ח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Watch List מתבססת על ביצועים ופרופיל סיכון, לא על גובה ההלוואה"
+      },
+      {
+        "text_he": "רישום ל-Watch List דורש אישור ועדת אשראי בכירה ולא ניתן לאנליסט לרשום לבדו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אנליסטים ומנהלי הלוואות ממליצים על רישום; הרישום עצמו עשוי לדרוש אישור אך המלצה היא חלק מתפקיד האנליסט"
+      }
+    ],
+    "explanation_html_he": "<p>קריטריונים טיפוסיים ל-Watch List:</p><ul><li>DSCR שירד מתחת ל-1.10-1.15 (סף מוסכם לפי מדיניות)</li><li>LTV שחרג מסף מוסכם (לרוב 75-80%)</li><li>פיגור בתשלום של 30-60 יום</li><li>הפרת קובנט (תפוסה, DSCR, LTV, כיסוי ריבית)</li><li>עזיבת שוכר מרכזי (מעל 20-25% מה-NOI)</li><li>בקשת וויבר מהלווה</li><li>ירידת דירוג של הלווה או הערב</li></ul><p>כניסה ל-Watch List = מעקב מוגבר, לא בהכרח פגיעה ביחסים עם הלווה.</p>"
+  },
+  {
+    "question_id_external": "C10-M04-CMP-Q03",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>מטרת בדיקת הקובנטים השנתית</strong> (Annual Covenant Review) בניהול הלוואת נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Covenant Review שנתי הוא 'בדיקת הדופק' של ההלוואה. בנק שמוותר עליו — עיוור לשינויים שמתרחשים בנכס. הקובנטים נועדו לשמש ולא לשכוח.",
+    "topic_tags": ["covenant_review", "annual_monitoring", "portfolio_management"],
+    "options": [
+      {
+        "text_he": "לוודא שהלווה עומד בתנאים הפיננסיים שנקבעו בעת מתן ההלוואה (DSCR, LTV, תפוסה) ולזהות הרעה מוקדמת",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לעדכן את שיעור הריבית על ההלוואה לפי השוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עדכון ריבית הוא פעולה נפרדת הקבועה בסכם ההלוואה; Covenant Review עוסק בבדיקת עמידה בתנאים, לא בתמחור"
+      },
+      {
+        "text_he": "לדרג מחדש את ההלוואה ולהחליט על מכירתה בשוק המשני",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Covenant Review אינו תהליך של מכירה — הוא כלי ניהול פורטפוליו פנימי"
+      },
+      {
+        "text_he": "לבדוק שהלווה לא מכר את הנכס ללא הסכמת הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; איסור מכירה הוא קובנט אחד — Covenant Review הוא בדיקה כוללת של כלל הקובנטים הפיננסיים והתפעוליים"
+      }
+    ],
+    "explanation_html_he": "<p>Covenant Review שנתי כולל:</p><ul><li>קבלה ובחינה של דוחות כספיים (NOI, הוצאות, הכנסות)</li><li>עדכון הערכת שווי הנכס (חיצוני או פנימי)</li><li>חישוב DSCR ו-LTV עדכניים והשוואה לסף הקובנטים</li><li>בדיקת רשימת שוכרים ותפוסה</li><li>עיון בדוח תפעולי של מנהל הנכס</li></ul><p>תוצאות אפשריות: (1) הלוואה תקינה — תיעוד ובמעקב רגיל; (2) חריגה קלה — אזהרה ומעקב מוגבר; (3) חריגה מהותית — Watch List + פעולה מתקנת.</p>"
+  },
+  {
+    "question_id_external": "C10-M04-CMP-Q04",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע <strong>חולשת הערב</strong> (Guarantor Weakness) נחשבת לאות אזהרה מוקדמת בהלוואת נדל\"ן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ערבות אישית שווה בדיוק כמו הערב. ערב שנחלש — הביטחון הנוסף שאפשר לסמוך עליו בשעת צרה נחלש גם הוא. יש לעקוב אחר הערב כמו אחר הנכס.",
+    "topic_tags": ["guarantor", "early_warning", "credit_support"],
+    "options": [
+      {
+        "text_he": "הערב הוא רשת הביטחון בעת כשל הלווה — חולשתו הפיננסית מפחיתה את שווי הכיסוי הנוסף שהבנק סמך עליו בעת מתן ההלוואה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "חולשת הערב אינה רלוונטית כל עוד הנכס עצמו מייצר NOI חיובי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערב נדרש בשעת משבר שבו NOI אינו מספיק — חולשתו משנה את פרופיל הסיכון גם כשהנכס תקין"
+      },
+      {
+        "text_he": "חולשת הערב רלוונטית רק בהלוואות מגורים, לא בהלוואות נדל\"ן מסחרי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית משמשת גם בנדל\"ן מסחרי, ולעיתים היא הביטחון העיקרי מעבר לנכס עצמו"
+      },
+      {
+        "text_he": "חולשת הערב מוגדרת רק על ידי ירידת דירוג אשראי פורמלי שלו — ללא דירוג, אין אות אזהרה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם ללא דירוג פורמלי, ניתן לזהות חולשה דרך דוחות כספיים, עסקאות שנכשלו, תביעות משפטיות, ועוד"
+      }
+    ],
+    "explanation_html_he": "<p>הערב בהלוואת נדל\"ן ממלא תפקיד כפול:</p><ol><li><strong>ביטחון נוסף</strong>: יכולת לדרוש פירעון מהערב אם הלווה כשל</li><li><strong>אינדיקטור איכות</strong>: ערב חזק מסמן מחויבות גבוהה של הבעלים לפרויקט</li></ol><p>אותות לחולשת ערב:</p><ul><li>דוחות כספיים מגלים הפסדים, חובות גדולים, ירידת הון עצמי</li><li>הערב מעורב בתביעות משפטיות</li><li>הערב מבקש לצמצם את הערבות</li><li>נכסי הערב ממושכנים לגורמים אחרים</li></ul>"
+  },
+  {
+    "question_id_external": "C10-M04-CMP-Q05",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע <strong>עיכוב בהגשת דוחות תקופתיים</strong> מהווה אות אזהרה, גם ללא כשל פיננסי ידוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "לווה שמאחר בדוחות מסתיר משהו. זה לא תמיד נכון — אבל כשל מוקדם ב-80% מהמקרים מלוווה בהיעלמות בעלי נכסים מהתקשורת השוטפת.",
+    "topic_tags": ["reporting_covenant", "behavioral_signal", "early_warning"],
+    "options": [
+      {
+        "text_he": "עיכוב בדיווח הוא אות התנהגותי המעיד על קשיים פוטנציאליים — הלווה עשוי להסתיר ירידת ביצועים, מצוקה, או אי-עמידה בקובנטים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "עיכוב בדיווח הוא עניין ניהולי בלבד ואינו קשור לסיכון האשראי כל עוד התשלומים מתבצעים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עיכוב בדיווח הוא אות אזהרה עצמאי — הנסיון מלמד שהוא קורל עם קשיים לא-מדווחים שמתגלים לאחר מכן"
+      },
+      {
+        "text_he": "עיכוב בדיווח מקנה ללווה זמן נוסף לתקן בעיות לפני שהבנק מזהה אותן — פרקטיקה מקובלת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גישה זו לא קבילה — הבנק זכאי למידע בזמן אמת כדי לנהל את הסיכון שלו"
+      },
+      {
+        "text_he": "עיכוב בדיווח רלוונטי רק בהלוואות מעל 50M ש\"ח, לא בהלוואות קטנות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חובת הדיווח חלה על כל הלוואה שכוללת קובנט דיווח, ללא קשר לגובה ההלוואה"
+      }
+    ],
+    "explanation_html_he": "<p>עיכוב בדיווח — פרשנות ופעולה:</p><ul><li><strong>האפשרות הפחות רעה</strong>: עומס ניהולי, שינוי רואה חשבון — ניתן לפתור בתקשורת</li><li><strong>האפשרות המטרידה</strong>: הלווה מסתיר ביצועים גרועים, שוכרים שעזבו, קשיים תזרימיים</li></ul><p>פעולה נדרשת:</p><ol><li>פנייה מיידית ללווה עם מועד אחרון ברור</li><li>ביקור בנכס אם מועד לא נעמד</li><li>בחינה אם יש כסף בחשבון (תשלומים ממשיכים)</li><li>תיעוד כל הפנייות — חשוב לאחר מכן</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M04-PRC-Q01",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בביקורת תיק הלוואות, מנהל אשראי מזהה: DSCR ירד מ-1.35 ל-1.08, תפוסה ירדה מ-92% ל-78%, ודוח הנכס הוגש 45 יום באיחור. מה הפעולה המתאימה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "כשמופיעים שלושה אותות אזהרה בו-זמנית — זה לא צירוף מקרים. זה דפוס שדורש תגובה מיידית ולא 'נמתין לרבעון הבא'.",
+    "topic_tags": ["watch_list", "early_warning", "portfolio_action"],
+    "options": [
+      {
+        "text_he": "רישום ל-Watch List, פגישה מיידית עם הלווה, ביקור בנכס, עדכון תחזית DSCR ו-LTV, ובחינת אפשרויות התערבות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המתנה לרבעון הבא לראות האם המגמה ממשיכה לפני כל פעולה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שלושה אותות אזהרה בו-זמנית דורשים פעולה מיידית — השהייה עלולה לאפשר להרעה להחמיר"
+      },
+      {
+        "text_he": "שליחת מכתב רשמי ללווה על הפרת דיווח — ואין צורך בצעדים נוספים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכתב בלבד לא מספיק כשיש ירידה פיננסית מהותית — נדרשת בחינה מקיפה של מצב ההלוואה"
+      },
+      {
+        "text_he": "העברת ההלוואה מיידית לניהול NPL והקפאת קשרים עם הלווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR של 1.08 אינו NPL — זה Watch List; אמצעים קיצוניים לפני בחינה מלאה עלולים לפגוע ביחסים ולהחמיר את המצב"
+      }
+    ],
+    "explanation_html_he": "<p>סדר פעולות מומלץ:</p><ol><li><strong>מיידי</strong>: רישום Watch List ותיעוד ממצאים</li><li><strong>תוך שבוע</strong>: פגישה עם הלווה להבנת הסיבות לירידת תפוסה ועיכוב הדיווח</li><li><strong>תוך שבועיים</strong>: ביקור בנכס, שיחה עם מנהל הנכס, קבלת רשימת שוכרים עדכנית</li><li><strong>ניתוח</strong>: תחזית DSCR ו-LTV לשנה הבאה בשלושה תרחישים</li><li><strong>החלטה</strong>: האם נדרשת פעולה מתקנת (ביטחון נוסף, פירעון חלקי, ווייבר עם תנאים)</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M04-PRC-Q02",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בודק תיק הלוואות ומזהה הלוואה שבה הלווה פנה לבנק בבקשה לדחיית תשלום חד-פעמית. DSCR נותר מעל 1.20. האם זהו אות אזהרה? מדוע?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "בקשת דחיית תשלום היא אות אזהרה גם כשה-DSCR נראה בסדר — היא מגלה על בעיית נזילות או חוסר ביטחון של הלווה שלא מופיעים עדיין במספרים.",
+    "topic_tags": ["payment_deferral", "behavioral_signal", "early_warning"],
+    "options": [
+      {
+        "text_he": "כן, זהו אות אזהרה התנהגותי — בקשת דחייה מעידה על בעיית נזילות או מצוקה שאינה עדיין מגולמת בנתוני ה-DSCR",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא, DSCR מעל 1.20 מבטיח שאין בעיה — הבקשה היא נוהל שגרתי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR מחושב על בסיס NOI שנתי, בעוד בעיות נזילות יכולות להיות גם עם NOI חיובי — בקשת דחייה חשובה ללא תלות ב-DSCR"
+      },
+      {
+        "text_he": "לא, בקשת דחייה חד-פעמית אינה מהווה אות אזהרה — רק פיגור ממשי בתשלום נחשב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אותות התנהגותיים חשובים בדיוק כי הם מקדימים פיגור ממשי — המטרה היא לפעול לפני שמגיעים לפיגור"
+      },
+      {
+        "text_he": "בקשת דחייה היא אות חיובי — פירושה שהלווה שקוף ומתקשר עם הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שקיפות היא חיובית, אך הצורך בדחייה עצמו הוא שלילי — שניהם נכונים בו-זמנית ויש להתייחס לכל אחד"
+      }
+    ],
+    "explanation_html_he": "<p>בקשת דחיית תשלום — ניתוח נכון:</p><ul><li><strong>חיובי</strong>: הלווה שקוף ומתקשר — לא מסתיר</li><li><strong>שלילי</strong>: הצורך בדחייה מעיד על חוסר נזילות זמני</li></ul><p>שאלות שיש לשאול:</p><ol><li>מה גרם לחוסר הנזילות? (עיכוב בגביית שכירות? הוצאה חד-פעמית?)</li><li>האם זה חד-פעמי או תחילת מגמה?</li><li>מה מצבו הכולל של הלווה (תיק נכסים, נזילות)?</li></ol><p>תגובה: אישור הדחייה בתנאים + רישום כאות אזהרה + מעקב מוגבר ברבעון הבא.</p>"
+  },
+  {
+    "question_id_external": "C10-M04-PRC-Q03",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מה ההבדל בין <strong>Early Warning Signal</strong> לבין <strong>Covenant Breach</strong>, ואיזה מהם מצריך פעולה מהירה יותר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Covenant Breach הוא מאורע משפטי שמפעיל זכויות — יש פרוטוקול ברור. Early Warning הוא שיקול דעת — ולכן מסוכן יותר כי קל להתעלם ממנו.",
+    "topic_tags": ["early_warning", "covenant_breach", "credit_management"],
+    "options": [
+      {
+        "text_he": "Early Warning הוא אות לא-פורמלי לפני הפרה; Covenant Breach הוא אירוע משפטי פורמלי שמפעיל זכויות — שניהם דורשים פעולה אבל Breach מחייב תגובה מיידית לפי חוזה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Early Warning חמור יותר כי הוא קשה לתיעוד ולכן מסוכן יותר מבחינה משפטית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Covenant Breach חמור יותר מבחינה משפטית כי הוא מפעיל זכויות פורמליות; Early Warning הוא שלב מוקדם שמאפשר מניעה"
+      },
+      {
+        "text_he": "Covenant Breach ו-Early Warning הם שמות שונים לאותו מאורע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מדובר בשני שלבים שונים בציר הסיכון — Early Warning קודם ל-Breach, והמטרה היא לפעול ב-Early Warning כדי למנוע Breach"
+      },
+      {
+        "text_he": "Early Warning מצריך פעולה מהירה יותר כי אין לו הגנה משפטית — Breach מאפשר זמן לתגובה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Breach מחייב תגובה לפי לוחות זמנים חוזיים קצרים; Early Warning מאפשר פעולה פרואקטיבית לפני שהחוזה נפרץ"
+      }
+    ],
+    "explanation_html_he": "<p>השוואה:</p><table><tr><th>Early Warning</th><th>Covenant Breach</th></tr><tr><td>לא-פורמלי, שיקול דעת</td><td>פורמלי, חוזי</td></tr><tr><td>מאפשר פעולה מניעתית</td><td>מחייב תגובה חוזית</td></tr><tr><td>גמישות בתגובה</td><td>לוחות זמנים קבועים</td></tr><tr><td>מניעת Breach</td><td>ניהול לאחר Breach</td></tr></table><p>Breach מפעיל זכויות: דרישת תשלום מוקדם (Call), ריבית פיגורים, דרישת ביטחון נוסף, בחינת האצה.</p>"
+  },
+  {
+    "question_id_external": "C10-M04-PRC-Q04",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>מנהל נכס מסחרי מודיע לבנק כי שוכר מרכזי שמהווה 35% מה-NOI לא חידש חוזה שפג לפני חודשיים. מה רשימת הפעולות המיידיות של האנליסט?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שוכר שמהווה 35% מה-NOI שעזב — זהו אירוע מהותי שדורש עדכון מלא של ניתוח ההלוואה, לא רק רישום ביומן.",
+    "topic_tags": ["tenant_departure", "portfolio_action", "noi_impact"],
+    "options": [
+      {
+        "text_he": "חישוב NOI ו-DSCR החדשים, עדכון LTV לפי שווי מחודש, בדיקת קובנטים, בניית תחזית להשכרה מחדש, ושיחה עם הלווה על תוכנית הפעולה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "המתנה של 6 חודשים לראות אם הנכס מושכר מחדש — כל עוד תשלומי ההלוואה ממשיכים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אירוע של עזיבת שוכר מרכזי דורש פעולה מיידית — אי-פעולה במשך 6 חודשים עלולה להחמיר את המצב"
+      },
+      {
+        "text_he": "מכירת ההלוואה בשוק המשני מיידית לפני שהמצב מחמיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכירה מיידית אינה הפעולה הנכונה — ראשית יש להבין את המצב ולנסות לסייע ללווה להשיב את הנכס לתפוסה"
+      },
+      {
+        "text_he": "עדכון ה-DSCR בלבד ורישום הערה בתיק — ללא שינוי בסיווג ההלוואה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי DSCR מהותי דורש בחינת Watch List ולא רק עדכון מספרי — נדרשת תגובה מניהולית מלאה"
+      }
+    ],
+    "explanation_html_he": "<p>רשימת פעולות מיידיות:</p><ol><li><strong>כמות</strong>: חישוב NOI חדש = NOI קודם - 35% מהחלק; חישוב DSCR חדש</li><li><strong>שווי</strong>: עדכון שווי הנכס לפי NOI חדש / Cap Rate; חישוב LTV חדש</li><li><strong>קובנטים</strong>: בדיקת כל קובנטי ה-DSCR, LTV, תפוסה</li><li><strong>תוכנית</strong>: קבלת תוכנית הלווה להשכרה מחדש (ציר זמן, מחיר מטרה, מתווך)</li><li><strong>ניהול</strong>: החלטה על Watch List, וויבר זמני, ביטחון נוסף</li></ol>"
+  },
+  {
+    "question_id_external": "C10-M04-PRC-Q05",
+    "course_number": 10,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה עם שלוש הלוואות בבנק (נכס A מניב, נכס B לוגיסטי, נכס C מגורים). נכס A מראה אותות אזהרה מוקדמים. כיצד על האנליסט לבחון את ההשפעה על תיק ההלוואות הכולל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "לווה עם מספר הלוואות הוא סיכון מקושר. בעיה בנכס אחד יכולה ל'הדביק' את האחרים אם הלווה מסיט מזומן בין הנכסים או מפספס תשלומים.",
+    "topic_tags": ["cross_collateral", "portfolio_risk", "borrower_analysis"],
+    "options": [
+      {
+        "text_he": "יש לבחון את מצב כל ההלוואות של אותו לווה, לבדוק חוצלות ביטחונות, ולהעריך את מצבו הפיננסי הכולל — בעיה בנכס אחד עלולה להשפיע על יכולת ההחזר בנכסים אחרים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "יש לנתח כל הלוואה בנפרד — אין קשר בין נכסים שונים של אותו לווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אותו לווה = אותה יכולת החזר; בעיה בנכס A תשפיע על נזילות הלווה ויכולתו לשרת נכסים B ו-C"
+      },
+      {
+        "text_he": "מספיק לבחון רק את הנכס שמציג בעיה (A) — הנכסים האחרים אינם בסיכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ניתוח תיק מקושר הוא חיוני — הלווה הוא יחידת הסיכון, לא כל נכס בנפרד"
+      },
+      {
+        "text_he": "יש לדרוש מיידית ביטחון צולב בין כל ההלוואות ללא קשר למצב הנכסים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דרישת ביטחון צולב היא כלי אפשרי אחד מני רבים — הצעד הראשון הוא הבנת התמונה הכוללת, לא הכפיית אמצעים"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח תיק מקושר (Cross-Portfolio Analysis):</p><ol><li>ריכוז כל חובות הלווה בבנק — סך חוב, ביטחונות, תנאים</li><li>בדיקת חוצלות ביטחונות קיימות — האם נכס A ממשכן גם כביטחון ל-B?</li><li>ניתוח נזילות הלווה הכוללת — האם בעיה ב-A תפחית תשלומים ל-B?</li><li>בחינת מקורות הכנסה נוספים של הלווה (מחוץ לתיק הנכסים)</li><li>הערכת שווי כולל של תיק הנכסים מול סך החוב</li></ol><p>תוצאה: ניתוח 'מי ממי' — האם הלווה חזק מספיק לעמוד בכל ההלוואות גם בהרעה ב-A?</p>"
+  }
+]
