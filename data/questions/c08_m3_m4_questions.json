@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C08-M03-CMP-Q01",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מציג <strong>נסח טאבו</strong> (נסח רישום מקרקעין) ומדוע הוא מסמך ראשוני שאנליסט אשראי חייב לבחון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "נסח הטאבו הוא \"תעודת הזהות\" של הנכס — כל עיקול, שיעבוד, או זכות שאינה רשומה בו עשויה שלא להיות אכיפה כלפי מלווה תם לב.",
+    "topic_tags": ["tabu", "land_registry", "security_package"],
+    "options": [
+      {
+        "text_he": "נסח טאבו מציג בעלות, שיעבודים (משכנתאות) רשומים, הערות אזהרה, עיקולים, וזכויות אחרות הרשומות על הנכס",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "נסח טאבו הוא אישור עירייה על היעוד התכנוני של הנכס ועל היתרי הבנייה שניתנו לו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אישור עירייה ותיקי בנייה הם מסמכים נפרדים; נסח טאבו מתנהל ברשם המקרקעין ועוסק בבעלות וזכויות קנייניות"
+      },
+      {
+        "text_he": "נסח טאבו מציג את שווי השוק של הנכס לפי הערכת רשם המקרקעין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשם המקרקעין אינו מעריך שווי; הוא רושם עסקאות, זכויות ושיעבודים בלבד"
+      },
+      {
+        "text_he": "נסח טאבו מחליף את הסכם המכר ומהווה ראיה מוחלטת לבעלות בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; נסח טאבו אינו מחליף הסכמים; הוא מראה את מצב הרישום הנוכחי, הכולל בעלות, שיעבודים, ועוד"
+      }
+    ],
+    "explanation_html_he": "<p>נסח הטאבו (נסח רישום) כולל:</p><ul><li><strong>גוש/חלקה:</strong> זיהוי פיזי של המגרש</li><li><strong>בעלות:</strong> שם הבעלים הרשום ואחוז הבעלות</li><li><strong>שיעבודים:</strong> משכנתאות רשומות לפי שמות הזוכים וסכומיהן</li><li><strong>הערות אזהרה:</strong> עסקאות בדרך (למשל, הסכם מכר שטרם הושלם)</li><li><strong>עיקולים:</strong> עיקולים רשמיים שהוטלו על ידי בתי משפט</li><li><strong>זכויות אחרות:</strong> זכות מעבר, שכירות רשומה, זיקות הנאה</li></ul><p>אנליסט חייב לבדוק: האם השיעבוד המוצע יהיה ראשון במעלה, האם יש הפתעות (עיקולים, שיעבודים לא ידועים), ומה הזיהוי המדויק של הנכס.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-CMP-Q02",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>משכנתה ראשונה</strong> ל<strong>משכנתה שנייה</strong> ולמה זה קריטי למלווה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "עדיפות בטאבו = עדיפות בפירוק; מלווה ראשון גובה את כל חובו לפני שמלווה שני מקבל פרוטה — עקרון First in Time, First in Right.",
+    "topic_tags": ["first_charge", "second_charge", "mortgage_priority", "security_package"],
+    "options": [
+      {
+        "text_he": "משכנתה ראשונה קודמת לכל הנושים האחרים בממוש הנכס; בעל משכנתה שנייה מקבל כיסוי רק מה שנותר לאחר פירעון המשכנתה הראשונה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "משכנתה ראשונה היא על חלק ראשון של הנכס ומשכנתה שנייה על חלק שני — שיעבוד פיזי מפוצל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המשכנתאות חלות על הנכס כולו; ההבדל הוא בעדיפות גביה, לא בחלוקה פיזית"
+      },
+      {
+        "text_he": "משכנתה ראשונה היא רק על הקרקע ומשכנתה שנייה היא על הבנייה שעליה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; המשכנתה חלה על הנכס כיחידה אחת (קרקע + בניין); אין פיצול כזה"
+      },
+      {
+        "text_he": "הבדל רק טכני: שתיהן שוות מעמד בממוש; לבעלים זכות לבחור איזה מלווה יגבה ראשון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסדר בטאבו קובע עדיפות קבועה; הלווה אינו רשאי לשנות אותה לאחר הרישום ללא הסכמת המלווים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>עדיפות משכנתאות בטאבו:</strong></p><ul><li><strong>משכנתה ראשונה (First Charge):</strong> בעלת עדיפות מלאה; בממוש נכס — גובה ראשונה עד לפירעון מלא</li><li><strong>משכנתה שנייה (Second Charge):</strong> נחותה; גובה רק מה שנותר לאחר כיסוי מלא של המשכנתה הראשונה</li></ul><p>דוגמה מספרית:</p><ul><li>שווי ממוש נכס = ₪10M</li><li>משכנתה ראשונה = ₪7M → מקבלת ₪7M מלא</li><li>משכנתה שנייה = ₪4M → מקבלת ₪3M בלבד (חסרה ₪1M)</li></ul><p>בנק שמבקש משכנתה שנייה חייב לתמחר סיכון זה ולשקלל שווי ממוש ריאלי — לרוב 70-80% משווי שוק.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-CMP-Q03",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>שטר חוב</strong> (Promissory Note) בהקשר של עסקת הלוואה נדל\"נית ומה תפקידו?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שטר החוב הוא הבסיס לאכיפה מהירה — הוא מאפשר לבנק לפעול בהוצאה לפועל ללא צורך בתביעה ארוכה, וזו אחת הסיבות שבנקים מקפידים על גבייתו.",
+    "topic_tags": ["promissory_note", "security_package", "enforcement"],
+    "options": [
+      {
+        "text_he": "שטר חוב הוא מסמך שבו הלווה מתחייב לשלם סכום מוגדר למוטב; הוא מאפשר אכיפה בהוצאה לפועל ומהיר יותר מתביעה משפטית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שטר חוב הוא חוזה ההלוואה המלא הכולל את כל התנאים, הריבית, והcovenant",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שטר חוב הוא מסמך ממוקד של התחייבות תשלום; חוזה ההלוואה הוא מסמך נפרד ומפורט"
+      },
+      {
+        "text_he": "שטר חוב הוא אישור הבנק ללווה כי ההלוואה אושרה ומימון יבוצע",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שטר חוב הוא התחייבות הלווה כלפי הבנק, לא אישור הבנק ללווה"
+      },
+      {
+        "text_he": "שטר חוב חייב להיות רשום בטאבו כדי להיות תקף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שטר חוב הוא מסמך חוזי; המשכנתה נרשמת בטאבו; שטר החוב כשלעצמו אינו מחייב רישום"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שטר חוב (שט\"ח)</strong> בעסקות נדל\"ן:</p><ul><li>מסמך שבו הלווה (עושה השטר) מתחייב לשלם סכום מסוים למוטב (הבנק) במועד קבוע</li><li>לרוב ממולא ב\"0\" (שטר ריק בסכום) — הבנק ממלא את הסכום בעת מימוש</li><li><strong>יתרון אכיפה:</strong> שטר חוב מהווה בסיס לפתיחת תיק בהוצאה לפועל ללא פסק דין נפרד — חסכון בזמן ועלויות</li><li><strong>בטוחה משלימה:</strong> שטר חוב מוחזק לצד המשכנתה — הבנק יכול לממש את מי מהן שיעיל יותר</li></ul><p>הדרישה לשטר חוב היא סטנדרטית בבנקאות ישראלית ומהווה חלק בלתי נפרד מחבילת הביטחונות.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-CMP-Q04",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>ערבות אישית</strong> של בעל שליטה בחברת הלווה ומה מגבלותיה כבטוחה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "ערבות אישית מוסיפה \"עור במשחק\" — אך ערכה נקבע לפי כוחו הכלכלי של הערב; ערב ללא נכסים היא נייר בלבד.",
+    "topic_tags": ["personal_guarantee", "security_package", "guarantor_quality"],
+    "options": [
+      {
+        "text_he": "ערבות אישית היא התחייבות הבעלים לפרוע את חוב החברה מנכסיו האישיים אם החברה לא תפרע; ערכה תלוי לחלוטין בשווי הנכסים האישיים של הערב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ערבות אישית מחייבת רישום בטאבו על שם הערב ויוצרת שיעבוד מיידי על נכסיו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית היא התחייבות חוזית; אין רישום בטאבו אוטומטי; המלווה יצטרך לממש את הערבות ולפעול בנפרד נגד נכסי הערב"
+      },
+      {
+        "text_he": "ערבות אישית מבטיחה שהמלווה יגבה 100% מחובו בכל מקרה של כשל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין ערבות לגבייה מלאה; זה תלוי בנכסים של הערב ובפרוצדורות אכיפה"
+      },
+      {
+        "text_he": "ערבות אישית של בעל שליטה מחייבת את כל בני המשפחה הקרובה כערבים לפי חוק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ערבות אישית מחייבת רק את הערב שחתם; בני משפחה אינם חייבים אוטומטית"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ערבות אישית (Personal Guarantee)</strong> — מאפיינים ומגבלות:</p><ul><li><strong>מה היא:</strong> בעל השליטה מתחייב אישית לפרוע את החוב אם החברה לא תעשה כן</li><li><strong>מטרה:</strong> יוצרת אינטרס לבעל השליטה להצלחת הפרויקט; מונעת \"walk away\"</li><li><strong>מגבלות:</strong><ul><li>ערכה = ערך הנכסים האישיים של הערב; ערב חסר נכסים → ערבות חסרת ערך</li><li>אכיפה ארוכה ויקרה (תביעה, ביצוע, מכירה)</li><li>נכסים אישיים עשויים להיות ממושכנים לטובת גורמים אחרים</li><li>הגנת פשיטת רגל — בעל שליטה שפשט את הרגל מגביל גבייה</li></ul></li></ul><p>לפני קבלת ערבות: אנליסט חייב לבחון את הדוח הכלכלי האישי (Personal Statement of Assets & Liabilities) של הערב.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-PRC-Q01",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נסח טאבו מציג: (1) בעלים: א.ב. בע\"מ — 100%; (2) משכנתה לטובת בנק A — ₪15M; (3) הערת אזהרה לטובת קבלן ג'; (4) עיקול לטובת רשות המסים — ₪800K. הבנק שלך מתבקש לתת הלוואה ממושכנת ראשונה. מה הממצאים ומה הפעולות הנדרשות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "נסח טאבו שמכיל הפתעות (עיקול, הערת אזהרה) מחייב עצירה ובירור — לא ניתן להמשיך לסגירה עד שכל הרשומות הנחותות יוסרו או הוסכם על טיפולן.",
+    "topic_tags": ["tabu", "land_registry", "security_package", "due_diligence"],
+    "options": [
+      {
+        "text_he": "בעיות קריטיות: (א) בנק A כבר רשום כמשכנתה ראשונה — יש לקבל הסכמתו לשינוי עדיפות או לוודא שהוא יגבה ראשון; (ב) העיקול של רשות המסים חייב להיות מוסר לפני סגירה; (ג) הערת האזהרה טעונה בירור",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין בעיה; הבנק יכול לרשום משכנתה שנייה מאחורי בנק A ולהמשיך בסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנק שהתחייב לספק \"ממושכנת ראשונה\" אינו יכול לקבל מקום שני; זו הפרת תנאי ה-term sheet"
+      },
+      {
+        "text_he": "עיקול רשות המסים אינו משמעותי; ₪800K קטן מ-₪15M ולא ישפיע על עדיפות הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עיקול רשות המסים עשוי לקדום לכל שיעבוד אחר בנסיבות מסוימות; גם בלי עדיפות מיוחדת — הוא הפרת ייצוג הלווה ש\"הנכס נקי\""
+      },
+      {
+        "text_he": "הממצאים מקובלים; רק אם הנכס ממושכן מעבר ל-80% LTV יש בעיה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV אינו הגורם היחיד; עיקולים, הערות אזהרה, ומשכנתאות קיימות הם בעיות מבניות שאינן מוסדרות על ידי LTV נמוך"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח נסח הטאבו ופעולות נדרשות:</p><ol><li><strong>משכנתה לטובת בנק A (₪15M):</strong> אם הבנק שלנו מחויב לקבל ראשונה — בנק A חייב לוותר על עדיפותו (Intercreditor) או לסגור את הלוואתו לפני הסגירה</li><li><strong>עיקול רשות המסים (₪800K):</strong> יש לדרוש הסרתו לפני הסגירה; ₪800K עשוי להיות מחוץ לרמת מהותיות אך הוא ייצוג שגוי של הלווה (\"נכס נקי מעיקולים\")</li><li><strong>הערת אזהרה לטובת קבלן ג':</strong> הערת אזהרה מצביעה על עסקה בדרך (אולי זיקת שכירות, זכות סירוב ראשונה, או תביעה); יש לברר ולהסיר</li></ol><p>הפעולה הנכונה: לעצור ולהפנות ללגל לטיפול בכל הרשומות לפני תאריך הסגירה.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-PRC-Q02",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס ממושכן שווה ₪25M. בנק א' מחזיק משכנתה ראשונה של ₪12M; בנק ב' (הבנק שלך) מחזיק משכנתה שנייה של ₪8M. הנכס נמכר בממוש בסכום של ₪18M (לאחר עלויות). כמה יקבל כל בנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "חשבון ממוש הוא תרגיל שכל אנליסט חייב לבצע לפני הסכמה על משכנתה שנייה — הוא מגלה כמה כסף בפועל נמצא בסיכון.",
+    "topic_tags": ["mortgage_priority", "liquidation_waterfall", "second_charge"],
+    "options": [
+      {
+        "text_he": "בנק א' מקבל ₪12M (מלא); בנק ב' מקבל ₪6M (18M פחות 12M); הפסד לבנק ב': ₪2M",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כל בנק מקבל לפי חלקו: בנק א' 60% (₪10.8M), בנק ב' 40% (₪7.2M)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקה יחסית אינה נכונה; יש עדיפות — בנק א' גובה ראשון עד לפירעון מלא"
+      },
+      {
+        "text_he": "בנק א' ובנק ב' מקבלים שניהם ₪9M כל אחד בחלוקה שווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקה שווה אינה עקרון נכון בדיני שיעבוד; עדיפות הרישום קובעת"
+      },
+      {
+        "text_he": "בנק א' מקבל ₪12M; בנק ב' מקבל ₪8M; אין הפסד כי סך המשכנתאות (₪20M) נמוך מהממוש (₪18M)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סך המשכנתאות ₪20M > ₪18M ממוש; בנק ב' לא יכול לגבות יותר ממה שנשאר לאחר תשלום בנק א'"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סדר חלוקת תמורת ממוש (Waterfall):</strong></p><ol><li>עלויות ממוש = כבר הופחתו (18M הוא נטו)</li><li><strong>בנק א' (ראשון):</strong> גובה ₪12M מלא — נותרים ₪6M</li><li><strong>בנק ב' (שני):</strong> גובה ₪6M מתוך ₪8M שמגיע לו — <strong>הפסד ₪2M</strong></li></ol><p>ניתוח סיכון מנקודת בנק ב':</p><ul><li>LTV שני = 8M ÷ 25M = 32% — נראה נמוך</li><li>LTV שני על שווי ממוש = 8M ÷ 18M = 44% — גם נראה בר-כיסוי</li><li>אבל LTV מצטבר (Whole Loan) = 20M ÷ 25M = 80%; על ממוש = 20M ÷ 18M = 111% → <strong>בנק ב' בסיכון!</strong></li></ul><p>לקח: תמיד מחשבים LTV מצטבר ולא LTV של השכבה הספציפית בלבד.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-PRC-Q03",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן חבילת ביטחונות לעסקת נדל\"ן מסחרי. חבילת הביטחונות כוללת: (א) משכנתה ראשונה על נכס מניב; (ב) שטר חוב; (ג) ערבות אישית של בעל שליטה שגר בחו\"ל ובעל נכסים בחו\"ל בלבד. מה החולשה העיקרית בחבילה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ערבות שלא ניתן לאכוף אותה שווה אפס — ערב עם נכסים בחו\"ל ובמדינה ללא אמנת גביה עם ישראל הוא ערבות על הנייר בלבד.",
+    "topic_tags": ["security_package", "personal_guarantee", "enforcement_risk", "cross_border"],
+    "options": [
+      {
+        "text_he": "הערבות האישית חלשה: בעל שליטה עם נכסים בחו\"ל בלבד קשה לאכוף נגדו בישראל; אכיפה חוץ-ארצית ארוכה, יקרה, ולעיתים בלתי אפשרית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "החולשה העיקרית היא שאין משכנתה שנייה; חבילה ללא שני שיעבודים אינה מספקת",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; משכנתה ראשונה + שטר חוב הם ביטחונות טובים; בעיית הערבות האישית הבלתי אכיפה היא חולשה אמיתית יותר"
+      },
+      {
+        "text_he": "שטר החוב כבר מייתר את הערבות האישית; אין ערך להוסיף שניהם",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שטר חוב ידובר על חוב ספציפי; ערבות אישית היא כיסוי נוסף על מלוא אחריות הלווה; שניהם ערכם שונה"
+      },
+      {
+        "text_he": "אין חולשה; שלוש שכבות ביטחון (משכנתה, שטר, ערבות) מספקות כיסוי מלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כמות הבטוחות אינה מבטיחה איכות; ערבות בלתי אכיפה לא מוסיפה ערך"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח חבילת הביטחונות:</p><ul><li><strong>משכנתה ראשונה — חזקה:</strong> ביטחון ישיר, רשום, בר-אכיפה בישראל</li><li><strong>שטר חוב — טוב:</strong> מהיר לאכיפה, בסיס להוצאה לפועל</li><li><strong>ערבות אישית — חלשה במקרה זה:</strong> ערב עם נכסים בחו\"ל בלבד מציב אתגרים:<ul><li>ישראל אינה צד לאמנות גביה עם כל המדינות</li><li>פסק דין ישראלי לא יכיר בחו\"ל אוטומטית</li><li>פרוצדורה ארוכה ויקרה (3–7 שנים); לא בטוח שתסתיים בגביה</li></ul></li></ul><p><strong>המלצה:</strong> לדרוש נכסים בישראל לכיסוי הערבות, או לוותר על הערבות ולדרוש ביטחונות אחרים (הגדלת הון עצמי, חשבון Blocked).</p>"
+  },
+  {
+    "question_id_external": "C08-M03-PRC-Q04",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט ממליץ על הלוואה ממושכנת. עורך הדין של הבנק גילה שנסח הטאבו מציג שהנכס רשום על שם \"א.ב.\" — אך הלווה בהסכם הוא \"א.ב. בע\"מ\". מה הבעיה ומה הפתרון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "אי-התאמה בין בעל הנכס הרשום בטאבו ובין הלווה בהסכם היא דגל אדום בסיסי — הבנק לא יכול לרשום משכנתה על נכס שהלווה לא מחזיק בו.",
+    "topic_tags": ["tabu", "ownership_mismatch", "security_registration", "due_diligence"],
+    "options": [
+      {
+        "text_he": "הבעיה: הנכס רשום על שם אדם פרטי (א.ב.) אך הלווה הוא חברה (א.ב. בע\"מ); הם ישויות משפטיות שונות; יש להסדיר העברת בעלות לחברה לפני רישום המשכנתה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "אין בעיה; א.ב. ו-א.ב. בע\"מ הם אותו צד; הבנק יכול לרשום משכנתה ישירות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אדם פרטי וחברה בע\"מ הם ישויות משפטיות שונות לחלוטין; לא ניתן לרשום משכנתה על נכס שלא בבעלות הלווה"
+      },
+      {
+        "text_he": "פתרון: להוסיף את א.ב. (הפרט) כערב אישי; הבעלות בטאבו לא משנה לאכיפה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעלות בטאבו משנה מאוד — הבנק רושם משכנתה על נכס; אם הנכס לא שייך ללווה, אין מה לרשום"
+      },
+      {
+        "text_he": "פתרון: לשנות את שם הלווה בהסכם ל-א.ב. (הפרט) ולוותר על הלוואה לחברה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שינוי שם הלווה ללא הסדרת מבנה העסקה הכולל הוא פתרון שגוי; יש להסדיר את בעלות הנכס בצורה הנכונה"
+      }
+    ],
+    "explanation_html_he": "<p>הבעיה המשפטית:</p><ul><li>א.ב. (אדם פרטי) ≠ א.ב. בע\"מ (חברה בע\"מ) — ישויות משפטיות נפרדות</li><li>בנק רושם משכנתה על נכס בבעלות הלווה בלבד; אם הנכס לא שייך ללווה — אין ביטחון</li></ul><p>אפשרויות פתרון:</p><ol><li><strong>העברת בעלות:</strong> א.ב. הפרט יעביר את הנכס לא.ב. בע\"מ (העברה קרובה — עשויה להיות פטורה ממס); לאחר מכן — רישום משכנתה</li><li><strong>שינוי מבנה הלווה:</strong> הלוואה תינתן לא.ב. הפרט (לא לחברה) עם משכנתה על נכסו האישי</li><li><strong>שעבוד כפול:</strong> לעיתים ניתן לקבל שעבוד מניות החברה + ערבות א.ב. הפרט + משכנתה על נכסו האישי</li></ol><p>אנליסט שמגלה אי-התאמה כזו חייב לעצור את התהליך ולהפנות ללגל מיד.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-PRC-Q05",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק נותן הלוואה ממושכנת ראשונה לפרויקט. בשלב מאוחר מתגלה שהיזם לקח הלוואת גישור ממוצעים פרטיים ושיעבד להם את הנכס — אך רישום המשכנתה לטובת המוצעים אינו מופיע בנסח הטאבו כי הם רשמו הערת אזהרה בלבד. מה עדיפות הבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הערת אזהרה אינה שיעבוד — בנק שרשם משכנתה מלאה אחרי הערת אזהרה ייתכן שקדם לה, אך עורכי הדין צריכים לבחון אם הבנק ידע עליה בעת הרישום.",
+    "topic_tags": ["tabu", "warning_note", "mortgage_priority", "priority_conflict"],
+    "options": [
+      {
+        "text_he": "ככלל, משכנתה רשומה של הבנק קודמת להערת אזהרה; אם הבנק לא ידע על ההסדר הפרטי ורשם בתום לב — הוא שומר על עדיפותו; ייתכן תביעה נגד היזם",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הערת אזהרה קודמת לכל משכנתה; הבנק יאבד את עדיפותו",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערת אזהרה ≠ שיעבוד; משכנתה רשומה גוברת על הערת אזהרה בנסיבות רגילות (תלוי בידיעה)"
+      },
+      {
+        "text_he": "אין עדיפות; שני הצדדים יחלקו את תמורת הממוש בצורה שווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חלוקה שווה אינה עיקרון בדיני משכנתאות; הרישום בטאבו קובע עדיפות"
+      },
+      {
+        "text_he": "המוצעים הפרטיים קודמים כי הסכמו לשיעבוד לפני הבנק; עדיפות לפי מועד ההסכם לא מועד הרישום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; עדיפות בדיני מקרקעין בישראל נקבעת לפי מועד הרישום בטאבו, לא מועד ההסכם; זו הסיבה לדרישת רישום מיידי"
+      }
+    ],
+    "explanation_html_he": "<p>עדיפות בדיני מקרקעין ישראליים:</p><ul><li><strong>עיקרון:</strong> עדיפות נקבעת לפי מועד הרישום בטאבו (First Registered, First in Right)</li><li><strong>הערת אזהרה:</strong> מגנה על זכות ה\"זוכה\" מפני עסקאות נוגדות — אך לא יוצרת שיעבוד בפועל</li><li><strong>משכנתה רשומה:</strong> זכות ריאלית מלאה; גוברת על הערת אזהרה שקדמה אם הבנק לא ידע (תום לב)</li></ul><p>ניתוח המקרה:</p><ul><li>אם הבנק ידע על הערת האזהרה לפני רישום משכנתו — ייתכן שהמוצעים יטענו שהבנק לא היה תם לב</li><li>אם הבנק רשם ללא ידיעה על ההסדר הפרטי — עדיפותו שמורה</li></ul><p>לקח: אנליסט חייב לבחון את נסח הטאבו המעודכן ביום הרישום עצמו, לא שבועות קודם לכן.</p>"
+  },
+  {
+    "question_id_external": "C08-M03-PRC-Q06",
+    "course_number": 8,
+    "module_number": 3,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנק ממן פרויקט מגורים. הלוואה מובטחת במשכנתה על הקרקע. היזם מכר 30% מהדירות \"על הנייר\" לרוכשים שרשמו הערות אזהרה בטאבו. עתה היזם בקשל. מי קודם: הבנק או רוכשי הדירות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "קדימות בין בנק ממן לרוכשי דירות הוא אחד הסוגיות הסבוכות בנדל\"ן ישראלי — הפתרון הנכון הוא מנגנון רכבת (שחרור משכנתה ביחידה עם פירעון) שמוסכם מראש.",
+    "topic_tags": ["mortgage_priority", "apartment_buyers", "project_financing", "insolvency"],
+    "options": [
+      {
+        "text_he": "מורכב: הבנק קדם ברישום המשכנתה; אך חוק מכר הדירות מעניק הגנה מיוחדת לרוכשי דירות תמימים; בפועל ניתן לעיתים לממש רק יחידות שלא נמכרו",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הבנק קודם תמיד; משכנתה ראשונה גוברת על הערות אזהרה ללא יוצא מן הכלל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוק מכר הדירות (הבטחת השקעות) מציב הגנות ספציפיות על רוכשי דירות מעבר לדין הכללי"
+      },
+      {
+        "text_he": "רוכשי הדירות קודמים לחלוטין; ברגע שרשמו הערת אזהרה — הבנק לא יכול לממש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערת אזהרה אינה גוברת אוטומטית על משכנתה קודמת; הבנק לא מאבד את עדיפותו לחלוטין"
+      },
+      {
+        "text_he": "מכירת דירות על הנייר מבטלת אוטומטית את המשכנתה של הבנק על כל הפרויקט",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכר דירה לא מבטל משכנתה; נדרשת הסכמת הבנק (\"שחרור יחידה\") לכל דירה שנמסרת ללא שיעבוד"
+      }
+    ],
+    "explanation_html_he": "<p>הסוגיה המשפטית:</p><ul><li><strong>בנק:</strong> רשם משכנתה ראשונה על הקרקע — עדיפות קניינית</li><li><strong>רוכשי דירות:</strong> רשמו הערות אזהרה לאחר המשכנתה — נחותים קנינית</li><li><strong>אך:</strong> חוק מכר הדירות מחייב הבנק לפעול לפי \"מנגנון רכבת\" — שחרור מהמשכנתה דירה אחרי דירה ככל שהיזם מחזיר כספים מהרוכשים</li></ul><p>תוצאה בפועל בפשיטת רגל:</p><ul><li>מי שקיבל שחרור יחידה — מוגן</li><li>מי שלא קיבל — מצוי בוועדת הנושים מול הבנק</li><li>הפתרון הנכון מלכתחילה: הסכם Tri-Party (בנק + יזם + קונה) עם מנגנון שחרור ברור</li></ul>"
+  },
+  {
+    "question_id_external": "C08-M04-CMP-Q01",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>WALT (Weighted Average Lease Term)</strong> ולמה הוא חשוב לניתוח נדל\"ן מסחרי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "WALT קצר בנכס מסחרי הוא סימן אדום — הוא מצביע על סיכון פינוי גבוה ועל אי-יציבות בתזרים המזומנים הצפוי.",
+    "topic_tags": ["walt", "lease_analysis", "income_stability"],
+    "options": [
+      {
+        "text_he": "WALT הוא הממוצע המשוקלל של תקופות השכירות הנותרות, כשהמשקל הוא שטח (או הכנסה) כל שוכר; WALT גבוה = הכנסה יציבה לטווח ארוך",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "WALT הוא ממוצע פשוט של כל תקופות השכירות הנותרות ללא קשר לגודל השוכר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; WALT הוא ממוצע משוקלל (לפי שטח או הכנסה) — שוכר גדול משפיע יותר מאשר שוכר קטן"
+      },
+      {
+        "text_he": "WALT מודד את שיעור התפוסה הנוכחי של הנכס ולא את אורך חיי השכירות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיעור תפוסה הוא מדד שונה (אחוז שטח מושכר); WALT מודד ספציפית את תקופת השכירות הממוצעת"
+      },
+      {
+        "text_he": "WALT מתייחס רק לנכסי לוגיסטיקה ואינו רלוונטי לנדל\"ן משרדי או קמעונאי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; WALT הוא מדד אוניברסלי לכל סוגי הנדל\"ן המסחרי — משרדים, קמעונאות, לוגיסטיקה ועוד"
+      }
+    ],
+    "explanation_html_he": "<p><strong>WALT (Weighted Average Lease Term)</strong></p><p>נוסחה: WALT = Σ(תקופה נותרת × הכנסה שוכר) ÷ הכנסה כוללת</p><p>דוגמה:</p><ul><li>שוכר A: ₪100K/שנה, 5 שנים נותרות → תרומה = 500K</li><li>שוכר B: ₪400K/שנה, 2 שנים נותרות → תרומה = 800K</li><li>WALT = (500K + 800K) ÷ 500K = 2.6 שנים</li></ul><p>פרשנות:</p><ul><li>WALT &gt; 5 שנים → יציבות גבוהה; מלווים נוחים</li><li>WALT 3–5 שנים → ממוצע; ייבחן תחלופת שוכרים</li><li>WALT &lt; 3 שנים → סיכון פינוי גבוה; מלווים עשויים לדרוש פרמיית סיכון</li></ul>"
+  },
+  {
+    "question_id_external": "C08-M04-CMP-Q02",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין חוזה שכירות <strong>NNN (Triple Net)</strong> לבין חוזה <strong>Gross Lease</strong>?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "NNN מעדיף מלווים כי הוא מפחית את חשיפת ה-NOI לעלויות תפעול — בגרוס ליס שיפורים בהוצאות מגיעים ללווה, לא לנכס.",
+    "topic_tags": ["nnn_lease", "gross_lease", "noi_stability", "lease_structure"],
+    "options": [
+      {
+        "text_he": "ב-NNN השוכר משלם שכ\"ד + מסים + ביטוח + תחזוקה; ב-Gross Lease הבעלים משלם את כל ההוצאות והשוכר משלם שכ\"ד בלבד",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "NNN הוא חוזה שכירות לשלוש שנים; Gross Lease הוא חוזה ארוך-טווח ללא תאריך סיום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NNN ו-Gross הם מבני עלות ותשלום, לא אורך חוזה; ה-Triple ב-NNN מתייחס לשלוש קטגוריות הוצאות"
+      },
+      {
+        "text_he": "ב-Gross Lease השוכר משלם שכ\"ד + כל ההוצאות; ב-NNN הבעלים נושא בכל העלויות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההגדרות הפוכות; ב-NNN השוכר נושא בעלויות, ב-Gross — הבעלים"
+      },
+      {
+        "text_he": "שני החוזים זהים מבחינת NOI; ההבדל רק בין מי גובה את הארנונה מהרשות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ה-NOI שונה מהותית: ב-NNN הוצאות תפעול אינן מקוזזות מהכנסה; ב-Gross הן מקוזזות ומורידות NOI"
+      }
+    ],
+    "explanation_html_he": "<p>השוואת מבני שכירות:</p><table style='width:100%;border-collapse:collapse'><tr><th style='border:1px solid #ccc;padding:4px'>פרמטר</th><th style='border:1px solid #ccc;padding:4px'>NNN</th><th style='border:1px solid #ccc;padding:4px'>Gross Lease</th></tr><tr><td style='border:1px solid #ccc;padding:4px'>מי משלם מסים?</td><td style='border:1px solid #ccc;padding:4px'>שוכר</td><td style='border:1px solid #ccc;padding:4px'>בעלים</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>מי משלם ביטוח?</td><td style='border:1px solid #ccc;padding:4px'>שוכר</td><td style='border:1px solid #ccc;padding:4px'>בעלים</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>מי משלם תחזוקה?</td><td style='border:1px solid #ccc;padding:4px'>שוכר</td><td style='border:1px solid #ccc;padding:4px'>בעלים</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>NOI לבעלים</td><td style='border:1px solid #ccc;padding:4px'>גבוה ויציב יותר</td><td style='border:1px solid #ccc;padding:4px'>נמוך יותר; תלוי בהוצאות</td></tr></table><p>מלווים מעדיפים NNN כי ה-NOI אינו נשחק על ידי עלויות תפעול.</p>"
+  },
+  {
+    "question_id_external": "C08-M04-CMP-Q03",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהי <strong>Rent Escalation Clause</strong> בחוזה שכירות ואיך היא משפיעה על NOI לאורך זמן?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מנגנון הצמדה לאינפלציה מגן על ה-NOI הריאלי של הנכס — ללא אינדקסציה, הכנסת השכירות נשחקת בערכים ריאליים בכל שנה.",
+    "topic_tags": ["rent_escalation", "noi", "lease_analysis", "inflation_indexation"],
+    "options": [
+      {
+        "text_he": "סעיף המגדיר מנגנון להעלאת שכ\"ד לאורך תקופת השכירות — לפי מדד המחירים, שיעור קבוע, או שוק; מגדיל NOI ריאלי ומגן מפני שחיקת אינפלציה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "סעיף המאפשר לשוכר להפחית שכ\"ד בתנאים של שפל כלכלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; סעיף הפחתה לשוכר קרוי Rent Abatement או Break Clause; Rent Escalation הוא סעיף עלייה לטובת הבעלים"
+      },
+      {
+        "text_he": "סעיף שקובע שהשכ\"ד יישאר קבוע (Flat) לאורך כל חיי החוזה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שכ\"ד קבוע הוא היפך מ-Escalation; Escalation פירושו עלייה מתוכנתת"
+      },
+      {
+        "text_he": "סעיף המגביל את שיעור ההצמדה לשכ\"ד שוק בתאריכים קבועים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגדרה זו תואמת \"Rent Review\" (עדכון לפי שוק) שהוא מנגנון אחד מסוגי ה-Escalation, אך לא ה-הגדרה הכוללת"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Rent Escalation Clause</strong> — מנגנונים נפוצים:</p><ul><li><strong>CPI-Linked (הצמדה למדד):</strong> שכ\"ד עולה בשיעור עליית מדד המחירים; מגן מפני אינפלציה</li><li><strong>Fixed Step-Up:</strong> עלייה קבועה מדי שנה (למשל 2% בשנה); צפוי ומדיד</li><li><strong>Market Rent Review:</strong> בתאריכים קבועים (כל 3–5 שנים) — שכ\"ד מוחלף בשכ\"ד שוק עדכני</li><li><strong>Turnover Rent:</strong> שכ\"ד בסיס + אחוז ממחזור הקמעונאי; נפוץ בקניונים</li></ul><p>לאנליסט: יש לוודא שמדל ה-NOI כולל את עלות ה-Escalation שעתידה להגיע, ושלא נחשבות העלאות שאינן מובטחות.</p>"
+  },
+  {
+    "question_id_external": "C08-M04-CMP-Q04",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מהו <strong>סיכון שוכר עוגן (Anchor Tenant Risk)</strong> ומדוע הוא קריטי לנדל\"ן קמעונאי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שוכר עוגן שמפנה קניון הורג שני פעמים — גם את הכנסת השכירות שלו וגם את ה-traffic שמחיה את שאר השוכרים; אנליסט חייב לשקלל את שני הגלים.",
+    "topic_tags": ["anchor_tenant", "retail_risk", "lease_analysis", "noi_stability"],
+    "options": [
+      {
+        "text_he": "שוכר עוגן הוא שוכר דומיננטי (רשת גדולה, סופרמרקט, מגנט) שעזיבתו תפגע לא רק בהכנסה הישירה אלא גם בקיום שאר השוכרים שמסתמכים על ה-traffic שהוא מייצר",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שוכר עוגן הוא השוכר הראשון שחתם על חוזה בנכס; עזיבתו אינה שונה מבחינת סיכון מעזיבת שוכר אחר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגדרת עוגן קשורה לגודל ולמשיכת לקוחות, לא לכרונולוגיה; עזיבתו יש לה אפקט מכפיל על שאר הנכס"
+      },
+      {
+        "text_he": "סיכון שוכר עוגן רלוונטי רק לקניונים ולא לנכסי מסחר רחוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Anchor Tenant Risk קיים בכל נכס שבו שוכר דומיננטי מייצר traffic לשוכרים אחרים — כולל פארקים מסחריים ורחובות מסחר"
+      },
+      {
+        "text_he": "שוכר עוגן תמיד חתום על חוזה ארוך-טווח ולכן אין ממנו סיכון בטווח הקצר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוזה ארוך עם Break Clause, או שוכר עוגן בקשיים פיננסיים, מציבים סיכון גם אם תקופת החוזה ארוכה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Anchor Tenant Risk</strong> — ניתוח כפול:</p><ol><li><strong>אפקט הכנסה ישיר:</strong> עזיבת שוכר עוגן מפחיתה את ה-NOI ישירות (לדוגמה: 30% מהכנסת קניון)</li><li><strong>אפקט Traffic — עקיף ומסוכן יותר:</strong> שוכרי רמה B ו-C מסתמכים על ה-traffic שהעוגן מייצר; עזיבתו עשויה לגרום גם לעזיבתם</li></ol><p>בניתוח אשראי:</p><ul><li>לבחון את חוזה העוגן: אורך חיים, Break Clauses, תנאי פינוי</li><li>לבדוק כוחו הפיננסי של שוכר העוגן (דוחות ציבוריים/פרטיים)</li><li>לשאול: מה תרחיש NOI אם העוגן יפנה? האם שיעור הכיסוי ישרוד?</li></ul>"
+  },
+  {
+    "question_id_external": "C08-M04-PRC-Q01",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי עם שלושה שוכרים: א' — 500 מ\"ר, שכ\"ד ₪250K/שנה, 4 שנים נותרות; ב' — 300 מ\"ר, שכ\"ד ₪180K/שנה, 7 שנים נותרות; ג' — 200 מ\"ר, שכ\"ד ₪70K/שנה, 1 שנה נותרת. חשב WALT לפי הכנסה.</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "WALT לפי הכנסה (לא לפי שטח) הוא המדד הרלוונטי לאנליסט אשראי — הכנסה גבוהה של שוכר קצר-טווח מוסיפה סיכון שמדד שטח עשוי להסתיר.",
+    "topic_tags": ["walt", "calculation", "lease_schedule"],
+    "options": [
+      {
+        "text_he": "WALT = (250K×4 + 180K×7 + 70K×1) ÷ (250K+180K+70K) = (1,000K+1,260K+70K) ÷ 500K = 2,330K÷500K = 4.66 שנים",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "WALT = (4+7+1) ÷ 3 = 4 שנים (ממוצע פשוט)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע פשוט אינו WALT; יש לשקלל לפי הכנסת כל שוכר"
+      },
+      {
+        "text_he": "WALT = (500×4 + 300×7 + 200×1) ÷ (500+300+200) = (2000+2100+200) ÷ 1000 = 4.3 שנים (לפי שטח)",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זהו WALT לפי שטח, לא לפי הכנסה; השאלה מבקשת WALT לפי הכנסה"
+      },
+      {
+        "text_he": "WALT = 7 שנים; לוקחים את תקופת השוכר הגדול בהכנסה (שוכר ב')",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; WALT אינו המקסימום אלא ממוצע משוקלל; שוכר ב' משפיע יותר אך לא לבד קובע את ה-WALT"
+      }
+    ],
+    "explanation_html_he": "<p><strong>חישוב WALT לפי הכנסה:</strong></p><ul><li>שוכר א': ₪250,000 × 4 שנים = ₪1,000,000</li><li>שוכר ב': ₪180,000 × 7 שנים = ₪1,260,000</li><li>שוכר ג': ₪70,000 × 1 שנה = ₪70,000</li><li>סך הכנסה: ₪500,000</li><li>סך תרומות: ₪2,330,000</li><li><strong>WALT = 2,330,000 ÷ 500,000 = 4.66 שנים</strong></li></ul><p>WALT 4.66 שנים — סביר אך נדרש לשים לב לשוכר ג' שמסיים בשנה הקרובה ומהווה 14% מהכנסת הנכס.</p>"
+  },
+  {
+    "question_id_external": "C08-M04-PRC-Q02",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שוכר עוגן בקניון (30% מהכנסה, ₪1.2M/שנה) מחזיק חוזה עם <strong>Break Option</strong> בעוד 18 חודש. NOI נוכחי = ₪4M/שנה; DSCR = 1.35x. מה יהיה DSCR אם השוכר מממש את ה-Break? (הנח: NOI ירד ב-40% — 30% הכנסה + 10% שוכרים אחרים שייפנו)</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "תרחיש Break Option הוא בדיקה חובה לכל נכס עם שוכר עוגן — NOI שנחשב \"בטוח\" עשוי להתאדות בין לילה ולהפיל DSCR מתחת לסף.",
+    "topic_tags": ["break_option", "dscr", "sensitivity_analysis", "anchor_tenant"],
+    "options": [
+      {
+        "text_he": "NOI חדש = ₪4M × (1-40%) = ₪2.4M; שירות חוב = 4M÷1.35 = ₪2.963M; DSCR חדש = 2.4M÷2.963M = 0.81x — מתחת ל-1.0x, הנכס אינו מכסה את שירות החוב",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "DSCR חדש = 1.35x × 0.60 = 0.81x; NOI חדש = ₪2.4M; הנכס עדיין מכסה חלק מהחוב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי לגבי המסקנה; DSCR 0.81x אינו \"מכסה חלק\" — הוא אומר שהנכס לא מכסה את שירות החוב המלא"
+      },
+      {
+        "text_he": "DSCR חדש = 1.35x × 0.70 = 0.945x; הנכס כמעט מכסה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הנחת ירידת NOI של 40% היא הנחיית השאלה; שינוי ל-30% אינו נכון"
+      },
+      {
+        "text_he": "לא ניתן לחשב; Break Option לא אומר שהשוכר יפנה בוודאות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; תרחיש Stress Test (\"מה אם?\"חייב להיעשות ללא תלות בסבירות; כן ניתן ויש חובה לחשב"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח Break Option Stress Test:</strong></p><ul><li>NOI נוכחי = ₪4,000,000</li><li>DSCR נוכחי = 1.35x → שירות חוב = NOI ÷ DSCR = 4,000,000 ÷ 1.35 = ₪2,963,000</li><li>NOI לאחר Break = ₪4,000,000 × 60% = ₪2,400,000</li><li>DSCR חדש = 2,400,000 ÷ 2,963,000 = <strong>0.81x</strong></li></ul><p>מסקנות:</p><ul><li>DSCR 0.81x < 1.0x → הנכס <strong>לא מכסה</strong> את שירות החוב</li><li>הלווה יצטרך להזרים מזומנים ממקורות אחרים</li><li><strong>המלצה:</strong> לא לבסס את ה-underwriting על NOI הנוכחי; לדרוש Debt Service Reserve שיכסה 12–18 חודשי שירות חוב, ולנטר את ה-Break Option</li></ul>"
+  },
+  {
+    "question_id_external": "C08-M04-PRC-Q03",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בבדיקת הסכם שכירות מרכזי גילה האנליסט: (א) חוזה NNN ל-10 שנים עם שוכר בינלאומי מדורג; (ב) הסכמות escalation של 2% לשנה; (ג) Break Option בשנה 6 לשוכר; (ד) אפשרות Sub-Let ללא הסכמת הבעלים. מה שני הממצאים הבעייתיים ביותר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Break Option ו-Sub-Let ללא הסכמה הם שני מנגנונים שמאפשרים לשוכר לאפקטיבית לצאת מהחוזה ולהחליף עצמו בשוכר לא ידוע — בדיוק מה שהמלווה לא אישר.",
+    "topic_tags": ["break_option", "subletting", "lease_risk", "tenant_credit"],
+    "options": [
+      {
+        "text_he": "ג (Break Option) ו-ד (Sub-Let ללא הסכמה) — שניהם מאפשרים לשוכר לעזוב או להחליף עצמו, מה שמחסל את ערך ה-WALT ואת איכות השוכר שאושרה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "א (NNN עם שוכר מדורג) ו-ב (escalation 2%) — שניהם גורמים לעלייה בחבויות השוכר שעלולה לגרום לפינוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; NNN עם שוכר מדורג ו-escalation מתון הם נתונים חיוביים, לא בעייתיים"
+      },
+      {
+        "text_he": "ב (escalation 2%) ו-ג (Break Option) — escalation גבוה מדי עלול להביא לפינוי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; escalation של 2% הוא מתון ורגיל; אינו בעיה; Break Option הוא אכן בעיה"
+      },
+      {
+        "text_he": "אין ממצאים בעייתיים; חוזה NNN ל-10 שנים הוא אידיאלי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Break Option בשנה 6 ו-Sub-Let ללא הסכמה הופכים את חוזה ה-10 שנים לחוזה אפקטיבי קצר בהרבה"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח ארבעת הפרמטרים:</p><ul><li><strong>א — חיובי:</strong> NNN + שוכר בינלאומי מדורג = הכנסה יציבה, אשראי גבוה; זהו עמוד התווך</li><li><strong>ב — חיובי:</strong> escalation 2% מתון ועקבי; מגן מפני שחיקת אינפלציה</li><li><strong>ג — בעייתי:</strong> Break Option בשנה 6 → ה-WALT האפקטיבי הוא 6 שנים, לא 10; יש לחשב DSCR תחת תרחיש מימוש Break</li><li><strong>ד — בעייתי:</strong> Sub-Let ללא הסכמה → שוכר יכול להחליף עצמו בשוכר לא מדורג, לא בדוק, שהמלווה לא אישר; פוגע בביטחון שהאשראי ניתן על בסיסו</li></ul><p>פעולות נדרשות: לדרוש הוצאת ה-Sub-Let ללא הסכמה, ולהוסיף covenant שמחייב הסכמת הבנק לכל שינוי שוכר עיקרי.</p>"
+  },
+  {
+    "question_id_external": "C08-M04-PRC-Q04",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>שוכר עוגן (50% מה-NOI) הוא חברה פרטית. הבעלים מציג \"מכתב כוונות\" מחברת האם הציבורית לסייע לחברה הבת במקרה של קשיים. האם מכתב כוונות זה מהווה בטוחה מספקת?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "מכתב כוונות אינו ערבות — הוא כוונה ולא התחייבות חוזית; מלווה שמסתמך עליו ללא ערבות מפורשת מסתכן.",
+    "topic_tags": ["tenant_credit", "comfort_letter", "guarantee", "credit_analysis"],
+    "options": [
+      {
+        "text_he": "לא; מכתב כוונות (Comfort Letter) אינו ערבות משפטית מחייבת; אין לסמוך עליו כבטוחה; יש לדרוש ערבות אמא (Parent Company Guarantee) רשמית",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כן; מכתב כוונות מחברה ציבורית הוא מחייב משפטית ושווה ערבות מלאה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכתב כוונות אינו מחייב משפטית; ניסוחו הרגיל מכיל הסתייגויות שמרוקנות אותו מתוכן אכיף"
+      },
+      {
+        "text_he": "כן; כיוון שהחברה האם ציבורית — יש לה אינטרס מוניטין לכבד את מכתב הכוונות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אינטרס מוניטין אינו תחליף לחיוב משפטי; בקשיים אמיתיים, אינטרס מוניטין עשוי לנבול"
+      },
+      {
+        "text_he": "מספיק אם לצרף מכתב כוונות לתיק האשראי; הוא מהווה הגנה שנייה לאחר הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מכתב כוונות אינו מהווה הגנה משפטית; הוא תיעוד של כוונה בלבד, לא של התחייבות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Comfort Letter vs. Parent Company Guarantee</strong></p><table style='width:100%;border-collapse:collapse'><tr><th style='border:1px solid #ccc;padding:4px'>פרמטר</th><th style='border:1px solid #ccc;padding:4px'>Comfort Letter</th><th style='border:1px solid #ccc;padding:4px'>Parent Guarantee</th></tr><tr><td style='border:1px solid #ccc;padding:4px'>תוקף משפטי</td><td style='border:1px solid #ccc;padding:4px'>לא מחייב בדרך כלל</td><td style='border:1px solid #ccc;padding:4px'>מחייב — ערבות חוזית</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>אכיפה</td><td style='border:1px solid #ccc;padding:4px'>קשה/בלתי אפשרית</td><td style='border:1px solid #ccc;padding:4px'>ישירה בבית משפט</td></tr><tr><td style='border:1px solid #ccc;padding:4px'>ניסוח</td><td style='border:1px solid #ccc;padding:4px'>\"בכוונתנו לסייע...\"</td><td style='border:1px solid #ccc;padding:4px'>\"מתחייבים לשלם...\"</td></tr></table><p><strong>המלצה:</strong> לדרוש ערבות אמא (Parent Company Guarantee) חתומה על ידי מורשי חתימה רשמיים של החברה האם, בניסוח מפורש של \"אחריות שוטפת\" (On-Demand Guarantee).</p>"
+  },
+  {
+    "question_id_external": "C08-M04-PRC-Q05",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס מסחרי עם WALT של 8 שנים וNOI יציב. עם זאת, 70% מהכנסה מגיעה משוכר אחד — רשת קמעונאית שחוב-ה-net של ₪400M ועם EBITDA שנתי של ₪80M. האם שוכר זה מהווה סיכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "ריכוזיות שוכרים היא אחד הסיכונות המוסתרים בנדל\"ן מסחרי — WALT ארוך ונוחות מ-NOI גבוה עלולים להסוות ריכוזיות שמסכנת את כל מבנה ההחזר.",
+    "topic_tags": ["tenant_concentration", "tenant_credit", "leverage_analysis", "retail_risk"],
+    "options": [
+      {
+        "text_he": "כן; הרשת ממונפת מאוד (Net Debt/EBITDA = 5x) וריכוזיות של 70% מחשיפה כוללת; כשל הרשת = כשל הנכס; יש לבדוק דוחות פיננסיים ולהוסיף Debt Service Reserve",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לא; WALT של 8 שנים מבטיח הכנסה; גם אם הרשת תתקשה — תהיה לה שנים להסדיר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; חוזה ארוך לא מגן כאשר שוכר פושט את הרגל — בית המשפט עשוי לאפשר ביטול חוזה שכירות בהסדר נושים"
+      },
+      {
+        "text_he": "לא; Net Debt/EBITDA = 5x רגיל לרשתות קמעונאיות גדולות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; 5x Leverage לרשת קמעונאית היא מינוף גבוה, במיוחד בסביבת ריבית עולה; אין לראות זאת כ\"רגיל ובסדר\""
+      },
+      {
+        "text_he": "הסיכון הוא רק WALT קצר; בנכס עם WALT ארוך — ריכוזיות שוכרים אינה בעיה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; WALT מודד אורך חוזים, לא איכות שוכר; ריכוזיות היא בעיה עצמאית גם עם WALT ארוך"
+      }
+    ],
+    "explanation_html_he": "<p>ניתוח הסיכון:</p><ul><li><strong>ריכוזיות:</strong> שוכר אחד = 70% מהכנסה → ריכוזיות קריטית</li><li><strong>מינוף הרשת:</strong> Net Debt/EBITDA = 400M ÷ 80M = <strong>5.0x</strong> — גבוה מאוד לקמעונאות</li><li><strong>אפקט כפול:</strong> פשיטת רגל של הרשת = (א) אובדן 70% הכנסה + (ב) ירידת ערך הנכס בגין מוניטין שוכר</li></ul><p>מה לבדוק:</p><ol><li>דוחות כספיים שנתיים 3 השנים האחרונות של הרשת</li><li>תחזית תזרים מזומנים ויכולת שירות חוב שלה</li><li>האם שכר הדירה בנכס זה הוא Affordable (לא יותר מ-10-12% ממחזור)</li></ol><p><strong>המלצה:</strong> לתמחר פרמיית ריכוזיות, לדרוש Debt Service Reserve, ולהגביל הלוואה לנכסים עם ריכוזיות &lt;50%.</p>"
+  },
+  {
+    "question_id_external": "C08-M04-PRC-Q06",
+    "course_number": 8,
+    "module_number": 4,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס משרדים בתל אביב. שוכרים עיקריים: חברת הייטק גדולה (60%, חוזה 5 שנים) ומשרד ממשלתי (40%, חוזה 10 שנים). מנהל הנכס מבקש LTV של 70%. אנליסט מגלה שחוזה חברת ההייטק מכיל Rent Free Period של 6 חודשים בשנה הראשונה. כיצד משפיע ה-Rent Free על ניתוח האשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Rent Free Period חייב להיות מנוכה מה-NOI בשנה הרלוונטית — underwriting על בסיס NOI מלא כשיש Rent Free הוא overstatement של יכולת ההחזר.",
+    "topic_tags": ["rent_free", "noi_adjustment", "underwriting", "office_lease"],
+    "options": [
+      {
+        "text_he": "ה-NOI בשנה הראשונה נמוך בהתאם לחלק הרלוונטי מהכנסת ההייטק (60%×6/12=30%); יש לחשב DSCR על NOI מותאם ולוודא שה-DSCR אינו יורד תחת הסף בשנה הראשונה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Rent Free Period אינו רלוונטי לניתוח האשראי; ה-NOI לצורך underwriting מחושב על בסיס NOI מייצג שנתי מלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שנה ראשונה עם Rent Free היא שנה עם NOI מופחת ממשי; הלווה צריך לשרת חוב עם פחות כסף — זה חייב להיות ידוע ומנוטר"
+      },
+      {
+        "text_he": "Rent Free Period מבטל את חוזה ההייטק לעניין underwriting; יש להתייחס לנכס כאילו הוא 40% מושכר בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Rent Free לא מבטל את החוזה; הוא מפחית הכנסה לתקופה מוגדרת (6 חודשים) בלבד"
+      },
+      {
+        "text_he": "הפתרון: לדרוש מהלווה להפקיד 6 חודשי שכ\"ד של ההייטק בחשבון Blocked כבטוחה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זהו פתרון אפשרי אחד אך לא היחיד ולא ה\"כיצד משפיע\"; ה-underwriting חייב לשקף את ה-NOI הנמוך לפני בחינת פתרונות"
+      }
+    ],
+    "explanation_html_he": "<p><strong>השפעת Rent Free Period על ניתוח אשראי:</strong></p><ul><li>הכנסת ההייטק = 60% מה-NOI; נניח NOI רגיל = ₪4M/שנה → חלק ההייטק = ₪2.4M</li><li>Rent Free 6 חודשים → הפסד הכנסה בשנה הראשונה = ₪2.4M × 50% = ₪1.2M</li><li>NOI שנה 1 = ₪4M − ₪1.2M = <strong>₪2.8M</strong></li></ul><p>DSCR שנה 1 ייחשב על ₪2.8M, לא ₪4M. אם שירות החוב = ₪2.5M:</p><ul><li>DSCR שנה 1 = 2.8M ÷ 2.5M = 1.12x (נמוך מסף 1.25x רגיל)</li><li>DSCR שנה 2+ = 4.0M ÷ 2.5M = 1.60x (בסדר)</li></ul><p>פעולות: לדרוש Debt Service Reserve לכיסוי שנה 1, ולנטר מיוחד בשנה הראשונה.</p>"
+  }
+]

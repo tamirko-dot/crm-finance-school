@@ -1,0 +1,742 @@
+[
+  {
+    "question_id_external": "C08-M05-CMP-Q01",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הכלל המרכזי לגבי <strong>מסמך חסר</strong> מתיק ה-Due Diligence?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "מסמך חסר הוא דגל אדום — לא 'לא רלוונטי'. אנליסט שמוותר על מסמך חסר מוותר על הגנה, ובדיעבד ייצוטט כמי שלא שאל.",
+    "topic_tags": ["due_diligence", "dd_checklist", "credit_analysis"],
+    "options": [
+      {
+        "text_he": "מסמך חסר הוא דגל אדום — דורש הסבר מהלווה; אי קבלת הסבר מספק מחייב עצירת העסקה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מסמך חסר אומר שהמסמך לא רלוונטי לעסקה הספציפית ואפשר להתקדם ללא הסבר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מסמך חסר תמיד מחייב הסבר — הנחה שהוא לא רלוונטי מבלי לבדוק היא כשל מקצועי"
+      },
+      {
+        "text_he": "מסמך חסר מאפשר לאנליסט לכתוב 'אין מסמך' בדוח ולהמשיך כרגיל",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רישום 'אין מסמך' ללא הסבר ומסקנה אינו מספיק — חובה לדגל ולדרוש הסבר"
+      },
+      {
+        "text_he": "מסמך חסר רלוונטי רק כאשר מדובר בעסקה מעל 10 מיליון ש\"ח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כלל ה-DD חל על כל עסקת אשראי — לא רק גדולות; סיכון אינו פרופורציונלי לגודל בהכרח"
+      }
+    ],
+    "explanation_html_he": "<p>עיקרון יסוד ב-Due Diligence: <strong>מסמך חסר = דגל אדום</strong>. הרשימה המינימלית כוללת: דוח שמאות, סקר הנדסי, דוח סביבתי, נסח טאבו, תעודות ביטוח, ודוחות כספיים מבוקרים. חסר אחד מחייב הסבר מפורש. אנליסט שמוותר על מסמך חסר חושף את הבנק לסיכון לא מוכר.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-CMP-Q02",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כאשר בוחנים <strong>דוח שמאות</strong>, מה הבעיה עם שמאות שהשתמשה במתודולוגיה אחת בלבד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שיטה אחת בלבד מאפשרת לשמאי 'לכוון' את התוצאה — שתי שיטות עצמאיות משמשות כ-Sanity Check הדדי ומקשות על הטיה מכוונת.",
+    "topic_tags": ["appraisal", "valuation_methodology", "cap_rate", "dcf", "due_diligence"],
+    "options": [
+      {
+        "text_he": "שיטה אחת אינה מספקת בדיקת נגד — יש לדרוש לפחות שתי שיטות כ-Sanity Check כדי לזהות הטיות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שיטה אחת מספיקה כל עוד השמאי הוא מוסמך ובעל ניסיון מוכח בסוג הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; גם שמאי מוסמך יכול לטעות בהנחות — שיטה שנייה עצמאית מספקת בדיקת נגד שמוסמכות לא מחליפה"
+      },
+      {
+        "text_he": "שיטה אחת בלבד בעייתית רק אם השמאי מונה על-ידי הלווה ולא על-ידי הבנק",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הבעיה מתודולוגית — ולא תלויה במי מינה את השמאי; גם שמאי של הבנק צריך להשתמש בשתי שיטות לפחות"
+      },
+      {
+        "text_he": "שיטה אחת מספיקה לנכסים קטנים; נכסים גדולים מחייבים שתי שיטות לפי רגולציה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הכלל אינו תלוי גודל הנכס ברגולציה ישראלית — הוא פרקטיקה מקצועית מומלצת לכל שמאות"
+      }
+    ],
+    "explanation_html_he": "<p>דוח שמאות איכותי משתמש בלפחות שתי שיטות הערכה: <strong>Cap Rate, DCF, או השוואת עסקאות (Comparables)</strong>. שיטה אחת בלבד חושפת את הערכה לטעויות בהנחות שלא יזוהו. הבנק צריך לדרוש: (1) הנחות מרכזיות ריאליות ביחס לשוק, (2) ראיות שוק עדכניות (עד 12 חודש), (3) ניתוח רגישות, (4) תאריך דוח עדכני (עד 12 חודש).</p>"
+  },
+  {
+    "question_id_external": "C08-M05-CMP-Q03",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה ההבדל בין <strong>Phase 1</strong> ל-<strong>Phase 2</strong> בדוח סביבתי, ומתי נדרש Phase 2?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "Phase 1 הוא ביקורת תיעוד ושטח — לא כולל דיגום. Phase 2 מתבצע כאשר Phase 1 מצא אינדיקציות לזיהום. זיהום שמגלה Phase 2 עלול לשנות לחלוטין את כדאיות העסקה.",
+    "topic_tags": ["environmental", "phase1", "phase2", "due_diligence"],
+    "options": [
+      {
+        "text_he": "Phase 1 הוא ביקורת תיעוד ושטח ללא דיגום קרקע; Phase 2 כולל דיגום פיזי ומתבצע כאשר Phase 1 מצא אינדיקציות לזיהום",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Phase 1 הוא בדיקה ויזואלית בלבד; Phase 2 הוא דוח מפורט שכולל ביקורת תיעוד ובדיקת שטח",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Phase 1 כבר כולל ביקורת תיעוד ושטח — לא ויזואלי בלבד; Phase 2 הוא הצעד הנוסף של דיגום פיזי"
+      },
+      {
+        "text_he": "Phase 2 נדרש תמיד לנכסים תעשייתיים בלי קשר לממצאי Phase 1",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Phase 2 נדרש כאשר Phase 1 מצא אינדיקציות לזיהום — לא אוטומטי לכל נכס תעשייתי"
+      },
+      {
+        "text_he": "Phase 1 ו-Phase 2 הם שני חלקים של אותו דוח סביבתי שמוגש תמיד ביחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Phase 1 ו-Phase 2 הם שלבים נפרדים — Phase 2 מבוצע רק בהתאם לממצאי Phase 1"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Phase 1</strong> הוא Environmental Site Assessment — ביקורת תיעוד ושטח לאיתור זיהום <em>אפשרי</em>, ללא דיגום קרקע. <strong>Phase 2</strong> כולל דיגום פיזי של קרקע ומי תהום — מתבצע כאשר Phase 1 מצא אינדיקציות לזיהום. נכסים על קרקע ששימשה מפעל תעשייתי, תחנת דלק, או מכבסה כימית מחייבים Phase 1 כחובה. בישראל, בעלי קרקע אחראים לפינוי זיהום גם אם לא גרמו אותו.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-CMP-Q04",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה הוא <strong>Deferred Maintenance</strong> ומה משמעותו לאנליסט אשראי?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Deferred Maintenance הוא 'חוב תחזוקה' נסתר — עלות שהלווה דחה ושבסופו של דבר תגיע לתשלום. הבנק צפה לדרוש Capex Reserve שווה לעלות זו כתנאי לסגירה.",
+    "topic_tags": ["engineering_survey", "deferred_maintenance", "capex_reserve", "due_diligence"],
+    "options": [
+      {
+        "text_he": "Deferred Maintenance הוא עלות תחזוקה שנדחתה שתידרש בעתיד; הבנק עשוי לדרוש Capex Reserve כתנאי לסגירה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Deferred Maintenance הוא תחזוקה שוטפת עתידית שנכללת אוטומטית ב-NOI כהוצאה שנתית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Deferred Maintenance היא עלות נדחית חד-פעמית (Capital expenditure) — לא הוצאה שוטפת שנכללת ב-NOI"
+      },
+      {
+        "text_he": "Deferred Maintenance אינו רלוונטי לאנליסט כי הוא עוסק בנכס ולא בתזרים המזומנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Deferred Maintenance משפיע ישירות על שווי הנכס ועל יכולת הפירעון — הוא רלוונטי מאוד לאנליסט"
+      },
+      {
+        "text_he": "Deferred Maintenance מדווח רק בדוחות הכספיים של הלווה ולא בסקר הנדסי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Deferred Maintenance מזוהה בסקר ההנדסי על-ידי מהנדס מוסמך — לא בדוחות הכספיים"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Deferred Maintenance</strong> היא עלות תחזוקה שהלווה דחה — גג שלא הוחלף, מעלית שמזדקנת, מיזוג שמתקרב לסוף חייו. הסקר ההנדסי אמור לזהות ולכמת עלות זו. הבנק דורש לעיתים שהלווה יפקיד <strong>Capex Reserve</strong> — פיקדון השווה לעלות התחזוקה הדחויה — כתנאי לסגירה, כדי להבטיח שהנכס יישמר ושוויו לא יירד.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-CMP-Q05",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>שמאי שמינה הלווה העריך את הנכס ב-10 מיליון ש\"ח. שמאי שמינה הבנק העריך 8.5 מיליון ש\"ח — פער של 15%. מה הפרקטיקה הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ממוצע בין שתי שמאויות הוא פשרה ולא ניתוח — הבנק ממן על בסיס הערכתו שלו. פער של 15%+ הוא מהותי ומחייב ישיבת יישוב, לא ממוצע.",
+    "topic_tags": ["appraisal", "valuation_gap", "bank_appraisal", "due_diligence"],
+    "options": [
+      {
+        "text_he": "לקיים ישיבת יישוב בין שני השמאים לברר את מקור הפער; הבנק ממן על בסיס שווי הבנק — לא ממוצע",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לחשב ממוצע בין שתי ההערכות (9.25 מיליון) ולהשתמש בו כבסיס המימון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ממוצע הוא פשרה שרירותית — הבנק צריך לבסס מימון על הערכתו שלו ולא להתפשר עם הערכת הלווה"
+      },
+      {
+        "text_he": "לקבל את הערכת שמאי הלווה כיוון שהוא מכיר את הנכס טוב יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאי הלווה עלול להיות מוטה לטובת הלווה — לכן הבנק ממנה שמאי עצמאי משלו"
+      },
+      {
+        "text_he": "פער של 15% הוא בתוך טווח הסביר ואינו מחייב טיפול מיוחד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; פער של 15% בין שתי שמאויות הוא מהותי ומחייב ברור — הוא אינו 'בתוך הטווח הסביר' לפי פרקטיקה בנקאית"
+      }
+    ],
+    "explanation_html_he": "<p>פער של 15%+ בין שמאות הלווה לשמאות הבנק הוא <strong>מהותי ומחייב ישיבת יישוב</strong> — לא ממוצע. הבנק ממן על בסיס שווי הבנק. נדרש: (1) ברור של הנחות שיצרו את הפער, (2) מי מהשמאים שגה, (3) תיקון ה-LTV בהתאם. \"ממוצע\" בין שמאויות הוא פשרה שרירותית שחושפת את הבנק לסיכון לא מנוהל.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-PRC-Q01",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מגיש תיק DD ללא <strong>דוח סביבתי</strong>. הנכס הוא מחסן לוגיסטי שנבנה על קרקע ששימשה מפעל תעשייתי עד 1990. מה הצעד הנכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "קרקע ששימשה מפעל תעשייתי = Phase 1 חובה מוחלטת. חסר דוח סביבתי בסיטואציה זו הוא דגל אדום קריטי — הבנק עלול לממן חבות סביבתית בלי לדעת.",
+    "topic_tags": ["environmental", "phase1", "industrial_site", "due_diligence"],
+    "options": [
+      {
+        "text_he": "לעצור את הבקשה ולדרוש Phase 1 לפני כל המשך — קרקע עם שימוש תעשייתי קודם מחייבת בדיקה סביבתית חובה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להמשיך כרגיל כי המפעל פעל לפני 35 שנה וסביר שאין זיהום רלוונטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; זיהום מים תהום ממפעל יכול להישאר פעיל עשרות שנים; ותיקות האתר אינה קובעת היעדר סיכון"
+      },
+      {
+        "text_he": "לבקש מהלווה הצהרה בכתב שאין זיהום ידוע ולהסתפק בכך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרת לווה אינה תחליף לבדיקה עצמאית; אם יתגלה זיהום בעתיד הבנק יהיה חשוף גם בהיותו בעלים לאחר ממוש"
+      },
+      {
+        "text_he": "לדרוש Phase 1 רק אם הנכס נמצא ברשימת 'אתרים מזוהמים' של המשרד להגנת הסביבה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; רשימת האתרים המזוהמים אינה מלאה; Phase 1 נדרש לכל נכס עם שימוש תעשייתי קודם ולא רק לרשומים"
+      }
+    ],
+    "explanation_html_he": "<p>קרקע ששימשה מפעל תעשייתי — ללא קשר לגיל — מחייבת <strong>Phase 1 כחובה מוחלטת</strong>. בישראל, בעל קרקע אחראי לפינוי זיהום גם אם לא גרם אותו. אם הבנק ימש את הנכס בעתיד, עלול למצוא עצמו מחזיק בנכס עם חבות סביבתית של מיליונים. חסר דוח סביבתי = עצירה מוחלטת עד להגשתו.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-PRC-Q02",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מקבל דוח שמאות מלפני 18 חודשים שהנחת ה-Cap Rate שבו היא 6.5%. שיעורי Cap Rate בשוק כיום עומדים על 7.5%. מה ההשפעה על שווי הנכס ועל ה-LTV?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "עלייה ב-Cap Rate מורידה שווי — NOI קבוע חלקי Cap Rate גבוה = שווי נמוך. שמאות שנכתבה לפני עלייה בריבית/Cap Rate עלולה להפריז ב-15-20% בשווי.",
+    "topic_tags": ["appraisal", "cap_rate", "ltv", "valuation_date"],
+    "options": [
+      {
+        "text_he": "שווי הנכס ירד משמעותית כי Cap Rate גבוה = שווי נמוך; הדוח ישן ולא משקף שוק נוכחי — דרוש עדכון שמאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "שווי הנכס עלה כי Cap Rate גבוה משמעו תשואה גבוהה יותר — הנכס אטרקטיבי יותר",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Cap Rate גבוה = שווי נמוך (NOI/Cap Rate); עלייה ב-Cap Rate מ-6.5% ל-7.5% מורידה שווי בכ-13%"
+      },
+      {
+        "text_he": "שמאות מלפני 18 חודשים תקפה לצורך אשראי ואין צורך בעדכון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות מעל 12 חודשים דורשת עדכון — שינוי שוק מהותי מ-6.5% ל-7.5% Cap Rate מחייב הערכה מחדש"
+      },
+      {
+        "text_he": "השינוי ב-Cap Rate לא משפיע על LTV כי LTV נמדד על בסיס מחיר הרכישה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; LTV מחושב כ-הלוואה/שווי שוק נוכחי — ירידת שווי מעלה את ה-LTV גם אם מחיר הרכישה לא השתנה"
+      }
+    ],
+    "explanation_html_he": "<p>הנוסחה: <strong>שווי = NOI ÷ Cap Rate</strong>. Cap Rate שעלה מ-6.5% ל-7.5% — ירידת שווי של כ-13% (NOI קבוע). דוח שמאות מעל 12 חודשים דורש עדכון; דוח שנכתב <em>לפני</em> עלייה מהותית בריבית אינו משקף מציאות. LTV יעלה בהתאם לירידת השווי — ייתכן שהעסקה כבר לא עומדת ביחסי LTV הנדרשים.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-PRC-Q03",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>סקר הנדסי מצא Deferred Maintenance בשווי 800,000 ש\"ח (גג ישן ומערכת מיזוג בת 18 שנה). הלווה טוען שזה לא דחוף ויטפל בזה ב-3 שנים. מה הגישה הנכונה של הבנק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "\"לא דחוף\" של הלווה הוא לא ניתוח — זוהי הצהרה. הבנק צריך לדרוש Capex Reserve בגובה העלות ולעגן אותו בהסכם ההלוואה.",
+    "topic_tags": ["deferred_maintenance", "capex_reserve", "engineering_survey", "loan_conditions"],
+    "options": [
+      {
+        "text_he": "לדרוש Capex Reserve של 800,000 ש\"ח כתנאי לסגירה — הבנק אינו מסתמך על הצהרות הלווה לגבי עיתוי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לקבל את עמדת הלווה ולרשום הערה בדוח שהלווה מתכנן לטפל בכך תוך 3 שנים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערה בדוח ללא מנגנון אכיפה אינה הגנה; אם הלווה לא יטפל — הבנק חשוף לירידת שווי הנכס"
+      },
+      {
+        "text_he": "לדרוש שהלווה יתקן את הגג ומערכת המיזוג לפני הסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "תיקון לפני סגירה הוא אפשרות, אך דרישה ל-Capex Reserve ומנגנון שיפוי פחות מסרבל מבחינה מבצעית ונפוצה יותר בפרקטיקה"
+      },
+      {
+        "text_he": "להפחית 10% מסכום ההלוואה כ\"הנחת בטיחות\" ולא לדרוש Capex Reserve מפורש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הפחתה שרירותית של 10% אינה מנגנון שיפוי מוגדר — Capex Reserve הוא מנגנון מדויק ואכיף יותר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>Deferred Maintenance</strong> של 800K ש\"ח דורש <strong>Capex Reserve</strong> — פיקדון שהלווה מפקיד בסגירה ושמשוחרר בהתאם לביצוע עבודות. הבנק אינו מסתמך על הצהרות הלווה לגבי עיתוי. מנגנון ה-Reserve מגן על שווי הנכס לאורך חיי ההלוואה ומבטיח שתחזוקה תבוצע גם אם מצב הלווה יורע.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-PRC-Q04",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט בוחן נסח טאבו ומוצא <strong>הערת אזהרה</strong> על הנכס. מה משמעות ממצא זה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "הערת אזהרה = עסקה בהתהוות — בדרך כלל הסכם מכר שטרם הושלם. רישום שיעבוד על נכס עם הערת אזהרה עלול להיות בעדיפות שנייה לרוכש הפוטנציאלי.",
+    "topic_tags": ["tabu", "cautionary_note", "ownership_title", "due_diligence"],
+    "options": [
+      {
+        "text_he": "הערת אזהרה מצביעה על עסקה בהתהוות (לרוב הסכם מכר שטרם הושלם) — הנכס עלול להיות מחויב לצד שלישי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הערת אזהרה פירושה שיש צו הריסה תלוי ועומד על חלק מהנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערת אזהרה מסמנת עסקה קניינית בהתהוות — לא צו הריסה; צו הריסה הוא רישום אחר לגמרי"
+      },
+      {
+        "text_he": "הערת אזהרה היא הערה שמאית שמציינת שנדרש עדכון ערך הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערת אזהרה היא מושג משפטי-קנייני ברישום מקרקעין — אין לה קשר לשמאות"
+      },
+      {
+        "text_he": "הערת אזהרה מצביעה שהנכס נמצא בתחום שמר — ולכן אסור לבנות עליו תוספות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הגבלות תכנוניות רשומות בתכנית בניין עיר (תב\"ע) — לא בהערת אזהרה בטאבו"
+      }
+    ],
+    "explanation_html_he": "<p><strong>הערת אזהרה</strong> בטאבו מסמנת עסקה קניינית שנחתמה אך טרם הושלמה — לרוב הסכם מכר בו הרוכש שילם ורשם הערת אזהרה להגנת זכויותיו. משמעות: (1) הנכס 'תפוס' לצורך עסקה אחרת, (2) שיעבוד שיירשם לאחר הערת האזהרה עלול להיות בעדיפות נמוכה, (3) אנליסט חייב לברר מה מקורה ומה סטטוסה לפני המשך הטיפול.</p>"
+  },
+  {
+    "question_id_external": "C08-M05-PRC-Q05",
+    "course_number": 8,
+    "module_number": 5,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>NOI ההיסטורי של הנכס הוא 1.2 מיליון ש\"ח. דוח שמאות מניח NOI של 1.6 מיליון ש\"ח ותפוסה של 97%. תפוסה בפועל בנכסים דומים בשוק היא 85%. מה המסקנה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שמאות שמניחה NOI גבוה מההיסטורי ותפוסה גבוהה מהשוק היא שמאות אופטימית מדי. NOI שהשמאי מניח חייב לעמוד במבחן ההיסטוריה ובמבחן השוק.",
+    "topic_tags": ["appraisal", "noi", "occupancy_rate", "appraisal_assumptions"],
+    "options": [
+      {
+        "text_he": "השמאות מתבססת על הנחות אופטימיות שאינן מגובות בהיסטוריה או בשוק — דרוש ברור עם השמאי ואולי שמאות מחדש",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הפערים סבירים כי שמאויות מתבססות על פוטנציאל הנכס ולא על ביצועים היסטוריים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות מקצועית חייבת לבחון ולסביר פערים מהיסטוריה ומהשוק — הנחות בלתי מגובות הן דגל אדום"
+      },
+      {
+        "text_he": "מספיק לרשום בדוח שהנחות השמאות שמרניות יותר מהממוצע ולהמשיך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ההנחות אינן שמרניות — הן אופטימיסטיות; רישום שגוי בדוח הוא טעות מקצועית"
+      },
+      {
+        "text_he": "לחשב LTV על בסיס NOI של 1.2 מיליון (היסטורי) ולהתעלם מהשמאות",
+        "is_correct": false,
+        "distractor_rationale_he": "התייחסות ל-NOI ההיסטורי נכונה, אך הפתרון הנכון הוא לדרוש ברור מהשמאי ולא להתעלם מהשמאות לחלוטין"
+      }
+    ],
+    "explanation_html_he": "<p>שמאות שמניחה NOI גבוה ב-33% מההיסטורי ותפוסה של 97% לעומת 85% בשוק — <strong>אופטימית מדי</strong>. הנחות השמאי חייבות לעמוד ב: (1) <em>מבחן ההיסטוריה</em>: NOI היסטורי, (2) <em>מבחן השוק</em>: תפוסה ו-Cap Rate ריאליים. פערים מהותיים מחייבים ברור — ואם לא ניתן הסבר משכנע, שמאות חדשה עם מנדט ברור.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-CMP-Q01",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מה מחייב <strong>Red Flag</strong> שזיהה אנליסט, לפי כלל הברזל שנלמד?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "Red Flag שלא תועד הוא מבחינה מקצועית כאילו לא זוהה — האחריות האישית של האנליסט מחייבת תיעוד, הסבר, ופסקת ניתוח בדוח.",
+    "topic_tags": ["red_flags", "credit_memo", "analyst_responsibility"],
+    "options": [
+      {
+        "text_he": "תיעוד בכתב של ה-Red Flag, הסבר מפורש מהלווה, ופסקת ניתוח בדוח האשראי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הגשת דוח מהיר לוועדת אשראי ועצירת העסקה עד להחלטה — ללא אפשרות להמשיך",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Red Flag מחייב תיעוד ובירור — לא עצירה אוטומטית; אם ניתן הסבר מספק ניתן להמשיך עם תיעוד מלא"
+      },
+      {
+        "text_he": "שיחה בעל-פה עם המנהל הישיר לפני קבלת ההחלטה — תיעוד כתוב אינו הכרחי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיחה בעל-פה בלבד אינה תיעוד — תיעוד כתוב הוא חובה; \"לא שאלתי\" אינה תשובה קבילה"
+      },
+      {
+        "text_he": "בדיקה חוזרת של כל המסמכים כדי לוודא שהממצא אינו טעות אנוש",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בדיקה חוזרת עשויה להיות מוצדקת, אך חובת התיעוד וקבלת הסבר מהלווה אינה מותנית בכך"
+      }
+    ],
+    "explanation_html_he": "<p><strong>כלל הברזל של Red Flag:</strong> Red Flag = (1) תיעוד בכתב בדוח האשראי, (2) הסבר מפורש שנדרש מהלווה, (3) פסקת ניתוח מפורשת בדוח. \"לא שאלתי\" אינה תשובה קבילה בוועדת אשראי. אנליסט שמזהה Red Flag ולא מדגיל אותו נושא באחריות מקצועית אישית — ה-Red Flag שלא תדגיל הוא הכשל שיצוטט בדיעבד.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-CMP-Q02",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "basic",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>מדוע <strong>מחלוקת בעלות פעילה</strong> על נכס מהווה עצירה מוחלטת לאישור הלוואה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "שיעבוד ראשון תקין הוא תנאי בסיסי לכל הלוואת נדל\"ן. נכס שבעלותו שנויה במחלוקת — לא ניתן לרשום שיעבוד ראשון תקין, כי הבעלות עצמה לא ברורה.",
+    "topic_tags": ["title_dispute", "red_flags", "ownership_title", "first_charge"],
+    "options": [
+      {
+        "text_he": "כי לא ניתן לרשום שיעבוד ראשון תקין על נכס שבעלותו שנויה במחלוקת — הביטחון הריאלי של הבנק אינו מובטח",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "כי מחלוקת בעלות מורידה את שווי הנכס ב-50% לפי תקנות בנקאיות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין כלל מכאני של 50% — הבעיה היא שאי-אפשר לרשום שיעבוד ראשון תקין, לא ירידת שווי טכנית"
+      },
+      {
+        "text_he": "כי מחלוקת בעלות תמיד מסתיימת בהפסד משפטי של הלווה ולכן הנכס לא ישמש כבטוחה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מחלוקת לא תמיד מסתיימת בהפסד — הבעיה היא אי-הוודאות עצמה ואי-יכולת לרשום שיעבוד בזמן המחלוקת"
+      },
+      {
+        "text_he": "כי הרגולציה הבנקאית בישראל אוסרת מפורשות מימון נכסים בהליך משפטי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הסיבה היא מהותית — חוסר יכולת לרשום שיעבוד תקין — לא רגולציה פורמלית; הפרקטיקה נובעת מעקרונות אשראי"
+      }
+    ],
+    "explanation_html_he": "<p>שיעבוד ראשון הוא הבטחה הריאלית של הבנק. נכס עם <strong>מחלוקת בעלות פעילה</strong>: (1) ייתכן שהבעלים הרשום אינו הבעלים האמיתי, (2) לא ניתן לרשום שיעבוד ראשון תקין כי הבעלות עצמה שנויה במחלוקת, (3) הבנק עלול למצוא עצמו ממן נכס שהבטחה הריאלית שלו בטלה אם המחלוקת תוכרע לרעת הלווה. מדיניות: <strong>עצירה מוחלטת עד להכרעה סופית</strong>.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-CMP-Q03",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>נכס מניב שחלק מרצפתו <strong>נבנה ללא היתר</strong> מייצר 20% מה-NOI הכולל. מה הסיכון האשראי הישיר?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "NOI שמגיע משטח לא מהוייתר הוא NOI עם סיכון חקיקה — צו הריסה יכול להורידו לאפס בין לילה. שמאות שמעריכה שטח זה כחלק מהנכס עשויה גם היא להיות מנופחת.",
+    "topic_tags": ["unauthorized_construction", "demolition_order", "noi_risk", "red_flags"],
+    "options": [
+      {
+        "text_he": "צו הריסה עלול להוריד את ה-NOI ב-20% בין לילה ולהפיל את ה-DSCR מתחת לסף הקובננט",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "הסיכון הוא רק משפטי-קנסות; ה-NOI לא יושפע כי הבנק מחזיק בשיעבוד ראשון",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיעבוד ראשון אינו הגנה מפני צו הריסה; אם השטח ייהרס ה-NOI יירד וה-DSCR יצנח"
+      },
+      {
+        "text_he": "אין סיכון אשראי מהותי כי בישראל ממשלמים קנס בדרך כלל ולא הורסים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; צווי הריסה מבוצעים בישראל — במיוחד לאחר חיזוק אכיפת ועדות התכנון; הסיכון ממשי ולא ניתן להסתמך על תרחיש הקנס"
+      },
+      {
+        "text_he": "הסיכון הוא רק לשמאות ולא ל-DSCR שמבוסס על NOI היסטורי",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; DSCR מחושב גם על NOI צפוי עתידי; אם שטח נהרס ה-NOI הצפוי יורד וה-DSCR יפגע"
+      }
+    ],
+    "explanation_html_he": "<p>בנייה ללא היתר שמייצרת 20% מה-NOI = <strong>20% מה-NOI בסיכון ישיר</strong>. צו הריסה יכול למחוק הכנסה זו בין לילה. תרחיש: NOI = 1M ש\"ח, DSCR = 1.25. אחרי צו הריסה: NOI = 800K, DSCR = 1.0 — ברף ה-Covenant. לכן: (1) NOI צריך להחשב ללא שטח לא מהוייתר, (2) שמאות שמעריכה שטח זה — שמאות לא ריאלית, (3) LTV צריך להחשב על שווי ללא השטח הבלתי חוקי.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-CMP-Q04",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>כדי לאתר <strong>שיעבוד קיים שלא גולה</strong> על-ידי הלווה, היכן חייב האנליסט לבדוק?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 60,
+    "senior_insight_he": "אל תסמוך על הצהרת הלווה — בדוק בנסח הטאבו וברשם החברות. שיעבוד שהלווה לא גילה, אך רשום, יהיה בכיר לשיעבוד הבנק.",
+    "topic_tags": ["undisclosed_lien", "red_flags", "tabu", "company_registrar"],
+    "options": [
+      {
+        "text_he": "נסח טאבו לרישום שיעבודים על הנכס, ורשם החברות לשיעבודים על חברות פרטיות — לא מספיק הצהרת לווה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "בדוחות הכספיים המבוקרים של הלווה, שם כל השיעבודים חייבים להופיע כהתחייבויות",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דוחות כספיים חשובים אך לא בלעדיים — שיעבוד עלול לא להיכלל ב'הערות'; הבדיקה הרשמית היא בטאבו וברשם החברות"
+      },
+      {
+        "text_he": "מספיק לבקש מהלווה הצהרה מלאה על כל ההתחייבויות ולחתום על נכונותה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרת לווה אינה תחליף לבדיקה עצמאית; שיעבוד רשום אינו יכול להיות בטל בגלל שהלווה לא 'זכר'"
+      },
+      {
+        "text_he": "בנק ישראל מנהל מרשם מרכזי של כל השיעבודים — יש לבדוק שם בלבד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין מרשם מרכזי יחיד — שיעבודים נרשמים בנפרד בטאבו (נדל\"ן) וברשם החברות (שיעבודים של חברות)"
+      }
+    ],
+    "explanation_html_he": "<p>לאיתור שיעבודים לא מגולים: <strong>(1) נסח טאבו</strong> — רישום כל שיעבוד על הנכס ברשם המקרקעין; <strong>(2) רשם החברות</strong> — שיעבודים שחברות פרטיות רשמו; <strong>(3) השוואה להצהרת הלווה</strong> — פערים בין הרישומים הרשמיים להצהרה = Red Flag. שיעבוד שנמצא ברישום אך לא גולה = עסקה שנעצרת עד לבירור.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-CMP-Q05",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "comprehension",
+    "stem_html_he": "<p>לווה מציג ערב שמצהיר על נכסים בשווי 5 מיליון ש\"ח. בדיקת טאבו מגלה שכל הנכסים כבר <strong>משועבדים לבנק אחר</strong> בשיעבוד ראשון. מה ערך הערבות בפועל?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "ערב עם נכסים משועבדים לאחר = ערב ללא נכסים לצורך הבנק. שיעבוד ראשון של אחר יגבה הכל לפני שהבנק רואה שקל — ערבות כזו היא נייר חסר ערך ריאלי.",
+    "topic_tags": ["guarantor", "guarantee_quality", "encumbered_assets", "red_flags"],
+    "options": [
+      {
+        "text_he": "ערך הערבות אפסי לצורך הבנק — השיעבוד הראשון של הבנק האחר קודם; הערב חלש ואינו ממלא תפקיד אמיתי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "ערך הערבות הוא 5 מיליון ש\"ח — שווי הנכסים לא מושפע מהשיעבוד",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שווי הנכסים אינו שווה לכוח המיקוח של הבנק בממוש — מלווה ראשון גובה לפני הבנק"
+      },
+      {
+        "text_he": "ערך הערבות הוא 50% מ-5 מיליון — הבנק והמלווה הראשון יחלקו שווה בשווה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; אין חלוקה שווה — בעל שיעבוד ראשון גובה את כולו לפני שבעל שיעבוד שני מקבל דבר"
+      },
+      {
+        "text_he": "ערך הערבות מחושב כהפרש: 5 מיליון פחות יתרת ההלוואה לבנק האחר",
+        "is_correct": false,
+        "distractor_rationale_he": "רעיון מדויק יותר, אך התשובה הנכונה מדגישה שבפועל ייתכן שהערך הזה אפסי או שלילי — ולכן יש לבדוק את יתרת ההלוואה הספציפית"
+      }
+    ],
+    "explanation_html_he": "<p>ערבות אישית שווה רק כמו הנכסים <em>הנגישים</em> לבנק. נכסים בשיעבוד ראשון מלא = <strong>ערבות חסרת ערך ריאלי</strong>. הבדיקה הנדרשת: (1) בדיקת טאבו לכל נכסי הערב, (2) בירור יתרות הלוואות לנכסים משועבדים, (3) חישוב Equity נטו = שווי שוק פחות יתרת הלוואות. ערב שאין לו equity נטו = ערב חלש שאינו מוסיף אשראי אמיתי.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-PRC-Q01",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>בנסח הטאבו נמצאה <strong>הערת אזהרה ישנה</strong> בת 8 שנים שלא בוטלה. הלווה אומר 'זה מסתיים'. מה הצעד הנכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "הערת אזהרה ישנה שלא בוטלה = Red Flag פעיל. \"זה מסתיים\" אינה עמדה אשראית. הבנק דורש בירור משפטי מוכח לפני המשך.",
+    "topic_tags": ["cautionary_note", "title_dispute", "red_flags", "legal_clearance"],
+    "options": [
+      {
+        "text_he": "לדרוש חוות דעת עורך דין שמסביר את סטטוס הערת האזהרה ואת הליך הביטול — לא להסתפק בהצהרה בעל-פה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "להסתפק בהצהרת הלווה בכתב שהעסקה מסתיימת תוך 30 יום",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרת לווה אינה תחליף לבירור משפטי עצמאי — הערה שלא בוטלה ברשם נותרת בעינה"
+      },
+      {
+        "text_he": "להתעלם כיוון שהערה בת 8 שנים כנראה פגת תוקף אוטומטית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הערות אזהרה אינן פוקעות אוטומטית — הן נשארות בתוקף עד לביטול פורמלי ברשם המקרקעין"
+      },
+      {
+        "text_he": "להמשיך בעסקה ולוודא שביטול ההערה יהיה תנאי לשחרור ההלוואה בסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "גישה חלקית — לתנות שחרור על ביטול הגיוני, אך חוות דעת עו\"ד מוקדמת היא הצעד הנכון לפני הכנסת העסקה לוועדה"
+      }
+    ],
+    "explanation_html_he": "<p>הערת אזהרה שלא בוטלה — <strong>ללא קשר לגיל</strong> — נותרת בתוקף ברשם המקרקעין. \"זה מסתיים\" אינה עמדה משפטית. הצעדים: (1) חוות דעת עורך דין עצמאי על סטטוס ההערה ונסיבות אי-ביטולה, (2) הגדרת תנאי: ביטול ההערה לפני הסגירה או כתנאי לשחרור ראשון. הבנק אינו מממן עסקאות עם הערות אזהרה פעילות.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-PRC-Q02",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>לווה מגיש בקשת מימון. בדיקת רשם החברות מגלה שיעבוד צף (Floating Charge) לטובת בנק אחר על כל נכסי החברה, שלא גולה. מה הפעולה הנכונה?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "שיעבוד שלא גולה = Red Flag קריטי. Floating Charge על כל נכסי החברה עלול לכלול גם את הנכס המוצע לשיעבוד — מה שיהפוך את השיעבוד של הבנק לשניוני.",
+    "topic_tags": ["floating_charge", "undisclosed_lien", "company_registrar", "red_flags"],
+    "options": [
+      {
+        "text_he": "לעצור את העסקה, לדרוש הסבר מהלווה על השיעבוד הלא-מגולה, ולברר עם בנק האחר מה הוא כולל",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "Floating Charge הוא שיעבוד כללי וחלש — אינו חוסם שיעבוד ספציפי ראשון על הנכס",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; Floating Charge עלול לגבור על שיעבוד ספציפי מאוחר בנסיבות מסוימות — ובכל מקרה, העובדה שלא גולה היא Red Flag עצמאי"
+      },
+      {
+        "text_he": "לדרוש מהלווה לסגור את ה-Floating Charge לפני הגשת בקשת האשראי",
+        "is_correct": false,
+        "distractor_rationale_he": "סגירת Floating Charge עשויה להיות פתרון, אך הצעד הראשון הוא הבנת הסטטוס ולא דרישה אוטומטית לסגירה"
+      },
+      {
+        "text_he": "להמשיך ולרשום שיעבוד ספציפי ראשון על הנכס — שיעבוד ספציפי קודם תמיד ל-Floating Charge",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; כלל קדימות שיעבודים מורכב ותלוי נסיבות — ובכל מקרה אי-גילוי הוא Red Flag שמחייב עצירה"
+      }
+    ],
+    "explanation_html_he": "<p><strong>שיעבוד שלא גולה</strong> = Red Flag קריטי שמחייב עצירה מיידית. Floating Charge (שיעבוד צף) על כל נכסי החברה: (1) עלול לכלול את הנכס המוצע, (2) קדימות שיעבודים תלויה בתנאי ה-Charge ובדין, (3) בנק האחר הוא בעל אינטרס שיש לבדוק מולו. הצעדים: עצירה, בירור עם הלווה, בירור עם הבנק האחר, חוות דעת משפטית לפני המשך.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-PRC-Q03",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>נכס בן 3,000 מ\"ר. היתר הבנייה: 2,500 מ\"ר. 500 מ\"ר נוספים בנויים ללא היתר ומיוחסים לשוכר עיקרי שמשלם 40% מה-NOI. אין תעודת גמר. מה ניתוח האשראי הנכון?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "500 מ\"ר ללא היתר שמייצרים 40% מה-NOI = 40% מה-NOI לא בטוח. ה-LTV חייב להחשב על שווי ללא השטח הלא חוקי — וה-DSCR על NOI ללא הכנסות אלה.",
+    "topic_tags": ["unauthorized_construction", "noi_analysis", "ltv", "dscr", "red_flags"],
+    "options": [
+      {
+        "text_he": "לחשב NOI ו-LTV על בסיס 2,500 מ\"ר בלבד; 40% מה-NOI מסוכן ואינו בסיס ראוי לאשראי ללא הכשרת הבנייה",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לקבל NOI מלא אך לדרוש ביטוח ספציפי נגד צו הריסה כתנאי לסגירה",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; ביטוח נגד צו הריסה אינו מוצר סטנדרטי ולא פותר את הסיכון ה-NOI — הפתרון הנכון הוא ניתוח שמרני על השטח המהוייתר"
+      },
+      {
+        "text_he": "לאשר על בסיס NOI המלא בהנחה שהלווה יגיש בקשת הכשרה תוך 6 חודשים",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הכשרת בנייה אינה מובטחת ויכולה לקחת שנים — אישור על NOI לא ריאלי הוא טעות אשראי"
+      },
+      {
+        "text_he": "לבדוק אם השוכר העיקרי מודע לבנייה ואם כן — להסתמך על NOI מלא",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; מודעות השוכר אינה רלוונטית לסיכון צו הריסה; הרשות המקומית מוציאה צו ללא תלות בהסכמת השוכר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>ניתוח נכון:</strong> (1) <em>NOI ריאלי</em> = NOI ממ-2,500 מ\"ר בלבד (500 מ\"ר ללא היתר = NOI לא אמין), (2) <em>LTV</em> = על שווי ללא השטח הלא מהוייתר, (3) <em>DSCR</em> = על NOI ריאלי. אין תעודת גמר = Red Flag נוסף. הפתרון: דרישה להכשרת הבנייה <em>לפני</em> הסגירה, או לחילופין — אישור על בסיס שטח מהוייתר בלבד עם תנאי הכשרה מוגדרים.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-PRC-Q04",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "intermediate",
+    "usage_context": "practice",
+    "stem_html_he": "<p>ערב מציג דוח נכסים: 3 דירות בשווי כולל 4 מיליון ש\"ח, ללא משכנתאות. מה הצעד הנדרש לאימות?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 75,
+    "senior_insight_he": "הצהרת ערב היא נקודת התחלה — לא אמת. חייב לאמת בנסח טאבו: האם הנכסים אכן ללא משכנתאות? האם בעלות מלאה? האם אין עיקולים?",
+    "topic_tags": ["guarantor", "verification", "tabu", "guarantee_quality"],
+    "options": [
+      {
+        "text_he": "לבדוק נסח טאבו לכל אחת משלוש הדירות — לאמת בעלות, היעדר שיעבודים ועיקולים באופן עצמאי",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "מספיק לבדוק שמאות עדכנית לכל הדירות כדי לאשר את שוויין",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות מאמתת שווי — לא מאמתת היעדר שיעבודים; נדרשת בדיקת טאבו לאימות מצב הזכויות"
+      },
+      {
+        "text_he": "להסתפק בחתימת הערב על הצהרת נכסים נוטריונית",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; הצהרה נוטריונית מאמתת זהות — לא מצב הזכויות ברשם; שיעבוד רשום אינו בטל כי הערב לא ידע"
+      },
+      {
+        "text_he": "לבדוק דוחות ניכוי מס על הכנסות שכירות כדי לאשר שהדירות אכן בבעלות הערב",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; דוחות מס אינם מעידים על מצב הזכויות הנוכחי — נדרשת בדיקה ישירה ברשם המקרקעין"
+      }
+    ],
+    "explanation_html_he": "<p>אימות ערבות = <strong>בדיקת טאבו עצמאית לכל נכס</strong>. הבדיקה כוללת: (1) בעלות: האם הערב הוא הבעלים הרשום ובאיזה אחוז?, (2) שיעבודים: האם יש משכנתאות? כמה?, (3) עיקולים: האם יש עיקולים שהוטלו?, (4) הערות אזהרה: האם יש עסקאות בהתהוות? רק לאחר בדיקה זו ניתן לכמת את ה-Equity נטו של הערב ולהחליט על חוזק הערבות.</p>"
+  },
+  {
+    "question_id_external": "C08-M06-PRC-Q05",
+    "course_number": 8,
+    "module_number": 6,
+    "question_type": 1,
+    "difficulty": "advanced",
+    "usage_context": "practice",
+    "stem_html_he": "<p>אנליסט מזהה שלושה Red Flags בעסקה: (א) שמאות ישנה של 14 חודשים, (ב) 200 מ\"ר ללא היתר מתוך 1,000 מ\"ר, (ג) שיעבוד צף לא-מגולה. מה הסדר העדיפויות לטיפול?</p>",
+    "image_url": "",
+    "points": 1,
+    "avg_time_seconds": 90,
+    "senior_insight_he": "Red Flags נבדקים לפי חומרה: שיעבוד לא-מגולה הוא קריטי — עוצר הכל. בנייה ללא היתר פוגע ב-NOI ובשמאות. שמאות ישנה חשובה אך ניתנת לעדכון מהיר.",
+    "topic_tags": ["red_flags", "priority", "credit_analysis", "undisclosed_lien", "unauthorized_construction"],
+    "options": [
+      {
+        "text_he": "קודם כל: שיעבוד לא-מגולה (קריטי, עוצר הכל) — ואחר: בנייה ללא היתר — ואחר: עדכון שמאות",
+        "is_correct": true,
+        "distractor_rationale_he": ""
+      },
+      {
+        "text_he": "לטפל בכל Red Flag במקביל — שלושתם שווי חשיבות ואין סיבה לתעדף",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שיעבוד לא-מגולה הוא Red Flag קריטי שמחייב עצירה מיידית — לא ניתן להמשיך בשאר הבדיקות במקביל"
+      },
+      {
+        "text_he": "קודם כל: שמאות ישנה — כי ה-LTV מבוסס עליה ולא ניתן לנתח ללא שווי עדכני",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; שמאות עדכנית חשובה, אך שיעבוד לא-מגולה הוא איום קיומי על הביטחון הריאלי — הוא קודם"
+      },
+      {
+        "text_he": "קודם כל: בנייה ללא היתר — כי היא משפיעה ישירות על שווי הנכס ועל ה-NOI",
+        "is_correct": false,
+        "distractor_rationale_he": "שגוי; בנייה ללא היתר חשובה, אך שיעבוד לא-מגולה שמעמיד בסימן שאלה את מעמד הבנק כמלווה ראשון — קריטי יותר"
+      }
+    ],
+    "explanation_html_he": "<p><strong>סדר עדיפויות לפי חומרה:</strong><br>(1) <em>שיעבוד לא-מגולה</em> — קריטי; עוצר הכל; אם הבנק אחר קודם — העסקה כולה בסימן שאלה,<br>(2) <em>בנייה ללא היתר</em> — 200/1,000 מ\"ר = 20% מהשטח; ייתכן NOI מנופח ושמאות לא ריאלית,<br>(3) <em>שמאות ישנה</em> — 14 חודשים; חשוב ואפשר לפתור בהזמנת שמאות עדכנית.<br>הגיון: Red Flag שמאיים את ה<em>מבנה המשפטי</em> של העסקה קודם לפני Red Flag שמאיים את ה<em>מספרים</em>.</p>"
+  }
+]
