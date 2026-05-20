@@ -20,12 +20,17 @@ def dashboard(request: HttpRequest) -> HttpResponse:
     if role == "trainee":
         from content.models import Course
         from enrollment.models import CourseEnrollment
-        courses = Course.objects.filter(domain__is_active=True, is_active=True).order_by("course_number")
+        courses = list(Course.objects.filter(domain__is_active=True, is_active=True).select_related("domain").order_by("course_number"))
         enrollment_map = {e.course_id: e for e in CourseEnrollment.objects.filter(user=request.user)}
-        ctx["course_data"] = [
-            {"course": c, "enrollment": enrollment_map.get(c.pk), "status": enrollment_map.get(c.pk, None)}
-            for c in courses
-        ]
+        course_data = []
+        for c in courses:
+            enrollment = enrollment_map.get(c.pk)
+            status = enrollment.status if enrollment else "locked"
+            course_data.append({"course": c, "enrollment": enrollment, "status": status})
+        passed_count = sum(1 for d in course_data if d["status"] == "passed")
+        ctx["course_data"] = course_data
+        ctx["total_courses"] = len(courses)
+        ctx["passed_count"] = passed_count
         return render(request, "core/dashboard_trainee.html", ctx)
 
     if role == "customer_manager":
