@@ -208,10 +208,13 @@
   {% elif viewed_component.component_type == "comprehension" %}
   <div class="card">
     <h2 class="mb-2">בדיקת הבנה</h2>
-    <p style="color:#6b7280;font-size:13px" class="mb-6">{{ viewed_component.instructions_he|default:"ענה על השאלות הבאות." }}</p>
+    <p style="color:#6b7280;font-size:13px" class="mb-4">{{ viewed_component.instructions_he|default:"ענה על השאלות הבאות." }}</p>
+    <div class="mb-6" style="font-size:13px;color:#6b7280;background:#f0f7ff;border-right:3px solid #1976d2;padding:8px 12px;border-radius:3px">
+      ניתן לחזור ל<a href="?component={{ all_components.0.pk }}" style="color:#1976d2;text-decoration:underline">קריאה</a> בכל עת — הסימונים שלך ישמרו.
+    </div>
     {% with questions=viewed_component.module.questions.all %}
     {% if questions %}
-    <form method="post">
+    <form method="post" id="comprehension-form">
       {% csrf_token %}
       {% for q in questions %}
         {% if q.usage_context == "comprehension" %}
@@ -228,6 +231,37 @@
       {% endfor %}
       <button name="action" value="submit_comprehension" type="submit" class="btn-primary">בדיקת תשובות</button>
     </form>
+    <script>
+    (function(){
+      var STORAGE_KEY = 'comp_answers_{{ viewed_component.pk }}';
+      var form = document.getElementById('comprehension-form');
+      if (!form) return;
+
+      // Restore saved answers
+      try {
+        var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        Object.keys(saved).forEach(function(name) {
+          var el = form.querySelector('input[name="' + name + '"][value="' + saved[name] + '"]');
+          if (el) el.checked = true;
+        });
+      } catch(e) {}
+
+      // Save on change
+      form.addEventListener('change', function(e) {
+        if (e.target.type !== 'radio') return;
+        try {
+          var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+          saved[e.target.name] = e.target.value;
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+        } catch(e) {}
+      });
+
+      // Clear saved answers on submit
+      form.addEventListener('submit', function() {
+        try { localStorage.removeItem(STORAGE_KEY); } catch(e) {}
+      });
+    })();
+    </script>
     {% else %}
     <form method="post">{% csrf_token %}
     <p style="color:#6b7280">אין שאלות הבנה לרכיב זה.</p>
