@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}פרופיל משתמש{% endblock %}
+{% block content %}
+
+<div class="mb-8">
+  <h1>הגדרות פרופיל</h1>
+  <p style="color:#6b7280" class="mt-1">{{ profile_user.email }} &bull; {{ profile_user.get_role_display }}</p>
+</div>
+
+<div class="card" style="max-width:520px">
+  <form method="post" novalidate>
+    {% csrf_token %}
+
+    <div class="mb-5">
+      <label class="block text-sm font-semibold mb-1" style="color:#2c3e50">שם בעברית</label>
+      <input type="text" name="full_name_he" value="{{ profile_user.full_name_he }}"
+        class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2"
+        style="border-color:#cbd5e0">
+    </div>
+
+    <div class="mb-5">
+      <label class="block text-sm font-semibold mb-1" style="color:#2c3e50">שם באנגלית</label>
+      <input type="text" name="full_name_en" value="{{ profile_user.full_name_en }}"
+        class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2"
+        style="border-color:#cbd5e0;direction:ltr;text-align:right">
+    </div>
+
+    <div class="mb-7 p-3 rounded" style="background:#f7fafc;border:1px solid #cbd5e0">
+      <p class="text-sm" style="color:#6b7280;margin:0">
+        <strong style="color:#2c3e50">דוא"ל:</strong> {{ profile_user.email }}<br>
+        <strong style="color:#2c3e50">תפקיד:</strong> {{ profile_user.get_role_display }}<br>
+        <strong style="color:#2c3e50">חבר מאז:</strong> {{ profile_user.date_joined|date:"d/m/Y" }}
+      </p>
+    </div>
+
+    <div style="display:flex;gap:12px;align-items:center">
+      <button type="submit" class="btn-primary">שמירת שינויים</button>
+      <a href="{% url 'dashboard' %}" class="btn-secondary">ביטול</a>
+    </div>
+  </form>
+</div>
+
+{% endblock %}

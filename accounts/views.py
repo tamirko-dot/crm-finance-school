@@ -54,6 +54,25 @@ def logout_view(request: HttpRequest) -> HttpResponse:
     return redirect("login")
 
 
+@require_http_methods(["GET", "POST"])
+def profile_view(request: HttpRequest) -> HttpResponse:
+    from django.contrib.auth.decorators import login_required as _lr
+    if not request.user.is_authenticated:
+        return redirect("login")
+
+    user = request.user
+    if request.method == "POST":
+        full_name_he = request.POST.get("full_name_he", "").strip()
+        full_name_en = request.POST.get("full_name_en", "").strip()
+        user.full_name_he = full_name_he
+        user.full_name_en = full_name_en
+        user.save(update_fields=["full_name_he", "full_name_en"])
+        messages.success(request, "הפרופיל עודכן בהצלחה.")
+        return redirect("profile")
+
+    return render(request, "accounts/profile.html", {"profile_user": user})
+
+
 def _audit_login(user) -> None:
     try:
         AuditLog.objects.create(
