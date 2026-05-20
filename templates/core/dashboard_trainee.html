@@ -9,22 +9,79 @@
   </p>
 </div>
 
-<div class="card mb-6">
-  <h2 class="mb-6">הקורסים שלי</h2>
-  <p style="color:#6b7280">רשימת הקורסים תופיע כאן עם השלמת פיתוח שלב ד׳ — חוויית החניך.</p>
-  <div class="mt-6 p-4 rounded" style="background:#f0f7ff;border-right:4px solid #1976d2">
-    <strong>שלב א׳ — יסודות</strong><br>
-    <span style="color:#6b7280;font-size:13px">קורסים 1–2 &bull; מימון נדל"ן</span>
-  </div>
-  <div class="mt-3 p-4 rounded" style="background:#f7fafc;border:1px solid #cbd5e0">
-    <strong>שלב ב׳ — ניתוח</strong><br>
-    <span style="color:#6b7280;font-size:13px">קורסים 3–5 &bull; נעול</span>
+{% if course_data %}
+
+<div class="card mb-6" style="padding:20px 28px">
+  <div style="display:flex;align-items:center;gap:40px;flex-wrap:wrap">
+    <div>
+      <div style="font-size:26px;font-weight:700;color:#1a2638">
+        {{ passed_count }} <span style="font-size:14px;color:#6b7280;font-weight:400">/ {{ total_courses }} קורסים הושלמו</span>
+      </div>
+      <div style="margin-top:10px;background:#e2e8f0;border-radius:4px;height:8px;width:240px">
+        <div style="background:#2e7d32;height:8px;border-radius:4px;width:calc({{ passed_count }} / {{ total_courses }} * 240px)"></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">
+      {% for item in course_data %}
+        {% if item.status == "in_progress" %}
+          <div style="font-size:13px"><span class="badge-pending">בתהליך</span>&nbsp;{{ item.course.title_he }}</div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
-<div class="card">
-  <h3 class="mb-4">סטטוס התקדמות</h3>
-  <p style="color:#6b7280">נתוני ההתקדמות יופיעו כאן.</p>
+{% regroup course_data by course.phase as phases %}
+{% for phase_group in phases %}
+<div class="mb-6">
+  <h2 class="mb-3 pb-2" style="border-bottom:2px solid #1a2638;font-size:18px">
+    שלב {{ phase_group.grouper }}
+  </h2>
+  <div style="display:grid;gap:10px">
+  {% for item in phase_group.list %}
+    {% with course=item.course status=item.status %}
+    <div class="card" style="padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px">
+      <div style="flex:1">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:2px">
+          <span style="font-size:12px;color:#6b7280">קורס {{ course.course_number }}</span>
+          {% if course.is_capstone %}
+          <span style="background:#f3e5f5;color:#7b1fa2;padding:1px 8px;border-radius:10px;font-size:11px">פרויקט גמר</span>
+          {% endif %}
+        </div>
+        <div style="font-weight:600;color:#1a2638;font-size:15px">{{ course.title_he }}</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:2px">ציון עובר: {{ course.passing_score_pct }}%</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;flex-shrink:0">
+        {% if status == "passed" %}
+          <span class="badge-pass">עבר ✓</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="font-size:13px;padding:5px 14px">צפייה</a>
+        {% elif status == "in_progress" %}
+          <span class="badge-pending">בתהליך</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-primary" style="font-size:13px;padding:5px 14px">המשך</a>
+        {% elif status == "open" %}
+          <span class="badge-pending">פתוח</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-primary" style="font-size:13px;padding:5px 14px">התחל</a>
+        {% elif status == "requested" %}
+          <span class="badge-pending">ממתין לאישור</span>
+        {% elif status == "failed" %}
+          <span class="badge-fail">נכשל</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="font-size:13px;padding:5px 14px">ניסיון נוסף</a>
+        {% else %}
+          <span style="font-size:12px;color:#9ca3af">נעול</span>
+          <a href="{% url 'course_detail' course.slug %}" class="btn-secondary" style="font-size:13px;padding:5px 14px">פרטים</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endwith %}
+  {% endfor %}
+  </div>
 </div>
+{% endfor %}
+
+{% else %}
+<div class="card text-center py-10">
+  <p style="color:#6b7280">לא נמצאו קורסים במערכת. פנה למנהל.</p>
+</div>
+{% endif %}
 
 {% endblock %}
